@@ -131,5 +131,5 @@ pip install Beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 图片
 
-2、说明：组播节目如果连接数较多可能会卡顿。
+2、说明：组播节目如果连接数较多可能会卡顿,fofa测绘站每个ip每天有请求次数限制，不要频繁请求
 
