@@ -66,6 +66,7 @@ for province_isp in provinces_isps:
                 # 去重得到唯一的URL列表
             result_urls = set(urls_all)
             print(f"{current_time} result_urls:{result_urls}")
+            #在rtp文件夹添加[省份-运营商.txt]组播文件，然后在下面同格式添加一个对应的任一组播ip
             #对应省份的组播地址:重庆联通cctv1：225.0.4.74:7980，重庆电信cctv1:235.254.199.51:7980，广东电信广东卫视239.77.1.19:5146
             pro_isp = province + isp
             urls_udp = "/udp/239.77.1.19:5146"
