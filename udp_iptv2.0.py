@@ -79,7 +79,7 @@ for province_isp in provinces_isps:
             elif pro_isp == "四川电信":
                 urls_udp = "/udp/239.93.0.58:5140"
             elif pro_isp == "北京联通":
-                urls_udp = "/udp/239.3.1.129:8008"
+                urls_udp = "/udp/239.3.1.172:8001"
             else:
                 org = ""
 
