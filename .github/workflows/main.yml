@@ -31,8 +31,8 @@ jobs:
       
       - name: Run iptv
         run: python ${{ github.workspace }}/udp_iptv2.0.py      #这里更改要运行的py
-      - name: Run iptv
-        run: python ${{ github.workspace }}/iptvsearch/udp_iptv3.0.py     #这里更改要运行的py
+      #- name: Run iptv
+        #run: python ${{ github.workspace }}/iptvsearch/udp_iptv3.0.py     #这里更改要运行的py
 
       - name: 提交更改
         run: |
@@ -40,6 +40,6 @@ jobs:
           git config --local user.name "mlvjfchen"
           git add .
           git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
