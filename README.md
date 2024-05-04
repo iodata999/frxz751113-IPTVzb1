@@ -88,13 +88,9 @@ print("已生成播放列表，保存至iptv.txt")
 
 1、我们将网上找到的广东电信组播地址保存至rtp.txt
 
-图片
-
 2、修改代码参数，打开udp_iptv.py，
 
 修改province_names 为需要查询的省份，广东
-
-图片
 
 修改对应省份的组播地址urls_udp的值，我们需要修改为其中一个节目地址就可以，如我们填入广东电信广东卫视的地址239.77.1.19:5146
 
@@ -106,7 +102,6 @@ print("已生成播放列表，保存至iptv.txt")
 
 2、所需运行库：requests，bs4，cv2
 
-图片
 
 安装运行库：pip install 所需库 -i 国内源或pip3 install 所需库 -i 国内源
 
@@ -115,7 +110,7 @@ pip install opencv-python -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install Beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
-3、udp_iptv.py和udp_iptv2.py二选一即可。
+3、run udp_iptv.py
 
 4、扩展应用∶我们可以每天定期运行一次udp_iptv.py，播放器播放地址指向我们的iptv.txt或iptv.m3u，这样就可以不用等失效了手动运行更新了。
 
@@ -123,13 +118,10 @@ pip install Beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 1、文件内容：
 
-运行所需文件：udp_iptv.py、对应省份.txt
+运行所需文件：udp_iptv.py、trp/对应省份_运营商.txt
 
-生成文件：iptv.txt、iptv.m3u，res.txt（可用组播IP）
+生成文件：iptv.txt、iptv.m3u
 
-附广东电信和湖南电信组播地址：广东电信.txt、湖南电信.txt
-
-图片
 
 2、说明：组播节目如果连接数较多可能会卡顿,fofa测绘站每个ip每天有请求次数限制，不要频繁请求
 
