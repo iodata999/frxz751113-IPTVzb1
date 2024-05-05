@@ -24,19 +24,6 @@ provinces_isps = [name for name in files_name if name.count('_') == 1]
 
 # 打印结果
 print(f"本次查询：{provinces_isps}的组播节目") 
-
-for province_isp in provinces_isps:
-    province, isp = province_isp.split("_")
-    # 根据不同的 isp 设置不同的 org 值
-    org = "Chinanet"
-
-    if isp == "电信":
-        org = "Chinanet"
-    elif isp == "联通":
-        org = "CHINA UNICOM China169 Backbone"
-    else:
-        org = ""
-
     current_time = datetime.now()
     timeout_cnt = 0
     result_urls = set() 
