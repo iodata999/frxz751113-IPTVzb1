@@ -47,17 +47,13 @@ for keyword in keywords:
     #将省份转成英文小写
     # 根据不同的 isp 设置不同的 org 值
     if province == "北京" and isp == "联通":
-        isp_en = "cucc"
         org = "China Unicom Beijing Province Network"
     elif isp == "联通":
-        isp_en = "cucc"
         org = "CHINA UNICOM China169 Backbone"
     elif isp == "电信":
         org = "Chinanet"
-        isp_en = "ctcc"
     elif isp == "移动":
         org == "China Mobile communications corporation"
-        isp_en = "cmcc"
         
 #    else:
 #        org = ""
@@ -68,7 +64,7 @@ for keyword in keywords:
     while len(result_urls) == 0 and timeout_cnt <= 5:
         try:
             search_url = 'https://fofa.info/result?qbase64='
-            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && org=\"{org}\"'
+            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\"'
                 # 将字符串编码为字节流
             bytes_string = search_txt.encode('utf-8')
                 # 使用 base64 进行编码
@@ -140,7 +136,7 @@ for keyword in keywords:
         except (requests.Timeout, requests.RequestException) as e:
             timeout_cnt += 1
             print(f"{current_time} [{province}]搜索请求发生超时，异常次数：{timeout_cnt}")
-            if timeout_cnt <= 5:
+            if timeout_cnt <= 8:
                     # 继续下一次循环迭代
                 continue
             else:
