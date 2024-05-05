@@ -24,7 +24,7 @@ provinces_isps = [name for name in files_name if name.count('_') == 1]
 
 # 打印结果
 print(f"本次查询：{provinces_isps}的组播节目") 
-    for province_isp in provinces_isps:
+for province_isp in provinces_isps:
     province, isp = province_isp.split("_")
     # 根据不同的 isp 设置不同的 org 值
     org = "Chinanet"
