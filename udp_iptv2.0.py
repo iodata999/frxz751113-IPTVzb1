@@ -24,6 +24,7 @@ provinces_isps = [name for name in files_name if name.count('_') == 1]
 
 # 打印结果
 print(f"本次查询：{provinces_isps}的组播节目") 
+
 for province_isp in provinces_isps:
     province, isp = province_isp.split("_")
     # 根据不同的 isp 设置不同的 org 值
@@ -33,7 +34,9 @@ for province_isp in provinces_isps:
         org = "Chinanet"
     elif isp == "联通":
         org = "CHINA UNICOM China169 Backbone"
-    
+    else:
+        org = ""
+
     current_time = datetime.now()
     timeout_cnt = 0
     result_urls = set() 
@@ -63,7 +66,6 @@ for province_isp in provinces_isps:
                 # 去重得到唯一的URL列表
             result_urls = set(urls_all)
             print(f"{current_time} result_urls:{result_urls}")
-            #在rtp文件夹添加[省份-运营商.txt]组播文件，然后在下面同格式添加一个对应的任一组播ip
             #对应省份的组播地址:重庆联通cctv1：225.0.4.74:7980，重庆电信cctv1:235.254.199.51:7980，广东电信广东卫视239.77.1.19:5146
             pro_isp = province + isp
             urls_udp = "/udp/239.77.1.19:5146"
@@ -75,8 +77,6 @@ for province_isp in provinces_isps:
                 urls_udp = "/udp/225.0.4.74:7980"
             elif pro_isp == "四川电信":
                 urls_udp = "/udp/239.93.0.58:5140"
-            elif pro_isp == "北京联通":
-                urls_udp = "/udp/239.3.1.172:8001"
             else:
                 org = ""
 
