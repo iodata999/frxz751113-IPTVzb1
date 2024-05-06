@@ -46,14 +46,17 @@ pip install pyinstaller  -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 运行cmd，运行代码pyinstaller -F -c -i iptv.ico udp_iptv3.0.py，
 
+-i iptv.ico是exe图标代码，若无则省略，否则报错
+
 
 参数解释：
 
 -F：参数代表制作独立的可执行程序。
 -w：是指程序启动的时候不会打开命令行。如果不加-w的参数，就会有黑洞洞的控制台窗口出来。
+-c：是指程序启动的时候会打开跑代码窗口。
 -i：指定图标资源。
 
-cmd进入存放目录，运行pyinstaller -F -w -i iptv.ico udp_iptv3.0.py
+cmd进入存放目录，运行pyinstaller -F -c -i iptv.ico udp_iptv3.0.py
 
 图片
 
