@@ -44,7 +44,7 @@ pip install pyinstaller  -i https://pypi.tuna.tsinghua.edu.cn/simple
 三、运行打包程序
 
 
-运行cmd，运行代码pyinstaller -F -w -i iptv.ico udp_iptv3.0.py，
+运行cmd，运行代码pyinstaller -F -c -i iptv.ico udp_iptv3.0.py，
 
 
 参数解释：
