@@ -123,7 +123,7 @@ for keyword in keywords:
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("rtp://", f"{url}/udp/")
-                        new_file.write(new_data)
+                        new_file.write
 
                 print(f'已生成播放列表，保存至{txt_filename}')
                 group_title = ""
