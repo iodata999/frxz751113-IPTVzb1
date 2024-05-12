@@ -1,4 +1,4 @@
-name: 组播ip采集
+name: 频道提取
 
 on:
   schedule:
