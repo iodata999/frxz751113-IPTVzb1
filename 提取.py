@@ -13,7 +13,7 @@ from datetime import datetime
 url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
 r = requests.get(url)
 open('合并.txt','wb').write(r.content)         #打开源文件名
-                    if name and urld:
+if name and urld:
                             # 替换特定文字
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
@@ -116,10 +116,7 @@ open('合并.txt','wb').write(r.content)         #打开源文件名
                             name = name.replace("电视剧", "影视")
                             name = name.replace("卡", "")
                             results.append(f"{name},{urld}")
-            except:
-                continue
-        except:
-            continue
+
 
 channels = []
 
