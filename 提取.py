@@ -75,7 +75,7 @@ with open("结果.txt", "w", encoding="utf-8") as output:
 
 os.remove("合并.txt")
 os.remove("GAT.txt")
-#os.remove("ws.txt")
+os.remove("ws.txt")
 os.remove("df.txt")
 #os.remove("DIYP-v4.txt")
 os.remove("TW.txt")
