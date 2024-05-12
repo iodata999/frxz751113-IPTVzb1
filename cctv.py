@@ -27,7 +27,7 @@ if response.status_code == 200:
     # 检查是否找到了所需的信息
     if channels:
         # 写入到本地文件
-        with open("./cctv.txt", "w", encoding="utf-8") as f:
+        with open("cctv.txt", "w", encoding="utf-8") as f:
             f.write("\n\n央视频道,#genre#\n")
             for channel, url in channels.items():
                 f.write("{},{}\n".format(channel, url))
