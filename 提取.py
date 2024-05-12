@@ -9,7 +9,10 @@ import threading
 from queue import Queue
 from datetime import datetime
 
-open('广东电信.txt','wb').write(re.content)         #打开源文件名
+
+url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/广东电信.txt"          #源采集地址
+r = requests.get(url)
+open('广东电信.txt','wb').write(r.content)         #打开源文件名
 
 keywords = ['重温经典', 'CCTV','热剧 8M1080', '超级电影 8M1080', '超级电视剧 8M1080', '喜剧 8M1080', '惊悚悬疑 8M1080', '明星大片 8M1080', '潮妈辣婆 8M1080', '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
