@@ -21,13 +21,5 @@ for file_path in file_paths:
 with open("合并.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-# 写入更新日期时间
-    #now = datetime.now()
-    #output.write(f"更新时间,#genre#\n")
-    #output.write(f"{now.strftime("%Y-%m-%d")},url\n")
-    #output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
-os.remove("广东电信.txt")
-os.remove("河北电信.txt")
-os.remove("湖南电信.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内合并.txt文件！")
