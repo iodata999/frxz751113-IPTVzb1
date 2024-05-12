@@ -1,7 +1,7 @@
 import requests
 
 # 获取文件内容并指定编码为 UTF-8
-url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E5%90%88%E5%B9%B6.txt"
+url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/结果.txt"
 response = requests.get(url)
 response.encoding = 'utf-8'
 
