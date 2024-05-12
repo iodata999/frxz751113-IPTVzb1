@@ -26,4 +26,4 @@ with open("合并.txt", "w", encoding="utf-8") as output:
 os.remove("广东电信.txt")
 os.remove("湖南电信.txt")
 os.remove("河北电信.txt")
-print("任务运行完毕，分类频道列表可查看文件夹内iptv_list.txt文件！")
+print("任务运行完毕，分类频道列表可查看文件夹内文件！")
