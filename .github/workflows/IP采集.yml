@@ -32,8 +32,6 @@ jobs:
       
       - name: Run iptv
         run: python ${{ github.workspace }}/#原.py
-      - name: Run iptv
-        run: python ${{ github.workspace }}/#原1.py
          
       - name: Commit results
         run: |
