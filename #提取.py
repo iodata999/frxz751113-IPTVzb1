@@ -15,7 +15,7 @@ url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"    
 r = requests.get(url)
 open('合并.txt','wb').write(r.content)         #打开源文件名
 
-                     if name and urld:
+if name and urld:
                             # 替换特定文字
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
