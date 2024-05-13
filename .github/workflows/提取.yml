@@ -30,7 +30,7 @@ jobs:
         run: pip install translate requests 
       
       - name: Run iptv
-        run: python ${{ github.workspace }}/提取.py
+        run: python ${{ github.workspace }}/a.py
         
       - name: Commit results
         run: |
