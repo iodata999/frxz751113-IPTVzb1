@@ -118,9 +118,7 @@ if name and urld:
                             name = name.replace("电视剧", "影视")
                             name = name.replace("卡", "")
                             results.append(f"{name},{urld}")
-            except:
-                continue
-        except:
+  except:
             continue
 
 channels = []
