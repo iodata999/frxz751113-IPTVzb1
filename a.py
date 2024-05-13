@@ -1,7 +1,7 @@
 import requests
 
 # 获取文件内容并指定编码为 UTF-8
-url = "http://router.bopop.buzz:9999/new/mdlive.txt"
+url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A.txt"
 response = requests.get(url)
 response.encoding = 'utf-8'
 
