@@ -12,7 +12,7 @@ from datetime import datetime
 import replace
 import fileinput
 
-with open("example.txt", "r") as file:
+with open("合并.txt", "r") as file:
     sorted_content = sorted(file, key=lambda line: line.strip())
     for line in sorted_content:
         print(line)
