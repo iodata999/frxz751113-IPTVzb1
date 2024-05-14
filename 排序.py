@@ -12,12 +12,10 @@ from datetime import datetime
 import replace
 import fileinput
 
-url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
-r = requests.get(url)
-open('合并.txt','wb').write(r.content)         #打开源文件
-# 对频道进行排序
-合并.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
-合并.sort(key=lambda x: channel_key(x[0]))
+with open("example.txt", "r") as file:
+    sorted_content = sorted(file, key=lambda line: line.strip())
+    for line in sorted_content:
+        print(line)
 result_counter = 10  # 每个频道需要的个数
 
 
