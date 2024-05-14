@@ -23,14 +23,13 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
       - name: Install dependencies
-        run: pip install opencv-python requests 
+        run: pip install replace
       - name: Install dependencies
-        run: pip install Beautifulsoup4 requests 
-      - name: Install dependencies
-        run: pip install translate requests 
+        run: pip install input
+     
       
       - name: Run iptv
-        run: python ${{ github.workspace }}/#提取.py
+        run: python ${{ github.workspace }}/提取.py
         
       - name: Commit results
         run: |
