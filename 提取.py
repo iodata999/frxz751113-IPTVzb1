@@ -10,7 +10,7 @@ import threading
 from queue import Queue
 from datetime import datetime
 import replace
-
+import fileinput
 
 url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
 r = requests.get(url)
