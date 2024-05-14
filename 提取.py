@@ -14,10 +14,10 @@ import fileinput
 
 url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
 r = requests.get(url)
-open('合并.txt','wb').write(r.content)         #打开源文件名
+open('合并.txt','wb').write(r.content)         #打开源文件
 
 
-for line in fileinput.input("合并.txt", inplace=True):
+for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("中央", "CCTV")
     line = line.replace("高清", "")
     line = line.replace("HD", "")
@@ -117,7 +117,7 @@ for line in fileinput.input("合并.txt", inplace=True):
     line = line.replace("影视剧", "影视")
     line = line.replace("电视剧", "影视")
     line = line.replace("卡", "")
-    print(line, end="")
+    print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
 
