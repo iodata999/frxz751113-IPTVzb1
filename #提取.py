@@ -124,6 +124,10 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("影视剧", "影视")
     line = line.replace("电视剧", "影视")
     line = line.replace("卡", "")
+    line = line.replace("CCTV1CCTV1", "CCTV1")
+    line = line.replace("CCTV2CCTV2", "CCTV2")
+    line = line.replace("CCTV7CCTV7", "CCTV7")
+    line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
