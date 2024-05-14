@@ -51,7 +51,6 @@ for line in fileinput.input("合并.txt", inplace=True):
     line = line.replace("002", "酒店MV")
     line = line.replace("CMIPTV", "")
     line = line.replace("cctv", "CCTV")
-    name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
     line = line.replace("CCTV1综合", "CCTV1")
     line = line.replace("CCTV2财经", "CCTV2")
     line = line.replace("CCTV3综艺", "CCTV3")
