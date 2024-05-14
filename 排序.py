@@ -16,8 +16,8 @@ url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"    
 r = requests.get(url)
 open('合并.txt','wb').write(r.content)         #打开源文件
 # 对频道进行排序
-results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
-results.sort(key=lambda x: channel_key(x[0]))
+data.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
+data.sort(key=lambda x: channel_key(x[0]))
 result_counter = 10  # 每个频道需要的个数
 
 
