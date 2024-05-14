@@ -118,8 +118,8 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("卡", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符
     
-      sorted_content = sorted(file, key=lambda line: line.strip())
-      for line in sorted_content:
+    sorted_content = sorted(file, key=lambda line: line.strip())
+    for line in sorted_content:
         print(line)
 
 
