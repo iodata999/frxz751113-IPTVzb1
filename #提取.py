@@ -18,6 +18,10 @@ open('合并.txt','wb').write(r.content)         #打开源文件
 
 
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
+    line = line.replace("CCTV-1高清测试", "")
+    line = line.replace("CCTV-2高清测试", "")
+    line = line.replace("CCTV-7高清测试", "")
+    line = line.replace("CCTV-10高清测试", "")
     line = line.replace("中央", "CCTV")
     line = line.replace("高清", "")
     line = line.replace("HD", "")
@@ -52,7 +56,6 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("测试010", "龙祥电影")
     line = line.replace("测试016", "澳门莲花")
     line = line.replace("测试011", "凤凰香港")
-    line = line.replace("测试014", "凤凰资讯")
     line = line.replace("S,", ",")
     line = line.replace("测试", "")
     line = line.replace("试看", "")
