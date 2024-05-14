@@ -128,7 +128,7 @@ with open('合并.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', enco
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
         # 对频道进行排序
-           results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
+           requests.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
            results.sort(key=lambda x: channel_key(x[0]))
            TW.write(line)  # 将该行写入输出文件
             
