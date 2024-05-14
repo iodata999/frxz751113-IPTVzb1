@@ -47,6 +47,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("测试014", "凤凰资讯")
     line = line.replace("测试015", "星空")
     line = line.replace("测试", "")
+    line = line.replace("试看", "")
     line = line.replace("测试", "")
     line = line.replace("测试cctv", "CCTV")
     line = line.replace("CCTV1综合", "CCTV1")
