@@ -16,7 +16,6 @@ with open("合并.txt", "r") as file:
     sorted_content = sorted(file, key=lambda line: line.strip())
     for line in sorted_content:
         print(line)
-result_counter = 10  # 每个频道需要的个数
 
 
 
