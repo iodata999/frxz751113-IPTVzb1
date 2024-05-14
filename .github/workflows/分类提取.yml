@@ -1,10 +1,10 @@
-name: Update
-
+name: 组播tq
 on:
-  watch:
-    types: [started]
-  schedule:
-    - cron: 0,30 * * * *
+  #schedule:
+   # - cron: '30 */14 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  workflow_dispatch:
+    分支:
+      - main
 
 env:
   TZ: Asia/Shanghai
