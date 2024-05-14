@@ -117,6 +117,10 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("电视剧", "影视")
     line = line.replace("卡", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符
+    # 对频道进行排序
+    results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
+    results.sort(key=lambda x: channel_key(x[0]))
+
 
 
 
@@ -127,10 +131,7 @@ with open('合并.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', enco
     TW.write('\n央视频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
-        # 对频道进行排序
-           requests.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
-           results.sort(key=lambda x: channel_key(x[0]))
-           TW.write(line)  # 将该行写入输出文件
+         TW.write(line)  # 将该行写入输出文件
             
 
 keywords = ['重温经典', '卫视','热剧 8M1080', '超级电影 8M1080', '超级电视剧 8M1080', '喜剧 8M1080', '惊悚悬疑 8M1080', '明星大片 8M1080', '潮妈辣婆 8M1080', '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
@@ -162,12 +163,14 @@ for file_path in file_paths:
 with open("GAT.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-
+           
 
       
 # 合并自定义频道文件内容
 file_contents = []
 file_paths = ["GAT.txt"]  # 替换为实际的文件路径列表
+
+
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
