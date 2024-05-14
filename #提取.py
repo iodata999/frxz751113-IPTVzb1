@@ -117,10 +117,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("电视剧", "影视")
     line = line.replace("卡", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符
-    # 对频道进行排序
-    results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
-    results.sort(key=lambda x: channel_key(x[0]))
-
+    
 
 
 
