@@ -31,6 +31,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("(", "")
     line = line.replace(")", "")
     line = line.replace("CAV", "")
+    line = line.replace("美洲", "")
     line = line.replace("测试001", "TVB星河")
     line = line.replace("测试002", "凤凰卫视")
     line = line.replace("测试003", "凤凰卫视")
