@@ -17,7 +17,7 @@ r = requests.get(url)
 open('合并.txt','wb').write(r.content)         #打开源文件名
 
 
-for line in fileinput.input("合并txt", inplace=True):
+for line in fileinput.input("合并.txt", inplace=True):
     line = line.replace("中央", "CCTV")
     line = line.replace("高清", "")
     line = line.replace("HD", "")
