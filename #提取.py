@@ -140,7 +140,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
       lines = f.readlines()
     lines.sort()
     with open('新.txt', 'w') as f:
-    for line in lines:
+      for line in lines:
         f.write(line)
 
 
