@@ -29,7 +29,7 @@ jobs:
      
       
       - name: Run iptv
-        run: python ${{ github.workspace }}/#排序.py
+        run: python ${{ github.workspace }}/#提取.py
         
       - name: Commit results
         run: |
