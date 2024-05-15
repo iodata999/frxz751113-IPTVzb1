@@ -156,7 +156,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
 
-keywords = ['重温经典', '影', '剧', '娱乐', 'CCTV4K', '爱上4K', '茶', '爱', 'iptv4K']  # 需要提取的关键字列表
+keywords = ['CHC', '影院', '剧场', '娱乐', 'CCTV4K', '爱上4K', '淘', '爱', '4K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
