@@ -8,8 +8,6 @@ import os
 import threading
 from queue import Queue
 from datetime import datetime
-import replace
-import fileinput
 with open('合并.txt', 'r') as f:
     lines = f.readlines()
 
