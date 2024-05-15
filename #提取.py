@@ -139,10 +139,13 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     with open('合并.txt', 'r') as f:
       lines = f.readlines()
     lines.sort()
+    with open('新.txt', 'w') as f:
+    for line in lines:
+        f.write(line)
 
 
-
-
+with open('新.txt', 'r') as f:
+      lines = f.readlines()
 keywords = ['重温经典', 'CCTV','热剧 8M1080', '超级电影 8M1080', '超级电视剧 8M1080', '喜剧 8M1080', '惊悚悬疑 8M1080', '明星大片 8M1080', '潮妈辣婆 8M1080', '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
@@ -217,7 +220,7 @@ with open("结果.txt", "w", encoding="utf-8") as output:
     #output.write(f"{now.strftime("%Y-%m-%d")},url\n")
     #output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
-os.remove("合并.txt")
+os.remove("新.txt")
 os.remove("GAT.txt")
 os.remove("ws.txt")
 os.remove("df.txt")
