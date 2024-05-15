@@ -160,15 +160,27 @@ with open('合并.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
 keywords = ['重温经典', '影', '剧', '娱乐', '4K', '爱上', '茶', '喜剧 8M1080', '惊悚悬疑 8M1080', '明星大片 8M1080', '潮妈辣婆 8M1080', '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('合并.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
+    ys.write('\n影视频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          ys.write(line)  # 将该行写入输出文件
+
+
+keywords = ['新闻', '综合', '公共', '湖南', '长沙',  '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('合并.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n地方频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
 
+
+
 # 读取要合并的香港频道和台湾频道文件
 file_contents = []
-file_paths = ["TW.txt", "ws.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TW.txt", "ws.txt", "ys.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -204,6 +216,6 @@ os.remove("合并.txt")
 os.remove("GAT.txt")
 os.remove("ws.txt")
 os.remove("df.txt")
-#os.remove("DIYP-v4.txt")
+os.remove("ys.txt")
 os.remove("TW.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
