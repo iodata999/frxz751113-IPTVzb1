@@ -16,7 +16,7 @@ import fileinput
 #open('合并.txt','wb').write(r.content)         #打开源文件
 
 
-for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
     line = line.replace("CCTV-2高清测试", "")
     line = line.replace("CCTV-7高清测试", "")
