@@ -30,10 +30,11 @@ jobs:
         run: python ${{ github.workspace }}/#合并.py
       - name: Run iptv
         run: python ${{ github.workspace }}/#替换.py
-      
       - name: Run iptv
         run: python ${{ github.workspace }}/#排序.py
-         
+      - name: Run iptv
+        run: python ${{ github.workspace }}/#提取.py
+        
       - name: Commit results
         run: |
             git config --local user.email "actions@github.com"
