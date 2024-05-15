@@ -17,7 +17,7 @@ import fileinput
 #open('合并.txt','wb').write(r.content)         #打开源文件
 
 
-for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
     line = line.replace("CCTV-2高清测试", "")
     line = line.replace("CCTV-7高清测试", "")
@@ -202,7 +202,7 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("结果A.txt", "w", encoding="utf-8") as output:
+with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
 # 写入更新日期时间
