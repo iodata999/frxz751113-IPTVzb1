@@ -202,7 +202,7 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("结果.txt", "w", encoding="utf-8") as output:
+with open("结果A.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
 # 写入更新日期时间
