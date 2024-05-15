@@ -137,6 +137,12 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
+       lines = f.readlines()
+
+    lines.sort()
+
+
+
 
 keywords = ['重温经典', 'CCTV','热剧 8M1080', '超级电影 8M1080', '超级电视剧 8M1080', '喜剧 8M1080', '惊悚悬疑 8M1080', '明星大片 8M1080', '潮妈辣婆 8M1080', '精品大剧 8M1080', '动作电影 8M1080', '古装剧场 8M1080', '中国功夫 8M1080', '神乐剧场']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
