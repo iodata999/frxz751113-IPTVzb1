@@ -30,6 +30,8 @@ jobs:
       
       - name: Run iptv
         run: python ${{ github.workspace }}/#合并.py
+      - name: Run iptv
+        run: python ${{ github.workspace }}/#排序.py
          
       - name: Commit results
         run: |
