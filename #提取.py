@@ -12,9 +12,9 @@ from datetime import datetime
 import replace
 import fileinput
 
-url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
-r = requests.get(url)
-open('合并.txt','wb').write(r.content)         #打开源文件
+#url = "https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/合并.txt"          #源采集地址
+#r = requests.get(url)
+#open('合并.txt','wb').write(r.content)         #打开源文件
 
 
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
