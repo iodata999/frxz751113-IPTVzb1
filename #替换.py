@@ -38,7 +38,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV15", "CCTW15")
     line = line.replace("CCTV16", "CCTW16")
     line = line.replace("CCTV17", "CCTW17")
-    ine = line.replace("CCTV4K", "一CCTV4K")
+    ine = line.replace("CCTV4K", "ACCTV4K")
     #需要排在前面的频道
     line = line.replace("湖南卫视", "二湖南卫视")
     line = line.replace("湖北卫视", "二湖北卫视")
