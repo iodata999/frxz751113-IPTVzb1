@@ -166,7 +166,16 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
 
-keywords = ['CHC', '影院', '剧场', '娱乐', 'CCTV4K', '爱上4K', '淘', '爱', '4K']  # 需要提取的关键字列表
+keywords = ['4K']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('排序.txt', 'r', encoding='utf-8') as file, open('4k.txt', 'w', encoding='utf-8') as 4k:
+    4k.write('\n4K频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          4k.write(line)  # 将该行写入输出文件
+
+keywords = ['CHC', '影院', '剧场', '娱乐', '淘', '爱']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
@@ -189,7 +198,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 # 读取要合并的香港频道和台湾频道文件
 file_contents = []
-file_paths = ["TW.txt", "ws.txt", "ys.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TW.txt", "ws.txt", "ys.txt", "4k.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -225,6 +234,7 @@ os.remove("GAT.txt")
 os.remove("ws.txt")
 os.remove("df.txt")
 os.remove("ys.txt")
-os.remove("TW.txt")
+os.remove("4k.txt")
+osos.remove("TW.txt")
 os.remove("排序.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
