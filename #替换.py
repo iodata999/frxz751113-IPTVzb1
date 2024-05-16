@@ -29,6 +29,17 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("频道", "")
     line = line.replace("-", "")
     line = line.replace(" ", "")
+
+    line = line.replace("CCTV11", "CCTW11")
+    line = line.replace("CCTV12", "CCTW12")
+    line = line.replace("CCTV13", "CCTW13")
+    line = line.replace("CCTV14", "CCTW14")
+    line = line.replace("CCTV15", "CCTW15")
+    line = line.replace("CCTV16", "CCTW16")
+    line = line.replace("CCTV17", "CCTW17")
+    
+
+    
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
     line = line.replace("CCTV风云剧场", "风云剧场")
