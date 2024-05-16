@@ -30,6 +30,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("-", "")
     line = line.replace(" ", "")
 
+    line = line.replace("CCTV10", "CCTW10")
     line = line.replace("CCTV11", "CCTW11")
     line = line.replace("CCTV12", "CCTW12")
     line = line.replace("CCTV13", "CCTW13")
