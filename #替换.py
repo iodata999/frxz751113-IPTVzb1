@@ -44,6 +44,11 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("湖北卫视", "一一湖北卫视")
     line = line.replace("江苏卫视", "一江苏卫视")
     line = line.replace("安徽卫视", "一安徽卫视")
+    line = line.replace("第一", "一第一")
+    line = line.replace("风云", "一风云")
+    line = line.replace("都市", "一都市")
+    line = line.replace("谍战", "一谍战")
+    line = line.replace("热门", "一热门")
     
     
     line = line.replace("专区", "")
