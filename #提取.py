@@ -168,7 +168,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
 
-keywords = ['4K']  # 需要提取的关键字列表
+keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
