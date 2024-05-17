@@ -118,7 +118,7 @@ pip install Beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 1、文件内容：
 
-运行所需文件：udp_iptv.py、trp/对应省份_运营商.txt
+运行所需文件：udp_iptv.py、rtp/对应省份_运营商.txt
 
 生成文件：iptv.txt、iptv.m3u
 
