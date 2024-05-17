@@ -117,6 +117,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("凤凰资讯台", "凤凰资讯")
     line = line.replace("CCTV4K测试）", "CCTV4")
     line = line.replace("CCTV164K", "CCTV16 4K")
+    line = line.replace("CCTV54K", "CCTV5 4K")
     line = line.replace("上海东方卫视", "上海卫视")
     line = line.replace("东方卫视", "上海卫视")
     line = line.replace("内蒙卫视", "内蒙古卫视")
