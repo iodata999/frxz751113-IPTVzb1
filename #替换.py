@@ -34,6 +34,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV怀旧剧场", "怀旧剧场")
     line = line.replace("熊猫影院", "熊猫电影")
     line = line.replace("熊猫爱生活", "熊猫生活")
+    line = line.replace("爱宠宠物", "宠物生活")
     
     line = line.replace("CCTV10", "CCTW10")
     line = line.replace("CCTV11", "CCTW11")
