@@ -122,6 +122,8 @@ pip install Beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 生成文件：iptv.txt、iptv.m3u
 
+#仓库全自动运行，请勿随意调整运行间隔时间。若手动运行，请依次运行采集/合并/替换/替换/排序/提取，否则因缺少文本而报错
 
-2、说明：组播节目如果连接数较多可能会卡顿,fofa测绘站每个ip每天有请求次数限制，不要频繁请求
+
+#说明：组播节目如果连接数较多可能会卡顿,fofa测绘站每个ip每天有请求次数限制，不要频繁请求
 
