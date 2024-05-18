@@ -215,11 +215,10 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-# 写入更新日期时间
-    #now = datetime.now()
-    #output.write(f"更新时间,#genre#\n")
-    #output.write(f"{now.strftime("%Y-%m-%d")},url\n")
-    #output.write(f"{now.strftime("%H:%M:%S")},url\n")
+with open("结果.m3u", 'w', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('#EXTM3U\n')
+   
 
 os.remove("GAT.txt")
 os.remove("ws.txt")
