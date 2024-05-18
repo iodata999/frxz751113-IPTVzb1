@@ -215,10 +215,7 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-with open("结果.m3u", 'w', encoding='utf-8') as output:
-    channel_counters = {}
-    file.write('#EXTM3U\n')
-    output.write('\n'.join(file_contents))
+
 
 os.remove("GAT.txt")
 os.remove("ws.txt")
