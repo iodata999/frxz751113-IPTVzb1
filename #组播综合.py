@@ -443,7 +443,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', enco
          TW.write(line)  # 将该行写入输出文件
             
 
-keywords = ['卫视', ['凤凰']  # 需要提取的关键字列表
+keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', encoding='utf-8') as ws:
