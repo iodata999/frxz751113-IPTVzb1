@@ -46,11 +46,25 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("熊猫爱生活", "熊猫生活")
     line = line.replace("爱宠宠物", "宠物生活")
     
-#需要排在前面的频道
-    line = line.replace("一", "")
-    line = line.replace("4K4K", "4K")
-    line = line.replace("8K8K", "8K")
-
+    line = line.replace("CCTV10", "CCTW10")
+    line = line.replace("CCTV11", "CCTW11")
+    line = line.replace("CCTV12", "CCTW12")
+    line = line.replace("CCTV13", "CCTW13")
+    line = line.replace("CCTV14", "CCTW14")
+    line = line.replace("CCTV15", "CCTW15")
+    line = line.replace("CCTV16", "CCTW16")
+    line = line.replace("CCTV17", "CCTW17")
+    #需要排在前面的频道
+    line = line.replace("湖南卫视", "一一湖南卫视")
+    line = line.replace("湖北卫视", "一一湖北卫视")
+    line = line.replace("江苏卫视", "一江苏卫视")
+    line = line.replace("安徽卫视", "一安徽卫视")
+    line = line.replace("第一", "一第一")
+    line = line.replace("风云", "一风云")
+    line = line.replace("都市", "一都市")
+    line = line.replace("谍战", "一谍战")
+    line = line.replace("热门", "一热门")
+    
     
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
@@ -74,7 +88,6 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("HEVC20M", "")
     line = line.replace("S,", ",")
     line = line.replace("测试", "")
-    line = line.replace("CCTW", "CCTV")
     line = line.replace("试看", "")
     line = line.replace("测试", "")
     line = line.replace("测试cctv", "CCTV")
@@ -147,10 +160,6 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV7CCTV7", "CCTV7")
     line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
-with open('合并.txt', 'r', encoding='utf-8') as f:
-    lines = f.readlines()
-
-lines.sort()
 
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
@@ -172,11 +181,25 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("熊猫爱生活", "熊猫生活")
     line = line.replace("爱宠宠物", "宠物生活")
     
-#需要排在前面的频道
-    line = line.replace("一", "")
-    line = line.replace("4K4K", "4K")
-    line = line.replace("8K8K", "8K")
-
+    line = line.replace("CCTV10", "CCTW10")
+    line = line.replace("CCTV11", "CCTW11")
+    line = line.replace("CCTV12", "CCTW12")
+    line = line.replace("CCTV13", "CCTW13")
+    line = line.replace("CCTV14", "CCTW14")
+    line = line.replace("CCTV15", "CCTW15")
+    line = line.replace("CCTV16", "CCTW16")
+    line = line.replace("CCTV17", "CCTW17")
+    #需要排在前面的频道
+    line = line.replace("湖南卫视", "一一湖南卫视")
+    line = line.replace("湖北卫视", "一一湖北卫视")
+    line = line.replace("江苏卫视", "一江苏卫视")
+    line = line.replace("安徽卫视", "一安徽卫视")
+    line = line.replace("第一", "一第一")
+    line = line.replace("风云", "一风云")
+    line = line.replace("都市", "一都市")
+    line = line.replace("谍战", "一谍战")
+    line = line.replace("热门", "一热门")
+    
     
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
@@ -200,7 +223,6 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("HEVC20M", "")
     line = line.replace("S,", ",")
     line = line.replace("测试", "")
-    line = line.replace("CCTW", "CCTV")
     line = line.replace("试看", "")
     line = line.replace("测试", "")
     line = line.replace("测试cctv", "CCTV")
@@ -274,12 +296,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
-with open('合并.txt', 'r', encoding='utf-8') as f:
-    lines = f.readlines()
-
 lines.sort()
-
-
 
 with open('排序.txt', 'w', encoding='UTF-8') as f:
     for line in lines:
@@ -494,4 +511,5 @@ os.remove("ys.txt")
 os.remove("DD.txt")
 os.remove("TW.txt")
 os.remove("排序.txt")
+os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
