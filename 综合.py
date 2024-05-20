@@ -1,4 +1,3 @@
-#可替换关键字，模板文本ANSI编码的1.txt,保存文本UTF-8的新.txt
 
 
 import time
@@ -148,6 +147,10 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV7CCTV7", "CCTV7")
     line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
+with open('合并.txt', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+lines.sort()
 
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
@@ -271,10 +274,12 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV10CCTV10", "CCTV10")
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
-with open('合并.txt', 'r', encoding='ANSI') as f:
+with open('合并.txt', 'r', encoding='utf-8') as f:
     lines = f.readlines()
 
 lines.sort()
+
+
 
 with open('排序.txt', 'w', encoding='UTF-8') as f:
     for line in lines:
