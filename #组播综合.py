@@ -482,7 +482,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 
 
-# 读取要合并的香港频道和台湾频道文件
+# 读取要合并的频道文件
 file_contents = []
 file_paths = ["TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
