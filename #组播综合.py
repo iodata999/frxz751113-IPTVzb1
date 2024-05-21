@@ -457,21 +457,22 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
 
-
-keywords = ['流畅', '环绕声']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    a.write('\n高质频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          a.write(line)  # 将该行写入输出文件
-#替换多余的关键字词###################################################################################################
-for line in fileinput.input("a.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("流畅", "")
-    line = line.replace("5.1环绕声", " (5.1环绕声)")
-    print(line, end="")  #设置end=""，避免输出多余的换行符            
-
+######################################################################################################################
+#for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对其进行关键词提取                     ###########
+keywords = ['流畅', '环绕声']  # 需要提取的关键字列表                                                       ###########
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
+with open('排序.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:           ###########
+    a.write('\n高质频道,#genre#\n')                                                                        ###########
+    for line in file:                                                                                      ###########
+        if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
+          a.write(line)  # 将该行写入输出文件                                                               ###########
+                                                                                                           ###########
+for line in fileinput.input("a.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("流畅", "")                                                                         ###########
+    line = line.replace("5.1环绕声", " (5.1环绕声)")                                                        ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符                                                   ###########
+#######################################################################################################################
 keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
@@ -480,7 +481,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', enco
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
-
+            
 keywords = ['CHC', '影院', '剧场', '娱乐', '淘', '爱']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
