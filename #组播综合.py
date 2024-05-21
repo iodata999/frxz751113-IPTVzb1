@@ -423,6 +423,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("BTV冬奥纪实", "冬奥纪实")
     line = line.replace("东奥纪实", "冬奥纪实")
     line = line.replace("卫视台", "卫视")
+    line = line.replace("iHOT", "")
     line = line.replace("湖南电视台", "湖南卫视")
     line = line.replace("少儿科教", "少儿")
     line = line.replace("TV星河2）", "星河")
