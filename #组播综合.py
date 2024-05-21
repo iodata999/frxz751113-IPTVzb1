@@ -16,7 +16,7 @@ import fileinput
 
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "#高质源.txt", "安徽电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "#高质源.txt" "安徽电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -440,7 +440,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['CCTV1']  # 需要提取的关键字列表
+keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2', 'CCTV3', 'CCTV4,', 'CCTV5,', 'CCTV6', 'CCTV7', 'CCTV8', 'CCTV9']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
@@ -458,6 +458,17 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
+
+
+keywords = ['流畅', '环绕声']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('排序.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
+    a.write('\n高质频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          a.write(line)  # 将该行写入输出文件
+            
 
 keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
@@ -491,7 +502,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TW.txt", "ws.txt", "ys.txt", "DD.txt", "a.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -526,6 +537,7 @@ os.remove("df.txt")
 os.remove("ys.txt")
 os.remove("DD.txt")
 os.remove("TW.txt")
+os.remove("a.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
