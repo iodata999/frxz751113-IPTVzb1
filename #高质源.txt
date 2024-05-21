@@ -1,4 +1,56 @@
-﻿
+﻿CCTV1流畅,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
+CCTV2流畅,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
+CCTV3流畅,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
+CCTV4流畅,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
+CCTV5+流畅,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
+CCTV5流畅,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
+CCTV6流畅,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
+CCTV7流畅,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
+CCTV8流畅,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
+CCTV9流畅,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
+CCTV10流畅,http://gzcyl001.3322.org:8081/hls/10/index.m3u8
+CCTV11流畅,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
+CCTV12流畅,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
+CCTV13流畅,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
+CCTV14流畅,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
+CCTV15流畅,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
+CCTV16流畅,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
+CCTV17流畅,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
+三沙卫视流畅,http://gzcyl001.3322.org:8081/hls/59/index.m3u8
+东方卫视流畅,http://gzcyl001.3322.org:8081/hls/53/index.m3u8
+北京卫视流畅,http://gzcyl001.3322.org:8081/hls/37/index.m3u8
+吉林卫视流畅,http://gzcyl001.3322.org:8081/hls/51/index.m3u8
+四川卫视流畅,http://gzcyl001.3322.org:8081/hls/45/index.m3u8
+天津卫视流畅,http://gzcyl001.3322.org:8081/hls/38/index.m3u8
+安徽卫视流畅,http://gzcyl001.3322.org:8081/hls/40/index.m3u8
+山东卫视流畅,http://gzcyl001.3322.org:8081/hls/43/index.m3u8
+广东卫视流畅,http://gzcyl001.3322.org:8081/hls/29/index.m3u8
+广东珠江流畅,http://gzcyl001.3322.org:8081/hls/23/index.m3u8
+广州影视流畅,http://gzcyl001.3322.org:8081/hls/20/index.m3u8
+广州新闻流畅,http://gzcyl001.3322.org:8081/hls/21/index.m3u8
+广州法制流畅,http://gzcyl001.3322.org:8081/hls/57/index.m3u8
+广州综合流畅,http://gzcyl001.3322.org:8081/hls/19/index.m3u8
+广西卫视流畅,http://gzcyl001.3322.org:8081/hls/52/index.m3u8
+江苏卫视流畅,http://gzcyl001.3322.org:8081/hls/36/index.m3u8
+江西卫视流畅,http://gzcyl001.3322.org:8081/hls/50/index.m3u8
+河北卫视流畅,http://gzcyl001.3322.org:8081/hls/49/index.m3u8
+河南卫视流畅,http://gzcyl001.3322.org:8081/hls/56/index.m3u8
+浙江卫视流畅,http://gzcyl001.3322.org:8081/hls/35/index.m3u8
+深圳卫视流畅,http://gzcyl001.3322.org:8081/hls/39/index.m3u8
+湖北卫视流畅,http://gzcyl001.3322.org:8081/hls/41/index.m3u8
+湖南卫视流畅,http://gzcyl001.3322.org:8081/hls/34/index.m3u8
+贵州卫视流畅,http://gzcyl001.3322.org:8081/hls/47/index.m3u8
+辽宁卫视流畅,http://gzcyl001.3322.org:8081/hls/44/index.m3u8
+重庆卫视流畅,http://gzcyl001.3322.org:8081/hls/46/index.m3u8
+金鹰卡通流畅,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
+陕西卫视流畅,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
+黑龙江卫视流畅,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
+﻿澳视澳门流畅,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
+翡翠台流畅,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
+翡翠美洲流畅,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
+凤凰卫视 低分流畅,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
+东南卫视流畅,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
+
 CCTV-1 综合 流畅,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
 CCTV-2 财经 流畅,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
 CCTV-3 综艺 流畅,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
