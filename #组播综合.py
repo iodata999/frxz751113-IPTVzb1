@@ -1,5 +1,6 @@
 
 
+
 import time
 import concurrent.futures
 from selenium import webdriver
@@ -506,7 +507,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TW.txt", "ws.txt", "ys.txt", "DD.txt", "a.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a.txt", "TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
