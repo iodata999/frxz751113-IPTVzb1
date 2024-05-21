@@ -47,7 +47,7 @@ CCTV17流畅,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
 黑龙江卫视流畅,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
 ﻿澳视澳门流畅,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
 翡翠台流畅,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
-翡翠美洲流畅,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
+明珠台流畅,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
 凤凰卫视 低分流畅,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
 东南卫视流畅,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
 
