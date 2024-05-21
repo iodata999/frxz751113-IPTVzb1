@@ -821,6 +821,7 @@ CHC影迷电影（ (5.1环绕声)）,http://117.114.153.25:8180/TV00000000000000
 广州法制,http://gzcyl001.3322.org:8081/hls/57/index.m3u8
 广州综合,http://gzcyl001.3322.org:8081/hls/19/index.m3u8
 广西卫视,http://gzcyl001.3322.org:8081/hls/52/index.m3u8
+明珠台,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
 江西卫视,http://gzcyl001.3322.org:8081/hls/50/index.m3u8
 河北卫视,http://gzcyl001.3322.org:8081/hls/49/index.m3u8
 河南卫视,http://gzcyl001.3322.org:8081/hls/56/index.m3u8
@@ -828,7 +829,6 @@ CHC影迷电影（ (5.1环绕声)）,http://117.114.153.25:8180/TV00000000000000
 深圳卫视,http://gzcyl001.3322.org:8081/hls/39/index.m3u8
 百事通4K（ (5.1环绕声)）[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
 翡翠台,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
-翡翠,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
 贵州卫视,http://gzcyl001.3322.org:8081/hls/47/index.m3u8
 辽宁卫视,http://gzcyl001.3322.org:8081/hls/44/index.m3u8
 重庆卫视,http://gzcyl001.3322.org:8081/hls/46/index.m3u8
