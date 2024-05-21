@@ -490,10 +490,10 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 ######################################################################################################################
 with open('#自用源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
-keywords = ['流畅', '环绕声']  # 需要提取的关键字列表                                                       ###########
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
-with open('#自用源.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:           ###########
+ keywords = ['流畅', '环绕声']  # 需要提取的关键字列表                                                       ###########
+ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
+ #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
+ with open('#自用源.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:           ###########
     a.write('\n自用频道,#genre#\n')                                                                        ###########
     for line in file:                                                                                      ###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
