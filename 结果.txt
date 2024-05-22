@@ -1,4 +1,137 @@
 
+自用频道,#genre#
+﻿CCTV1,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
+CCTV2,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
+CCTV3,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
+CCTV4,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
+CCTV5+,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
+CCTV5,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
+CCTV6,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
+CCTV7,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
+CCTV8,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
+CCTV9,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
+CCTV10,http://gzcyl001.3322.org:8081/hls/10/index.m3u8
+CCTV11,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
+CCTV12,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
+CCTV13,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
+CCTV14,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
+CCTV15,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
+CCTV16,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
+CCTV17,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
+三沙卫视,http://gzcyl001.3322.org:8081/hls/59/index.m3u8
+东方卫视,http://gzcyl001.3322.org:8081/hls/53/index.m3u8
+北京卫视,http://gzcyl001.3322.org:8081/hls/37/index.m3u8
+吉林卫视,http://gzcyl001.3322.org:8081/hls/51/index.m3u8
+四川卫视,http://gzcyl001.3322.org:8081/hls/45/index.m3u8
+天津卫视,http://gzcyl001.3322.org:8081/hls/38/index.m3u8
+安徽卫视,http://gzcyl001.3322.org:8081/hls/40/index.m3u8
+山东卫视,http://gzcyl001.3322.org:8081/hls/43/index.m3u8
+广东卫视,http://gzcyl001.3322.org:8081/hls/29/index.m3u8
+广东珠江,http://gzcyl001.3322.org:8081/hls/23/index.m3u8
+广州影视,http://gzcyl001.3322.org:8081/hls/20/index.m3u8
+广州新闻,http://gzcyl001.3322.org:8081/hls/21/index.m3u8
+广州法制,http://gzcyl001.3322.org:8081/hls/57/index.m3u8
+广州综合,http://gzcyl001.3322.org:8081/hls/19/index.m3u8
+广西卫视,http://gzcyl001.3322.org:8081/hls/52/index.m3u8
+江苏卫视,http://gzcyl001.3322.org:8081/hls/36/index.m3u8
+江西卫视,http://gzcyl001.3322.org:8081/hls/50/index.m3u8
+河北卫视,http://gzcyl001.3322.org:8081/hls/49/index.m3u8
+河南卫视,http://gzcyl001.3322.org:8081/hls/56/index.m3u8
+浙江卫视,http://gzcyl001.3322.org:8081/hls/35/index.m3u8
+深圳卫视,http://gzcyl001.3322.org:8081/hls/39/index.m3u8
+湖北卫视,http://gzcyl001.3322.org:8081/hls/41/index.m3u8
+湖南卫视,http://gzcyl001.3322.org:8081/hls/34/index.m3u8
+贵州卫视,http://gzcyl001.3322.org:8081/hls/47/index.m3u8
+辽宁卫视,http://gzcyl001.3322.org:8081/hls/44/index.m3u8
+重庆卫视,http://gzcyl001.3322.org:8081/hls/46/index.m3u8
+金鹰卡通,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
+陕西卫视,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
+黑龙江卫视,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
+﻿澳视澳门,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
+翡翠台,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
+明珠台,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
+凤凰卫视 低分,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
+东南卫视,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
+CCTV-1 综合 ,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
+CCTV-2 财经 ,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
+CCTV-3 综艺 ,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
+CCTV-4 中文国际 ,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
+CCTV-5 体育 ,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
+CCTV-5+ 体育赛事 ,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
+CCTV-6 电影 ,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
+CCTV-7 国防军事 ,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
+CCTV-8 电视剧 ,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
+CCTV-9 纪录 ,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
+CCTV-11 戏曲 ,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
+CCTV-12 社会与法 ,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
+CCTV-13 新闻 ,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
+CCTV-14 少儿 ,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
+CCTV-15 音乐 ,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
+CCTV-16 奥林匹克 ,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
+CCTV-17 农业农村 ,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
+CHC动作电影 ,http://ojbk.02200059.xyz:4022/udp/226.1.30.180:6000
+CHC家庭影院 ,http://iptv.028028.xyz:8/rtp/239.93.42.6:5140
+CHC影迷电影 ,http://ojbk.02200059.xyz:4022/udp/226.1.30.181:6000
+CCTV-1 综合-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.120:5002
+CCTV-2 财经-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.133:5002
+CCTV-3 综艺-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.158:5002
+CCTV-4 中文国际-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.150:5002
+CCTV-6 电影-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.195:5002
+CCTV-6 电影（高码率）,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010214/1.m3u8
+CCTV-7 国防军事-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.138:5002
+CCTV-8 电视剧-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.196:5002
+CCTV-9 纪录-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.119:5002
+CCTV-10 科教-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.140:5002
+CCTV-12 社会与法-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.142:5002
+CCTV-13 新闻-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.193:5002
+CCTV-14 少儿-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.144:5002
+CCTV-16 奥林匹克-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.237:5002
+CCTV-16 奥林匹克4K-5.1环绕声[3840*2160],http://ipv4.sunjianwu.fun:8800/rtp/239.49.0.109:8000
+CCTV-17 农业农村-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.052:5002
+CHC影迷电影(备用),http://ned2188.eicp.net:8888/udp/239.69.1.241:11088&湖北ip
+CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
+怀旧剧场,http://nas.0731wang.com:14022/udp/239.76.247.53:1234
+风云剧场,http://nas.0731wang.com:14022/udp/239.76.254.50:9000
+第一剧场,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?m3u8_level=2
+绚影4K[3840*2160],http://iptv.028028.xyz:8/rtp/239.93.42.33:5140
+欢笑剧场4K[3840*2160],http://ssrs2004.win:8888/rtp/239.111.205.1:5140
+BesTv 4K电影[3840*2160],http://tx191.tpddns.cn:4022/udp/239.45.3.107:5140
+百事通4K电影[3840*2160],http://tx191.tpddns.cn:4022/rtp/239.45.1.42:5140
+百事通4K测试-5.1环绕声[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
+iHOT爱喜剧,http://iptv.028028.xyz:8/udp/239.93.42.9:5140
+NewTv黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+NewTv超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
+NewTv动作电影,http://39.134.66.66/PLTV/88888888/224/3221225555/index.m3u8
+NewTv精彩影视,http://ojbk.02200059.xyz:4022/udp/226.1.30.194:6000
+NewTv爱情喜剧,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010000/1.m3u8
+NewTv海外剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+NewTv超级电视剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
+NewTv军旅剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
+NewTv家庭剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+NewTv精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
+NewTv东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+NewTv欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
+NewTv古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+北京影视,http://39.134.134.51/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226486/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7Ed6HjPoy_r3kKhTFRhXTPzg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+北京IPTV淘电影,http://www.weec.top:2222/rtp/239.3.1.250:8001
+北京IPTV淘剧场,http://www.weec.top:2222/udp/239.3.1.95:8001
+欢笑剧场,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000016/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000016&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
+东方影视,http://[2409:8087:5e08:24::12]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281&yang-1989
+湖北影视,http://ned2188.eicp.net:8888/udp/239.69.1.204:10866
+浙江教科影视,https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+湖南电视剧,http://nas.0731wang.com:14022/rtp/239.76.253.108:9000
+湖南电影,http://nas.0731wang.com:14022/rtp/239.76.253.106:9000
+「轮播」经典影剧,http://lxajh.top/tv/douyu.php?id=3928
+「轮播」恐怖电影,http://huanqiuzhibo.cn/manifest/douyu.php?id=218859
+「轮播」恐怖电影2[1280*720],http://huanqiuzhibo.cn/manifest/douyu.php?id=96577
+「轮播」邵氏电影[1280*720],http://lxajh.top/tv/douyu.php?id=4246519
+「轮播」60帧电影,http://zzy789.xyz/douyu1.php?id=747764
+山西影视[1280*720],http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
+凤凰电影（港）[768*576],http://117.114.153.25:8180/TV00000000000000000072@HHZT
+axn电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000076@HHZT
+CINEMAX电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000109@HHZT
+
+
 央视频道,#genre#
 CCTV1,http://114.101.142.202:5555/rtp/238.1.78.166:7200
 CCTV1,http://118.122.103.228:4022/rtp/239.93.0.58:5140
@@ -630,98 +763,6 @@ CCTV16 4K,http://219.132.165.137:8888/rtp/239.77.1.98:5146
 绚影4K,http://118.122.103.228:4022/rtp/239.93.42.33:5140
 绚影4K,http://218.89.233.208:8088/rtp/239.93.42.33:5140
 绚影4K,http://221.237.92.124:9999/rtp/239.93.42.33:5140
-
-
-自用频道,#genre#
-﻿CCTV1,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
-CCTV2,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
-CCTV3,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
-CCTV4,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
-CCTV5+,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
-CCTV5,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
-CCTV6,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
-CCTV7,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
-CCTV8,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
-CCTV9,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
-CCTV10,http://gzcyl001.3322.org:8081/hls/10/index.m3u8
-CCTV11,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
-CCTV12,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
-CCTV13,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
-CCTV14,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
-CCTV15,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
-CCTV16,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
-CCTV17,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
-三沙卫视,http://gzcyl001.3322.org:8081/hls/59/index.m3u8
-东方卫视,http://gzcyl001.3322.org:8081/hls/53/index.m3u8
-北京卫视,http://gzcyl001.3322.org:8081/hls/37/index.m3u8
-吉林卫视,http://gzcyl001.3322.org:8081/hls/51/index.m3u8
-四川卫视,http://gzcyl001.3322.org:8081/hls/45/index.m3u8
-天津卫视,http://gzcyl001.3322.org:8081/hls/38/index.m3u8
-安徽卫视,http://gzcyl001.3322.org:8081/hls/40/index.m3u8
-山东卫视,http://gzcyl001.3322.org:8081/hls/43/index.m3u8
-广东卫视,http://gzcyl001.3322.org:8081/hls/29/index.m3u8
-广东珠江,http://gzcyl001.3322.org:8081/hls/23/index.m3u8
-广州影视,http://gzcyl001.3322.org:8081/hls/20/index.m3u8
-广州新闻,http://gzcyl001.3322.org:8081/hls/21/index.m3u8
-广州法制,http://gzcyl001.3322.org:8081/hls/57/index.m3u8
-广州综合,http://gzcyl001.3322.org:8081/hls/19/index.m3u8
-广西卫视,http://gzcyl001.3322.org:8081/hls/52/index.m3u8
-江苏卫视,http://gzcyl001.3322.org:8081/hls/36/index.m3u8
-江西卫视,http://gzcyl001.3322.org:8081/hls/50/index.m3u8
-河北卫视,http://gzcyl001.3322.org:8081/hls/49/index.m3u8
-河南卫视,http://gzcyl001.3322.org:8081/hls/56/index.m3u8
-浙江卫视,http://gzcyl001.3322.org:8081/hls/35/index.m3u8
-深圳卫视,http://gzcyl001.3322.org:8081/hls/39/index.m3u8
-湖北卫视,http://gzcyl001.3322.org:8081/hls/41/index.m3u8
-湖南卫视,http://gzcyl001.3322.org:8081/hls/34/index.m3u8
-贵州卫视,http://gzcyl001.3322.org:8081/hls/47/index.m3u8
-辽宁卫视,http://gzcyl001.3322.org:8081/hls/44/index.m3u8
-重庆卫视,http://gzcyl001.3322.org:8081/hls/46/index.m3u8
-金鹰卡通,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
-陕西卫视,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
-黑龙江卫视,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
-﻿澳视澳门,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
-翡翠台,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
-明珠台,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
-凤凰卫视 低分,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
-东南卫视,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
-CCTV-1 综合 ,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
-CCTV-2 财经 ,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
-CCTV-3 综艺 ,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
-CCTV-4 中文国际 ,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
-CCTV-5 体育 ,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
-CCTV-5+ 体育赛事 ,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
-CCTV-6 电影 ,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
-CCTV-7 国防军事 ,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
-CCTV-8 电视剧 ,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
-CCTV-9 纪录 ,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
-CCTV-11 戏曲 ,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
-CCTV-12 社会与法 ,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
-CCTV-13 新闻 ,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
-CCTV-14 少儿 ,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
-CCTV-15 音乐 ,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
-CCTV-16 奥林匹克 ,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
-CCTV-17 农业农村 ,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
-CHC动作电影 ,http://ojbk.02200059.xyz:4022/udp/226.1.30.180:6000
-CHC家庭影院 ,http://iptv.028028.xyz:8/rtp/239.93.42.6:5140
-CHC影迷电影 ,http://ojbk.02200059.xyz:4022/udp/226.1.30.181:6000
-CCTV-1 综合-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.120:5002
-CCTV-2 财经-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.133:5002
-CCTV-3 综艺-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.158:5002
-CCTV-4 中文国际-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.150:5002
-CCTV-6 电影-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.195:5002
-CCTV-7 国防军事-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.138:5002
-CCTV-8 电视剧-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.196:5002
-CCTV-9 纪录-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.119:5002
-CCTV-10 科教-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.140:5002
-CCTV-12 社会与法-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.142:5002
-CCTV-13 新闻-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.193:5002
-CCTV-14 少儿-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.144:5002
-CCTV-16 奥林匹克-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.237:5002
-CCTV-16 奥林匹克4K-5.1环绕声[3840*2160],http://ipv4.sunjianwu.fun:8800/rtp/239.49.0.109:8000
-CCTV-17 农业农村-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.052:5002
-CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
-百事通4K测试-5.1环绕声[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
 
 
 地方频道,#genre#
