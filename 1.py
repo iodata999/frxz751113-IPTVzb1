@@ -11,7 +11,7 @@ import eventlet
 eventlet.monkey_patch()
 
 with open('结果.txt', 'r') as f:
-channels = []
+ channels = []
 
 for result in results:
     line = result.strip()
