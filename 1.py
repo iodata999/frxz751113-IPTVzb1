@@ -10,7 +10,7 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-with open('1.txt', 'r') as f:
+with open('结果.txt', 'r') as f:
 channels = []
 
 for result in results:
