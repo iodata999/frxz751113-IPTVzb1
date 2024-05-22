@@ -13,10 +13,10 @@ eventlet.monkey_patch()
 with open('结果.txt', 'r') as f:
  channels = []
 
-for result in results:
-    line = result.strip()
+for line in line:
+    line = line.strip()
     if result:
-        channel_name, channel_url = result.split(',')
+        channel_name, channel_url = line.split(',')
         channels.append((channel_name, channel_url))
 
 # 线程安全的队列，用于存储下载任务
