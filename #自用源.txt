@@ -52,23 +52,7 @@ CCTV17流畅,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
 凤凰卫视 低分流畅,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
 东南卫视流畅,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
 
-CCTV-1 综合 流畅,http://gzcyl001.3322.org:8081/hls/1/index.m3u8
-CCTV-2 财经 流畅,http://gzcyl001.3322.org:8081/hls/2/index.m3u8
-CCTV-3 综艺 流畅,http://gzcyl001.3322.org:8081/hls/3/index.m3u8
-CCTV-4 中文国际 流畅,http://gzcyl001.3322.org:8081/hls/4/index.m3u8
-CCTV-5 体育 流畅,http://gzcyl001.3322.org:8081/hls/5/index.m3u8
-CCTV-5+ 体育赛事 流畅,http://gzcyl001.3322.org:8081/hls/18/index.m3u8
-CCTV-6 电影 流畅,http://gzcyl001.3322.org:8081/hls/6/index.m3u8
-CCTV-7 国防军事 流畅,http://gzcyl001.3322.org:8081/hls/7/index.m3u8
-CCTV-8 电视剧 流畅,http://gzcyl001.3322.org:8081/hls/8/index.m3u8
-CCTV-9 纪录 流畅,http://gzcyl001.3322.org:8081/hls/9/index.m3u8
-CCTV-11 戏曲 流畅,http://gzcyl001.3322.org:8081/hls/11/index.m3u8
-CCTV-12 社会与法 流畅,http://gzcyl001.3322.org:8081/hls/12/index.m3u8
-CCTV-13 新闻 流畅,http://gzcyl001.3322.org:8081/hls/13/index.m3u8
-CCTV-14 少儿 流畅,http://gzcyl001.3322.org:8081/hls/14/index.m3u8
-CCTV-15 音乐 流畅,http://gzcyl001.3322.org:8081/hls/15/index.m3u8
-CCTV-16 奥林匹克 流畅,http://gzcyl001.3322.org:8081/hls/16/index.m3u8
-CCTV-17 农业农村 流畅,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
+
 CHC动作电影 流畅,http://ojbk.02200059.xyz:4022/udp/226.1.30.180:6000
 CHC家庭影院 流畅,http://iptv.028028.xyz:8/rtp/239.93.42.6:5140
 CHC影迷电影 流畅,http://ojbk.02200059.xyz:4022/udp/226.1.30.181:6000
@@ -116,7 +100,7 @@ BesTv 4K电影[3840*2160],http://tx191.tpddns.cn:4022/udp/239.45.3.107:5140
 百事通4K纪实[3840*2160],http://tx191.tpddns.cn:4022/rtp/239.45.1.10:5140
 百事通4K儿童[3840*2160],http://tx191.tpddns.cn:4022/rtp/239.45.1.1:5140
 百事通4K测试（5.1环绕声）[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
-「轮播」搜狐4K[3840*2160],http://www.liam008.top:4022/rtp/225.1.2.190:5002
+搜狐4K[3840*2160],http://www.liam008.top:4022/rtp/225.1.2.190:5002
 爱上4K[3840*2160],http://[2409:8087:5e01:34::23]:6610/ZTE_CMS/00000001000000060000000000000459/index.m3u8?IAS
 iHOT爱悬疑,http://iptv.028028.xyz:8/udp/239.93.42.12:5140
 iHOT爱谍战,http://iptv.028028.xyz:8/udp/239.93.42.14:5140
@@ -262,18 +246,6 @@ NewTv惊悚悬疑,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/
 浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 海南少儿,http://[2409:8087:5e01:34::20]:6610/ZTE_CMS/08984400000000060000000000000323/index.m3u8?IAS
 甘肃少儿,http://[2409:8087:74F1:0021::0008]:80/270000001111/1110000327/index.m3u8?
-「轮播」武林外传[1280*720],http://43.138.170.29:35455/yy/411376
-「轮播」万万没想到[2100*1080],http://43.138.170.29:35455/douyu/9220456
-「轮播」李连杰[1024*576],https://live.metshop.top/huya/11342390
-「轮播」经典影剧,http://lxajh.top/tv/douyu.php?id=3928
-「轮播」林正英[1916*808],https://live.metshop.top/huya/11342421
-「轮播」周星驰,http://huanqiuzhibo.cn/manifest/douyu.php?id=122402
-「轮播」刘德华,http://47.236.28.28:35455/douyu/2516864
-「轮播」恐怖电影,http://huanqiuzhibo.cn/manifest/douyu.php?id=218859
-「轮播」恐怖电影2[1280*720],http://huanqiuzhibo.cn/manifest/douyu.php?id=96577
-「轮播」邵氏电影[1280*720],http://lxajh.top/tv/douyu.php?id=4246519
-「轮播」60帧电影,http://zzy789.xyz/douyu1.php?id=747764
-「轮播」蜡笔小新[1024*784],https://live.metshop.top/huya/11352970
 山西影视[1280*720],http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 重温经典（卫星）[768*576],http://117.114.153.25:8180/TV00000000000000000007@HHZT
