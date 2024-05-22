@@ -13,7 +13,7 @@ eventlet.monkey_patch()
 with open('结果.txt', 'r') as f:
  channels = []
 
-for line in line:
+for slice in line:
     line = line.strip()
     if result:
         channel_name, channel_url = line.split(',')
