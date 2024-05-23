@@ -44,7 +44,7 @@ CCTV17,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
 贵州卫视,http://gzcyl001.3322.org:8081/hls/47/index.m3u8
 辽宁卫视,http://gzcyl001.3322.org:8081/hls/44/index.m3u8
 重庆卫视,http://gzcyl001.3322.org:8081/hls/46/index.m3u8
-金鹰通,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
+金鹰卡通,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
 陕西卫视,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
 黑龙江卫视,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
 澳视澳门,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
@@ -74,13 +74,12 @@ CHC影迷电影备用,http://ned2188.eicp.net:8888/udp/239.69.1.241:11088&湖北
 CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
 怀旧剧场,http://nas.0731wang.com:14022/udp/239.76.247.53:1234
 风云剧场,http://nas.0731wang.com:14022/udp/239.76.254.50:9000
-第剧场,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?m3u8_level=2
+第一剧场,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?m3u8_level=2
 绚影4K[3840*2160],http://iptv.028028.xyz:8/rtp/239.93.42.33:5140
 欢笑剧场4K[3840*2160],http://ssrs2004.win:8888/rtp/239.111.205.1:5140
 BesTv4K电影[3840*2160],http://tx191.tpddns.cn:4022/udp/239.45.3.107:5140
 百事通4K电影[3840*2160],http://tx191.tpddns.cn:4022/rtp/239.45.1.42:5140
 百事通4K-5.1环绕声[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
-iHOT爱喜剧,http://iptv.028028.xyz:8/udp/239.93.42.9:5140
 NewTv黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 NewTv超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 NewTv动作电影,http://39.134.66.66/PLTV/88888888/224/3221225555/index.m3u8
@@ -94,13 +93,6 @@ NewTv精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/
 NewTv东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 NewTv欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 NewTv古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-北京淘电影,http://www.weec.top:2222/rtp/239.3.1.250:8001
-北京淘剧场,http://www.weec.top:2222/udp/239.3.1.95:8001
-湖北影视,http://ned2188.eicp.net:8888/udp/239.69.1.204:10866
-浙江教科影视,https://aliml.cztv.com/channels/lantian/channel004/1080p.m3u8
-湖南影视,http://nas.0731wang.com:14022/rtp/239.76.253.108:9000
-湖南电影,http://nas.0731wang.com:14022/rtp/239.76.253.106:9000
-山西影视[1280*720],http://liveflash.sxrtv.com/live/sxfilm.m3u8?sub_m3u8=true&edge_slice=true
 凤凰电影（港）[768*576],http://117.114.153.25:8180/TV00000000000000000072@HHZT
 axn电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000076@HHZT
 CINEMAX电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000109@HHZT
