@@ -48,7 +48,6 @@ CCTV17,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
 陕西卫视,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
 黑龙江卫视,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
 东南卫视,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
-5.1环绕,genre#
 CCTV1-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.120:5002
 CCTV2-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.133:5002
 CCTV3-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.158:5002
@@ -65,7 +64,6 @@ CCTV16-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.237:5002
 CCTV164K-5.1环绕声[3840*2160],http://ipv4.sunjianwu.fun:8800/rtp/239.49.0.109:8000
 CCTV17-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.052:5002
 CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
-NewTV系列,genre#
 NewTv黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 NewTv超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 NewTv动作电影,http://39.134.66.66/PLTV/88888888/224/3221225555/index.m3u8
@@ -79,7 +77,6 @@ NewTv精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/
 NewTv东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 NewTv欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 NewTv古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-港澳频道,genre#
 凤凰电影（港）[768*576],http://117.114.153.25:8180/TV00000000000000000072@HHZT
 axn电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000076@HHZT
 CINEMAX电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000109@HHZT
