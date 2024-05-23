@@ -47,14 +47,8 @@ CCTV17,http://gzcyl001.3322.org:8081/hls/17/index.m3u8
 金鹰卡通,http://gzcyl001.3322.org:8081/hls/62/index.m3u8
 陕西卫视,http://gzcyl001.3322.org:8081/hls/60/index.m3u8
 黑龙江卫视,http://gzcyl001.3322.org:8081/hls/42/index.m3u8
-澳视澳门,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
-翡翠台,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
-明珠台,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
-凤凰卫视低分,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
 东南卫视,http://gzcyl001.3322.org:8081/hls/48/index.m3u8
-CHC动作电影,http://ojbk.02200059.xyz:4022/udp/226.1.30.180:6000
-CHC家庭影院,http://iptv.028028.xyz:8/rtp/239.93.42.6:5140
-CHC影迷电影,http://ojbk.02200059.xyz:4022/udp/226.1.30.181:6000
+5.1环绕,genre#
 CCTV1-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.120:5002
 CCTV2-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.133:5002
 CCTV3-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.158:5002
@@ -70,16 +64,8 @@ CCTV14-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.144:5002
 CCTV16-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.237:5002
 CCTV164K-5.1环绕声[3840*2160],http://ipv4.sunjianwu.fun:8800/rtp/239.49.0.109:8000
 CCTV17-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.052:5002
-CHC影迷电影备用,http://ned2188.eicp.net:8888/udp/239.69.1.241:11088&湖北ip
 CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
-怀旧剧场,http://nas.0731wang.com:14022/udp/239.76.247.53:1234
-风云剧场,http://nas.0731wang.com:14022/udp/239.76.254.50:9000
-第一剧场,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638077f5ca035/1.m3u8?m3u8_level=2
-绚影4K[3840*2160],http://iptv.028028.xyz:8/rtp/239.93.42.33:5140
-欢笑剧场4K[3840*2160],http://ssrs2004.win:8888/rtp/239.111.205.1:5140
-BesTv4K电影[3840*2160],http://tx191.tpddns.cn:4022/udp/239.45.3.107:5140
-百事通4K电影[3840*2160],http://tx191.tpddns.cn:4022/rtp/239.45.1.42:5140
-百事通4K-5.1环绕声[3840*2160],http://iptv.028028.xyz:8/udp/239.93.42.75:5140
+NewTV系列,genre#
 NewTv黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 NewTv超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
 NewTv动作电影,http://39.134.66.66/PLTV/88888888/224/3221225555/index.m3u8
@@ -93,9 +79,14 @@ NewTv精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/
 NewTv东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
 NewTv欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
 NewTv古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+港澳频道,genre#
 凤凰电影（港）[768*576],http://117.114.153.25:8180/TV00000000000000000072@HHZT
 axn电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000076@HHZT
 CINEMAX电影（港）[1024*576],http://117.114.153.25:8180/TV00000000000000000109@HHZT
+澳视澳门,http://gzcyl001.3322.org:8081/hls/32/index.m3u8
+翡翠台,http://gzcyl001.3322.org:8081/hls/30/index.m3u8
+明珠台,http://gzcyl001.3322.org:8081/hls/31/index.m3u8
+凤凰卫视低分,http://gzcyl001.3322.org:8081/hls/33/index.m3u8
 
 
 央视频道,#genre#
