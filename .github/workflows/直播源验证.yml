@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: pip install translate requests 
       - name: Install dependencies
-        run: pip install json 
+        run: pip install json -i https://pypi.tuna.tsinghua.edu.cn/simple
       - name: Install dependencies
         run: pip install plugins 
 
