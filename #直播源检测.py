@@ -22,9 +22,9 @@ results = []
 channels = []
 error_channels = []
 lines = file.readlines()
-    for line in lines:
-        line = line.strip()
-        if line:
+for line in lines:
+     line = line.strip()
+     if line:
             channel_name, channel_url = line.split(',')
             if 'genre' not in channel_url:
                 channels.append((channel_name, channel_url))
