@@ -6,6 +6,7 @@ import db
 import time
 import re
 import os
+import Base
 
 class Iptv (object):
 
