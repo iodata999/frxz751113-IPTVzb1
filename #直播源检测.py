@@ -12,7 +12,7 @@ import replace
 import fileinput
 import eventlet
 
-with open("iptv_list.txt", 'r', encoding='utf-8') as file:
+with open("待检测.txt", 'r', encoding='utf-8') as file:
 
 
  eventlet.monkey_patch()
@@ -26,7 +26,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("iptv_list.txt", 'r', encoding='utf-8') as file:
+with open("待检测.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -178,14 +178,14 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
       
 # 合并自定义频道文件内容
 file_contents = []
-file_paths = ["hn.txt", "GAT.txt"]  # 替换为实际的文件路径列表
+file_paths = ["hn.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("iptv_lis.txt", "w", encoding="utf-8") as output:
+with open("#自用.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
 # 写入更新日期时间
@@ -195,4 +195,4 @@ with open("iptv_lis.txt", "w", encoding="utf-8") as output:
     #output.write(f"{now.strftime("%H:%M:%S")},url\n")
 
 os.remove("hn.txt")
-print("任务运行完毕，分类频道列表可查看文件夹内iptv_list.txt文件！")
+print("任务运行完毕，分类频道列表可查看文件夹内.txt文件！")
