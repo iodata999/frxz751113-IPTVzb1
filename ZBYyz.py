@@ -13,14 +13,10 @@ import fileinput
 
 
 
-with open('iptvsearch/1.txt', 'r') as f:
- channels = []
- results = []
-for result in results:
-    line = result.strip()
-    if result:
-        channel_name, channel_url = result.split(',')
-        channels.append((channel_name, channel_url))
+with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+
+
+ eventlet.monkey_patch()
 
 # 线程安全的队列，用于存储下载任务
 task_queue = Queue()
@@ -28,8 +24,17 @@ task_queue = Queue()
 # 线程安全的列表，用于存储结果
 results = []
 
+channels = []
 error_channels = []
-
+# 从iptv.txt文件内提取其他频道进行检测并分组
+with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    for line in lines:
+        line = line.strip()
+        if line:
+            channel_name, channel_url = line.split(',')
+            if 'genre' not in channel_url:
+                channels.append((channel_name, channel_url))
 
 # 定义工作线程函数
 def worker():
