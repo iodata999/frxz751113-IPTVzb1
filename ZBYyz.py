@@ -14,7 +14,7 @@ import eventlet
 
 with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
                        name = item.get('name')
-                        urlx = item.get('url')
+                         urlx = item.get('url')
                         if ',' in urlx:
                             urlx=f"aaaaaaaa"
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
