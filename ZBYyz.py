@@ -10,9 +10,13 @@ from queue import Queue
 from datetime import datetime
 import replace
 import fileinput
+
+
 for line in fileinput.input("iptvsearch/1.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
+
+with open('iptvsearch/1.txt', 'r') as f:
 
 channels = []
 results = []
