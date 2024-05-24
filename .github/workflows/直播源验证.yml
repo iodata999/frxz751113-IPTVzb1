@@ -28,6 +28,13 @@ jobs:
         run: pip install Beautifulsoup4 requests 
       - name: Install dependencies
         run: pip install translate requests 
+      - name: Install dependencies
+        run: pip install json 
+      - name: Install dependencies
+        run: pip install plugins 
+
+
+
       
       - name: Run iptv
         run: python ${{ github.workspace }}/iptvsearch/iptv-m3u-maker-master/python
