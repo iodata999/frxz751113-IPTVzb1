@@ -18,8 +18,6 @@ class Iptv (object):
 
         self.DB.chkTable()
 
-        Base = base.Source()
-        Base.getSource()
 
         Dotpy = dotpy.Source()
         Dotpy.getSource()
