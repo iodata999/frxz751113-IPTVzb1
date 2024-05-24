@@ -17,9 +17,8 @@ for line in fileinput.input("iptvsearch/1.txt", inplace=True):   #打开临时�
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 with open('iptvsearch/1.txt', 'r') as f:
-
-channels = []
-results = []
+ channels = []
+ results = []
 for result in results:
     line = result.strip()
     if result:
