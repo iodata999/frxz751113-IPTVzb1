@@ -49,11 +49,11 @@ def worker():
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
 
             # 多获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(15, False):  #################////////////////////////////////
+            with eventlet.Timeout(30, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
-                response_time = (end_time - start_time) * 1
+                response_time = (end_time - start_time) * 30
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
@@ -84,7 +84,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 64
+num_threads = 4
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
