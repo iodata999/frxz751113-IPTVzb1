@@ -100,16 +100,66 @@ def channel_key(channel_name):
 # 对频道进行排序
 results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
+result_counter = 3  # 每个频道需要的个数
+
+with open("hn.txt", 'w', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('央视频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+    channel_counters = {}
+    file.write('卫视频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '卫视' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+    channel_counters = {}
+    file.write('地方频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if 'CCTV' not in channel_name and '卫视' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
 
 
-result_counter = 8  # 每个频道需要的个数
+      
+# 合并自定义频道文件内容
 file_contents = []
-#file_paths = ["hn.txt", "GAT.txt"]  # 替换为实际的文件路径列表
-#for file_path in file_paths:
-    #with open(file_path, 'r', encoding="utf-8") as file:
-#content = file.read()
-#file_contents.append(content)
-
+file_paths = ["hn.txt"]  # 替换为实际的文件路径列表
+for file_path in file_paths:
+    with open(file_path, 'r', encoding="utf-8") as file:
+        content = file.read()
+        file_contents.append(content)
 # 写入合并后的文件
 with open("#自用.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
+
+os.remove("hn.txt")
+print("任务运行完毕，分类频道列表可查看文件夹内iptv_list.txt文件！")
