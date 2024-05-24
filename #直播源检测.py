@@ -21,7 +21,7 @@ task_queue = Queue()
 results = []
 channels = []
 error_channels = []
-    lines = file.readlines()
+lines = file.readlines()
     for line in lines:
         line = line.strip()
         if line:
