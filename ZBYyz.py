@@ -84,7 +84,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 128
+num_threads = 8
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
