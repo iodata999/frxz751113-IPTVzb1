@@ -13,7 +13,7 @@ import fileinput
 import eventlet
 
 with open("iptvsearch/#自用.txt", 'r', encoding='utf-8') as file:
-channels = []
+  channels = []
 
 for result in results:
     line = result.strip()
