@@ -1,12 +1,13 @@
 name: 直播源验证
 
+
 on:
   schedule:
-    - cron: '1 */12 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+    - cron: '1 */8 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
