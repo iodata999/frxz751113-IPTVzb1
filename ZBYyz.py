@@ -103,6 +103,12 @@ results.sort(key=lambda x: channel_key(x[0]))
 
 
 result_counter = 8  # 每个频道需要的个数
+file_contents = []
+#file_paths = ["hn.txt", "GAT.txt"]  # 替换为实际的文件路径列表
+#for file_path in file_paths:
+    #with open(file_path, 'r', encoding="utf-8") as file:
+        content = file.read()
+        file_contents.append(content)
 
 # 写入合并后的文件
 with open("#自用.txt", "w", encoding="utf-8") as output:
