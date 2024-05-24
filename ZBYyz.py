@@ -13,7 +13,7 @@ import fileinput
 
 
 
-with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+with open("iptvsearch/1.txt", 'r') as file:
 
 # 线程安全的队列，用于存储下载任务
  task_queue = Queue()
@@ -24,7 +24,7 @@ with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
  channels = []
  error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+with open("iptvsearch/1.txt", 'r') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -46,9 +46,9 @@ def worker():
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
 
             # 多获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(5, False):
+            with eventlet.Timeout(15, False):
                 start_time = time.time()
-                content = requests.get(ts_url, timeout = 1).content
+                content = requests.get(ts_url, timeout = 12).content
                 end_time = time.time()
                 response_time = (end_time - start_time) * 1
 
