@@ -49,11 +49,11 @@ def worker():
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
 
             # 多获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(3, False):  #################////////////////////////////////
+            with eventlet.Timeout(0.8, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
-                response_time = (end_time - start_time) * 3
+                response_time = (end_time - start_time) * 0.5
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
