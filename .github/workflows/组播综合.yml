@@ -27,7 +27,7 @@ jobs:
         run: pip install input
       
       - name: Run iptv
-        run: python ${{ github.workspace }}/#组播综合.py
+        run: python ${{ github.workspace }}/分步操作/#组播综合.py
 
         
       - name: Commit results
