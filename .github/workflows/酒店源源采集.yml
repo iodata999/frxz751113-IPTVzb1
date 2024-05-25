@@ -1,8 +1,8 @@
-name: 源采集
+name: 酒店源源采集
 
 on:
   schedule:
-    - cron: '55 */4 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+    - cron: '25 */4 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
@@ -28,7 +28,7 @@ jobs:
         run: pip install input
      
       - name: Run iptv
-        run: python ${{ github.workspace }}/iptvzby.py      #这里更改要运行的py
+        run: python ${{ github.workspace }}/酒店源源采集/iptv.py      #这里更改要运行的py
 
       - name: 提交更改
         run: |
