@@ -209,7 +209,35 @@ CCTV17,http://171.108.239.116:8181/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1
 
 
 港澳频道,#genre#
-AXN[1920*1080],http://23.224.232.221:81/kk.php?id=axn_twn
+AXN电影[1920*1080],http://23.224.232.221:81/kk.php?id=axn_twn
+凤凰资讯[1280*720],http://61.221.215.25:8800/hls/47/index.m3u8
+凤凰资讯[1920*1080],http://112.19.171.156:9999/udp/239.93.0.118:2191
+凤凰卫视[1920*1080],http://112.19.171.156:9999/udp/239.93.0.162:2192
+凤凰卫视[1920*1080],http://112.19.171.156:9999/udp/239.93.0.162:2192
+星空卫视[1047*576],http://wouu.net:9977/udp/239.93.0.156:2193
+星光视界[1280*720],http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
+星光视界[1280*720],http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
+经典都市台[1360*768],http://ali.hlspull.yximgs.com/live/asdfg32516.flv
+经典神话台[1280*720],http://ali.hlspull.yximgs.com/live/asdfg32522.flv
+番薯111[1920*1080],http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
+番薯111[1920*1080],http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
+番薯111[1920*1080],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
+中视[1280*720],rtmp://f13h.mine.nu/sat/tv091
+中视[1280*720],rtmp://220.130.201.73/sat/tv091
+台视[1280*720],rtmp://f13h.mine.nu/sat/tv071
+台视[1280*720],rtmp://220.130.201.73/sat/tv071
+民视[1280*720],rtmp://220.130.201.73/sat/tv051
+华视[1280*720],rtmp://f13h.mine.nu/sat/tv111
+纬来精彩[1280*720],http://61.221.215.25:8800/hls/48/index.m3u8
+探索亚洲[1280*720],http://61.221.215.25:8800/hls/50/index.m3u8
+环球电视台[1280*720],http://zb.xzxwhcb.com:9999/hls/world.m3u8
+八大综合[1280*720],http://61.221.215.25:8800/hls/56/index.m3u8
+八大戏剧[1280*720],http://61.221.215.25:8800/hls/39/index.m3u8
+八大第一[1280*720],http://61.221.215.25:8800/hls/55/index.m3u8
+MoMo综合[1280*720],rtmp://f13h.mine.nu/sat/tv761
+MoMo综合[1280*720],rtmp://220.130.201.73/sat/tv761
+49号[1280*720],http://61.221.215.25:8800/hls/49/index.m3u8
+三立戏剧[1280*720],http://61.221.215.25:8800/hls/41/index.m3u8
 CINEMAX[1920*1080],http://23.224.232.221:81/kk.php?id=cinemax_twn
 EYETV旅遊,http://23.224.232.221:81/kk.php?id=eyetvtravel_twn
 HBO[1920*1080],http://23.224.232.221:81/kk.php?id=hbohd_twn
@@ -224,7 +252,6 @@ TVBS歡樂台,http://23.224.232.221:81/kk.php?id=tvbshuanle_twn
 中天亞洲[1280*720],http://23.224.232.221:81/kk.php?id=ctiasia_twn
 中天娛樂[1920*1080],http://23.224.232.221:81/kk.php?id=ctient
 中天新聞[1280*720],http://23.224.232.221:81/kk.php?id=ctinews
-中天綜合,http://23.224.232.221:81/kk.php?id=ctizhonghe
 中視[1280*720],http://23.224.232.221:81/kk.php?id=zhongshihd_twn
 中視新聞[1280*720],http://23.224.232.221:81/kk.php?id=zhongshinews_twn
 亞洲旅遊[1280*720],http://23.224.232.221:81/kk.php?id=asiatravel_twn
