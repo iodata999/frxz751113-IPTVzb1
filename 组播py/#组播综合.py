@@ -515,14 +515,10 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 
 
 #  获取远程港澳台直播源文件
-url = "https://raw.githubusercontent.com/250992941/iptv/20b42dd7e566726cfc3ad409fad60b6600db6de4/TW.txt"          #源采集地址
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/TW.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 
-
-for line in fileinput.input("TW.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
-    print(line, end="")                                     #加入此行去掉多余的转行符
 
 
 #keywords = ['重温经典', ' 8M1080,']  # 需要提取的关键字列表 8M1080
@@ -533,6 +529,12 @@ with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding=
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           a.write(line)  # 将该行写入输出文件
+for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
+    line = line.replace("﻿Taiwan,#genre#", "")                         #编辑替换字
+    print(line, end="")                                     #加入此行去掉多余的转行符
+
+
+
 
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
