@@ -12,7 +12,7 @@ from datetime import datetime
 
 def txt_to_m3u(结果.txt, 结果.m3u):
     # 读取txt文件内容
-    with open(结果.txt, 'r', encoding='utf-8') as f:
+   for line in fileinput.input("结果.txt", inplace=True): 
         lines = f.readlines()
 
     # 打开m3u文件并写入内容
