@@ -26,6 +26,7 @@ for file_path in file_paths:
 # 写入合并后的文件
 with open("合并.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
+    
 
 
 #替换多余的关键字词###################################################################################################
@@ -565,6 +566,9 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
+with open("结果.m3u", 'w', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('#EXTM3U\n')
 
 
 
