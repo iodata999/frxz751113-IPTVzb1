@@ -494,9 +494,9 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 ######################################################################################################################
 with open('酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
- #keywords = ['CCTV', '卫视', 'New', '环绕声']  # 需要提取的关键字列表                                                       ###########
- #pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
- pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
+ keywords = ['CCTV', '卫视', '1080', '重温', 'genre']  # 需要提取的关键字列表                                                       ###########
+ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
+ #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('酒店源.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
     b.write('\n酒店频道,#genre#\n')                                                                        ###########
     for line in file:                                                                                      ###########
