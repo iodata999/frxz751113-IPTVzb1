@@ -565,34 +565,7 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-import java.io
 
-public static void main(String[] args)  {
-        /**源文件路径*/
-        String filePath = "结果.txt";
-        /**输出文件路径*/
-        String outPath = filePath.replace("结果.txt", "结果.m3u");
-        File file2 = new File(filePath);
-        String all = "#EXTM3U\r\n";
-        try {
-            InputStreamReader in2 = new InputStreamReader(new FileInputStream(file2), "UTF-8");
-            BufferedReader buff = new BufferedReader(in2);
-            String text = null;
-            while ((text = buff.readLine()) != null) {
-                if (text != null && text.trim().length() > 0) {
-                    text = text.replace(",", "\r\n");
-                    all += ("#EXTINF:-1 ," + text + "\r\n");
-                }
-            }
-            PrintWriter out = new PrintWriter(outPath);
-            out.write(all.toCharArray());
-            out.flush();
-            out.close();
-        } catch (FileNotFoundException e) {
-        } catch (UnsupportedEncodingException e) {
-        } catch (IOException e) {
-        }
-    }
 
 
 
