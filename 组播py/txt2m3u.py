@@ -8,11 +8,6 @@ import threading
 from queue import Queue
 from datetime import datetime
 
-#  获取远程直播源文件
-#url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
-#r = requests.get(url)
-#open('DIYP-v4.txt', 'wb').write(r.content)
-
 
 def txt_to_m3u(input_file, output_file):
     # 读取txt文件内容
@@ -21,7 +16,7 @@ def txt_to_m3u(input_file, output_file):
 
     # 打开m3u文件并写入内容
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U\n')
+        f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
 
         # 初始化genre变量
         genre = ''
