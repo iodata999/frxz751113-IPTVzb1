@@ -90,23 +90,7 @@ CCTV13,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000054BESTVSM
 CCTV14,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN3949788BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUXt3TPFwzzdHCkOT9AjSv5PYKFve4MwNzRa0jPXeHjqnp7khdLaCMP6L4QpTf84Oz6DvCG1%2BJ81QvStkxO%2FoGm8
 CCTV15,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN6000055BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUTWDyIgRkFJBAHMhA2ayG0Tdo%2FUL80msfbhDYvoWpNl31Dy7jHvMl%2FzVUrNxhL1ek1YEGVDZ7lCg0LtKJY4Ku%2B8
 CCTV17,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638728afa13b4/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUdDh4EPdDnvGlSBkYaxFdaz%2FyAI9to%2FMBBt%2FivcdSfljJ1%2FqqamWUjAiBAxNssfyBlZUDSXAIMtStS86hRHFuJM
-5.1环绕,#genre#
-CCTV1-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.120:5002
-CCTV2-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.133:5002
-CCTV3-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.158:5002
-CCTV4-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.150:5002
-CCTV6-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.195:5002
-CCTV7-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.138:5002
-CCTV8-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.196:5002
-CCTV9-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.119:5002
-CCTV10-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.140:5002
-CCTV12-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.142:5002
-CCTV13-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.193:5002
-CCTV14-5.1环绕声,http://www.liam008.top:4022/udp/225.1.1.144:5002
-CCTV16-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.237:5002
-CCTV164K-5.1环绕声[3840*2160],http://ipv4.sunjianwu.fun:8800/rtp/239.49.0.109:8000
-CCTV17-5.1环绕声,http://www.liam008.top:4022/udp/225.1.2.052:5002
-CHC影迷电影-5.1环绕声,http://117.114.153.25:8180/TV00000000000000000094@HHZT
+
 
 
 
