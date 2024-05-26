@@ -569,8 +569,6 @@ with open("结果.txt", "w", encoding="utf-8") as output:
 with open("结果.m3u", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
-    for result in results:
-        channel_name, channel_url, speed = result
         if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
