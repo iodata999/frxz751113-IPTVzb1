@@ -443,11 +443,11 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    TW.write('\n央视频道,#genre#\n')
+with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:
+    c.write('\n央视频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
-         TW.write(line)  # 将该行写入输出文件
+         c.write(line)  # 将该行写入输出文件
             
 
 keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
@@ -513,9 +513,31 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 
 
 
+
+#  获取远程港澳台直播源文件
+url = "https://raw.githubusercontent.com/250992941/iptv/20b42dd7e566726cfc3ad409fad60b6600db6de4/TW.txt"          #源采集地址
+r = requests.get(url)
+open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
+
+
+for line in fileinput.input("TW.txt", inplace=True):   #打开临时文件原地替换关键字
+    line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
+    print(line, end="")                                     #加入此行去掉多余的转行符
+
+
+#keywords = ['重温经典', ' 8M1080,']  # 需要提取的关键字列表 8M1080
+#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
+    a.write('\n港澳频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          a.write(line)  # 将该行写入输出文件
+
+
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "a.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -550,8 +572,9 @@ os.remove("df.txt")
 os.remove("ys.txt")
 os.remove("DD.txt")
 os.remove("TW.txt")
-#os.remove("a.txt")
+os.remove("a.txt")
 os.remove("b.txt")
+os.remove("c.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
