@@ -569,14 +569,14 @@ with open("结果.txt", "w", encoding="utf-8") as output:
 with open("结果.m3u", 'w', encoding='utf-8') as file:
         channel_counters = {}
         file.write('#EXTM3U\n')
-    if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
+if channel_name in channel_counters:
+        if channel_counters[channel_name] >= result_counter:
+             continue
+        else:
                     file.write(f"#EXTINF:-1,{channel_name}\n")
                     file.write(f"{channel_url}\n")
                     channel_counters[channel_name] += 1
-    else:
+else:
                 file.write(f"#EXTINF:-1,{channel_name}\n")
                 file.write(f"{channel_url}\n")
                 channel_counters[channel_name] = 1
