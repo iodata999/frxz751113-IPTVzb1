@@ -38,5 +38,4 @@ from datetime import datetime
 
 
 # 将txt文件转换为m3u文件
-txt_to_m3u('结果.txt', '结果.m3u')
 print(f"成功寫出M3U file")
