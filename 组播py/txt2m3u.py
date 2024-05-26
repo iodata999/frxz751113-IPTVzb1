@@ -10,12 +10,13 @@ from datetime import datetime
 
 
 
+def txt_to_m3u(结果.txt, 结果.m3u):
     # 读取txt文件内容
-with open(结果.txt, 'r', encoding='utf-8') as f:
+    with open(结果.txt, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # 打开m3u文件并写入内容
-with open(结果.m3u, 'w', encoding='utf-8') as f:
+    with open(结果.m3u, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
 
         # 初始化genre变量
@@ -33,9 +34,12 @@ with open(结果.m3u, 'w', encoding='utf-8') as f:
                     print(genre)
                 else:
                     # 将频道信息写入m3u文件
+                    ##EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/壹電視新聞.png" group-title="直播新聞",壹電視新聞
+                    ##EXTINF:-1 group-title="台灣",民視
                     f.write(f'#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/{channel_name}.png" group-title="{genre}",{channel_name}\n')
                     f.write(f'{channel_url}\n')
 
 
 # 将txt文件转换为m3u文件
+txt_to_m3u('结果.txt', '结果.m3u')
 print(f"成功寫出M3U file")
