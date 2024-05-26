@@ -489,22 +489,6 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
           df.write(line)  # 将该行写入输出文件
 
 
-######################################################################################################################
-with open('固定源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
- keywords = ['genre', 'CCTV',  '卫视', '影', '剧', '功夫', '惊', '选', '重温']  # 需要提取的关键字列表                                                       ###########
- pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
- #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
- with open('固定源.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:           ###########
-    a.write('\n固定频道,#genre#\n')                                                                        ###########
-    for line in file:                                                                                      ###########
-        if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
-          a.write(line)  # 将该行写入输出文件                                                               ###########
-                                                                                                           ###########
-for line in fileinput.input("a.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("流畅", "")                                                                         ###########
-    line = line.replace("（5.1环绕声）", "-5.1环绕声")                                                        ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符                                                   ###########
-#######################################################################################################################
 
 
 
@@ -529,7 +513,7 @@ for line in fileinput.input("a.txt", inplace=True):  #打开文件，并对其�
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["a.txt", "b.txt", "TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "TW.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -564,7 +548,7 @@ os.remove("df.txt")
 os.remove("ys.txt")
 os.remove("DD.txt")
 os.remove("TW.txt")
-os.remove("a.txt")
+#os.remove("a.txt")
 os.remove("b.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
