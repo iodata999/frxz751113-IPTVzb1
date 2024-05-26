@@ -11,11 +11,11 @@ from datetime import datetime
 
 
     # 读取txt文件内容
-    with open(结果.txt, 'r', encoding='utf-8') as f:
+with open(结果.txt, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # 打开m3u文件并写入内容
-    with open(结果.m3u, 'w', encoding='utf-8') as f:
+with open(结果.m3u, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U\n')
 
         # 初始化genre变量
