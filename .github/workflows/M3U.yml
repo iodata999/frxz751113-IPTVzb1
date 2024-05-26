@@ -1,4 +1,4 @@
-name: M3U
+name: txt▶M3U
 on:
   schedule:
     - cron: '55 */8 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
