@@ -491,7 +491,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 ######################################################################################################################
 with open('固定源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
- keywords = ['genre']  # 需要提取的关键字列表                                                       ###########
+ keywords = ['genre', 'CCTV',  '卫视', '影', '剧', '功夫', '惊', '选', '重温']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('固定源.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:           ###########
