@@ -8,35 +8,40 @@ import threading
 from queue import Queue
 from datetime import datetime
 
+#  获取远程直播源文件
+#url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
+#r = requests.get(url)
+#open('DIYP-v4.txt', 'wb').write(r.content)
 
-def text_to_m3u8_with_genres(input_file, output_file):
-    """Converts a text file with genre sections and media URLs to an M3U8 playlist.
 
-    Args:
-        input_file (str): Path to the input text file.
-        output_file (str): Path to the output M3U8 file.
-    """
+def txt_to_m3u(input_file, output_file):
+    # 读取txt文件内容
+    with open(input_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
 
-    with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
-        outfile.write("#EXTM3U\n")
-        current_genre = None
+    # 打开m3u文件并写入内容
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write('#EXTM3U\n')
 
-        for line in infile:
+        # 初始化genre变量
+        genre = ''
+
+        # 遍历txt文件内容
+        for line in lines:
             line = line.strip()
-            if not line:
-                continue  # Skip empty lines
+            if "," in line:  # 防止文件里面缺失“,”号报错
+                # if line:
+                # 检查是否是genre行
+                channel_name, channel_url = line.split(',', 1)
+                if channel_url == '#genre#':
+                    genre = channel_name
+                    print(genre)
+                else:
+                    # 将频道信息写入m3u文件
+                    f.write(f'#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/{channel_name}.png" group-title="{genre}",{channel_name}\n')
+                    f.write(f'{channel_url}\n')
 
-            if line.startswith("🦄") or line.startswith("👉"):  # Genre line
-                current_genre = line.strip("👉👈,🦄🐯")  # Extract genre
-                continue
 
-            if ',' in line:  # Media line
-                title, media_url = line.split(',', 1)
-                if current_genre:
-                    title = f"{current_genre} - {title}"  # Combine genre and title
-                outfile.write(f"#EXTINF:-1,{title}\n")
-                outfile.write(f"{media_url}\n")
-                
-input_file = '结果.txt'
-output_file = '结果.m3u'
-text_to_m3u8_with_genres(input_file, output_file)
+# 将txt文件转换为m3u文件
+txt_to_m3u('结果.txt', '结果.m3u')
+print(f"成功寫出M3U file")
