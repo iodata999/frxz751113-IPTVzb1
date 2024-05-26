@@ -9,20 +9,34 @@ from queue import Queue
 from datetime import datetime
 
 
-input_file=结果.txt
-output_file=结果.m3u
-echo "#EXTM3U" > "$结果.m3u"
+def text_to_m3u8_with_genres(input_file, output_file):
+    """Converts a text file with genre sections and media URLs to an M3U8 playlist.
 
-# Pętla odczytująca każdą linię z pliku wejściowego
-while IFS= read -r line; do
-    # Wyciągnięcie nazwy streamu i adresu URL
-    stream_name=$(echo "$line" | cut -d$'\t' -f1)
-    stream_url=$(echo "$line" | cut -d$'\t' -f2-)
+    Args:
+        input_file (str): Path to the input text file.
+        output_file (str): Path to the output M3U8 file.
+    """
 
-    # Dodanie wpisu do pliku M3U
-    echo "#EXTINF:-1,$stream_name" >> "$结果.m3u"
-    echo "$stream_url" >> "$结果.m3u"
-done < "$结果.m3u"
+    with open(input_file, 'r', encoding='utf-8') as infile, open(output_file, 'w', encoding='utf-8') as outfile:
+        outfile.write("#EXTM3U\n")
+        current_genre = None
 
-echo "Plik M3U został wygenerowany: $结果.m3u"
-print(f"成功寫出M3U file")
+        for line in infile:
+            line = line.strip()
+            if not line:
+                continue  # Skip empty lines
+
+            if line.startswith("🦄") or line.startswith("👉"):  # Genre line
+                current_genre = line.strip("👉👈,🦄🐯")  # Extract genre
+                continue
+
+            if ',' in line:  # Media line
+                title, media_url = line.split(',', 1)
+                if current_genre:
+                    title = f"{current_genre} - {title}"  # Combine genre and title
+                outfile.write(f"#EXTINF:-1,{title}\n")
+                outfile.write(f"{media_url}\n")
+                
+input_file = '结果.txt'
+output_file = '结果.m3u'
+text_to_m3u8_with_genres(input_file, output_file)
