@@ -565,7 +565,7 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-import java.io.*
+import java.io
 
 public static void main(String[] args)  {
         /**源文件路径*/
