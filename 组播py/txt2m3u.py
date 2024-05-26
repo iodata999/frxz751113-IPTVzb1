@@ -10,7 +10,7 @@ from datetime import datetime
 
 
 
-def txt_to_m3u(结果.txt, 结果.m3u):
+txt_to_m3u(结果.txt, 结果.m3u):
     # 读取txt文件内容
    for line in fileinput.input("结果.txt", inplace=True): 
         lines = f.readlines()
