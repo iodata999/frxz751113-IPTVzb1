@@ -566,8 +566,7 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-results = set(results)   # 去重得到唯一的URL列表
-results = sorted(results)
+
 with open("结果.m3u", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
