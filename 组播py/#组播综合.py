@@ -166,7 +166,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
 
 
 
-#替换某些关键词为便于排序的自定义词####################################################################################################
+#二次替换某些关键词为便于排序的自定义词####################################################################################################
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
     line = line.replace("CCTV-2高清测试", "")
@@ -314,18 +314,8 @@ with open('排序.txt', 'w', encoding='UTF-8') as f:
         f.write(line)
 
 
-#替换自定义词为常规词##########################################################################################################################
+#再次替换自定义词为常规词##########################################################################################################################
 for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("CCTV-1高清测试", "")
-    line = line.replace("CCTV-2高清测试", "")
-    line = line.replace("CCTV-7高清测试", "")
-    line = line.replace("CCTV-10高清测试", "")
-    line = line.replace("中央", "CCTV")
-    line = line.replace("高清", "")
-    line = line.replace("HD", "")
-    line = line.replace("标清", "")
-    line = line.replace("超清", "")
-    line = line.replace("频道", "")
     line = line.replace("-", "")
     line = line.replace(" ", "")
     line = line.replace("CCTW10", "CCTV10")
@@ -341,7 +331,6 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV第一剧场", "第一剧场")
     line = line.replace("CCTV怀旧剧场", "怀旧剧场")
     line = line.replace("IPTV", "")
-    line = line.replace("PLUS", "+")
     line = line.replace("＋", "+")
     line = line.replace("(", "")
     line = line.replace(")", "")
@@ -362,43 +351,6 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("试看", "")
     line = line.replace("测试", "")
     line = line.replace("测试cctv", "CCTV")
-    line = line.replace("CCTV1综合", "CCTV1")
-    line = line.replace("CCTV2财经", "CCTV2")
-    line = line.replace("CCTV3综艺", "CCTV3")
-    line = line.replace("CCTV4国际", "CCTV4")
-    line = line.replace("CCTV4中文国际", "CCTV4")
-    line = line.replace("CCTV4欧洲", "CCTV4")
-    line = line.replace("CCTV5体育", "CCTV5")
-    line = line.replace("CCTV5+体育", "CCTV5+")
-    line = line.replace("CCTV6电影", "CCTV6")
-    line = line.replace("CCTV7军事", "CCTV7")
-    line = line.replace("CCTV7军农", "CCTV7")
-    line = line.replace("CCTV7农业", "CCTV7")
-    line = line.replace("CCTV7国防军事", "CCTV7")
-    line = line.replace("CCTV8电视剧", "CCTV8")
-    line = line.replace("CCTV8纪录", "CCTV9")
-    line = line.replace("CCTV9记录", "CCTV9")
-    line = line.replace("CCTV9纪录", "CCTV9")
-    line = line.replace("CCTV10科教", "CCTV10")
-    line = line.replace("CCTV11戏曲", "CCTV11")
-    line = line.replace("CCTV12社会与法", "CCTV12")
-    line = line.replace("CCTV13新闻", "CCTV13")
-    line = line.replace("CCTV新闻", "CCTV13")
-    line = line.replace("CCTV14少儿", "CCTV14")
-    line = line.replace("央视14少儿", "CCTV14")
-    line = line.replace("CCTV少儿超", "CCTV14")
-    line = line.replace("CCTV15音乐", "CCTV15")
-    line = line.replace("CCTV音乐", "CCTV15")
-    line = line.replace("CCTV16奥林匹克", "CCTV16")
-    line = line.replace("CCTV17农业农村", "CCTV17")
-    line = line.replace("CCTV17军农", "CCTV17")
-    line = line.replace("CCTV17农业", "CCTV17")
-    line = line.replace("CCTV5+体育赛视", "CCTV5+")
-    line = line.replace("CCTV5+赛视", "CCTV5+")
-    line = line.replace("CCTV5+体育赛事", "CCTV5+")
-    line = line.replace("CCTV5+赛事", "CCTV5+")
-    line = line.replace("CCTV5+体育", "CCTV5+")
-    line = line.replace("CCTV5赛事", "CCTV5+")
     line = line.replace("凤凰中文台", "凤凰中文")
     line = line.replace("凤凰资讯台", "凤凰资讯")
     line = line.replace("CCTV4K测试）", "CCTV4")
@@ -406,24 +358,6 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV54K", "CCTV5 4K")
     line = line.replace("CCTV8K", "CCTV 8K")
     line = line.replace("CCTV4K", "CCTV 4K")
-    line = line.replace("上海东方卫视", "上海卫视")
-    line = line.replace("东方卫视", "上海卫视")
-    line = line.replace("内蒙卫视", "内蒙古卫视")
-    line = line.replace("福建东南卫视", "东南卫视")
-    line = line.replace("广东南方卫视", "南方卫视")
-    line = line.replace("湖南金鹰卡通", "金鹰卡通")
-    line = line.replace("炫动卡通", "哈哈炫动")
-    line = line.replace("卡酷卡通", "卡酷少儿")
-    line = line.replace("卡酷动画", "卡酷少儿")
-    line = line.replace("BRTVKAKU少儿", "卡酷少儿")
-    line = line.replace("优曼卡通", "优漫卡通")
-    line = line.replace("优曼卡通", "优漫卡通")
-    line = line.replace("嘉佳卡通", "佳嘉卡通")
-    line = line.replace("世界地理", "地理世界")
-    line = line.replace("CCTV世界地理", "地理世界")
-    line = line.replace("BTV北京卫视", "北京卫视")
-    line = line.replace("BTV冬奥纪实", "冬奥纪实")
-    line = line.replace("东奥纪实", "冬奥纪实")
     line = line.replace("卫视台", "卫视")
     line = line.replace("iHOT", "")
     line = line.replace("湖南电视台", "湖南卫视")
@@ -444,11 +378,11 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:
-    c.write('\n央视频道,#genre#\n')
+with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
+    c.write('\n央视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
-         c.write(line)  # 将该行写入输出文件
+         c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
             
 
 keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
@@ -493,7 +427,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', enco
 
 
 
-######################################################################################################################
+######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
 with open('酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
  keywords = ['CCTV', '卫视', '1080', '重温', '凤凰', '东森', 'genre']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
@@ -515,7 +449,7 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 
 
 
-#  获取远程港澳台直播源文件
+#  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
 url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/TW.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
