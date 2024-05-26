@@ -566,12 +566,6 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-with open("结果.m3u", 'w', encoding='utf-8') as file:
-        channel_counters = {}
-        file.write('#EXTM3U\n')
-if channel_name in result_counter:
-         file.write(f"#EXTINF:-1,{channel_name}\n")
-         file.write(f"{channel_url}\n")
 
 
 
