@@ -570,7 +570,7 @@ with open("结果.txt", "w", encoding="utf-8") as output:
 with open("结果.m3u", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
-    channel_name, channel_url, speed = result
+    channel_name, channel_url = result
     if 'CCTV' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -585,7 +585,7 @@ with open("结果.m3u", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     #file.write('卫视频道,#genre#\n')
-    channel_name, channel_url, speed = result
+    channel_name, channel_url = result
     if '卫视' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -600,8 +600,8 @@ with open("结果.m3u", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     #file.write('其他频道,#genre#\n')
-        channel_name, channel_url, speed = result
-        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
+    channel_name, channel_url = result
+    if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
