@@ -570,8 +570,7 @@ with open("结果.m3u", 'w', encoding='utf-8') as file:
     channel_name = {}
     channel_url = {}
     file.write('#EXTM3U\n')
-    file.write(f"#EXTINF:-1,{channel_name}\n")
-    file.write(f"{channel_url}\n")
+    file.write(f"#EXTINF:-1,（name）\n{url}\n'")
     
 
 
