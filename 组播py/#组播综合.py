@@ -524,7 +524,7 @@ def txt_to_m3u(input_file, output_file):
                     print(genre)
                 else:
                     # 将频道信息写入m3u文件
-                    f.write(f'#EXTINF:-1 tvg-id="channel_name" tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
+                    f.write(f'#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
                     f.write(f'{channel_url}\n')
 
 
