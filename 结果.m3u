@@ -345,65 +345,65 @@ http://222.218.159.177:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid
 http://222.218.159.29:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://222.218.159.29:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="黑莓动画 8M1080" tvg-logo="https://live.fanmingming.com/tv/黑莓动画 8M1080.png" group-title="数字频道",黑莓动画 8M1080
+#EXTINF:-1 tvg-id="黑莓动画" tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="数字频道",黑莓动画
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 tvg-id="古装剧场 8M1080" tvg-logo="https://live.fanmingming.com/tv/古装剧场 8M1080.png" group-title="数字频道",古装剧场 8M1080
+#EXTINF:-1 tvg-id="古装剧场" tvg-logo="https://live.fanmingming.com/tv/古装剧场.png" group-title="数字频道",古装剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-id="未知卫视 8M1080" tvg-logo="https://live.fanmingming.com/tv/未知卫视 8M1080.png" group-title="数字频道",未知卫视 8M1080
+#EXTINF:-1 tvg-id="未知卫视" tvg-logo="https://live.fanmingming.com/tv/未知卫视.png" group-title="数字频道",未知卫视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-id="惊悚悬疑 8M1080" tvg-logo="https://live.fanmingming.com/tv/惊悚悬疑 8M1080.png" group-title="数字频道",惊悚悬疑 8M1080
+#EXTINF:-1 tvg-id="惊悚悬疑" tvg-logo="https://live.fanmingming.com/tv/惊悚悬疑.png" group-title="数字频道",惊悚悬疑
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-id="军事评论 8M1080" tvg-logo="https://live.fanmingming.com/tv/军事评论 8M1080.png" group-title="数字频道",军事评论 8M1080
+#EXTINF:-1 tvg-id="军事评论" tvg-logo="https://live.fanmingming.com/tv/军事评论.png" group-title="数字频道",军事评论
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-id="爱情喜剧 8M1080" tvg-logo="https://live.fanmingming.com/tv/爱情喜剧 8M1080.png" group-title="数字频道",爱情喜剧 8M1080
+#EXTINF:-1 tvg-id="爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/爱情喜剧.png" group-title="数字频道",爱情喜剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
-#EXTINF:-1 tvg-id="精品大剧 8M1080" tvg-logo="https://live.fanmingming.com/tv/精品大剧 8M1080.png" group-title="数字频道",精品大剧 8M1080
+#EXTINF:-1 tvg-id="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="数字频道",精品大剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-id="泰剧剧场 8M1080" tvg-logo="https://live.fanmingming.com/tv/泰剧剧场 8M1080.png" group-title="数字频道",泰剧剧场 8M1080
+#EXTINF:-1 tvg-id="泰剧剧场" tvg-logo="https://live.fanmingming.com/tv/泰剧剧场.png" group-title="数字频道",泰剧剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-id="怡伴健康 8M1080" tvg-logo="https://live.fanmingming.com/tv/怡伴健康 8M1080.png" group-title="数字频道",怡伴健康 8M1080
+#EXTINF:-1 tvg-id="怡伴健康" tvg-logo="https://live.fanmingming.com/tv/怡伴健康.png" group-title="数字频道",怡伴健康
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-#EXTINF:-1 tvg-id="军旅剧场 8M1080" tvg-logo="https://live.fanmingming.com/tv/军旅剧场 8M1080.png" group-title="数字频道",军旅剧场 8M1080
+#EXTINF:-1 tvg-id="军旅剧场" tvg-logo="https://live.fanmingming.com/tv/军旅剧场.png" group-title="数字频道",军旅剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-id="家庭剧场 8M1080" tvg-logo="https://live.fanmingming.com/tv/家庭剧场 8M1080.png" group-title="数字频道",家庭剧场 8M1080
+#EXTINF:-1 tvg-id="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道",家庭剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-id="中国功夫 8M1080" tvg-logo="https://live.fanmingming.com/tv/中国功夫 8M1080.png" group-title="数字频道",中国功夫 8M1080
+#EXTINF:-1 tvg-id="中国功夫" tvg-logo="https://live.fanmingming.com/tv/中国功夫.png" group-title="数字频道",中国功夫
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-id="农业致富 8M1080" tvg-logo="https://live.fanmingming.com/tv/农业致富 8M1080.png" group-title="数字频道",农业致富 8M1080
+#EXTINF:-1 tvg-id="农业致富" tvg-logo="https://live.fanmingming.com/tv/农业致富.png" group-title="数字频道",农业致富
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-id="潮妈辣婆 8M1080" tvg-logo="https://live.fanmingming.com/tv/潮妈辣婆 8M1080.png" group-title="数字频道",潮妈辣婆 8M1080
+#EXTINF:-1 tvg-id="潮妈辣婆" tvg-logo="https://live.fanmingming.com/tv/潮妈辣婆.png" group-title="数字频道",潮妈辣婆
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-id="超级综艺 8M1080" tvg-logo="https://live.fanmingming.com/tv/超级综艺 8M1080.png" group-title="数字频道",超级综艺 8M1080
+#EXTINF:-1 tvg-id="超级综艺" tvg-logo="https://live.fanmingming.com/tv/超级综艺.png" group-title="数字频道",超级综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-id="超级体育 8M1080" tvg-logo="https://live.fanmingming.com/tv/超级体育 8M1080.png" group-title="数字频道",超级体育 8M1080
+#EXTINF:-1 tvg-id="超级体育" tvg-logo="https://live.fanmingming.com/tv/超级体育.png" group-title="数字频道",超级体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-id="超级电影 8M1080" tvg-logo="https://live.fanmingming.com/tv/超级电影 8M1080.png" group-title="数字频道",超级电影 8M1080
+#EXTINF:-1 tvg-id="超级电影" tvg-logo="https://live.fanmingming.com/tv/超级电影.png" group-title="数字频道",超级电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-id="炫舞未来 8M1080" tvg-logo="https://live.fanmingming.com/tv/炫舞未来 8M1080.png" group-title="数字频道",炫舞未来 8M1080
+#EXTINF:-1 tvg-id="炫舞未来" tvg-logo="https://live.fanmingming.com/tv/炫舞未来.png" group-title="数字频道",炫舞未来
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
-#EXTINF:-1 tvg-id="纪实人文 8M1080" tvg-logo="https://live.fanmingming.com/tv/纪实人文 8M1080.png" group-title="数字频道",纪实人文 8M1080
+#EXTINF:-1 tvg-id="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道",纪实人文
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-#EXTINF:-1 tvg-id="东北热剧 8M1080" tvg-logo="https://live.fanmingming.com/tv/东北热剧 8M1080.png" group-title="数字频道",东北热剧 8M1080
+#EXTINF:-1 tvg-id="东北热剧" tvg-logo="https://live.fanmingming.com/tv/东北热剧.png" group-title="数字频道",东北热剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-id="欢乐剧场 8M1080" tvg-logo="https://live.fanmingming.com/tv/欢乐剧场 8M1080.png" group-title="数字频道",欢乐剧场 8M1080
+#EXTINF:-1 tvg-id="欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/欢乐剧场.png" group-title="数字频道",欢乐剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-id="黑莓电影 8M1080" tvg-logo="https://live.fanmingming.com/tv/黑莓电影 8M1080.png" group-title="数字频道",黑莓电影 8M1080
+#EXTINF:-1 tvg-id="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="数字频道",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-id="新闻综合 8M1080" tvg-logo="https://live.fanmingming.com/tv/新闻综合 8M1080.png" group-title="数字频道",新闻综合 8M1080
+#EXTINF:-1 tvg-id="新闻综合" tvg-logo="https://live.fanmingming.com/tv/新闻综合.png" group-title="数字频道",新闻综合
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
-#EXTINF:-1 tvg-id="超级电视剧 8M1080" tvg-logo="https://live.fanmingming.com/tv/超级电视剧 8M1080.png" group-title="数字频道",超级电视剧 8M1080
+#EXTINF:-1 tvg-id="超级电视剧" tvg-logo="https://live.fanmingming.com/tv/超级电视剧.png" group-title="数字频道",超级电视剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-id="动作电影 8M1080" tvg-logo="https://live.fanmingming.com/tv/动作电影 8M1080.png" group-title="数字频道",动作电影 8M1080
+#EXTINF:-1 tvg-id="动作电影" tvg-logo="https://live.fanmingming.com/tv/动作电影.png" group-title="数字频道",动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-id="咪咕全民热练 8M1080" tvg-logo="https://live.fanmingming.com/tv/咪咕全民热练 8M1080.png" group-title="数字频道",咪咕全民热练 8M1080
+#EXTINF:-1 tvg-id="咪咕全民热练" tvg-logo="https://live.fanmingming.com/tv/咪咕全民热练.png" group-title="数字频道",咪咕全民热练
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 tvg-id="咪咕视频 8M1080" tvg-logo="https://live.fanmingming.com/tv/咪咕视频 8M1080.png" group-title="数字频道",咪咕视频 8M1080
+#EXTINF:-1 tvg-id="咪咕视频" tvg-logo="https://live.fanmingming.com/tv/咪咕视频.png" group-title="数字频道",咪咕视频
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-id="咪咕视频 8M1080" tvg-logo="https://live.fanmingming.com/tv/咪咕视频 8M1080.png" group-title="数字频道",咪咕视频 8M1080
+#EXTINF:-1 tvg-id="咪咕视频" tvg-logo="https://live.fanmingming.com/tv/咪咕视频.png" group-title="数字频道",咪咕视频
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#EXTINF:-1 tvg-id="咪咕视频 8M1080" tvg-logo="https://live.fanmingming.com/tv/咪咕视频 8M1080.png" group-title="数字频道",咪咕视频 8M1080
+#EXTINF:-1 tvg-id="咪咕视频" tvg-logo="https://live.fanmingming.com/tv/咪咕视频.png" group-title="数字频道",咪咕视频
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-#EXTINF:-1 tvg-id="咪咕视频 8M1080" tvg-logo="https://live.fanmingming.com/tv/咪咕视频 8M1080.png" group-title="数字频道",咪咕视频 8M1080
+#EXTINF:-1 tvg-id="咪咕视频" tvg-logo="https://live.fanmingming.com/tv/咪咕视频.png" group-title="数字频道",咪咕视频
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
 #EXTINF:-1 tvg-id="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="数字频道",重温经典
 http://ali.hlspull.yximgs.com/live/awei_cwjd.flv

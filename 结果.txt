@@ -175,36 +175,36 @@ CCTV17,http://171.108.239.125:8181/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1
 黑龙江卫视,http://222.218.159.29:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 
 数字频道,#genre#
-黑莓动画 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-古装剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-未知卫视 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-惊悚悬疑 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-军事评论 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-爱情喜剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
-精品大剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-泰剧剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-怡伴健康 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-军旅剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-家庭剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-中国功夫 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-农业致富 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-潮妈辣婆 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-超级综艺 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-超级体育 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-超级电影 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-炫舞未来 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
-纪实人文 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
-东北热剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-欢乐剧场 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-黑莓电影 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-新闻综合 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
-超级电视剧 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-动作电影 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-咪咕全民热练 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-咪咕视频 8M1080,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
+黑莓动画,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
+古装剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
+未知卫视,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
+惊悚悬疑,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
+军事评论,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
+爱情喜剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
+精品大剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
+泰剧剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+怡伴健康,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
+军旅剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
+家庭剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
+中国功夫,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
+农业致富,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
+潮妈辣婆,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
+超级综艺,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
+超级体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
+超级电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
+炫舞未来,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
+纪实人文,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225738/index.m3u8
+东北热剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
+欢乐剧场,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
+黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+新闻综合,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226437/index.m3u8
+超级电视剧,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
+动作电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
+咪咕全民热练,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
+咪咕视频,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
+咪咕视频,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
+咪咕视频,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
+咪咕视频,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 
 
