@@ -176,7 +176,6 @@ CCTV17,http://39.134.65.162/PLTV/88888888/224/3221225708/index.m3u8
 灵石新闻,rtmp://live-stream.lsxrmtzx.com/live/video
 绥江电视台,rtmp://livebroadcast.ccwb.cn/live/w1615172384810938
 福贡综合,rtmp://livebroadcast.ccwb.cn/live/w1612505860303999
-生活,rtmp://live.sfrmt.com/live/zhpd
 黑水电视台,rtmp://live.schstv.com/live/xwzh
 泉州一台,rtmp://live.qztv.cn/live/news
 泉州四台,rtmp://live.qztv.cn/live/mny
@@ -189,16 +188,16 @@ CCTV17,http://39.134.65.162/PLTV/88888888/224/3221225708/index.m3u8
 邯郸综合,rtmp://jwliveqxzb.hebyun.com.cn/hdxwzh/hdxwzh
 邯郸科技教育,rtmp://jwliveqxzb.hebyun.com.cn/hdkj/hdkj
 邯郸公共,rtmp://jwliveqxzb.hebyun.com.cn/hdgg/hdgg
-锦湖,rtmp://jinhu-tv-hls.cm.jstv.com/jinhu-tv/jinhuzh
-江宁,rtmp://jiangning-tv-hls.cm.jstv.com/jiangning-tv/jnxwzh
+锦湖综合,rtmp://jinhu-tv-hls.cm.jstv.com/jinhu-tv/jinhuzh
+江宁综合,rtmp://jiangning-tv-hls.cm.jstv.com/jiangning-tv/jnxwzh
 海安,rtmp://haian-tv-hls.cm.jstv.com/haian-tv/haaxwzh
 贵溪综合,rtmp://guixibc.jxshiju.com/live/guixi
-高邮,rtmp://gaoyou-tv-hls.cm.jstv.com/gaoyou-tv/gaoyouxw
+高邮一台,rtmp://gaoyou-tv-hls.cm.jstv.com/gaoyou-tv/gaoyouxw
 长子综合,rtmp://zzlive.zzc-media.com/live/xwzh
 镇江新闻,rtmp://zjtv-wshls.homecdn.com/live/2aa50
 镇江公共,rtmp://zjtv-wshls.homecdn.com/live/2aa16
 贺州综合,rtmp://zhz.gxhzxw.com:2935/live/HZXW-HD
-响水,rtmp://xiangshui-tv-hls.cm.jstv.com/xiangshui-tv/xiangshuizh
+响水综合,rtmp://xiangshui-tv-hls.cm.jstv.com/xiangshui-tv/xiangshuizh
 文山新闻,rtmp://tvdrs.wsrtv.com.cn:5040/channellive/ch1
 剑阁新闻,rtmp://tv.scjgtv.cn/channellive/jgzhpd
 黔南二台,rtmp://tv.qntv.net/channellive/ch2
@@ -217,8 +216,9 @@ CCTV17,http://39.134.65.162/PLTV/88888888/224/3221225708/index.m3u8
 达川生活,rtmp://tv.drs.dzxw.net/channellive/ggpd-dz2
 包头综合,rtmp://test5.btzx.com.cn/live/kkdl.stream
 新闻,rtmp://test5.btzx.com.cn/live/13TV.stream
-宿豫,rtmp://suyu-tv-hls.cm.jstv.com/suyu-tv/syzhpd
-泗阳,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx
-泗阳,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh
-沭阳,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
+生活,rtmp://live.sfrmt.com/live/zhpd
+宿豫综合,rtmp://suyu-tv-hls.cm.jstv.com/suyu-tv/syzhpd
+泗阳资讯,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx
+泗阳综合,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh
+沭阳综合,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
 
