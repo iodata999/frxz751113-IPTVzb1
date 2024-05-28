@@ -474,7 +474,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/%E9%BB%91%E9%BE%99%E6%B1%9F.txt"          #源采集地址
 r = requests.get(url)
 open('黑龙江.txt','wb').write(r.content)         #打开源文件并临时写入
-keywords = ['live21', 'live.', 'hlsplay']  # 需要提取的关键字列表 8M1080
+keywords = ['live21', 'live', 'hlsplay']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:
@@ -484,7 +484,7 @@ with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', en
           d.write(line)  # 将该行写入输出文件
             
 for line in fileinput.input("d.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("﻿[1920*1080]", "")                         #编辑替换字
+    line = line.replace("[1920*1080]", "")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
