@@ -485,6 +485,7 @@ with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', en
             
 for line in fileinput.input("d.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("[1920*1080]", "")                         #编辑替换字
+    line = line.replace("[1280*720]", "")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
