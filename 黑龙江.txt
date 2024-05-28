@@ -168,7 +168,7 @@ CCTV17,http://39.134.65.162/PLTV/88888888/224/3221225708/index.m3u8
 恩施新闻综合.http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1812.m3u8
 恩施文旅[1280*720],http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1811.m3u8
 
-地方频道,#genre#
+地波频道,#genre#
 叙州,rtmp://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597
 崇明,rtmp://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee
 古交,rtmp://pili-live-hls.189.i2863.com/i2863-189/live_189_170656
