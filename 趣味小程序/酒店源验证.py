@@ -13,7 +13,7 @@ import replace
 import fileinput
 import eventlet
 
-with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+with open("1.txt", 'r', encoding='utf-8') as file:
 
 
  eventlet.monkey_patch()
@@ -27,7 +27,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("iptvsearch/1.txt", 'r', encoding='utf-8') as file:
+with open("1.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -50,11 +50,11 @@ def worker():
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
 
             # 多获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(15, False):  #################////////////////////////////////
+            with eventlet.Timeout(300, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
-                response_time = (end_time - start_time) * 0.5
+                response_time = (end_time - start_time) * 0.1
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
