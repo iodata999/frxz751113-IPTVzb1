@@ -470,12 +470,28 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
+#  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/%E9%BB%91%E9%BE%99%E6%B1%9F.txt"          #源采集地址
+r = requests.get(url)
+open('黑龙江.txt','wb').write(r.content)         #打开源文件并临时写入
+keywords = ['live21', 'live.', 'hlsplay']  # 需要提取的关键字列表 8M1080
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:
+    d.write('\n湖北频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          d.write(line)  # 将该行写入输出文件
+            
+for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
+    line = line.replace("﻿[1920*1080]", "")                         #编辑替换字
+    print(line, end="")                                     #加入此行去掉多余的转行符
 
 
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "a.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "a.txt", "d.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -546,6 +562,7 @@ os.remove("TW.txt")
 os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
+os.remove("d.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
