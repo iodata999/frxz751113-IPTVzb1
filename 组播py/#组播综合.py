@@ -339,7 +339,6 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("北美", "")
     line = line.replace("12M", "")
     line = line.replace("一一", "")
-    line = line.replace("A", "")
     line = line.replace("高清测试(CCTV-1", "")
     line = line.replace("高清测试(CCTV-2", "")
     line = line.replace("高清测试(CCTV-7", "")
