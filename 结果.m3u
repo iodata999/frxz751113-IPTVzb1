@@ -4061,51 +4061,51 @@ http://59.39.185.18:8000/rtp/239.77.0.93:5146
 http://59.39.185.18:8000/rtp/239.77.1.179:5146
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视频道",黑龙江卫视
 http://59.39.185.18:8000/rtp/239.77.1.6:5146
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://110.191.244.140:9977/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://110.191.244.189:9977/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://118.112.63.32:9977/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://118.113.159.210:4022/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://125.71.150.56:4040/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC动作电影" tvg-logo="https://live.fanmingming.com/tv/AACHC动作电影.png" group-title="影视频道",AACHC动作电影
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://125.71.150.67:4040/rtp/239.93.42.7:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://110.191.244.140:9977/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://110.191.244.189:9977/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://118.112.63.32:9977/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://118.113.159.210:4022/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://125.71.150.56:4040/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/AACHC家庭影院.png" group-title="影视频道",AACHC家庭影院
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="影视频道",CHC家庭影院
 http://125.71.150.67:4040/rtp/239.93.42.6:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://110.191.244.140:9977/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://110.191.244.189:9977/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://118.112.63.32:9977/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://118.113.159.210:4022/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://125.71.150.56:4040/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AACHC高清电影" tvg-logo="https://live.fanmingming.com/tv/AACHC高清电影.png" group-title="影视频道",AACHC高清电影
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="影视频道",CHC高清电影
 http://125.71.150.67:4040/rtp/239.93.42.5:5140
-#EXTINF:-1 tvg-id="AA湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/AA湖南娱乐.png" group-title="影视频道",AA湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="影视频道",湖南娱乐
 http://118.249.22.160:9999/rtp/239.76.253.105:9000
-#EXTINF:-1 tvg-id="AA湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/AA湖南娱乐.png" group-title="影视频道",AA湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="影视频道",湖南娱乐
 http://118.249.22.163:9999/rtp/239.76.253.105:9000
-#EXTINF:-1 tvg-id="AA湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/AA湖南娱乐.png" group-title="影视频道",AA湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="影视频道",湖南娱乐
 http://118.249.22.164:9999/rtp/239.76.253.105:9000
-#EXTINF:-1 tvg-id="AA湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/AA湖南娱乐.png" group-title="影视频道",AA湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="影视频道",湖南娱乐
 http://118.254.150.229:9988/rtp/239.76.253.105:9000
-#EXTINF:-1 tvg-id="AA湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/AA湖南娱乐.png" group-title="影视频道",AA湖南娱乐
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="影视频道",湖南娱乐
 http://58.46.249.195:4022/rtp/239.76.253.105:9000
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="影视频道",CHC动作电影
 http://118.249.22.160:9999/rtp/239.76.252.243:9000
