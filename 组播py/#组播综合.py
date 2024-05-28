@@ -379,7 +379,7 @@ keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CC
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
-    c.write('\n央视频道'自动更新,#genre#\n')                                                                  #####写入临时文件名
+    c.write('\n央视频道/自动更新,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
@@ -389,7 +389,7 @@ keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', encoding='utf-8') as ws:
-    ws.write('\n卫视频道'自动更新,#genre#\n')
+    ws.write('\n卫视频道/自动更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
@@ -399,7 +399,7 @@ keywords = ['AA', 'CHC', '风云', '兵器', 'SCTV', 'CDTV']  # 需要提取的�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
-    e.write('\n渣货频道'自动更新,#genre#\n')                                                                  #####写入临时文件名
+    e.write('\n渣货频道/自动更新,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
@@ -416,7 +416,7 @@ keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
-    DD.write('\n4K频道'自动更新,#genre#\n')
+    DD.write('\n4K频道/自动更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
@@ -431,7 +431,7 @@ keywords = ['CHC', '影院', '剧场', '娱乐', '淘', '爱']  # 需要提取�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
-    ys.write('\n影视频道'自动更新,#genre#\n')
+    ys.write('\n影视频道/自动更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           ys.write(line)  # 将该行写入输出文件
@@ -447,7 +447,7 @@ keywords = ['新闻', '综合', '公共']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
-    df.write('\n地方频道'自动更新,#genre#\n')
+    df.write('\n地方频道/自动更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
@@ -494,7 +494,7 @@ open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 #pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    a.write('\n港澳频道'固定源,#genre#\n')
+    a.write('\n港澳频道/固定源,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           a.write(line)  # 将该行写入输出文件
@@ -511,7 +511,7 @@ keywords = ['地波1080,#genre#', 'live', 'hls']  # 需要提取的关键字列�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:
-    d.write('\n湖北频道'固定源,#genre#\n')
+    d.write('\n湖北频道/固定源,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           d.write(line)  # 将该行写入输出文件
