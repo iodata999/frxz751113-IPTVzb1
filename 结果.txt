@@ -331,6 +331,7 @@ TVBS歡樂台,http://23.224.232.221:81/kk.php?id=tvbshuanle_twn
 随州农村,http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_305.m3u8?auth_key=4834621829-0-0-49c63c7de26b595a9177e498db618f79&extra_key=xQtKveJFBYYdE5xPP5Qc5y3qlfhlj-BcHOcbWxez9NxCHHoFi0Lp44BN8aqi2_k9URCU-rsf8mQz8CYifgEaMzixzi63CT1KgCDexQ0cD5X0e0lUMZaQy0DMOXcFpW1Cf9zn7psgSNcUQiA2OGcxi7TXk-_FyDGcu767szWh8SQJ0Vr0uNRbiqE2jzk7ICiX
 恩施新闻综合.http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1812.m3u8
 恩施文旅,http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1811.m3u8
+地波1080/固定源,#genre#
 叙州综合,rtmp://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597
 崇明电视台,rtmp://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee
 古交电视台,rtmp://pili-live-hls.189.i2863.com/i2863-189/live_189_170656
