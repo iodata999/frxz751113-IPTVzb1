@@ -474,7 +474,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/%E9%BB%91%E9%BE%99%E6%B1%9F.txt"          #源采集地址
 r = requests.get(url)
 open('黑龙江.txt','wb').write(r.content)         #打开源文件并临时写入
-keywords = ['地波1080,#genre#', 'live', 'hlsplay']  # 需要提取的关键字列表 8M1080
+keywords = ['地波1080,#genre#', 'live', 'hls']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:
