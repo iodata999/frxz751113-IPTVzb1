@@ -17,7 +17,7 @@ import fileinput
 
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "湖北电信.txt", "湖南电信.txt", "安徽电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "湖南电信.txt", "安徽电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -360,6 +360,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV4K", "CCTV 4K")
     line = line.replace("卫视台", "卫视")
     line = line.replace("iHOT", "")
+    line = line.replace("CHC电影", "CHC高清电影")
     line = line.replace("湖南电视台", "湖南卫视")
     line = line.replace("少儿科教", "少儿")
     line = line.replace("TV星河2）", "星河")
@@ -564,6 +565,7 @@ os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
 os.remove("d.txt")
+os.remove("黑龙江.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
