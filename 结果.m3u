@@ -593,11 +593,11 @@ http://23.224.232.221:81/kk.php?id=lungxiangtime_twn
 http://stream.appwuhan.com/jyzb/sd/live.m3u8
 #EXTINF:-1 tvg-id="武汉新闻[1280*720]" tvg-logo="https://live.fanmingming.com/tv/武汉新闻[1280*720].png" group-title="湖北频道",武汉新闻[1280*720]
 http://stream.appwuhan.com/1tzb/sd/live.m3u8
-#EXTINF:-1 tvg-id="崇阳综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/崇阳综合[1920*1080].png" group-title="湖北频道",崇阳综合[1920*1080]
+#EXTINF:-1 tvg-id="崇阳综合" tvg-logo="https://live.fanmingming.com/tv/崇阳综合.png" group-title="湖北频道",崇阳综合
 http://61.184.176.248:10500/live/live.m3u8
-#EXTINF:-1 tvg-id="黄冈新闻[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/黄冈新闻[1920*1080].png" group-title="湖北频道",黄冈新闻[1920*1080]
+#EXTINF:-1 tvg-id="黄冈新闻" tvg-logo="https://live.fanmingming.com/tv/黄冈新闻.png" group-title="湖北频道",黄冈新闻
 http://huanggang-live21.cjyun.org/10210/s10210-xwzh.m3u8?auth_key=1735660799-0-0-d97fed8905fc6066ed8fa063e40b13c0
-#EXTINF:-1 tvg-id="黄冈公共[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/黄冈公共[1920*1080].png" group-title="湖北频道",黄冈公共[1920*1080]
+#EXTINF:-1 tvg-id="黄冈公共" tvg-logo="https://live.fanmingming.com/tv/黄冈公共.png" group-title="湖北频道",黄冈公共
 http://huanggang-live21.cjyun.org/10210/s10210-xwgg.m3u8?auth_key=1735660799-0-0-39c6d712b6337fbdefe84e2d22e34513
 #EXTINF:-1 tvg-id="红安综合[1280*720]" tvg-logo="https://live.fanmingming.com/tv/红安综合[1280*720].png" group-title="湖北频道",红安综合[1280*720]
 https://hongan-live21.cjyun.org/10063/s10063-HAZH.m3u8?auth_key=1735660799-0-0-72da7166f8c3751c49c5feb5b24b54b8
@@ -611,13 +611,13 @@ http://xianning-live21.cjyun.org/10140/s10140-XNGG.m3u8?auth_key=1735660799-0-0-
 http://jiayu-live21.cjyun.org/10131/s10131-jyzh.m3u8?auth_key=1735660799-0-0-05395acf38fa1497c0985dcb4c329c0b
 #EXTINF:-1 tvg-id="通山综合[1024*576]" tvg-logo="https://live.fanmingming.com/tv/通山综合[1024*576].png" group-title="湖北频道",通山综合[1024*576]
 http://tongshan-live21.cjyun.org/10134/s10134-TONGSHAN-live.m3u8?auth_key=1735660799-0-0-aa195babe014c73b2e4f423d1ae4622f
-#EXTINF:-1 tvg-id="孝感新闻综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/孝感新闻综合[1920*1080].png" group-title="湖北频道",孝感新闻综合[1920*1080]
+#EXTINF:-1 tvg-id="孝感新闻综合" tvg-logo="https://live.fanmingming.com/tv/孝感新闻综合.png" group-title="湖北频道",孝感新闻综合
 http://xiaogan-live21.cjyun.org/10139/s10139-xg.m3u8?auth_key=1735660799-0-0-c66126a1e65c45cfa675dd5f16914315
-#EXTINF:-1 tvg-id="孝感生活[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/孝感生活[1920*1080].png" group-title="湖北频道",孝感生活[1920*1080]
+#EXTINF:-1 tvg-id="孝感生活" tvg-logo="https://live.fanmingming.com/tv/孝感生活.png" group-title="湖北频道",孝感生活
 http://xiaogan-live21.cjyun.org/10139/s10139-xg.m3u8?auth_key=1735660799-0-0-c66126a1e65c45cfa675dd5f16914315
-#EXTINF:-1 tvg-id="孝昌新闻党建[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/孝昌新闻党建[1920*1080].png" group-title="湖北频道",孝昌新闻党建[1920*1080]
+#EXTINF:-1 tvg-id="孝昌新闻党建" tvg-logo="https://live.fanmingming.com/tv/孝昌新闻党建.png" group-title="湖北频道",孝昌新闻党建
 http://xiaochang-live21.cjyun.org/10128/s10128-xcxw.m3u8?auth_key=1735660799-0-0-886396e7a9ce6f90ecdbfdf669624539
-#EXTINF:-1 tvg-id="大悟综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/大悟综合[1920*1080].png" group-title="湖北频道",大悟综合[1920*1080]
+#EXTINF:-1 tvg-id="大悟综合" tvg-logo="https://live.fanmingming.com/tv/大悟综合.png" group-title="湖北频道",大悟综合
 http://yunshangdawu-live21.cjyun.org/10129/s10129-dwzhpd.m3u8?auth_key=1735660799-0-0-b1bf1625df01ea7dabc97bf7aa7f253d
 #EXTINF:-1 tvg-id="荆州新闻[1280*720]" tvg-logo="https://live.fanmingming.com/tv/荆州新闻[1280*720].png" group-title="湖北频道",荆州新闻[1280*720]
 http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv01.m3u8?auth_key=1735660799-0-0-e0477d4b5bc584e7518a1bde13892cbe
@@ -627,9 +627,9 @@ http://jingzhou-live21.cjyun.org/10085/s10085-jingzhou-tv03.m3u8?auth_key=173566
 http://songzi-live21.cjyun.org/10194/s10194-songzi-tv1.m3u8?auth_key=1735660799-0-0-a380e59865129a39561528ada31d0e63
 #EXTINF:-1 tvg-id="洪湖综合[854*480]" tvg-logo="https://live.fanmingming.com/tv/洪湖综合[854*480].png" group-title="湖北频道",洪湖综合[854*480]
 http://honghu-live21.cjyun.org/10087/s10087-0823-HONGHUTV01.m3u8?auth_key=1735660799-0-0-ee46a4c41ab551c99632c3762df4d7a0
-#EXTINF:-1 tvg-id="钟祥综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/钟祥综合[1920*1080].png" group-title="湖北频道",钟祥综合[1920*1080]
+#EXTINF:-1 tvg-id="钟祥综合" tvg-logo="https://live.fanmingming.com/tv/钟祥综合.png" group-title="湖北频道",钟祥综合
 http://zhongxiang-live21.cjyun.org/10103/s10103-zxtv.m3u8?auth_key=1735660799-0-0-bffe4fb8f0bb7142075cb559396d23cc
-#EXTINF:-1 tvg-id="谷城综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/谷城综合[1920*1080].png" group-title="湖北频道",谷城综合[1920*1080]
+#EXTINF:-1 tvg-id="谷城综合" tvg-logo="https://live.fanmingming.com/tv/谷城综合.png" group-title="湖北频道",谷城综合
 http://gucheng-live21.cjyun.org/10116/s10116-GCTV1.m3u8?auth_key=1735660799-0-0-54db49cb2f7940e29d9dfceb9747b0af
 #EXTINF:-1 tvg-id="宜昌综合[800*450]" tvg-logo="https://live.fanmingming.com/tv/宜昌综合[800*450].png" group-title="湖北频道",宜昌综合[800*450]
 http://yichang-live21.cjyun.org/10091/10091-yczh.m3u8?auth_key=1735660799-0-0-152a9f6a201d7d56428feae52d4b18b8
@@ -641,23 +641,23 @@ http://changyang-live21.cjyun.org/10114/s10114-cy1t.m3u8?auth_key=1735660799-0-0
 http://yuanan-live21.cjyun.org/10106/s10106-yatv.m3u8?auth_key=1735660799-0-0-fdcac90185009731b8e6f51f180ed7b4
 #EXTINF:-1 tvg-id="当阳电视台[1280*720]" tvg-logo="https://live.fanmingming.com/tv/当阳电视台[1280*720].png" group-title="湖北频道",当阳电视台[1280*720]
 http://dangyang-live21.cjyun.org/10118/s10118-DYZH.m3u8?auth_key=1735660799-0-0-f8e56d713bf81af226bae8057d9a1bad
-#EXTINF:-1 tvg-id="秭归综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/秭归综合[1920*1080].png" group-title="湖北频道",秭归综合[1920*1080]
+#EXTINF:-1 tvg-id="秭归综合" tvg-logo="https://live.fanmingming.com/tv/秭归综合.png" group-title="湖北频道",秭归综合
 http://zigui-live21.cjyun.org/10111/s10111-ZGTV1.m3u8?auth_key=1735660799-0-0-e80e38a154f9ea053e26d2ff5038530a
 #EXTINF:-1 tvg-id="五峰电视台[960*540]" tvg-logo="https://live.fanmingming.com/tv/五峰电视台[960*540].png" group-title="湖北频道",五峰电视台[960*540]
 http://wufeng-live21.cjyun.org/10112/s10112-wffm.m3u8?auth_key=1735660799-0-0-6e0f896e48713ad894a3b35b92780628
-#EXTINF:-1 tvg-id="枝江综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/枝江综合[1920*1080].png" group-title="湖北频道",枝江综合[1920*1080]
+#EXTINF:-1 tvg-id="枝江综合" tvg-logo="https://live.fanmingming.com/tv/枝江综合.png" group-title="湖北频道",枝江综合
 http://zhijiang-live21.cjyun.org/10120/s10120-zjtv.m3u8?auth_key=1735660799-0-0-fd9715217b53a31e92b5d42d24438b4a
-#EXTINF:-1 tvg-id="来凤综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/来凤综合[1920*1080].png" group-title="湖北频道",来凤综合[1920*1080]
+#EXTINF:-1 tvg-id="来凤综合" tvg-logo="https://live.fanmingming.com/tv/来凤综合.png" group-title="湖北频道",来凤综合
 http://laifeng-live21.cjyun.org/10099/s10099-lftv01.m3u8?auth_key=1735660799-0-0-b92e243bcdd451ba46874699b392247e
-#EXTINF:-1 tvg-id="鄂州新闻综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/鄂州新闻综合[1920*1080].png" group-title="湖北频道",鄂州新闻综合[1920*1080]
+#EXTINF:-1 tvg-id="鄂州新闻综合" tvg-logo="https://live.fanmingming.com/tv/鄂州新闻综合.png" group-title="湖北频道",鄂州新闻综合
 http://ezhou-live21.cjyun.org/10098/s10098-EZ1T.m3u8?auth_key=1735660799-0-0-d737b8c7fad391cc6187d35123baff28
-#EXTINF:-1 tvg-id="鄂州公共[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/鄂州公共[1920*1080].png" group-title="湖北频道",鄂州公共[1920*1080]
+#EXTINF:-1 tvg-id="鄂州公共" tvg-logo="https://live.fanmingming.com/tv/鄂州公共.png" group-title="湖北频道",鄂州公共
 http://ezhou-live21.cjyun.org/10098/s10098-EZ2T.m3u8?auth_key=1735660799-0-0-6deee5ef6d55cce1a924b7c14a999a69
 #EXTINF:-1 tvg-id="广水新闻[768*576]" tvg-logo="https://live.fanmingming.com/tv/广水新闻[768*576].png" group-title="湖北频道",广水新闻[768*576]
 http://guangshui-live21.cjyun.org/10146/s10146-GSXW.m3u8?auth_key=1735660799-0-0-c7c7082aa48ecb78ed13d8a4a9b45acc
-#EXTINF:-1 tvg-id="随州综合[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/随州综合[1920*1080].png" group-title="湖北频道",随州综合[1920*1080]
+#EXTINF:-1 tvg-id="随州综合" tvg-logo="https://live.fanmingming.com/tv/随州综合.png" group-title="湖北频道",随州综合
 http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_304.m3u8?auth_key=4836074354-0-0-d3ae3e237ae5fdaa7e72d8b930ff507b&extra_key=q_KhUzRNviTQMw35AK7VUOsxUuO3fkLbRbWjHBywJErK0zgP7mqTsFvo50t7UieqiF-pvnPCIMJa5QdRQ1gLPBYWz9HOG7TAdI5vRG232V88z98QUcOS1P6iUQbACyEaoEVKLRe_Am23Ezeahvwg0pDBetjQHrLPx7P8mro2vqw15rvUQKLSF-HBByajerez
-#EXTINF:-1 tvg-id="随州农村[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/随州农村[1920*1080].png" group-title="湖北频道",随州农村[1920*1080]
+#EXTINF:-1 tvg-id="随州农村" tvg-logo="https://live.fanmingming.com/tv/随州农村.png" group-title="湖北频道",随州农村
 http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_305.m3u8?auth_key=4834621829-0-0-49c63c7de26b595a9177e498db618f79&extra_key=xQtKveJFBYYdE5xPP5Qc5y3qlfhlj-BcHOcbWxez9NxCHHoFi0Lp44BN8aqi2_k9URCU-rsf8mQz8CYifgEaMzixzi63CT1KgCDexQ0cD5X0e0lUMZaQy0DMOXcFpW1Cf9zn7psgSNcUQiA2OGcxi7TXk-_FyDGcu767szWh8SQJ0Vr0uNRbiqE2jzk7ICiX
 #EXTINF:-1 tvg-id="恩施文旅[1280*720]" tvg-logo="https://live.fanmingming.com/tv/恩施文旅[1280*720].png" group-title="湖北频道",恩施文旅[1280*720]
 http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1811.m3u8
