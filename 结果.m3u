@@ -4063,72 +4063,708 @@ http://171.88.120.111:9999/rtp/239.93.42.33:5140
 http://171.88.140.128:4000/rtp/239.93.42.33:5140
 #EXTINF:-1 tvg-id="绚影4K" tvg-logo="https://live.fanmingming.com/tv/绚影4K.png" group-title="4K频道",绚影4K
 http://182.138.86.199:9999/rtp/239.93.42.33:5140
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://118.249.22.160:9999/rtp/239.76.252.243:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://118.249.22.163:9999/rtp/239.76.252.243:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://118.249.22.164:9999/rtp/239.76.252.243:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://118.254.150.229:9988/rtp/239.76.252.243:9000
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://171.88.120.111:9999/rtp/239.93.42.7:5140
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://171.88.140.128:4000/rtp/239.93.42.7:5140
+#EXTINF:-1 tvg-id="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="渣货频道",CHC动作电影
+http://182.138.86.199:9999/rtp/239.93.42.7:5140
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://118.249.22.160:9999/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://118.249.22.163:9999/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://118.249.22.164:9999/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://118.254.150.229:9988/rtp/239.76.252.241:9000
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://171.88.120.111:9999/rtp/239.93.42.6:5140
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://171.88.140.128:4000/rtp/239.93.42.6:5140
+#EXTINF:-1 tvg-id="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="渣货频道",CHC家庭影院
+http://182.138.86.199:9999/rtp/239.93.42.6:5140
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://113.103.253.120:10000/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://113.103.253.120:9999/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://113.93.49.211:10000/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://118.249.22.160:9999/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://118.249.22.163:9999/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://118.249.22.164:9999/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://118.254.150.229:9988/rtp/239.76.252.242:9000
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://171.88.120.111:9999/rtp/239.93.42.5:5140
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://171.88.140.128:4000/rtp/239.93.42.5:5140
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://182.138.86.199:9999/rtp/239.93.42.5:5140
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://183.54.208.159:9999/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://183.54.208.30:9999/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://183.54.209.236:9999/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="渣货频道",CHC高清电影
+http://183.54.209.54:9999/rtp/239.77.0.27:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:10000/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:10000/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:10000/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:10000/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:9999/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:9999/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:9999/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.103.253.120:9999/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.93.49.211:10000/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.93.49.211:10000/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.93.49.211:10000/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://113.93.49.211:10000/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://114.98.161.107:2000/rtp/238.1.78.160:7152
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://117.69.51.48:8888/rtp/238.1.78.160:7152
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.160:9999/rtp/239.76.252.115:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.160:9999/rtp/239.76.253.101:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.163:9999/rtp/239.76.252.115:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.163:9999/rtp/239.76.253.101:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.164:9999/rtp/239.76.252.115:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.249.22.164:9999/rtp/239.76.253.101:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.254.150.229:9988/rtp/239.76.252.115:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://118.254.150.229:9988/rtp/239.76.253.101:9000
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://171.88.120.111:9999/rtp/239.93.0.88:5140
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://171.88.140.128:4000/rtp/239.93.0.88:5140
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://182.138.86.199:9999/rtp/239.93.0.88:5140
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.159:9999/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.159:9999/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.159:9999/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.159:9999/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.30:9999/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.30:9999/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.30:9999/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.208.30:9999/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.236:9999/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.236:9999/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.236:9999/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.236:9999/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.54:9999/rtp/239.77.0.127:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.54:9999/rtp/239.77.0.88:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.54:9999/rtp/239.77.1.129:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://183.54.209.54:9999/rtp/239.77.1.5:5146
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://220.178.184.50:4000/rtp/238.1.78.160:7152
+#EXTINF:-1 tvg-id="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="渣货频道",湖南卫视
+http://60.169.113.70:4200/rtp/238.1.78.160:7152
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:10000/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:10000/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:10000/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:9999/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:9999/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.103.253.120:9999/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.93.49.211:10000/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.93.49.211:10000/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://113.93.49.211:10000/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://114.98.161.107:2000/rtp/238.1.78.150:7072
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://114.98.161.107:2000/rtp/238.1.79.27:4328
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://117.69.51.48:8888/rtp/238.1.78.150:7072
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://117.69.51.48:8888/rtp/238.1.79.27:4328
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://118.249.22.160:9999/rtp/239.76.252.196:9000
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://118.249.22.163:9999/rtp/239.76.252.196:9000
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://118.249.22.164:9999/rtp/239.76.252.196:9000
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://118.254.150.229:9988/rtp/239.76.252.196:9000
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.159:9999/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.159:9999/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.159:9999/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.30:9999/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.30:9999/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.208.30:9999/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.236:9999/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.236:9999/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.236:9999/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.54:9999/rtp/239.77.0.183:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.54:9999/rtp/239.77.1.157:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://183.54.209.54:9999/rtp/239.77.1.92:5146
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://220.178.184.50:4000/rtp/238.1.78.150:7072
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://220.178.184.50:4000/rtp/238.1.79.27:4328
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://60.169.113.70:4200/rtp/238.1.78.150:7072
-#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="地方频道",安徽卫视
+#EXTINF:-1 tvg-id="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="渣货频道",安徽卫视
 http://60.169.113.70:4200/rtp/238.1.79.27:4328
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.103.253.120:10000/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.103.253.120:10000/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.103.253.120:9999/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.103.253.120:9999/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.93.49.211:10000/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://113.93.49.211:10000/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://114.98.161.107:2000/rtp/238.1.79.62:4632
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://117.69.51.48:8888/rtp/238.1.79.62:4632
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://118.249.22.160:9999/rtp/239.76.254.50:9000
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://118.249.22.163:9999/rtp/239.76.254.50:9000
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://118.249.22.164:9999/rtp/239.76.254.50:9000
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://118.254.150.229:9988/rtp/239.76.254.50:9000
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://171.88.120.111:9999/rtp/239.93.1.156:5140
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://171.88.140.128:4000/rtp/239.93.1.156:5140
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://182.138.86.199:9999/rtp/239.93.1.156:5140
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.208.159:9999/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.208.159:9999/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.208.30:9999/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.208.30:9999/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.209.236:9999/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.209.236:9999/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.209.54:9999/rtp/239.253.43.16:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://183.54.209.54:9999/rtp/239.253.43.26:5146
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://220.178.184.50:4000/rtp/238.1.79.62:4632
+#EXTINF:-1 tvg-id="风云剧场" tvg-logo="https://live.fanmingming.com/tv/风云剧场.png" group-title="渣货频道",风云剧场
+http://60.169.113.70:4200/rtp/238.1.79.62:4632
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://113.103.253.120:10000/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://113.103.253.120:9999/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://113.93.49.211:10000/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://171.88.120.111:9999/rtp/239.93.0.235:5140
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://171.88.140.128:4000/rtp/239.93.0.235:5140
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://182.138.86.199:9999/rtp/239.93.0.235:5140
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://183.54.208.159:9999/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://183.54.208.30:9999/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://183.54.209.236:9999/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="渣货频道",风云足球
+http://183.54.209.54:9999/rtp/239.253.43.14:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.103.253.120:10000/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.103.253.120:10000/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.103.253.120:9999/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.103.253.120:9999/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.93.49.211:10000/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://113.93.49.211:10000/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.208.159:9999/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.208.159:9999/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.208.30:9999/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.208.30:9999/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.209.236:9999/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.209.236:9999/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.209.54:9999/rtp/239.253.43.29:5146
+#EXTINF:-1 tvg-id="风云音乐" tvg-logo="https://live.fanmingming.com/tv/风云音乐.png" group-title="渣货频道",风云音乐
+http://183.54.209.54:9999/rtp/239.253.43.6:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.103.253.120:10000/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.103.253.120:10000/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.103.253.120:9999/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.103.253.120:9999/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.93.49.211:10000/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://113.93.49.211:10000/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://171.88.120.111:9999/rtp/239.93.1.235:5140
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://171.88.140.128:4000/rtp/239.93.1.235:5140
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://182.138.86.199:9999/rtp/239.93.1.235:5140
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.208.159:9999/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.208.159:9999/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.208.30:9999/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.208.30:9999/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.209.236:9999/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.209.236:9999/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.209.54:9999/rtp/239.253.43.18:5146
+#EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
+http://183.54.209.54:9999/rtp/239.253.43.9:5146
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="渣货频道",安徽公共
+http://114.98.161.107:2000/rtp/238.1.79.43:4456
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="渣货频道",安徽公共
+http://117.69.51.48:8888/rtp/238.1.79.43:4456
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="渣货频道",安徽公共
+http://220.178.184.50:4000/rtp/238.1.79.43:4456
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="渣货频道",安徽公共
+http://60.169.113.70:4200/rtp/238.1.79.43:4456
+#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="渣货频道",安徽农业
+http://114.98.161.107:2000/rtp/238.1.79.40:4432
+#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="渣货频道",安徽农业
+http://117.69.51.48:8888/rtp/238.1.79.40:4432
+#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="渣货频道",安徽农业
+http://220.178.184.50:4000/rtp/238.1.79.40:4432
+#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="渣货频道",安徽农业
+http://60.169.113.70:4200/rtp/238.1.79.40:4432
+#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="渣货频道",安徽国际
+http://114.98.161.107:2000/rtp/238.1.78.61:6360
+#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="渣货频道",安徽国际
+http://117.69.51.48:8888/rtp/238.1.78.61:6360
+#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="渣货频道",安徽国际
+http://220.178.184.50:4000/rtp/238.1.78.61:6360
+#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="渣货频道",安徽国际
+http://60.169.113.70:4200/rtp/238.1.78.61:6360
+#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="渣货频道",安徽影视
+http://114.98.161.107:2000/rtp/238.1.79.42:4448
+#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="渣货频道",安徽影视
+http://117.69.51.48:8888/rtp/238.1.79.42:4448
+#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="渣货频道",安徽影视
+http://220.178.184.50:4000/rtp/238.1.79.42:4448
+#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="渣货频道",安徽影视
+http://60.169.113.70:4200/rtp/238.1.79.42:4448
+#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="渣货频道",安徽经济
+http://114.98.161.107:2000/rtp/238.1.79.44:4464
+#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="渣货频道",安徽经济
+http://117.69.51.48:8888/rtp/238.1.79.44:4464
+#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="渣货频道",安徽经济
+http://220.178.184.50:4000/rtp/238.1.79.44:4464
+#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="渣货频道",安徽经济
+http://60.169.113.70:4200/rtp/238.1.79.44:4464
+#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="渣货频道",安徽综艺
+http://114.98.161.107:2000/rtp/238.1.79.41:4440
+#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="渣货频道",安徽综艺
+http://117.69.51.48:8888/rtp/238.1.79.41:4440
+#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="渣货频道",安徽综艺
+http://220.178.184.50:4000/rtp/238.1.79.41:4440
+#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="渣货频道",安徽综艺
+http://60.169.113.70:4200/rtp/238.1.79.41:4440
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.103.253.120:10000/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.103.253.120:10000/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.103.253.120:9999/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.103.253.120:9999/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.93.49.211:10000/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://113.93.49.211:10000/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.208.159:9999/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.208.159:9999/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.208.30:9999/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.208.30:9999/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.209.236:9999/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.209.236:9999/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.209.54:9999/rtp/239.77.0.112:5146
+#EXTINF:-1 tvg-id="广东体育" tvg-logo="https://live.fanmingming.com/tv/广东体育.png" group-title="渣货频道",广东体育
+http://183.54.209.54:9999/rtp/239.77.0.168:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:10000/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:10000/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:10000/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:9999/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:9999/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.103.253.120:9999/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.93.49.211:10000/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.93.49.211:10000/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://113.93.49.211:10000/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://114.98.161.107:2000/rtp/238.1.78.161:7160
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://117.69.51.48:8888/rtp/238.1.78.161:7160
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://118.249.22.160:9999/rtp/239.76.252.189:9000
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://118.249.22.163:9999/rtp/239.76.252.189:9000
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://118.249.22.164:9999/rtp/239.76.252.189:9000
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://118.254.150.229:9988/rtp/239.76.252.189:9000
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://171.88.120.111:9999/rtp/239.93.0.181:5140
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://171.88.140.128:4000/rtp/239.93.0.181:5140
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://182.138.86.199:9999/rtp/239.93.0.181:5140
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.159:9999/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.159:9999/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.159:9999/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.30:9999/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.30:9999/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.208.30:9999/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.236:9999/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.236:9999/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.236:9999/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.54:9999/rtp/239.77.0.166:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.54:9999/rtp/239.77.0.84:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://183.54.209.54:9999/rtp/239.77.1.19:5146
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://220.178.184.50:4000/rtp/238.1.78.161:7160
+#EXTINF:-1 tvg-id="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="渣货频道",广东卫视
+http://60.169.113.70:4200/rtp/238.1.78.161:7160
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://113.103.253.120:10000/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://113.103.253.120:9999/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://113.93.49.211:10000/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://183.54.208.159:9999/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://183.54.208.30:9999/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://183.54.209.236:9999/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东少儿" tvg-logo="https://live.fanmingming.com/tv/广东少儿.png" group-title="渣货频道",广东少儿
+http://183.54.209.54:9999/rtp/239.77.0.250:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://113.103.253.120:10000/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://113.103.253.120:9999/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://113.93.49.211:10000/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://183.54.208.159:9999/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://183.54.208.30:9999/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://183.54.209.236:9999/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东影视" tvg-logo="https://live.fanmingming.com/tv/广东影视.png" group-title="渣货频道",广东影视
+http://183.54.209.54:9999/rtp/239.77.0.217:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://113.103.253.120:10000/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://113.103.253.120:9999/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://113.93.49.211:10000/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://183.54.208.159:9999/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://183.54.208.30:9999/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://183.54.209.236:9999/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="渣货频道",广东新闻
+http://183.54.209.54:9999/rtp/239.77.0.173:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://113.103.253.120:10000/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://113.103.253.120:9999/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://113.93.49.211:10000/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://183.54.208.159:9999/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://183.54.208.30:9999/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://183.54.209.236:9999/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东民生" tvg-logo="https://live.fanmingming.com/tv/广东民生.png" group-title="渣货频道",广东民生
+http://183.54.209.54:9999/rtp/239.77.0.225:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.103.253.120:10000/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.103.253.120:10000/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.103.253.120:9999/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.103.253.120:9999/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.93.49.211:10000/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://113.93.49.211:10000/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.208.159:9999/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.208.159:9999/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.208.30:9999/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.208.30:9999/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.209.236:9999/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.209.236:9999/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.209.54:9999/rtp/239.77.0.114:5146
+#EXTINF:-1 tvg-id="广东珠江" tvg-logo="https://live.fanmingming.com/tv/广东珠江.png" group-title="渣货频道",广东珠江
+http://183.54.209.54:9999/rtp/239.77.0.1:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://113.103.253.120:10000/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://113.103.253.120:9999/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://113.93.49.211:10000/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://183.54.208.159:9999/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://183.54.208.30:9999/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://183.54.209.236:9999/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4K" tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="渣货频道",广东综艺4K
+http://183.54.209.54:9999/rtp/239.77.1.237:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.103.253.120:10000/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.103.253.120:10000/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.103.253.120:9999/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.103.253.120:9999/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.93.49.211:10000/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://113.93.49.211:10000/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.208.159:9999/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.208.159:9999/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.208.30:9999/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.208.30:9999/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.209.236:9999/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.209.236:9999/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.209.54:9999/rtp/239.77.0.244:5146
+#EXTINF:-1 tvg-id="广东综艺4k" tvg-logo="https://live.fanmingming.com/tv/广东综艺4k.png" group-title="渣货频道",广东综艺4k
+http://183.54.209.54:9999/rtp/239.77.0.245:5146
+#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="渣货频道",安徽CCTV 4K
+http://114.98.161.107:2000/rtp/238.1.78.137:6968
+#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="渣货频道",安徽CCTV 4K
+http://117.69.51.48:8888/rtp/238.1.78.137:6968
+#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="渣货频道",安徽CCTV 4K
+http://220.178.184.50:4000/rtp/238.1.78.137:6968
+#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="渣货频道",安徽CCTV 4K
+http://60.169.113.70:4200/rtp/238.1.78.137:6968
+#EXTINF:-1 tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png" group-title="渣货频道",湖南都市
+http://118.249.22.160:9999/rtp/239.76.253.104:9000
+#EXTINF:-1 tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png" group-title="渣货频道",湖南都市
+http://118.249.22.163:9999/rtp/239.76.253.104:9000
+#EXTINF:-1 tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png" group-title="渣货频道",湖南都市
+http://118.249.22.164:9999/rtp/239.76.253.104:9000
+#EXTINF:-1 tvg-id="湖南都市" tvg-logo="https://live.fanmingming.com/tv/湖南都市.png" group-title="渣货频道",湖南都市
+http://118.254.150.229:9988/rtp/239.76.253.104:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.160:9999/rtp/239.76.252.124:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.160:9999/rtp/239.76.252.240:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.160:9999/rtp/239.76.253.102:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.163:9999/rtp/239.76.252.124:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.163:9999/rtp/239.76.252.240:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.163:9999/rtp/239.76.253.102:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.164:9999/rtp/239.76.252.124:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.164:9999/rtp/239.76.252.240:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.249.22.164:9999/rtp/239.76.253.102:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.254.150.229:9988/rtp/239.76.252.124:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.254.150.229:9988/rtp/239.76.252.240:9000
+#EXTINF:-1 tvg-id="湖南国际" tvg-logo="https://live.fanmingming.com/tv/湖南国际.png" group-title="渣货频道",湖南国际
+http://118.254.150.229:9988/rtp/239.76.253.102:9000
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="渣货频道",湖南娱乐
+http://118.249.22.160:9999/rtp/239.76.253.105:9000
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="渣货频道",湖南娱乐
+http://118.249.22.163:9999/rtp/239.76.253.105:9000
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="渣货频道",湖南娱乐
+http://118.249.22.164:9999/rtp/239.76.253.105:9000
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐.png" group-title="渣货频道",湖南娱乐
+http://118.254.150.229:9988/rtp/239.76.253.105:9000
+#EXTINF:-1 tvg-id="湖南影视" tvg-logo="https://live.fanmingming.com/tv/湖南影视.png" group-title="渣货频道",湖南影视
+http://118.249.22.160:9999/rtp/239.76.252.118:9000
+#EXTINF:-1 tvg-id="湖南影视" tvg-logo="https://live.fanmingming.com/tv/湖南影视.png" group-title="渣货频道",湖南影视
+http://118.249.22.163:9999/rtp/239.76.252.118:9000
+#EXTINF:-1 tvg-id="湖南影视" tvg-logo="https://live.fanmingming.com/tv/湖南影视.png" group-title="渣货频道",湖南影视
+http://118.249.22.164:9999/rtp/239.76.252.118:9000
+#EXTINF:-1 tvg-id="湖南影视" tvg-logo="https://live.fanmingming.com/tv/湖南影视.png" group-title="渣货频道",湖南影视
+http://118.254.150.229:9988/rtp/239.76.252.118:9000
+#EXTINF:-1 tvg-id="湖南教育" tvg-logo="https://live.fanmingming.com/tv/湖南教育.png" group-title="渣货频道",湖南教育
+http://118.249.22.160:9999/rtp/239.76.252.233:9000
+#EXTINF:-1 tvg-id="湖南教育" tvg-logo="https://live.fanmingming.com/tv/湖南教育.png" group-title="渣货频道",湖南教育
+http://118.249.22.163:9999/rtp/239.76.252.233:9000
+#EXTINF:-1 tvg-id="湖南教育" tvg-logo="https://live.fanmingming.com/tv/湖南教育.png" group-title="渣货频道",湖南教育
+http://118.249.22.164:9999/rtp/239.76.252.233:9000
+#EXTINF:-1 tvg-id="湖南教育" tvg-logo="https://live.fanmingming.com/tv/湖南教育.png" group-title="渣货频道",湖南教育
+http://118.254.150.229:9988/rtp/239.76.252.233:9000
+#EXTINF:-1 tvg-id="湖南电影" tvg-logo="https://live.fanmingming.com/tv/湖南电影.png" group-title="渣货频道",湖南电影
+http://118.249.22.160:9999/rtp/239.76.252.119:9000
+#EXTINF:-1 tvg-id="湖南电影" tvg-logo="https://live.fanmingming.com/tv/湖南电影.png" group-title="渣货频道",湖南电影
+http://118.249.22.163:9999/rtp/239.76.252.119:9000
+#EXTINF:-1 tvg-id="湖南电影" tvg-logo="https://live.fanmingming.com/tv/湖南电影.png" group-title="渣货频道",湖南电影
+http://118.249.22.164:9999/rtp/239.76.252.119:9000
+#EXTINF:-1 tvg-id="湖南电影" tvg-logo="https://live.fanmingming.com/tv/湖南电影.png" group-title="渣货频道",湖南电影
+http://118.254.150.229:9988/rtp/239.76.252.119:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.160:9999/rtp/239.76.252.116:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.160:9999/rtp/239.76.253.103:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.163:9999/rtp/239.76.252.116:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.163:9999/rtp/239.76.253.103:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.164:9999/rtp/239.76.252.116:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.249.22.164:9999/rtp/239.76.253.103:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.254.150.229:9988/rtp/239.76.252.116:9000
+#EXTINF:-1 tvg-id="湖南经视" tvg-logo="https://live.fanmingming.com/tv/湖南经视.png" group-title="渣货频道",湖南经视
+http://118.254.150.229:9988/rtp/239.76.253.103:9000
+#EXTINF:-1 tvg-id="湖南茶" tvg-logo="https://live.fanmingming.com/tv/湖南茶.png" group-title="渣货频道",湖南茶
+http://118.249.22.160:9999/rtp/239.76.252.239:9000
+#EXTINF:-1 tvg-id="湖南茶" tvg-logo="https://live.fanmingming.com/tv/湖南茶.png" group-title="渣货频道",湖南茶
+http://118.249.22.163:9999/rtp/239.76.252.239:9000
+#EXTINF:-1 tvg-id="湖南茶" tvg-logo="https://live.fanmingming.com/tv/湖南茶.png" group-title="渣货频道",湖南茶
+http://118.249.22.164:9999/rtp/239.76.252.239:9000
+#EXTINF:-1 tvg-id="湖南茶" tvg-logo="https://live.fanmingming.com/tv/湖南茶.png" group-title="渣货频道",湖南茶
+http://118.254.150.229:9988/rtp/239.76.252.239:9000
 #EXTINF:-1 tvg-id="东莞新闻综合" tvg-logo="https://live.fanmingming.com/tv/东莞新闻综合.png" group-title="地方频道",东莞新闻综合
 http://113.103.253.120:10000/rtp/239.253.43.104:5146
 #EXTINF:-1 tvg-id="东莞新闻综合" tvg-logo="https://live.fanmingming.com/tv/东莞新闻综合.png" group-title="地方频道",东莞新闻综合
@@ -4271,46 +4907,6 @@ http://117.69.51.48:8888/rtp/238.1.79.43:4456
 http://220.178.184.50:4000/rtp/238.1.79.43:4456
 #EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="地方频道",安徽公共
 http://60.169.113.70:4200/rtp/238.1.79.43:4456
-#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="地方频道",安徽农业
-http://114.98.161.107:2000/rtp/238.1.79.40:4432
-#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="地方频道",安徽农业
-http://117.69.51.48:8888/rtp/238.1.79.40:4432
-#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="地方频道",安徽农业
-http://220.178.184.50:4000/rtp/238.1.79.40:4432
-#EXTINF:-1 tvg-id="安徽农业" tvg-logo="https://live.fanmingming.com/tv/安徽农业.png" group-title="地方频道",安徽农业
-http://60.169.113.70:4200/rtp/238.1.79.40:4432
-#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="地方频道",安徽国际
-http://114.98.161.107:2000/rtp/238.1.78.61:6360
-#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="地方频道",安徽国际
-http://117.69.51.48:8888/rtp/238.1.78.61:6360
-#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="地方频道",安徽国际
-http://220.178.184.50:4000/rtp/238.1.78.61:6360
-#EXTINF:-1 tvg-id="安徽国际" tvg-logo="https://live.fanmingming.com/tv/安徽国际.png" group-title="地方频道",安徽国际
-http://60.169.113.70:4200/rtp/238.1.78.61:6360
-#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="地方频道",安徽影视
-http://114.98.161.107:2000/rtp/238.1.79.42:4448
-#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="地方频道",安徽影视
-http://117.69.51.48:8888/rtp/238.1.79.42:4448
-#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="地方频道",安徽影视
-http://220.178.184.50:4000/rtp/238.1.79.42:4448
-#EXTINF:-1 tvg-id="安徽影视" tvg-logo="https://live.fanmingming.com/tv/安徽影视.png" group-title="地方频道",安徽影视
-http://60.169.113.70:4200/rtp/238.1.79.42:4448
-#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="地方频道",安徽经济
-http://114.98.161.107:2000/rtp/238.1.79.44:4464
-#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="地方频道",安徽经济
-http://117.69.51.48:8888/rtp/238.1.79.44:4464
-#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="地方频道",安徽经济
-http://220.178.184.50:4000/rtp/238.1.79.44:4464
-#EXTINF:-1 tvg-id="安徽经济" tvg-logo="https://live.fanmingming.com/tv/安徽经济.png" group-title="地方频道",安徽经济
-http://60.169.113.70:4200/rtp/238.1.79.44:4464
-#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="地方频道",安徽综艺
-http://114.98.161.107:2000/rtp/238.1.79.41:4440
-#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="地方频道",安徽综艺
-http://117.69.51.48:8888/rtp/238.1.79.41:4440
-#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="地方频道",安徽综艺
-http://220.178.184.50:4000/rtp/238.1.79.41:4440
-#EXTINF:-1 tvg-id="安徽综艺" tvg-logo="https://live.fanmingming.com/tv/安徽综艺.png" group-title="地方频道",安徽综艺
-http://60.169.113.70:4200/rtp/238.1.79.41:4440
 #EXTINF:-1 tvg-id="寿县新闻" tvg-logo="https://live.fanmingming.com/tv/寿县新闻.png" group-title="地方频道",寿县新闻
 http://114.98.161.107:2000/rtp/238.1.78.146:7040
 #EXTINF:-1 tvg-id="寿县新闻" tvg-logo="https://live.fanmingming.com/tv/寿县新闻.png" group-title="地方频道",寿县新闻
@@ -4547,14 +5143,6 @@ http://117.69.51.48:8888/rtp/238.1.78.136:6960
 http://220.178.184.50:4000/rtp/238.1.78.136:6960
 #EXTINF:-1 tvg-id="淮北公共" tvg-logo="https://live.fanmingming.com/tv/淮北公共.png" group-title="地方频道",淮北公共
 http://60.169.113.70:4200/rtp/238.1.78.136:6960
-#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="地方频道",安徽CCTV 4K
-http://114.98.161.107:2000/rtp/238.1.78.137:6968
-#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="地方频道",安徽CCTV 4K
-http://117.69.51.48:8888/rtp/238.1.78.137:6968
-#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="地方频道",安徽CCTV 4K
-http://220.178.184.50:4000/rtp/238.1.78.137:6968
-#EXTINF:-1 tvg-id="安徽CCTV 4K" tvg-logo="https://live.fanmingming.com/tv/安徽CCTV 4K.png" group-title="地方频道",安徽CCTV 4K
-http://60.169.113.70:4200/rtp/238.1.78.137:6968
 #EXTINF:-1 tvg-id="淮北新闻" tvg-logo="https://live.fanmingming.com/tv/淮北新闻.png" group-title="地方频道",淮北新闻
 http://114.98.161.107:2000/rtp/238.1.78.135:6952
 #EXTINF:-1 tvg-id="淮北新闻" tvg-logo="https://live.fanmingming.com/tv/淮北新闻.png" group-title="地方频道",淮北新闻
