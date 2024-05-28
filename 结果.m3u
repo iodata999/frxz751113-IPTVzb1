@@ -5477,25 +5477,25 @@ http://183.54.209.163:9999/rtp/239.253.43.9:5146
 http://59.39.185.18:8000/rtp/239.253.43.18:5146
 #EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="渣货频道",兵器科技
 http://59.39.185.18:8000/rtp/239.253.43.9:5146
-#EXTINF:-1 tvg-id="AA安徽公共" tvg-logo="https://live.fanmingming.com/tv/AA安徽公共.png" group-title="地方频道",AA安徽公共
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="地方频道",安徽公共
 http://114.98.161.107:2000/rtp/238.1.79.43:4456
-#EXTINF:-1 tvg-id="AA安徽公共" tvg-logo="https://live.fanmingming.com/tv/AA安徽公共.png" group-title="地方频道",AA安徽公共
+#EXTINF:-1 tvg-id="安徽公共" tvg-logo="https://live.fanmingming.com/tv/安徽公共.png" group-title="地方频道",安徽公共
 http://223.214.36.68:4022/rtp/238.1.79.43:4456
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://113.109.250.243:9999/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://113.68.63.37:8848/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://113.75.180.103:2086/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://113.76.149.66:4022/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://183.54.208.159:9999/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://183.54.208.30:9999/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://183.54.209.163:9999/rtp/239.77.0.173:5146
-#EXTINF:-1 tvg-id="AA广东新闻" tvg-logo="https://live.fanmingming.com/tv/AA广东新闻.png" group-title="地方频道",AA广东新闻
+#EXTINF:-1 tvg-id="广东新闻" tvg-logo="https://live.fanmingming.com/tv/广东新闻.png" group-title="地方频道",广东新闻
 http://59.39.185.18:8000/rtp/239.77.0.173:5146
 #EXTINF:-1 tvg-id="东莞新闻综合" tvg-logo="https://live.fanmingming.com/tv/东莞新闻综合.png" group-title="地方频道",东莞新闻综合
 http://113.109.250.243:9999/rtp/239.253.43.104:5146
