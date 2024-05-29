@@ -1,5 +1,5 @@
 
-央视频道/自动更新,#genre#
+
 CCTV1,http://171.108.239.76:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://106.46.114.2:8011/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV1,http://175.10.228.227:8081/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
