@@ -438,7 +438,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('港澳频道/自动更新,#genre#\n')
+    file.write('港澳频道/随时失效,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '澳门莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or 'TVB星河' in channel_name or '私人' in channel_name or '凤凰' in channel_name or '星空' in channel_name:
