@@ -208,7 +208,7 @@ CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 黑龙江卫视,http://222.218.159.82:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,http://222.218.158.120:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视,http://222.218.158.120:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
-港澳频道/自动更新,#genre#
+港澳频道/随时失效,#genre#
 酒店影视1,http://171.108.239.74:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
 酒店影视1,http://171.108.239.73:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
 酒店影视1,http://171.108.239.76:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -244,7 +244,7 @@ CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 龙祥电影,http://171.108.239.76:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
-港澳频道/固定源,#genre#
+港澳频道/随时失效,#genre#
 凤凰资讯[1280*720],http://61.221.215.25:8800/hls/47/index.m3u8
 凤凰资讯,http://112.19.171.156:9999/udp/239.93.0.118:2191
 凤凰卫视,http://112.19.171.156:9999/udp/239.93.0.162:2192
