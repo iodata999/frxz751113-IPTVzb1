@@ -1,4 +1,66 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTINF:-1 tvg-id="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="数字频道/固定源",重温经典
+http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
+#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
+http://39.134.65.175/PLTV/88888888/224/3221225550/index.m3u8?
+#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
+http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
+#EXTINF:-1 tvg-id="明星大片1" tvg-logo="https://live.fanmingming.com/tv/明星大片1.png" group-title="数字频道/固定源",明星大片1
+http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
+#EXTINF:-1 tvg-id="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道/固定源",纪实人文
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225738/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="纪实科教" tvg-logo="https://live.fanmingming.com/tv/纪实科教.png" group-title="数字频道/固定源",纪实科教
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225729/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="超级综艺" tvg-logo="https://live.fanmingming.com/tv/超级综艺.png" group-title="数字频道/固定源",超级综艺
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="超级体育" tvg-logo="https://live.fanmingming.com/tv/超级体育.png" group-title="数字频道/固定源",超级体育
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="超级电影" tvg-logo="https://live.fanmingming.com/tv/超级电影.png" group-title="数字频道/固定源",超级电影
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="超级影视" tvg-logo="https://live.fanmingming.com/tv/超级影视.png" group-title="数字频道/固定源",超级影视
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="精品体育" tvg-logo="https://live.fanmingming.com/tv/精品体育.png" group-title="数字频道/固定源",精品体育
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="数字频道/固定源",精品大剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="精品纪录" tvg-logo="https://live.fanmingming.com/tv/精品纪录.png" group-title="数字频道/固定源",精品纪录
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="精品萌宠" tvg-logo="https://live.fanmingming.com/tv/精品萌宠.png" group-title="数字频道/固定源",精品萌宠
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="中国功夫" tvg-logo="https://live.fanmingming.com/tv/中国功夫.png" group-title="数字频道/固定源",中国功夫
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="动作电影" tvg-logo="https://live.fanmingming.com/tv/动作电影.png" group-title="数字频道/固定源",动作电影
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="惊悚悬疑" tvg-logo="https://live.fanmingming.com/tv/惊悚悬疑.png" group-title="数字频道/固定源",惊悚悬疑
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="军旅剧场" tvg-logo="https://live.fanmingming.com/tv/军旅剧场.png" group-title="数字频道/固定源",军旅剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="古装剧场" tvg-logo="https://live.fanmingming.com/tv/古装剧场.png" group-title="数字频道/固定源",古装剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道/固定源",家庭剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/爱情喜剧.png" group-title="数字频道/固定源",爱情喜剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/欢乐剧场.png" group-title="数字频道/固定源",欢乐剧场
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8$4.1M_1080
+#EXTINF:-1 tvg-id="热播精选" tvg-logo="https://live.fanmingming.com/tv/热播精选.png" group-title="数字频道/固定源",热播精选
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225671/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="潮妈辣婆" tvg-logo="https://live.fanmingming.com/tv/潮妈辣婆.png" group-title="数字频道/固定源",潮妈辣婆
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="东北热剧" tvg-logo="https://live.fanmingming.com/tv/东北热剧.png" group-title="数字频道/固定源",东北热剧
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="怡伴健康" tvg-logo="https://live.fanmingming.com/tv/怡伴健康.png" group-title="数字频道/固定源",怡伴健康
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="农业致富" tvg-logo="https://live.fanmingming.com/tv/农业致富.png" group-title="数字频道/固定源",农业致富
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="炫舞未来" tvg-logo="https://live.fanmingming.com/tv/炫舞未来.png" group-title="数字频道/固定源",炫舞未来
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="数字频道/固定源",黑莓电影
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8$4.0M_1080
+#EXTINF:-1 tvg-id="黑莓动画" tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="数字频道/固定源",黑莓动画
+http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8$4.0M_1080
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道/自动更新",CCTV1
 http://171.108.239.76:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道/自动更新",CCTV1
@@ -413,68 +475,6 @@ http://171.108.239.74:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=
 http://171.108.239.73:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="龙祥电影" tvg-logo="https://live.fanmingming.com/tv/龙祥电影.png" group-title="港澳频道/自动更新",龙祥电影
 http://171.108.239.76:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="数字频道/固定源",重温经典
-http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
-#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
-http://39.134.65.175/PLTV/88888888/224/3221225550/index.m3u8?
-#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
-http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-id="明星大片1" tvg-logo="https://live.fanmingming.com/tv/明星大片1.png" group-title="数字频道/固定源",明星大片1
-http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-id="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="数字频道/固定源",纪实人文
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225738/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="纪实科教" tvg-logo="https://live.fanmingming.com/tv/纪实科教.png" group-title="数字频道/固定源",纪实科教
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225729/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="超级综艺" tvg-logo="https://live.fanmingming.com/tv/超级综艺.png" group-title="数字频道/固定源",超级综艺
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="超级体育" tvg-logo="https://live.fanmingming.com/tv/超级体育.png" group-title="数字频道/固定源",超级体育
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="超级电影" tvg-logo="https://live.fanmingming.com/tv/超级电影.png" group-title="数字频道/固定源",超级电影
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="超级影视" tvg-logo="https://live.fanmingming.com/tv/超级影视.png" group-title="数字频道/固定源",超级影视
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定源",明星大片
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="精品体育" tvg-logo="https://live.fanmingming.com/tv/精品体育.png" group-title="数字频道/固定源",精品体育
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="精品大剧" tvg-logo="https://live.fanmingming.com/tv/精品大剧.png" group-title="数字频道/固定源",精品大剧
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="精品纪录" tvg-logo="https://live.fanmingming.com/tv/精品纪录.png" group-title="数字频道/固定源",精品纪录
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225672/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="精品萌宠" tvg-logo="https://live.fanmingming.com/tv/精品萌宠.png" group-title="数字频道/固定源",精品萌宠
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226505/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="中国功夫" tvg-logo="https://live.fanmingming.com/tv/中国功夫.png" group-title="数字频道/固定源",中国功夫
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225681/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="动作电影" tvg-logo="https://live.fanmingming.com/tv/动作电影.png" group-title="数字频道/固定源",动作电影
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225661/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="惊悚悬疑" tvg-logo="https://live.fanmingming.com/tv/惊悚悬疑.png" group-title="数字频道/固定源",惊悚悬疑
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225665/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="军旅剧场" tvg-logo="https://live.fanmingming.com/tv/军旅剧场.png" group-title="数字频道/固定源",军旅剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225676/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="古装剧场" tvg-logo="https://live.fanmingming.com/tv/古装剧场.png" group-title="数字频道/固定源",古装剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225663/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道/固定源",家庭剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225677/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="爱情喜剧" tvg-logo="https://live.fanmingming.com/tv/爱情喜剧.png" group-title="数字频道/固定源",爱情喜剧
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225669/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="欢乐剧场" tvg-logo="https://live.fanmingming.com/tv/欢乐剧场.png" group-title="数字频道/固定源",欢乐剧场
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225742/index.m3u8$4.1M_1080
-#EXTINF:-1 tvg-id="热播精选" tvg-logo="https://live.fanmingming.com/tv/热播精选.png" group-title="数字频道/固定源",热播精选
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225671/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="潮妈辣婆" tvg-logo="https://live.fanmingming.com/tv/潮妈辣婆.png" group-title="数字频道/固定源",潮妈辣婆
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225685/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="东北热剧" tvg-logo="https://live.fanmingming.com/tv/东北热剧.png" group-title="数字频道/固定源",东北热剧
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225741/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="怡伴健康" tvg-logo="https://live.fanmingming.com/tv/怡伴健康.png" group-title="数字频道/固定源",怡伴健康
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225673/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="农业致富" tvg-logo="https://live.fanmingming.com/tv/农业致富.png" group-title="数字频道/固定源",农业致富
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225683/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="炫舞未来" tvg-logo="https://live.fanmingming.com/tv/炫舞未来.png" group-title="数字频道/固定源",炫舞未来
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="黑莓电影" tvg-logo="https://live.fanmingming.com/tv/黑莓电影.png" group-title="数字频道/固定源",黑莓电影
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8$4.0M_1080
-#EXTINF:-1 tvg-id="黑莓动画" tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="数字频道/固定源",黑莓动画
-http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8$4.0M_1080
 #EXTINF:-1 tvg-id="凤凰资讯[1280*720]" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯[1280*720].png" group-title="港澳频道/固定源",凤凰资讯[1280*720]
 http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳频道/固定源",凤凰资讯
