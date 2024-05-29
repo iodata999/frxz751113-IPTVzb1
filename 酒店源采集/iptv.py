@@ -17,7 +17,7 @@ r = requests.get(url)
 open('影视频道.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
-for line in fileinput.input("DIYP-v4.txt", inplace=True):   #打开临时文件原地替换关键字
+for line in fileinput.input("影视频道", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
 
@@ -471,6 +471,6 @@ os.remove("iptv.txt")
 os.remove("GAT.txt")
 os.remove("hn.txt")
 #os.remove("HK.txt")
-os.remove("DIYP-v4.txt")
+os.remove("TW.txt")
 os.remove("影视频道.txt")
 print("任务运行完毕")
