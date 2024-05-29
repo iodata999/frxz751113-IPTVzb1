@@ -1,6 +1,6 @@
 
 
-数字/固定,#genre#
+数字频道/固定,#genre#
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 明星大片,http://39.134.65.175/PLTV/88888888/224/3221225550/index.m3u8?
 明星大片,http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
@@ -32,7 +32,7 @@
 炫舞未来,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225719/index.m3u8$4.0M_1080
 黑莓电影,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225743/index.m3u8$4.0M_1080
 黑莓动画,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225662/index.m3u8$4.0M_1080
-央视/自动,#genre#
+央视频道/自动,#genre#
 CCTV1,http://171.108.239.76:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://106.46.114.2:8011/tsfile/live/0001_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV1,http://118.248.168.147:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -88,7 +88,7 @@ CCTV16奥运匹克,http://171.108.239.73:8181/tsfile/live/1042_1.m3u8?key=txiptv
 CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://222.241.154.37:9901/tsfile/live/23017_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://171.108.239.54:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
-卫视/自动,#genre#
+卫视频道/自动,#genre#
 上海卫视,http://106.46.114.2:8011/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
 上海卫视,http://118.248.168.147:8088/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 上海卫视,http://175.10.228.227:8081/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -341,7 +341,7 @@ TVBS歡樂台,http://23.224.232.221:81/kk.php?id=tvbshuanle_twn
 龍華經典[1280*720],http://23.224.232.221:81/kk.php?id=lunghuajingdian_twn
 龍詳時代,http://23.224.232.221:81/kk.php?id=lungxiangtime_twn
 
-湖北/固定,#genre#
+湖北频道/固定,#genre#
 武汉教育,http://stream.appwuhan.com/jyzb/sd/live.m3u8
 武汉新闻,http://stream.appwuhan.com/1tzb/sd/live.m3u8
 崇阳综合,http://61.184.176.248:10500/live/live.m3u8
@@ -432,7 +432,7 @@ TVBS歡樂台,http://23.224.232.221:81/kk.php?id=tvbshuanle_twn
 沭阳综合,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
 
 
-央视/自动,#genre#
+央视频道/自动,#genre#
 CCTV1,http://110.188.88.126:4022/rtp/239.93.0.58:5140
 CCTV1,http://113.81.250.196:4022/rtp/239.77.0.119:5146
 CCTV1,http://113.81.250.196:4022/rtp/239.77.0.129:5146
@@ -673,7 +673,7 @@ CHC高清电影,http://58.46.249.195:4022/rtp/239.76.252.242:9000
 CHC高清电影,http://59.34.94.178:4022/rtp/239.77.0.27:5146
 
 
-卫视/自动,#genre#
+卫视频道/自动,#genre#
 湖北卫视,http://110.188.88.126:4022/rtp/239.93.0.250:5140
 湖北卫视,http://113.81.250.196:4022/rtp/239.77.0.128:5146
 湖北卫视,http://113.81.250.196:4022/rtp/239.77.0.95:5146
@@ -1034,7 +1034,7 @@ CHC高清电影,http://59.34.94.178:4022/rtp/239.77.0.27:5146
 黑龙江卫视,http://59.34.94.178:4022/rtp/239.77.1.6:5146
 
 
-影视/自动,#genre#
+影视频道/自动,#genre#
 湖南娱乐,http://58.46.249.195:4022/rtp/239.76.253.105:9000
 CHC动作电影,http://110.188.88.126:4022/rtp/239.93.42.7:5140
 CHC动作电影,http://118.114.200.216:4022/rtp/239.93.42.7:5140
@@ -1131,7 +1131,7 @@ CHC高清电影,http://59.34.94.178:4022/rtp/239.77.0.27:5146
 经典剧场,http://58.46.249.195:4022/rtp/239.76.252.221:9000
 
 
-4K/自动,#genre#
+4K频道/自动,#genre#
 4K乐享,http://110.188.88.126:4022/rtp/239.93.0.43:5140
 4K乐享,http://118.114.200.216:4022/rtp/239.93.0.43:5140
 4K乐享,http://171.217.131.9:4022/rtp/239.93.0.43:5140
@@ -1177,7 +1177,7 @@ CCTV16 4K,http://59.34.94.178:4022/rtp/239.77.1.98:5146
 绚影4K,http://171.217.131.9:4022/rtp/239.93.42.33:5140
 
 
-渣货/自动,#genre#
+渣货频道/自动,#genre#
 风云足球,http://110.188.88.126:4022/rtp/239.93.0.235:5140
 风云足球,http://118.114.200.216:4022/rtp/239.93.0.235:5140
 风云足球,http://171.217.131.9:4022/rtp/239.93.0.235:5140
@@ -1334,7 +1334,7 @@ SCTV科教,http://171.217.131.9:4022/rtp/239.93.42.44:5140
 兵器科技,http://59.34.94.178:4022/rtp/239.253.43.9:5146
 
 
-地方/自动,#genre#
+地方频道/自动,#genre#
 安徽公共,http://114.98.161.107:2000/rtp/238.1.79.43:4456
 安徽公共,http://223.240.251.162:40000/rtp/238.1.79.43:4456
 广东新闻,http://113.81.250.196:4022/rtp/239.77.0.173:5146
