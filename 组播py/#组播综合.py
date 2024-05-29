@@ -581,11 +581,11 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('结果.txt', '结果.m3u')
-txt_to_m3u('酒店源.txt', 'M3u文件/酒店源.m3u')
-txt_to_m3u('广东电信.txt', 'M3u文件/广东电信.m3u')
-txt_to_m3u('四川电信.txt', 'M3u文件/四川电信.m3u')
-txt_to_m3u('安徽电信.txt', 'M3u文件/安徽电信.m3u')
-txt_to_m3u('湖南电信.txt', 'M3u文件/湖南电信.m3u')
+txt_to_m3u('酒店源.txt', '/M3u文件/酒店源.m3u')
+txt_to_m3u('广东电信.txt', '/M3u文件/广东电信.m3u')
+txt_to_m3u('四川电信.txt', '/M3u文件/四川电信.m3u')
+txt_to_m3u('安徽电信.txt', '/M3u文件/安徽电信.m3u')
+txt_to_m3u('湖南电信.txt', '/M3u文件/湖南电信.m3u')
 
 
 
