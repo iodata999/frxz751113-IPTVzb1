@@ -12,9 +12,9 @@ import replace
 import fileinput
 
 #  获取远程港澳台直播源文件
-url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"          #源采集地址
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/%E5%BD%B1%E8%A7%86%E9%A2%91%E9%81%93.txt"          #源采集地址
 r = requests.get(url)
-open('DIYP-v4.txt','wb').write(r.content)         #打开源文件并临时写入
+open('影视频道.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 for line in fileinput.input("DIYP-v4.txt", inplace=True):   #打开临时文件原地替换关键字
@@ -23,8 +23,8 @@ for line in fileinput.input("DIYP-v4.txt", inplace=True):   #打开临时文件�
 
 
 keywords = ['重温经典', ' 8M1080,']  # 需要提取的关键字列表 8M1080
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
     TW.write('\n数字频道/固定源,#genre#\n')
     for line in file:
@@ -472,5 +472,5 @@ os.remove("GAT.txt")
 os.remove("hn.txt")
 #os.remove("HK.txt")
 os.remove("DIYP-v4.txt")
-os.remove("TW.txt")
+os.remove("影视频道.txt")
 print("任务运行完毕")
