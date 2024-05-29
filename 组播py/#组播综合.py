@@ -551,6 +551,14 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
+for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("固定源", "固定")                                                                         ###########                                                      ###########
+    line = line.replace("更新", "")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+
+
+
+
 def txt_to_m3u(input_file, output_file):
     # 读取txt文件内容
     with open(input_file, 'r', encoding='utf-8') as f:
