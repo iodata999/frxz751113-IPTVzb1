@@ -494,7 +494,7 @@ open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 #pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    a.write('\n港澳频道/固定源,#genre#\n')
+    a.write('\n港澳频道/随时失效,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           a.write(line)  # 将该行写入输出文件
