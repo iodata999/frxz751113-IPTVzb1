@@ -18,7 +18,7 @@ open('YSPD.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 for line in fileinput.input("YSPD", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
+    line = line.replace("[1920*1080]", "")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
