@@ -554,7 +554,7 @@ with open("结果.txt", "w", encoding="utf-8") as output:
 for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("固定源", "固定")                                                                         ###########                                                      ###########
     line = line.replace("更新", "")                                                                         ###########                                                      ###########
-    line = line.replace("频道/", "/")                                                                         ###########                                                      ###########
+    line = line.replace("港澳频道/", "港澳/")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 
 
