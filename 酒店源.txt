@@ -309,7 +309,7 @@ CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 黑龙江卫视+,http://222.218.159.82:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视+,http://222.218.158.120:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 黑龙江卫视+,http://222.218.158.120:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
-港澳频道/自动更新,#genre#
+港澳频道/随时失效,#genre#
 酒店影视1,http://171.108.239.74:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
 酒店影视1,http://171.108.239.73:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
 酒店影视1,http://171.108.239.76:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
