@@ -19,7 +19,7 @@ open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 
- eventlet.monkey_patch()
+eventlet.monkey_patch()
 
 # 线程安全的队列，用于存储下载任务
 task_queue = Queue()
