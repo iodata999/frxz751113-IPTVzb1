@@ -53,7 +53,7 @@ http://39.134.65.175/PLTV/88888888/224/3221225550/index.m3u8
 http://39.134.65.175/PLTV/88888888/224/3221225521/index.m3u8
 #EXTINF:-1 tvg-id="热播精选" tvg-logo="https://live.fanmingming.com/tv/热播精选.png" group-title="数字频道/固定",热播精选
 http://39.134.65.162/PLTV/88888888/224/3221225521/index.m3u8
-#EXTINF:-1 tvg-id="热播精选B" tvg-logo="https://live.fanmingming.com/tv/热播精选B.png" group-title="数字频道/固定",热播精选B
+#EXTINF:-1 tvg-id="明星大片" tvg-logo="https://live.fanmingming.com/tv/明星大片.png" group-title="数字频道/固定",明星大片
 http://39.134.65.162/PLTV/88888888/224/3221225550/index.m3u8
 #EXTINF:-1 tvg-id="炫舞未来" tvg-logo="https://live.fanmingming.com/tv/炫舞未来.png" group-title="数字频道/固定",炫舞未来
 http://39.134.65.162/PLTV/88888888/224/3221225646/index.m3u8
@@ -73,7 +73,7 @@ http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chi
 http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
 #EXTINF:-1 tvg-id="家庭剧场" tvg-logo="https://live.fanmingming.com/tv/家庭剧场.png" group-title="数字频道/固定",家庭剧场
 http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-id="明星大片1" tvg-logo="https://live.fanmingming.com/tv/明星大片1.png" group-title="数字频道/固定",明星大片1
+#EXTINF:-1 tvg-id="热播精选" tvg-logo="https://live.fanmingming.com/tv/热播精选.png" group-title="数字频道/固定",热播精选
 http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
 #EXTINF:-1 tvg-id="军旅剧场" tvg-logo="https://live.fanmingming.com/tv/军旅剧场.png" group-title="数字频道/固定",军旅剧场
 http://[2409:8087:1a09:df::401e]/wh7f454c46tw1349845387_1669248457/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
