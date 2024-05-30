@@ -11,9 +11,9 @@ from datetime import datetime
 import fileinput
 import eventlet
 
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/TW.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/frxz751113/IPTV/main/iptv_list.txt"          #源采集地址
 r = requests.get(url)
-open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
+open('iptv_list.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 
@@ -28,7 +28,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("TW.txt", 'r', encoding='utf-8') as file:
+with open("Tiptv_list.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
