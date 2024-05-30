@@ -1,5 +1,4 @@
 #根目录下放置1.txt文件进行验证
-import time
 import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -9,7 +8,6 @@ import os
 import threading
 from queue import Queue
 from datetime import datetime
-import replace
 import fileinput
 import eventlet
 
