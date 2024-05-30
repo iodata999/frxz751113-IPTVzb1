@@ -383,6 +383,7 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encod
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 for line in fileinput.input("c.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("AA", "")                                                                         ###########                                                      ###########
+    line = line.replace("地理世界", "世界地理")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
