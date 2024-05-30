@@ -1865,21 +1865,21 @@ http://113.94.58.37:10010/rtp/239.253.43.9:5146
 http://125.92.115.179:6668/rtp/239.253.43.18:5146
 #EXTINF:-1 tvg-id="兵器科技" tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="央视频道/自动",兵器科技
 http://125.92.115.179:6668/rtp/239.253.43.9:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.101.64.138:8012/rtp/239.253.43.24:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.101.64.138:8012/rtp/239.253.43.7:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.66.239.166:4022/rtp/239.253.43.24:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.66.239.166:4022/rtp/239.253.43.7:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.94.58.37:10010/rtp/239.253.43.24:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://113.94.58.37:10010/rtp/239.253.43.7:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://125.92.115.179:6668/rtp/239.253.43.24:5146
-#EXTINF:-1 tvg-id="地理世界" tvg-logo="https://live.fanmingming.com/tv/地理世界.png" group-title="央视频道/自动",地理世界
+#EXTINF:-1 tvg-id="世界地理" tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="央视频道/自动",世界地理
 http://125.92.115.179:6668/rtp/239.253.43.7:5146
 #EXTINF:-1 tvg-id="央视文化精品" tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="央视频道/自动",央视文化精品
 http://113.101.64.138:8012/rtp/239.253.43.13:5146
