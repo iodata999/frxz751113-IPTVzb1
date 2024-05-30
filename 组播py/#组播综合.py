@@ -375,7 +375,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,', 'CHC']  # 需要提取的关键字列表
+keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,', '风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -383,8 +383,15 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encod
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-            
+for line in fileinput.input("c.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("AA", "")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
+
+
+
+
+##########################################################################################################################################################################################
 keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
@@ -394,19 +401,6 @@ with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', enco
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
 
-
-keywords = ['AA', 'CHC', '风云', '兵器', 'SCTV', 'CDTV']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
-    e.write('\n渣货频道/自动更新,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-
-for line in fileinput.input("e.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符      
 
 
 
@@ -443,7 +437,7 @@ for line in fileinput.input("ys.txt", inplace=True):  #打开文件，并对其�
 
 
 
-keywords = ['新闻', '综合', '公共']  # 需要提取的关键字列表
+keywords = ['AA湖南', 'AA广东', 'AA安徽', 'SCTV', 'CDTV'，'新闻', '综合', '公共']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
@@ -525,7 +519,7 @@ for line in fileinput.input("d.txt", inplace=True):   #打开临时文件原地�
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "a.txt", "d.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt",  "e.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "a.txt", "d.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -608,7 +602,7 @@ os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
 os.remove("d.txt")
-os.remove("e.txt")
+#os.remove("e.txt")
 os.remove("黑龙江.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
