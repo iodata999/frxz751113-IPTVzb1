@@ -84,7 +84,7 @@
 超级综艺[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225714/index.m3u8
 超级体育[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225715/index.m3u8
 超级电影[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225717/index.m3u8
-超级影视[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
+超级电视剧[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225716/index.m3u8
 明星大片[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225664/index.m3u8
 精品体育[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225674/index.m3u8
 精品大剧[1920*1080],http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221225670/index.m3u8
