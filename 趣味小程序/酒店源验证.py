@@ -13,7 +13,10 @@ import replace
 import fileinput
 import eventlet
 
-with open("1.txt", 'r', encoding='utf-8') as file:
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/TW.txt"          #源采集地址
+r = requests.get(url)
+open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
+
 
 
  eventlet.monkey_patch()
@@ -27,7 +30,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("1.txt", 'r', encoding='utf-8') as file:
+with open("TW.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
