@@ -28,7 +28,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("Tiptv_list.txt", 'r', encoding='utf-8') as file:
+with open("iptv_list.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
