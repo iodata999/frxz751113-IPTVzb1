@@ -563,8 +563,6 @@ https://cloud.yumixiu768.com/tmp/123.m3u8
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="星河台[1280*720]" tvg-logo="https://live.fanmingming.com/tv/星河台[1280*720].png" group-title="港澳/随时失效",星河台[1280*720]
 https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="动物星球 4K" tvg-logo="https://live.fanmingming.com/tv/动物星球 4K.png" group-title="港澳/随时失效",动物星球 4K
-https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
 #EXTINF:-1 tvg-id="半岛新闻[1280*720]" tvg-logo="https://live.fanmingming.com/tv/半岛新闻[1280*720].png" group-title="港澳/随时失效",半岛新闻[1280*720]
 http://live-hls-web-aja.getaj.net/AJA/02.m3u8
 #EXTINF:-1 tvg-id="半岛新闻[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/半岛新闻[1920*1080].png" group-title="港澳/随时失效",半岛新闻[1920*1080]
