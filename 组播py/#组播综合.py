@@ -483,9 +483,9 @@ open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 
-#keywords = ['重温经典', ' 8M1080,']  # 需要提取的关键字列表 8M1080
-#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表 8M1080
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
     a.write('\n港澳频道/随时失效,#genre#\n')
     for line in file:
