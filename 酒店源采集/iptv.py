@@ -194,6 +194,7 @@ for url in urls:
                             name = name.replace("(", "")
                             name = name.replace(")", "")
                             name = name.replace("L", "")
+                            name = name.replace("002", "酒店MV")
                             name = name.replace("测试002", "凤凰卫视")
                             name = name.replace("测试003", "凤凰卫视")
                             name = name.replace("测试004", "私人影院")
