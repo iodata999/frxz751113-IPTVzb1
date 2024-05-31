@@ -679,34 +679,34 @@ http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
 #EXTINF:-1 tvg-id="人间卫视" tvg-logo="https://live.fanmingming.com/tv/人间卫视.png" group-title="港澳/随时失效",人间卫视
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
-#EXTINF:-1 tvg-id="八大戏剧[1280*720]" tvg-logo="https://live.fanmingming.com/tv/八大戏剧[1280*720].png" group-title="港澳/随时失效",八大戏剧[1280*720]
+#EXTINF:-1 tvg-id="TVBS新闻台" tvg-logo="https://live.fanmingming.com/tv/TVBS新闻台.png" group-title="港澳/随时失效",TVBS新闻台
+http://61.221.215.25:8800/hls/9/index.m3u8
+#EXTINF:-1 tvg-id="amc电影台" tvg-logo="https://live.fanmingming.com/tv/amc电影台.png" group-title="港澳/随时失效",amc电影台
+http://61.221.215.25:8800/hls/43/index.m3u8
+#EXTINF:-1 tvg-id="三立戏剧台" tvg-logo="https://live.fanmingming.com/tv/三立戏剧台.png" group-title="港澳/随时失效",三立戏剧台
+http://61.221.215.25:8800/hls/41/index.m3u8
+#EXTINF:-1 tvg-id="八大戏剧台" tvg-logo="https://live.fanmingming.com/tv/八大戏剧台.png" group-title="港澳/随时失效",八大戏剧台
 http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="八大第一[1280*720]" tvg-logo="https://live.fanmingming.com/tv/八大第一[1280*720].png" group-title="港澳/随时失效",八大第一[1280*720]
+#EXTINF:-1 tvg-id="八大第一" tvg-logo="https://live.fanmingming.com/tv/八大第一.png" group-title="港澳/随时失效",八大第一
 http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1 tvg-id="八大综合[1280*720]" tvg-logo="https://live.fanmingming.com/tv/八大综合[1280*720].png" group-title="港澳/随时失效",八大综合[1280*720]
+#EXTINF:-1 tvg-id="八大综合" tvg-logo="https://live.fanmingming.com/tv/八大综合.png" group-title="港澳/随时失效",八大综合
 http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="港澳/随时失效",凤凰卫视
-http://112.19.171.156:9999/udp/239.93.0.162:2192
+#EXTINF:-1 tvg-id="凤凰中文台" tvg-logo="https://live.fanmingming.com/tv/凤凰中文台.png" group-title="港澳/随时失效",凤凰中文台
+http://61.221.215.25:8800/hls/47/index.m3u8
+#EXTINF:-1 tvg-id="纬来精彩台" tvg-logo="https://live.fanmingming.com/tv/纬来精彩台.png" group-title="港澳/随时失效",纬来精彩台
+http://61.221.215.25:8800/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="港澳/随时失效",凤凰卫视
 http://hikvision.city:880/fhws.m3u8
-#EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="港澳/随时失效",凤凰卫视
-http://www.cdtriot.cn:9999/udp/239.93.0.162:2192
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://112.19.171.156:9999/udp/239.93.0.118:2191
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
 http://hikvision.city:880/fhzx.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
 http://www.cdtriot.cn:9999/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-id="凤凰资讯[1280*720]" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯[1280*720].png" group-title="港澳/随时失效",凤凰资讯[1280*720]
-http://61.221.215.25:8800/hls/47/index.m3u8
 #EXTINF:-1 tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="港澳/随时失效",凤凰香港
 http://hikvision.city:880/fhxgt.m3u8
 #EXTINF:-1 tvg-id="华视[1280*720]" tvg-logo="https://live.fanmingming.com/tv/华视[1280*720].png" group-title="港澳/随时失效",华视[1280*720]
 rtmp://f13h.mine.nu/sat/tv111
 #EXTINF:-1 tvg-id="台视[1280*720]" tvg-logo="https://live.fanmingming.com/tv/台视[1280*720].png" group-title="港澳/随时失效",台视[1280*720]
 rtmp://220.130.201.73/sat/tv071
-#EXTINF:-1 tvg-id="探索亚洲[1280*720]" tvg-logo="https://live.fanmingming.com/tv/探索亚洲[1280*720].png" group-title="港澳/随时失效",探索亚洲[1280*720]
-http://61.221.215.25:8800/hls/50/index.m3u8
 #EXTINF:-1 tvg-id="星光视界[1280*720]" tvg-logo="https://live.fanmingming.com/tv/星光视界[1280*720].png" group-title="港澳/随时失效",星光视界[1280*720]
 http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 #EXTINF:-1 tvg-id="澳门莲花" tvg-logo="https://live.fanmingming.com/tv/澳门莲花.png" group-title="港澳/随时失效",澳门莲花
