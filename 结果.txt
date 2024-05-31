@@ -342,7 +342,6 @@ TVB星河,http://171.108.239.76:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive
 三立戏剧[1280*720],http://61.221.215.25:8800/hls/41/index.m3u8
 中视[1280*720],rtmp://220.130.201.73/sat/tv091
 中视[1280*720],rtmp://f13h.mine.nu/sat/tv091
-亚洲新闻台,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 人间卫视,http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
@@ -361,20 +360,12 @@ TVB星河,http://171.108.239.76:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive
 凤凰香港,http://hikvision.city:880/fhxgt.m3u8
 华视[1280*720],rtmp://f13h.mine.nu/sat/tv111
 台视[1280*720],rtmp://220.130.201.73/sat/tv071
-台视新闻,http://livetv.skycf.eu.org/live.m3u8?c=4
 探索亚洲[1280*720],http://61.221.215.25:8800/hls/50/index.m3u8
 星光视界[1280*720],http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
-星河台[1280*720],http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
-星空卫视,http://218.202.220.2:5000/nn_live.ts?id=STARTV
-星空卫视[1047*576],http://wouu.net:9977/udp/239.93.0.156:2193
-欧洲华文频道,http://vvlive.eztv.vip/hwetnew/hwetnew.m3u8?auth_key=1710810771-0-0-c5ce71079eaa4d245127b05375ae371f
-民视[1280*720],rtmp://220.130.201.73/sat/tv051
 澳门莲花,http://php.jdshipin.com:8880/amlh.php
-环球电视台,http://zb.xzxwhcb.com:9999/hls/world.m3u8
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
 番薯111,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8
-纬来精彩[1280*720],http://61.221.215.25:8800/hls/48/index.m3u8
 经典神话台[1280*720],http://ali.hlspull.yximgs.com/live/asdfg32522.flv
 经典都市台[1360*768],http://ali.hlspull.yximgs.com/live/asdfg32516.flv
 
