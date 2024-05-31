@@ -206,6 +206,7 @@ for url in urls:
                             name = name.replace("莲花台", "凤凰香港")
                             name = name.replace("测试014", "凤凰资讯")
                             name = name.replace("测试015", "未知影视")
+                            name = name.replace("TV星河", "空")
                             name = name.replace("305", "酒店影视1")
                             name = name.replace("306", "酒店影视2")
                             name = name.replace("307", "酒店影视3")
