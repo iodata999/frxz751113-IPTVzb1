@@ -84,7 +84,7 @@ def modify_urls(url):
 
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=3)          ###//////////////////
+        response = requests.get(url, timeout=1)          ###//////////////////
         if response.status_code == 200:
             return url
     except requests.exceptions.RequestException:
@@ -162,7 +162,7 @@ for url in urls:
             url_x = f"{base_url}{ip_address}"
 
             json_url = f"{url}"
-            response = requests.get(json_url, timeout=3)                        ####///////////////
+            response = requests.get(json_url, timeout=1)                        ####///////////////
             json_data = response.json()
 
             try:
@@ -339,7 +339,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(3, False):  #################////////////////////////////////
+            with eventlet.Timeout(6, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
