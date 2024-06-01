@@ -687,8 +687,6 @@ http://888.iptv543.com/Smartv.php?id=axn_twn
 http://live.9528.eu.org/4gtv.php?channel=84
 #EXTINF:-1 tvg-id="靖天欢乐台" tvg-logo="https://live.fanmingming.com/tv/靖天欢乐台.png" group-title="港澳/随时失效",靖天欢乐台
 http://live.9528.eu.org/4gtv.php?channel=119
-#EXTINF:-1 tvg-id="TVB凤凰台" tvg-logo="https://live.fanmingming.com/tv/TVB凤凰台.png" group-title="港澳/随时失效",TVB凤凰台
-https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
 http://888.iptv543.com/Smartv.php?id=Xinhe
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
@@ -701,8 +699,6 @@ http://113.64.145.195:8081/hls/135/index.m3u8
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
 https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="港澳/随时失效",TVB翡翠台
-http://111.230.195.119:80/香蕉哥/tvb/hls.m3u8
 #EXTINF:-1 tvg-id="TVB翡翠台 4K" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台 4K.png" group-title="港澳/随时失效",TVB翡翠台 4K
 http://158.180.67.130/live/hls/JUHD/juhd.m3u8
 #EXTINF:-1 tvg-id="TVB翡翠台 4K" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台 4K.png" group-title="港澳/随时失效",TVB翡翠台 4K
@@ -771,14 +767,6 @@ http://171.223.215.229:4000/udp/239.93.1.9:2192
 http://dms.yryyj.site:8188/udp/239.76.246.135:1234
 #EXTINF:-1 tvg-id="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港澳/随时失效",凤凰中文
 http://dms.yryyj.site:8188/udp/239.76.253.135:9000
-#EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="港澳/随时失效",凤凰卫视
-http://210.210.155.37/uq2663/h/h157/index2.m3u8
-#EXTINF:-1 tvg-id="凤凰卫视" tvg-logo="https://live.fanmingming.com/tv/凤凰卫视.png" group-title="港澳/随时失效",凤凰卫视
-http://kuanglong.vicp.hk:2121/udp/239.93.16.31:8012
-#EXTINF:-1 tvg-id="凤凰古城东关门" tvg-logo="https://live.fanmingming.com/tv/凤凰古城东关门.png" group-title="港澳/随时失效",凤凰古城东关门
-https://gcalic.v.myalicdn.com/gc/fhgcdgm_1/index.m3u8
-#EXTINF:-1 tvg-id="凤凰古城南华山" tvg-logo="https://live.fanmingming.com/tv/凤凰古城南华山.png" group-title="港澳/随时失效",凤凰古城南华山
-https://gcalic.v.myalicdn.com/gc/fhgcdnhs_1/index.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
 http://112.19.171.156:9999/udp/239.93.0.118:2191
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
@@ -813,10 +801,6 @@ http://ytb.csscc.cc:2086/live.m3u8?c=1
 http://william8073.eu.org:9000/live.m3u8?c=19
 #EXTINF:-1 tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="港澳/随时失效",凤凰香港
 http://113.64.145.195:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="华丽翡翠台" tvg-logo="https://live.fanmingming.com/tv/华丽翡翠台.png" group-title="港澳/随时失效",华丽翡翠台
-http://888.iptv543.com/Smartv.php?id=Wlt
-#EXTINF:-1 tvg-id="华丽翡翠台" tvg-logo="https://live.fanmingming.com/tv/华丽翡翠台.png" group-title="港澳/随时失效",华丽翡翠台
-http://cdn8.jdshipin.com:8880/smt.php?id=Wlt
 #EXTINF:-1 tvg-id="天映频道" tvg-logo="https://live.fanmingming.com/tv/天映频道.png" group-title="港澳/随时失效",天映频道
 http://888.iptv543.com/Smartv.php?id=Celestial
 #EXTINF:-1 tvg-id="好莱坞电影台" tvg-logo="https://live.fanmingming.com/tv/好莱坞电影台.png" group-title="港澳/随时失效",好莱坞电影台
@@ -835,12 +819,6 @@ http://wouu.net:9977/udp/239.93.0.156:2193
 http://888.iptv543.com/Smartv.php?id=ettvmovie
 #EXTINF:-1 tvg-id="民视影剧台" tvg-logo="https://live.fanmingming.com/tv/民视影剧台.png" group-title="港澳/随时失效",民视影剧台
 http://live.9528.eu.org/4gtv.php?channel=24
-#EXTINF:-1 tvg-id="特种兵之火凤凰" tvg-logo="https://live.fanmingming.com/tv/特种兵之火凤凰.png" group-title="港澳/随时失效",特种兵之火凤凰
-http://43.138.170.29:35455/yy/1356326459
-#EXTINF:-1 tvg-id="福建漳州六鳌翡翠湾" tvg-logo="https://live.fanmingming.com/tv/福建漳州六鳌翡翠湾.png" group-title="港澳/随时失效",福建漳州六鳌翡翠湾
-https://gcalic.v.myalicdn.com/gc/fcw01_1/index.m3u8
-#EXTINF:-1 tvg-id="福建漳州醉美沙滩翡翠湾" tvg-logo="https://live.fanmingming.com/tv/福建漳州醉美沙滩翡翠湾.png" group-title="港澳/随时失效",福建漳州醉美沙滩翡翠湾
-https://gcalic.v.myalicdn.com/gc/fcw03_1/index.m3u8
 #EXTINF:-1 tvg-id="经典电影台" tvg-logo="https://live.fanmingming.com/tv/经典电影台.png" group-title="港澳/随时失效",经典电影台
 http://live.9528.eu.org/4gtv.php?channel=201
 #EXTINF:-1 tvg-id="美亚电影台" tvg-logo="https://live.fanmingming.com/tv/美亚电影台.png" group-title="港澳/随时失效",美亚电影台
