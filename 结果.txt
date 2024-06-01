@@ -349,7 +349,7 @@ TVB星河,http://171.108.239.76:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive
 AMC电影台,http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
 AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
-AMC電影台,http://61.221.215.25:8800/hls/43/index.m3u8
+AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 TVB星河台,http://888.iptv543.com/Smartv.php?id=Xinhe
 TVB星河台,http://888.iptv543.com/Smartv.php?id=tvbxinhe_twn
 TVB星河台,http://cdn8.jdshipin.com:8880/smt.php?id=Xinhe
