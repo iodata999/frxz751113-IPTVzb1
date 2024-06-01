@@ -677,16 +677,16 @@ http://171.108.239.73:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=
 http://171.108.239.74:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="龙祥电影" tvg-logo="https://live.fanmingming.com/tv/龙祥电影.png" group-title="港澳/随时失效",龙祥电影
 http://171.108.239.76:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-id="AMC en Español" tvg-logo="https://live.fanmingming.com/tv/AMC en Español.png" group-title="港澳/随时失效",AMC en Español
+https://i.mjh.nz/SamsungTVPlus/USBD7000017L.m3u8
+#EXTINF:-1 tvg-id="AMC" tvg-logo="https://live.fanmingming.com/tv/AMC.png" group-title="港澳/随时失效",AMC
+http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
 #EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1 tvg-id="AXN电影台" tvg-logo="https://live.fanmingming.com/tv/AXN电影台.png" group-title="港澳/随时失效",AXN电影台
-http://888.iptv543.com/Smartv.php?id=axn_twn
-#EXTINF:-1 tvg-id="靖天国际台" tvg-logo="https://live.fanmingming.com/tv/靖天国际台.png" group-title="港澳/随时失效",靖天国际台
-http://live.9528.eu.org/4gtv.php?channel=84
-#EXTINF:-1 tvg-id="靖天欢乐台" tvg-logo="https://live.fanmingming.com/tv/靖天欢乐台.png" group-title="港澳/随时失效",靖天欢乐台
-http://live.9528.eu.org/4gtv.php?channel=119
+#EXTINF:-1 tvg-id="AMC電影台" tvg-logo="https://live.fanmingming.com/tv/AMC電影台.png" group-title="港澳/随时失效",AMC電影台
+http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
 http://888.iptv543.com/Smartv.php?id=Xinhe
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
@@ -699,26 +699,8 @@ http://113.64.145.195:8081/hls/135/index.m3u8
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
 https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠台 4K" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台 4K.png" group-title="港澳/随时失效",TVB翡翠台 4K
-http://158.180.67.130/live/hls/JUHD/juhd.m3u8
-#EXTINF:-1 tvg-id="TVB翡翠台 4K" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台 4K.png" group-title="港澳/随时失效",TVB翡翠台 4K
-http://free.9528.eu.org:9529/stream/hk/test/master.m3u8?u=admin&p=70db29aeaebf312fd2b93d3d69d99a16ad3319d0b354567f2be5c5e91c6be18b
-#EXTINF:-1 tvg-id="TVB翡翠台" tvg-logo="https://live.fanmingming.com/tv/TVB翡翠台.png" group-title="港澳/随时失效",TVB翡翠台
-http://158.180.67.130/live/hls/J/j.m3u8
 #EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://live.9528.eu.org/4gtv.php?channel=39
-#EXTINF:-1 tvg-id="东森新闻台" tvg-logo="https://live.fanmingming.com/tv/东森新闻台.png" group-title="港澳/随时失效",东森新闻台
-http://211.23.114.106:8510/http/61.221.81.94:8088/hls/71/813/ch44.m3u8
-#EXTINF:-1 tvg-id="东森新闻台" tvg-logo="https://live.fanmingming.com/tv/东森新闻台.png" group-title="港澳/随时失效",东森新闻台
-http://live.9528.eu.org/4gtv.php?channel=292
-#EXTINF:-1 tvg-id="东森洋片" tvg-logo="https://live.fanmingming.com/tv/东森洋片.png" group-title="港澳/随时失效",东森洋片
-http://888.iptv543.com/Smartv.php?id=ettvwestern
-#EXTINF:-1 tvg-id="东森超视" tvg-logo="https://live.fanmingming.com/tv/东森超视.png" group-title="港澳/随时失效",东森超视
-http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8
-#EXTINF:-1 tvg-id="东森超视" tvg-logo="https://live.fanmingming.com/tv/东森超视.png" group-title="港澳/随时失效",东森超视
-http://888.iptv543.com/Smartv.php?id=ettvsuper
-#EXTINF:-1 tvg-id="东森超视" tvg-logo="https://live.fanmingming.com/tv/东森超视.png" group-title="港澳/随时失效",东森超视
-rtmp://f13h.mine.nu/sat/tv331
 #EXTINF:-1 tvg-id="八大戏剧" tvg-logo="https://live.fanmingming.com/tv/八大戏剧.png" group-title="港澳/随时失效",八大戏剧
 http://61.221.215.25:8800/hls/39/index.m3u8
 #EXTINF:-1 tvg-id="八大戏剧" tvg-logo="https://live.fanmingming.com/tv/八大戏剧.png" group-title="港澳/随时失效",八大戏剧
@@ -767,108 +749,6 @@ http://171.223.215.229:4000/udp/239.93.1.9:2192
 http://dms.yryyj.site:8188/udp/239.76.246.135:1234
 #EXTINF:-1 tvg-id="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="港澳/随时失效",凤凰中文
 http://dms.yryyj.site:8188/udp/239.76.253.135:9000
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://112.19.171.156:9999/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://113.64.145.195:8081/hls/36/index.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://117.28.130.162:8888/rtp/239.61.2.183:9086
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://117.28.177.45:8605/rtp/239.61.2.183:9086
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://120.41.124.228:8888/rtp/239.61.2.183:9086
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://171.223.215.229:4000/udp/239.93.1.4:2191
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://61.221.215.25:8800/hls/47/index.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://dms.yryyj.site:8188/udp/239.76.246.134:1234
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://dms.yryyj.site:8188/udp/239.76.253.134:9000
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://kuanglong.vicp.hk:2121/udp/239.93.16.118:8708
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://vl15191373.imwork.net:8880/udp/239.93.1.4:2191
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://www.yao87.com:4022/udp/239.76.246.135:1234
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://ytb.csscc.cc:2086/live.m3u8?c=1
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
-http://william8073.eu.org:9000/live.m3u8?c=19
-#EXTINF:-1 tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="港澳/随时失效",凤凰香港
-http://113.64.145.195:8081/hls/38/index.m3u8
-#EXTINF:-1 tvg-id="天映频道" tvg-logo="https://live.fanmingming.com/tv/天映频道.png" group-title="港澳/随时失效",天映频道
-http://888.iptv543.com/Smartv.php?id=Celestial
-#EXTINF:-1 tvg-id="好莱坞电影台" tvg-logo="https://live.fanmingming.com/tv/好莱坞电影台.png" group-title="港澳/随时失效",好莱坞电影台
-http://888.iptv543.com/Smartv.php?id=hollywoodmovies_twn
-#EXTINF:-1 tvg-id="影迷数位电影台" tvg-logo="https://live.fanmingming.com/tv/影迷数位电影台.png" group-title="港澳/随时失效",影迷数位电影台
-http://live.9528.eu.org/4gtv.php?channel=40
-#EXTINF:-1 tvg-id="星空卫视" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="港澳/随时失效",星空卫视
-hhttps://epg.pw/stream/295e40de2803afdf3bdd9e10c5468e14227aca3ddcb253c76c5124bd0b09e1a7.ctv
-#EXTINF:-1 tvg-id="星空卫视" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="港澳/随时失效",星空卫视
-http://1b6467f415.iok.la:9931/tsfile/live/1039_1.m3u8
-#EXTINF:-1 tvg-id="星空卫视" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="港澳/随时失效",星空卫视
-http://wouu.net:9977/udp/239.93.0.156:2193
-#EXTINF:-1 tvg-id="星空卫视" tvg-logo="https://live.fanmingming.com/tv/星空卫视.png" group-title="港澳/随时失效",星空卫视
-http://wouu.net:9977/udp/239.93.0.156:2193
-#EXTINF:-1 tvg-id="東森电影台" tvg-logo="https://live.fanmingming.com/tv/東森电影台.png" group-title="港澳/随时失效",東森电影台
-http://888.iptv543.com/Smartv.php?id=ettvmovie
-#EXTINF:-1 tvg-id="民视影剧台" tvg-logo="https://live.fanmingming.com/tv/民视影剧台.png" group-title="港澳/随时失效",民视影剧台
-http://live.9528.eu.org/4gtv.php?channel=24
-#EXTINF:-1 tvg-id="经典电影台" tvg-logo="https://live.fanmingming.com/tv/经典电影台.png" group-title="港澳/随时失效",经典电影台
-http://live.9528.eu.org/4gtv.php?channel=201
-#EXTINF:-1 tvg-id="美亚电影台" tvg-logo="https://live.fanmingming.com/tv/美亚电影台.png" group-title="港澳/随时失效",美亚电影台
-http://888.iptv543.com/Smartv.php?id=meiyamovie_twn
-#EXTINF:-1 tvg-id="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳/随时失效",翡翠台
-http://1b6467f415.iok.la:9931/tsfile/live/1007_1.m3u8
-#EXTINF:-1 tvg-id="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳/随时失效",翡翠台
-http://888.iptv543.com/Smartv.php?id=jade_twn
-#EXTINF:-1 tvg-id="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳/随时失效",翡翠台
-http://cdn8.jdshipin.com:8880/smt.php?id=jade_twn
-#EXTINF:-1 tvg-id="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳/随时失效",翡翠台
-http://grandprix2023.asuscomm.com:8889/bysid/1
-#EXTINF:-1 tvg-id="采昌影剧台" tvg-logo="https://live.fanmingming.com/tv/采昌影剧台.png" group-title="港澳/随时失效",采昌影剧台
-http://live.9528.eu.org/4gtv.php?channel=25
-#EXTINF:-1 tvg-id="靖天卡通" tvg-logo="https://live.fanmingming.com/tv/靖天卡通.png" group-title="港澳/随时失效",靖天卡通
-http://888.iptv543.com/Smartv.php?id=jingtiancartoon_twn
-#EXTINF:-1 tvg-id="靖天卡通台" tvg-logo="https://live.fanmingming.com/tv/靖天卡通台.png" group-title="港澳/随时失效",靖天卡通台
-http://live.9528.eu.org/4gtv.php?channel=15
-#EXTINF:-1 tvg-id="靖天国际台" tvg-logo="https://live.fanmingming.com/tv/靖天国际台.png" group-title="港澳/随时失效",靖天国际台
-http://888.iptv543.com/Smartv.php?id=jingtianintl_twn
-#EXTINF:-1 tvg-id="靖天日本台" tvg-logo="https://live.fanmingming.com/tv/靖天日本台.png" group-title="港澳/随时失效",靖天日本台
-http://live.9528.eu.org/4gtv.php?channel=22
-#EXTINF:-1 tvg-id="靖天映画" tvg-logo="https://live.fanmingming.com/tv/靖天映画.png" group-title="港澳/随时失效",靖天映画
-http://live.9528.eu.org/4gtv.php?channel=42
-#EXTINF:-1 tvg-id="靖天电影台" tvg-logo="https://live.fanmingming.com/tv/靖天电影台.png" group-title="港澳/随时失效",靖天电影台
-http://live.9528.eu.org/4gtv.php?channel=82
-#EXTINF:-1 tvg-id="靖天综合台" tvg-logo="https://live.fanmingming.com/tv/靖天综合台.png" group-title="港澳/随时失效",靖天综合台
-http://live.9528.eu.org/4gtv.php?channel=21
-#EXTINF:-1 tvg-id="靖天育乐台" tvg-logo="https://live.fanmingming.com/tv/靖天育乐台.png" group-title="港澳/随时失效",靖天育乐台
-http://live.9528.eu.org/4gtv.php?channel=83
-#EXTINF:-1 tvg-id="靖天资讯台" tvg-logo="https://live.fanmingming.com/tv/靖天资讯台.png" group-title="港澳/随时失效",靖天资讯台
-http://live.9528.eu.org/4gtv.php?channel=88
-#EXTINF:-1 tvg-id="龙华偶像" tvg-logo="https://live.fanmingming.com/tv/龙华偶像.png" group-title="港澳/随时失效",龙华偶像
-http://888.iptv543.com/Smartv.php?id=lunghuaidol_twn
-#EXTINF:-1 tvg-id="龙华戏剧" tvg-logo="https://live.fanmingming.com/tv/龙华戏剧.png" group-title="港澳/随时失效",龙华戏剧
-http://888.iptv543.com/Smartv.php?id=lunghuaxiju_twn
-#EXTINF:-1 tvg-id="龙华日韩台" tvg-logo="https://live.fanmingming.com/tv/龙华日韩台.png" group-title="港澳/随时失效",龙华日韩台
-http://live.9528.eu.org/4gtv.php?channel=28
-#EXTINF:-1 tvg-id="龙华洋片" tvg-logo="https://live.fanmingming.com/tv/龙华洋片.png" group-title="港澳/随时失效",龙华洋片
-http://888.iptv543.com/Smartv.php?id=lunghuawestern_twn
-#EXTINF:-1 tvg-id="龙华电影台" tvg-logo="https://live.fanmingming.com/tv/龙华电影台.png" group-title="港澳/随时失效",龙华电影台
-http://888.iptv543.com/Smartv.php?id=xingwei_movie
-#EXTINF:-1 tvg-id="龙华电影台" tvg-logo="https://live.fanmingming.com/tv/龙华电影台.png" group-title="港澳/随时失效",龙华电影台
-http://888.iptv543.com/Smartv.php?id=xingwei_movie
-#EXTINF:-1 tvg-id="龙华电影台" tvg-logo="https://live.fanmingming.com/tv/龙华电影台.png" group-title="港澳/随时失效",龙华电影台
-http://live.9528.eu.org/4gtv.php?channel=121
-#EXTINF:-1 tvg-id="龙祥时代" tvg-logo="https://live.fanmingming.com/tv/龙祥时代.png" group-title="港澳/随时失效",龙祥时代
-http://888.iptv543.com/Smartv.php?id=cb7a1fec69
-#EXTINF:-1 tvg-id="龙祥时代" tvg-logo="https://live.fanmingming.com/tv/龙祥时代.png" group-title="港澳/随时失效",龙祥时代
-http://888.iptv543.com/Smartv.php?id=lungxiangtime_twn
 #EXTINF:-1 tvg-id="三立戏剧[1280*720]" tvg-logo="https://live.fanmingming.com/tv/三立戏剧[1280*720].png" group-title="港澳/随时失效",三立戏剧[1280*720]
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-id="中视[1280*720]" tvg-logo="https://live.fanmingming.com/tv/中视[1280*720].png" group-title="港澳/随时失效",中视[1280*720]
