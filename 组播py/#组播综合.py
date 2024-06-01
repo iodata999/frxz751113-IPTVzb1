@@ -357,6 +357,21 @@ lines.sort()
 with open('e.txt', 'w') as f:
     for line in lines:
         f.write(line)
+for line in fileinput.input("e.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("星河,", "星河台,")                                                                         ###########
+    line = line.replace("翡翠,", "翡翠台,")                                                                         ###########
+    line = line.replace("新闻,", "新闻台,")                                                                         ###########
+    line = line.replace("美洲2", "美洲")                                                                         ###########
+    line = line.replace("财经新闻HD,", "财经新闻,")                                                        ###########
+    line = line.replace("KLT-靖天国际台", "靖天国际台")                                                                         ###########
+    line = line.replace("Nice TV ", "")                                                                         ###########
+    line = line.replace("戏剧台,", "戏剧")                                                                         ###########
+    line = line.replace("戲劇台HD", "戏剧")                                                                         ###########
+    line = line.replace("第1台HD", "第一")                                                                         ###########
+    line = line.replace("第1台,", "第一,")                                                                         ###########
+    line = line.replace("綜合台HD", "綜合")                                                                         ###########
+    line = line.replace("资讯HD", "资讯")                                                                       ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
 
 ##############################################################################################################################################################################################################################################
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
