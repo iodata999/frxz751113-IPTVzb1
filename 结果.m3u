@@ -683,7 +683,7 @@ http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1 tvg-id="AMC電影台" tvg-logo="https://live.fanmingming.com/tv/AMC電影台.png" group-title="港澳/随时失效",AMC電影台
+#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
 http://888.iptv543.com/Smartv.php?id=Xinhe
