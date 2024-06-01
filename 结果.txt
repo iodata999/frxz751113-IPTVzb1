@@ -294,7 +294,6 @@ CCTV17,http://222.218.159.185:8181/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1
 港澳/随时失效,#genre#
 
 
-港澳/随时失效,#genre#
 AMC电影台,http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
 AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 AMC电影台,http://61.221.215.25:8800/hls/43/index.m3u8
@@ -309,17 +308,11 @@ AMC电影台,http://live.9528.eu.org/4gtv.php?channel=39
 八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
 八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
 八大戏剧http://888.iptv543.com/Smartv.php?id=badadrama
-八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
-八大第一,http://888.iptv543.com/Smartv.php?id=badafirst
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
-八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
-八大精彩台,http://live.9528.eu.org/4gtv.php?channel=172
-八大綜合,http://61.221.215.25:8800/hls/56/index.m3u8
 八大综合,http://61.221.215.25:8800/hls/56/index.m3u8
 八大综合,http://61.221.215.25:8800/hls/56/index.m3u8
-八大综合台,http://888.iptv543.com/Smartv.php?id=badazhonghe
-八大综艺台,http://live.9528.eu.org/4gtv.php?channel=114
+港澳/随时失效,#genre#
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 
 
