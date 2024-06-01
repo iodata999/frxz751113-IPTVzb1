@@ -1189,6 +1189,8 @@ http://223.244.247.163:8888/rtp/238.1.78.222:7648
 http://116.21.124.8:8888/rtp/239.77.0.165:5146
 #EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道/自动",CCTV16
 http://116.21.124.8:8888/rtp/239.77.1.76:5146
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://111.167.171.54:4022/rtp/239.49.0.109:8000
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
 http://116.21.124.8:8888/rtp/239.77.0.198:5146
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
@@ -1209,6 +1211,8 @@ http://182.148.130.33:58888/rtp/239.93.0.92:5140
 http://183.164.48.116:4022/rtp/238.1.78.178:7296
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
 http://223.244.247.163:8888/rtp/238.1.78.178:7296
+#EXTINF:-1 tvg-id="CCTV17[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV17[5.1环绕].png" group-title="央视频道/自动",CCTV17[5.1环绕]
+http://111.167.171.54:4022/rtp/225.1.2.052:5002
 #EXTINF:-1 tvg-id="百事通4K[5.1环绕声]" tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="央视频道/自动",百事通4K[5.1环绕声]
 http://182.148.130.31:58888/rtp/239.93.42.75:5140
 #EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视频道/自动",风云足球
@@ -2183,6 +2187,8 @@ http://116.21.124.8:8888/rtp/239.77.0.174:5146
 http://116.21.124.8:8888/rtp/239.253.43.106:5146
 #EXTINF:-1 tvg-id="CCTV16 4K" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="4K频道/自动",CCTV16 4K
 http://116.21.124.8:8888/rtp/239.77.1.98:5146
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://111.167.171.54:4022/rtp/239.49.0.109:8000
 #EXTINF:-1 tvg-id="中录动漫4K" tvg-logo="https://live.fanmingming.com/tv/中录动漫4K.png" group-title="4K频道/自动",中录动漫4K
 http://125.69.137.1:4022/rtp/239.93.1.188:5140
 #EXTINF:-1 tvg-id="中录动漫4K" tvg-logo="https://live.fanmingming.com/tv/中录动漫4K.png" group-title="4K频道/自动",中录动漫4K
