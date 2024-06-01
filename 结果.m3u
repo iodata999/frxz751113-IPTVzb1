@@ -575,42 +575,6 @@ http://222.218.159.82:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=
 http://222.218.159.82:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视频道/自动",黑龙江卫视
 http://222.218.159.185:8181/tsfile/live/0143_2.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
-http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
-#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
-http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
-http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
-http://61.221.215.25:8800/hls/43/index.m3u8
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-http://888.iptv543.com/Smartv.php?id=Xinhe
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-http://888.iptv543.com/Smartv.php?id=tvbxinhe_twn
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-http://cdn8.jdshipin.com:8880/smt.php?id=Xinhe
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-http://113.64.145.195:8081/hls/135/index.m3u8
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="TVB星河台" tvg-logo="https://live.fanmingming.com/tv/TVB星河台.png" group-title="港澳/随时失效",TVB星河台
-https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
-http://live.9528.eu.org/4gtv.php?channel=39
-#EXTINF:-1 tvg-id="八大戏剧" tvg-logo="https://live.fanmingming.com/tv/八大戏剧.png" group-title="港澳/随时失效",八大戏剧
-http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="八大戏剧" tvg-logo="https://live.fanmingming.com/tv/八大戏剧.png" group-title="港澳/随时失效",八大戏剧
-http://61.221.215.25:8800/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="八大第一" tvg-logo="https://live.fanmingming.com/tv/八大第一.png" group-title="港澳/随时失效",八大第一
-http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1 tvg-id="八大第一" tvg-logo="https://live.fanmingming.com/tv/八大第一.png" group-title="港澳/随时失效",八大第一
-http://61.221.215.25:8800/hls/55/index.m3u8
-#EXTINF:-1 tvg-id="八大综合" tvg-logo="https://live.fanmingming.com/tv/八大综合.png" group-title="港澳/随时失效",八大综合
-http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1 tvg-id="八大综合" tvg-logo="https://live.fanmingming.com/tv/八大综合.png" group-title="港澳/随时失效",八大综合
-http://61.221.215.25:8800/hls/56/index.m3u8
-#EXTINF:-1 tvg-id="重温经典" tvg-logo="https://live.fanmingming.com/tv/重温经典.png" group-title="港澳/随时失效",重温经典
-http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 #EXTINF:-1 tvg-id="三立戏剧[1280*720]" tvg-logo="https://live.fanmingming.com/tv/三立戏剧[1280*720].png" group-title="港澳/随时失效",三立戏剧[1280*720]
 http://61.221.215.25:8800/hls/41/index.m3u8
 #EXTINF:-1 tvg-id="中视[1280*720]" tvg-logo="https://live.fanmingming.com/tv/中视[1280*720].png" group-title="港澳/随时失效",中视[1280*720]
