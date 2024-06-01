@@ -344,7 +344,7 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
 r = requests.get(url)
 open('DIYP-v4.txt', 'wb').write(r.content)
-keywords = ['凤凰中文', '凤凰资讯', '凤凰香港', '东森新闻', '天映', '龙祥', 'axn', '翡翠台', '东森洋片', '东森超视', '东森电影', '星河', '八大', '星空', '影剧台', '靖天', '电影台', '龙华']  # 需要提取的关键字列表
+keywords = ['凤凰中文', 'TVB星河', '八大', 'AMC', 'amc电影台']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', encoding='utf-8') as HK:
     HK.write('\n港澳频道/随时失效,#genre#\n')
