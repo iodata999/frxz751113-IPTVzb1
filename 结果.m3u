@@ -1209,6 +1209,8 @@ http://182.148.130.33:58888/rtp/239.93.0.92:5140
 http://183.164.48.116:4022/rtp/238.1.78.178:7296
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
 http://223.244.247.163:8888/rtp/238.1.78.178:7296
+#EXTINF:-1 tvg-id="百事通4K[5.1环绕声]" tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="央视频道/自动",百事通4K[5.1环绕声]
+http://182.148.130.31:58888/rtp/239.93.42.75:5140
 #EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视频道/自动",风云足球
 http://125.69.137.1:4022/rtp/239.93.0.235:5140
 #EXTINF:-1 tvg-id="风云足球" tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="央视频道/自动",风云足球
@@ -2207,6 +2209,8 @@ http://125.69.137.1:4022/rtp/239.93.0.97:5140
 http://182.148.130.31:58888/rtp/239.93.0.97:5140
 #EXTINF:-1 tvg-id="爱上4K" tvg-logo="https://live.fanmingming.com/tv/爱上4K.png" group-title="4K频道/自动",爱上4K
 http://182.148.130.33:58888/rtp/239.93.0.97:5140
+#EXTINF:-1 tvg-id="百事通4K[5.1环绕声]" tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="4K频道/自动",百事通4K[5.1环绕声]
+http://182.148.130.31:58888/rtp/239.93.42.75:5140
 #EXTINF:-1 tvg-id="绚影4K" tvg-logo="https://live.fanmingming.com/tv/绚影4K.png" group-title="4K频道/自动",绚影4K
 http://125.69.137.1:4022/rtp/239.93.42.33:5140
 #EXTINF:-1 tvg-id="绚影4K" tvg-logo="https://live.fanmingming.com/tv/绚影4K.png" group-title="4K频道/自动",绚影4K
