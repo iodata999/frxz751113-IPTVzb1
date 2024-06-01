@@ -473,7 +473,18 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
     print(line, end="")  #设置end=""，避免输出多余的换行符                                                   ###########
 #######################################################################################################################
 
+#  获取远程港澳台直播源文件
+url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
+r = requests.get(url)
+open('DIYP-v4.txt', 'wb').write(r.content)
 
+keywords = ['凤凰', '东森', '天映', '龙', 'axn', '翡翠', '星河', '八大', '星空', '影剧台', '靖天', '电影台', '香港卫视']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', encoding='utf-8') as HK:
+    HK.write('\n港澳频道/随时失效,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+            HK.write(line)  # 将该行写入输出文件
 
 
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
@@ -518,7 +529,7 @@ for line in fileinput.input("d.txt", inplace=True):   #打开临时文件原地�
 
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "a.txt", "d.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "HK.txt", "a.txt", "d.txt", "c.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -601,7 +612,7 @@ os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
 os.remove("d.txt")
-#os.remove("e.txt")
+os.remove("HK.txt")
 os.remove("黑龙江.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
