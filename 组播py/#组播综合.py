@@ -232,6 +232,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV4K", "CCTV 4K")
     line = line.replace("卫视台", "卫视")
     line = line.replace("iHOT", "")
+    line = line.replace("一一", "")
     line = line.replace("CHC电影", "CHC高清电影")
     line = line.replace("影视剧", "影视")
     line = line.replace("电视剧", "影视")
