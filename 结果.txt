@@ -371,17 +371,7 @@ AMC电影台,http://live.9528.eu.org/4gtv.php?channel=39
 八大综合,http://61.221.215.25:8800/hls/56/index.m3u8
 八大综合台,http://888.iptv543.com/Smartv.php?id=badazhonghe
 八大综艺台,http://live.9528.eu.org/4gtv.php?channel=114
-凤凰中文,http://112.19.171.156:9999/udp/239.93.0.162:2192
-凤凰中文,http://113.64.145.195:8081/hls/37/index.m3u8
-凤凰中文,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
-凤凰中文,http://117.28.130.162:8888/rtp/239.61.2.184:9092
-凤凰中文,http://117.28.177.45:8605/rtp/239.61.2.183:9086
-凤凰中文,http://120.41.124.228:8888/rtp/239.61.2.184:9092
-凤凰中文,http://171.223.215.229:4000/udp/239.93.0.162:2192
-凤凰中文,http://171.223.215.229:4000/udp/239.93.0.162:2192
-凤凰中文,http://171.223.215.229:4000/udp/239.93.1.9:2192
-凤凰中文,http://dms.yryyj.site:8188/udp/239.76.246.135:1234
-凤凰中文,http://dms.yryyj.site:8188/udp/239.76.253.135:9000
+重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 
 
 港澳/随时失效,#genre#
