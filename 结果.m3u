@@ -677,9 +677,7 @@ http://171.108.239.73:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=
 http://171.108.239.74:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="龙祥电影" tvg-logo="https://live.fanmingming.com/tv/龙祥电影.png" group-title="港澳/随时失效",龙祥电影
 http://171.108.239.76:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-id="AMC en Español" tvg-logo="https://live.fanmingming.com/tv/AMC en Español.png" group-title="港澳/随时失效",AMC en Español
-https://i.mjh.nz/SamsungTVPlus/USBD7000017L.m3u8
-#EXTINF:-1 tvg-id="AMC" tvg-logo="https://live.fanmingming.com/tv/AMC.png" group-title="港澳/随时失效",AMC
+#EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://66.165.240.154:8080/live/sf2xby4/hls.m3u8
 #EXTINF:-1 tvg-id="AMC电影台" tvg-logo="https://live.fanmingming.com/tv/AMC电影台.png" group-title="港澳/随时失效",AMC电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
