@@ -345,16 +345,18 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"
 r = requests.get(url)
 open('DIYP-v4.txt', 'wb').write(r.content)
-keywords = ['TVB星河', '八大', '重温', 'AMC,', 'amc电影台', 'AMC电影台', 'amc電影台', 'AMC電影台']  # 需要提取的关键字列表
+for line in fileinput.input("DIYP-v4.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+    line = line.replace("港澳频道/随时失效", "AA港澳频道/随时失效") 
+    line = line.replace("八大综合台", "无效") 
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+keywords = ['TVB星河', '八大综合', '八大第一', '八大戏剧', '重温', 'AMC,', 'amc电影台', 'AMC电影台', 'amc電影台', 'AMC電影台']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', encoding='utf-8') as HK:
     HK.write('\n港澳频道/随时失效,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
             HK.write(line)  # 将该行写入输出文件
-for line in fileinput.input("HK.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("港澳频道/随时失效", "AA港澳频道/随时失效")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符    
+ 
 with open('HK.txt', 'r') as f:
     lines = f.readlines()
 lines.sort()
