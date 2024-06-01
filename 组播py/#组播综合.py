@@ -346,7 +346,6 @@ url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV
 r = requests.get(url)
 open('DIYP-v4.txt', 'wb').write(r.content)
 for line in fileinput.input("DIYP-v4.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
-    line = line.replace("港澳频道/随时失效", "AA港澳频道/随时失效") 
     line = line.replace("八大综合台", "无效") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 keywords = ['TVB星河', '八大综合', '八大第一', '八大戏剧', '重温', 'AMC,', 'amc电影台', 'AMC电影台', 'amc電影台', 'AMC電影台']  # 需要提取的关键字列表
@@ -356,7 +355,9 @@ with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('HK.txt', 'w', enc
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
             HK.write(line)  # 将该行写入输出文件
- 
+or line in fileinput.input("DIYP-v4.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+    line = line.replace("港澳频道/随时失效", "AA港澳频道/随时失效") 
+    print(line, end="")  #设置end=""，避免输出多余的换行符  
 with open('HK.txt', 'r') as f:
     lines = f.readlines()
 lines.sort()
@@ -399,7 +400,6 @@ with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding=
 for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("﻿Taiwan,#genre#", "")                         #编辑替换字
     line = line.replace("﻿amc", "AMC")                         #编辑替换字
-    line = line.replace("﻿戏剧台", "戏剧")                         #编辑替换字
     line = line.replace("﻿中文台", "中文")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
 
