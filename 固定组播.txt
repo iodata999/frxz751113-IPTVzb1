@@ -579,8 +579,8 @@ CHC影迷电影,http://ssrs2004.win:8888/rtp/239.112.205.206:5140
 华数4K[3840*2160],http://n1.dddmmh.space:8088/udp/225.0.4.226:7980
 华数4K[3840*2160],http://sweetown.fun:4000/rtp/239.3.1.236:2000
 华数4K[3840*2160],http://www.hiliu.myds.me:8088/rtp/239.69.1.141:10482
-4K影视[3840*2160],http://nas.hssvm.com:8888/udp/225.1.2.190:5002
-电影4K[3840*2160],http://iku.sunnyli.link:4144/udp/239.252.220.212:5140
+华数4K[3840*2160],http://iku.sunnyli.link:4144/udp/239.252.220.212:5140
+搜狐4K[3840*2160],http://nas.hssvm.com:8888/udp/225.1.2.190:5002
 第一剧场,http://gang.pecmd.cn:6000/rtp/232.0.0.29:1234
 第一剧场,http://iku.sunnyli.link:4144/udp/239.252.219.86:5140
 第一剧场,http://mail.petzhu.top:7000/rtp/239.254.201.218:7258
