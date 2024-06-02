@@ -336,7 +336,7 @@ keywords = ['AA湖南', 'AA广东', 'AA安徽', 'AA湖北', '珠海', '公共'] 
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
-    df.write('\n地方频道/自动更新,#genre#\n')
+    df.write('\n省市频道/自动更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
