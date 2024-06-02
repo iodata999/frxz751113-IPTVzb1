@@ -241,6 +241,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
     line = line.replace("CCTV2CCTV2", "CCTV2")
     line = line.replace("CCTV7CCTV7", "CCTV7")
     line = line.replace("CCTV10CCTV10", "CCTV10")
+    line = line.replace("高清电影", "影迷电影")
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
