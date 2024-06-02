@@ -1897,6 +1897,16 @@ http://222.95.43.234:9000/rtp/239.49.8.31:8000
 http://222.95.99.20:8888/rtp/239.49.8.31:8000
 #EXTINF:-1 tvg-id="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="央视频道/自动",CCTV16
 http://49.74.204.172:8888/rtp/239.49.8.31:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://114.224.11.234:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://117.80.239.30:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://222.95.43.234:9000/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://222.95.99.20:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="央视频道/自动",CCTV16 4K[5.1环绕]
+http://49.74.204.172:8888/rtp/239.49.0.109:8000
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
 http://110.184.115.99:4022/rtp/239.93.0.92:5140
 #EXTINF:-1 tvg-id="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道/自动",CCTV17
@@ -4497,16 +4507,6 @@ http://116.5.162.124:8888/rtp/239.253.43.106:5146
 http://119.142.191.216:4001/rtp/239.253.43.106:5146
 #EXTINF:-1 tvg-id="CCTV 8K" tvg-logo="https://live.fanmingming.com/tv/CCTV 8K.png" group-title="4K频道/自动",CCTV 8K
 http://218.18.5.43:8888/rtp/239.253.43.106:5146
-#EXTINF:-1 tvg-id="CCTV奥林匹克4K" tvg-logo="https://live.fanmingming.com/tv/CCTV奥林匹克4K.png" group-title="4K频道/自动",CCTV奥林匹克4K
-http://114.224.11.234:8888/rtp/239.49.0.109:8000
-#EXTINF:-1 tvg-id="CCTV奥林匹克4K" tvg-logo="https://live.fanmingming.com/tv/CCTV奥林匹克4K.png" group-title="4K频道/自动",CCTV奥林匹克4K
-http://117.80.239.30:8888/rtp/239.49.0.109:8000
-#EXTINF:-1 tvg-id="CCTV奥林匹克4K" tvg-logo="https://live.fanmingming.com/tv/CCTV奥林匹克4K.png" group-title="4K频道/自动",CCTV奥林匹克4K
-http://222.95.43.234:9000/rtp/239.49.0.109:8000
-#EXTINF:-1 tvg-id="CCTV奥林匹克4K" tvg-logo="https://live.fanmingming.com/tv/CCTV奥林匹克4K.png" group-title="4K频道/自动",CCTV奥林匹克4K
-http://222.95.99.20:8888/rtp/239.49.0.109:8000
-#EXTINF:-1 tvg-id="CCTV奥林匹克4K" tvg-logo="https://live.fanmingming.com/tv/CCTV奥林匹克4K.png" group-title="4K频道/自动",CCTV奥林匹克4K
-http://49.74.204.172:8888/rtp/239.49.0.109:8000
 #EXTINF:-1 tvg-id="CCTV16 4K" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="4K频道/自动",CCTV16 4K
 http://116.25.251.84:8888/rtp/239.77.1.98:5146
 #EXTINF:-1 tvg-id="CCTV16 4K" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="4K频道/自动",CCTV16 4K
@@ -4515,6 +4515,16 @@ http://116.5.162.124:8888/rtp/239.77.1.98:5146
 http://119.142.191.216:4001/rtp/239.77.1.98:5146
 #EXTINF:-1 tvg-id="CCTV16 4K" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="4K频道/自动",CCTV16 4K
 http://218.18.5.43:8888/rtp/239.77.1.98:5146
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://114.224.11.234:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://117.80.239.30:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://222.95.43.234:9000/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://222.95.99.20:8888/rtp/239.49.0.109:8000
+#EXTINF:-1 tvg-id="CCTV16 4K[5.1环绕]" tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K[5.1环绕].png" group-title="4K频道/自动",CCTV16 4K[5.1环绕]
+http://49.74.204.172:8888/rtp/239.49.0.109:8000
 #EXTINF:-1 tvg-id="中录动漫4K" tvg-logo="https://live.fanmingming.com/tv/中录动漫4K.png" group-title="4K频道/自动",中录动漫4K
 http://110.184.115.99:4022/rtp/239.93.1.188:5140
 #EXTINF:-1 tvg-id="中录动漫4K" tvg-logo="https://live.fanmingming.com/tv/中录动漫4K.png" group-title="4K频道/自动",中录动漫4K
