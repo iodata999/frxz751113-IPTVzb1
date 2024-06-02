@@ -2,6 +2,7 @@
 
 数字频道/固定,#genre#
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
+重温经典,http://123.6.102.32:11789/850.php?id=cwjdhd.m3u8
 爱情喜剧,http://39.134.65.162/PLTV/88888888/224/3221225533/index.m3u8
 爱情喜剧,http://39.134.65.175/PLTV/88888888/224/3221225533/index.m3u8
 超级电视剧,http://39.134.65.175/PLTV/88888888/224/3221225637/index.m3u8
