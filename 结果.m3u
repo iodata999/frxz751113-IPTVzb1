@@ -753,6 +753,10 @@ http://hikvision.city:880/fhws.m3u8
 http://hikvision.city:880/fhzx.m3u8
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="港澳/随时失效",凤凰资讯
 http://www.cdtriot.cn:9999/udp/239.93.0.118:2191
+#EXTINF:-1 tvg-id="凤凰资讯[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯[1920*1080].png" group-title="港澳/随时失效",凤凰资讯[1920*1080]
+http://ax.micaesoft.com/YMitv/YMITV_CN_ifengNEW.m3u8
+#EXTINF:-1 tvg-id="香港卫视HKS[1024*576]" tvg-logo="https://live.fanmingming.com/tv/香港卫视HKS[1024*576].png" group-title="港澳/随时失效",香港卫视HKS[1024*576]
+http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="港澳/随时失效",凤凰香港
 http://hikvision.city:880/fhxgt.m3u8
 #EXTINF:-1 tvg-id="华视[1280*720]" tvg-logo="https://live.fanmingming.com/tv/华视[1280*720].png" group-title="港澳/随时失效",华视[1280*720]
@@ -783,6 +787,12 @@ http://61.221.215.25:8800/hls/48/index.m3u8
 http://ali.hlspull.yximgs.com/live/asdfg32522.flv
 #EXTINF:-1 tvg-id="经典都市台[1360*768]" tvg-logo="https://live.fanmingming.com/tv/经典都市台[1360*768].png" group-title="港澳/随时失效",经典都市台[1360*768]
 http://ali.hlspull.yximgs.com/live/asdfg32516.flv
+#EXTINF:-1 tvg-id="1905国内电影[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/1905国内电影[1920*1080].png" group-title="港澳/随时失效",1905国内电影[1920*1080]
+http://php.jdshipin.com:8880/1905.php?id=1905dy
+#EXTINF:-1 tvg-id="1905国外电影[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/1905国外电影[1920*1080].png" group-title="港澳/随时失效",1905国外电影[1920*1080]
+http://php.jdshipin.com:8880/1905.php?id=1905dy2
+#EXTINF:-1 tvg-id="环球电视台[1920*1080]" tvg-logo="https://live.fanmingming.com/tv/环球电视台[1920*1080].png" group-title="港澳/随时失效",环球电视台[1920*1080]
+http://zb.xzxwhcb.com:9999/hls/world.m3u8
 #EXTINF:-1 tvg-id="武汉教育" tvg-logo="https://live.fanmingming.com/tv/武汉教育.png" group-title="湖北频道/固定",武汉教育
 http://stream.appwuhan.com/jyzb/sd/live.m3u8
 #EXTINF:-1 tvg-id="武汉新闻" tvg-logo="https://live.fanmingming.com/tv/武汉新闻.png" group-title="湖北频道/固定",武汉新闻
