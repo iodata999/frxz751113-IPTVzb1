@@ -284,6 +284,7 @@ for url in urls:
                             name = name.replace("影视剧", "影视")
                             name = name.replace("电视剧", "影视")
                             name = name.replace("奥运匹克", "")
+                            name = name.replace("卡", "")
                             results.append(f"{name},{urld}")
             except:
                 continue
