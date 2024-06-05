@@ -12,9 +12,9 @@ import replace
 import fileinput
 
 
-#url = "https://gh.con.sh/https://raw.githubusercontent.com/frxz751113/IPTV/main/iptv_list.txt"          #源采集地址
-#r = requests.get(url)
-#open('iptv_list.txt','wb').write(r.content)         #打开源文件并临时写入
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/V4%E6%B1%87%E6%80%BB.txt"          #源采集地址，略掉这三行即为本地检测
+r = requests.get(url)
+open('V4汇总.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
 import eventlet
@@ -30,7 +30,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("1.txt", 'r', encoding='utf-8') as file:
+with open("V4汇总.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -152,10 +152,10 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('港澳频道/随时失效,#genre#\n')
+    file.write('影视频道/自动更新,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
+        if '影' in channel_name or '剧' in channel_name or '妈' in channel_name or '惊' in channel_name or '热播' in channel_name or '功' in channel_name or '凤凰' in channel_name:
           #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -176,12 +176,14 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("酒店源.txt", "w", encoding="utf-8") as output:
+with open("已验证.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+for line in fileinput.input("已验证.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
+os.remove("hn.txt")
+os.remove("V4汇总.txtt")
 
 print("任务运行完毕")
