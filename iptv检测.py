@@ -10,13 +10,6 @@ from queue import Queue
 from datetime import datetime
 import replace
 import fileinput
-
-
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/V4%E6%B1%87%E6%80%BB.txt"          #源采集地址，略掉这三行即为本地检测
-r = requests.get(url)
-open('V4汇总.txt','wb').write(r.content)         #打开源文件并临时写入
-
-
 import eventlet
 
 eventlet.monkey_patch()
