@@ -39,13 +39,15 @@ jobs:
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/#采集.py
          
-      - name: Commit results
+      - name: 提交更改
         run: |
-            git config --local user.email "actions@github.com"
-            git config --local user.name "GitHub Action"
-            if [ -n "$(git status --porcelain)" ]; then
-            git add  *.txt #*.m3u
-            git commit -m "Automatic update"
+          git config --local user.email "actions@126.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit *.txt -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
+          #git pull --rebase
+          git push -f
             git push
             else
               echo "No changes detected, skipping commit."
