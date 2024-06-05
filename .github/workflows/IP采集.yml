@@ -21,14 +21,20 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
+      - name: Install selenium 
         run: pip install selenium requests futures eventlet
-      - name: Install dependencies
+      - name: Install opencv
         run: pip install opencv-python requests 
-      - name: Install dependencies
+      - name: Install Beautifulsoup4
         run: pip install Beautifulsoup4 requests 
-      - name: Install dependencies
+      - name: Install translate
         run: pip install translate requests 
+      - name: Install ffmpy 
+        run: pip install ffmpy 
+      - name: Install termcolor
+        run: pip install termcolor
+      - name: Install func_timeout
+        run: pip install func_timeout
       
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/#采集.py
