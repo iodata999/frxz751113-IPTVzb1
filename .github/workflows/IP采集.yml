@@ -21,33 +21,25 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install selenium 
+      - name: Install dependencies
         run: pip install selenium requests futures eventlet
-      - name: Install opencv
+      - name: Install dependencies
         run: pip install opencv-python requests 
-      - name: Install Beautifulsoup4
+      - name: Install dependencies
         run: pip install Beautifulsoup4 requests 
-      - name: Install translate
+      - name: Install dependencies
         run: pip install translate requests 
-      - name: Install ffmpy 
-        run: pip install ffmpy 
-      - name: Install termcolor
-        run: pip install termcolor
-      - name: Install func_timeout
-        run: pip install func_timeout
       
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/#采集.py
          
-      - name: 提交更改
+      - name: Commit results
         run: |
-          git config --local user.email "actions@126.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit *.txt -m "Add generated file"
-          #git commit *.m3u -m "Add generated file"
-          #git pull --rebase
-          git push -f
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Action"
+            if [ -n "$(git status --porcelain)" ]; then
+            git add  *.txt #*.m3u
+            git commit -m "Automatic update"
             git push
             else
               echo "No changes detected, skipping commit."
