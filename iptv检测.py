@@ -14,7 +14,7 @@ import eventlet
 
 
 with open("V6汇总.txt", 'r', encoding='utf-8') as file:
- eventlet.monkey_patch()
+    eventlet.monkey_patch()
 # 线程安全的队列，用于存储下载任务
     task_queue = Queue()
 
