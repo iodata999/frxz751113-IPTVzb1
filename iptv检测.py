@@ -23,7 +23,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("V4汇总.txt", 'r', encoding='utf-8') as file:
+with open("V6汇总.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -47,7 +47,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(3, False):  #################////////////////////////////////
+            with eventlet.Timeout(3000, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
@@ -82,7 +82,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 4
+num_threads = 16
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
