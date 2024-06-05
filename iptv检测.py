@@ -54,7 +54,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(12, False):  #################////////////////////////////////
+            with eventlet.Timeout(3, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
@@ -89,7 +89,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 9
+num_threads = 4
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
@@ -137,7 +137,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('卫视频道/自动更新,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '湖北卫视' in channel_name or '凤凰卫视' in channel_name or '湖南卫视' in channel_name or '卫视' in channel_name or '江苏卫视' in channel_name or '山东卫视' in channel_name or '安徽卫视' in channel_name or '北京卫视' in channel_name or '广东卫视' in channel_name or '广东珠江' in channel_name or '贵州卫视' in channel_name:
+        if '卫视' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -175,15 +175,8 @@ for file_path in file_paths:
         content = file.read()
         file_contents.append(content)
 
-# 写入合并后的文件
-with open("已验证.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-for line in fileinput.input("已验证.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
-    line = line.replace("AA", "")
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
-os.remove("hn.txt")
 os.remove("V4汇总.txtt")
 
 print("任务运行完毕")
