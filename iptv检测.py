@@ -170,6 +170,4 @@ for file_path in file_paths:
 
 
 
-os.remove("V4汇总.txtt")
-
 print("任务运行完毕")
