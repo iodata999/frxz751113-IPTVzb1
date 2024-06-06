@@ -12,6 +12,10 @@ import replace
 import fileinput
 import eventlet
 
+#  获取远程港澳台直播源文件
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/流畅.txt"          #源采集地址
+r = requests.get(url)
+open('流畅.txt','wb').write(r.content)         #打开源文件并临时写入
 
 eventlet.monkey_patch()
 # 线程安全的队列，用于存储下载任务
@@ -23,7 +27,7 @@ results = []
 channels = []
 error_channels = []
 # 从iptv.txt文件内提取其他频道进行检测并分组
-with open("V4汇总.txt", 'r', encoding='utf-8') as file:
+with open("流畅.txt", 'r', encoding='utf-8') as file:
    
     lines = file.readlines()
     for line in lines:
