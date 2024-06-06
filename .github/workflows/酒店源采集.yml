@@ -1,4 +1,4 @@
-name: 酒店源采集合并
+name: 酒店源采集
 
 on:
   schedule:
@@ -38,6 +38,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
