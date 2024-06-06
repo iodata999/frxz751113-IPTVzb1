@@ -48,11 +48,11 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(15, False):  #################////////////////////////////////
+            with eventlet.Timeout(30, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
-                response_time = (end_time - start_time) * 1
+                response_time = (end_time - start_time) * 1 #此值仅用于速率换算，固定为1
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
@@ -62,7 +62,7 @@ def worker():
                 download_speed = file_size / response_time / 1024
                 # print(f"下载速度：{download_speed:.3f} kB/s")
                 normalized_speed = min(max(download_speed / 1024, 0.001), 100)  # 将速率从kB/s转换为MB/s并限制在1~100之间
-                # print(f"标准化后的速率：{normalized_speed:.3f} MB/s")
+                #print(f"速率：{normalized_speed:.3f} MB/s")
 
                 # 删除下载的文件
                 os.remove(ts_lists_0)
@@ -70,20 +70,20 @@ def worker():
                 results.append(result)
                 numberx = (len(results) + len(error_channels)) / len(channels) * 100
                 print(
-                    f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+                    f"有效：{len(results)} 个 , 无效：{len(error_channels)} 个 , 共：{len(channels)} 个 ,进度：{numberx:.2f} %,速率：{normalized_speed:.3f} MB/s。")
         except:
             error_channel = channel_name, channel_url
             error_channels.append(error_channel)
             numberx = (len(results) + len(error_channels)) / len(channels) * 100
             print(
-                f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+                f"有效：{len(results)} 个 , 无效：{len(error_channels)} 个 , 共：{len(channels)} 个 ,进度：{numberx:.2f} %。")
 
         # 标记任务完成
         task_queue.task_done()
 
 
-# 创建多个工作线程
-num_threads = 4
+# 创建多#工作线程数
+num_threads =8
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
@@ -109,9 +109,9 @@ def channel_key(channel_name):
 # 对频道进行排序
 results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
-result_counter = 3  # 每个频道需要的个数
+result_counter = 13  # 每个频道需要的个数
 
-with open("hn.txt", 'w', encoding='utf-8') as file:
+with open("已验证.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视频道/自动更新,#genre#\n')
     for result in results:
@@ -161,6 +161,14 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
       
+# 合并自定义频道文件内容
+file_contents = []
+file_paths = ["已验证.txt"]  # 替换为实际的文件路径列表
+for file_path in file_paths:
+    with open(file_path, 'r', encoding="utf-8") as file:
+        content = file.read()
+        file_contents.append(content)
+
 
 
 print("任务运行完毕")
