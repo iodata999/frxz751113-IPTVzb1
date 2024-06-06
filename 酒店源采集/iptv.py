@@ -16,14 +16,6 @@ url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/流畅.txt"          #
 r = requests.get(url)
 open('流畅.txt','wb').write(r.content)         #打开源文件并临时写入
 
-
-for line in fileinput.input("YSPD.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("[1920*1080]", "")                         #编辑替换字
-    line = line.replace("amc", "AMC")                         #编辑替换字
-    line = line.replace("戏剧台", "戏剧")                         #编辑替换字
-    print(line, end="")                                     #加入此行去掉多余的转行符
-
-
 keywords = [',', 'http']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
