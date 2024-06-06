@@ -350,7 +350,7 @@ CHC影迷电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 黑龙江影视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
 黑龙江影视,http://39.135.133.160:80/wh7f454c46tw3679100859_2084673206/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8?
 黑龙江影视,http://39.135.133.160:80/wh7f454c46tw3679100859_2084673206/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8?rrsip=ottrrs.hl.chinamobile.com&zoneoffset=0&servicetype=1&icpid=88888888&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%2C2713447%2C112.102.160.59%2C20230401182706%2Curn%3AHuawei%3AliveTV%3AXTV373267930%2C2713447%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C373267931%2CEND&GuardEncType=2&RTS=1680349504&from=23&hms_devid=1244&online=1680349504&vqe=3&it=H4sIAyspSkxO9XSxzSvNyVErTi30y7c1VktOzMnJzEv3y08BSYUFO8cbGugZGlrqWZrrGZpZqoWANLnlJKbbGoDV-pXmJqUWQTlAjcGpRWWZyam2KcVpemWJxXqJ6elFqemJJZn5eXoBOYmVoUU5UCUAgFILtn8
-央视/自动,#genre#
+央视/自动更新,#genre#
 CCTV1,http://118.248.168.75:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://171.108.239.76:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://171.108.239.54:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -494,7 +494,7 @@ CCTV17,http://171.108.239.76:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://171.108.239.54:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://171.108.239.54:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
-卫视/自动,#genre#
+卫视/自动更新,#genre#
 上海卫视,http://222.241.154.37:9901/tsfile/live/23033_1.m3u8?key=txiptv&playlive=1&authid=0
 上海卫视,http://171.108.239.73:8181/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
 上海卫视,http://171.108.239.74:8181/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -967,7 +967,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 沭阳综合,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
 
 
-央视/自动,#genre#
+央视/自动更新,#genre#
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.119:5146
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.129:5146
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.86:5146
@@ -1336,7 +1336,7 @@ CCTV17[5.1环绕声],http://111.167.225.113:8888/rtp/225.1.2.52:5002
 百事通4K[5.1环绕声],http://218.88.7.196:5253/rtp/239.93.42.75:5140
 
 
-央视/自动,#genre#
+央视/自动更新,#genre#
 风云足球,http://171.88.64.22:5253/rtp/239.93.0.235:5140
 风云足球,http://182.150.185.196:9999/rtp/239.93.0.235:5140
 风云足球,http://218.88.7.196:5253/rtp/239.93.0.235:5140
@@ -1528,7 +1528,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 怀旧剧场,http://220.180.116.153:6004/rtp/238.1.79.61:4624
 
 
-卫视/自动,#genre#
+卫视/自动更新,#genre#
 湖北卫视,http://111.165.236.122:8000/rtp/225.1.1.147:5002
 湖北卫视,http://111.167.225.113:8888/rtp/225.1.1.147:5002
 湖北卫视,http://117.67.169.12:4022/rtp/238.1.78.168:7216
@@ -1724,7 +1724,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 黑龙江卫视,http://220.180.116.153:6004/rtp/238.1.78.159:7144
 
 
-影视/自动,#genre#
+影视/自动更新,#genre#
 热门剧场,http://171.88.64.22:5253/rtp/239.93.42.88:5140
 热门剧场,http://182.150.185.196:9999/rtp/239.93.42.88:5140
 热门剧场,http://218.88.7.196:5253/rtp/239.93.42.88:5140
@@ -1778,7 +1778,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 经典剧场,http://175.9.163.26:9999/rtp/239.76.252.221:9000
 
 
-4K/自动,#genre#
+4K/自动更新,#genre#
 4K乐享,http://171.88.64.22:5253/rtp/239.93.0.43:5140
 4K乐享,http://182.150.185.196:9999/rtp/239.93.0.43:5140
 4K乐享,http://218.88.7.196:5253/rtp/239.93.0.43:5140
@@ -1876,7 +1876,7 @@ CCTV16 4K[5.1环绕声],http://218.20.54.131:8888/rtp/239.77.1.98:5146
 绚影4K,http://218.88.7.196:5253/rtp/239.93.42.33:5140
 
 
-省市/自动,#genre#
+省市/自动更新,#genre#
 安徽公共,http://117.67.169.12:4022/rtp/238.1.79.43:4456
 安徽公共,http://183.166.119.47:8888/rtp/238.1.79.43:4456
 安徽公共,http://220.180.116.153:6004/rtp/238.1.79.43:4456
