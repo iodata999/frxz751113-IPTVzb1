@@ -444,10 +444,14 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("固定源", "固定")                                                                         ###########                                                      ###########
-    line = line.replace("更新", "")                                                                         ###########                                                      ###########
-    line = line.replace("港澳频道/", "港澳/")                                                                         ###########                                                      ###########
+for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+    line = line.replace("固定源", "固定")   
+    line = line.replace("更新", "")             
+    line = line.replace("港澳频道/", "港澳/")    
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+    line = line.replace("固定", "随时失效")  
+    line = line.replace("频道", "")  
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 
 
