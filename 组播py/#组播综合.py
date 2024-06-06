@@ -452,6 +452,7 @@ for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对
 for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
     line = line.replace("固定", "随时失效")  
     line = line.replace("频道", "")  
+    line = line.replace("地波1080", "地波")  
     line = line.replace("自动", "自动更新")  
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 
