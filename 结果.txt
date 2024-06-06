@@ -1,6 +1,6 @@
 
 
-央视频道/固定,#genre#
+央视/随时失效,#genre#
 CCTV1,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
 CCTV1,http://[2409:8087:1a16:d1::5]/wh7f454c46tw2575174798_-600958036/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8?icpid=88888888&RTS=1713144770&from=5&hms_devid=1255&online=1713144770&vqe=3
 CCTV1,http://[2409:8087:1a01:df::4077]/PLTV/88888888/224/3221225816/index.m3u8
@@ -113,7 +113,7 @@ CCTV17,http://[2409:8087:1a16:d1::4]/wh7f454c46tw2671613611_-558779441/ottrrs.hl
 CCTV17,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010210/1.m3u8
 CCTV17,http://39.135.135.88:80/wh7f454c46tw3757071990_771002896/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 CCTV17,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638728afa13b4/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUdDh4EPdDnvGlSBkYaxFdaz%2FyAI9to%2FMBBt%2FivcdSfljJ1%2FqqamWUjAiBAxNssfyBlZUDSXAIMtStS86hRHFuJM
-卫视频道/固定,#genre#
+卫视/随时失效,#genre#
 上海卫视,http://[2409:8087:5e00:24::1e]:6060/200000001898/460000089800010054/1.m3u8
 上海卫视,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN111131BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUaKz9fMrAi6%2FC6MZg8Mm9JQwoDIwMxbrlyyVy9x6ZDKnJ1LnEAwl4s1JgSBXbCxhRiWmveR7x9HhnhsF9G%2Bd4f8
 东南卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226341/index.m3u8
@@ -246,7 +246,7 @@ CCTV17,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638728afa13b4/
 黑龙江卫视,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/1.m3u8
 黑龙江卫视,http://39.134.67.6:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226327/index.m3u8
 黑龙江卫视,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN181356BESTVSMGSMG/index.m3u8?AuthInfo=9kOOdBn7MFF%2F2bWjKgahUXUvBVoIpV7IZ8uInlLPonswoDIwMxbrlyyVy9x6ZDKn9MTOKFsVhR5Pg7Vvr2jf7Z0qxx5spaZs3xlZNl%2FA5wE
-影视频道/固定,#genre#
+影视/随时失效,#genre#
 重温经典,http://ali.hlspull.yximgs.com/live/awei_cwjd.flv
 重温经典,http://171.208.19.192:9090/live/cwjd/hls.m3u8
 重温经典,http://123.6.102.32:11789/850.php?id=cwjdhd.m3u8
@@ -350,7 +350,7 @@ CHC影迷电影,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN63807
 黑龙江影视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
 黑龙江影视,http://39.135.133.160:80/wh7f454c46tw3679100859_2084673206/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8?
 黑龙江影视,http://39.135.133.160:80/wh7f454c46tw3679100859_2084673206/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8?rrsip=ottrrs.hl.chinamobile.com&zoneoffset=0&servicetype=1&icpid=88888888&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%2C2713447%2C112.102.160.59%2C20230401182706%2Curn%3AHuawei%3AliveTV%3AXTV373267930%2C2713447%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C373267931%2CEND&GuardEncType=2&RTS=1680349504&from=23&hms_devid=1244&online=1680349504&vqe=3&it=H4sIAyspSkxO9XSxzSvNyVErTi30y7c1VktOzMnJzEv3y08BSYUFO8cbGugZGlrqWZrrGZpZqoWANLnlJKbbGoDV-pXmJqUWQTlAjcGpRWWZyam2KcVpemWJxXqJ6elFqemJJZn5eXoBOYmVoUU5UCUAgFILtn8
-央视频道/自动,#genre#
+央视/自动,#genre#
 CCTV1,http://118.248.168.75:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://171.108.239.76:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1,http://171.108.239.54:8181/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -494,7 +494,7 @@ CCTV17,http://171.108.239.76:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 CCTV17,http://171.108.239.73:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://171.108.239.54:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17,http://171.108.239.54:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
-卫视频道/自动,#genre#
+卫视/自动,#genre#
 上海卫视,http://222.241.154.37:9901/tsfile/live/23033_1.m3u8?key=txiptv&playlive=1&authid=0
 上海卫视,http://171.108.239.73:8181/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
 上海卫视,http://171.108.239.74:8181/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -877,7 +877,7 @@ AMC電影,http://61.221.215.25:8800/hls/43/index.m3u8
 TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 
 
-湖北频道/固定,#genre#
+湖北/随时失效,#genre#
 武汉教育,http://stream.appwuhan.com/jyzb/sd/live.m3u8
 武汉新闻,http://stream.appwuhan.com/1tzb/sd/live.m3u8
 崇阳综合,http://61.184.176.248:10500/live/live.m3u8
@@ -914,7 +914,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 随州农村,http://34766.hlsplay.aodianyun.com/guangdianyun_34766/tv_channel_305.m3u8?auth_key=4834621829-0-0-49c63c7de26b595a9177e498db618f79&extra_key=xQtKveJFBYYdE5xPP5Qc5y3qlfhlj-BcHOcbWxez9NxCHHoFi0Lp44BN8aqi2_k9URCU-rsf8mQz8CYifgEaMzixzi63CT1KgCDexQ0cD5X0e0lUMZaQy0DMOXcFpW1Cf9zn7psgSNcUQiA2OGcxi7TXk-_FyDGcu767szWh8SQJ0Vr0uNRbiqE2jzk7ICiX
 恩施新闻综合.http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1812.m3u8
 恩施文旅,http://46240.hlsplay.aodianyun.com/tv_radio_46240/tv_channel_1811.m3u8
-地波1080/固定,#genre#
+地波1080/随时失效,#genre#
 叙州综合,rtmp://pili-live-hls.ybcxjd.com/jdh-live/2108111201035597
 崇明电视台,rtmp://pili-live-hls.wdit.com.cn/wditlive/c038f4fafbdf4f97ba74c74ad67259b931ee
 古交电视台,rtmp://pili-live-hls.189.i2863.com/i2863-189/live_189_170656
@@ -967,7 +967,7 @@ TVBS,http://61.221.215.25:8800/hls/9/index.m3u8
 沭阳综合,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
 
 
-央视频道/自动,#genre#
+央视/自动,#genre#
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.119:5146
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.129:5146
 CCTV1,http://113.110.231.246:4022/rtp/239.77.0.86:5146
@@ -1336,7 +1336,7 @@ CCTV17[5.1环绕声],http://111.167.225.113:8888/rtp/225.1.2.52:5002
 百事通4K[5.1环绕声],http://218.88.7.196:5253/rtp/239.93.42.75:5140
 
 
-央视频道/自动,#genre#
+央视/自动,#genre#
 风云足球,http://171.88.64.22:5253/rtp/239.93.0.235:5140
 风云足球,http://182.150.185.196:9999/rtp/239.93.0.235:5140
 风云足球,http://218.88.7.196:5253/rtp/239.93.0.235:5140
@@ -1528,7 +1528,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 怀旧剧场,http://220.180.116.153:6004/rtp/238.1.79.61:4624
 
 
-卫视频道/自动,#genre#
+卫视/自动,#genre#
 湖北卫视,http://111.165.236.122:8000/rtp/225.1.1.147:5002
 湖北卫视,http://111.167.225.113:8888/rtp/225.1.1.147:5002
 湖北卫视,http://117.67.169.12:4022/rtp/238.1.78.168:7216
@@ -1724,7 +1724,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 黑龙江卫视,http://220.180.116.153:6004/rtp/238.1.78.159:7144
 
 
-影视频道/自动,#genre#
+影视/自动,#genre#
 热门剧场,http://171.88.64.22:5253/rtp/239.93.42.88:5140
 热门剧场,http://182.150.185.196:9999/rtp/239.93.42.88:5140
 热门剧场,http://218.88.7.196:5253/rtp/239.93.42.88:5140
@@ -1778,7 +1778,7 @@ CHC影迷电影,http://58.50.173.73:4022/rtp/239.69.1.241:11088
 经典剧场,http://175.9.163.26:9999/rtp/239.76.252.221:9000
 
 
-4K频道/自动,#genre#
+4K/自动,#genre#
 4K乐享,http://171.88.64.22:5253/rtp/239.93.0.43:5140
 4K乐享,http://182.150.185.196:9999/rtp/239.93.0.43:5140
 4K乐享,http://218.88.7.196:5253/rtp/239.93.0.43:5140
@@ -1876,7 +1876,7 @@ CCTV16 4K[5.1环绕声],http://218.20.54.131:8888/rtp/239.77.1.98:5146
 绚影4K,http://218.88.7.196:5253/rtp/239.93.42.33:5140
 
 
-省市频道/自动,#genre#
+省市/自动,#genre#
 安徽公共,http://117.67.169.12:4022/rtp/238.1.79.43:4456
 安徽公共,http://183.166.119.47:8888/rtp/238.1.79.43:4456
 安徽公共,http://220.180.116.153:6004/rtp/238.1.79.43:4456
