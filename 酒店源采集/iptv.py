@@ -401,7 +401,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道/自动更新,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or 'CCTV3' in channel_name or 'CCTV6' in channel_name or 'CCTV8' in channel_name or 'CCTV13' in channel_name or 'CCTV15' in channel_name or '4K' in channel_name:
+        if 'CCTV' in channel_name  或者 '动作' in channel_name  或者 '家庭' in channel_name  或者 '热播' in channel_name  或者 '经典' in channel_name  或者 '谍战' in channel_name  或者 '电影,' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -459,6 +459,7 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
+    line = line.replace("电影,", "高清电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
