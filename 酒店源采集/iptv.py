@@ -457,9 +457,9 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("iptv_list.txt", "w", encoding="utf-8") as output:
+with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
