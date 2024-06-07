@@ -205,8 +205,6 @@ for url in urls:
                             name = name.replace("305", "酒店影视1")
                             name = name.replace("306", "酒店影视2")
                             name = name.replace("307", "酒店影视3")
-                            name = name.replace("010", "东森电影 低分")
-                            name = name.replace("011", "东森洋片 低分")
                             name = name.replace("CMIPTV", "")
                             name = name.replace("cctv", "CCTV")
                             name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
