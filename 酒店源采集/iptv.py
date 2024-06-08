@@ -12,14 +12,14 @@ import replace
 import fileinput
 
 #  获取远程港澳台直播源文件
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/流畅.txt"          #源采集地址
+url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/ott移动v4.txt"          #源采集地址
 r = requests.get(url)
-open('流畅.txt','wb').write(r.content)         #打开源文件并临时写入
+open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
 keywords = [',', 'http']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('流畅.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
+with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
     TW.write('\n央视频道/固定源,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -469,5 +469,5 @@ os.remove("GAT.txt")
 os.remove("hn.txt")
 #os.remove("HK.txt")
 os.remove("TW.txt")
-os.remove("流畅.txt")
+os.remove("ott移动v4.txt")
 print("任务运行完毕")
