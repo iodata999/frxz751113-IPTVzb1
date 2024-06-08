@@ -161,8 +161,6 @@ http://39.135.133.180:80/wh7f454c46tw4181215988_-1505940482/ottrrs.hl.chinamobil
 http://39.135.133.179:80/wh7f454c46tw707028528_1068782603/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8?
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="卫视",重庆卫视
 http://39.135.133.179:80/wh7f454c46tw707028528_1068782603/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226409/index.m3u8?rrsip=ottrrs.hl.chinamobile.com&zoneoffset=0&servicetype=1&icpid=88888888&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%2C2713447%2C112.102.160.59%2C20230401182706%2Curn%3AHuawei%3AliveTV%3AXTV373275305%2C2713447%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C373275306%2CEND&GuardEncType=2&RTS=1680350827&from=23&hms_devid=1248&online=1680350827&vqe=3&it=H4sIAyspSkxO9XSxzSvNyVErTi30y7c1VktOzMnJzEv3y08BSYUFO8cbGugZGlrqWZrrGZpZqoWANLnlJKbbGoDV-pXmJqUWQTlAjcGpRWWZyam2KcVpemWJxXqJ6elFqemJJZn5eXoBOYmVoUU5UCUAgFILtn8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/宁夏卫视.png" group-title="卫视/自动更新",宁夏卫视
-http://61.136.67.238:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河北卫视.png" group-title="卫视/自动更新",河北卫视
 http://61.136.67.238:50085/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png" group-title="卫视/自动更新",陕西卫视
