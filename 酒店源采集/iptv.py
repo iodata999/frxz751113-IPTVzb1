@@ -461,6 +461,7 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
+    line = line.replace("央视频道/固定源,#genre#", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
