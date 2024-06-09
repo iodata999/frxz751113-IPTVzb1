@@ -85,7 +85,21 @@ CCTV17,http://39.135.135.88:80/wh7f454c46tw3757071990_771002896/ottrrs.hl.chinam
 家庭剧场,http://39.134.65.3:80/wh7f454c46tw1479032835_1793140886/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
 军旅剧场,http://39.134.65.76:80/wh7f454c46tw1315043639_-1059421101/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
 央视/自动更新,#genre#
+CCTV2,http://219.159.194.6:8181/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5,http://219.159.194.6:8181/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV16,http://219.159.194.6:8181/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV17,http://219.159.194.6:8181/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 卫视/自动更新,#genre#
+旅游卫视,http://219.159.194.6:8181/tsfile/live/0114_1.m3u8?key=txiptv&playlive=1&authid=0
+江西卫视,http://219.159.194.6:8181/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+河北卫视,http://219.159.194.6:8181/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
+其他/自动更新,#genre#
+CETV4,http://175.18.189.238:9902/tsfile/live/1052_1.m3u8?key=txiptv&playlive=1&authid=0
+广东体育,http://219.159.194.6:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
+广西综艺,http://219.159.194.6:8181/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
+第一剧场,http://175.18.189.238:9902/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
+老故事,http://175.18.189.238:9902/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
+风云足球,http://175.18.189.238:9902/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
 港澳/随时失效,#genre#
 
 
