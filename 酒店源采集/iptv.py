@@ -321,7 +321,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(15, False):  #################////////////////////////////////
+            with eventlet.Timeout(27, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
@@ -356,7 +356,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 6
+num_threads = 10
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
