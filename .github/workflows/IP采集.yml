@@ -29,7 +29,14 @@ jobs:
         run: pip install Beautifulsoup4 requests 
       - name: Install dependencies
         run: pip install translate requests 
-      
+      - name: Install dependencies
+        run: pip install ffmpy
+      - name: Install dependencies
+        run: pip install termcolor
+      - name: Install dependencies
+        run: pip install func_timeout
+
+        
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/#采集.py
          
