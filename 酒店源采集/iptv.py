@@ -284,6 +284,11 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
         print(result)
 print("频道列表文件iptv.txt获取完成！")
 
+
+for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符     
+
 import eventlet
 
 eventlet.monkey_patch()
@@ -419,7 +424,8 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('其他频道/自动更新,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' not in channel_name and '卫视' not in channel_name:
+        if '广' in channel_name or '吉' in channel_name or '黑龙江' in channel_name or '南宁' in channel_name:
+        #if 'CCTV' not in channel_name and '卫视' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
