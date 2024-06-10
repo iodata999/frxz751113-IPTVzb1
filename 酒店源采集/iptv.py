@@ -335,7 +335,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(8, False):  #################////////////////////////////////
+            with eventlet.Timeout(12, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
@@ -480,6 +480,7 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     line = line.replace("央视频道/固定源,#genre#", "")
+    line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
