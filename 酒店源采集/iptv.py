@@ -43,7 +43,7 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    "https://fofa.info/result?qbase64=ImlzU2hvd0xvZ2luSnMiIA%3D%3D",智能KUTV管理
+    "https://fofa.info/result?qbase64=ImlzU2hvd0xvZ2luSnMiIA%3D%3D",#智能KUTV管理
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSI%3D",#9901
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSI%3D",#8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSImJiBvcmc9IkNoaW5hbmV0Ig%3D%3D",#8181移动
