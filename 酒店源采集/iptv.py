@@ -368,7 +368,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 64
+num_threads = 32
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
@@ -394,7 +394,7 @@ def channel_key(channel_name):
 # 对频道进行排序
 results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
-result_counter = 8  # 每个频道需要的个数
+result_counter = 15  # 每个频道需要的个数
 
 with open("hn.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
@@ -431,8 +431,8 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('其他频道/自动更新,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '广' in channel_name or '黑龙江' in channel_name or '南宁' in channel_name:
-        #if 'CCTV' not in channel_name and '卫视' not in channel_name:
+        #if '广' in channel_name or '黑龙江' in channel_name or '南宁' in channel_name:
+        if 'CCTV' not in channel_name and '卫视' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
