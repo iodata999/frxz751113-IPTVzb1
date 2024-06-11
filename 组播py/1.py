@@ -16,7 +16,7 @@ with open('1.txt', 'w', encoding='UTF-8') as f:
 print('处理完成：')
 print(f'处理前文件行数：{before}')
 print(f'处理后文件行数：{after}')
-input()
+
 
 
 
