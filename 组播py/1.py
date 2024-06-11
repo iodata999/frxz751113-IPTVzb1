@@ -1,5 +1,8 @@
-
-with open("结果.txt", 'r', encoding="utf-8") as f:
+import replace
+import fileinput
+import re
+import os
+with open("酒店源.txt", 'r', encoding="utf-8") as f:
     lines = f.readlines()
     before = len(lines)
     lines = list(set(lines))
@@ -15,16 +18,13 @@ print(f'处理前文件行数：{before}')
 print(f'处理后文件行数：{after}')
 input()
 
-import replace
-import fileinput
-import re
-import os
+
 
 ########排序
-with open('1.txt', 'r', encoding='UTF-8') as f:
+with open('1.txt', 'r', encoding='UTF-8') as file:
     lines = f.readlines()
 lines.sort()
-with open('2.txt', 'w', encoding='UTF-8') as f:
+with open('2.txt', 'w', encoding='UTF-8') as file:
     for line in lines:
         f.write(line)
 #######################
