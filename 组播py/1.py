@@ -45,7 +45,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='
 
          
 ################
-keywords = ['NewTV', 'CHC', '剧场', '功夫', '惊']  # 需要提取的关键字列表
+keywords = ['爱情', '超级电', '妈', '功夫', '古装', '东北', '黑莓', '欢乐', '动作电影', '大剧', '家庭', '军旅', '惊']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
