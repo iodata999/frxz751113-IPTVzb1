@@ -301,6 +301,19 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt获取完成！")
+with open("iptv.txt", 'r', encoding="utf-8") as f:
+    lines = f.readlines()
+    before = len(lines)
+    lines = list(set(lines))
+    after = len(lines)
+lines.sort()
+
+with open('iptv.txt', 'w', encoding='UTF-8') as f:
+    for line in lines:          
+      f.write(line)
+print('处理完成：')
+print(f'处理前文件行数：{before}')
+print(f'处理后文件行数：{after}')
 
 
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
