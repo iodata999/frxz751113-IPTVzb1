@@ -10,7 +10,7 @@ with open("酒店源.txt", 'r', encoding="utf-8") as f:
 
 lines.sort()
 
-with open('1.txt', 'w', encoding='UTF-8') as f:
+with open('2.txt', 'w', encoding='UTF-8') as f:
     for line in lines:
         f.write(line)
 print('处理完成：')
@@ -20,14 +20,7 @@ print(f'处理后文件行数：{after}')
 
 
 
-########排序
-with open('1.txt', 'r', encoding='UTF-8') as file:
-    lines = f.readlines()
-lines.sort()
-with open('2.txt', 'w', encoding='UTF-8') as file:
-    for line in lines:
-        f.write(line)
-#######################
+
 
 ###############################        
 with open('2.txt', 'r', encoding='utf-8') as file:
