@@ -1,5 +1,5 @@
 
-with open("酒店源.txt", 'r', encoding="utf-8") as f:
+with open("结果.txt", 'r', encoding="utf-8") as f:
     lines = f.readlines()
     before = len(lines)
     lines = list(set(lines))
