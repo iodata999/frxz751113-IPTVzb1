@@ -82,7 +82,6 @@ os.remove("b.txt")
 os.remove("c.txt")
 os.remove("d.txt")
 os.remove("2.txt")
-os.remove("1.txt")
 print("任务运行完毕")
 
 
