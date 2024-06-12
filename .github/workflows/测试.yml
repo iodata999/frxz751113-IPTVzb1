@@ -28,7 +28,11 @@ jobs:
         run: pip install input
       - name: Install dependencies
         run: pip install pytz
+      - name: Install dependencies
+        run: pip install lxml
 
+
+        
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/get-epg.py     #这里更改要运行的py
       
