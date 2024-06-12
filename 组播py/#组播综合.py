@@ -372,7 +372,26 @@ for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对
     line = line.replace("地波1080", "地波")  
     line = line.replace("自动", "自动更新")  
     print(line, end="")  #设置end=""，避免输出多余的换行符   
+    
+##############################原始顺序去重
+# 打开文档并读取所有行 
+with open('结果.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+ 
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+
+# 将唯一的行写入新的文档 
+with open('结果.txt', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+##############################
 
 
 ###########################################################################################################################################################################
