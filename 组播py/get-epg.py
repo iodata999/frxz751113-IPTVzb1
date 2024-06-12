@@ -64,7 +64,7 @@ def getsave():
     # 参数 w 表示覆盖，追加用 at (追加+文本)
     with open('epg.xml', 'w', encoding='utf-8') as fhandle:
         fhandle.write('<?xml version="1.0" encoding="utf-8" ?>\n')
-        fhandle.write('<tv generator-info-name="xiaoluoxxx" generator-info-url="https://github.com/xiaoluoxxx/iptv-one">\n')
+        fhandle.write('<tv generator-info-name="frxz751113" generator-info-url="https://github.com/frxz751113">\n')
         getChannelCNTV(fhandle, cctv_channel)
         getChannelCNTV(fhandle, sat_channel)
         getChannelEPG(fhandle, cctv_channel)
