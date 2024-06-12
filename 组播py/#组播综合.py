@@ -383,8 +383,8 @@ def txt_to_m3u(input_file, output_file):
 
     # 打开m3u文件并写入内容
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
-
+        #f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
+        f.write('#EXTM3U x-tvg-url="https://gh.con.sh/https://raw.githubusercontent.com/frxz751113/IPTVzb1/main/epg.xml"\n')
         # 初始化genre变量
         genre = ''
 
