@@ -2341,48 +2341,6 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/时尚FTV[800*453].png" group-title="港澳/随时失效",时尚FTV[800*453]
 http://80.94.54.42/fashiontv/stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
-http://118.116.122.234:8686/rtp/239.93.0.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
-http://171.221.129.214:4022/rtp/239.93.0.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
-http://221.237.92.139:9999/rtp/239.93.0.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
-http://118.116.122.234:8686/rtp/239.93.1.157:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
-http://171.221.129.214:4022/rtp/239.93.1.157:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
-http://221.237.92.139:9999/rtp/239.93.1.157:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
-http://118.116.122.234:8686/rtp/239.93.1.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
-http://171.221.129.214:4022/rtp/239.93.1.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
-http://221.237.92.139:9999/rtp/239.93.1.235:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
-http://118.116.122.234:8686/rtp/239.93.42.47:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
-http://171.221.129.214:4022/rtp/239.93.42.47:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
-http://221.237.92.139:9999/rtp/239.93.42.47:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.100.72.40:8899/rtp/239.253.43.23:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.100.72.40:8899/rtp/239.253.43.8:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.86.204.79:9999/rtp/239.253.43.23:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.86.204.79:9999/rtp/239.253.43.8:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.93.50.127:9999/rtp/239.253.43.23:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://113.93.50.127:9999/rtp/239.253.43.8:5146?$广东电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://118.116.122.234:8686/rtp/239.93.42.62:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://171.221.129.214:4022/rtp/239.93.42.62:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
-http://221.237.92.139:9999/rtp/239.93.42.62:5140?$四川电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1[5.1环绕声].png" group-title="高质组播/自动更新",CCTV1[5.1环绕声]
 http://117.10.136.253:8888/rtp/225.1.1.120:5002?$天津联通
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1[5.1环绕声].png" group-title="高质组播/自动更新",CCTV1[5.1环绕声]
@@ -2481,38 +2439,6 @@ http://113.93.50.127:9999/rtp/239.77.1.168:5146?$广东电信
 http://117.10.136.253:8888/rtp/225.1.1.119:5002?$天津联通
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV9[5.1环绕声].png" group-title="高质组播/自动更新",CCTV9[5.1环绕声]
 http://117.10.55.46:5000/rtp/225.1.1.119:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="高质组播/自动更新",CCTV风云足球
-http://117.10.136.253:8888/rtp/225.1.2.168:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="高质组播/自动更新",CCTV风云足球
-http://117.10.55.46:5000/rtp/225.1.2.168:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云音乐.png" group-title="高质组播/自动更新",CCTV风云音乐
-http://117.10.136.253:8888/rtp/225.1.2.176:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云音乐.png" group-title="高质组播/自动更新",CCTV风云音乐
-http://117.10.55.46:5000/rtp/225.1.2.176:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://117.10.136.253:8888/rtp/225.1.2.166:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://117.10.55.46:5000/rtp/225.1.2.166:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://121.63.3.242:8000/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://171.83.136.27:8989/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://27.24.182.63:9999/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://27.28.199.140:4022/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://27.30.64.49:15000/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
-http://27.30.64.49:6000/rtp/239.69.1.79:10114?$湖北电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV世界地理.png" group-title="高质组播/自动更新",CCTV世界地理
-http://117.10.136.253:8888/rtp/225.1.2.171:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV世界地理.png" group-title="高质组播/自动更新",CCTV世界地理
-http://117.10.55.46:5000/rtp/225.1.2.171:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV女性时尚.png" group-title="高质组播/自动更新",CCTV女性时尚
-http://117.10.136.253:8888/rtp/225.1.2.172:5002?$天津联通
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV女性时尚.png" group-title="高质组播/自动更新",CCTV女性时尚
-http://117.10.55.46:5000/rtp/225.1.2.172:5002?$天津联通
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV10[5.1环绕声].png" group-title="高质组播/自动更新",CCTV10[5.1环绕声]
 http://113.100.72.40:8899/rtp/239.77.1.169:5146?$广东电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV10[5.1环绕声].png" group-title="高质组播/自动更新",CCTV10[5.1环绕声]
@@ -2577,6 +2503,86 @@ http://117.10.55.46:5000/rtp/225.1.2.237:5002?$天津联通
 http://117.10.136.253:8888/rtp/225.1.2.52:5002?$天津联通
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV17[5.1环绕声].png" group-title="高质组播/自动更新",CCTV17[5.1环绕声]
 http://117.10.55.46:5000/rtp/225.1.2.52:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
+http://118.116.122.234:8686/rtp/239.93.42.75:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
+http://171.221.129.214:4022/rtp/239.93.42.75:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
+http://221.237.92.139:9999/rtp/239.93.42.75:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
+http://118.116.122.234:8686/rtp/239.93.0.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
+http://171.221.129.214:4022/rtp/239.93.0.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/风云足球.png" group-title="高质组播/自动更新",风云足球
+http://221.237.92.139:9999/rtp/239.93.0.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
+http://118.116.122.234:8686/rtp/239.93.1.157:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
+http://171.221.129.214:4022/rtp/239.93.1.157:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/世界地理.png" group-title="高质组播/自动更新",世界地理
+http://221.237.92.139:9999/rtp/239.93.1.157:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
+http://118.116.122.234:8686/rtp/239.93.1.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
+http://171.221.129.214:4022/rtp/239.93.1.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/兵器科技.png" group-title="高质组播/自动更新",兵器科技
+http://221.237.92.139:9999/rtp/239.93.1.235:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
+http://118.116.122.234:8686/rtp/239.93.42.47:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
+http://171.221.129.214:4022/rtp/239.93.42.47:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/央视文化精品.png" group-title="高质组播/自动更新",央视文化精品
+http://221.237.92.139:9999/rtp/239.93.42.47:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.100.72.40:8899/rtp/239.253.43.23:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.100.72.40:8899/rtp/239.253.43.8:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.86.204.79:9999/rtp/239.253.43.23:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.86.204.79:9999/rtp/239.253.43.8:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.93.50.127:9999/rtp/239.253.43.23:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://113.93.50.127:9999/rtp/239.253.43.8:5146?$广东电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://118.116.122.234:8686/rtp/239.93.42.62:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://171.221.129.214:4022/rtp/239.93.42.62:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/女性时尚.png" group-title="高质组播/自动更新",女性时尚
+http://221.237.92.139:9999/rtp/239.93.42.62:5140?$四川电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="高质组播/自动更新",CCTV风云足球
+http://117.10.136.253:8888/rtp/225.1.2.168:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云足球.png" group-title="高质组播/自动更新",CCTV风云足球
+http://117.10.55.46:5000/rtp/225.1.2.168:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云音乐.png" group-title="高质组播/自动更新",CCTV风云音乐
+http://117.10.136.253:8888/rtp/225.1.2.176:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV风云音乐.png" group-title="高质组播/自动更新",CCTV风云音乐
+http://117.10.55.46:5000/rtp/225.1.2.176:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://117.10.136.253:8888/rtp/225.1.2.166:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://117.10.55.46:5000/rtp/225.1.2.166:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://121.63.3.242:8000/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://171.83.136.27:8989/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://27.24.182.63:9999/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://27.28.199.140:4022/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://27.30.64.49:15000/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV兵器科技.png" group-title="高质组播/自动更新",CCTV兵器科技
+http://27.30.64.49:6000/rtp/239.69.1.79:10114?$湖北电信
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV世界地理.png" group-title="高质组播/自动更新",CCTV世界地理
+http://117.10.136.253:8888/rtp/225.1.2.171:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV世界地理.png" group-title="高质组播/自动更新",CCTV世界地理
+http://117.10.55.46:5000/rtp/225.1.2.171:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV女性时尚.png" group-title="高质组播/自动更新",CCTV女性时尚
+http://117.10.136.253:8888/rtp/225.1.2.172:5002?$天津联通
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV女性时尚.png" group-title="高质组播/自动更新",CCTV女性时尚
+http://117.10.55.46:5000/rtp/225.1.2.172:5002?$天津联通
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="高质组播/自动更新",CHC动作电影
 http://113.221.36.61:8888/rtp/239.76.252.243:9000?$湖南电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="高质组播/自动更新",CHC动作电影
@@ -2841,12 +2847,6 @@ http://118.116.122.234:8686/rtp/239.93.1.198:5140?$四川电信
 http://171.221.129.214:4022/rtp/239.93.1.198:5140?$四川电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/怀旧剧场.png" group-title="高质组播/自动更新",怀旧剧场
 http://221.237.92.139:9999/rtp/239.93.1.198:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
-http://118.116.122.234:8686/rtp/239.93.42.75:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
-http://171.221.129.214:4022/rtp/239.93.42.75:5140?$四川电信
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/百事通4K[5.1环绕声].png" group-title="高质组播/自动更新",百事通4K[5.1环绕声]
-http://221.237.92.139:9999/rtp/239.93.42.75:5140?$四川电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/4K乐享.png" group-title="4K/自动更新",4K乐享
 http://118.116.122.234:8686/rtp/239.93.0.43:5140?$四川电信
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/4K乐享.png" group-title="4K/自动更新",4K乐享
