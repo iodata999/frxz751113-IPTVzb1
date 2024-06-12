@@ -1081,6 +1081,7 @@ CGNTV[1024*576],http://live.cgtn.com/1000/prog_index.m3u8
 香港面包[1280*720],https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 好消息综合[1280*720],https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 时尚FTV[800*453],http://80.94.54.42/fashiontv/stream/playlist.m3u8
+高质组播/自动更新,#genre#
 风云足球,http://118.116.122.234:8686/rtp/239.93.0.235:5140?$四川电信
 风云足球,http://171.221.129.214:4022/rtp/239.93.0.235:5140?$四川电信
 风云足球,http://221.237.92.139:9999/rtp/239.93.0.235:5140?$四川电信
