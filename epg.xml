@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<tv generator-info-name="xiaoluoxxx" generator-info-url="https://github.com/xiaoluoxxx/iptv-one">
+<tv generator-info-name="frxz751113" generator-info-url="https://github.com/frxz751113">
 	<channel id="cctv1">
 		 <display-name lang="cn">CCTV-1 综合</display-name>
 	</channel>
@@ -7347,12 +7347,8 @@
 		<title lang="zh">中国文艺-2024-118</title>
 		<desc lang="zh"></desc>
 	</programme>
-	<programme start="20240613020000 +0800" stop="20240613021200 +0800" channel="cctv4">
-		<title lang="zh">中国新闻</title>
-		<desc lang="zh"></desc>
-	</programme>
-	<programme start="20240613021200 +0800" stop="20240613030000 +0800" channel="cctv4">
-		<title lang="zh">远方的家2024-70</title>
+	<programme start="20240613020000 +0800" stop="20240613030000 +0800" channel="cctv4">
+		<title lang="zh">2024年国新办发布会-46</title>
 		<desc lang="zh"></desc>
 	</programme>
 	<programme start="20240613030000 +0800" stop="20240613033000 +0800" channel="cctv4">
