@@ -1,8 +1,8 @@
-name: 测试
+name: 调整测试
 
 on:
   #schedule:
-    #- cron: '10 * */2 * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+    #- cron: '10 */6 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
@@ -26,15 +26,10 @@ jobs:
         run: pip install replace
       - name: Install dependencies
         run: pip install input
-      - name: Install dependencies
-        run: pip install pytz
-      - name: Install dependencies
-        run: pip install lxml
+     
 
-
-        
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/#组播综合.py     #这里更改要运行的py
+        run: python ${{ github.workspace }}/组播py/#组播综合.py      #这里更改要运行的py
       
         
 
