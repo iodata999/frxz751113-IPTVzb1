@@ -43,7 +43,7 @@ jobs:
           git config --local user.email "actions@126.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit *.xml -m "Add generated file"
-          #git commit *.m3u -m "Add generated file"
+          git commit *.txt -m "Add generated file"
+          git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
