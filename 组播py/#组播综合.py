@@ -428,7 +428,7 @@ with open('结果.txt', 'r', encoding='utf-8') as file:
 simplified_text = converter.convert(traditional_text)
 
 # 将转换后的简体字写入txt文件
-with open('i结果.txt', 'w', encoding='utf-8') as file:
+with open('结果.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 
 ######################TXT转M3U#####################################################################################################################################################
