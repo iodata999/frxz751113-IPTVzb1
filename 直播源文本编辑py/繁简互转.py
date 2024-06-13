@@ -2,8 +2,8 @@
 from opencc import OpenCC
 
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
-converter = OpenCC('t2s.json')
-
+#converter = OpenCC('t2s.json')#繁转简
+converter = OpenCC('s2t.json')#简转繁
 # 打开itv.txt文件
 with open('itv.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
