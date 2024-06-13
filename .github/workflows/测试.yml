@@ -28,7 +28,7 @@ jobs:
         run: pip install input
       - name: Install dependencies
         run: pip install opencc
-       - name: Install dependencies
+      - name: Install dependencies
         run: pip install FFprobe
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/源检测.py      #这里更改要运行的py
