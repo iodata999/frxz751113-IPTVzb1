@@ -77,7 +77,7 @@ def modify_urls(url):
 
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=2)          ###//////////////////
+        response = requests.get(url, timeout=1.5)          ###//////////////////
         if response.status_code == 200:
             return url
     except requests.exceptions.RequestException:
@@ -155,7 +155,7 @@ for url in urls:
             url_x = f"{base_url}{ip_address}"
 
             json_url = f"{url}"
-            response = requests.get(json_url, timeout=3)                        ####///////////////
+            response = requests.get(json_url, timeout=1.5)                        ####///////////////
             json_data = response.json()
 
             try:
@@ -359,7 +359,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(256, False):  #################////////////////////////////////
+            with eventlet.Timeout(12, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
@@ -394,7 +394,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 128
+num_threads = 8
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
