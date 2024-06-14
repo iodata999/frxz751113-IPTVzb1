@@ -391,8 +391,9 @@ for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
     line = line.replace("/随时失效", "")  
-    line = line.replace("更新", "")  
-    line = line.replace("地波1080", "地波")  
+    line = line.replace("更新", "")   
+    line = line.replace("央视,", "央视频道")   
+    line = line.replace("卫视,", "卫视频道")  
     line = line.replace("/自动", "")  
     print(line, end="")  #设置end=""，避免输出多余的换行符   
     
