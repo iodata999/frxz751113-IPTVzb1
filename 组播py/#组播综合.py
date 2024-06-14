@@ -393,7 +393,7 @@ for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对
     line = line.replace("/随时失效", "")  
     line = line.replace("更新", "")  
     line = line.replace("地波1080", "地波")  
-    line = line.replace("自动", "")  
+    line = line.replace("/自动", "")  
     print(line, end="")  #设置end=""，避免输出多余的换行符   
     
 ##############################原始顺序去重
