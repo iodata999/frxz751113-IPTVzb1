@@ -16,11 +16,11 @@ url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/ott移动v4.txt"      
 r = requests.get(url)
 open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
-keywords = [',', 'http']  # 需要提取的关键字列表 8M1080
+keywords = [',']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    TW.write('\n央视频道/固定源,#genre#\n')
+    #TW.write('\n央视频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           TW.write(line)  # 将该行写入输出文件
@@ -43,28 +43,18 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    #"https://fofa.info/result?qbase64=ImlzU2hvd0xvZ2luSnMiIA%3D%3D",#智能KUTV管理
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA4Ig%3D%3D",#808
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA5NiI%3D",#8096
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTk5OSI%3D",#9999
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSI%3D",#9901
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSI%3D",#8181
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSImJiBvcmc9IkNoaW5hbmV0Ig%3D%3D",#8181移动
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgb3JnPSJDaGluYW5ldCI%3D",#电信随机
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iTmFubmluZyI%3D",  #南宁8181
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA4MiIgJiYgY2l0eT0iTmFubmluZyI%3D",  #南宁8082
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA4OCIgJiYgY2l0eT0iTmFubmluZyI%3D",  #南宁8088
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSIgJiYgY2l0eT0iRGFxaW5nIg%3D%3D",  #大庆9901
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSIgJiYgY2l0eT0iTXVkYW5qaWFuZyI%3D",  #牡丹江9901
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSIgJiYgY2l0eT0iUWl0YWloZSI%3D",  #qitahe9901
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0ibG91ZGki",  # loudi 娄底                      #国内智慧光讯
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",#河南
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # 河北
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Inl1bGluIg%3D%3D",  # 玉林||
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9ImJlaWhhaSI%3D",#北海
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci",  # 贵港
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Im5hbm5pbmci",#南宁
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Ik5hbm5pbmci",         #南宁智慧光讯
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdW5hbiI%3D",#湖南
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJodWJlaSIgJiYgcG9ydD0iOTkwMSI%3D",  #湖北9901
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgIHJlZ2lvbj0iSHVuYW4iICYmIHBvcnQ9Ijk5MDEi",  #湖南9901
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iR3Vhbmd4aSBaaHVhbmd6dSI%3D",   #广西 壮族    智慧光讯
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
     #"https://fofa.info/result?qbase64=ImlzU2hvd0xvZ2luSnMiICYmIHJlZ2lvbj0iSGVpbG9uZ2ppYW5nIg%3D%3D",  # Heilongjiang (黑龙江)
@@ -428,7 +418,8 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '剧场' in channel_name or '经典' in channel_name or '怀旧' in channel_name or '电影,' in channel_name:
+        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name:
+          if '剧场' not in channel_name and '风云' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -443,7 +434,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('卫视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '湖北卫视' in channel_name or '凤凰卫视' in channel_name or '湖南卫视' in channel_name or '卫视' in channel_name or '江苏卫视' in channel_name or '山东卫视' in channel_name or '安徽卫视' in channel_name or '北京卫视' in channel_name or '广东卫视' in channel_name or '广东珠江' in channel_name or '贵州卫视' in channel_name:
+        if '卫视' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -455,11 +446,11 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('其他频道,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '广' in channel_name or '湖南' in channel_name or '南宁' in channel_name or '黑龙江' in channel_name or '河北' in channel_name or '保定' in channel_name:
-         if 'CCTV' not in channel_name and '卫视' not in channel_name:
+        if '湖北' in channel_name or '武汉' in channel_name or '湖南' in channel_name or '南宁' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name or '保定' in channel_name or '石家庄' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -506,7 +497,21 @@ for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并
     line = line.replace("AA", "")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
-
+#########原始顺序去重，以避免同一个频道出现在不同的类中
+with open('酒店源.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+# 将唯一的行写入新的文档 
+with open('酒店源', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+#####################
 
 os.remove("iptv.txt")
 os.remove("GAT.txt")
