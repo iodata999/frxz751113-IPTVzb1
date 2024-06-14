@@ -326,6 +326,8 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
     line = line.replace("四川康巴卫视", "康巴卫视")                                                                         ###########
     line = line.replace("黑龙江卫视+", "黑龙江卫视")                                                                         ###########
     line = line.replace("[1920*1080]", "")                                                                         ###########
+    line = line.replace("湖北电视台", "湖北综合")                                                                         ###########
+    line = line.replace("教育台", "教育")                                                                         ###########
     line = line.replace("星河", "TVB星河")                                                        ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符   
     
