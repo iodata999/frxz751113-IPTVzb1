@@ -425,7 +425,7 @@ result_counter = 15  # 每个频道需要的个数
 
 with open("hn.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
-    file.write('央视频道/自动更新,#genre#\n')
+    file.write('央视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '剧场' in channel_name or '经典' in channel_name or '怀旧' in channel_name or '电影,' in channel_name:
@@ -440,7 +440,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('卫视频道/自动更新,#genre#\n')
+    file.write('卫视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '湖北卫视' in channel_name or '凤凰卫视' in channel_name or '湖南卫视' in channel_name or '卫视' in channel_name or '江苏卫视' in channel_name or '山东卫视' in channel_name or '安徽卫视' in channel_name or '北京卫视' in channel_name or '广东卫视' in channel_name or '广东珠江' in channel_name or '贵州卫视' in channel_name:
@@ -455,7 +455,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('其他频道/自动更新,#genre#\n')
+    file.write('其他频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '广' in channel_name or '湖南' in channel_name or '南宁' in channel_name or '黑龙江' in channel_name or '河北' in channel_name or '保定' in channel_name:
@@ -476,7 +476,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('港澳频道/随时失效,#genre#\n')
+    file.write('港澳频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
@@ -504,7 +504,6 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
-    line = line.replace("央视频道/固定源,#genre#", "")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
