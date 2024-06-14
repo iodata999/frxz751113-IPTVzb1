@@ -187,6 +187,9 @@ for url in urls:
                             name = name.replace("汉4", "汉")
                             name = name.replace("汉5", "汉")
                             name = name.replace("汉6", "汉")
+                            name = name.replace("CHC动", "动")
+                            name = name.replace("CHC家", "家")
+                            name = name.replace("CHC影", "影")
                             name = name.replace("-", "")
                             name = name.replace(" ", "")
                             name = name.replace("PLUS", "+")
@@ -501,9 +504,6 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
-    line = line.replace("CCTV动", "动")
-    line = line.replace("CCTV家", "家")
-    line = line.replace("CCTV影", "影")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 #########原始顺序去重，以避免同一个频道出现在不同的类中
