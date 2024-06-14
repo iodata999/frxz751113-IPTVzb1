@@ -424,7 +424,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or '\n动作' in channel_name or '\n家庭' in channel_name or '\n影迷' in channel_name:
+        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name:
           if '剧场' not in channel_name and '风云' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
