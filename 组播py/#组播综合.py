@@ -426,7 +426,7 @@ with open('结果.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 
 #########原始顺序去重，以避免同一个频道出现在不同的类中
-with open('结果', 'r', encoding="utf-8") as file:
+with open('结果.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
 # 使用列表来存储唯一的行的顺序 
  unique_lines = [] 
