@@ -19,7 +19,7 @@ http://39.135.135.77/wh7f454c46tw3973561687_2112768081/ottrrs.hl.chinamobile.com
 http://39.135.135.50/wh7f454c46tw2298367197_1896999179/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV6-電影.png" group-title="央視頻道",CCTV6-電影
 http://39.135.133.138:80/wh7f454c46tw3956597683_752876325/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226010/index.m3u8?rrsip=ottrrs.hl.chinamobile.com&zoneoffset=0&servicetype=1&icpid=88888888&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%2C2713447%2C112.102.126.216%2C20230424162557%2C10000100000000050000000003484878%2C2713447%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000003580003_0%2CEND&GuardEncType=2&RTS=1682325466&from=23&hms_devid=1235&online=1682325466&vqe=3&it=H4sIAyspSkxO9XSxzSvNyVErTi30y7c1VktOzMnJzEv3y08BSYUFO8cbGugZGlrqWZrrGZpZqoWANLnlJKbbGoDV-pXmJqUWQTlAjcGpRWWZyam2KcVpemWJxXqJ6elFqemJJZn5eXoBOYmVoUU5UCUAgFILtn8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://39.135.135.87:80/wh7f454c46tw2873190982_1895894916/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225733/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV8-電視劇.png" group-title="央視頻道",CCTV8-電視劇
 http://39.135.135.89/wh7f454c46tw2455259066_1476037611/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226008/index.m3u8
@@ -319,27 +319,27 @@ http://58.48.37.158:1111/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 http://121.19.134.225:808/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV6-電影.png" group-title="央視頻道",CCTV6-電影
 http://42.48.17.188:9901/tsfile/live/37206_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://171.108.239.93:8181/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://171.108.239.91:8181/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://58.51.111.46:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://111.225.113.109:808/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://171.108.239.79:8181/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://118.248.172.101:8088/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://124.228.160.126:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://222.240.82.92:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://58.48.37.158:1111/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://42.48.17.188:9901/tsfile/live/37207_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍農.png" group-title="央視頻道",CCTV7-軍農
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV7-軍事.png" group-title="央視頻道",CCTV7-軍事
 http://121.19.134.225:808/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV8-電視劇.png" group-title="央視頻道",CCTV8-電視劇
 http://171.108.239.93:8181/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
