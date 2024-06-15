@@ -789,7 +789,7 @@ CCTV電影國際,http://110.72.71.129:8181/tsfile/live/1088_1.m3u8?key=txiptv&pl
 保定生活健康,http://111.225.113.109:808/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 保定生活健康,http://111.225.113.145:808/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 保定生活健康,http://121.19.134.225:808/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-保定經濟生活,http://111.225.113.100:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
+保定經濟,http://111.225.113.100:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 南寧公共,http://171.108.239.91:8181/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
 南寧公共,http://171.108.239.93:8181/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
 南寧公共,http://171.108.239.77:8181/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -857,9 +857,9 @@ CCTV電影國際,http://110.72.71.129:8181/tsfile/live/1088_1.m3u8?key=txiptv&pl
 河北雜技,http://111.225.113.145:808/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 河北雜技,http://121.19.134.225:808/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 河北經濟,http://111.225.113.100:9901/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-河北經濟生活,http://111.225.113.109:808/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
-河北經濟生活,http://111.225.113.145:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-河北經濟生活,http://121.19.134.225:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+河北經濟,http://111.225.113.109:808/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+河北經濟,http://111.225.113.145:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+河北經濟,http://121.19.134.225:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 河北都市,http://111.225.113.100:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 河北都市,http://111.225.113.109:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 河北都市,http://111.225.113.145:808/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
