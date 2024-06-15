@@ -426,19 +426,19 @@ with open('结果.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 
 #########原始顺序去重，以避免同一个频道出现在不同的类中
-with 已打开('结果.txt', 'r', encoding="utf-8") as file:
- lines = file。readlines()
+with open('结果', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
 # 使用列表来存储唯一的行的顺序 
  unique_lines = [] 
  seen_lines = set() 
 # 遍历每一行，如果是新的就加入unique_lines 
-for http in lines:
- if line 不 in seen_lines:
-  unique_lines。append(line)
-  seen_lines。添加(line)
+for http in line:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with 已打开('结果.txt', 'w', encoding="utf-8") as file:
- file。writelines(unique_lines)
+with open('结果', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
 #####################
 
 # 进行繁体字转简体字的转换
