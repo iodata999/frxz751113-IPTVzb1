@@ -437,7 +437,7 @@ for http in line:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('结果', 'w', encoding="utf-8") as file:
+with open('结果.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #####################
 
