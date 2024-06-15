@@ -395,6 +395,7 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     line = line.replace("CCTV3,", "CCTV3-综艺,")  
     line = line.replace("CCTV4,", "CCTV4-国际,")  
     line = line.replace("CCTV5,", "CCTV5-体育,")  
+    line = line.replace("CCTV5+,", "CCTV5-体育plus,")  
     line = line.replace("CCTV6,", "CCTV6-电影,")  
     line = line.replace("CCTV7,", "CCTV7-军事,")  
     line = line.replace("CCTV8,", "CCTV8-电视剧,")  
