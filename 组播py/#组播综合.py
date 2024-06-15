@@ -389,9 +389,25 @@ for file_path in file_paths:
 with open("结果.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-    
-
-
+for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件原地替换关键字
+    line = line.replace("CCTV1,", "CCTV1-综合,")  
+    line = line.replace("CCTV2,", "CCTV2-财经,")  
+    line = line.replace("CCTV3,", "CCTV3-综艺,")  
+    line = line.replace("CCTV4,", "CCTV4-国际,")  
+    line = line.replace("CCTV5,", "CCTV5-体育,")  
+    line = line.replace("CCTV6,", "CCTV6-电影,")  
+    line = line.replace("CCTV7,", "CCTV7-军农,")  
+    line = line.replace("CCTV8,", "CCTV8-电视剧,")  
+    line = line.replace("CCTV9,", "CCTV9-纪录,")  
+    line = line.replace("CCTV10,", "CCTV10-科教,")  
+    line = line.replace("CCTV11,", "CCTV11-戏曲,")  
+    line = line.replace("CCTV12,", "CCTV12-社会与法,")  
+    line = line.replace("CCTV13,", "CCTV13-新闻,")  
+    line = line.replace("CCTV14,", "CCTV14-少儿,")  
+    line = line.replace("CCTV15,", "CCTV15-音乐,")  
+    line = line.replace("CCTV16,", "CCTV16-奥林匹克,")  
+    line = line.replace("CCTV17,", "CCTV17-农业农村,") 
+    print(line, end="")   
 ################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
 #converter = OpenCC('t2s.json')#繁转简
