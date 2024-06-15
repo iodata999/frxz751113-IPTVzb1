@@ -408,6 +408,13 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     line = line.replace("CCTV15,", "CCTV15-音乐,")  
     line = line.replace("CCTV16,", "CCTV16-奥林匹克,")  
     line = line.replace("CCTV17,", "CCTV17-农业农村,") 
+    line = line.replace("CCTV风", "风")  
+    line = line.replace("CCTV兵", "兵")  
+    line = line.replace("CCTV世", "世")  
+    line = line.replace("CCTV女", "女")  
+    line = line.replace("008广", "广")  
+    line = line.replace("新闻综合", "新闻")  
+    line = line.replace("公共新闻", "公共")  
     print(line, end="")   
 ################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
