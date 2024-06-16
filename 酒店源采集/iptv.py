@@ -44,15 +44,17 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 
 urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA4Ig%3D%3D",#808
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA5NiI%3D",#8096
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTk5OSI%3D",#9999
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSI%3D",#9901
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSI%3D",#8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgb3JnPSJDaGluYW5ldCI%3D",#电信随机
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iTmFubmluZyI%3D",  #南宁8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdW5hbiI%3D",#湖南
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iMTExMSI%3D"#湖北1111
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTAwMCI%3D"#湖北9000
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJodWJlaSIgJiYgcG9ydD0iOTkwMSI%3D",  #湖北9901
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgIHJlZ2lvbj0iSHVuYW4iICYmIHBvcnQ9Ijk5MDEi",  #湖南9901
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iR3Vhbmd4aSBaaHVhbmd6dSIgJiYgcG9ydD0iODE4MSI%3D",    #广西8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
@@ -359,7 +361,7 @@ def worker():
             
 
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(400, False):  #################////////////////////////////////
+            with eventlet.Timeout(600, False):  #################////////////////////////////////
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
