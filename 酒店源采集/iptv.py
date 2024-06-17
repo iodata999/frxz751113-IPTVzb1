@@ -45,51 +45,6 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViI%3D",#智慧光迅
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyI%3D",#智慧桌面
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
-
-#  获取远程港澳台直播源文件
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/ott移动v4.txt"          #源采集地址
-r = requests.get(url)
-open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
-
-keywords = [',']  # 需要提取的关键字列表 8M1080
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    #TW.write('\n央视频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          TW.write(line)  # 将该行写入输出文件
-
-# 读取要合并的香港频道和台湾频道文件
-file_contents = []
-file_paths = ["TW.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-# 生成合并后的文件
-with open("GAT.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-
-
-# 扫源测绘空间地址
-# 搜素关键词："iptv/live/zh_cn.js" && country="CN" && region="Hunan" && city="changsha"
-# 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
-#"isShowLoginJs"智能KUTV管理
-
-urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=cmVnaW9uPSJIZWJlaSIgJiYgcG9ydD0iODg4OCI%3D",#河北8888
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODg4OCI%3D",#8888
