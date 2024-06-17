@@ -562,7 +562,7 @@ for line in lines:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('酒店源', 'w', encoding="utf-8") as file:
+with open('酒店源.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #####################
 
