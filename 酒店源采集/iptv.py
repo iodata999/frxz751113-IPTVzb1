@@ -399,7 +399,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 256
+num_threads = 10
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
@@ -512,22 +512,6 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
-    channel_counters = {}
-    file.write('其他频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'http' in channel_url:
-          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-
 
 
 
@@ -549,21 +533,7 @@ for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并
     line = line.replace("AA", "")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符          
-#########原始顺序去重，以避免同一个频道出现在不同的类中
-with open('酒店源.txt', 'r', encoding="utf-8") as file:
- lines = file.readlines()
-# 使用列表来存储唯一的行的顺序 
- unique_lines = [] 
- seen_lines = set() 
-# 遍历每一行，如果是新的就加入unique_lines 
-for line in lines:
- if line not in seen_lines:
-  unique_lines.append(line)
-  seen_lines.add(line)
-# 将唯一的行写入新的文档 
-with open('酒店源.txt', 'w', encoding="utf-8") as file:
- file.writelines(unique_lines)
-#####################
+
 
 os.remove("iptv.txt")
 os.remove("GAT.txt")
