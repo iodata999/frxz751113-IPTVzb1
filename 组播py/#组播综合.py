@@ -416,6 +416,7 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     line = line.replace("新闻综合", "新闻")  
     line = line.replace("公共新闻", "公共")  
     line = line.replace("经济生活", "经济")  
+    line = line.replace("频道1", "频道")  
     print(line, end="")   
 ################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
