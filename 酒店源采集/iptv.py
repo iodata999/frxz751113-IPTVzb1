@@ -429,7 +429,7 @@ result_counter = 88  # 每个频道需要的个数
 
 with open("hn.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
-    file.write('央视频道,#genre#\n')
+    file.write('央视频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name:
@@ -445,7 +445,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('卫视频道,#genre#\n')
+    file.write('卫视频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '卫视' in channel_name:
@@ -480,7 +480,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('港澳频道,#genre#\n')
+    file.write('港澳频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
@@ -512,6 +512,23 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
+    channel_counters = {}
+    file.write('其他频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        #if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name:
+        if 'CCTV' not in channel_name and '卫视' not in channel_namee:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+
 
 
 
@@ -534,7 +551,23 @@ with open("酒店源.txt", "w", encoding="utf-8") as output:
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     line = line.replace("\n电影,", "\n影迷电影,")
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
+    print(line, end="")  #设置end=""，避免输出多余的换行符  
+
+#########原始顺序去重，以避免同一个频道出现在不同的类中
+with open('酒店源.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+# 将唯一的行写入新的文档 
+with open('酒店源.txt', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+#####################
 
 
 os.remove("iptv.txt")
