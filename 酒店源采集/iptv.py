@@ -350,7 +350,7 @@ def worker():
                 file_size = 0
                 start_time = time.time()
                 # 多获取的视频数据进行12秒钟限制
-                with eventlet.Timeout(300, False):
+                with eventlet.Timeout(20, False):
                     for i in range(len(ts_lists)):
                         ts_url = channel_url_t + ts_lists[i]  # 拼接单个视频片段下载链接
                         response = requests.get(ts_url, stream=True, timeout=1)
@@ -360,10 +360,10 @@ def worker():
                         response.close()
                 end_time = time.time()
                 response_time = end_time - start_time
-                if response_time >=300:
+                if response_time >=20:
                     file_size = 0
                 download_speed = file_size / response_time / 1024
-                normalized_speed =download_speed / 102  # 将速率从kB/s转换为MB/s
+                normalized_speed =download_speed / 1024  # 将速率从kB/s转换为MB/s
                 ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
                 if normalized_speed >= 0.01:
                     if file_size >= 12000000:
@@ -398,7 +398,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 64
+num_threads = 8
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)  # 将工作线程设置为守护线程
     t.start()
