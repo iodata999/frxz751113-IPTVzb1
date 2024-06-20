@@ -45,7 +45,6 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 urls = [
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODgwMCI%3D",#8800
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODg4MyI%3D",#8883
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",#1111
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iNzAwNCI%3D",#7004
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODg4OCI%3D",#8888
@@ -175,7 +174,7 @@ for url in urls:
 
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
                         if 'http' in urlx:
-                          if 'udp' not in urlr and 'rtp' not in urlr:
+                          if 'udp' not in urlr and 'rtp' not in urlrr and ':1111' not in urlr:
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
