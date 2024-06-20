@@ -559,7 +559,7 @@ http://36.40.237.236:9999/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&authid=0
 http://171.108.239.79:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/動作電影.png" group-title="央視頻道",動作電影
 http://61.184.128.243:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/家庭電影.png" group-title="央視頻道",家庭電影
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/家庭影院.png" group-title="央視頻道",家庭影院
 http://61.184.128.243:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/影迷電影.png" group-title="央視頻道",影迷電影
 http://61.184.128.243:1111/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
