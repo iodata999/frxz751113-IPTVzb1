@@ -365,7 +365,7 @@ def worker():
                 download_speed = file_size / response_time / 1024
                 normalized_speed =download_speed / 1024  # 将速率从kB/s转换为MB/s
                 ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
-                if normalized_speed >= 1:
+                if normalized_speed >= 0.01:
                     if file_size >= 12000000:
                         result = channel_name, channel_url, f"{normalized_speed:.3f} MB/s"
                         results.append(result)
