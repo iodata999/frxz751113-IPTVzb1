@@ -476,7 +476,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
-     channel_counters = {}
+    channel_counters = {}
     file.write('湖南频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
