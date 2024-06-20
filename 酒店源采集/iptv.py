@@ -433,7 +433,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name or '重温' in channel_name:
+        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name or '爱上' in channel_name or 'CETV' in channel_name or '重温' in channel_name:
           if '剧场' not in channel_name and '风云' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -449,7 +449,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('卫视频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '卫视' in channel_name:
+        if '卫视' in channel_name or '重温' in channel_name or '北京' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -464,7 +464,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '湖北' in channel_name or '武汉' in channel_name  or '黑龙江' in channel_name or '湖南' in channel_name or '南宁' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name or '石家庄' in channel_name:
+        if '湖北' in channel_name or '武汉' in channel_name  or '黑龙江' in channel_name or '秦皇岛' in channel_name or '髙碑店' in channel_name or '张家口' in channel_name or '珠江台测试' in channel_name or '湖南' in channel_name or '南宁' in channel_name or '河北' in channel_name or '广' in channel_name or '容' in channel_name or '石家庄' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
