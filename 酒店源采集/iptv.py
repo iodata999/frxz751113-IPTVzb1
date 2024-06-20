@@ -174,7 +174,7 @@ for url in urls:
 
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
                         if 'http' in urlx:
-                          if 'udp' not in urlr and 'rtp' not in urlrr and ':1111' not in urlr:
+                          if 'udp' not in url and 'rtp' not in url and ':1111' not in url:
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
