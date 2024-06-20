@@ -319,7 +319,7 @@ lines.sort()
 with open('iptv.txt', 'w', encoding='UTF-8') as f:
     for line in lines:          
       f.write(line)
-print('处理完成：')
+print('对列表进行去重处理:')
 print(f'处理前文件行数：{before}')
 print(f'处理后文件行数：{after}')
 
