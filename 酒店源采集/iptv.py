@@ -360,7 +360,7 @@ def worker():
                         response.close()
                 end_time = time.time()
                 response_time = end_time - start_time
-                if response_time >=12:
+                if response_time >=300:
                     file_size = 0
                 download_speed = file_size / response_time / 1024
                 normalized_speed =download_speed / 1024  # 将速率从kB/s转换为MB/s
