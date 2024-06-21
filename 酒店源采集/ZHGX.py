@@ -486,15 +486,15 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("酒店源.txt", "w", encoding="utf-8") as output:
+with open("光迅源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+for line in fileinput.input("光迅源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符  
 
 #########原始顺序去重，以避免同一个频道出现在不同的类中
-with open('酒店源.txt', 'r', encoding="utf-8") as file:
+with open('光迅源.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
 # 使用列表来存储唯一的行的顺序 
  unique_lines = [] 
@@ -505,7 +505,7 @@ for line in lines:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('酒店源.txt', 'w', encoding="utf-8") as file:
+with open('光迅源.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #####################
 
