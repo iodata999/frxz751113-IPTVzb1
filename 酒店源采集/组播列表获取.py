@@ -8,12 +8,12 @@ import re
 ###urls城市根据自己所处地理位置修改
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodW5hbiI%3D",#湖南
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodWJlaSI%3D",#湖北
-    "https://fofa.info/result?qbase64=IlpIR1hUViI%3D&page=2&page_size=10",#ZHGX
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFuZG9uZyI%3D",#山东
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodW5hbiI%3D",#湖南
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodWJlaSI%3D",#湖北
+    #"https://fofa.info/result?qbase64=IlpIR1hUViI%3D&page=2&page_size=10",#ZHGX
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFuZG9uZyI%3D",#山东
 ]
 
 def modify_urls(url):
