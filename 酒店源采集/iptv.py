@@ -303,7 +303,7 @@ with open("iptv.txt", 'r', encoding="utf-8") as f:
     before = len(lines)
     lines = list(set(lines))
     after = len(lines)
-lines.sort()
+lines.sort()#排序
 
 with open('iptv.txt', 'w', encoding='UTF-8') as f:
     for line in lines:          
