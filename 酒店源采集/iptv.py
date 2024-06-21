@@ -447,7 +447,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         if '重温经典' in channel_name:
-          if '金鹰' not in channel_name:
+          if '凤凰' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -465,7 +465,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         if '卫视' in channel_name:
-          if '金鹰' not in channel_name:
+          if '凤凰' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
