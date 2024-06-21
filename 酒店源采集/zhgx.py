@@ -20,9 +20,11 @@ import fileinput
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0iemhhbmppYW5nIg%3D%3D",#湛江
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0iaGFuZGFuIg%3D%3D",#邯郸
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0ieGknYW4i",#西安
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodW5hbiI%3D",#湖南
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodWJlaSI%3D",#湖北
     "https://fofa.info/result?qbase64=IlpIR1hUViI%3D&page=2&page_size=10",#ZHGX
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFuZG9uZyI%3D",#山东
 ]
