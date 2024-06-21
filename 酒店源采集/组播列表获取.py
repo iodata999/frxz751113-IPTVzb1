@@ -7,7 +7,7 @@ import requests
 import re
 ###urls城市根据自己所处地理位置修改
 urls = [
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249Ikd1YW5nZG9uZyI%3D",#广东
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJodW5hbiI%3D",#湖南
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
