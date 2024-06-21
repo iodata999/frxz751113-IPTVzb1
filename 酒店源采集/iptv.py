@@ -441,6 +441,25 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
+
+    channel_counters = {}
+    file.write('卫视频道1,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '重温经典' in channel_name:
+          if '金鹰' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1  
+    
+    
+    
     channel_counters = {}
     file.write('卫视频道1,#genre#\n')
     for result in results:
@@ -461,7 +480,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('港澳频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '龙祥' in channel_name or '翡翠' in channel_name or '重温' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
+        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
           #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -476,7 +495,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     
 
     channel_counters = {}
-    file.write('湖北频道,#genre#\n')
+    file.write('湖北动漫,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '湖北' in channel_name:
@@ -492,7 +511,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('湖北频道,#genre#\n')
+    file.write('湖北动漫,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '武汉' in channel_name:
@@ -509,10 +528,10 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('湖北频道,#genre#\n')
+    file.write('湖北动漫,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name:
+        if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name or '动画' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '湖' not in channel_name and '广' not in channel_name and '河' not in channel_name and '黑' not in channel_name and '保' not in channel_name and '宁' not in channel_name and '家庭' not in channel_name and '影迷' not in channel_name and '动作' not in channel_name and '武汉' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -531,7 +550,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('两广频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '南宁' in channel_name or '玉林' in channel_name or '广' in channel_name or '容' in channel_name or '珠江台测试' in channel_name or '本港' in channel_name:
+        if '广' in channel_name or '珠江台测试' in channel_name or '本港' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
