@@ -16,9 +16,9 @@ url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/ott移动v4.txt"      
 r = requests.get(url)
 open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
-#keywords = [',']  # 需要提取的关键字列表 8M1080
-#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+keywords = ['']  # 需要提取的关键字列表，留空则全局选择
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
 with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
     #TW.write('\n央视频道,#genre#\n')
     for line in file:
