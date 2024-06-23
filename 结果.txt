@@ -137,228 +137,179 @@ CCTV17-農業農村,http://39.135.135.88:80/wh7f454c46tw3757071990_771002896/ott
 黑莓電影,http://39.135.133.138:80/wh7f454c46tw876799806_-1237032719/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8?
 石家莊娛樂頻道,http://pluslive1.sjzntv.cn/yule/playlist.m3u8
 央視頻道,#genre#
-CCTV1-綜合,http://58.51.111.46:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1-綜合,http://58.48.37.158:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1-綜合,http://61.184.128.243:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1-綜合,http://58.48.37.158:1111/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1-綜合,http://113.57.93.165:9900/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1-綜合,http://118.248.218.132:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV1-綜合,http://113.57.103.216:9000/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2-財經,http://61.184.128.243:1111/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2-財經,http://58.51.111.46:1111/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1-綜合,http://118.248.218.132:8088/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2-財經,http://58.48.37.158:1111/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV2-財經,http://61.184.128.243:1111/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2-財經,http://113.57.93.165:9900/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2-財經,http://118.248.218.132:8088/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV2-財經,http://113.57.103.216:9000/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3-綜藝,http://58.51.111.46:1111/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3-綜藝,http://58.48.37.158:1111/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV2-財經,http://118.248.218.132:8088/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3-綜藝,http://61.184.128.243:1111/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3-綜藝,http://118.248.218.132:8088/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV3-綜藝,http://58.48.37.158:1111/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3-綜藝,http://113.57.93.165:9900/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV3-綜藝,http://113.57.103.216:9000/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4-國際,http://58.51.111.46:1111/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4-國際,http://58.48.37.158:1111/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV3-綜藝,http://118.248.218.132:8088/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4-國際,http://61.184.128.243:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4-國際,http://58.48.37.158:1111/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4-國際,http://113.57.93.165:9900/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4-國際,http://118.248.218.132:8088/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV4-國際,http://113.57.103.216:9000/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5-體育,http://58.51.111.46:1111/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV4-國際,http://118.248.218.132:8088/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5-體育,http://61.184.128.243:1111/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育,http://58.48.37.158:1111/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育,http://113.57.93.165:9900/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5-體育,http://61.184.128.243:1111/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育,http://118.248.218.132:8088/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育,http://113.57.103.216:9000/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5-體育plus,http://58.51.111.46:1111/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育plus,http://61.184.128.243:1111/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV5-體育plus,http://58.48.37.158:1111/tsfile/live/0016_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6-電影,http://58.51.111.46:1111/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV6-電影,http://61.184.128.243:1111/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6-電影,http://58.48.37.158:1111/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6-電影,http://113.57.93.165:9900/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6-電影,http://118.248.218.132:8088/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6-電影,http://61.184.128.243:1111/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV6-電影,http://113.57.103.216:9000/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7-軍事,http://61.184.128.243:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV7-軍事,http://58.51.111.46:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7-軍事,http://58.48.37.158:1111/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7-軍事,http://118.248.218.132:8088/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV7-軍事,http://113.57.103.216:9000/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8-電視劇,http://58.51.111.46:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8-電視劇,http://58.48.37.158:1111/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8-電視劇,http://113.57.93.165:9900/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV8-電視劇,http://61.184.128.243:1111/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8-電視劇,http://113.57.93.165:9900/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8-電視劇,http://58.48.37.158:1111/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV8-電視劇,http://118.248.218.132:8088/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV8-電視劇,http://113.57.103.216:9000/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9-紀錄,http://58.51.111.46:1111/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9-紀錄,http://58.48.37.158:1111/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9-紀錄,http://61.184.128.243:1111/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV9-紀錄,http://58.48.37.158:1111/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9-紀錄,http://118.248.218.132:8088/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV9-紀錄,http://113.57.103.216:9000/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10-科教,http://118.248.218.132:8088/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV10-科教,http://61.184.128.243:1111/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10-科教,http://58.51.111.46:1111/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV10-科教,http://58.48.37.158:1111/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV10-科教,http://118.248.218.132:8088/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV10-科教,http://113.57.103.216:9000/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV11-戲曲,http://61.184.128.243:1111/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV11-戲曲,http://58.51.111.46:1111/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV11-戲曲,http://58.48.37.158:1111/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV11-戲曲,http://61.184.128.243:1111/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV11-戲曲,http://118.248.218.132:8088/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV11-戲曲,http://113.57.103.216:9000/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV12-社會與法,http://58.51.111.46:1111/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12-社會與法,http://58.48.37.158:1111/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12-社會與法,http://61.184.128.243:1111/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12-社會與法,http://113.57.93.165:9900/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12-社會與法,http://118.248.218.132:8088/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV12-社會與法,http://113.57.103.216:9000/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13-新聞,http://61.184.128.243:1111/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13-新聞,http://58.51.111.46:1111/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13-新聞,http://58.48.37.158:1111/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13-新聞,http://118.248.218.132:8088/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13-新聞,http://113.57.93.165:9900/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV13-新聞,http://118.248.218.132:8088/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV13-新聞,http://113.57.103.216:9000/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14-少兒,http://58.51.111.46:1111/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV14-少兒,http://61.184.128.243:1111/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV14-少兒,http://58.48.37.158:1111/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14-少兒,http://118.248.218.132:8088/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV14-少兒,http://113.57.103.216:9000/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15-音樂,http://61.184.128.243:1111/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15-音樂,http://58.51.111.46:1111/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV14-少兒,http://118.248.218.132:8088/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV15-音樂,http://58.48.37.158:1111/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV15-音樂,http://61.184.128.243:1111/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV15-音樂,http://113.57.93.165:9900/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV15-音樂,http://118.248.218.132:8088/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV15-音樂,http://113.57.103.216:9000/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV17-農業農村,http://58.51.111.46:1111/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV17-農業農村,http://58.48.37.158:1111/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV17-農業農村,http://61.184.128.243:1111/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV17-農業農村,http://58.48.37.158:1111/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
 動作電影,http://61.184.128.243:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 家庭影院,http://61.184.128.243:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 影迷電影,http://61.184.128.243:1111/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
 衛視頻道,#genre#
 上海衛視,http://61.184.128.243:1111/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-上海衛視,http://58.51.111.46:1111/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
 上海衛視,http://58.48.37.158:1111/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 上海衛視,http://113.57.93.165:9900/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 上海衛視,http://118.248.218.132:8088/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 上海衛視,http://113.57.103.216:9000/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
-東南衛視,http://58.51.111.46:1111/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
+東南衛視,http://61.184.128.243:1111/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 東南衛視,http://58.48.37.158:1111/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 東南衛視,http://113.57.93.165:9900/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 東南衛視,http://118.248.218.132:8088/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
-東南衛視,http://61.184.128.243:1111/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
 東南衛視,http://113.57.103.216:9000/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-雲南衛視,http://58.51.111.46:1111/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0
 雲南衛視,http://113.57.103.216:9000/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0
-內蒙古衛視,http://58.51.111.46:1111/tsfile/live/0109_1.m3u8?key=txiptv&playlive=1&authid=0
-北京衛視,http://58.51.111.46:1111/tsfile/live/1026_1.m3u8?key=txiptv&playlive=1&authid=0
-北京衛視,http://58.48.37.158:1111/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 北京衛視,http://61.184.128.243:1111/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+北京衛視,http://58.48.37.158:1111/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 北京衛視,http://118.248.218.132:8088/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-吉林衛視,http://58.51.111.46:1111/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 吉林衛視,http://58.48.37.158:1111/tsfile/live/0116_1.m3u8?key=txiptv&playlive=1&authid=0
 吉林衛視,http://113.57.93.165:9900/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 吉林衛視,http://113.57.103.216:9000/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-四川衛視,http://58.51.111.46:1111/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
-四川衛視,http://58.48.37.158:1111/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 四川衛視,http://61.184.128.243:1111/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+四川衛視,http://58.48.37.158:1111/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
 四川衛視,http://113.57.103.216:9000/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
-天津衛視,http://58.51.111.46:1111/tsfile/live/1028_1.m3u8?key=txiptv&playlive=1&authid=0
-天津衛視,http://58.48.37.158:1111/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 天津衛視,http://61.184.128.243:1111/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
-寧夏衛視,http://58.51.111.46:1111/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+天津衛視,http://58.48.37.158:1111/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 寧夏衛視,http://113.57.93.165:9900/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
 寧夏衛視,http://113.57.103.216:9000/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-安徽衛視,http://61.184.128.243:1111/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-安徽衛視,http://58.51.111.46:1111/tsfile/live/1025_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽衛視,http://58.48.37.158:1111/tsfile/live/0130_2.m3u8?key=txiptv&playlive=1&authid=0
 安徽衛視,http://113.57.93.165:9900/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽衛視,http://61.184.128.243:1111/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽衛視,http://118.248.218.132:8088/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 安徽衛視,http://113.57.103.216:9000/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
-山東衛視,http://58.51.111.46:1111/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
 山東衛視,http://61.184.128.243:1111/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 山東衛視,http://58.48.37.158:1111/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 山東衛視,http://118.248.218.132:8088/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 山西衛視,http://113.57.103.216:9000/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-廣東衛視,http://58.51.111.46:1111/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
+廣東衛視,http://61.184.128.243:1111/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 廣東衛視,http://58.48.37.158:1111/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 廣東衛視,http://113.57.93.165:9900/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 廣東衛視,http://118.248.218.132:8088/tsfile/live/0137_1.m3u8?key=txiptv&playlive=1&authid=0
-廣東衛視,http://61.184.128.243:1111/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 廣東衛視,http://113.57.103.216:9000/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
-廣西衛視,http://58.51.111.46:1111/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 廣西衛視,http://58.48.37.158:1111/tsfile/live/0113_1.m3u8?key=txiptv&playlive=1&authid=0
 廣西衛視,http://113.57.93.165:9900/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 廣西衛視,http://113.57.103.216:9000/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 旅遊衛視,http://113.57.93.165:9900/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 江蘇衛視,http://61.184.128.243:1111/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
-江蘇衛視,http://58.51.111.46:1111/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
-江蘇衛視,http://58.48.37.158:1111/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 江蘇衛視,http://113.57.93.165:9900/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+江蘇衛視,http://58.48.37.158:1111/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 江蘇衛視,http://118.248.218.132:8088/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 江蘇衛視,http://113.57.103.216:9000/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
-江西衛視,http://58.51.111.46:1111/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-江西衛視,http://58.51.111.46:1111/tsfile/live/0138_2.m3u8?key=txiptv&playlive=1&authid=0
-江西衛視,http://58.48.37.158:1111/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西衛視,http://61.184.128.243:1111/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+江西衛視,http://58.48.37.158:1111/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西衛視,http://113.57.93.165:9900/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
 江西衛視,http://118.248.218.132:8088/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 江西衛視,http://113.57.103.216:9000/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
-河北衛視,http://58.51.111.46:1111/tsfile/live/1036_1.m3u8?key=txiptv&playlive=1&authid=0
 河北衛視,http://58.48.37.158:1111/tsfile/live/0117_1.m3u8?key=txiptv&playlive=1&authid=0
-河南衛視,http://58.51.111.46:1111/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 河南衛視,http://58.48.37.158:1111/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 河南衛視,http://113.57.103.216:9000/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-浙江衛視,http://58.51.111.46:1111/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江衛視,http://61.184.128.243:1111/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江衛視,http://58.48.37.158:1111/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江衛視,http://113.57.93.165:9900/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江衛視,http://118.248.218.132:8088/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
 浙江衛視,http://113.57.103.216:9000/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
-海南衛視,http://58.51.111.46:1111/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
 海南衛視,http://58.48.37.158:1111/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 海南衛視,http://61.184.128.243:1111/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳衛視,http://58.51.111.46:1111/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳衛視,http://58.51.111.46:1111/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳衛視,http://58.48.37.158:1111/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 深圳衛視,http://61.184.128.243:1111/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳衛視,http://58.48.37.158:1111/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 深圳衛視,http://118.248.218.132:8088/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北衛視,http://58.51.111.46:1111/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北衛視,http://61.184.128.243:1111/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北衛視,http://58.48.37.158:1111/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北衛視,http://113.57.93.165:9900/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北衛視,http://113.57.103.216:9000/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南衛視,http://58.51.111.46:1111/tsfile/live/1022_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南衛視,http://58.48.37.158:1111/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南衛視,http://61.184.128.243:1111/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
+湖南衛視,http://58.48.37.158:1111/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南衛視,http://113.57.93.165:9900/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南衛視,http://118.248.218.132:8088/tsfile/live/0002_2.m3u8?key=txiptv&playlive=1&authid=0
 湖南衛視,http://113.57.103.216:9000/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 貴州衛視,http://58.48.37.158:1111/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 貴州衛視,http://61.184.128.243:1111/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
 貴州衛視,http://118.248.218.132:8088/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
-貴州衛視,http://58.51.111.46:1111/tsfile/live/1038_1.m3u8?key=txiptv&playlive=1&authid=0
 遼寧衛視,http://61.184.128.243:1111/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-遼寧衛視,http://58.51.111.46:1111/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-遼寧衛視,http://58.48.37.158:1111/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 遼寧衛視,http://113.57.93.165:9900/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
+遼寧衛視,http://58.48.37.158:1111/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
 遼寧衛視,http://118.248.218.132:8088/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 遼寧衛視,http://113.57.103.216:9000/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0
-重慶衛視,http://61.184.128.243:1111/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-重慶衛視,http://58.51.111.46:1111/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
 重慶衛視,http://58.48.37.158:1111/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
+重慶衛視,http://61.184.128.243:1111/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 重慶衛視,http://113.57.103.216:9000/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-陝西衛視,http://58.51.111.46:1111/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
-黑龍江衛視,http://58.51.111.46:1111/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
-黑龍江衛視,http://58.48.37.158:1111/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龍江衛視,http://113.57.93.165:9900/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+黑龍江衛視,http://58.48.37.158:1111/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 黑龍江衛視,http://113.57.103.216:9000/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 港澳頻道,#genre#
 省市動漫,#genre#
 湖北公共,http://58.48.37.158:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北壟上,http://113.57.103.216:9000/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北影視,http://58.51.111.46:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北影視,http://58.48.37.158:1111/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北影視,http://113.57.103.216:9000/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北綜合,http://58.51.111.46:1111/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北綜合,http://58.48.37.158:1111/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-湖北經視,http://58.51.111.46:1111/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北經視,http://58.48.37.158:1111/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北經視,http://113.57.93.165:9900/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
 湖北經視,http://113.57.103.216:9000/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -370,13 +321,12 @@ CCTV17-農業農村,http://61.184.128.243:1111/tsfile/live/1002_1.m3u8?key=txipt
 武漢新聞,http://58.48.37.158:1111/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
 武漢科技生活,http://58.48.37.158:1111/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 BTV卡通,http://113.57.103.216:9000/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-金鷹卡通,http://58.48.37.158:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 金鷹卡通,http://113.57.93.165:9900/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
+金鷹卡通,http://58.48.37.158:1111/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
 金鷹卡通,http://118.248.218.132:8088/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
 金鷹卡通,http://113.57.103.216:9000/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 其他頻道,#genre#
 IPTV體育,http://118.248.218.132:8088/tsfile/live/0131_2.m3u8?key=txiptv&playlive=1&authid=0
-公共,http://58.51.111.46:1111/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
 環球奇觀,http://113.57.103.216:9000/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
@@ -495,82 +445,84 @@ TVB功夫臺[1280*720],https://v2h.jdshipin.com/asia_action/asia_action.stream/c
 高質組播,#genre#
 CCTV1[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.120:5002?$天津聯通
 CCTV1[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.120:5002?$天津聯通
-CCTV2[5.1環繞聲],http://113.86.204.209:4022/rtp/239.253.43.17:5146?$廣東電信
 CCTV2[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.133:5002?$天津聯通
 CCTV2[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.133:5002?$天津聯通
-CCTV2[5.1環繞聲],http://14.154.198.168:4022/rtp/239.253.43.17:5146?$廣東電信
-CCTV3[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.0.175:5146?$廣東電信
+CCTV2[5.1環繞聲],http://61.140.190.182:8686/rtp/239.253.43.17:5146?$廣東電信
 CCTV3[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.158:5002?$天津聯通
 CCTV3[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.158:5002?$天津聯通
-CCTV3[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.0.175:5146?$廣東電信
-CCTV 4K[5.1環繞],http://114.234.58.247:3000/rtp/239.49.0.82:8000?$江蘇電信
+CCTV3[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.0.175:5146?$廣東電信
+CCTV 4K[5.1環繞],http://114.224.123.227:4000/rtp/239.49.0.82:8000?$江蘇電信
 CCTV 4K[5.1環繞],http://117.81.138.167:8887/rtp/239.49.0.82:8000?$江蘇電信
-CCTV4[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.166:5146?$廣東電信
+CCTV 4K[5.1環繞],http://121.226.109.232:4022/rtp/239.49.0.82:8000?$江蘇電信
 CCTV4[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.150:5002?$天津聯通
 CCTV4[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.150:5002?$天津聯通
-CCTV4[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.166:5146?$廣東電信
+CCTV4[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.166:5146?$廣東電信
 CCTV5+[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.121:5002?$天津聯通
 CCTV5+[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.121:5002?$天津聯通
-CCTV5[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.0.177:5146?$廣東電信
 CCTV5[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.160:5002?$天津聯通
 CCTV5[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.160:5002?$天津聯通
-CCTV5[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.0.177:5146?$廣東電信
+CCTV5[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.0.177:5146?$廣東電信
 CCTV6[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.195:5002?$天津聯通
 CCTV6[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.195:5002?$天津聯通
-CCTV7[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.167:5146?$廣東電信
 CCTV7[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.138:5002?$天津聯通
 CCTV7[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.138:5002?$天津聯通
-CCTV7[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.167:5146?$廣東電信
-CCTV8[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.0.181:5146?$廣東電信
+CCTV7[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.167:5146?$廣東電信
 CCTV8[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.196:5002?$天津聯通
 CCTV8[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.196:5002?$天津聯通
-CCTV8[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.0.181:5146?$廣東電信
-CCTV9[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.168:5146?$廣東電信
+CCTV8[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.0.181:5146?$廣東電信
 CCTV9[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.119:5002?$天津聯通
 CCTV9[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.119:5002?$天津聯通
-CCTV9[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.168:5146?$廣東電信
-CCTV10[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.169:5146?$廣東電信
+CCTV9[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.168:5146?$廣東電信
 CCTV10[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.140:5002?$天津聯通
 CCTV10[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.140:5002?$天津聯通
-CCTV10[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.169:5146?$廣東電信
-CCTV12[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.170:5146?$廣東電信
+CCTV10[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.169:5146?$廣東電信
 CCTV12[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.142:5002?$天津聯通
 CCTV12[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.142:5002?$天津聯通
-CCTV12[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.170:5146?$廣東電信
+CCTV12[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.170:5146?$廣東電信
 CCTV13[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.2.193:5002?$天津聯通
 CCTV13[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.2.193:5002?$天津聯通
-CCTV14[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.171:5146?$廣東電信
 CCTV14[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.1.144:5002?$天津聯通
 CCTV14[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.1.144:5002?$天津聯通
-CCTV14[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.171:5146?$廣東電信
-CCTV16 4K[5.1環繞],http://114.234.58.247:3000/rtp/239.49.0.109:8000?$江蘇電信
+CCTV14[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.171:5146?$廣東電信
+CCTV16 4K[5.1環繞],http://114.224.123.227:4000/rtp/239.49.0.109:8000?$江蘇電信
 CCTV16 4K[5.1環繞],http://117.81.138.167:8887/rtp/239.49.0.109:8000?$江蘇電信
-CCTV16 4K[5.1環繞聲],http://113.86.204.209:4022/rtp/239.77.1.98:5146?$廣東電信
-CCTV16 4K[5.1環繞聲],http://14.154.198.168:4022/rtp/239.77.1.98:5146?$廣東電信
+CCTV16 4K[5.1環繞],http://121.226.109.232:4022/rtp/239.49.0.109:8000?$江蘇電信
+CCTV16 4K[5.1環繞聲],http://61.140.190.182:8686/rtp/239.77.1.98:5146?$廣東電信
 CCTV16[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.2.237:5002?$天津聯通
 CCTV16[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.2.237:5002?$天津聯通
 CCTV17[5.1環繞聲],http://117.10.52.84:5000/rtp/225.1.2.52:5002?$天津聯通
 CCTV17[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.2.52:5002?$天津聯通
-百事通4K[5.1環繞聲],http://110.185.44.243:4022/rtp/239.93.42.75:5140?$四川電信
+百事通4K[5.1環繞聲],http://182.139.215.107:5555/rtp/239.93.42.75:5140?$四川電信
+百事通4K[5.1環繞聲],http://182.150.168.175:4022/rtp/239.93.42.75:5140?$四川電信
+百事通4K[5.1環繞聲],http://222.210.93.230:4022/rtp/239.93.42.75:5140?$四川電信
 
 
 高質組播,#genre#
-風雲足球,http://110.185.44.243:4022/rtp/239.93.0.235:5140?$四川電信
-世界地理,http://110.185.44.243:4022/rtp/239.93.1.157:5140?$四川電信
-兵器科技,http://110.185.44.243:4022/rtp/239.93.1.235:5140?$四川電信
-央視文化精品,http://110.185.44.243:4022/rtp/239.93.42.47:5140?$四川電信
-女性時尚,http://110.185.44.243:4022/rtp/239.93.42.62:5140?$四川電信
-女性時尚,http://113.86.204.209:4022/rtp/239.253.43.23:5146?$廣東電信
-女性時尚,http://113.86.204.209:4022/rtp/239.253.43.8:5146?$廣東電信
-女性時尚,http://14.154.198.168:4022/rtp/239.253.43.23:5146?$廣東電信
-女性時尚,http://14.154.198.168:4022/rtp/239.253.43.8:5146?$廣東電信
+風雲足球,http://182.139.215.107:5555/rtp/239.93.0.235:5140?$四川電信
+風雲足球,http://182.150.168.175:4022/rtp/239.93.0.235:5140?$四川電信
+風雲足球,http://222.210.93.230:4022/rtp/239.93.0.235:5140?$四川電信
+世界地理,http://182.139.215.107:5555/rtp/239.93.1.157:5140?$四川電信
+世界地理,http://182.150.168.175:4022/rtp/239.93.1.157:5140?$四川電信
+世界地理,http://222.210.93.230:4022/rtp/239.93.1.157:5140?$四川電信
+兵器科技,http://182.139.215.107:5555/rtp/239.93.1.235:5140?$四川電信
+兵器科技,http://182.150.168.175:4022/rtp/239.93.1.235:5140?$四川電信
+兵器科技,http://222.210.93.230:4022/rtp/239.93.1.235:5140?$四川電信
+央視文化精品,http://182.139.215.107:5555/rtp/239.93.42.47:5140?$四川電信
+央視文化精品,http://182.150.168.175:4022/rtp/239.93.42.47:5140?$四川電信
+央視文化精品,http://222.210.93.230:4022/rtp/239.93.42.47:5140?$四川電信
+女性時尚,http://182.139.215.107:5555/rtp/239.93.42.62:5140?$四川電信
+女性時尚,http://182.150.168.175:4022/rtp/239.93.42.62:5140?$四川電信
+女性時尚,http://222.210.93.230:4022/rtp/239.93.42.62:5140?$四川電信
+女性時尚,http://61.140.190.182:8686/rtp/239.253.43.23:5146?$廣東電信
+女性時尚,http://61.140.190.182:8686/rtp/239.253.43.8:5146?$廣東電信
 風雲足球,http://117.10.52.84:5000/rtp/225.1.2.168:5002?$天津聯通
 風雲足球,http://117.13.240.220:4022/rtp/225.1.2.168:5002?$天津聯通
 風雲音樂,http://117.10.52.84:5000/rtp/225.1.2.176:5002?$天津聯通
 風雲音樂,http://117.13.240.220:4022/rtp/225.1.2.176:5002?$天津聯通
 兵器科技,http://117.10.52.84:5000/rtp/225.1.2.166:5002?$天津聯通
 兵器科技,http://117.13.240.220:4022/rtp/225.1.2.166:5002?$天津聯通
-兵器科技,http://27.18.167.226:4022/rtp/239.69.1.79:10114?$湖北電信
+兵器科技,http://119.98.202.110:4000/rtp/239.69.1.79:10114?$湖北電信
+兵器科技,http://119.98.88.186:4022/rtp/239.69.1.79:10114?$湖北電信
 兵器科技,http://27.20.171.167:4000/rtp/239.69.1.79:10114?$湖北電信
 兵器科技,http://27.28.194.115:4022/rtp/239.69.1.79:10114?$湖北電信
 兵器科技,http://59.173.72.239:3333/rtp/239.69.1.79:10114?$湖北電信
@@ -579,124 +531,138 @@ CCTV17[5.1環繞聲],http://117.13.240.220:4022/rtp/225.1.2.52:5002?$天津聯�
 世界地理,http://117.13.240.220:4022/rtp/225.1.2.171:5002?$天津聯通
 女性時尚,http://117.10.52.84:5000/rtp/225.1.2.172:5002?$天津聯通
 女性時尚,http://117.13.240.220:4022/rtp/225.1.2.172:5002?$天津聯通
-動作電影,http://110.185.44.243:4022/rtp/239.93.42.7:5140?$四川電信
 動作電影,http://117.10.52.84:5000/rtp/225.1.1.215:5002?$天津聯通
 動作電影,http://117.13.240.220:4022/rtp/225.1.1.215:5002?$天津聯通
+動作電影,http://119.98.202.110:4000/rtp/239.69.1.242:11094?$湖北電信
+動作電影,http://119.98.88.186:4022/rtp/239.69.1.242:11094?$湖北電信
 動作電影,http://124.231.213.130:8866/rtp/239.76.252.243:9000?$湖南電信
-動作電影,http://27.18.167.226:4022/rtp/239.69.1.242:11094?$湖北電信
+動作電影,http://182.139.215.107:5555/rtp/239.93.42.7:5140?$四川電信
+動作電影,http://182.150.168.175:4022/rtp/239.93.42.7:5140?$四川電信
+動作電影,http://222.210.93.230:4022/rtp/239.93.42.7:5140?$四川電信
 動作電影,http://27.20.171.167:4000/rtp/239.69.1.242:11094?$湖北電信
 動作電影,http://27.28.194.115:4022/rtp/239.69.1.242:11094?$湖北電信
 動作電影,http://59.173.72.239:3333/rtp/239.69.1.242:11094?$湖北電信
 動作電影,http://59.175.47.108:4000/rtp/239.69.1.242:11094?$湖北電信
-家庭影院,http://110.185.44.243:4022/rtp/239.93.42.6:5140?$四川電信
 家庭影院,http://117.10.52.84:5000/rtp/225.1.1.213:5002?$天津聯通
 家庭影院,http://117.13.240.220:4022/rtp/225.1.1.213:5002?$天津聯通
+家庭影院,http://119.98.202.110:4000/rtp/239.69.1.243:11100?$湖北電信
+家庭影院,http://119.98.88.186:4022/rtp/239.69.1.243:11100?$湖北電信
 家庭影院,http://124.231.213.130:8866/rtp/239.76.252.241:9000?$湖南電信
-家庭影院,http://27.18.167.226:4022/rtp/239.69.1.243:11100?$湖北電信
+家庭影院,http://182.139.215.107:5555/rtp/239.93.42.6:5140?$四川電信
+家庭影院,http://182.150.168.175:4022/rtp/239.93.42.6:5140?$四川電信
+家庭影院,http://222.210.93.230:4022/rtp/239.93.42.6:5140?$四川電信
 家庭影院,http://27.20.171.167:4000/rtp/239.69.1.243:11100?$湖北電信
 家庭影院,http://27.28.194.115:4022/rtp/239.69.1.243:11100?$湖北電信
 家庭影院,http://59.173.72.239:3333/rtp/239.69.1.243:11100?$湖北電信
 家庭影院,http://59.175.47.108:4000/rtp/239.69.1.243:11100?$湖北電信
 影迷電影,http://117.10.52.84:5000/rtp/225.1.1.214:5002?$天津聯通
 影迷電影,http://117.13.240.220:4022/rtp/225.1.1.214:5002?$天津聯通
-影迷電影,http://110.185.44.243:4022/rtp/239.93.42.5:5140?$四川電信
+影迷電影,http://119.98.202.110:4000/rtp/239.69.1.241:11088?$湖北電信
+影迷電影,http://119.98.88.186:4022/rtp/239.69.1.241:11088?$湖北電信
 影迷電影,http://124.231.213.130:8866/rtp/239.76.252.242:9000?$湖南電信
-影迷電影,http://27.18.167.226:4022/rtp/239.69.1.241:11088?$湖北電信
+影迷電影,http://182.139.215.107:5555/rtp/239.93.42.5:5140?$四川電信
+影迷電影,http://182.150.168.175:4022/rtp/239.93.42.5:5140?$四川電信
+影迷電影,http://222.210.93.230:4022/rtp/239.93.42.5:5140?$四川電信
 影迷電影,http://27.20.171.167:4000/rtp/239.69.1.241:11088?$湖北電信
 影迷電影,http://27.28.194.115:4022/rtp/239.69.1.241:11088?$湖北電信
 影迷電影,http://59.173.72.239:3333/rtp/239.69.1.241:11088?$湖北電信
 影迷電影,http://59.175.47.108:4000/rtp/239.69.1.241:11088?$湖北電信
-第一劇場,http://113.86.204.209:4022/rtp/239.253.43.15:5146?$廣東電信
-第一劇場,http://113.86.204.209:4022/rtp/239.253.43.28:5146?$廣東電信
-第一劇場,http://114.234.58.247:3000/rtp/239.49.8.94:8000?$江蘇電信
+第一劇場,http://114.224.123.227:4000/rtp/239.49.8.94:8000?$江蘇電信
 第一劇場,http://117.10.52.84:5000/rtp/225.1.2.175:5002?$天津聯通
 第一劇場,http://117.13.240.220:4022/rtp/225.1.2.175:5002?$天津聯通
 第一劇場,http://117.81.138.167:8887/rtp/239.49.8.94:8000?$江蘇電信
+第一劇場,http://119.98.202.110:4000/rtp/239.69.1.74:10084?$湖北電信
+第一劇場,http://119.98.88.186:4022/rtp/239.69.1.74:10084?$湖北電信
+第一劇場,http://121.226.109.232:4022/rtp/239.49.8.94:8000?$江蘇電信
 第一劇場,http://124.231.213.130:8866/rtp/239.76.254.49:9000?$湖南電信
-第一劇場,http://14.154.198.168:4022/rtp/239.253.43.15:5146?$廣東電信
-第一劇場,http://14.154.198.168:4022/rtp/239.253.43.28:5146?$廣東電信
-第一劇場,http://27.18.167.226:4022/rtp/239.69.1.74:10084?$湖北電信
 第一劇場,http://27.20.171.167:4000/rtp/239.69.1.74:10084?$湖北電信
 第一劇場,http://27.28.194.115:4022/rtp/239.69.1.74:10084?$湖北電信
 第一劇場,http://59.173.72.239:3333/rtp/239.69.1.74:10084?$湖北電信
 第一劇場,http://59.175.47.108:4000/rtp/239.69.1.74:10084?$湖北電信
-風雲劇場,http://110.185.44.243:4022/rtp/239.93.1.156:5140?$四川電信
-風雲劇場,http://113.86.204.209:4022/rtp/239.253.43.16:5146?$廣東電信
-風雲劇場,http://113.86.204.209:4022/rtp/239.253.43.26:5146?$廣東電信
-風雲劇場,http://114.234.58.247:3000/rtp/239.49.8.89:8000?$江蘇電信
+第一劇場,http://61.140.190.182:8686/rtp/239.253.43.15:5146?$廣東電信
+第一劇場,http://61.140.190.182:8686/rtp/239.253.43.28:5146?$廣東電信
+風雲劇場,http://114.224.123.227:4000/rtp/239.49.8.89:8000?$江蘇電信
 風雲劇場,http://117.10.52.84:5000/rtp/225.1.2.174:5002?$天津聯通
 風雲劇場,http://117.13.240.220:4022/rtp/225.1.2.174:5002?$天津聯通
 風雲劇場,http://117.81.138.167:8887/rtp/239.49.8.89:8000?$江蘇電信
+風雲劇場,http://121.226.109.232:4022/rtp/239.49.8.89:8000?$江蘇電信
 風雲劇場,http://124.231.213.130:8866/rtp/239.76.254.50:9000?$湖南電信
-風雲劇場,http://14.154.198.168:4022/rtp/239.253.43.16:5146?$廣東電信
-風雲劇場,http://14.154.198.168:4022/rtp/239.253.43.26:5146?$廣東電信
-風雲足球,http://113.86.204.209:4022/rtp/239.253.43.14:5146?$廣東電信
-風雲足球,http://14.154.198.168:4022/rtp/239.253.43.14:5146?$廣東電信
-風雲音樂,http://113.86.204.209:4022/rtp/239.253.43.29:5146?$廣東電信
-風雲音樂,http://113.86.204.209:4022/rtp/239.253.43.6:5146?$廣東電信
-風雲音樂,http://114.234.58.247:3000/rtp/239.49.8.92:8000?$江蘇電信
+風雲劇場,http://182.139.215.107:5555/rtp/239.93.1.156:5140?$四川電信
+風雲劇場,http://182.150.168.175:4022/rtp/239.93.1.156:5140?$四川電信
+風雲劇場,http://222.210.93.230:4022/rtp/239.93.1.156:5140?$四川電信
+風雲劇場,http://61.140.190.182:8686/rtp/239.253.43.16:5146?$廣東電信
+風雲劇場,http://61.140.190.182:8686/rtp/239.253.43.26:5146?$廣東電信
+風雲足球,http://61.140.190.182:8686/rtp/239.253.43.14:5146?$廣東電信
+風雲音樂,http://114.224.123.227:4000/rtp/239.49.8.92:8000?$江蘇電信
 風雲音樂,http://117.81.138.167:8887/rtp/239.49.8.92:8000?$江蘇電信
-風雲音樂,http://14.154.198.168:4022/rtp/239.253.43.29:5146?$廣東電信
-風雲音樂,http://14.154.198.168:4022/rtp/239.253.43.6:5146?$廣東電信
-世界地理,http://27.18.167.226:4022/rtp/239.69.1.91:10186?$湖北電信
+風雲音樂,http://121.226.109.232:4022/rtp/239.49.8.92:8000?$江蘇電信
+風雲音樂,http://61.140.190.182:8686/rtp/239.253.43.29:5146?$廣東電信
+風雲音樂,http://61.140.190.182:8686/rtp/239.253.43.6:5146?$廣東電信
+世界地理,http://119.98.202.110:4000/rtp/239.69.1.91:10186?$湖北電信
+世界地理,http://119.98.88.186:4022/rtp/239.69.1.91:10186?$湖北電信
 世界地理,http://27.20.171.167:4000/rtp/239.69.1.91:10186?$湖北電信
 世界地理,http://27.28.194.115:4022/rtp/239.69.1.91:10186?$湖北電信
 世界地理,http://59.173.72.239:3333/rtp/239.69.1.91:10186?$湖北電信
 世界地理,http://59.175.47.108:4000/rtp/239.69.1.91:10186?$湖北電信
-央視文化精品,http://113.86.204.209:4022/rtp/239.253.43.13:5146?$廣東電信
-央視文化精品,http://113.86.204.209:4022/rtp/239.253.43.27:5146?$廣東電信
-央視文化精品,http://14.154.198.168:4022/rtp/239.253.43.13:5146?$廣東電信
-央視文化精品,http://14.154.198.168:4022/rtp/239.253.43.27:5146?$廣東電信
-懷舊劇場,http://110.185.44.243:4022/rtp/239.93.1.198:5140?$四川電信
-懷舊劇場,http://113.86.204.209:4022/rtp/239.253.43.25:5146?$廣東電信
-懷舊劇場,http://113.86.204.209:4022/rtp/239.253.43.5:5146?$廣東電信
+央視文化精品,http://61.140.190.182:8686/rtp/239.253.43.13:5146?$廣東電信
+央視文化精品,http://61.140.190.182:8686/rtp/239.253.43.27:5146?$廣東電信
 懷舊劇場,http://117.10.52.84:5000/rtp/225.1.2.173:5002?$天津聯通
 懷舊劇場,http://117.13.240.220:4022/rtp/225.1.2.173:5002?$天津聯通
-懷舊劇場,http://14.154.198.168:4022/rtp/239.253.43.25:5146?$廣東電信
-懷舊劇場,http://14.154.198.168:4022/rtp/239.253.43.5:5146?$廣東電信
+懷舊劇場,http://182.139.215.107:5555/rtp/239.93.1.198:5140?$四川電信
+懷舊劇場,http://182.150.168.175:4022/rtp/239.93.1.198:5140?$四川電信
+懷舊劇場,http://222.210.93.230:4022/rtp/239.93.1.198:5140?$四川電信
+懷舊劇場,http://61.140.190.182:8686/rtp/239.253.43.25:5146?$廣東電信
+懷舊劇場,http://61.140.190.182:8686/rtp/239.253.43.5:5146?$廣東電信
 
 
 4K 頻道,#genre#
-4K樂享,http://110.185.44.243:4022/rtp/239.93.0.43:5140?$四川電信
-廣東綜藝4K,http://113.86.204.209:4022/rtp/239.77.0.244:5146?$廣東電信
-廣東綜藝4K,http://113.86.204.209:4022/rtp/239.77.0.245:5146?$廣東電信
-廣東綜藝4K,http://113.86.204.209:4022/rtp/239.77.1.237:5146?$廣東電信
-廣東綜藝4K,http://14.154.198.168:4022/rtp/239.77.0.244:5146?$廣東電信
-廣東綜藝4K,http://14.154.198.168:4022/rtp/239.77.0.245:5146?$廣東電信
-廣東綜藝4K,http://14.154.198.168:4022/rtp/239.77.1.237:5146?$廣東電信
+4K樂享,http://182.139.215.107:5555/rtp/239.93.0.43:5140?$四川電信
+4K樂享,http://182.150.168.175:4022/rtp/239.93.0.43:5140?$四川電信
+4K樂享,http://222.210.93.230:4022/rtp/239.93.0.43:5140?$四川電信
+廣東綜藝4K,http://61.140.190.182:8686/rtp/239.77.0.244:5146?$廣東電信
+廣東綜藝4K,http://61.140.190.182:8686/rtp/239.77.0.245:5146?$廣東電信
+廣東綜藝4K,http://61.140.190.182:8686/rtp/239.77.1.237:5146?$廣東電信
 Bestv4K,http://124.231.213.130:8866/rtp/239.76.254.3:9000?$湖南電信
-CCTV 4K,http://110.185.44.243:4022/rtp/239.93.42.42:5140?$四川電信
-CCTV 4K,http://113.86.204.209:4022/rtp/239.77.0.194:5146?$廣東電信
-CCTV 4K,http://113.86.204.209:4022/rtp/239.77.1.180:5146?$廣東電信
 CCTV 4K,http://124.231.213.130:8866/rtp/239.76.252.35:9000?$湖南電信
-CCTV 4K,http://14.154.198.168:4022/rtp/239.77.0.194:5146?$廣東電信
-CCTV 4K,http://14.154.198.168:4022/rtp/239.77.1.180:5146?$廣東電信
-CCTV 4K50p,http://113.86.204.209:4022/rtp/239.77.0.174:5146?$廣東電信
-CCTV 4K50p,http://14.154.198.168:4022/rtp/239.77.0.174:5146?$廣東電信
-CCTV5 4K,http://27.18.167.226:4022/rtp/239.69.1.12:9712?$湖北電信
+CCTV 4K,http://182.139.215.107:5555/rtp/239.93.42.42:5140?$四川電信
+CCTV 4K,http://182.150.168.175:4022/rtp/239.93.42.42:5140?$四川電信
+CCTV 4K,http://222.210.93.230:4022/rtp/239.93.42.42:5140?$四川電信
+CCTV 4K,http://61.140.190.182:8686/rtp/239.77.0.194:5146?$廣東電信
+CCTV 4K,http://61.140.190.182:8686/rtp/239.77.1.180:5146?$廣東電信
+CCTV 4K50p,http://61.140.190.182:8686/rtp/239.77.0.174:5146?$廣東電信
+CCTV5 4K,http://119.98.202.110:4000/rtp/239.69.1.12:9712?$湖北電信
+CCTV5 4K,http://119.98.88.186:4022/rtp/239.69.1.12:9712?$湖北電信
 CCTV5 4K,http://27.20.171.167:4000/rtp/239.69.1.12:9712?$湖北電信
 CCTV5 4K,http://27.28.194.115:4022/rtp/239.69.1.12:9712?$湖北電信
 CCTV5 4K,http://59.173.72.239:3333/rtp/239.69.1.12:9712?$湖北電信
 CCTV5 4K,http://59.175.47.108:4000/rtp/239.69.1.12:9712?$湖北電信
-CCTV 8K,http://113.86.204.209:4022/rtp/239.253.43.106:5146?$廣東電信
-CCTV 8K,http://14.154.198.168:4022/rtp/239.253.43.106:5146?$廣東電信
-CCTV16 4K,http://27.18.167.226:4022/rtp/239.69.1.249:11136?$湖北電信
+CCTV 8K,http://61.140.190.182:8686/rtp/239.253.43.106:5146?$廣東電信
+CCTV16 4K,http://119.98.202.110:4000/rtp/239.69.1.249:11136?$湖北電信
+CCTV16 4K,http://119.98.88.186:4022/rtp/239.69.1.249:11136?$湖北電信
 CCTV16 4K,http://27.20.171.167:4000/rtp/239.69.1.249:11136?$湖北電信
 CCTV16 4K,http://27.28.194.115:4022/rtp/239.69.1.249:11136?$湖北電信
 CCTV16 4K,http://59.173.72.239:3333/rtp/239.69.1.249:11136?$湖北電信
 CCTV16 4K,http://59.175.47.108:4000/rtp/239.69.1.249:11136?$湖北電信
-中錄動漫4K,http://110.185.44.243:4022/rtp/239.93.1.188:5140?$四川電信
-南國都市4K,http://113.86.204.209:4022/rtp/239.253.43.99:5146?$廣東電信
-南國都市4K,http://14.154.198.168:4022/rtp/239.253.43.99:5146?$廣東電信
+中錄動漫4K,http://182.139.215.107:5555/rtp/239.93.1.188:5140?$四川電信
+中錄動漫4K,http://182.150.168.175:4022/rtp/239.93.1.188:5140?$四川電信
+中錄動漫4K,http://222.210.93.230:4022/rtp/239.93.1.188:5140?$四川電信
+南國都市4K,http://61.140.190.182:8686/rtp/239.253.43.99:5146?$廣東電信
 搜狐4K,http://117.10.52.84:5000/rtp/225.1.2.190:5002?$天津聯通
 搜狐4K,http://117.13.240.220:4022/rtp/225.1.2.190:5002?$天津聯通
-歡笑劇場4K,http://110.185.44.243:4022/rtp/239.93.0.145:5140?$四川電信
 歡笑劇場4K,http://117.10.52.84:5000/rtp/225.1.1.152:5002?$天津聯通
 歡笑劇場4K,http://117.13.240.220:4022/rtp/225.1.1.152:5002?$天津聯通
-愛上4K,http://110.185.44.243:4022/rtp/239.93.0.97:5140?$四川電信
-愛上4K,http://27.18.167.226:4022/rtp/239.69.1.141:10482?$湖北電信
+歡笑劇場4K,http://182.139.215.107:5555/rtp/239.93.0.145:5140?$四川電信
+歡笑劇場4K,http://182.150.168.175:4022/rtp/239.93.0.145:5140?$四川電信
+歡笑劇場4K,http://222.210.93.230:4022/rtp/239.93.0.145:5140?$四川電信
+愛上4K,http://119.98.202.110:4000/rtp/239.69.1.141:10482?$湖北電信
+愛上4K,http://119.98.88.186:4022/rtp/239.69.1.141:10482?$湖北電信
+愛上4K,http://182.139.215.107:5555/rtp/239.93.0.97:5140?$四川電信
+愛上4K,http://182.150.168.175:4022/rtp/239.93.0.97:5140?$四川電信
+愛上4K,http://222.210.93.230:4022/rtp/239.93.0.97:5140?$四川電信
 愛上4K,http://27.20.171.167:4000/rtp/239.69.1.141:10482?$湖北電信
 愛上4K,http://27.28.194.115:4022/rtp/239.69.1.141:10482?$湖北電信
 愛上4K,http://59.173.72.239:3333/rtp/239.69.1.141:10482?$湖北電信
 愛上4K,http://59.175.47.108:4000/rtp/239.69.1.141:10482?$湖北電信
-絢影4K,http://110.185.44.243:4022/rtp/239.93.42.33:5140?$四川電信
+絢影4K,http://182.139.215.107:5555/rtp/239.93.42.33:5140?$四川電信
+絢影4K,http://182.150.168.175:4022/rtp/239.93.42.33:5140?$四川電信
+絢影4K,http://222.210.93.230:4022/rtp/239.93.42.33:5140?$四川電信
