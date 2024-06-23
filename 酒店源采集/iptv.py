@@ -47,9 +47,8 @@ urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdW5hbiI%3D",#湖南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSLlsbHkuJwi",#山东
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSI%3D",#8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
@@ -441,7 +440,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         if '重温经典' in channel_name:
-          if '凤凰' not in channel_name:  
+          if '凤凰' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -459,7 +458,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         if '卫视' in channel_name:
-          if '凤凰' not in channel_name:  
+          if '凤凰' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -524,7 +523,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         if '河北' in channel_name:
-          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:   
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -560,7 +559,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
         channel_name, channel_url, speed = result
         if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name or '动画' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '湖' not in channel_name and '广' not in channel_name and '河' not in channel_name and '黑' not in channel_name and '保' not in channel_name and '宁' not in channel_name and '家庭' not in channel_name and '影迷' not in channel_name and '动作' not in channel_name and '武汉' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name:
-              if channel_name in channel_counters:
+            if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
                 else:
@@ -575,7 +574,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('其他频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' not in channel_name and '卫视' not in channel_name:  
+        if 'CCTV' not in channel_name and '卫视' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
