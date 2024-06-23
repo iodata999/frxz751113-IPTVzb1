@@ -493,6 +493,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
         channel_name, channel_url, speed = result
         if '湖北' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+           if ':1111' not in line:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -509,6 +510,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
         channel_name, channel_url, speed = result
         if '武汉' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+           if ':1111' not in line:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
