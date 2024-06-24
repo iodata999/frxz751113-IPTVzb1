@@ -488,7 +488,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     
 
     channel_counters = {}
-    file.write('省市动漫,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '湖' in channel_name:
@@ -504,7 +504,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     channel_counters = {}
-    file.write('省市动漫,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '武汉' in channel_name:
@@ -519,7 +519,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
     channel_counters = {}
-    file.write('省市动漫,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '河北' in channel_name:
@@ -536,7 +536,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
     channel_counters = {}
-    file.write('省市动漫,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '广' in channel_name or '珠江台测试' in channel_name:
@@ -554,7 +554,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     
 
     channel_counters = {}
-    file.write('省市动漫,#genre#\n')
+    file.write('少儿动漫,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name or '动画' in channel_name:
