@@ -141,7 +141,7 @@ for url in urls:
                             name = name.replace("标清", "")
                             name = name.replace("超高", "")
                             name = name.replace("频道", "")
-                            name = name.replace("汉1", "汉")
+                            name = name.replace("靓装", "女性时尚")
                             name = name.replace("汉2", "汉")
                             name = name.replace("汉3", "汉")
                             name = name.replace("汉4", "汉")
@@ -454,8 +454,8 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('其他频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        #if '卡通' in channel_name or '少儿' in channel_name or '哈哈' in channel_name or '动漫' in channel_name:
-        if 'CCTV' not in channel_name and '卫视' not in channel_name:
+        if 'CEYV' in channel_name or '兵器' in channel_name or '地理' in channel_name or '央视' in channel_name or '女性' in channel_name or '纪实' in channel_name or '中国' in channel_name or '兵器' in channel_name or '地理' in channel_name or '央视' in channel_name:
+         #if 'CCTV' not in channel_name and '卫视' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
