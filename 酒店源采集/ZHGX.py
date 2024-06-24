@@ -141,7 +141,7 @@ for url in urls:
                             name = name.replace("标清", "")
                             name = name.replace("超高", "")
                             name = name.replace("频道", "")
-                            name = name.replace("靓装", "女性时尚")
+                            name = name.replace("靓妆", "女性时尚")
                             name = name.replace("汉2", "汉")
                             name = name.replace("汉3", "汉")
                             name = name.replace("汉4", "汉")
