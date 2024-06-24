@@ -368,8 +368,8 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('央视频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name:
-          if '剧场' not in channel_name and '风云' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
+        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name or '剧场' in channel_name or '华语' in channel_name or '大片' in channel_name or '峨眉' in channel_name:
+          if '热播' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -399,7 +399,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '湖北' in channel_name or '武汉' in channel_name  or '黑龙江' in channel_name or '湖南' in channel_name or '陕西' in channel_name or '南宁' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name or '石家庄' in channel_name:
+        if '湖北' in channel_name or '四川' in channel_name  or '深圳' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name or '石家庄' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -419,7 +419,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('港澳频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星空' in channel_name or 'TVB' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
+        if '龙祥' in channel_name or '翡翠' in channel_name or '本港' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星空' in channel_name or 'TVB' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
           #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -485,7 +485,12 @@ for file_path in file_paths:
 with open("光迅源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("光迅源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
-    line = line.replace("AA", "")
+    line = line.replace("测试", "")
+    line = line.replace("美洲", "")
+    line = line.replace("“CCTV13", "CCTV13")
+    line = line.replace("农村农业", "")
+    line = line.replace("（福建卫视）", "")
+    line = line.replace("广东大", "大")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符  
 
