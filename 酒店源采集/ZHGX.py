@@ -479,6 +479,7 @@ for line in fileinput.input("光迅源.txt", inplace=True):  #打开文件，并
     line = line.replace("广东大", "大")
     line = line.replace("B2", "B")
     line = line.replace("B3", "B")
+    line = line.replace("SCTV5四川影视）", "SCTV5")
     line = line.replace("\n电影,", "\n影迷电影,")
     print(line, end="")  #设置end=""，避免输出多余的换行符  
 
