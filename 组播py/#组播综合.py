@@ -373,7 +373,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["d.txt", "b.txt", "a.txt", "c.txt", "e.txt", "DD.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "d.txt", "a.txt", "c.txt", "e.txt", "DD.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -412,6 +412,7 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     line = line.replace("CCTV9,", "CCTV9-纪录,")  
     line = line.replace("CCTV10,", "CCTV10-科教,")  
     line = line.replace("CCTV11,", "CCTV11-戏曲,")  
+    line = line.replace("CCTV11+,", "CCTV11-戏曲,")  
     line = line.replace("CCTV12,", "CCTV12-社会与法,")  
     line = line.replace("CCTV13,", "CCTV13-新闻,")  
     line = line.replace("CCTV14,", "CCTV14-少儿,")  
