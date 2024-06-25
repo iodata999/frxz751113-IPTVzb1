@@ -113,7 +113,7 @@ for url in urls:
         try:
             # 发送GET请求获取JSON文件，设置超时时间为0.5秒
             json_url = f"{url}"
-            response = requests.get(json_url, timeout=1)################################
+            response = requests.get(json_url, timeout=2)################################
             json_data = response.content.decode('utf-8')
             try:
                     # 按行分割数据
