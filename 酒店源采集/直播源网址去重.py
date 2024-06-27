@@ -1,30 +1,32 @@
 import re
 
 def remove_duplicates(input_file, output_file):
-    url_dict = {}
-    non_url_lines = []
+    # 用于存储已经遇到的URL和包含genre的行
+    seen_urls = set()
+    seen_lines_with_genre = set()
+    # 用于存储最终输出的行
+    output_lines = []
+    # 打开输入文件并读取所有行
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         print("去重前的行数：", len(lines))
+        # 遍历每一行
         for line in lines:
+            # 使用正则表达式查找URL和包含genre的行
             urls = re.findall(r'http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
-            if urls:
-                url = urls[0]
-                if url not in url_dict:
-                    url_dict[url] = line
-            else:
-                non_url_lines.append(line)
-
-    genre_lines = [line for line in non_url_lines if 'genre' in line.lower()]
-    non_genre_lines = [line for line in non_url_lines if 'genre' not in line.lower()]
-
+            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
+            # 如果找到URL并且该URL尚未被记录
+            if urls and urls[0] not in seen_urls:
+                seen_urls.add(urls[0])
+                output_lines.append(line)
+            # 如果找到包含genre的行并且该行尚未被记录
+            elif genre_line and line not in seen_lines_with_genre:
+                seen_lines_with_genre.add(line)
+                output_lines.append(line)
+    # 将结果写入输出文件
     with open(output_file, 'w', encoding='utf-8') as f:
-        for url, line in url_dict.items():
-            f.write(line)
-        for line in genre_lines + non_genre_lines:
-            f.write(line)
-
-    print("去重后的行数：", len(url_dict) + len(genre_lines) + len(non_genre_lines))
+        f.writelines(output_lines)
+    print("去重后的行数：", len(output_lines))
 
 # 使用方法
 remove_duplicates('1.txt', 'output.txt')
