@@ -22,7 +22,7 @@ import fileinput
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 def modify_urls(url):
     modified_urls = []
@@ -386,7 +386,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '湖北' in channel_name or '四川' in channel_name  or '深圳' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name:
+        if '湖北' in channel_name  or '深圳' in channel_name or '河北' in channel_name or '广东' in channel_name or '广西' in channel_name:
           if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
