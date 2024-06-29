@@ -21,9 +21,9 @@ import fileinput
 
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0iamlleWFuZyI%3D",#山东
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0iamlleWFuZyI%3D",#山东
 ]
 def modify_urls(url):
     modified_urls = []
@@ -338,7 +338,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 256
+num_threads = 64
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
