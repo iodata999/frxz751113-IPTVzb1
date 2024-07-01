@@ -167,7 +167,7 @@ for url in urls:
                         else:
                             urld = f"{url_x}{urlx}"
 
-                        if name and urld:
+                        if name and urld and line and url:
                             name = name.replace("高清电影", "影迷电影")                            
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
@@ -238,6 +238,8 @@ for url in urls:
                             name = name.replace("央视14少儿", "CCTV14")
                             name = name.replace("CCTV少儿超", "CCTV14")
                             name = name.replace("CCTV15音乐", "CCTV15")
+                            line = line.replace("udp://@", "/udp/")
+                            url = url.replace("udp://@", "/udp/")
                             name = name.replace("CCTV音乐", "CCTV15")
                             name = name.replace("CCTV16奥林匹克", "CCTV16")
                             name = name.replace("CCTV17农业农村", "CCTV17")
