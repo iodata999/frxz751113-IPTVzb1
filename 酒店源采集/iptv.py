@@ -185,6 +185,7 @@ for url in urls:
                             name = name.replace("CHC家", "家")
                             name = name.replace("CHC影", "影")
                             name = name.replace("-", "")
+                            line = line.replace("udp://@", "/udp/")
                             name = name.replace(" ", "")
                             name = name.replace("PLUS", "+")
                             name = name.replace("＋", "+")
