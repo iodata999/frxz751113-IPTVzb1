@@ -23,7 +23,6 @@ urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY2l0eT0iamlleWFuZyI%3D",#山东
 ]
 def modify_urls(url):
     modified_urls = []
@@ -338,7 +337,7 @@ def worker():
 
 
 # 创建多个工作线程
-num_threads = 256
+num_threads = 128
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     # t = threading.Thread(target=worker, args=(event,len(channels)))  # 将工作线程设置为守护线程
@@ -451,22 +450,6 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
 
-
-    channel_counters = {}
-    file.write('其他频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CEYV' in channel_name or '兵器' in channel_name or '地理' in channel_name or '央视' in channel_name or '女性' in channel_name or '纪实' in channel_name or '中国' in channel_name or '兵器' in channel_name or '地理' in channel_name or '央视' in channel_name:
-         #if 'CCTV' not in channel_name and '卫视' not in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
 
 
 
