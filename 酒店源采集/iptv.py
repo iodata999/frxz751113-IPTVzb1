@@ -185,7 +185,6 @@ for url in urls:
                             name = name.replace("CHC家", "家")
                             name = name.replace("CHC影", "影")
                             name = name.replace("-", "")
-                            line = line.replace("udp://@", "/udp/")
                             name = name.replace(" ", "")
                             name = name.replace("PLUS", "+")
                             name = name.replace("＋", "+")
@@ -316,6 +315,7 @@ print(f'处理后文件行数：{after}')
 
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
+    line = line.replace("udp://@", "/udp/")
     print(line, end="")  #设置end=""，避免输出多余的换行符     
 
 import eventlet
