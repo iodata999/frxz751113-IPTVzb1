@@ -43,6 +43,7 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSLmuZbljZci",#湖南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
@@ -107,7 +108,7 @@ for url in urls:
         ip_start_index = url.find("//") + 2
         ip_end_index = url.find(":", ip_start_index)
         ip_dot_start = url.find(".") + 1
-        ip_dot_second = url.find(".", ip_dot_start) + 1
+        ip_dot_second = url.find找到(".", ip_dot_start) + 1
         ip_dot_three = url.find(".", ip_dot_second) + 1
         base_url = url[:ip_start_index]  # http:// or https://
         ip_address = url[ip_start_index:ip_dot_three]
@@ -157,11 +158,11 @@ for url in urls:
                         name = item.get('name')
                         urlx = item.get('url')
                         if ',' in urlx:
+                          if 'udp' not in urlx and 'rtp' not in urlx and ':1111' not in urlx:
                             urlx = f"aaaaaaaa"
 
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
                         if 'http' in urlx:
-                          if 'udp' not in url and 'rtp' not in url and ':1111' not in url:
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
