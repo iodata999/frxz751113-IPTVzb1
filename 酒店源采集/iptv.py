@@ -108,7 +108,7 @@ for url in urls:
         ip_start_index = url.find("//") + 2
         ip_end_index = url.find(":", ip_start_index)
         ip_dot_start = url.find(".") + 1
-        ip_dot_second = url.find找到(".", ip_dot_start) + 1
+        ip_dot_second = url.find(".", ip_dot_start) + 1
         ip_dot_three = url.find(".", ip_dot_second) + 1
         base_url = url[:ip_start_index]  # http:// or https://
         ip_address = url[ip_start_index:ip_dot_three]
