@@ -1,4 +1,4 @@
-a = input('FileName(DragHere):')
+a = input('请拖入待处理的utf-8文件,然后回车')
 
 with open(a, 'r', encoding="utf-8") as f:
     lines = f.readlines()
@@ -13,7 +13,7 @@ with open(a, 'r', encoding="utf-8") as f:
 with open(a, 'w', encoding="utf-8") as f:
     f.writelines(unique_lines)
 
-print('处理完成：')
 print(f'处理前文件行数：{before}')
 print(f'处理后文件行数：{after}')
+print('处理完成,数据已按原始顺序写回原文件')
 input()
