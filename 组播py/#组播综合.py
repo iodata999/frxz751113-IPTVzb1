@@ -435,8 +435,8 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     print(line, end="")   
 ################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
-#converter = OpenCC('t2s.json')#繁转简
-converter = OpenCC('s2t.json')#简转繁
+converter = OpenCC('t2s.json')#繁转简
+#converter = OpenCC('s2t.json')#简转繁
 # 打开txt文件
 with open('结果.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
