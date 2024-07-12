@@ -14,10 +14,9 @@ from datetime import datetime
 import replace
 import fileinput
 
-
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖北联通.txt", "湖南电信.txt", "安徽电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖南电信.txt", "河北电信.txt", "安徽电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -251,7 +250,7 @@ keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CC
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
-    c.write('\n央视频道/自动更新,#genre#\n')                                                                  #####写入临时文件名
+    c.write('央视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
@@ -271,7 +270,7 @@ keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
-    e.write('\n央视频道/自动更新,#genre#\n')                                                                  #####写入临时文件名
+    e.write('\n央视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
@@ -294,7 +293,7 @@ keywords = ['卫视', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ws.txt', 'w', encoding='utf-8') as ws:
-    ws.write('\n卫视频道/自动更新,#genre#\n')
+    ws.write('\n卫视频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           ws.write(line)  # 将该行写入输出文件
@@ -305,7 +304,7 @@ keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
-    DD.write('\n4K频道/自动更新,#genre#\n')
+    DD.write('\n4K 频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
@@ -316,11 +315,11 @@ for line in fileinput.input("DD.txt", inplace=True):  #打开文件，并对其�
 
 
 ###############################################################################################################################################################################            
-keywords = ['热门剧场', '经典剧场', '抗战剧场', '谍战剧场', '军旅剧场', '华语影院', '淘', '爱']  # 需要提取的关键字列表
+keywords = ['热门剧场', '经典剧场', '抗战剧场', '谍战剧场', '军旅剧场', '华语影院', '影', '剧', '淘', '爱']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
-    ys.write('\n影视频道/自动更新,#genre#\n')
+    ys.write('\n影视频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           ys.write(line)  # 将该行写入输出文件
@@ -332,15 +331,42 @@ for line in fileinput.input("ys.txt", inplace=True):  #打开文件，并对其�
 
 
 ###############################################################################################################################################################################
-keywords = ['AA湖南', 'AA广东', 'AA安徽', 'AA湖北', '珠海', '公共']  # 需要提取的关键字列表
+keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '河北', '石家庄', '珠海', '广州']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
-    df.write('\n省市频道/自动更新,#genre#\n')
+    df.write('\n省市频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
 for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("AA", "")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符      
+
+###############################################################################################################################################################################
+keywords = ['综合', '公共', '生活', '新闻', '电视', '教育', '科技', '文艺', '经济']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('排序.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
+    xs.write('\n地方频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          xs.write(line)  # 将该行写入输出文件
+for line in fileinput.input("xs.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("AA", "")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符      
+
+
+###############################################################################################################################################################################
+keywords = [',']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('排序.txt', 'r', encoding='utf-8') as file, open('qt.txt', 'w', encoding='utf-8') as qt:
+    qt.write('\n其他频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          qt.write(line)  # 将该行写入输出文件
+for line in fileinput.input("qt.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("AA", "")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符      
 
@@ -349,76 +375,9 @@ for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其�
 
 
 
-######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
-with open('酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
- keywords = ['CCTV', '卫视', 'http', '重温', '酒店', '私人', '天映', '莲花', 'AXN', '好莱坞', '星', '龙', '凤凰', '东森', 'genre']  # 需要提取的关键字列表                                                       ###########
- pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
- #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
- with open('酒店源.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
-    b.write('\n央视,#genre#\n')                                                                        ###########
-    for line in file:                                                                                      ###########
-        if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
-          b.write(line)  # 将该行写入输出文件                                                               ###########
-                                                                                                           ###########
-for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("央视,#genre#", "")                                                                         ###########
-    line = line.replace("四川康巴卫视", "康巴卫视")                                                                         ###########
-    line = line.replace("黑龙江卫视+", "黑龙江卫视")                                                                         ###########
-    line = line.replace("[1920*1080]", "")                                                                         ###########
-    line = line.replace("星河", "TVB星河")                                                        ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符   
-    
-
-
-
-
-##############################################################################################################################################################################################################################################
-
-#  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/TW.txt"          #源采集地址
-r = requests.get(url)
-open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
-#keywords = ['http', 'rtmp']  # 需要提取的关键字列表 8M1080
-#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
-with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    a.write('\n港澳频道/随时失效,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          a.write(line)  # 将该行写入输出文件
-for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("﻿Taiwan,#genre#", "")                         #编辑替换字
-    line = line.replace("﻿amc", "AMC")                         #编辑替换字
-    line = line.replace("﻿中文台", "中文")                         #编辑替换字
-    print(line, end="")                                     #加入此行去掉多余的转行符
-
-
-
-
-###########################################################################################################################################################################
-#  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/%E9%BB%91%E9%BE%99%E6%B1%9F.txt"          #源采集地址
-r = requests.get(url)
-open('黑龙江.txt','wb').write(r.content)         #打开源文件并临时写入
-keywords = ['地波1080', 'live', 'hls']  # 需要提取的关键字列表 8M1080
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('黑龙江.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:
-    d.write('\n湖北频道/固定源,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          d.write(line)  # 将该行写入输出文件
-            
-for line in fileinput.input("d.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("[1920*1080]", "")                         #编辑替换字
-    line = line.replace("[1280*720]", "")                         #编辑替换字
-    print(line, end="")                                     #加入此行去掉多余的转行符
-
-
-###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "a.txt", "d.txt", "c.txt", "e.txt", "ws.txt", "ys.txt", "DD.txt", "df.txt"]  # 替换为实际的文件路径列表
+file_paths = ["c.txt", "e.txt", "ws.txt", "DD.txt", "ys.txt", "df.txt", "xs.txt", "qt.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -440,16 +399,19 @@ for file_path in file_paths:
         content = file.read()
         file_contents.append(content)
 ###########################################################################################################################################################################
+
+
+
 # 写入合并后的文件
-with open("结果.txt", "w", encoding="utf-8") as output:
+with open("组播合并.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+for line in fileinput.input("组播合并.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
     line = line.replace("固定源", "固定")   
     line = line.replace("更新", "")             
     line = line.replace("港澳频道/", "港澳/")    
     print(line, end="")  #设置end=""，避免输出多余的换行符   
-for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
+for line in fileinput.input("组播合并.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
     line = line.replace("固定", "随时失效")  
     line = line.replace("频道", "")  
     line = line.replace("地波1080", "地波")  
@@ -457,39 +419,22 @@ for line in fileinput.input("结果.txt", inplace=True):  #打开文件，并对
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 
 
+#########原始顺序去重，以避免同一个频道出现在不同的类中
+with open('组播合并.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+# 将唯一的行写入新的文档 
+with open('组播合并.txt', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+#####################
 
-###########################################################################################################################################################################
-def txt_to_m3u(input_file, output_file):
-    # 读取txt文件内容
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-
-    # 打开m3u文件并写入内容
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
-
-        # 初始化genre变量
-        genre = ''
-
-        # 遍历txt文件内容
-        for line in lines:
-            line = line.strip()
-            if "," in line:  # 防止文件里面缺失“,”号报错
-                # if line:
-                # 检查是否是genre行
-                channel_name, channel_url = line.split(',', 1)
-                if channel_url == '#genre#':
-                    genre = channel_name
-                    print(genre)
-                else:
-                    # 将频道信息写入m3u文件
-                    f.write(f'#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
-                    f.write(f'{channel_url}\n')
-
-
-# 将txt文件转换为m3u文件
-txt_to_m3u('结果.txt', '结果.m3u')
-txt_to_m3u('酒店源.txt', '酒店源.m3u')
 
 
 
@@ -499,17 +444,13 @@ txt_to_m3u('酒店源.txt', '酒店源.m3u')
 #任务结束，删除不必要的过程文件###########################################################################################################################
 os.remove("GAT.txt")
 os.remove("ws.txt")
+os.remove("DD.txt")
 os.remove("df.txt")
 os.remove("ys.txt")
-os.remove("DD.txt")
-os.remove("TW.txt")
-os.remove("a.txt")
-os.remove("b.txt")
+os.remove("xs.txt")
+os.remove("qt.txt")
 os.remove("c.txt")
-os.remove("d.txt")
 os.remove("e.txt")
-#os.remove("酒店源.txt")
-os.remove("黑龙江.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
