@@ -324,13 +324,13 @@ for line in fileinput.input("ys.txt", inplace=True):  #打开文件，并对其�
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '天津', '河北', '石家庄', '珠海', '广州']  # 需要提取的关键字列表
+keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '天津', '广州', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n省市频道,#genre#\n')
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
 for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
@@ -344,7 +344,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
     xs.write('\n地方频道,#genre#\n')
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           xs.write(line)  # 将该行写入输出文件
 for line in fileinput.input("xs.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
@@ -479,21 +479,6 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     print(line, end="")   
 
 
-#########原始顺序去重，以避免同一个频道出现在不同的类中
-with open('结果.txt', 'r', encoding="utf-8") as file:
- lines = file.readlines()
-# 使用列表来存储唯一的行的顺序 
- unique_lines = [] 
- seen_lines = set() 
-# 遍历每一行，如果是新的就加入unique_lines 
-for line in lines:
- if line not in seen_lines:
-  unique_lines.append(line)
-  seen_lines.add(line)
-# 将唯一的行写入新的文档 
-with open('结果.txt', 'w', encoding="utf-8") as file:
- file.writelines(unique_lines)
-#####################
 
 
 
