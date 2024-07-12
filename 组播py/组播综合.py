@@ -11,9 +11,8 @@ import os
 import threading
 from queue import Queue
 from datetime import datetime
-import 替换
 import fileinput
-
+import replac
 
 # 合并自定义频道文件#################################################################################################
 file_contents = []
