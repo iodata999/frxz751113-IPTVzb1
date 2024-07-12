@@ -449,11 +449,13 @@ os.remove("c.txt")
 os.remove("e.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
-os.remove("四川电信.txt")
-os.remove("天津联通.txt")
-os.remove("安徽电信.txt")
-os.remove("广东电信.txt")
-os.remove("江苏电信.txt")
-os.remove("湖北电信.txt")
-os.remove("湖南电信.txt")
+
+
+file_path = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖南电信.txt", "河北电信.txt", "安徽电信.txt"] 
+if os.path.exists(file_path):
+    os.remove(file_path)
+    print("文件已成功删除")
+else:
+    print("文件不存在")
+
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
