@@ -41,9 +41,6 @@ jobs:
         
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/#采集.py
-      - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播综合.py
-         
       - name: Commit results
         run: |
             git config --local user.email "actions@github.com"
