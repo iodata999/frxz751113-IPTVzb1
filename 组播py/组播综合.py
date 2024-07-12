@@ -413,13 +413,6 @@ for line in fileinput.input("组播合并.txt", inplace=True):  #打开文件，
     line = line.replace("更新", "")             
     line = line.replace("港澳频道/", "港澳/")    
     print(line, end="")  #设置end=""，避免输出多余的换行符   
-for line in fileinput.input("组播合并.txt", inplace=True):  #打开文件，并对其进行关键词原地替换  
-    line = line.replace("固定", "随时失效")  
-    line = line.replace("频道", "")  
-    line = line.replace("地波1080", "地波")  
-    line = line.replace("自动", "自动更新")  
-    print(line, end="")  #设置end=""，避免输出多余的换行符   
-
 
 #########原始顺序去重，以避免同一个频道出现在不同的类中
 with open('组播合并.txt', 'r', encoding="utf-8") as file:
