@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: pip install FFprobe
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py
+        run: python ${{ github.workspace }}/组播py/#组播综合.py      #这里更改要运行的py
       
         
 
