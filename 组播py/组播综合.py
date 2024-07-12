@@ -452,7 +452,7 @@ os.remove("合并.txt")
 
 
 file_path = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖南电信.txt", "河北电信.txt", "安徽电信.txt"] 
-if os.path.exists(file_path):
+if os.PathLike (file_path):
     os.remove(file_path)
     print("文件已成功删除")
 else:
