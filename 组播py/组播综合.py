@@ -303,7 +303,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line:        
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
 
@@ -313,13 +313,13 @@ for line in fileinput.input("DD.txt", inplace=True):  #打开文件，并对其�
 
 
 ###############################################################################################################################################################################            
-keywords = ['热门剧场', '经典剧场', '抗战剧场', '谍战剧场', '军旅剧场', '华语影院', '影', '剧', '大片', '院线', '爱']  # 需要提取的关键字列表
+keywords = ['热门剧场', '经典剧场', '抗战剧场', '谍战剧场', '军旅剧场', '华语影院', '影', '剧', '淘', '爱']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
     ys.write('\n影视频道,#genre#\n')
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line:        
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           ys.write(line)  # 将该行写入输出文件
 
@@ -447,16 +447,4 @@ os.remove("xs.txt")
 os.remove("qt.txt")
 os.remove("c.txt")
 os.remove("e.txt")
-os.remove("排序.txt")
-os.remove("合并.txt")
-
-
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖南电信.txt", "河北电信.txt", "安徽电信.txt"] 
-for file_path in file_paths:
-    if os.path.exists(file_path):
-        os.remove(file_path)
-        print(f"文件 {file_path} 已成功删除")
-    else:
-        print(f"文件 {file_path} 不存在")
-
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
