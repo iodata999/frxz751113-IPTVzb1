@@ -243,7 +243,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,', '环绕']  # 需要提取的关键字列表
+keywords = ['CCTV1,', 'CCTV10,', 'CCTV11,', 'CCTV12,', 'CCTV13,', 'CCTV14,', 'CCTV15,', 'CCTV16,', 'CCTV164k,', 'CCTV17,', 'CCTV2,', 'CCTV3,', 'CCTV4,', 'CCTV5,', 'CCTV5+,', 'CCTV6,', 'CCTV7,', 'CCTV8,', 'CCTV9,', '环绕']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -303,6 +303,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
 
@@ -318,6 +319,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('ys.txt', 'w', encoding='utf-8') as ys:
     ys.write('\n影视频道,#genre#\n')
     for line in file:
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           ys.write(line)  # 将该行写入输出文件
 
@@ -328,12 +330,13 @@ for line in fileinput.input("ys.txt", inplace=True):  #打开文件，并对其�
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '河北', '石家庄', '珠海', '广州']  # 需要提取的关键字列表
+keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '天津', '河北', '石家庄', '珠海', '广州']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n省市频道,#genre#\n')
     for line in file:
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
 for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
@@ -347,6 +350,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
     xs.write('\n地方频道,#genre#\n')
     for line in file:
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           xs.write(line)  # 将该行写入输出文件
 for line in fileinput.input("xs.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
@@ -361,6 +365,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('排序.txt', 'r', encoding='utf-8') as file, open('qt.txt', 'w', encoding='utf-8') as qt:
     qt.write('\n其他频道,#genre#\n')
     for line in file:
+      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           qt.write(line)  # 将该行写入输出文件
 for line in fileinput.input("qt.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
