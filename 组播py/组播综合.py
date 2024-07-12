@@ -458,6 +458,5 @@ for file_path in file_paths:
         print(f"文件 {file_path} 已成功删除")
     else:
         print(f"文件 {file_path} 不存在")
-```
 
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
