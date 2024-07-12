@@ -35,6 +35,8 @@ jobs:
         run: pip install termcolor
       - name: Install dependencies
         run: pip install func_timeout
+      - name: Install dependencies
+        run: pip install replace
 
         
       - name: Run iptv
