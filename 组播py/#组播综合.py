@@ -417,7 +417,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "d.txt", "a.txt", "c.txt", "e.txt", "ys.txt", "df.txt", "xs.txt", "DD.txt"]  # 替换为实际的文件路径列表
+file_paths = ["b.txt", "d.txt", "a.txt", "c.txt", "e.txt", "DD.txt"， "ys.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -477,6 +477,26 @@ for line in fileinput.input("结果.txt", inplace=True):   #打开临时文件�
     line = line.replace("经济生活", "经济")  
     line = line.replace("频道1", "频道")  
     print(line, end="")   
+
+
+#########原始顺序去重，以避免同一个频道出现在不同的类中
+with open('结果.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+# 将唯一的行写入新的文档 
+with open('结果.txt', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+#####################
+
+
+
 ################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
 converter = OpenCC('t2s.json')#繁转简
