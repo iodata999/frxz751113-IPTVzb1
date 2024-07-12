@@ -166,7 +166,7 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
 
 
 
-#二次替换某些关键词为便于排序的自定义词####################################################################################################
+#二次替换某些关键词为便于合并的自定义词####################################################################################################
 for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     
     line = line.replace("CCTV10", "CCTW10")
@@ -203,20 +203,10 @@ for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
-#对替换完成的文本进行排序#####################################################################################################################
-
-with open('合并.txt', 'r', encoding='utf-8') as f:
-    lines = f.readlines()
-
-lines.sort()
-
-with open('排序.txt', 'w', encoding='UTF-8') as f:
-    for line in lines:
-        f.write(line)
 
 
 #再次替换自定义词为常规词##########################################################################################################################
-for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("合并.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTW10", "CCTV10")
     line = line.replace("CCTW11", "CCTV11")
     line = line.replace("CCTW12", "CCTV12")
@@ -250,7 +240,7 @@ for line in fileinput.input("排序.txt", inplace=True):  #打开文件，并对
 keywords = ['环绕']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
+with open('合并.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
     c.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -272,7 +262,7 @@ for line in fileinput.input("c.txt", inplace=True):  #打开文件，并对其�
 keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
+with open('合并.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
     e.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if '环绕' not in line:
@@ -295,7 +285,7 @@ for line in fileinput.input("e.txt", inplace=True):  #打开文件，并对其�
 keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
+with open('合并.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
       if '环绕' not in line:
@@ -313,7 +303,7 @@ for line in fileinput.input("DD.txt", inplace=True):  #打开文件，并对其�
 keywords = ['湖南', '广东', '武汉', '湖北', '安徽', '天津', '广州', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
+with open('合并.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n省市频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
@@ -327,7 +317,7 @@ for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其�
 keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '经济']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('排序.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
+with open('合并.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
     xs.write('\n地方频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
@@ -530,7 +520,7 @@ os.remove("e.txt")
 os.remove("d.txt")
 os.remove("df.txt")
 os.remove("xs.txt")
-os.remove("排序.txt")
+os.remove("合并.txt")
 os.remove("合并.txt")
 os.remove("四川电信.txt")
 os.remove("广东电信.txt")
