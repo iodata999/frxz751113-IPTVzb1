@@ -478,7 +478,6 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('结果.txt', '结果.m3u')
-txt_to_m3u('酒店源.txt', '酒店源.m3u')
 
 
 
@@ -494,6 +493,8 @@ os.remove("b.txt")
 os.remove("c.txt")
 os.remove("e.txt")
 os.remove("d.txt")
+os.remove("酒店源.txt")
+os.remove("光迅源.txt")
 os.remove("排序.txt")
 os.remove("合并.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内结果.txt文件！")
