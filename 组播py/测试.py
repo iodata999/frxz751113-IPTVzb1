@@ -248,33 +248,21 @@ import replace
 import fileinput
 from opencc import OpenCC
 # 合并自定义频道文件#################################################################################################
-#file_contents = []
-#file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
-
-
-
-def open_files(file_list):
-    opened_files = []
-    for file in file_list:
-        if os.path.exists(file):
-            opened_files.append(open(file, 'r'))
-        else:
-            print(f"文件 {file} 不存在，跳过")
-    return opened_files
-
-file_list = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]
-opened_files = open_files(file_list)
-
-for file in opened_files:
-    content = file.read()
-    print(content)
-    file.close()
-    file_contents.append(content)
+file_contents = []
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+for file_path in file_paths:
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding="utf-8") as file:
+            content = file.read()
+            file_contents.append(content)
+    else:
+        print(f"文件 {file_path} 不存在，跳过")
 
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-    
+    output.write('
+'.join(file_contents))
+
 
 
 #替换多余的关键字词###################################################################################################
