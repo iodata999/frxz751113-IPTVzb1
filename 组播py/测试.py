@@ -880,10 +880,17 @@ os.remove("e1.txt")
 os.remove("d.txt")
 os.remove("xs.txt")
 os.remove("df.txt")
-os.remove("临时组播.txt")
-os.remove("湖南电信.txt")
-os.remove("四川电信.txt")
-os.remove("广东电信.txt")
-os.remove("天津联通.txt")
-os.remove("河北电信.txt")
+
+
+
+files_to_remove = ["临时组播.txt", "湖南电信.txt", "四川电信.txt", "广东电信.txt"， "天津联通.txt", "河北电信.txt"]
+
+for file in files_to_remove:
+    if os.path.exists(file):
+        os.remove(file)
+    else:
+        print(f"文件 {file} 不存在，跳过删除。")
+
+print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
+
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
