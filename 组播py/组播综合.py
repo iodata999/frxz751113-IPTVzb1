@@ -26,8 +26,7 @@ from urllib.parse import urlparse
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    "https://fofa.info/result?qbase64=IlpIR1hUViI%3D",
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
@@ -512,18 +511,7 @@ os.remove("hn.txt")
 
 
 
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
+
 
 #  获取远程港澳台直播源文件
 url = "https://raw.gitcode.com/frxz751113/1/raw/main/IPTV/ott移动v4.txt"          #源采集地址
@@ -557,13 +545,13 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSLmuZbljZci",#湖南
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSLmuZbljZci",#湖南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
     modified_urls = []
