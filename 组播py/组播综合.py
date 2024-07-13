@@ -249,16 +249,19 @@ import fileinput
 from opencc import OpenCC
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
+    if os.path.exists(file_path):
+        with open(file_path, 'r', encoding="utf-8") as file:
+            content = file.read()
+            file_contents.append(content)
+    else:
+        print(f"文件 {file_path} 不存在，跳过")
 
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-    
+
 
 
 #替换多余的关键字词###################################################################################################
@@ -548,6 +551,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
     c1.write('央视系列,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
+      if '环绕' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 for line in fileinput.input("c1.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
@@ -782,7 +786,7 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["c1.txt", "e.txt", "e1.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
+file_paths = ["c1.txt", "c.txt", "e.txt", "e1.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -876,5 +880,17 @@ os.remove("e1.txt")
 os.remove("d.txt")
 os.remove("xs.txt")
 os.remove("df.txt")
-os.remove("临时组播.txt")
+
+
+
+files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt']
+
+for file in files_to_remove:
+    if os.path.exists(file):
+        os.remove(file)
+    else:
+        print(f"文件 {file} 不存在，跳过删除。")
+
+print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
+
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
