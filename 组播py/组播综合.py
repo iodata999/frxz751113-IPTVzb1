@@ -250,7 +250,7 @@ from opencc import OpenCC
 # 合并自定义频道文件#################################################################################################
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -305,9 +305,19 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
     
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
-    line = line.replace("CCTV风云剧场", "风云剧场")
+    line = line.replace("CCTV台", "台")
     line = line.replace("CCTV第一剧场", "第一剧场")
     line = line.replace("CCTV怀旧剧场", "怀旧剧场")
+    line = line.replace("CCTV高", "高")
+    line = line.replace("CCTV怀旧剧场", "怀旧剧场")
+    line = line.replace("CCTV世界地理", "世界地理")
+    line = line.replace("CCTV文化精品", "文化精品")
+    line = line.replace("CCTV风", "风")
+    line = line.replace("CCTV第一剧场", "第一剧场")
+    line = line.replace("CCTV电", "电")
+    line = line.replace("CCTV央", "央")
+    line = line.replace("CCTV兵", "兵")
+    line = line.replace("CCTV女性时尚", "女性时尚")
     line = line.replace("IPTV", "")
     line = line.replace("PLUS", "+")
     line = line.replace("＋", "+")
@@ -796,7 +806,7 @@ for file_path in file_paths:
 # 写入合并后的文件
 with open("组播源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
-for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
+for line in fileinput.input("组播源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("高质组播", "央视系列")    
     print(line, end="")   
 
@@ -872,11 +882,13 @@ os.remove("天津联通.txt")
 os.remove("江苏电信.txt")
 os.remove("湖北电信.txt")
 os.remove("安徽电信.txt")
+os.remove("湖南电信.txt")
 os.remove("河北电信.txt")
 os.remove("四川电信.m3u")
 os.remove("广东电信.m3u")
 os.remove("天津联通.m3u")
 os.remove("江苏电信.m3u")
+os.remove("湖南电信.m3u")
 os.remove("湖北电信.m3u")
 os.remove("河北电信.m3u")
 os.remove("安徽电信.m3u")
