@@ -191,6 +191,7 @@ for keyword in keywords:
                         name1 = name1.replace("Español", "西语")
                         name1 = name1.replace("العربية", "阿语")
                         name1 = name1.replace("NewTv", "")
+                        name1 = name1.replace("CCTVCCTV", "CCTV")
                         name1 = name1.replace("CCTV兵器科技", "兵器科技")
                         name1 = name1.replace("CCTV怀旧剧场", "怀旧剧场")
                         name1 = name1.replace("CCTV世界地理", "世界地理")
@@ -284,26 +285,7 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
     line = line.replace("熊猫影院", "熊猫电影")
     line = line.replace("熊猫爱生活", "熊猫生活")
     line = line.replace("爱宠宠物", "宠物生活")
-    
-    line = line.replace("CCTV10", "CCTW10")
-    line = line.replace("CCTV11", "CCTW11")
-    line = line.replace("CCTV12", "CCTW12")
-    line = line.replace("CCTV13", "CCTW13")
-    line = line.replace("CCTV14", "CCTW14")
-    line = line.replace("CCTV15", "CCTW15")
-    line = line.replace("CCTV16", "CCTW16")
-    line = line.replace("CCTV17", "CCTW17")
-    #需要排在前面的频道
-    line = line.replace("湖南卫视", "一一湖南卫视")
-    line = line.replace("湖北卫视", "一一湖北卫视")
-    line = line.replace("江苏卫视", "一江苏卫视")
-    line = line.replace("安徽卫视", "一安徽卫视")
-    line = line.replace("第一", "一第一")
-    line = line.replace("风云", "一风云")
-    line = line.replace("都市", "一都市")
-    line = line.replace("谍战", "一谍战")
-    line = line.replace("热门", "一热门")
-    
+    line = line.replace("CCTVCCTV", "CCTV")
     
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
@@ -414,25 +396,6 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
 
 #二次替换某些关键词为便于合并的自定义词####################################################################################################
 for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
-    
-    line = line.replace("CCTV10", "CCTW10")
-    line = line.replace("CCTV11", "CCTW11")
-    line = line.replace("CCTV12", "CCTW12")
-    line = line.replace("CCTV13", "CCTW13")
-    line = line.replace("CCTV14", "CCTW14")
-    line = line.replace("CCTV15", "CCTW15")
-    line = line.replace("CCTV16", "CCTW16")
-    line = line.replace("CCTV17", "CCTW17")
-    #需要排在前面的频道
-    line = line.replace("湖南卫视", "一一湖南卫视")
-    line = line.replace("湖北卫视", "一一湖北卫视")
-    line = line.replace("江苏卫视", "一江苏卫视")
-    line = line.replace("安徽卫视", "一安徽卫视")
-    line = line.replace("第一", "一第一")
-    line = line.replace("风云", "一风云")
-    line = line.replace("都市", "一都市")
-    line = line.replace("谍战", "一谍战")
-    line = line.replace("热门", "一热门")
     line = line.replace("专区", "")
     line = line.replace("卫视超", "卫视")
     line = line.replace("IPTV", "")
@@ -453,15 +416,6 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
 
 #再次替换自定义词为常规词##########################################################################################################################
 for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("CCTW10", "CCTV10")
-    line = line.replace("CCTW11", "CCTV11")
-    line = line.replace("CCTW12", "CCTV12")
-    line = line.replace("CCTW13", "CCTV13")
-    line = line.replace("CCTW14", "CCTV14")
-    line = line.replace("CCTW15", "CCTV15")
-    line = line.replace("CCTW16", "CCTV16")
-    line = line.replace("CCTW17", "CCTV17")
-    line = line.replace("DCTW4K", "CCTV4K")
     line = line.replace("CCTV4K测试）", "CCTV4")
     line = line.replace("CCTV164K", "CCTV16 4K")
     line = line.replace("CCTV54K", "CCTV5 4K")
@@ -469,7 +423,6 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
     line = line.replace("CCTV4K", "CCTV 4K")
     line = line.replace("卫视台", "卫视")
     line = line.replace("iHOT", "")
-    line = line.replace("一一", "")
     line = line.replace("CHC电影", "CHC高清电影")
     line = line.replace("影视剧", "影视")
     line = line.replace("电视剧", "影视")
@@ -504,22 +457,6 @@ sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_numbe
 with open("临时组播.txt", "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -574,7 +511,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
     e.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if '环绕' not in line:
+      if '环绕' not in line and 'CCTV' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 for line in fileinput.input("e.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
