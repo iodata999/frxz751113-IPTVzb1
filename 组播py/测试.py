@@ -267,6 +267,8 @@ opened_files = open_files(file_list)
 
 for file in opened_files:
     content = file.read()
+    print(content)
+    file.close()
     file_contents.append(content)
 
 # 写入合并后的文件
