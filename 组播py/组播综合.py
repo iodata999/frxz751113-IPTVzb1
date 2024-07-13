@@ -119,12 +119,12 @@ for keyword in keywords:
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
                 txt_filename = f'{province}{isp}.txt'
-                with open(RTP/txt_filename, 'w') as new_file:
+                with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("rtp://", f"{url}/rtp/")
                         new_file.write(new_data)
 
-                print(f'已生成播放列表，保存至{RTP/txt_filename}')
+                print(f'已生成播放列表，保存至{txt_filename}')
                 group_title = ""
                 group_cctv = ["CCTV1", "CCTV2", "CCTV3", "CCTV4", "CCTV5", "CCTV5+", "CCTV6", "CCTV7", "CCTV8", "CCTV9", "CCTV10", "CCTV11", "CCTV12", "CCTV13", "CCTV14", "CCTV15", "CCTV16", "CCTV17", "CCTV4K", "CCTV8K", "CGTN英语", "CGTN记录", "CGTN俄语", "CGTN法语", "CGTN西语", "CGTN阿语"]
                 group_shuzi = ["CHC动作电影", "CHC家庭影院", "CHC高清电影", "重温经典", "第一剧场", "风云剧场", "怀旧剧场", "世界地理", "发现之旅", "求索纪录", "兵器科技", "风云音乐", "文化精品", "央视台球", "高尔夫网球", "风云足球", "女性时尚", "电视指南", "中视购物", "中学生", "卫生健康", "央广购物", "家有购物", "老故事", "书画", "中国天气", "收藏天下", "国学频道", "快乐垂钓", "先锋乒羽", "风尚购物", "财富天下", "天元围棋", "摄影频道", "新动漫", "证券服务", "梨园", "置业", "家庭理财", "茶友"]
@@ -132,7 +132,7 @@ for keyword in keywords:
                 group_weishi = ["北京卫视", "湖南卫视", "东方卫视", "四川卫视", "天津卫视", "安徽卫视", "山东卫视", "广东卫视", "广西卫视", "江苏卫视", "江西卫视", "河北卫视", "河南卫视", "浙江卫视", "海南卫视", "深圳卫视", "湖北卫视", "山西卫视", "东南卫视", "贵州卫视", "辽宁卫视", "重庆卫视", "黑龙江卫视", "内蒙古卫视", "宁夏卫视", "陕西卫视", "甘肃卫视", "吉林卫视", "云南卫视", "三沙卫视", "青海卫视", "新疆卫视", "西藏卫视", "兵团卫视", "延边卫视", "大湾区卫视", "安多卫视", "厦门卫视", "农林卫视", "康巴卫视", "优漫卡通", "哈哈炫动", "嘉佳卡通"]
 
                 #生成m3u
-                with open(RTP/txt_filename, 'r') as input_file:
+                with open(txt_filename, 'r') as input_file:
                     lines = input_file.readlines()
                 #删除空白行
                     lines = [line for line in lines if line.count(',') == 1]
@@ -876,12 +876,4 @@ os.remove("e1.txt")
 os.remove("d.txt")
 os.remove("df.txt")
 os.remove("临时组播.txt")
-os.remove("四川电信.m3u")
-os.remove("广东电信.m3u")
-os.remove("天津联通.m3u")
-os.remove("江苏电信.m3u")
-os.remove("湖南电信.m3u")
-os.remove("湖北电信.m3u")
-os.remove("河北电信.m3u")
-os.remove("安徽电信.m3u")
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
