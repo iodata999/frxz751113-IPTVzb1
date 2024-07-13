@@ -7,7 +7,7 @@ import datetime
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-
+import fileinput
 # 获取rtp目录下的文件名
 files = os.listdir('rtp')
 
