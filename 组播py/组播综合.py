@@ -250,7 +250,7 @@ from opencc import OpenCC
 # 合并自定义频道文件#################################################################################################
 # 合并自定义频道文件#################################################################################################
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "河北电信.txt", "湖南电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -873,13 +873,11 @@ os.remove("江苏电信.txt")
 os.remove("湖北电信.txt")
 os.remove("安徽电信.txt")
 os.remove("河北电信.txt")
-os.remove("湖南电信.txt")
 os.remove("四川电信.m3u")
 os.remove("广东电信.m3u")
 os.remove("天津联通.m3u")
 os.remove("江苏电信.m3u")
 os.remove("湖北电信.m3u")
 os.remove("河北电信.m3u")
-os.remove("湖南电信.m3u")
 os.remove("安徽电信.m3u")
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
