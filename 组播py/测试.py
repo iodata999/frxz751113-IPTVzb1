@@ -883,7 +883,7 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt'， '天津联通.txt', '河北电信.txt']
+files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt']
 
 for file in files_to_remove:
     if os.path.exists(file):
