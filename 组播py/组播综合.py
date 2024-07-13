@@ -892,5 +892,3 @@ for file in files_to_remove:
         print(f"文件 {file} 不存在，跳过删除。")
 
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
-
-print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
