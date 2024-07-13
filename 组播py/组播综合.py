@@ -205,6 +205,14 @@ for file_path in file_paths:
 with open("临时组播.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("晴彩", "") 
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+
+
+
+
+
 ######################################################################################################################################
 from pypinyin import lazy_pinyin
 # 打开一个utf-8编码的文本文件
