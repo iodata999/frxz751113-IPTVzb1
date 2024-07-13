@@ -256,13 +256,13 @@ for file_path in file_paths:
         file_contents.append(content)
 
 # 写入合并后的文件
-with open("临时组播1.txt", "w", encoding="utf-8") as output:
+with open("临时组播.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
     
 
 
 #替换多余的关键字词###################################################################################################
-for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTV-1高清测试", "")
     line = line.replace("CCTV-2高清测试", "")
     line = line.replace("CCTV-7高清测试", "")
@@ -410,7 +410,7 @@ for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件�
 
 
 #二次替换某些关键词为便于合并的自定义词####################################################################################################
-for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
     
     line = line.replace("CCTV10", "CCTW10")
     line = line.replace("CCTV11", "CCTW11")
@@ -449,7 +449,7 @@ for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件�
 
 
 #再次替换自定义词为常规词##########################################################################################################################
-for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件，并对其进行原地替换
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
     line = line.replace("CCTW10", "CCTV10")
     line = line.replace("CCTW11", "CCTV11")
     line = line.replace("CCTW12", "CCTV12")
@@ -485,7 +485,7 @@ for line in fileinput.input("临时组播1.txt", inplace=True):  #打开文件�
 from pypinyin import lazy_pinyin
 
 # 打开一个utf-8编码的文本文件
-with open("临时组播1.txt", "r", encoding="utf-8") as file:
+with open("临时组播.txt", "r", encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
 
@@ -628,7 +628,7 @@ for line in fileinput.input("DD.txt", inplace=True):  #打开文件，并对其�
 keywords = ['湖南', '广东', '天津', '广州', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播1.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
+with open('临时组播.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n省市频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
@@ -642,7 +642,7 @@ for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其�
 keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '经济']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播1.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
+with open('临时组播.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
     xs.write('\n地方频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
@@ -877,5 +877,4 @@ os.remove("d.txt")
 os.remove("xs.txt")
 os.remove("df.txt")
 os.remove("临时组播.txt")
-os.remove("临时组播1.txt")
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
