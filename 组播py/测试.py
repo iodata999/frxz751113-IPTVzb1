@@ -145,65 +145,8 @@ for keyword in keywords:
                         name1 = parts[0]
                         uppercase_name1 = name1.upper()
                         name1 = uppercase_name1
-                        name1 = name1.replace("中央", "CCTV")
-                        name1 = name1.replace("高清", "")
-                        name1 = name1.replace("HD", "")
-                        name1 = name1.replace("标清", "")
-                        name1 = name1.replace("频道", "")
                         name1 = name1.replace("-", "")
                         name1 = name1.replace("_", "")
-                        name1 = name1.replace(" ", "")
-                        name1 = name1.replace("PLUS", "+")
-                        name1 = name1.replace("＋", "+")
-                        name1 = name1.replace("(", "")
-                        name1 = name1.replace(")", "")
-                        name1 = name1.replace("CCTV1综合", "CCTV1")
-                        name1 = name1.replace("CCTV2财经", "CCTV2")
-                        name1 = name1.replace("CCTV3综艺", "CCTV3")
-                        name1 = name1.replace("CCTV4国际", "CCTV4")
-                        name1 = name1.replace("CCTV4中文国际", "CCTV4")
-                        name1 = name1.replace("CCTV5体育", "CCTV5")
-                        name1 = name1.replace("CCTV6电影", "CCTV6")
-                        name1 = name1.replace("CCTV7军事", "CCTV7")
-                        name1 = name1.replace("CCTV7军农", "CCTV7")
-                        name1 = name1.replace("CCTV7国防军事", "CCTV7")
-                        name1 = name1.replace("CCTV8电视剧", "CCTV8")
-                        name1 = name1.replace("CCTV9记录", "CCTV9")
-                        name1 = name1.replace("CCTV9纪录", "CCTV9")
-                        name1 = name1.replace("CCTV10科教", "CCTV10")
-                        name1 = name1.replace("CCTV11戏曲", "CCTV11")
-                        name1 = name1.replace("CCTV12社会与法", "CCTV12")
-                        name1 = name1.replace("CCTV13新闻", "CCTV13")
-                        name1 = name1.replace("CCTV新闻", "CCTV13")
-                        name1 = name1.replace("CCTV14少儿", "CCTV14")
-                        name1 = name1.replace("CCTV15音乐", "CCTV15")
-                        name1 = name1.replace("CCTV16奥林匹克", "CCTV16")
-                        name1 = name1.replace("CCTV17农业农村", "CCTV17")
-                        name1 = name1.replace("CCTV5+体育赛视", "CCTV5+")
-                        name1 = name1.replace("CCTV5+体育赛事", "CCTV5+")
-                        name1 = name1.replace("综合教育", "")
-                        name1 = name1.replace("空中课堂", "")
-                        name1 = name1.replace("教育服务", "")
-                        name1 = name1.replace("职业教育", "")
-                        name1 = name1.replace("Documentary", "记录")
-                        name1 = name1.replace("Français", "法语")
-                        name1 = name1.replace("Русский", "俄语")
-                        name1 = name1.replace("Español", "西语")
-                        name1 = name1.replace("العربية", "阿语")
-                        name1 = name1.replace("NewTv", "")
-                        name1 = name1.replace("CCTVCCTV", "CCTV")
-                        name1 = name1.replace("CCTV兵器科技", "兵器科技")
-                        name1 = name1.replace("CCTV怀旧剧场", "怀旧剧场")
-                        name1 = name1.replace("CCTV世界地理", "世界地理")
-                        name1 = name1.replace("CCTV文化精品", "文化精品")
-                        name1 = name1.replace("CCTV央视台球", "央视台球")
-                        name1 = name1.replace("CCTV央视高网", "央视高网")
-                        name1 = name1.replace("CCTV风云剧场", "风云剧场")
-                        name1 = name1.replace("CCTV第一剧场", "第一剧场")
-                        name1 = name1.replace("CCTV风云足球", "风云足球")
-                        name1 = name1.replace("CCTV电视指南", "电视指南")
-                        name1 = name1.replace("CCTV风云音乐", "风云音乐")
-                        name1 = name1.replace("CCTV女性时尚", "女性时尚")
                         name1 = name1.replace("CHC电影", "CHC高清电影")
                         name2 = parts[0]
                         url = parts[1]
@@ -235,6 +178,7 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 print('节目表制作完成！ 文件输出在当前文件夹！')
 
+# 合并自定义频道文件#################################################################################################
 import time
 import concurrent.futures
 from selenium import webdriver
@@ -248,7 +192,6 @@ from datetime import datetime
 import replace
 import fileinput
 from opencc import OpenCC
-# 合并自定义频道文件#################################################################################################
 file_contents = []
 file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
@@ -258,215 +201,28 @@ for file_path in file_paths:
             file_contents.append(content)
     else:
         print(f"文件 {file_path} 不存在，跳过")
-
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-
-
-#替换多余的关键字词###################################################################################################
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("CCTV-1高清测试", "")
-    line = line.replace("CCTV-2高清测试", "")
-    line = line.replace("CCTV-7高清测试", "")
-    line = line.replace("CCTV-10高清测试", "")
-    line = line.replace("中央", "CCTV")
-    line = line.replace("高清", "")
-    line = line.replace("HD", "")
-    line = line.replace("标清", "")
-    line = line.replace("超清", "")
-    line = line.replace("频道", "")
-    line = line.replace("-", "")
-    line = line.replace(" ", "")
-    line = line.replace("CCTVCCTV", "CCTV")
-    line = line.replace("CCTV风云剧场", "风云剧场")
-    line = line.replace("CCTV第一剧场", "第一剧场")
-    line = line.replace("CCTV怀旧剧场", "怀旧剧场")
-    line = line.replace("熊猫影院", "熊猫电影")
-    line = line.replace("熊猫爱生活", "熊猫生活")
-    line = line.replace("爱宠宠物", "宠物生活")
-    
-    line = line.replace("专区", "")
-    line = line.replace("卫视超", "卫视")
-    line = line.replace("CCTV台", "台")
-    line = line.replace("CCTV第一剧场", "第一剧场")
-    line = line.replace("CCTV怀旧剧场", "怀旧剧场")
-    line = line.replace("CCTV高", "高")
-    line = line.replace("CCTV怀旧剧场", "怀旧剧场")
-    line = line.replace("CCTV世界地理", "世界地理")
-    line = line.replace("CCTV文化精品", "文化精品")
-    line = line.replace("CCTV风", "风")
-    line = line.replace("CCTV第一剧场", "第一剧场")
-    line = line.replace("CCTV电", "电")
-    line = line.replace("CCTV央", "央")
-    line = line.replace("CCTV世", "世")
-    line = line.replace("CCTV风云", "风云")
-    line = line.replace("CCTV兵", "兵")
-    line = line.replace("CCTV女性时尚", "女性时尚")
-    line = line.replace("IPTV", "")
-    line = line.replace("PLUS", "+")
-    line = line.replace("＋", "+")
-    line = line.replace("(", "")
-    line = line.replace(")", "")
-    line = line.replace("CAV", "")
-    line = line.replace("美洲", "")
-    line = line.replace("北美", "")
-    line = line.replace("12M", "")
-    line = line.replace("高清测试(CCTV-1", "")
-    line = line.replace("高清测试(CCTV-2", "")
-    line = line.replace("高清测试(CCTV-7", "")
-    line = line.replace("高清测试(CCTV-10", "")
-    line = line.replace("LD", "")
-    line = line.replace("HEVC20M", "")
-    line = line.replace("S,", ",")
-    line = line.replace("测试", "")
-    line = line.replace("试看", "")
-    line = line.replace("测试", "")
-    line = line.replace("测试cctv", "CCTV")
-    line = line.replace("CCTV1综合", "CCTV1")
-    line = line.replace("CCTV2财经", "CCTV2")
-    line = line.replace("CCTV3综艺", "CCTV3")
-    line = line.replace("CCTV4国际", "CCTV4")
-    line = line.replace("CCTV4中文国际", "CCTV4")
-    line = line.replace("CCTV4欧洲", "CCTV4")
-    line = line.replace("CCTV5体育", "CCTV5")
-    line = line.replace("CCTV5+体育", "CCTV5+")
-    line = line.replace("CCTV6电影", "CCTV6")
-    line = line.replace("CCTV7军事", "CCTV7")
-    line = line.replace("CCTV7军农", "CCTV7")
-    line = line.replace("CCTV7农业", "CCTV7")
-    line = line.replace("CCTV7国防军事", "CCTV7")
-    line = line.replace("CCTV8电视剧", "CCTV8")
-    line = line.replace("CCTV8纪录", "CCTV9")
-    line = line.replace("CCTV9记录", "CCTV9")
-    line = line.replace("CCTV9纪录", "CCTV9")
-    line = line.replace("CCTV10科教", "CCTV10")
-    line = line.replace("CCTV11戏曲", "CCTV11")
-    line = line.replace("CCTV12社会与法", "CCTV12")
-    line = line.replace("CCTV13新闻", "CCTV13")
-    line = line.replace("CCTV新闻", "CCTV13")
-    line = line.replace("CCTV14少儿", "CCTV14")
-    line = line.replace("央视14少儿", "CCTV14")
-    line = line.replace("CCTV少儿超", "CCTV14")
-    line = line.replace("CCTV15音乐", "CCTV15")
-    line = line.replace("CCTV音乐", "CCTV15")
-    line = line.replace("CCTV16奥林匹克", "CCTV16")
-    line = line.replace("CCTV17农业农村", "CCTV17")
-    line = line.replace("CCTV17军农", "CCTV17")
-    line = line.replace("CCTV17农业", "CCTV17")
-    line = line.replace("CCTV5+体育赛视", "CCTV5+")
-    line = line.replace("CCTV5+赛视", "CCTV5+")
-    line = line.replace("CCTV5+体育赛事", "CCTV5+")
-    line = line.replace("CCTV5+赛事", "CCTV5+")
-    line = line.replace("CCTV5+体育", "CCTV5+")
-    line = line.replace("CCTV5赛事", "CCTV5+")
-    line = line.replace("凤凰中文台", "凤凰中文")
-    line = line.replace("凤凰资讯台", "凤凰资讯")
-    line = line.replace("CCTV4K测试）", "CCTV4K")
-    line = line.replace("上海东方卫视", "上海卫视")
-    line = line.replace("东方卫视", "上海卫视")
-    line = line.replace("内蒙卫视", "内蒙古卫视")
-    line = line.replace("福建东南卫视", "东南卫视")
-    line = line.replace("广东南方卫视", "南方卫视")
-    line = line.replace("湖南金鹰卡通", "金鹰卡通")
-    line = line.replace("炫动卡通", "哈哈炫动")
-    line = line.replace("卡酷卡通", "卡酷少儿")
-    line = line.replace("卡酷动画", "卡酷少儿")
-    line = line.replace("BRTVKAKU少儿", "卡酷少儿")
-    line = line.replace("优曼卡通", "优漫卡通")
-    line = line.replace("优曼卡通", "优漫卡通")
-    line = line.replace("嘉佳卡通", "佳嘉卡通")
-    line = line.replace("CCTV世界地理", "世界地理")                   ###########
-    line = line.replace("CCTV地理世界", "世界地理")                                           
-    line = line.replace("BTV北京卫视", "北京卫视")
-    line = line.replace("BTV冬奥纪实", "冬奥纪实")
-    line = line.replace("东奥纪实", "冬奥纪实")
-    line = line.replace("卫视台", "卫视")
-    line = line.replace("湖南电视台", "湖南卫视")
-    line = line.replace("少儿科教", "少儿")
-    line = line.replace("影视剧", "影视")
-    line = line.replace("电视剧", "影视")
-    line = line.replace("CCTV1CCTV1", "CCTV1")
-    line = line.replace("CCTV2CCTV2", "CCTV2")
-    line = line.replace("CCTV7CCTV7", "CCTV7")
-    line = line.replace("CCTV10CCTV10", "CCTV10")
-    print(line, end="")  #设置end=""，避免输出多余的换行符
-
-
-
-#二次替换某些关键词为便于合并的自定义词####################################################################################################
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("专区", "")
-    line = line.replace("卫视超", "卫视")
-    line = line.replace("IPTV", "")
-    line = line.replace("东奥纪实", "冬奥纪实")
-    line = line.replace("卫视台", "卫视")
-    line = line.replace("湖南电视台", "湖南卫视")
-    line = line.replace("少儿科教", "少儿")
-    line = line.replace("影视剧", "影视")
-    line = line.replace("电视剧", "影视")
-    line = line.replace("CCTV1CCTV1", "CCTV1")
-    line = line.replace("CCTV2CCTV2", "CCTV2")
-    line = line.replace("CCTV7CCTV7", "CCTV7")
-    line = line.replace("CCTV10CCTV10", "CCTV10")
-    print(line, end="")  #设置end=""，避免输出多余的换行符
-
-
-
-
-#再次替换自定义词为常规词##########################################################################################################################
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行原地替换
-    line = line.replace("CCTV4K测试）", "CCTV4")
-    line = line.replace("CCTV164K", "CCTV16 4K")
-    line = line.replace("CCTV54K", "CCTV5 4K")
-    line = line.replace("CCTV8K", "CCTV 8K")
-    line = line.replace("CCTV4K", "CCTV 4K")
-    line = line.replace("卫视台", "卫视")
-    line = line.replace("iHOT", "")
-    line = line.replace("CHC电影", "CHC高清电影")
-    line = line.replace("影视剧", "影视")
-    line = line.replace("电视剧", "影视")
-    line = line.replace("淮北教育", "安徽CCTV ")
-    line = line.replace("CCTV1CCTV1", "CCTV1")
-    line = line.replace("CCTV2CCTV2", "CCTV2")
-    line = line.replace("CCTV7CCTV7", "CCTV7")
-    line = line.replace("CCTV10CCTV10", "CCTV10")
-    line = line.replace("高清电影", "影迷电影")
-    print(line, end="")  #设置end=""，避免输出多余的换行符
-
-
-########################################
-
-
+######################################################################################################################################
 from pypinyin import lazy_pinyin
-
 # 打开一个utf-8编码的文本文件
 with open("临时组播.txt", "r", encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
-
 # 定义一个函数，用于提取每行的第一个数字
 def extract_first_number(line):
     match = re.search(r'\d+', line)
     return int(match.group()) if match else float('inf')
-
 # 对列表中的行进行排序，按照第一个数字的大小排列，其余行按中文排序
 sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
-
 # 将排序后的行写入新的utf-8编码的文本文件
 with open("临时组播.txt", "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                                ###########                                                      ###########
-    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
-    line = line.replace("科教", "")                                                                         ###########                                                      ###########
-    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
-    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
-    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("地理世界", "世界地理")                   ###########
-    line = line.replace("CCTV世界地理", "世界地理")                                                                                                                    ###########                                                      ###########
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换   
+    line = line.replace("地理世界", "世界地理")                                                                                                                    ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
@@ -480,18 +236,13 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w',
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-for line in fileinput.input("c.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
-    line = line.replace("科教", "")                                                                         ###########                                                      ###########
-    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
-    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
-    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("地理世界", "世界地理")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
+ 
 
-#从整理好的文本中按类别进行特定关键词提取#############################################################################################
+
+
+
+#################################################################################################################################
+#从整理好的文本中按类别进行特定关键词提取
 keywords = ['CCTV']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
@@ -501,21 +252,13 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w'
       if '环绕' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-for line in fileinput.input("c1.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
-    line = line.replace("科教", "")                                                                         ###########                                                      ###########
-    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
-    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
-    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("地理世界", "世界地理")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
 
 
-keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
+
+##########################################################################E#####################################################################################
+keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '剧', '影', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
@@ -524,18 +267,12 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w',
       if '环绕' not in line and 'CCTV' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-for line in fileinput.input("e.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
-    line = line.replace("科教", "")                                                                         ###########                                                      ###########
-    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
-    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
-    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("地理世界", "世界地理")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
-keywords = ['卫视']  # 需要提取的关键字列表
+
+
+
+################################################################################################################################################################################
+keywords = ['卫视', '星空', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
@@ -544,16 +281,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w'
       if '环绕' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          e1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-for line in fileinput.input("e1.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
-    line = line.replace("科教", "")                                                                         ###########                                                      ###########
-    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
-    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
-    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    line = line.replace("地理世界", "世界地理")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
+
 
 
 
@@ -568,11 +296,6 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w'
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
 
-for line in fileinput.input("DD.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符      
-
-
 
 
 ###############################################################################################################################################################################
@@ -585,9 +308,10 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w'
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           df.write(line)  # 将该行写入输出文件
-for line in fileinput.input("df.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符      
+
+
+
+
 
 ###############################################################################################################################################################################
 keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '经济']  # 需要提取的关键字列表
@@ -599,9 +323,8 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w'
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           xs.write(line)  # 将该行写入输出文件
-for line in fileinput.input("xs.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
-    line = line.replace("AA", "")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符      
+
+
 
 
 
@@ -760,6 +483,8 @@ with open("组播源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("组播源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("高质组播", "央视系列")    
+    line = line.replace("天津,", "天津IPTV,")    
+    line = line.replace("河北,", "河北少儿,")    
     print(line, end="")   
 
 
@@ -808,6 +533,7 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
+txt_to_m3u('组播源.txt', '组播源.m3u')
 
 
 
@@ -830,14 +556,12 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt']
+files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
 
 for file in files_to_remove:
     if os.path.exists(file):
         os.remove(file)
     else:
         print(f"文件 {file} 不存在，跳过删除。")
-
-print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
 
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
