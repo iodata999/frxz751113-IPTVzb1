@@ -810,6 +810,7 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
+txt_to_m3u('组播源.txt', '组播源.m3u')
 
 
 
