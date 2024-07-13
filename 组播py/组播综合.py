@@ -1,22 +1,12 @@
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
-from opencc import OpenCC
 import os
+import requests
 import re
 import base64
 import cv2
 import datetime
+from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
-import fileinput
 # 获取rtp目录下的文件名
 files = os.listdir('rtp')
 
@@ -244,7 +234,19 @@ for keyword in keywords:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 print('节目表制作完成！ 文件输出在当前文件夹！')
 
-
+import time
+import concurrent.futures
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import requests
+import re
+import os
+import threading
+from queue import Queue
+from datetime import datetime
+import replace
+import fileinput
+from opencc import OpenCC
 # 合并自定义频道文件#################################################################################################
 file_contents = []
 file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "江苏电信.txt", "湖北电信.txt", "河北电信.txt", "湖南电信.txt"]  # 替换为实际的文件路径列表
