@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: pip install pypinyin
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py
+        run: python ${{ github.workspace }}/组播py/测试.py      #这里更改要运行的py
       
         
 
