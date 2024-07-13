@@ -377,7 +377,8 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
     line = line.replace("优曼卡通", "优漫卡通")
     line = line.replace("优曼卡通", "优漫卡通")
     line = line.replace("嘉佳卡通", "佳嘉卡通")
-    line = line.replace("CCTV世界地理", "世界地理")
+    line = line.replace("CCTV世界地理", "世界地理")                   ###########
+    line = line.replace("CCTV地理世界", "世界地理")                                           
     line = line.replace("BTV北京卫视", "北京卫视")
     line = line.replace("BTV冬奥纪实", "冬奥纪实")
     line = line.replace("东奥纪实", "冬奥纪实")
@@ -457,7 +458,16 @@ sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_numbe
 with open("临时组播.txt", "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
-
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                                ###########                                                      ###########
+    line = line.replace("综合文艺", "")                                                                         ###########                                                      ###########
+    line = line.replace("科教", "")                                                                         ###########                                                      ###########
+    line = line.replace("社会与法", "")                                                                         ###########                                                      ###########
+    line = line.replace("新闻", "")                                                                         ###########                                                      ###########
+    line = line.replace("少儿", "")                                                                         ###########                                                      ###########
+    line = line.replace("AA", "")                                                                         ###########                                                      ###########
+    line = line.replace("地理世界", "世界地理")                   ###########
+    line = line.replace("CCTV世界地理", "世界地理")                                                                                                                    ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
 
