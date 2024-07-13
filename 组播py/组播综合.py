@@ -760,6 +760,8 @@ with open("组播源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("组播源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("高质组播", "央视系列")    
+    line = line.replace("天津,", "天津IPTV")    
+    line = line.replace("河北,", "河北少儿")    
     print(line, end="")   
 
 
@@ -830,7 +832,7 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt']
+files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
 
 for file in files_to_remove:
     if os.path.exists(file):
