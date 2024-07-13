@@ -260,8 +260,7 @@ for file_path in file_paths:
 
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
-    output.write('
-'.join(file_contents))
+    output.write('\n'.join(file_contents))
 
 
 
