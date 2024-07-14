@@ -224,7 +224,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
     c.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名$GD
     for line in file:
-      if '$GD' not in line:
+      if '$GD' not in line and '4K' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
  
@@ -239,6 +239,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
     for line in file:
+      if '$GD' not in line and '4K' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
  
@@ -256,7 +257,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
     for line in file:
-      if '环绕' not in line and 'CCTV' not in line:
+      if '环绕' not in line and 'CCTV' not in line and '4K' not in line::
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 
