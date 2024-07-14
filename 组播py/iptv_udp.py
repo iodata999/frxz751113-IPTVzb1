@@ -88,15 +88,15 @@ def gen_files(valid_ips, province, isp, province_en, isp_en):
     # 生成节目列表 省份运营商.txt
     index = 0
     print(valid_ips)
-    udp_filename = f'files/{province}_{isp}.txt'
-    with open(udp_filename, 'r', encoding='utf-8') as file:
+    rtp_filename = f'files/{province}_{isp}.txt'
+    with open(rtp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
     txt_filename = f'outfiles/{province_en}_{isp_en}.txt'
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
             if index < 3:
-                new_data = data.replace("udp://", f"{url[0]}/udp/")
+                new_data = data.replace("rtp://", f"{url[0]}/rtp/")
                 new_file.write(new_data)
                 new_file.write('\n')
                 index += 1
@@ -119,7 +119,7 @@ async def via_url(result_url, mcast):
     valid_ips = []
     # 遍历所有视频链接
     # for url in result_urls:
-    video_url = result_url + "/udp/" + mcast
+    video_url = result_url + "/rtp/" + mcast
 
     loop = asyncio.get_running_loop()
     future_obj = loop.run_in_executor(None, cv2.VideoCapture, video_url)
@@ -155,7 +155,7 @@ async def tasks(url_list, mcast):
 
 # 主入口
 def main():
-    # 获取udp目录下的文件名
+    # 获取rtp目录下的文件名
     # files = os.listdir('files')
     files = 'files'
 
@@ -181,11 +181,11 @@ def main():
             with open(f'files/{province_isp}.txt', 'r', encoding='utf-8') as file:
                 lines = file.readlines()
                 lines = [line.strip() for line in lines if line.strip()]
-            # 获取第一行中以包含 "udp://" 的值作为 mcast
+            # 获取第一行中以包含 "rtp://" 的值作为 mcast
             if lines:
                 first_line = lines[0]
-                if "udp://" in first_line:
-                    mcast = first_line.split("udp://")[1].split(" ")[0]
+                if "rtp://" in first_line:
+                    mcast = first_line.split("rtp://")[1].split(" ")[0]
                     keywords.append(province_isp + "_" + mcast)
         except FileNotFoundError:
             # 如果文件不存在，则捕获 FileNotFoundError 异常并打印提示信息
@@ -226,7 +226,7 @@ def main():
         while len(result_urls) == 0 and timeout_cnt <= 5:
             try:
                 search_url = 'https://fofa.info/result?qbase64='
-                search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" {others} && asn=\"{asn}\"'
+                search_txt = f'\"rtpxy\" && country=\"CN\" && region=\"{province}\" {others} && asn=\"{asn}\"'
                 # 将字符串编码为字节流
                 bytes_string = search_txt.encode('utf-8')
                 # 使用 base64 进行编码
@@ -291,7 +291,7 @@ def main():
         # os.remove('outfiles/' + file_path)
 
     # 写入合并后的txt文件
-    with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
+    with open("IPTV_rtp.txt", "w", encoding="utf-8") as output:
         output.write('\n\n'.join(file_contents))
         # 写入更新日期时间
         # file.write(f"{now_today}更新,#genre#\n")
@@ -305,7 +305,7 @@ def main():
 
     output.close()
 
-    print(f"电视频道成功写入IPTV_UDP.txt")
+    print(f"电视频道成功写入IPTV_rtp.txt")
 
 
 main()
