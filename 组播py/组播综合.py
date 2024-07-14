@@ -499,24 +499,10 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 
 
-###########################################################################################################################################################################
 #任务结束，删除不必要的过程文件###########################################################################################################################
-os.remove("GAT.txt")
-os.remove("DD.txt")
-os.remove("TW.txt")
-os.remove("a.txt")
-os.remove("b.txt")
-os.remove("c.txt")
-os.remove("c1.txt")
-os.remove("e.txt")
-os.remove("xs.txt")
-os.remove("df.txt")
-os.remove("TT.txt")
-os.remove("ott移动v4.txt")
-
-
-
-files_to_remove = ['湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '河南电信.txt', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
+files_to_remove = ['湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', \
+                   '河南电信.txt', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u', \
+                  "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "e.txt", "xs.txt", "df.txt", "TT.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
