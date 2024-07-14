@@ -21,18 +21,18 @@ jobs:
           python-version: 3.x
       - name: Install dependencies
         run: |
-         run: pip install selenium requests futures eventlet
-         run: pip install opencv-python requests
-         run: pip install Beautifulsoup4 requests
-         run: pip install translate requests
-         run: pip install ffmpy
-         run: pip install termcolor
-         run: pip install func_timeout
-         run: pip install replace
-         run: pip install input
-         run: pip install opencc
-         run: pip install pypinyin
-         run: pip install pytz  
+              pip install selenium requests futures eventlet
+              pip install opencv-python requests
+              pip install Beautifulsoup4 requests
+              pip install translate requests
+              pip install ffmpy
+              pip install termcolor
+              pip install func_timeout
+              pip install replace
+              pip install input
+              pip install opencc
+              pip install pypinyin
+              pip install pytz  
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/iptv_udp.py     #这里更改要运行的py
       
