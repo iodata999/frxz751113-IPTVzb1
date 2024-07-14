@@ -73,7 +73,6 @@ CCTV17-农业农村,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.co
 黑莓动画,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 黑莓电影,http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 
-
 港澳频道,#genre#
 酒店影视1,http://171.108.239.80:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
 酒店影视1,http://171.108.239.98:8181/tsfile/live/1054_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -132,7 +131,6 @@ TVB星河,http://110.72.60.57:8181/tsfile/live/1062_1.m3u8?key=txiptv&playlive=1
 龙祥电影,http://171.108.239.98:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 龙祥电影,http://171.108.239.99:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
 龙祥电影,http://171.108.239.80:8181/tsfile/live/1011_1.m3u8?key=txiptv&playlive=1&authid=0
-
 AMC电影,http://61.221.215.25:8800/hls/43/index.m3u8
 三立戏剧台,http://61.221.215.25:8800/hls/41/index.m3u8
 凤凰中文台,http://61.221.215.25:8800/hls/47/index.m3u8
@@ -212,9 +210,7 @@ Now爆谷台,http://111.160.76.101:80/香蕉哥/now爆谷.live.flv
 1905国外电影,http://php.jdshipin.com:8880/1905.php?id=1905dy2
 澳门莲花,http://php.jdshipin.com:8880/amlh.php
 
-
 高质组播,#genre#
-
 SiTV游戏风云,http://171.8.238.120:8800/rtp/239.16.20.112:11120
 SiTV欢笑剧场,http://171.8.238.120:8800/rtp/239.16.20.39:10390
 SiTV都市剧场,http://171.8.238.120:8800/rtp/239.16.10.232:2000
@@ -225,14 +221,11 @@ SiTV都市剧场,http://171.8.238.120:8800/rtp/239.16.20.38:10380
 郑州影视戏曲,http://171.8.238.120:8800/rtp/239.16.10.157:2000
 大剧院,http://171.8.238.120:8800/rtp/239.16.20.217:12170
 
-
 4K 频道,#genre#
 河南卫视4K,http://171.8.238.120:8800/rtp/239.16.20.199:11990
 
-
 省市频道,#genre#
 湖南金鹰纪实,http://171.8.238.120:8800/rtp/239.16.20.153:11530
-
 
 地方频道,#genre#
 SiTV生活时尚,http://171.8.238.120:8800/rtp/239.16.20.114:11140
