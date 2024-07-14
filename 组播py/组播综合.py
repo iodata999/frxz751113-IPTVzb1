@@ -213,25 +213,6 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
 
 
 
-######################################################################################################################################
-from pypinyin import lazy_pinyin
-# 打开一个utf-8编码的文本文件
-with open("组播源.txt", "r", encoding="utf-8") as file:
-    # 读取所有行并存储到列表中
-    lines = file.readlines()
-# 定义一个函数，用于提取每行的第一个数字
-def extract_first_number(line):
-    match = re.search(r'\d+', line)
-    return int(match.group()) if match else float('inf')
-# 对列表中的行进行排序，按照第一个数字的大小排列，其余行按中文排序
-sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
-# 将排序后的行写入新的utf-8编码的文本文件
-with open("组播源.txt", "w", encoding="utf-8") as file:
-    for line in sorted_lines:
-        file.write(line)
-for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换   
-    line = line.replace("地理世界", "世界地理")                                                                                                                    ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符          
 
 
 
@@ -249,24 +230,12 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', en
 
 
 
-#################################################################################################################################
-#从整理好的文本中按类别进行特定关键词提取
-keywords = ['CCTV']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
-    c1.write('央视系列,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if '环绕' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
-
 
 
 
 
 ##########################################################################E#####################################################################################
-keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '剧', '影', 'CHC']  # 需要提取的关键字列表
+keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '剧', '影', 'CHC', '星空', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
@@ -277,18 +246,6 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', en
          e.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 
 
-
-
-################################################################################################################################################################################
-keywords = ['卫视', '星空', '凤凰']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
-    e1.write('\n卫视频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if '环绕' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         e1.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
 
 
 
@@ -516,15 +473,12 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 ###########################################################################################################################################################################
 #任务结束，删除不必要的过程文件###########################################################################################################################
 os.remove("GAT.txt")
-os.remove("GAT1.txt")
 os.remove("DD.txt")
 os.remove("TW.txt")
 os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
 os.remove("e.txt")
-os.remove("c1.txt")
-os.remove("e1.txt")
 os.remove("d.txt")
 os.remove("xs.txt")
 os.remove("df.txt")
