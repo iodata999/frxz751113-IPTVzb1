@@ -336,7 +336,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
-#  获取远程港澳台直播源文件
+#  获取远程直播源文件
 url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/ott%E7%A7%BB%E5%8A%A8V6%E5%9B%9E%E6%94%BE.txt"          #源采集地址
 r = requests.get(url)
 open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
@@ -362,7 +362,7 @@ for file_path in file_paths:
         file_contents.append(content)
 # 生成合并后的文件
 with open("GAT.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+    output.write(''.join(file_contents))
 
            
 
@@ -379,7 +379,7 @@ for file_path in file_paths:
 ###########################################################################################################################################################################
 # 写入合并后的文件
 with open("综合源.txt", "w", encoding="utf-8") as output:
-    output.write(''.join(file_contents))
+    output.write(''.join(file_contents))   #加入\n则多一空行
 
 for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("CCTV1,", "CCTV1-综合,")  
