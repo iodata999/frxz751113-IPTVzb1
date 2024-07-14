@@ -52,7 +52,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='
 
          
 ################
-keywords = ['爱情', '超级电', '妈', '功夫', '古装', '东北', '黑莓', '欢乐', '动作电影', '大剧', '家庭', '军旅', 'New', '影', '大片', '惊', '金', '精', '重温', '剧']  # 需要提取的关键字列表
+keywords = ['爱情', '超级电', '妈', '功夫', '古装', '东北', '黑莓', '欢乐', '动作电影', '大剧', '家庭', '军旅', 'New', '影', '大片', '惊', '院线', '精', '重温', '剧']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -62,38 +62,8 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件
 
-############
-keywords = ['TVB', '三立', '八大', '中天', '中视', '东森', '凤凰', '天映', '美亚', '环球', '翡翠', '亚洲', '大爱', '大愛', \
-            '明珠', '半岛', 'AMC', '龙祥', '台视', '1905', '纬来', '神话', '经典都市', '视界', '番薯', '私人', '酒店', 'TVB']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-with open('2.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:    #####定义临时文件名
-    d.write('\n港澳频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-        if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and '江苏' not in line and '浙江' not in line and '四川' not in line and 'genre' not in line:
-          if re.search(pattern, line): 
-              d.write(line)  # 将该行写入输出文件
 
-################
-keywords = ['江苏', '常州', '淮安', '连云港', '南京', '南通', '高邮', '苏州', '宿迁', '泰州', '无锡', '徐州', '盐城', '扬州', '镇江']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
-    e.write('\n江苏频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         e.write(line)  # 将该行写入输出文件
 
-################
-keywords = ['江西', '抚州', '赣州', '吉安', '景德镇', '九江', '南昌', '萍乡', '上饶', '新余', '宜春', '鹰潭']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
-    e1.write('\n江西频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         e1.write(line)  # 将该行写入输出文件
 
          
 ################
@@ -127,30 +97,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding=
 
 
 
-         
-################
-keywords = ['浙江', '杭州', '宁波', '丽水', '上虞', '绍兴', '温州', '永嘉', '诸暨', '钱江', '松阳', '苍南', '遂昌', '青田', '龙泉', '余杭', '新昌']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('g.txt', 'w', encoding='utf-8') as g:    #####定义临时文件名
-    g.write('\n浙江频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         g.write(line)  # 将该行写入输出文件
 
-
-
-################
-keywords = ['湖北', '武汉', '松滋', '十堰', '咸宁', '远安', '黄石', '荆州', '当阳', '恩施', '五峰', '来凤', '枝江', '黄冈', '随州', '荆门', '秭归', '孝感', '鄂州']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('h.txt', 'w', encoding='utf-8') as h:    #####定义临时文件名
-    h.write('\n湖北频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         h.write(line)  # 将该行写入输出文件
 
 
 
@@ -172,34 +119,6 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('h1.txt', 'w', encoding=
 
 
 
-################
-keywords = ['陕西', '安康', '宝鸡', '汉中', '商洛', '铜川', '渭南', '西安', '咸阳', '延安', '榆林']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('i.txt', 'w', encoding='utf-8') as i:    #####定义临时文件名
-    i.write('\n陕西频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         i.write(line)  # 将该行写入输出文件
-
-
-
-
-
-
-
-
-################
-keywords = ['黑龙江', '大庆', '大兴安岭', '哈尔滨', '鹤岗', '黑河', '鸡西', '佳木斯', '牡丹江', '七台河', '齐齐哈尔', '双鸭山', '绥化', '伊春']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('j.txt', 'w', encoding='utf-8') as j:    #####定义临时文件名
-    j.write('\n黑龙江频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         j.write(line)  # 将该行写入输出文件
 
 
 
@@ -231,18 +150,6 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('k.txt', 'w', encoding='
 
 
 
-################
-keywords = ['广西', '百色', '北海', '防城港', '桂林', '河池', '柳州', '南宁', '钦州', '梧州', '玉林']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('k1.txt', 'w', encoding='utf-8') as k1:    #####定义临时文件名
-    k1.write('\n广西频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         k1.write(line)  # 将该行写入输出文件
-
-
 
 
 
@@ -253,20 +160,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('k1.txt', 'w', encoding=
 
 
 ################
-keywords = ['云南', '版纳', '保山', '楚雄', '大理', '德宏', '迪庆', '红河', '昆明', '丽江', '临沧', '怒江', '曲靖', '思茅', '文山', '玉溪', '昭通', '西双版纳', '贵州', \
-            '安顺', '毕节', '都匀', '贵阳', '凯里', '六盘水', '铜仁', '兴义', '遵义']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('m.txt', 'w', encoding='utf-8') as m:    #####定义临时文件名
-    m.write('\n云贵频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         m.write(line)  # 将该行写入输出文件
-
-
-################
-keywords = ['四川', '阿坝', '巴中', '成都', '达州', '德阳', '甘孜', '广安', '广元', '乐山', '凉山', '泸州', '眉山', '绵阳', '内江', '南充', '攀枝花', '遂宁', '雅安', \
+keywords = ['四川', '阿坝', '巴中', '成都', '达州', '德阳', '甘孜', '广安', '广元', '乐山', '凉山', '乐山', '大片', '爱', '眉山', '绵阳', '内江', '南充', '攀枝花', '遂宁', '雅安', \
             '宜宾', '资阳', '自贡', '上海', '东方', '财经', '五星']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
@@ -279,20 +173,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('n.txt', 'w', encoding='
 
 
 
-################
-keywords = ['安徽', '安庆', '蚌埠', '亳州', '巢湖', '池州', '滁州', '阜阳', '合肥', '淮北', '淮南', '黄山', '六安', '马鞍山', '宿州', '铜陵', '芜湖', '宣城', '山东', '滨州', \
-            '德州', '东营', '菏泽', '济南', '济宁', '莱芜', '聊城', '临沂', '青岛', '日照', '泰安', '威海', '潍坊', '烟台', '枣庄', '淄博', '山西', '长治', '大同', '晋城', \
-            '晋中', '临汾', '吕梁', '朔州', '太原', '忻州', '阳泉', '运城']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('o.txt', 'w', encoding='utf-8') as o:    #####定义临时文件名
-    o.write('\n安徽山西,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         o.write(line)  # 将该行写入输出文件
-                  
-################         
+
                   
 ################
 keywords = [',']  # 需要提取的关键字列表
@@ -309,8 +190,8 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('l.txt', 'w', encoding='
 
 ############
 file_contents = []
-file_paths = ["a.txt", "b.txt", "d.txt", "c.txt", "e.txt", "e1.txt", "f.txt", "f1.txt", "g.txt", "h.txt", "i.txt", "k.txt", "h1.txt",  "k1.txt",  "j.txt",  "m.txt",  \
-              "n.txt",  "o.txt", "l.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a.txt", "b.txt", "c.txt", "f.txt", "f1.txt", "k.txt", "h1.txt",  \
+              "n.txt",  "l.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -345,22 +226,12 @@ with open('组播源.txt', 'w', encoding="utf-8") as file:
 os.remove("a.txt")
 os.remove("b.txt")
 os.remove("c.txt")
-os.remove("d.txt")
 os.remove("2.txt")
-os.remove("e.txt")
-os.remove("e1.txt")
 os.remove("f.txt")
 os.remove("f1.txt")
-os.remove("g.txt")
-os.remove("h.txt")
 os.remove("h1.txt")
-os.remove("k1.txt")
-os.remove("i.txt")
-os.remove("j.txt")
 os.remove("k.txt")
-os.remove("m.txt")
 os.remove("n.txt")
-os.remove("o.txt")
 os.remove("l.txt")
 os.remove("去重.txt")
 print("任务运行完毕")
