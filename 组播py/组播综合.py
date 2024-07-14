@@ -472,7 +472,7 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
+files_to_remove = ['湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '河南电信.txt', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
 
 for file in files_to_remove:
     if os.path.exists(file):
