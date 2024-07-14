@@ -239,7 +239,6 @@ keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
-    e.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if '环绕' not in line and 'CCTV' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -295,12 +294,12 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', e
 
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
 with open('酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
- keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
- #keywords = ['CCTV', '卫视', 'http', '重温', '酒店', '私人', '天映', '莲花', 'AXN', '好莱坞', '星', '龙', '凤凰', '东森', 'genre']  # 需要提取的关键字列表                                                       ###########
+ #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
+ keywords = ['重温', '酒店', '私人', '天映', '莲花', 'AXN', '好莱坞', '星', '龙', '凤凰', '东森']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('酒店源.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
-    #b.write('\n央视频道,#genre#\n')                                                                        ###########
+    #b.write('\n港澳频道,#genre#\n')                                                                        ###########
     for line in file:                                                                                      ###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
           b.write(line)  # 将该行写入输出文件                                                               ###########
@@ -327,7 +326,6 @@ open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 #pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
 with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    a.write('\n港澳频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           a.write(line)  # 将该行写入输出文件
@@ -338,14 +336,26 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
+#  获取远程港澳台直播源文件
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/ott%E7%A7%BB%E5%8A%A8V6%E5%9B%9E%E6%94%BE.txt"          #源采集地址
+r = requests.get(url)
+open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
+keywords = ['']  # 需要提取的关键字列表，留空则全局选择
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
+with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TT.txt', 'w', encoding='utf-8') as TT:
+    #TT.write('\n央视频道,#genre#\n')
+    for line in file:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+          TT.write(line)  # 将该行写入输出文件
         
 
 
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["b.txt", "a.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TT.txt", "b.txt", "a.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -369,7 +379,7 @@ for file_path in file_paths:
 ###########################################################################################################################################################################
 # 写入合并后的文件
 with open("综合源.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+    output.write(''.join(file_contents))
 
 for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("CCTV1,", "CCTV1-综合,")  
@@ -469,6 +479,8 @@ os.remove("c.txt")
 os.remove("e.txt")
 os.remove("xs.txt")
 os.remove("df.txt")
+os.remove("TT.txt")
+os.remove("ott移动v4.txt")
 
 
 
