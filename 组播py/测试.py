@@ -1,17 +1,17 @@
 # 合并自定义频道文件#################################################################################################
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
-from opencc import OpenCC
+#import time
+#import concurrent.futures
+#from selenium import webdriver
+#from selenium.webdriver.chrome.options import Options
+#import requests
+#import re
+#import os
+#import threading
+#from queue import Queue
+#from datetime import datetime
+#import replace
+#import fileinput
+#from opencc import OpenCC
 file_contents = []
 file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
