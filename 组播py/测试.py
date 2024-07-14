@@ -193,17 +193,25 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
             content = file.read()
             file_contents.append(content)
-    else:
+    else:                # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file_path} 不存在，跳过")
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
+
+for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("示例", "") 
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+
+
+
+
 
 ######################################################################################################################################
 from pypinyin import lazy_pinyin
@@ -314,7 +322,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w'
 
 
 ###############################################################################################################################################################################
-keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '经济']  # 需要提取的关键字列表
+keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '石家庄', '经济']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('临时组播.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
@@ -483,9 +491,39 @@ with open("组播源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 for line in fileinput.input("组播源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("高质组播", "央视系列")    
-    line = line.replace("天津,", "天津IPTV,")    
-    line = line.replace("河北,", "河北少儿,")    
+    line = line.replace("天津,", "天津IPTV,")  
     print(line, end="")   
+import re
+
+def remove_duplicates(input_file, output_file):
+    # 用于存储已经遇到的URL和包含genre的行
+    seen_urls = set()
+    seen_lines_with_genre = set()
+    # 用于存储最终输出的行
+    output_lines = []
+    # 打开输入文件并读取所有行
+    with open(input_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        print("去重前的行数：", len(lines))
+        # 遍历每一行
+        for line in lines:
+            # 使用正则表达式查找URL和包含genre的行,默认最后一行
+            urls = re.findall(r'[https]?[http]?[P2p]?[mitv]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
+            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
+            # 如果找到URL并且该URL尚未被记录
+            if urls and urls[0] not in seen_urls:
+                seen_urls.add(urls[0])
+                output_lines.append(line)
+            # 如果找到包含genre的行，无论是否已被记录，都写入新文件
+            if genre_line:
+                output_lines.append(line)
+    # 将结果写入输出文件
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.writelines(output_lines)
+    print("去重后的行数：", len(output_lines))
+
+# 使用方法
+remove_duplicates('组播源.txt', '组播源.txt')
 
 
 ################简体转繁体
@@ -556,12 +594,12 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
+files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
 
 for file in files_to_remove:
     if os.path.exists(file):
         os.remove(file)
-    else:
+    else:              # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file} 不存在，跳过删除。")
 
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
