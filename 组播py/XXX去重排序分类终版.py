@@ -199,18 +199,18 @@ with open('组播源.txt', 'w', encoding="utf-8") as file:
 
 
 
-os.remove("a.txt")
-os.remove("a1.txt")
-os.remove("b.txt")
-os.remove("c.txt")
-os.remove("2.txt")
-os.remove("f.txt")
-os.remove("f1.txt")
-os.remove("h1.txt")
-os.remove("k.txt")
-os.remove("n.txt")
-os.remove("l.txt")
-os.remove("去重.txt")
+
+
+
+files_to_remove = ["a.txt", "a1.txt", "a2.txt", "b.txt", "c.txt", "2.txt", "f.txt", "f1.txt", "h1.txt", "k.txt", "n.txt", "l.txt", "去重.txt"]
+
+for file in files_to_remove:
+    if os.path.exists(file):
+        os.remove(file)
+    else:              # 如果文件不存在，则提示异常并打印提示信息
+        print(f"文件 {file} 不存在，跳过删除。")
+
+
 print("任务运行完毕")
 
 
