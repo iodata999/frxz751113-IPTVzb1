@@ -193,7 +193,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "湖北电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -202,10 +202,10 @@ for file_path in file_paths:
     else:                # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file_path} 不存在，跳过")
 # 写入合并后的文件
-with open("临时组播.txt", "w", encoding="utf-8") as output:
+with open("组播源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("示例", "") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 
@@ -216,7 +216,7 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
 ######################################################################################################################################
 from pypinyin import lazy_pinyin
 # 打开一个utf-8编码的文本文件
-with open("临时组播.txt", "r", encoding="utf-8") as file:
+with open("组播源.txt", "r", encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
 # 定义一个函数，用于提取每行的第一个数字
@@ -226,10 +226,10 @@ def extract_first_number(line):
 # 对列表中的行进行排序，按照第一个数字的大小排列，其余行按中文排序
 sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
 # 将排序后的行写入新的utf-8编码的文本文件
-with open("临时组播.txt", "w", encoding="utf-8") as file:
+with open("组播源.txt", "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
-for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，并对其进行关键词原地替换   
+for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换   
     line = line.replace("地理世界", "世界地理")                                                                                                                    ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符          
 
@@ -239,7 +239,7 @@ for line in fileinput.input("临时组播.txt", inplace=True):  #打开文件，
 keywords = ['环绕']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
     c.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -254,7 +254,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w',
 keywords = ['CCTV']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
     c1.write('央视系列,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if '环绕' not in line:
@@ -269,7 +269,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w'
 keywords = ['风云', '兵器', '女性', '地理', '央视文化', '风云', '剧', '影', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
     e.write('\n高质组播,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if '环绕' not in line and 'CCTV' not in line:
@@ -283,7 +283,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w',
 keywords = ['卫视', '星空', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
     e1.write('\n卫视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if '环绕' not in line:
@@ -297,7 +297,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w'
 keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
       if '环绕' not in line:
@@ -310,7 +310,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w'
 keywords = ['湖南', '广东', '天津', '广州', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
     df.write('\n省市频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
@@ -325,7 +325,7 @@ with open('临时组播.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w'
 keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '石家庄', '经济']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('临时组播.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
     xs.write('\n地方频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
@@ -461,69 +461,7 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("频道1", "频道")  
     print(line, end="")   
 
-###########################################################################################################################################################################
-# 读取要合并的频道文件，并生成临时文件##############################################################################################################
-file_contents = []
-file_paths = ["c1.txt", "c.txt", "e.txt", "e1.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-# 生成合并后的文件
-with open("GAT1.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
 
-           
-
- ###########################################################################################################################################################################     
-# 读取临时文件，并生成结果文件。这一步其实多余，懒得改##############################################################################################################
-file_contents = []
-file_paths = ["GAT1.txt"]  # 替换为实际的文件路径列表
-
-
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-###########################################################################################################################################################################
-# 写入合并后的文件
-with open("组播源.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-for line in fileinput.input("组播源.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("高质组播", "央视系列")    
-    line = line.replace("天津,", "天津IPTV,")  
-    print(line, end="")   
-import re
-
-def remove_duplicates(input_file, output_file):
-    # 用于存储已经遇到的URL和包含genre的行
-    seen_urls = set()
-    seen_lines_with_genre = set()
-    # 用于存储最终输出的行
-    output_lines = []
-    # 打开输入文件并读取所有行
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        print("去重前的行数：", len(lines))
-        # 遍历每一行
-        for line in lines:
-            # 使用正则表达式查找URL和包含genre的行,默认最后一行
-            urls = re.findall(r'[https]?[http]?[P2p]?[mitv]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
-            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
-            # 如果找到URL并且该URL尚未被记录
-            if urls and urls[0] not in seen_urls:
-                seen_urls.add(urls[0])
-                output_lines.append(line)
-            # 如果找到包含genre的行，无论是否已被记录，都写入新文件
-            if genre_line:
-                output_lines.append(line)
-    # 将结果写入输出文件
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.writelines(output_lines)
-    print("去重后的行数：", len(output_lines))
-
-# 使用方法
-remove_duplicates('组播源.txt', '组播源.txt')
 
 
 ################简体转繁体
@@ -571,7 +509,6 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
-txt_to_m3u('组播源.txt', '组播源.m3u')
 
 
 
@@ -594,7 +531,7 @@ os.remove("df.txt")
 
 
 
-files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
+files_to_remove = ['湖南电信.txt', '四川电信.txt', '广东电信.txt', '天津联通.txt', '河北电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u']
 
 for file in files_to_remove:
     if os.path.exists(file):
