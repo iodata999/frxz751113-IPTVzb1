@@ -199,7 +199,7 @@ for file_path in file_paths:
         with open(file_path, 'r', encoding="utf-8") as file:
             content = file.read()
             file_contents.append(content)
-    else:
+    else:                # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file_path} 不存在，跳过")
 # 写入合并后的文件
 with open("临时组播.txt", "w", encoding="utf-8") as output:
@@ -599,7 +599,7 @@ files_to_remove = ['临时组播.txt', '湖南电信.txt', '四川电信.txt', '
 for file in files_to_remove:
     if os.path.exists(file):
         os.remove(file)
-    else:
+    else:              # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file} 不存在，跳过删除。")
 
 print("任务运行完毕，分类频道列表可查看文件夹内综合源.txt文件！")
