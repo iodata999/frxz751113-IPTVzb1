@@ -29,15 +29,35 @@ with open("2.txt", "w", encoding="utf-8") as file:
 ###############################        
 with open('2.txt', 'r', encoding='utf-8') as file:
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
- keywords = ['CCTV', '风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
+ keywords = ['CCTV']  # 需要提取的关键字列表
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:    #####定义临时文件名
     a.write('\n央视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'genre' not in line:
+      if 'genre' not in line and '环绕' not in line and '风' not in line and '兵' not in line and '女' not in line and '文' not in line\
+         and '影' not in line and '剧' not in line and '地' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          a.write(line)  # 将该行写入输出文件 
+
+
+###############################        
+with open('2.txt', 'r', encoding='utf-8') as file:
+#从整理好的文本中按类别进行特定关键词提取#############################################################################################
+ keywords = ['环绕', '风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
+ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('2.txt', 'r', encoding='utf-8') as file, open('a1.txt', 'w', encoding='utf-8') as a1:    #####定义临时文件名
+    for line in file:
+      if 'genre' not in line:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+         a1.write(line)  # 将该行写入输出文件 
+
+
+
+
+
+
 
 ################
 keywords = ['卫视', '星空', '凤凰']  # 需要提取的关键字列表
@@ -190,7 +210,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('l.txt', 'w', encoding='
 
 ############
 file_contents = []
-file_paths = ["a.txt", "b.txt", "c.txt", "f.txt", "f1.txt", "k.txt", "h1.txt",  \
+file_paths = ["a.txt", "a1.txt", "b.txt", "c.txt", "f.txt", "f1.txt", "k.txt", "h1.txt",  \
               "n.txt",  "l.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
@@ -199,7 +219,7 @@ for file_path in file_paths:
 
 # 写入合并后的文件
 with open("去重.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+    output.write(''.join(file_contents))
 
 ##############################原始顺序去重
 # 打开文档并读取所有行 
@@ -224,6 +244,7 @@ with open('组播源.txt', 'w', encoding="utf-8") as file:
 
 
 os.remove("a.txt")
+os.remove("a1.txt")
 os.remove("b.txt")
 os.remove("c.txt")
 os.remove("2.txt")
