@@ -1,3 +1,4 @@
+#范本
 import os
 import requests
 import re
@@ -215,6 +216,8 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
 
 
 
+
+
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
 keywords = ['环绕']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
@@ -305,7 +308,6 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', en
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
-     
 
 
 ###############f1
@@ -319,6 +321,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
+
 
 
 
