@@ -291,7 +291,7 @@ def main():
         # os.remove('outfiles/' + file_path)
 
     # 写入合并后的txt文件
-    with open("IPTV_UDP.txt", "w", encoding="utf-8") as output:
+    with open("组播源.txt", "w", encoding="utf-8") as output:
         output.write('\n\n'.join(file_contents))
         # 写入更新日期时间
         # file.write(f"{now_today}更新,#genre#\n")
@@ -305,7 +305,7 @@ def main():
 
     output.close()
 
-    print(f"电视频道成功写入IPTV_UDP.txt")
+    print(f"电视频道成功写入组播源.txt")
 
 
 main()
