@@ -64,8 +64,7 @@ def gen_files(valid_ips, province, isp):
     txt_filename = f'outfiles/{province}_{isp}.txt'
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
         # 写入省份运营商信息和节目类型
-        new_file.write(f'{province}{isp},#genre#
-')
+        new_file.write(f'{province}{isp},#genre#')
         # 遍历有效IP列表
         for url in valid_ips:
             # 如果索引小于3，则进行替换操作
@@ -74,8 +73,7 @@ def gen_files(valid_ips, province, isp):
                 new_data = data.replace("udp://", f"{url[0]}/udp/")
                 # 将替换后的数据写入新文件
                 new_file.write(new_data)
-                new_file.write('
-')
+                new_file.write('')
                 # 索引递增
                 index += 1
             else:
