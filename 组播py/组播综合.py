@@ -305,14 +305,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', en
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
-with open('f.txt', 'r', encoding='UTF-8') as f:
-    lines = f.readlines()
-
-lines.sort()
-
-with open('f.txt', 'w', encoding='UTF-8') as f:
-    for line in lines:
-        f.write(line)            
+     
 
 
 ###############f1
@@ -326,14 +319,6 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
-with open('f1.txt', 'r', encoding='UTF-8') as f:
-    lines = f.readlines()
-
-lines.sort()
-
-with open('f1.txt', 'w', encoding='UTF-8') as f:
-    for line in lines:
-        f.write(line)
 
 
 
