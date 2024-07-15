@@ -1,11 +1,20 @@
-
-import os
+#为避免不必要的麻烦，尽可能多导入
+import time
+import concurrent.futures
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 import requests
 import re
+import os
+import threading
+from queue import Queue
+from datetime import datetime
+import replace
+import fileinput
+from opencc import OpenCC
 import base64
 import cv2
 import datetime
-from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 # 获取rtp目录下的文件名
@@ -126,45 +135,7 @@ for keyword in keywords:
                         new_file.write(new_data)
 
                 print(f'已生成播放列表，保存至{txt_filename}')
-                group_title = ""
-                group_cctv = ["CCTV1", "CCTV2", "CCTV3", "CCTV4", "CCTV5", "CCTV5+", "CCTV6", "CCTV7", "CCTV8", "CCTV9", "CCTV10", "CCTV11", "CCTV12", "CCTV13", "CCTV14", "CCTV15", "CCTV16", "CCTV17", "CCTV4K", "CCTV8K", "CGTN英语", "CGTN记录", "CGTN俄语", "CGTN法语", "CGTN西语", "CGTN阿语"]
-                group_shuzi = ["CHC动作电影", "CHC家庭影院", "CHC高清电影", "重温经典", "第一剧场", "风云剧场", "怀旧剧场", "世界地理", "发现之旅", "求索纪录", "兵器科技", "风云音乐", "文化精品", "央视台球", "高尔夫网球", "风云足球", "女性时尚", "电视指南", "中视购物", "中学生", "卫生健康", "央广购物", "家有购物", "老故事", "书画", "中国天气", "收藏天下", "国学频道", "快乐垂钓", "先锋乒羽", "风尚购物", "财富天下", "天元围棋", "摄影频道", "新动漫", "证券服务", "梨园", "置业", "家庭理财", "茶友"]
-                group_jiaoyu = ["CETV1", "CETV2", "CETV3", "CETV4", "山东教育", "早期教育"]
-                group_weishi = ["北京卫视", "湖南卫视", "东方卫视", "四川卫视", "天津卫视", "安徽卫视", "山东卫视", "广东卫视", "广西卫视", "江苏卫视", "江西卫视", "河北卫视", "河南卫视", "浙江卫视", "海南卫视", "深圳卫视", "湖北卫视", "山西卫视", "东南卫视", "贵州卫视", "辽宁卫视", "重庆卫视", "黑龙江卫视", "内蒙古卫视", "宁夏卫视", "陕西卫视", "甘肃卫视", "吉林卫视", "云南卫视", "三沙卫视", "青海卫视", "新疆卫视", "西藏卫视", "兵团卫视", "延边卫视", "大湾区卫视", "安多卫视", "厦门卫视", "农林卫视", "康巴卫视", "优漫卡通", "哈哈炫动", "嘉佳卡通"]
-
-                #生成m3u
-                with open(txt_filename, 'r') as input_file:
-                    lines = input_file.readlines()
-                #删除空白行
-                    lines = [line for line in lines if line.count(',') == 1]
-                # 转换格式并写入到 省份运营商.m3u
-                m3u_filename = f'{province}{isp}.m3u'
-                with open(m3u_filename, 'w', encoding='utf-8') as output_file:
-                    output_file.write('#EXTM3U  x-tvg-url="https://live.fanmingming.com/e.xml\n')  # 添加 #EXTM3U
-                    for line in lines:
-                        parts = line.strip().split(',')
-                        name1 = parts[0]
-                        uppercase_name1 = name1.upper()
-                        name1 = uppercase_name1
-                        name1 = name1.replace("-", "")
-                        name1 = name1.replace("_", "")
-                        name1 = name1.replace("CHC电影", "CHC高清电影")
-                        name2 = parts[0]
-                        url = parts[1]
-                        if name1 in group_cctv:
-                            group_title = "央视频道"
-                        elif name1 in group_shuzi:
-                            group_title = "数字频道"
-                        elif name1 in group_jiaoyu:
-                            group_title = "教育频道"
-                        elif name1 in group_weishi:
-                            group_title = "卫视频道"
-                        else:
-                            group_title = "其他频道"
-
-                        output_file.write(f'#EXTINF:-1 tvg-id="{name1}" tvg-name="{name1}" tvg-logo="https://live.fanmingming.com/tv/{name1}.png" group-title="{group_title}",{name2}\n{url}\n')
-        
-                print(f'已保存至{m3u_filename}')
+    
 
             else:
                 print("未找到合适的 IP 地址。")
@@ -180,21 +151,8 @@ for keyword in keywords:
 print('节目表制作完成！ 文件输出在当前文件夹！')
 
 # 合并自定义频道文件#################################################################################################
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
-from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "山东电信.txt", "河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -355,27 +313,6 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
 
 
 
-################
-keywords = ['山东', '济南', '武城', '烟台', '安丘', '滨州', '昌乐', '昌邑', '茌平', '单县', '德州', '定陶', '东明', '东平', '东营', '冠县', '菏泽', '桓台', \
-            '惠民', '济宁', '济阳', '金乡', '巨野', '莱西', '兰陵', '梁山', '聊城', '陵城', '美人', '蒙阴', '墨宝', '牟平', '宁津', '宁阳', '平度', '平阴', \
-            '平原', '齐河', '栖霞', '青岛', '青州', '曲阜', '日照', '荣成', '乳山', '莘县', '寿光', '滕州', \
-            '潍坊', '文登', '无棣', '五莲', '夏津', '新泰', '兖州', '阳信', '禹城', '郓城', '沾化', '长清', '诸城', '淄博', '邹城']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('sd.txt', 'w', encoding='utf-8') as sd:    #####定义临时文件名
-    sd.write('\n山东频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         sd.write(line)  # 将该行写入输出文件
-
-
-
-
-
-
-
-
 
 
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
@@ -441,7 +378,7 @@ with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TT.txt', 'w',
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TT.txt", "b.txt", "a.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt", "sd.txt",  "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TT.txt", "b.txt", "a.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt",  "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -571,9 +508,9 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '山东电信.txt', '组播源.txt', '天津联通.txt', '河北电信.txt', '四川电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '天津联通.txt', '河北电信.txt', '四川电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', \
                    '广东电信.m3u', '天津联通.m3u', '河北电信.m3u', '山东电信.m3u', '江苏电信.m3u', \
-                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "sd.txt", "TT.txt", "ott移动v4.txt"]
+                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "TT.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
