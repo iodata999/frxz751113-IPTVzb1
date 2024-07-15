@@ -43,6 +43,6 @@ jobs:
           git add .
           git commit *.txt -m "Add generated file"
           #git commit *.m3u -m "Add generated file"
-          git commit -m "Delete specified files"
+          git add/rm <file>
           #git pull --rebase
           git push -f
