@@ -350,7 +350,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "广东电信.txt", "天津联通.txt", "湖南电信.txt", "山东电信.txt", "河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -508,17 +508,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
          f1.write(line)  # 将该行写入输出文件
 
 
-################
-keywords = ['常州', '赣榆', '淮安', '江苏', '连云港', '南京', '沛县', '邳州', '沭阳', '泗洪', '泗阳', '苏州', '宿迁', '宿豫', '睢宁', '泰州', \
-            '响水', '新沂', '盱眙', '徐州', '常州', '高邮', '无锡', '盐城', '镇江']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('js.txt', 'w', encoding='utf-8') as js:    #####定义临时文件名
-    js.write('\n江苏频道,#genre#\n')                                                                  #####写入临时文件名
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         js.write(line)  # 将该行写入输出文件
+
 
 
 ################
@@ -607,7 +597,7 @@ with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TT.txt', 'w',
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TT.txt", "b.txt", "a.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt", "sd.txt", "js.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TT.txt", "b.txt", "a.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt", "sd.txt",  "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -737,9 +727,9 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '山东电信.txt', '江苏电信.txt', '组播源.txt', '天津联通.txt', '河北电信.txt', '四川电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '山东电信.txt', '组播源.txt', '天津联通.txt', '河北电信.txt', '四川电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', \
                    '广东电信.m3u', '天津联通.m3u', '河北电信.m3u', '山东电信.m3u', '江苏电信.m3u', \
-                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "sd.txt", "js.txt", "TT.txt", "ott移动v4.txt"]
+                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "sd.txt", "TT.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
