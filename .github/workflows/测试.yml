@@ -34,7 +34,7 @@ jobs:
               pip install pypinyin
               pip install pytz  
       - name: Run iptv
-        run: python ${{ github.workspace }}/os.py   
+        run: python ${{ github.workspace }}/组播py/组播综合.py 
 
       - name: 提交更改
         run: |
@@ -43,6 +43,5 @@ jobs:
           git add .
           git commit *.txt -m "Add generated file"
           #git commit *.m3u -m "Add generated file"
-          git rm -f 直播源.txt
           #git pull --rebase
           git push -f
