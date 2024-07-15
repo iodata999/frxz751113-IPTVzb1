@@ -35,7 +35,13 @@ jobs:
               pip install pytz  
       - name: Run iptv
         run: python ${{ github.workspace }}/os.py   
-        
+      - name: Delete files
+       run: |
+        # 进入目标目录
+            cd /
+
+        # 删除指定文件或文件夹
+            rm -rf 酒店源.txt 组播源.txt folder1
 
       - name: 提交更改
         run: |
@@ -44,5 +50,6 @@ jobs:
           git add .
           git commit *.txt -m "Add generated file"
           #git commit *.m3u -m "Add generated file"
+          git commit -m "Delete specified files"
           #git pull --rebase
           git push -f
