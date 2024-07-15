@@ -291,7 +291,7 @@ def main():
         # os.remove('outfiles/' + file_path)
 
     # 写入合并后的txt文件
-    with open("组播源.txt", "w", encoding="utf-8") as output:
+    with open("测绘组播源.txt", "w", encoding="utf-8") as output:
         output.write('\n\n'.join(file_contents))
         # 写入更新日期时间
         # file.write(f"{now_today}更新,#genre#\n")
