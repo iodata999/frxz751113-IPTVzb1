@@ -356,7 +356,7 @@ keywords = ['常州', '赣榆', '淮安', '江苏', '连云港', '南京', '沛�
             '响水', '新沂', '盱眙', '徐州', '常州', '高邮', '无锡', '盐城', '镇江']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('js.txt', 'w', encoding='utf-8') as js:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('js.txt', 'w', encoding='utf-8') as js:    #####定义临时文件名
     js.write('\n江苏频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
@@ -371,7 +371,7 @@ keywords = ['山东', '济南', '武城', '烟台', '安丘', '滨州', '昌乐'
             '潍坊', '文登', '无棣', '五莲', '夏津', '新泰', '兖州', '阳信', '禹城', '郓城', '沾化', '长清', '诸城', '淄博', '邹城']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('2.txt', 'r', encoding='utf-8') as file, open('sd.txt', 'w', encoding='utf-8') as sd:    #####定义临时文件名
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('sd.txt', 'w', encoding='utf-8') as sd:    #####定义临时文件名
     sd.write('\n山东频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
