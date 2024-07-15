@@ -294,17 +294,31 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', e
 
 
 
-###############################################################################################################################################################################
-keywords = ['综合', '公共', '生活', '新闻', '电视', '文艺', '佛山', '深圳', '珠海', '石家庄', '经济']  # 需要提取的关键字列表
+################
+keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区', '保定', '元氏', '兴隆', '内丘', '南宫', '吴桥', '唐县', '唐山', '安平', '定州', '大厂', '张家口', '徐水', '成安', \
+            '承德', '故城', '康保', '廊坊', '晋州', '景县', '武安', '枣强', '柏乡', '涉县', '涞水', '涞源', '涿州', '深州', '深泽', '清河', '秦皇岛', '衡水', '遵化', '邢台', '邯郸', \
+            '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('xs.txt', 'w', encoding='utf-8') as xs:
-    xs.write('\n地方频道,#genre#\n')
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
+    f.write('\n河北频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '湖南' not in line and '广东' not in line and '湖北' not in line and '安徽' not in line and '天津' not in line and '河北' not in line:        
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
-          xs.write(line)  # 将该行写入输出文件
+         f.write(line)  # 将该行写入输出文件
 
+
+###############f1
+keywords = ['河南', '焦作', '开封', '卢氏', '洛阳', '孟津', '安阳', '宝丰', '邓州', '渑池', '南阳', '内黄', '平顶山', '淇县', '郏县', '封丘', '获嘉', '巩义', '杞县', '汝阳', '三门峡', '卫辉', '淅川', \
+            '新密', '新乡', '信阳', '新郑', '延津', '叶县', '义马', '永城', '禹州', '原阳', '镇平', '郑州', '周口']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #####定义临时文件名
+    f1.write('\n河南频道,#genre#\n')                                                                  #####写入临时文件名
+    for line in file:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+         f1.write(line)  # 将该行写入输出文件
 
 
 
@@ -372,7 +386,7 @@ with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TT.txt', 'w',
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TT.txt", "b.txt", "a.txt", "c.txt", "c1.txt", "e.txt", "DD.txt", "df.txt", "xs.txt"]  # 替换为实际的文件路径列表
+file_paths = ["TT.txt", "b.txt", "a.txt", "c.txt", "c1.txt", "e.txt", "DD.txt", "df.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -503,7 +517,7 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '湖南电信.m3u', '河南电信.m3u', '四川电信.m3u', '广东电信.m3u', '天津联通.m3u', '河北电信.m3u', \
-                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "e.txt", "xs.txt", "df.txt", "TT.txt", "ott移动v4.txt"]
+                   "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "c.txt", "c1.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "TT.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
