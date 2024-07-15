@@ -3,6 +3,163 @@ import requests
 import re
 import base64
 import cv2
+# import datetime
+from datetime import datetime
+from bs4 import BeautifulSoup
+# from urllib.parse import urlparse
+# pip3 install translate
+from translate import Translator
+import pytz
+from lxml import etree
+import asyncio
+import time
+
+header = {
+    "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+}
+
+proxy = {
+    'http': '139.9.119.20:80',
+    'http': '47.106.144.184:7890',
+}
+
+
+# 验证tonkiang可用IP
+def via_tonking(url):
+    headers = {
+        'Referer': 'http://tonkiang.us/hotellist.html',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    }
+    # ip = url
+    url = f'http://tonkiang.us/alllist.php?s={url}&c=false&y=false'
+    response = requests.get(
+        url=url,
+        headers=headers,
+        verify=False,
+        proxies=proxy,
+        timeout=10
+    )
+    # print(response.text)
+    et = etree.HTML(response.text)
+    div_text = et.xpath('//div[@class="result"]/div/text()')[1]
+    if "暂时失效" not in div_text:
+        return True
+    else:
+        return False
+
+
+# 从tonkiang获取可用IP
+def get_tonkiang(key_words):
+    result_urls = []
+    # urls1 = []
+    index = 0
+    data = {
+        "saerch": f"{key_words}",
+        "Submit": " "
+    }
+    url = "http://tonkiang.us/hoteliptv.php"
+    resp = requests.post(url, headers=header, data=data, timeout=10, proxies=proxy)
+    resp.encoding = 'utf-8'
+    # print(resp.text)
+    et = etree.HTML(resp.text)
+    divs = et.xpath('//div[@class="tables"]/div')
+    for div in divs:
+        try:
+            status = div.xpath('./div[3]/div/text()')[0]
+            if "暂时失效" not in status:
+                if index < 1:
+                    url = div.xpath('./div[1]/a/b/text()')[0]
+                    url = url.strip()
+                    if via_tonking(url):
+                        result_urls.append(f'http://{url}')
+                        index += 1
+                else:
+                    break
+            else:
+                continue
+        except:
+            pass
+    return result_urls
+
+
+# 生成文件
+def gen_files(valid_ips, province, isp):
+    # 生成节目列表 省份运营商.txt
+    index = 0
+    print(valid_ips)
+    udp_filename = f'rtp/{province}_{isp}.txt'
+    with open(udp_filename, 'r', encoding='utf-8') as file:
+        data = file.read()
+    txt_filename = f'{province}_{isp}.txt'
+    with open(txt_filename, 'w', encoding='utf-8') as new_file:
+        new_file.write(f'{province}{isp},#genre#\n')
+        for url in valid_ips:
+            if index < 3:
+                new_data = data.replace("rtp://", f"{url[0]}/rtp/")
+                new_file.write(new_data)
+                new_file.write('\n')
+                index += 1
+            else:
+                continue
+
+    print(f'已生成播放列表，保存至{txt_filename}')
+
+
+def filter_files(path, ext):
+    files = os.listdir(path)
+    result = []
+    for file in files:
+        if file.endswith(ext):
+            result.append(file)
+    return result
+
+
+async def via_url(result_url, mcast):
+    valid_ips = []
+    # 遍历所有视频链接
+    # for url in result_urls:
+    video_url = result_url + "/udp/" + mcast
+
+    loop = asyncio.get_running_loop()
+    future_obj = loop.run_in_executor(None, cv2.VideoCapture, video_url)
+    cap = await future_obj
+    # 用OpenCV读取视频
+    # cap = cv2.VideoCapture(video_url)
+
+    # 检查视频是否成功打开
+    if not cap.isOpened():
+        print(f"{time.perf_counter()} {video_url} 无效")
+    else:
+        # 读取视频的宽度和高度
+        width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+        height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+        print(f"{time.perf_counter()} {video_url} 的分辨率为 {width}x{height}")
+        # 检查分辨率是否大于0
+        if width > 0 and height > 0:
+            if len(valid_ips) < 3:
+                valid_ips.append(result_url)
+            else:
+                pass
+        # 关闭视频流
+        cap.release()
+    return valid_ips
+
+
+# 将任务添加到执行队列中去
+async def tasks(url_list, mcast):
+    tasks = [via_url(url, mcast) for url in url_list]
+    ret = await asyncio.gather(*tasks)
+    return ret
+
+
+
+
+import os
+import requests
+import re
+import base64
+import cv2
 import datetime
 from datetime import datetime
 from bs4 import BeautifulSoup
