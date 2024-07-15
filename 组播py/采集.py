@@ -50,60 +50,41 @@ def via_tonking(url):
 
 
 # 从tonkiang获取可用IP
-def get_tonkiang(key_words):
-    result_urls = []
-    # urls1 = []
-    index = 0
-    data = {
-        "saerch": f"{key_words}",
-        "Submit": " "
-    }
-    url = "http://tonkiang.us/hoteliptv.php"
-    resp = requests.post(url, headers=header, data=data, timeout=10, proxies=proxy)
-    resp.encoding = 'utf-8'
-    # print(resp.text)
-    et = etree.HTML(resp.text)
-    divs = et.xpath('//div[@class="tables"]/div')
-    for div in divs:
-        try:
-            status = div.xpath('./div[3]/div/text()')[0]
-            if "暂时失效" not in status:
-                if index < 1:
-                    url = div.xpath('./div[1]/a/b/text()')[0]
-                    url = url.strip()
-                    if via_tonking(url):
-                        result_urls.append(f'http://{url}')
-                        index += 1
-                else:
-                    break
-            else:
-                continue
-        except:
-            pass
-    return result_urls
-
-
-# 生成文件
+# 生成文件函数，接收有效IP列表、省份和运营商作为参数
 def gen_files(valid_ips, province, isp):
-    # 生成节目列表 省份运营商.txt
+    # 初始化索引变量
     index = 0
+    # 打印有效IP列表
     print(valid_ips)
+    # 读取省份运营商对应的UDP文件内容
     udp_filename = f'files/{province}_{isp}.txt'
     with open(udp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
+    # 创建一个新的文本文件，用于存储替换后的播放列表
     txt_filename = f'outfiles/{province}_{isp}.txt'
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
-        new_file.write(f'{province}{isp},#genre#\n')
+        # 写入省份运营商信息和节目类型
+        new_file.write(f'{province}{isp},#genre#
+')
+        # 遍历有效IP列表
         for url in valid_ips:
+            # 如果索引小于3，则进行替换操作
             if index < 3:
+                # 将UDP链接替换为有效的IP地址
                 new_data = data.replace("udp://", f"{url[0]}/udp/")
+                # 将替换后的数据写入新文件
                 new_file.write(new_data)
-                new_file.write('\n')
+                new_file.write('
+')
+                # 索引递增
                 index += 1
             else:
+                # 如果索引大于等于3，跳过当前循环
                 continue
 
+    # 打印提示信息，表示已生成播放列表并保存到指定文件
     print(f'已生成播放列表，保存至{txt_filename}')
+
 
 
 def filter_files(path, ext):
