@@ -45,8 +45,6 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
 
 
 
-
-
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
 keywords = ['环绕']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
@@ -103,13 +101,12 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
-      if '环绕' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '广西', '广东', '武汉', '南宁', '河北']  # 需要提取的关键字列表
+keywords = ['湖南', '武汉', '湖北', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('酒店源.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
