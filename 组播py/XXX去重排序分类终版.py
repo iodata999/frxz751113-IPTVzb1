@@ -193,7 +193,7 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('outfiles/' +'组播源.txt', 'w', encoding="utf-8") as file:
+with open('组播源.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 ##############################
 
