@@ -34,7 +34,8 @@ for province_isp in provinces_isps:
             lines = [line.strip() for line in lines if line.strip()]
         # 获取第一行中以包含 "rtp://" 的值作为 mcast
         if lines:
-            first_line = lines[0]
+            #first_line = lines[0]
+            two_line = lines[0]
             #if "rtp://" in first_line:
             if "rtp://" in two_line:
                 #mcast = first_line.split("rtp://")[1].split(" ")[0]
