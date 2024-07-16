@@ -35,7 +35,8 @@ for province_isp in provinces_isps:
         # 获取第一行中以包含 "rtp://" 的值作为 mcast
         if lines:
             first_line = lines[0]
-            if "rtp://" in first_line:
+            #if "rtp://" in first_line:
+            if "rtp://" in two_line:
                 mcast = first_line.split("rtp://")[1].split(" ")[0]
                 keywords.append(province_isp + "_" + mcast)
     except FileNotFoundError:
