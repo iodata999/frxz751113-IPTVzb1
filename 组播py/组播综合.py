@@ -37,7 +37,8 @@ for province_isp in provinces_isps:
             first_line = lines[0]
             #if "rtp://" in first_line:
             if "rtp://" in two_line:
-                mcast = first_line.split("rtp://")[1].split(" ")[0]
+                #mcast = first_line.split("rtp://")[1].split(" ")[0]
+                mcast = two_line.split("rtp://")[1].split(" ")[0]
                 keywords.append(province_isp + "_" + mcast)
     except FileNotFoundError:
     # 如果文件不存在，则捕获 FileNotFoundError 异常并打印提示信息
