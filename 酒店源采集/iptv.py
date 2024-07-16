@@ -12,7 +12,7 @@ import replace
 import fileinput
 
 #  获取远程港澳台直播源文件
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/ott%E7%A7%BB%E5%8A%A8V6%E5%9B%9E%E6%94%BE.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/V4.txt"          #源采集地址
 r = requests.get(url)
 open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
@@ -49,7 +49,7 @@ urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
     modified_urls = []
