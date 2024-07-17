@@ -182,71 +182,41 @@ def is_url_accessible(url):
 results_hebei = process_url(hebei)
 save_results(results_hebei, "hebei.txt")
 
+
+
 # 处理第2个URL
-results_beijing = process_url(beijing)
-save_results(results_beijing, "beijing.txt")
+results_shanghai = process_url(guangxi)
+save_results(results_shanghai, "guangxi.txt")
 
 # 处理第3个URL
-results_guangdong = process_url(guangdong)
-save_results(results_guangdong, "guangdong.txt")
+results_tianjin = process_url(guigang)
+save_results(results_tianjin, "guigang.txt")
 
 # 处理第4个URL
-results_shanghai = process_url(shanghai)
-save_results(results_shanghai, "shanghai.txt")
+results_fujian = process_url(shaanxi)
+save_results(results_fujian, "shaanxi.txt")
+
 
 # 处理第5个URL
-results_tianjin = process_url(tianjin)
-save_results(results_tianjin, "tianjin.txt")
-
-# 处理第6个URL
-results_chongqing = process_url(chongqing)
-save_results(results_chongqing, "chongqing.txt")
-
-# 处理第7个URL
-results_shanxi = process_url(shanxi)
-save_results(results_shanxi, "shanxi.txt")
-
-# 处理第8个URL
-results_shaanxi = process_url(shaanxi)
-save_results(results_shaanxi, "shaanxi.txt")
-
-# 处理第9个URL
 results_liaoning = process_url(liaoning)
 save_results(results_liaoning, "liaoning.txt")
 
-# 处理第10个URL
-results_jiangsu = process_url(jiangsu)
-save_results(results_jiangsu, "jiangsu.txt")
 
-# 处理第11个URL
-results_zhejiang = process_url(zhejiang)
-save_results(results_zhejiang, "zhejiang.txt")
-
-# 处理第12个URL
-results_anhui = process_url(anhui)
-save_results(results_anhui, "anhui.txt")
-
-# 处理第13个URL
+# 处理第6个URL
 results_fujian = process_url(fujian)
 save_results(results_fujian, "fujian.txt")
 
-# 处理第14个URL
-results_jiangxi = process_url(jiangxi)
-save_results(results_jiangxi, "jiangxi.txt")
 
-# 处理第15个URL
-results_shandong = process_url(shandong)
-save_results(results_shandong, "shandong.txt")
 
-# 处理第16个URL
+# 处理第7个URL
 results_henan = process_url(henan)
 save_results(results_henan, "henan.txt")
 
-# 处理第17个URL
+# 处理第8个URL
 results_hubei = process_url(hubei)
 save_results(results_hubei, "hubei.txt")
 
-# 处理第18个URL
+# 处理第9个18URL
 results_hunan = process_url(hunan)
 save_results(results_hunan, "hunan.txt")
 
