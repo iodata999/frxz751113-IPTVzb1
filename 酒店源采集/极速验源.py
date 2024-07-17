@@ -28,8 +28,7 @@ def process_line(line, output_file):
         output_file.write(line)
         return
     if test_connectivity(channel_url):
-        output_file.write(f"{channel_name},{channel_url}
-")
+        output_file.write(f"{channel_name},{channel_url}\n")
     else:
         return
 
