@@ -1,17 +1,11 @@
-import os
 import requests
 from tqdm import tqdm
 import threading
 import time
-#  获取远程港澳台直播源文件
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
-r = requests.get(url)
-open('1.txt','wb').write(r.content)         #打开源文件并临时写入
-
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=3)
+        response = requests.get(url, timeout=0.2)
         return response.status_code == 200
     except requests.RequestException:
         return False
@@ -31,7 +25,10 @@ def process_line(line, output_file):
 
 with open("1.txt", "r", encoding='utf-8') as source_file, open("output.txt", "w", encoding='utf-8') as output_file:
     lines = source_file.readlines()
-
-    print("任务完成")
-
-
+    for line in tqdm(lines, desc="Processing lines"):
+        thread = threading.Thread(target=process_line, args=(line, output_file))
+        thread.start()
+        thread.join() # 去掉timeout参数，不再设置超时时间
+        if thread.is_alive():
+            #print(f"Skipping line due to timeout: {line}") # 注释掉这行代码，因为已经去掉了超时处理逻辑
+            continue # 保留这行代码，确保在线程仍在运行时跳过当前行继续处理下一行数据
