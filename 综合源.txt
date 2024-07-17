@@ -1588,7 +1588,8 @@ RTP频道,#genre#
 泗阳,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzx
 泗阳,rtmp://siyang-tv-hls.cm.jstv.com/siyang-tv/siyangzh
 沭阳,rtmp://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh
-﻿凤凰中文台,http://110.185.171.226:96/yximgs.php?id=182
+﻿港澳频道,#genre#
+凤凰中文台,http://110.185.171.226:96/yximgs.php?id=182
 凤凰资讯台,http://110.185.171.226:96/yximgs.php?id=183
 凤凰香港台,http://110.185.171.226:96/yximgs.php?id=184
 TVB娱乐新闻,http://110.185.171.226:96/yximgs.php?id=10
