@@ -1,18 +1,17 @@
-﻿import requests
+import os
+import requests
 from tqdm import tqdm
 import threading
-import os
-
+import time
 #  获取远程港澳台直播源文件
 url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
 r = requests.get(url)
 open('1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
-
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=1)
+        response = requests.get(url, timeout=5)
         return response.status_code == 200
     except requests.RequestException:
         return False
@@ -39,6 +38,11 @@ with open("1.txt", "r", encoding='utf-8') as source_file, open("output.txt", "w"
         if thread.is_alive():
             print(f"Skipping line due to timeout: {line}")
             continue
+    print("任务完成")
 
-os.remove("1.txt")
-print("任务运行完毕")
+# 获取当前操作系统类型
+os_type = os.name
+if os_type == 'nt':  # Windows系统
+    os.system('taskkill /F /IM 极速验源.py')
+elif os_type == 'posix':  # Linux或macOS系统
+    os.system('pkill -f python')
