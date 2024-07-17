@@ -40,9 +40,4 @@ with open("1.txt", "r", encoding='utf-8') as source_file, open("output.txt", "w"
             continue
     print("任务完成")
 
-# 获取当前操作系统类型
-os_type = os.name
-if os_type == 'nt':  # Windows系统
-    os.system('taskkill /F /IM 极速验源.py')
-elif os_type == 'posix':  # Linux或macOS系统
-    os.system('pkill -f python')
+
