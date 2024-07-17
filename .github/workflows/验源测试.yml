@@ -1,0 +1,47 @@
+name: 速度测试
+
+on:
+  #schedule:
+    #- cron: '10 */6 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  workflow_dispatch:
+    分支:
+      - main
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+    
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - name: Install dependencies
+        run: |
+              pip install selenium requests futures eventlet
+              pip install opencv-python requests
+              pip install Beautifulsoup4 requests
+              pip install translate requests
+              pip install ffmpy
+              pip install termcolor
+              pip install func_timeout
+              pip install replace
+              pip install input
+              pip install opencc
+              pip install pypinyin
+              pip install pytz  
+      - name: Run iptv
+        #run: python ${{ github.workspace }}/组播py/组播综合.py 
+        run: python ${{ github.workspace }}/酒店源采集/iptv1.py
+      - name: 提交更改
+        run: |
+          git config --local user.email "actions@126.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit *.txt -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
+          #git pull --rebase
+          git push -f
