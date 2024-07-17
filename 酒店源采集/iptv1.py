@@ -80,12 +80,4 @@ channels.sort(key=lambda x: channel_key(x[0]))
 with open("IPTV_list.txt", 'w', encoding='utf-8') as file:
     for channel_name,channel_url in channels:
         file.write(f'{channel_name},{channel_url}')
-os.remove("iptv.txt")
-os.remove("hb.txt")
-os.remove("gx.txt")
-os.remove("gg.txt")
-os.remove("ln.txt")
-os.remove("fj.txt")
-os.remove("sx.txt")
-os.remove("hn.txt")
-print("任务运行完毕")
+
