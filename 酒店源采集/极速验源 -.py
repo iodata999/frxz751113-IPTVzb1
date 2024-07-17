@@ -2,6 +2,12 @@
 from tqdm import tqdm
 import threading
 
+#  获取远程港澳台直播源文件
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/汇总.txt"          #源采集地址
+r = requests.get(url)
+open('1.txt','wb').write(r.content)         #打开源文件并临时写入
+
+
 def test_connectivity(url):
     try:
         response = requests.get(url, timeout=0.3)
