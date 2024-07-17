@@ -11,7 +11,7 @@ open('1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, timeout=0.1)
         return response.status_code == 200
     except requests.RequestException:
         return False
@@ -31,13 +31,7 @@ def process_line(line, output_file):
 
 with open("1.txt", "r", encoding='utf-8') as source_file, open("output.txt", "w", encoding='utf-8') as output_file:
     lines = source_file.readlines()
-    for line in tqdm(lines, desc="Processing lines"):
-        thread = threading.Thread(target=process_line, args=(line, output_file))
-        thread.start()
-        thread.join(timeout=5)
-        if thread.is_alive():
-            print(f"Skipping line due to timeout: {line}")
-            continue
+
     print("任务完成")
 
 
