@@ -6,15 +6,13 @@ import requests
 import json
 import re
 import os
-1 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki"        #河北
-2 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D"   #广西
-3 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci"   #贵港
-4 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D"    #陕西
-5 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
-6 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iRnVqaWFuIg%3D%3D"    #福建
-7 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D"    #河南
-8 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5YyXIg%3D%3D"    #湖北
-9 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"    #湖南
+hb = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki"        #河北
+gx = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D"   #广西
+gg = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci"   #贵港
+sx = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D"    #陕西
+ln = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
+fj = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iRnVqaWFuIg%3D%3D"    #福建
+hn = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D"    #河南
 
 def process_url(url):
     # 创建一个Chrome WebDriver实例
@@ -179,50 +177,42 @@ def is_url_accessible(url):
     return None
 
 # 处理第1个URL
-results_1 = process_url(1)
-save_results(results_1, "1.txt")
+results_1 = process_url(hb)
+save_results(results_1, "hb.txt")
 
 
 
 # 处理第2个URL
-results_shanghai = process_url(2)
-save_results(results_shanghai, "2.txt")
+results_shanghai = process_url(gx)
+save_results(results_shanghai, "gx.txt")
 
 # 处理第3个URL
-results_tianjin = process_url(3)
-save_results(results_tianjin, "3.txt")
+results_tianjin = process_url(gg)
+save_results(results_tianjin, "gg.txt")
 
 # 处理第4个URL
-results_6 = process_url(4)
-save_results(results_6, "4.txt")
+results_6 = process_url(ln)
+save_results(results_6, "ln.txt")
 
 
 # 处理第5个URL
-results_5 = process_url(5)
-save_results(results_5, "5.txt")
+results_5 = process_url(fj)
+save_results(results_5, "fj.txt")
 
 
 # 处理第6个URL
-results_6 = process_url(6)
-save_results(results_6, "6.txt")
+results_6 = process_url(sx)
+save_results(results_6, "sx.txt")
 
 
 
 # 处理第7个URL
-results_7 = process_url(7)
-save_results(results_7, "7.txt")
-
-# 处理第8个URL
-results_8 = process_url(8)
-save_results(results_8, "8.txt")
-
-# 处理第9个18URL
-results_9 = process_url(9)
-save_results(results_9, "9.txt")
+results_7 = process_url(hn)
+save_results(results_7, "hn.txt")
 
 # 合并文件内容
 file_contents = []
-file_paths = ["1.txt", "2.txt", "3.txt", "4.txt", "5.txt", "6.txt", "7.txt", "8.txt", "9.txt"]  # 替换为实际的文件路径列表
+file_paths = ["hb.txt", "gx.txt", "gg.txt", "ln.txt", "fj.txt", "sx.txt", "hn.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -313,13 +303,11 @@ with open("IPTV_list.txt", 'w', encoding='utf-8') as file:
     for channel_name,channel_url in channels:
         file.write(f'{channel_name},{channel_url}')
 os.remove("iptv.txt")
-os.remove("1.txt")
-os.remove("2.txt")
-os.remove("3.txt")
-os.remove("4.txt")
-os.remove("5.txt")
-os.remove("6.txt")
-os.remove("7.txt")
-os.remove("8.txt")
-os.remove("9.txt")
+os.remove("hb.txt")
+os.remove("gx.txt")
+os.remove("gg.txt")
+os.remove("ln.txt")
+os.remove("fj.txt")
+os.remove("sx.txt")
+os.remove("hn.txt")
 print("任务运行完毕")
