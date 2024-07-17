@@ -1,5 +1,3 @@
-
-
 import re
 import requests
 import concurrent.futures
@@ -12,13 +10,16 @@ def test_speed(channel_name, channel_url):
         if response.status_code == 200:
             # 如果响应状态码为200，计算响应时间并返回频道名称、频道URL和响应时间
             speed = response.elapsed.total_seconds()
-            return channel_name, channel_url, f"{speed:.3f} seconds"
+            return (channel_name, channel_url, f"{speed:.3f} seconds")
         else:
             # 如果响应状态码不为200，返回频道名称、频道URL和失败信息
-            return channel_name, channel_url, "Failed"
+            return (channel_name, channel_url, "Failed")
     except:
         # 如果发生异常，返回频道名称、频道URL和失败信息
-        return channel_name, channel_url, "Failed"
+        return (channel_name, channel_url, "Failed")
+
+# 其他部分的代码保持不变
+
 
 # 定义一个函数，用于提取频道名称中的数字作为关键字
 def channel_key(channel):
