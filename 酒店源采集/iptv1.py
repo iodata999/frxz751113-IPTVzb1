@@ -6,15 +6,15 @@ import requests
 import json
 import re
 
-hebei = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki"        #河北
-guangxi = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D"   #广西
-guigang = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci"   #贵港
-shaanxi = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D"    #陕西
-liaoning = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
-fujian = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iRnVqaWFuIg%3D%3D"    #福建
-henan = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D"    #河南
-hubei = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5YyXIg%3D%3D"    #湖北
-hunan = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"    #湖南
+1 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki"        #河北
+2 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D"   #广西
+3 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci"   #贵港
+4 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D"    #陕西
+5 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
+6 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iRnVqaWFuIg%3D%3D"    #福建
+7 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D"    #河南
+8 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5YyXIg%3D%3D"    #湖北
+9 = "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"    #湖南
 
 def process_url(url):
     # 创建一个Chrome WebDriver实例
@@ -179,50 +179,50 @@ def is_url_accessible(url):
     return None
 
 # 处理第1个URL
-results_hebei = process_url(hebei)
-save_results(results_hebei, "hebei.txt")
+results_1 = process_url(1)
+save_results(results_1, "1.txt")
 
 
 
 # 处理第2个URL
-results_shanghai = process_url(guangxi)
-save_results(results_shanghai, "guangxi.txt")
+results_shanghai = process_url(2)
+save_results(results_shanghai, "2.txt")
 
 # 处理第3个URL
-results_tianjin = process_url(guigang)
-save_results(results_tianjin, "guigang.txt")
+results_tianjin = process_url(3)
+save_results(results_tianjin, "3.txt")
 
 # 处理第4个URL
-results_fujian = process_url(shaanxi)
-save_results(results_fujian, "shaanxi.txt")
+results_6 = process_url(4)
+save_results(results_6, "4.txt")
 
 
 # 处理第5个URL
-results_liaoning = process_url(liaoning)
-save_results(results_liaoning, "liaoning.txt")
+results_5 = process_url(5)
+save_results(results_5, "5.txt")
 
 
 # 处理第6个URL
-results_fujian = process_url(fujian)
-save_results(results_fujian, "fujian.txt")
+results_6 = process_url(6)
+save_results(results_6, "6.txt")
 
 
 
 # 处理第7个URL
-results_henan = process_url(henan)
-save_results(results_henan, "henan.txt")
+results_7 = process_url(7)
+save_results(results_7, "7.txt")
 
 # 处理第8个URL
-results_hubei = process_url(hubei)
-save_results(results_hubei, "hubei.txt")
+results_8 = process_url(8)
+save_results(results_8, "8.txt")
 
 # 处理第9个18URL
-results_hunan = process_url(hunan)
-save_results(results_hunan, "hunan.txt")
+results_9 = process_url(9)
+save_results(results_9, "9.txt")
 
 # 合并文件内容
 file_contents = []
-file_paths = ["hebei.txt", "guangxi.txt", "guigang.txt", "shaanxi.txt", "liaoning.txt", "fujian.txt", "henan.txt", "hubei.txt", "hunan.txt"]  # 替换为实际的文件路径列表
+file_paths = ["1.txt", "2.txt", "3.txt", "4.txt", "5.txt", "6.txt", "7.txt", "8.txt", "9.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
