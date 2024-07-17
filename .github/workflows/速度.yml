@@ -27,7 +27,7 @@ jobs:
         pip install requests tqdm
 
     - name: Run script
-      run: python 酒店源采集极速验源.py
+      run: python 酒店源采集/极速验源.py
       # Replace 'your_script.py' with the actual name of your Python script
     - name: Commit and push updated output file
       run: |
