@@ -9,10 +9,6 @@ r = requests.get(url)
 open('1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 
-import requests
-from tqdm import tqdm
-import threading
-import time
 
 def test_connectivity(url):
     try:
