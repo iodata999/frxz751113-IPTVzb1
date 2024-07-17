@@ -163,8 +163,8 @@ for url in urls:
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
                         if 'http' in urlx:
                             urld = f"{urlx}"
-                              if 'udp' in urlx and 'rtp' in urlx:
-                                  pass               
+                         if 'udp' in urlx and 'rtp' in urlx:
+                             pass               
                         else:
                             urld = f"{url_x}{urlx}"
 
