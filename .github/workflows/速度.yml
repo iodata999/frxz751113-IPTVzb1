@@ -7,42 +7,35 @@ on:
     分支:
       - main
       
+
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-    
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.x
-      - name: Install dependencies
-        run: |
-              pip install selenium requests futures eventlet
-              pip install opencv-python requests
-              pip install Beautifulsoup4 requests
-              pip install translate requests
-              pip install ffmpy
-              pip install termcolor
-              pip install func_timeout
-              pip install replace
-              pip install input
-              pip install opencc
-              pip install pypinyin
-              pip install pytz
-              pip install tqdm
-      - name: Run iptv
+    - uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests tqdm
+
+    - name: Run iptv
         #run: python ${{ github.workspace }}/组播py/组播综合.py 
         run: python ${{ github.workspace }}/酒店源采集/极速验源.py
-      - name: 提交更改
-        run: |
-          git config --local user.email "actions@126.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit *.txt -m "Add generated file"
-          #git commit *.m3u -m "Add generated file"
-          #git pull --rebase
-          git push -f
+      # Replace 'your_script.py' with the actual name of your Python script
+
+    - name: Commit and push updated output file
+      run: |
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+        git add output.txt
+        git commit -m "Update output file" || echo "No changes to commit"
+        git push origin main
+
