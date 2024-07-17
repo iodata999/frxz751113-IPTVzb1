@@ -15,7 +15,7 @@ import time
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, timeout=1)
         return response.status_code == 200
     except requests.RequestException:
         return False
@@ -29,8 +29,7 @@ def process_line(line, output_file):
         output_file.write(line)
         return
     if test_connectivity(channel_url):
-        output_file.write(f"{channel_name},{channel_url}
-")
+        output_file.write(f"{channel_name},{channel_url}\n")
     else:
         return
 
