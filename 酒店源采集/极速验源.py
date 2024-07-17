@@ -1,6 +1,7 @@
 ﻿import requests
 from tqdm import tqdm
 import threading
+import os
 
 #  获取远程港澳台直播源文件
 url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
