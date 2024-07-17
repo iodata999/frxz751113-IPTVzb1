@@ -280,14 +280,14 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
 results.sort(key=lambda x: (x[0], x[2]))
 
 # 将排序后的结果写入speed_results.txt文件
-with open("speed_results.txt", 'w', encoding='utf-8') as file:
+with open("IPTV_list.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
         file.write(f"{channel_name},{channel_url},{speed}")
 
 # 从speed_results.txt文件中读取有效的频道信息（即响应时间不为"Failed"）
 channels = []
-with open("speed_results.txt", 'r', encoding='utf-8') as file:
+with open("IPTV_list.txt", 'r', encoding='utf-8') as file:
     for line in file:
         line = line.strip()
         if line:
