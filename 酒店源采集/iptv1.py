@@ -222,7 +222,7 @@ save_results(results_hunan, "hunan.txt")
 
 # 合并文件内容
 file_contents = []
-file_paths = ["hebei.txt", "beijing.txt", "guangdong.txt", "shanghai.txt", "tianjin.txt", "chongqing.txt", "shanxi.txt", "shaanxi.txt", "liaoning.txt", "jiangsu.txt", "zhejiang.txt", "anhui.txt", "fujian.txt", "jiangxi.txt", "shandong.txt", "henan.txt", "hubei.txt", "hunan.txt"]  # 替换为实际的文件路径列表
+file_paths = ["hebei.txt", "guangxi.txt", "guigang.txt", "shaanxi.txt", "liaoning.txt", "fujian.txt", "henan.txt", "hubei.txt", "hunan.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
