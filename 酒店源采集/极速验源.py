@@ -43,4 +43,4 @@ with open("1.txt", "r", encoding='utf-8') as source_file, open("output.txt", "w"
             print(f"Skipping line due to timeout: {line}")
             continue
 print("任务完成完毕")
-    print(data)
+print(data)
