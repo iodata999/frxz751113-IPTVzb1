@@ -93,7 +93,7 @@ def process_url(url):
             response = requests.get(json_url, timeout=0.5)
             json_data = response.json()
 
-            try:
+        try:
                 # 解析JSON文件，获取name和url字段
                 for item in json_data['data']:
                     if isinstance(item, dict):
@@ -103,6 +103,19 @@ def process_url(url):
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
+                        results.append((name, urld))
+            except KeyError:
+                pass
+        except ValueError:
+            continue
+
+    return results
+
+# 调用函数并打印结果
+url = "http://example.com"  # 替换为你要访问的网页地址
+result = process_url(url)
+for name, url in result:
+    print(f"{name}: {url}")
 
                         if name and urlx:
                             # 删除特定文字
