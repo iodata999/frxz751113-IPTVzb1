@@ -33,7 +33,7 @@ jobs:
       run: |
         git config user.name "GitHub Actions"
         git config user.email "actions@github.com"
-        git add output.txt
+        git add 有效源.txt
         git commit -m "Update output file" || echo "No changes to commit"
         git push origin main
 
