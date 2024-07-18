@@ -2,6 +2,25 @@
 from tqdm import tqdm
 import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import time
+import concurrent.futures
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import requests
+import re
+import os
+from queue import Queue
+from datetime import datetime
+import replace
+import fileinput
+
+#  获取远程港澳台直播源文件
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
+r = requests.get(url)
+open('1.txt','wb').write(r.content)         #打开源文件并临时写入
+
+
+
 
 def test_connectivity(url):
     try:
@@ -38,5 +57,5 @@ with open("1.txt", "r", encoding='utf-8') as source_file, open("有效源.txt", 
                 valid_count += 1
             else:
                 invalid_count += 1
-
+#os.remove("1.txt")
 print("任务完成，输出有效源.txt")
