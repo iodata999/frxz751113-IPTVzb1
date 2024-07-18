@@ -93,7 +93,7 @@ def process_url(url):
             response = requests.get(json_url, timeout=0.5)
             json_data = response.json()
 
-        try:
+            try:
                 # 解析JSON文件，获取name和url字段
                 for item in json_data['data']:
                     if isinstance(item, dict):
