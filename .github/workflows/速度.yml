@@ -25,15 +25,14 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests tqdm
-
-    - name: Run script
-      run: python 酒店源采集/极速验源.py
-      # Replace 'your_script.py' with the actual name of your Python script
-    - name: Commit and push updated output file
-      run: |
-        git config user.name "GitHub Actions"
-        git config user.email "actions@github.com"
-        git add 有效源.txt
-        git commit -m "Update output file" || echo "No changes to commit"
-        git push origin main
-
+      - name: Run iptv
+        run: python ${{ github.workspace }}/酒店源采集/极速验源.py
+      - name: 提交更改
+        run: |
+          git config --local user.email "actions@126.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit *.txt -m "Add generated file"
+          #git commit *.m3u -m "Add generated file"
+          #git pull --rebase
+          git push -f
