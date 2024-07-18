@@ -18,7 +18,7 @@ import time
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=0.3)
+        response = requests.get(url, timeout=3)
         return response.status_code == 200
     except requests.RequestException:
         return False
