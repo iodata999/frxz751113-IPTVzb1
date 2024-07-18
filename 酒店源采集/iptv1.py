@@ -12,22 +12,17 @@ import replace
 import fileinput
 
 #  获取远程港澳台直播源文件
-url = "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Fairy8o/IPTV/main/DIYP-v4.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
 r = requests.get(url)
-open('DIYP-v4.txt','wb').write(r.content)         #打开源文件并临时写入
+open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
-
-for line in fileinput.input("DIYP-v4.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("输入原字符", "替换后的字符")                         #编辑替换字
-    print(line, end="")                                     #加入此行去掉多余的转行符
-
-
-keywords = ['重温经典', ' 8M1080,']  # 需要提取的关键字列表 8M1080
+keywords = ['']  # 需要提取的关键字列表，留空则全局选择
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('DIYP-v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    TW.write('\n数字频道,#genre#\n')
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
+with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
+    #TW.write('\n央视频道,#genre#\n')
     for line in file:
+      for "genre" not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
           TW.write(line)  # 将该行写入输出文件
 
@@ -46,17 +41,15 @@ with open("GAT.txt", "w", encoding="utf-8") as output:
 # 扫源测绘空间地址
 # 搜素关键词："iptv/live/zh_cn.js" && country="CN" && region="Hunan" && city="changsha"
 # 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
+#"isShowLoginJs"智能KUTV管理
+
 urls = [
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA5NiI%3D",#8096
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",#河南
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # 河北
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODA4MiI%3D",  # 8082
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODg4OCI%3D",  # 8888
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTk5OSI%3D",#9999
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTk5OCI%3D",#9998
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTkwMSI%3D",#9901
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIGNpdHk9Imd1aWdhbmci",  # 贵港
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTk5MDEi",#19901
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSI%3D",#8181
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIgJiYgcG9ydD0iOTkwMCI%3D",  #湖北9000,已存活1年
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
@@ -77,7 +70,7 @@ def modify_urls(url):
 
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=3)          ###//////////////////
+        response = requests.get(url, timeout=2)          ###//////////////////
         if response.status_code == 200:
             return url
     except requests.exceptions.RequestException:
@@ -168,27 +161,38 @@ for url in urls:
                             urlx = f"aaaaaaaa"
 
                         #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
-                        if 'http' in urlx or 'rtsp' in urlx:
+                        if 'http' in urlx:
+                          if 'udp' not in url and 'rtp' not in url and ':1111' not in url:
                             urld = f"{urlx}"
                         else:
                             urld = f"{url_x}{urlx}"
 
                         if name and urld:
-                            # 替换特定文字
+                            name = name.replace("高清电影", "影迷电影")                            
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
                             name = name.replace("HD", "")
                             name = name.replace("标清", "")
                             name = name.replace("超高", "")
                             name = name.replace("频道", "")
+                            name = name.replace("汉1", "汉")
+                            name = name.replace("汉2", "汉")
+                            name = name.replace("汉3", "汉")
+                            name = name.replace("汉4", "汉")
+                            name = name.replace("汉5", "汉")
+                            name = name.replace("汉6", "汉")
+                            name = name.replace("CHC动", "动")
+                            name = name.replace("CHC家", "家")
+                            name = name.replace("CHC影", "影")
                             name = name.replace("-", "")
                             name = name.replace(" ", "")
                             name = name.replace("PLUS", "+")
                             name = name.replace("＋", "+")
                             name = name.replace("(", "")
                             name = name.replace(")", "")
+                            name = name.replace("CHC", "")
                             name = name.replace("L", "")
-                            name = name.replace("测试001", "TVB星河")
+                            name = name.replace("002", "AA酒店MV")
                             name = name.replace("测试002", "凤凰卫视")
                             name = name.replace("测试003", "凤凰卫视")
                             name = name.replace("测试004", "私人影院")
@@ -198,16 +202,13 @@ for url in urls:
                             name = name.replace("测试008", "AXN电影")
                             name = name.replace("测试009", "好莱坞电影")
                             name = name.replace("测试010", "龙祥电影")
-                            name = name.replace("测试016", "澳门莲花")
-                            name = name.replace("测试011", "凤凰香港")
+                            name = name.replace("莲花台", "凤凰香港")
                             name = name.replace("测试014", "凤凰资讯")
-                            name = name.replace("测试015", "星空")
+                            name = name.replace("测试015", "未知影视")
+                            name = name.replace("TV星河", "空")
                             name = name.replace("305", "酒店影视1")
                             name = name.replace("306", "酒店影视2")
                             name = name.replace("307", "酒店影视3")
-                            name = name.replace("024", "TVB星河")
-                            name = name.replace("010", "东森电影 低分")
-                            name = name.replace("011", "东森洋片 低分")
                             name = name.replace("CMIPTV", "")
                             name = name.replace("cctv", "CCTV")
                             name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
@@ -276,7 +277,8 @@ for url in urls:
                             name = name.replace("TV星河2）", "星河")
                             name = name.replace("影视剧", "影视")
                             name = name.replace("电视剧", "影视")
-                            name = name.replace("卡", "")
+                            name = name.replace("奥运匹克", "")
+                            name = name.replace("星空卫视", "动物杂技")
                             results.append(f"{name},{urld}")
             except:
                 continue
@@ -296,6 +298,24 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt获取完成！")
+with open("iptv.txt", 'r', encoding="utf-8") as f:
+    lines = f.readlines()
+    before = len(lines)
+    lines = list(set(lines))
+    after = len(lines)
+lines.sort()#排序
+
+with open('iptv.txt', 'w', encoding='UTF-8') as f:
+    for line in lines:          
+      f.write(line)
+print('对列表进行去重处理:')
+print(f'处理前文件行数：{before}')
+print(f'处理后文件行数：{after}')
+
+
+for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符     
 
 import eventlet
 
@@ -338,7 +358,7 @@ def worker():
                 start_time = time.time()
                 content = requests.get(ts_url).content
                 end_time = time.time()
-                response_time = (end_time - start_time) * 1.5
+                response_time = (end_time - start_time) * 1
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
@@ -395,29 +415,15 @@ def channel_key(channel_name):
 # 对频道进行排序
 results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
-result_counter = 3  # 每个频道需要的个数
+result_counter = 88  # 每个频道需要的个数
 
 with open("hn.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
-    file.write('央视频道,#genre#\n')
+    file.write('央视频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name or 'CCTV3' in channel_name or 'CCTV6' in channel_name or 'CCTV8' in channel_name or 'CCTV13' in channel_name or 'CCTV15' in channel_name or '4K' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-
-    channel_counters = {}
-    file.write('卫视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '湖北卫视' in channel_name or '凤凰卫视' in channel_name or '湖南卫视' in channel_name or '卫视' in channel_name or '江苏卫视' in channel_name or '山东卫视' in channel_name or '安徽卫视' in channel_name or '北京卫视' in channel_name or '广东卫视' in channel_name or '广东珠江' in channel_name or '贵州卫视' in channel_name:
+        if 'CCTV' in channel_name or '动作' in channel_name or '家庭' in channel_name or '影迷' in channel_name or '爱上' in channel_name or 'CETV' in channel_name:
+          if '剧场' not in channel_name and '风云' not in channel_name and '教育' not in channel_name and '经典' not in channel_name:  
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
@@ -429,13 +435,133 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
 
+    channel_counters = {}
+    file.write('卫视频道1,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '重温经典' in channel_name:
+          if '凤凰' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1  
+    
+    
+    
+    channel_counters = {}
+    file.write('卫视频道1,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '卫视' in channel_name:
+          if '凤凰' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
 
 
     channel_counters = {}
-    file.write('港澳频道,#genre#\n')
+    file.write('省市频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
-        if '龙祥' in channel_name or '翡翠' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '澳门莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or 'TVB星河' in channel_name or '私人' in channel_name or '凤凰' in channel_name or '星空' in channel_name:
+        if '湖' in channel_name or '河北' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+    channel_counters = {}
+    file.write('省市频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '武汉' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}
+    file.write('省市频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '河北' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+
+    channel_counters = {}
+    file.write('省市频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '广' in channel_name or '珠江台测试' in channel_namee or '南宁' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '购物' not in channel_name:  
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+    
+
+    channel_counters = {}
+    file.write('少儿动漫,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '卡通' in channel_name or '少儿动画' in channel_name or '哈哈' in channel_name or '动漫秀场' in channel_name:
+          if 'CCTV' not in channel_name and '卫视' not in channel_name and '湖' not in channel_name and '广' not in channel_name and '河' not in channel_name and '黑' not in channel_name and '保' not in channel_name and '宁' not in channel_name and '家庭' not in channel_name and '影迷' not in channel_name and '动作' not in channel_name and '武汉' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+    
+    
+
+
+   
+       channel_counters = {}
+    file.write('港澳频道1,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
           #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -446,6 +572,15 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
             else:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
+
+    
+
+
+
+
+
+
+
       
 # 合并自定义频道文件内容
 file_contents = []
@@ -458,12 +593,38 @@ for file_path in file_paths:
 # 写入合并后的文件
 with open("酒店源.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
+for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("AA", "")
+    line = line.replace("\n电影,", "\n影迷电影,")
+    print(line, end="")  #设置end=""，避免输出多余的换行符  
+
+#########原始顺序去重，以避免同一个频道出现在不同的类中
+with open('酒店源.txt', 'r', encoding="utf-8") as file:
+ lines = file.readlines()
+# 使用列表来存储唯一的行的顺序 
+ unique_lines = [] 
+ seen_lines = set() 
+# 遍历每一行，如果是新的就加入unique_lines 
+for line in lines:
+ if line not in seen_lines:
+  unique_lines.append(line)
+  seen_lines.add(line)
+# 将唯一的行写入新的文档 
+with open('酒店源.txt', 'w', encoding="utf-8") as file:
+ file.writelines(unique_lines)
+#####################
+with open("酒店源.txt", "w", encoding="utf-8") as output:
+    output.write('\n'.join(file_contents))
+for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("港澳频道1", "港澳频道")
+    line = line.replace("\n电影,", "\n影迷电影,")
+    print(line, end="")  #设置end=""，避免输出多余的换行符  
 
 
 os.remove("iptv.txt")
 os.remove("GAT.txt")
 os.remove("hn.txt")
 #os.remove("HK.txt")
-os.remove("DIYP-v4.txt")
 os.remove("TW.txt")
+os.remove("ott移动v4.txt")
 print("任务运行完毕")
