@@ -17,7 +17,7 @@ open('1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=3)
+        response = requests.get(url, timeout=0.5)
         return response.status_code == 200
     except requests.RequestException:
         return False
