@@ -159,10 +159,10 @@ for name, url in result:
         else:
             results.append(f"{name},{url}")
 
-            except:
-                continue
         except:
-            continue
+             continue
+    except:
+         continue
 
     return results
 def save_results(results, filename):
