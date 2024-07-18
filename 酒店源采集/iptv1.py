@@ -335,8 +335,7 @@ results.sort(key=lambda x: (x[0], x[2]))
 with open("IPTV1_list", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url, speed = result
-        file.write(f"{channel_name},{channel_url},{speed}
-")
+        file.write(f"{channel_name},{channel_url},{speed}")
 
 # 从IPTV_list文件中读取有效的频道信息（即响应时间不为"Failed"）
 channels = []
@@ -354,8 +353,7 @@ channels.sort(key=lambda x: channel_key(x[0]))
 # 将排序后的频道信息写入IPTV_speed.txt文件
 with open("酒店源.txt", 'w', encoding='utf-8') as file:
     for channel_name,channel_url in channels:
-        file.write(f'{channel_name},{channel_url}
-')
+        file.write(f'{channel_name},{channel_url}')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
