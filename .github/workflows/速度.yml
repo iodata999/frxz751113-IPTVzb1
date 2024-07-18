@@ -25,9 +25,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests tqdm
-      - name: Run iptv
+    - name: Run iptv
         run: python ${{ github.workspace }}/酒店源采集/极速验源.py
-      - name: 提交更改
+    - name: 提交更改
         run: |
           git config --local user.email "actions@126.com"
           git config --local user.name "GitHub Action"
