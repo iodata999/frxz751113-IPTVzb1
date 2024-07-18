@@ -17,7 +17,7 @@ open('1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 def test_connectivity(url):
     try:
-        response = requests.get(url, timeout=0.2)
+        response = requests.get(url, timeout=3)
         return response.status_code == 200
     except requests.RequestException:
         return False
@@ -69,7 +69,7 @@ with open("1.txt", "r", encoding='utf-8') as source_file:
     for t in threads:
         t.join()
 
-    with open("有效原.txt", "w", encoding='utf-8') as output_file:
+    with open("有效源.txt", "w", encoding='utf-8') as output_file:
         for item in output_list:
             output_file.write(item)
 
