@@ -26,16 +26,7 @@ with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w',
         if re.search(pattern, line):  # 如果行中有任意关键字
           TW.write(line)  # 将该行写入输出文件
 
-# 读取要合并的香港频道和台湾频道文件
-file_contents = []
-file_paths = ["TW.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-# 生成合并后的文件
-with open("GAT.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+
 
 
 # 扫源测绘空间地址
@@ -486,23 +477,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
-    channel_counters = {}
-    file.write('港澳频道1,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
-          #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
 
-    
 
     channel_counters = {}
     file.write('省市频道,#genre#\n')
@@ -590,18 +565,33 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
    
-   
 
 
 
+    channel_counters = {}
+    file.write('港澳频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '龙祥' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
+          #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
 
+    
 
 
 
       
 # 合并自定义频道文件内容
 file_contents = []
-file_paths = ["GAT.txt", "hn.txt"]  # 替换为实际的文件路径列表
+file_paths = ["hn.txt", "TW.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -633,9 +623,7 @@ with open('酒店源.txt', 'w', encoding="utf-8") as file:
 
 
 os.remove("iptv.txt")
-os.remove("GAT.txt")
 os.remove("hn.txt")
-#os.remove("HK.txt")
 os.remove("TW.txt")
 os.remove("ott移动v4.txt")
 print("任务运行完毕")
