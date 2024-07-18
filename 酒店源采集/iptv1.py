@@ -117,7 +117,7 @@ result = process_url(url)
 for name, url in result:
     print(f"{name}: {url}")
 
-                        if name and urlx:
+    if name and urlx:
                             # 删除特定文字
                             name = name.replace("中央", "CCTV")
                             name = name.replace("高清", "")
