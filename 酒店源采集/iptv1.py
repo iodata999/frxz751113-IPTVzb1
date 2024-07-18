@@ -557,7 +557,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
 
 
    
-       channel_counters = {}
+    channel_counters = {}
     file.write('港澳频道1,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
