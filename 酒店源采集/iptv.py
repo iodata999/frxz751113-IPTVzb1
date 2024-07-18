@@ -373,7 +373,7 @@ def worker():
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
             
             # 获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(128, False):  #################///////////////////////////////////
+            with eventlet.Timeout(16, False):  #################///////////////////////////////////
                 start_time = time.time()
                 content = session.get(ts_url).content
                 end_time = time.time()
@@ -404,7 +404,7 @@ def worker():
         task_queue.task_done()
 
 # 创建多个工作线程
-num_threads = 256
+num_threads = 4
 for _ in range(num_threads):
     t = threading.Thread(target=worker, daemon=True)
     t.start()
