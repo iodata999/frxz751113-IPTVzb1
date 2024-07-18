@@ -599,7 +599,7 @@ for file_path in file_paths:
 
 # 写入合并后的文件
 with open("酒店源.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
+    output.write(''.join(file_contents))#\n
 for line in fileinput.input("酒店源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("AA", "")
     line = line.replace("\n电影,", "\n影迷电影,")
