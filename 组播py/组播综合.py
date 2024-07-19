@@ -350,9 +350,9 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/自用源.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
-#keywords = ['http', 'rtmp']  # 需要提取的关键字列表 8M1080
-#pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
+keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
 with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
