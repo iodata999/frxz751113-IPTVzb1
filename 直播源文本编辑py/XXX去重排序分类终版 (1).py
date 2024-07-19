@@ -36,7 +36,7 @@ with open('2.txt', 'r', encoding='utf-8') as file:
 with open('2.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:    #####定义临时文件名
     a.write('\n央视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'genre' not in line:
+      if 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          a.write(line)  # 将该行写入输出文件 
 
@@ -47,13 +47,13 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:    #####定义临时文件名
     b.write('\n卫视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'genre' not in line:        
+      if 'genre' not in line and 'epg' not in line:       
         if re.search(pattern, line):  # 如果行中有任意关键字
          b.write(line)  # 将该行写入输出文件
 
          
 ################
-keywords = ['爱情', '重温经典', '军事评论', '农业致富', '哒啵赛事', '怡伴健康', '明星大片', '武博世界', '炫舞未来', '精品体育', '精品萌宠', '精品记录', '超级体育', '超级', '金牌', \
+keywords = ['爱情', '重温经典', '军事评论', '农业致富', '哒啵赛事', '怡伴健康', '明星大片', '武博世界', '中国功夫', '军旅', '炫舞未来', '精品体育', '精品萌宠', '精品记录', '超级体育', '超级', '金牌', \
             '东北热剧', '中国功夫', '军旅剧场', '古装剧场', '家庭剧场', '惊悚悬疑', '欢乐剧场', '潮妈辣婆', '爱情喜剧', '精品大剧', '超级影视', '超级电影', '黑莓动画', '黑莓电影', \
             '海外剧场', '精彩影视', '七彩戏剧', '东方影视', '无名影视', '潮婆辣妈', '超级剧', '热播精选', '武术世界', '求索动物', '求索', '求索科学', '求索记录', '精品纪录']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
@@ -61,7 +61,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
     c.write('\n影视频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and '江苏' not in line and '浙江' not in line and '安徽' not in line and '上虞' not in line and '黑龙江' not in line and '四川' not in line and 'genre' not in line:
+       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'epg' not in line and '江苏' not in line and '浙江' not in line and '安徽' not in line and '上虞' not in line and '黑龙江' not in line and '四川' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          c.write(line)  # 将该行写入输出文件
 
@@ -72,7 +72,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:    #####定义临时文件名
     d.write('\n港澳频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-        if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and '江苏' not in line and '浙江' not in line and '四川' not in line and 'genre' not in line:
+        if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and '江苏' not in line and '浙江' not in line and '四川' not in line and 'genre' not in line and 'epg' not in line:
           if re.search(pattern, line): 
               d.write(line)  # 将该行写入输出文件
 
@@ -83,7 +83,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', encoding='utf-8') as e:    #####定义临时文件名
     e.write('\n江苏频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:   
         if re.search(pattern, line):  # 如果行中有任意关键字
          e.write(line)  # 将该行写入输出文件
 
@@ -94,7 +94,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('e1.txt', 'w', encoding='utf-8') as e1:    #####定义临时文件名
     e1.write('\n江西频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:      
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:   
         if re.search(pattern, line):  # 如果行中有任意关键字
          e1.write(line)  # 将该行写入输出文件
 
@@ -108,7 +108,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
 
@@ -123,7 +123,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #####定义临时文件名
     f1.write('\n河南频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
 
@@ -139,7 +139,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('g.txt', 'w', encoding='utf-8') as g:    #####定义临时文件名
     g.write('\n浙江频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          g.write(line)  # 将该行写入输出文件
 
@@ -153,7 +153,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('h.txt', 'w', encoding='utf-8') as h:    #####定义临时文件名
     h.write('\n湖北频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          h.write(line)  # 将该行写入输出文件
 
@@ -167,7 +167,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('h1.txt', 'w', encoding='utf-8') as h1:    #####定义临时文件名
     h1.write('\n湖南频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          h1.write(line)  # 将该行写入输出文件
 
@@ -184,7 +184,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('i.txt', 'w', encoding='utf-8') as i:    #####定义临时文件名
     i.write('\n陕西频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          i.write(line)  # 将该行写入输出文件
 
@@ -202,7 +202,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('j.txt', 'w', encoding='utf-8') as j:    #####定义临时文件名
     j.write('\n黑龙江频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          j.write(line)  # 将该行写入输出文件
 
@@ -224,7 +224,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('k.txt', 'w', encoding='utf-8') as k:    #####定义临时文件名
     k.write('\n广东频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          k.write(line)  # 将该行写入输出文件
 
@@ -243,7 +243,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('k1.txt', 'w', encoding='utf-8') as k1:    #####定义临时文件名
     k1.write('\n广西频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          k1.write(line)  # 将该行写入输出文件
 
@@ -265,7 +265,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('m.txt', 'w', encoding='utf-8') as m:    #####定义临时文件名
     m.write('\n云贵频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          m.write(line)  # 将该行写入输出文件
 
@@ -278,7 +278,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('n.txt', 'w', encoding='utf-8') as n:    #####定义临时文件名
     n.write('\n四川上海,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          n.write(line)  # 将该行写入输出文件
 
@@ -293,7 +293,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('o.txt', 'w', encoding='utf-8') as o:    #####定义临时文件名
     o.write('\n安徽山西,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          o.write(line)  # 将该行写入输出文件
                   
@@ -306,7 +306,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('2.txt', 'r', encoding='utf-8') as file, open('l.txt', 'w', encoding='utf-8') as l:    #####定义临时文件名
     l.write('\n其他频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line and 'epg' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          l.write(line)  # 将该行写入输出文件
 
