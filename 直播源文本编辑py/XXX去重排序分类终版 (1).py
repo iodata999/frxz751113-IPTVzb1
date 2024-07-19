@@ -29,7 +29,8 @@ with open("2.txt", "w", encoding="utf-8") as file:
 ###############################        
 with open('2.txt', 'r', encoding='utf-8') as file:
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
- keywords = ['CCTV', '风云', '兵器', '女性', '地理', '央视文化', '风云', '怀旧剧场', '第一剧场', 'CHC']  # 需要提取的关键字列表
+ keywords = ['CCTV', '风云音乐', '女性', '地理', '风云剧场', '怀旧剧场', '第一剧场', '家庭', '影迷', '高清电影', '动作电影', 'CHC', '世界地理', '兵器', \
+             '央视台球', '第一剧场', '风云足球', '高尔夫', '动作电影', '家庭影院', '影迷电影', '世界地理']  # 需要提取的关键字列表
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:    #####定义临时文件名
@@ -52,7 +53,9 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='
 
          
 ################
-keywords = ['爱情', '超级电', '妈', '功夫', '古装', '东北', '黑莓', '欢乐', '动作电影', '大剧', '家庭', '军旅', 'New', '影', '大片', '惊', '金', '精', '重温', '剧']  # 需要提取的关键字列表
+keywords = ['爱情', '重温经典', '军事评论', '农业致富', '哒啵赛事', '怡伴健康', '明星大片', '武博世界', '炫舞未来', '精品体育', '精品萌宠', '精品记录', '超级体育', '超级', '金牌', \
+            '东北热剧', '中国功夫', '军旅剧场', '古装剧场', '家庭剧场', '惊悚悬疑', '欢乐剧场', '潮妈辣婆', '爱情喜剧', '精品大剧', '超级影视', '超级电影', '黑莓动画', '黑莓电影', \
+            '海外剧场', '精彩影视', '七彩戏剧', '东方影视', '无名影视', '潮婆辣妈', '超级剧', '热播精选', '武术世界', '求索动物', '求索', '求索科学', '求索记录', '精品纪录']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -64,7 +67,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='
 
 ############
 keywords = ['TVB', '三立', '八大', '中天', '中视', '东森', '凤凰', '天映', '美亚', '环球', '翡翠', '亚洲', '大爱', '大愛', \
-            '明珠', '半岛', 'AMC', '龙祥', '台视', '1905', '纬来', '神话', '经典都市', '视界', '番薯', '私人', '酒店', 'TVB']  # 需要提取的关键字列表
+            '明珠', '半岛', 'AMC', '龙祥', '台视', '1905', '纬来', '神话', '经典都市', '视界', '番薯', '私人', '酒店', 'TVB', '凤凰', '半岛', '星光视界', '番薯', '大愛', '新加坡', '星河', '明珠', '环球', '翡翠台']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 with open('2.txt', 'r', encoding='utf-8') as file, open('d.txt', 'w', encoding='utf-8') as d:    #####定义临时文件名
     d.write('\n港澳频道,#genre#\n')                                                                  #####写入临时文件名
@@ -129,7 +132,8 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding=
 
          
 ################
-keywords = ['浙江', '杭州', '宁波', '丽水', '上虞', '绍兴', '温州', '永嘉', '诸暨', '钱江', '松阳', '苍南', '遂昌', '青田', '龙泉', '余杭', '新昌']  # 需要提取的关键字列表
+keywords = ['浙江', '杭州', '宁波', '丽水', '上虞', '绍兴', '温州', '永嘉', '诸暨', '钱江', '松阳', '苍南', '遂昌', '青田', '龙泉', '余杭', '新昌', '杭州', '余杭', '丽水', '龙泉', \
+            '青田', '松阳', '遂昌', '宁波', '余姚', '上虞', '新商都', '绍兴', '温州', '永嘉', '诸暨', '钱江', '国际', '苍南']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('g.txt', 'w', encoding='utf-8') as g:    #####定义临时文件名
@@ -142,7 +146,8 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('g.txt', 'w', encoding='
 
 
 ################
-keywords = ['湖北', '武汉', '松滋', '十堰', '咸宁', '远安', '黄石', '荆州', '当阳', '恩施', '五峰', '来凤', '枝江', '黄冈', '随州', '荆门', '秭归', '孝感', '鄂州']  # 需要提取的关键字列表
+keywords = ['湖北', '武汉', '松滋', '十堰', '咸宁', '远安', '黄石', '荆州', '当阳', '恩施', '五峰', '来凤', '枝江', '黄冈', '随州', '荆门', '秭归', '孝感', \
+            '鄂州', '湖北', '五峰', '来凤', '枝江', '随州', '荆门', '秭归', '孝感', '鄂州', '武汉', '松滋', '十堰', '咸宁', '黄石', '垄上', '荆州', '当阳', '恩施', '宜都']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('h.txt', 'w', encoding='utf-8') as h:    #####定义临时文件名
@@ -267,7 +272,7 @@ with open('2.txt', 'r', encoding='utf-8') as file, open('m.txt', 'w', encoding='
 
 ################
 keywords = ['四川', '阿坝', '巴中', '成都', '达州', '德阳', '甘孜', '广安', '广元', '乐山', '凉山', '泸州', '眉山', '绵阳', '内江', '南充', '攀枝花', '遂宁', '雅安', \
-            '宜宾', '资阳', '自贡', '上海', '东方', '财经', '五星']  # 需要提取的关键字列表
+            '宜宾', '资阳', '自贡', '上海', '东方', '财经', '五星', '四川', '黑水', '金川', '乐至', '双流', '万源', '马尔康', '泸县', '文山', '什邡', '西青', '长宁', '达州', '红河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('2.txt', 'r', encoding='utf-8') as file, open('n.txt', 'w', encoding='utf-8') as n:    #####定义临时文件名
@@ -320,25 +325,33 @@ for file_path in file_paths:
 with open("去重.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 
-##############################原始顺序去重
-# 打开文档并读取所有行 
+# 打开文档并读取所有行
 with open('去重.txt', 'r', encoding="utf-8") as file:
- lines = file.readlines()
- 
-# 使用列表来存储唯一的行的顺序 
- unique_lines = [] 
- seen_lines = set() 
+    lines = file.readlines()
 
-# 遍历每一行，如果是新的就加入unique_lines 
+# 使用列表来存储唯一的行的顺序
+unique_lines = []
+seen_lines = set()
+
+# 遍历每一行，如果是新的就加入unique_lines
 for line in lines:
- if line not in seen_lines:
-  unique_lines.append(line)
-  seen_lines.add(line)
+    if line not in seen_lines:
+        unique_lines.append(line)
+        seen_lines.add(line)
 
-# 将唯一的行写入新的文档 
+# 计算去重前的行数和去重后的行数
+original_count = len(lines)
+unique_count = len(unique_lines)
+
+# 将唯一的行写入新的文档
 with open('结果.txt', 'w', encoding="utf-8") as file:
- file.writelines(unique_lines)
-##############################
+    file.writelines(unique_lines)
+
+# 输出去重前后的行数
+print(f"去重前的行数：{original_count}")
+print(f"去重后的行数：{unique_count}")
+
+
 
 
 
