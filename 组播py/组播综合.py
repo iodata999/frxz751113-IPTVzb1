@@ -324,6 +324,7 @@ keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
 with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding='utf-8') as b2:
+    b2.write('\n港澳频道,#genre#\n')                                                                        ###########
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           b2.write(line)  # 将该行写入输出文件
