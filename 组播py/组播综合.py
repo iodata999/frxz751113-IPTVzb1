@@ -316,19 +316,6 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
 
 
 
-#  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/芬兰.txt"          #源采集地址
-r = requests.get(url)
-open('HK.txt','wb').write(r.content)         #打开源文件并临时写入
-keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
-with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding='utf-8') as b2:
-    b2.write('\n港澳频道,#genre#\n')                                                                        ###########
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          b2.write(line)  # 将该行写入输出文件
-
 
 
 
@@ -360,7 +347,7 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 ##############################################################################################################################################################################################################################################
 
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/自用源.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 #keywords = ['http', 'rtmp']  # 需要提取的关键字列表 8M1080
@@ -377,26 +364,14 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
     print(line, end="")                                     #加入此行去掉多余的转行符
 
 
-#  获取远程直播源文件
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/汇总.txt"          #源采集地址
-r = requests.get(url)
-open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
 
-keywords = ['']  # 需要提取的关键字列表，留空则全局选择
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
-with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TT.txt', 'w', encoding='utf-8') as TT:
-    #TT.write('\n央视频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          TT.write(line)  # 将该行写入输出文件
         
 
 
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["TT.txt", "b2.txt", "b.txt", "a.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a.txt", "b.txt", "c2.txt", "c1.txt", "c.txt", "e.txt", "DD.txt", "df.txt", "df1.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -527,7 +502,7 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '天津联通.txt', '河北电信.txt', '四川电信.txt', \
-                       "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "b2.txt", "HK.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "TT.txt", "ott移动v4.txt"]
+                       "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "HK.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
