@@ -1,5 +1,25 @@
 央视频道,#genre#
+CCTV1,http://113.220.234.251:9999/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV2,http://113.220.234.251:9999/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV3,http://113.220.234.251:9999/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5,http://113.220.234.251:9999/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV6,http://113.220.234.251:9999/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV7,http://113.220.234.251:9999/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8,http://113.220.234.251:9999/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV9,http://113.220.234.251:9999/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV10,http://113.220.234.251:9999/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV11,http://113.220.234.251:9999/tsfile/live/0011_2.m3u8?key=txiptv&playlive=1&authid=0
+CCTV12,http://113.220.234.251:9999/tsfile/live/0012_2.m3u8?key=txiptv&playlive=1&authid=0
+CCTV14,http://113.220.234.251:9999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV15,http://113.220.234.251:9999/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 卫视频道,#genre#
+上海卫视,http://113.220.234.251:9999/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+北京卫视,http://113.220.234.251:9999/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
+安徽卫视,http://113.220.234.251:9999/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+江苏卫视,http://113.220.234.251:9999/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
+江西卫视,http://113.220.234.251:9999/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0
+浙江卫视,http://113.220.234.251:9999/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
+深圳卫视,http://113.220.234.251:9999/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 港澳频道,#genre#
 
 
