@@ -535,7 +535,7 @@ CCTV17,http://171.108.239.84:8181/tsfile/live/1043_1.m3u8?key=txiptv&playlive=1&
 广西都市,http://171.108.239.80:8181/tsfile/live/1106_1.m3u8?key=txiptv&playlive=1&authid=0
 广西都市,http://171.108.239.79:8181/tsfile/live/1106_1.m3u8?key=txiptv&playlive=1&authid=0
 广西都市,http://171.108.239.11:8181/tsfile/live/1106_1.m3u8?key=txiptv&playlive=1&authid=0
-少儿动漫,#genre#
+少儿频道,#genre#
 佳嘉卡通,http://171.108.239.11:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 佳嘉卡通,http://171.108.239.80:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 佳嘉卡通,http://171.108.239.79:8181/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
