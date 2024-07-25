@@ -412,7 +412,7 @@ print('过滤完成，结果已保存到:', output_file_path)
 print('删除的行已保存到:', deleted_lines_file_path)
 # 定义关键词
 start_keyword = '少儿频道,#genre#'
-end_keyword = '港澳频道,#genre#'
+end_keyword = '省市频道,#genre#'
 
 # 输入输出文件路径
 input_file_path = 'a.txt'  # 替换为你的输入文件路径
