@@ -546,7 +546,7 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
     
 
     channel_counters = {}
-    file.write('少儿动漫,#genre#\n')
+    file.write('少儿频道,#genre#\n')
     for result in results:
         channel_name, channel_url, speed = result
         if '卡通' in channel_name or '少儿动画' in channel_name or '哈哈' in channel_name or '动漫秀场' in channel_name:
