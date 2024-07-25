@@ -330,18 +330,56 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/汇总.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
-keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #直接复制不带分类行
-with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding='utf-8') as a:
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          a.write(line)  # 将该行写入输出文件
-for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
+for line in fileinput.input("TW.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("﻿Taiwan,#genre#", "")                         #编辑替换字
     line = line.replace("﻿amc", "AMC")                         #编辑替换字
     line = line.replace("﻿中文台", "中文")                         #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
+# 定义关键词
+start_keyword = '省市频道,#genre#'
+end_keyword = '港澳频道,#genre#'
+
+# 输入输出文件路径
+input_file_path = 'TW.txt'  # 替换为你的输入文件路径
+output_file_path = 'a.txt'  # 替换为你想要保存输出的文件路径
+deleted_lines_file_path = 'df0.txt'  # 替换为你想要保存删除行的文件路径
+
+
+# 标记是否处于要删除的行范围内
+delete_range = False
+# 存储要删除的行，包括开始关键词行
+deleted_lines = []
+
+# 读取原始文件并过滤掉指定范围内的行
+with open(input_file_path, 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+
+# 过滤掉不需要的行
+filtered_lines = []
+for line in lines:
+    if start_keyword in line:
+        delete_range = True
+        deleted_lines.append(line)  # 将开始关键词行添加到删除行列表
+        continue
+    if delete_range:
+        if end_keyword in line:
+            delete_range = False
+            filtered_lines.append(line)  # 将结束关键词行添加到输出文件列表
+        else:
+            deleted_lines.append(line)  # 添加到删除行列表
+    else:
+        filtered_lines.append(line)
+
+# 将过滤后的内容写入新文件
+with open(output_file_path, 'w', encoding='utf-8') as file:
+    file.writelines(filtered_lines)
+
+# 将删除的行写入到新的文件中
+with open(deleted_lines_file_path, 'w', encoding='utf-8') as file:
+    file.writelines(deleted_lines)
+
+print('过滤完成，结果已保存到:', output_file_path)
+print('删除的行已保存到:', deleted_lines_file_path)
 
 
 
@@ -351,7 +389,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["a.txt", "b.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -486,7 +524,7 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '河北电信.txt', '四川电信.txt', \
-                       "GAT.txt", "a.txt", "b.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
+                       "GAT.txt", "a.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
