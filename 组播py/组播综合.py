@@ -322,6 +322,36 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
     line = line.replace("星河", "TVB星河")                                                        ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符   
     
+# 定义关键词
+start_keyword = '少儿频道,#genre#'
+end_keyword = '港澳频道,#genre#'
+
+# 输入输出文件路径
+input_file_path = '酒店源.txt'  # 替换为你的输入文件路径
+output_file_path = 'sr2.txt'  # 替换为你想要保存输出的文件路径
+
+# 用于存储结果的列表
+result_lines = []
+
+# 打开输入文件并读取内容
+with open(input_file_path, 'r', encoding='utf-8') as file:
+    capture = False  # 用于控制是否开始捕获行
+    for line in file:
+        # 检查是否到达开始关键词
+        if start_keyword in line:
+            capture = True
+        # 如果已经开始捕获，并且到达结束关键词，则停止捕获
+        elif end_keyword in line and capture:
+            break
+        # 如果处于捕获状态，则添加当前行
+        if capture:
+            result_lines.append(line)
+
+# 将结果写入输出文件
+with open(output_file_path, 'w', encoding='utf-8') as file:
+    file.writelines(result_lines)
+
+print('提取完成，结果已保存到:', output_file_path)
 
 
 ##############################################################################################################################################################################################################################################
@@ -380,6 +410,52 @@ with open(deleted_lines_file_path, 'w', encoding='utf-8') as file:
 
 print('过滤完成，结果已保存到:', output_file_path)
 print('删除的行已保存到:', deleted_lines_file_path)
+# 定义关键词
+start_keyword = '少儿频道,#genre#'
+end_keyword = '港澳频道,#genre#'
+
+# 输入输出文件路径
+input_file_path = 'a.txt'  # 替换为你的输入文件路径
+output_file_path = 'a0.txt'  # 替换为你想要保存输出的文件路径
+deleted_lines_file_path = 'sr1.txt'  # 替换为你想要保存删除行的文件路径
+
+
+# 标记是否处于要删除的行范围内
+delete_range = False
+# 存储要删除的行，包括开始关键词行
+deleted_lines = []
+
+# 读取原始文件并过滤掉指定范围内的行
+with open(input_file_path, 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+
+# 过滤掉不需要的行
+filtered_lines = []
+for line in lines:
+    if start_keyword in line:
+        delete_range = True
+        deleted_lines.append(line)  # 将开始关键词行添加到删除行列表
+        continue
+    if delete_range:
+        if end_keyword in line:
+            delete_range = False
+            filtered_lines.append(line)  # 将结束关键词行添加到输出文件列表
+        else:
+            deleted_lines.append(line)  # 添加到删除行列表
+    else:
+        filtered_lines.append(line)
+
+# 将过滤后的内容写入新文件
+with open(output_file_path, 'w', encoding='utf-8') as file:
+    file.writelines(filtered_lines)
+
+# 将删除的行写入到新的文件中
+with open(deleted_lines_file_path, 'w', encoding='utf-8') as file:
+    file.writelines(deleted_lines)
+
+print('过滤完成，结果已保存到:', output_file_path)
+print('删除的行已保存到:', deleted_lines_file_path)
+
 
 
 
@@ -389,7 +465,7 @@ print('删除的行已保存到:', deleted_lines_file_path)
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["a.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a0.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -524,7 +600,7 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '河北电信.txt', '四川电信.txt', \
-                       "GAT.txt", "a.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
+                       "GAT.txt", "a.txt", "a0.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
