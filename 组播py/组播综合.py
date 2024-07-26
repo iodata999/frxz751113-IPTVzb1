@@ -195,6 +195,7 @@ keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
+    c1.write('\n组播有爱,#genre#\n')                                                                  #####写入临时文件名$GD
     for line in file:
       if '$GD' not in line and '4K' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
