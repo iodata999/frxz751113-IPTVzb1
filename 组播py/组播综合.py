@@ -465,7 +465,7 @@ print('删除的行已保存到:', deleted_lines_file_path)
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["a0.txt", "b.txt", "sr1.txt", "sr2.txt", "df0.txt", "c1.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a0.txt", "b.txt", "sr1.txt", "df0.txt", "c1.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -543,7 +543,8 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("新闻综合", "新闻")  
     line = line.replace("公共新闻", "公共")  
     line = line.replace("经济生活", "经济")  
-    line = line.replace("频道1", "频道")  
+    line = line.replace("频道1", "频道")
+    line = line.replace("省市频道", "湖北频道")    
     print(line, end="")   
 
 
