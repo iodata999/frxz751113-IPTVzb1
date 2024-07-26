@@ -216,7 +216,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', e
 ###############################################################################################################################################################################
 # 定义关键词
 start_keyword = '省市频道,#genre#'
-end_keyword = '少儿动漫,#genre#'
+end_keyword = '少儿频道,#genre#'
 
 # 输入输出文件路径
 input_file_path = '酒店源.txt'  # 替换为你的输入文件路径
@@ -465,7 +465,7 @@ print('删除的行已保存到:', deleted_lines_file_path)
 ###########################################################################################################################################################################
 # 读取要合并的频道文件，并生成临时文件##############################################################################################################
 file_contents = []
-file_paths = ["a0.txt", "b.txt", "sr2.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
+file_paths = ["a0.txt", "b.txt", "sr1.txt", "sr2.txt", "df0.txt", "df.txt", "df1.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
@@ -600,7 +600,7 @@ txt_to_m3u('综合源.txt', '综合源.m3u')
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
 files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '河北电信.txt', '四川电信.txt', \
-                       "GAT.txt", "a.txt", "a0.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "sr0.txt", "sr2.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
+                       "GAT.txt", "a.txt", "a0.txt", "b.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
