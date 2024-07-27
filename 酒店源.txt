@@ -1,5 +1,13 @@
 央视频道,#genre#
+CCTV15,http://175.8.213.198:8081/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 卫视频道,#genre#
+四川卫视,http://119.39.97.2:9002/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0
+宁夏卫视,http://119.39.97.2:9002/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
+山东卫视,http://119.39.97.2:9002/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
+新疆卫视,http://119.39.97.2:9002/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
+浙江卫视,http://118.248.167.56:8088/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0
+贵州卫视,http://119.39.97.2:9002/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0
+青海卫视,http://119.39.97.2:9002/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 港澳频道,#genre#
 
 
