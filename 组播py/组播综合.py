@@ -480,10 +480,10 @@ for file_path in file_paths:
         file_contents.append(content)
 ###########################################################################################################################################################################
 # 写入合并后的文件
-with open("综合源.txt", "w", encoding="utf-8") as output:
+with open("iptv_list.txt", "w", encoding="utf-8") as output:
     output.write(''.join(file_contents))   #加入\n则多一空行
 
-with open('综合源.txt', 'r', encoding="utf-8") as file:
+with open('iptv_list.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
  
 # 使用列表来存储唯一的行的顺序 
@@ -497,39 +497,20 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('综合源.txt', 'w', encoding="utf-8") as file:
+with open('iptv_list.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 
 
 
 
-for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("CCTV1,", "CCTV1-综合,")  
-    line = line.replace("CCTV2,", "CCTV2-财经,")  
-    line = line.replace("CCTV3,", "CCTV3-综艺,")  
-    line = line.replace("CCTV4,", "CCTV4-国际,")  
-    line = line.replace("CCTV5,", "CCTV5-体育,")  
-    line = line.replace("CCTV5+,", "CCTV5-体育plus,")  
-    line = line.replace("CCTV6,", "CCTV6-电影,")  
-    line = line.replace("CCTV7,", "CCTV7-军事,")  
-    line = line.replace("CCTV8,", "CCTV8-电视剧,")  
-    line = line.replace("CCTV9,", "CCTV9-纪录,")  
-    line = line.replace("CCTV10,", "CCTV10-科教,")  
-    line = line.replace("CCTV11,", "CCTV11-戏曲,")  
-    line = line.replace("CCTV11+,", "CCTV11-戏曲,")  
-    line = line.replace("CCTV12,", "CCTV12-社会与法,")  
-    line = line.replace("CCTV13,", "CCTV13-新闻,")  
-    line = line.replace("CCTV14,", "CCTV14-少儿,")  
-    line = line.replace("CCTV15,", "CCTV15-音乐,")  
-    line = line.replace("CCTV16,", "CCTV16-奥林匹克,")  
-    line = line.replace("CCTV17,", "CCTV17-农业农村,") 
+for line in fileinput.input("iptv_list.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("CCTV风", "风")  
     line = line.replace("CCTV兵", "兵")  
     line = line.replace("CCTV世", "世")  
     line = line.replace("CCTV女", "女")  
     line = line.replace("008广", "广")
     line = line.replace("家庭电影", "家庭影院")    
-    line = line.replace("CHC", "")  
+    line = line.replace("CHC", "CHC")  
     line = line.replace("科技生活", "科技")  
     line = line.replace("财经生活", "财经")  
     line = line.replace("新闻综合", "新闻")  
@@ -586,7 +567,7 @@ def txt_to_m3u(input_file, output_file):
 
 
 # 将txt文件转换为m3u文件
-txt_to_m3u('综合源.txt', '综合源.m3u')
+txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
 
 
 
