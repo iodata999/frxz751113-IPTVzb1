@@ -349,7 +349,7 @@ print('提取完成，结果已保存到:', output_file_path)
 ##############################################################################################################################################################################################################################################
 
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/汇总.txt"          #源采集地址
+url = "https://gh.con.sh/https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/zhibo.txt"          #源采集地址
 r = requests.get(url)
 open('TW.txt','wb').write(r.content)         #打开源文件并临时写入
 for line in fileinput.input("TW.txt", inplace=True):   #打开临时文件原地替换关键字
