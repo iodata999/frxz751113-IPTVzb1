@@ -1,8 +1,8 @@
 name: 测试
 
 on:
-  #schedule:
-    #- cron: '10 */6 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  schedule:
+    - cron: '10 */1 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
@@ -48,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: pip install tqdm
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播综合.py 
+        run: python ${{ github.workspace }}/组播py/组播综合1.py 
       - name: 提交更改
         run: |
           git config --local user.email "actions@126.com"
