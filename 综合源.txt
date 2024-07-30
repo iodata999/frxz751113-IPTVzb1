@@ -1353,7 +1353,6 @@ CCTV高尔夫·网球,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHA
 武术世界,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHAN638078be5d654/index.m3u8?AuthInfo=toEYVdLfxymUP2l9NZpQI5%2BK6T7j%2FlRm%2BvbM9VO7bA0MVaBO3fffRWKM%2FzNpNYjRBAiSJylXYBAiox0V94ejMfwEtXXuH8b8M%2F%2FDznZB61s
 港澳频道,#genre#
 天良,http://60.248.91.20:8000/main
-港澳频道,#genre#
 华语剧台[1080p],http://cdn.1678520.xyz/tvbts/tvbts2.1.php?id=null-5
 星光视界[720p],http://ali.hlspull.yximgs.com/live/zxcvbnm9852.flv
 黄金华剧台[1080p],http://cdn.1678520.xyz/tvbts/tvbts2.1.php?id=null-8
