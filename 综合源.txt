@@ -1184,13 +1184,9 @@ elta生活旅游[720p],http://37.27.111.214:8080/live/85/hls.m3u8
 八大综合[1080p],http://37.27.111.214:8080/live/21/hls.m3u8
 八大综合[720p],http://61.221.215.25:8800/hls/56/index.m3u8
 八大综合台[720p],http://61.221.215.25:8800/hls/56/index.m3u8
-凤凰中文[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.m3u8
 凤凰中文频道[1080p],http://146.56.153.245:20121/bysid/258
-凤凰资讯[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 凤凰资讯[720p],http://61.221.215.25:8800/hls/47/index.m3u8
-凤凰资讯[720p],http://ax.micaesoft.com/YMitv/YMITV_CN_ifengNEW.m3u8
 凤凰资讯频道[1080p],http://146.56.153.245:20121/bysid/257
-凤凰香港[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 动物星球[720p],http://61.221.215.25:8800/hls/57/index.m3u8
 动画台[720p],http://37.27.111.214:8080/live/57/hls.m3u8
 半岛新闻[1080p],http://live-hls-web-aje.getaj.net/AJE/01.m3u8
@@ -1244,6 +1240,7 @@ elta生活旅游[720p],http://37.27.111.214:8080/live/85/hls.m3u8
 澳视澳门[720p],http://61.244.22.5/ch1/ch1.live/index.m3u8
 澳门体育[720p],http://61.244.22.5/ch4/sport_ch4.live/playelist.m3u8
 澳门综艺[720p],http://61.244.22.5/ch6/hd_ch6.live/index.m3u8
+澳门莲花[1080p],http://php.jdshipin.com:8880/amlh.php
 澳门资讯[720p],http://61.244.22.5/ch5/info_ch5.live/index.m3u8
 猪哥亮[720p],http://37.27.111.214:8080/live/35/hls.m3u8
 番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
@@ -1631,8 +1628,6 @@ elta生活旅游[720p],http://37.27.111.214:8080/live/85/hls.m3u8
 文安电视,http://106.9.178.167:6000/rtp/239.254.201.103:5314?$HEBEI
 三河电视,http://106.9.178.167:6000/rtp/239.254.201.113:5315?$HEBEI
 河南频道,#genre#
-河南梨园,http://175.0.93.245:9000/rtp/239.76.245.179:1234?$HUNAN
-河南梨园,http://175.0.93.245:9000/rtp/239.76.252.179:9000?$HUNAN
 河南乡村,http://123.55.116.202:8888/rtp/239.16.10.181:2000?$henan
 河南乡村,http://123.55.116.202:8888/rtp/239.16.20.195:11950?$henan
 河南公共,http://123.55.116.202:8888/rtp/239.16.10.126:2000?$henan
