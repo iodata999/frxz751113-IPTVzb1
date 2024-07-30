@@ -4,7 +4,7 @@ import os
 import replace
 import fileinput
 from opencc import OpenCC
-
+import requests
 
 # 合并自定义频道文件#################################################################################################
 file_contents = []
