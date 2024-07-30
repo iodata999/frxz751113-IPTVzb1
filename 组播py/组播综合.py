@@ -179,7 +179,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['爱', '峨眉', '央视', '音乐', '剧场', '家庭', '影迷', '动作', '女性', '凤凰']  # 需要提取的关键字列表
+keywords = ['爱', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
@@ -212,7 +212,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', en
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '爱青春', '爱院线', '爱']  # 需要提取的关键字列表
+keywords = ['kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #####定义临时文件名
@@ -256,7 +256,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', e
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '梨园', '优漫', '陕西', '江苏']  # 需要提取的关键字列表
+keywords = ['湖南', '卡通', '优漫', '陕西', '江苏']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
