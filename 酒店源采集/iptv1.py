@@ -35,7 +35,7 @@ with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w',
 #"isShowLoginJs"智能KUTV管理
 
 urls = [
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
@@ -585,13 +585,30 @@ with open("hn.txt", 'w', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
 
     
+    channel_counters = {}
+    file.write('其他频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '，' in channel_name or '翡翠' in channel_name or '酒店' in channel_name or 'AXN' in channel_name or '东森' in channel_name or '莲花' in channel_name or '天映' in channel_name or '好莱坞' in channel_name or '星河' in channel_name or '私人' in channel_name or '哔哩' in channel_name or '凤凰' in channel_name:
+          #if 'CCTV' not in channel_name and '卫视' not in channel_name and 'TV' not in channel_name and '儿' not in channel_name and '文' not in channel_name and 'CHC' not in channel_name and '新' not in channel_name and '山东' not in channel_name and '河北' not in channel_name and '哈哈' not in channel_name and '临沂' not in channel_name and '公共' not in channel_name and 'CETV' not in channel_name and '交通' not in channel_name and '冬' not in channel_name and '梨园' not in channel_name and '民生' not in channel_name and '综合' not in channel_name and '法制' not in channel_name and '齐鲁' not in channel_name and '自办' not in channel_name and '都市' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+
+    
 
 
 
       
 # 合并自定义频道文件内容
 file_contents = []
-file_paths = ["hn.txt", "TW.txt"]  # 替换为实际的文件路径列表
+file_paths = ["hn.txt""]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     with open(file_path, 'r', encoding="utf-8") as file:
         content = file.read()
