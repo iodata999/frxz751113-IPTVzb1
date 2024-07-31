@@ -54,6 +54,9 @@ jobs:
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py
         
+      - name: Run iptv
+       run: python ${{ github.workspace }}/组播py/XXX去重排序分类终版.py    #这里更改要运行的py
+
 
       - name: 提交更改
         run: |
