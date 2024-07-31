@@ -419,19 +419,9 @@ with open("iptv_list.txt", "w", encoding="utf-8") as output:
     output.write(''.join(file_contents))   #加入\n则多一空行
 
 for line in fileinput.input("iptv_list.txt", inplace=True):   #打开临时文件原地替换关键字
-    line = line.replace("CCTV风", "风")  
-    line = line.replace("CCTV兵", "兵")  
-    line = line.replace("CCTV世", "世")  
-    line = line.replace("CCTV女", "女")  
     line = line.replace("008广", "广")
     line = line.replace("家庭电影", "家庭影院")    
     line = line.replace("CHC", "CHC")  
-    line = line.replace("科技生活", "科技")  
-    line = line.replace("财经生活", "财经")  
-    line = line.replace("新闻综合", "新闻")  
-    line = line.replace("公共新闻", "公共")  
-    line = line.replace("经济生活", "经济")  
-    line = line.replace("频道1", "频道")  
     print(line, end="")   
 
 with open('iptv_list.txt', 'r', encoding="utf-8") as file:
