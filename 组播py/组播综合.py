@@ -273,13 +273,13 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', e
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '广东', '天津', '广州', 'kk', '江苏']  # 需要提取的关键字列表
+keywords = ['k', '卫视', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
-    #df1.write('\n省市频道,#genre#\n')
+    df1.write('\n省市频道,#genre#\n')
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
+      if 'CCTV' not in line and 'kk' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
           df1.write(line)  # 将该行写入输出文件
 
