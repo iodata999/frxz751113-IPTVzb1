@@ -179,7 +179,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['爱', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
+keywords = ['iHOT', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
@@ -196,7 +196,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', e
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['CHC', 'CCTV']  # 需要提取的关键字列表
+keywords = ['CCTV', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -277,7 +277,7 @@ keywords = ['k', '卫视', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
-    df1.write('\n省市频道,#genre#\n')
+    df1.write('\n卫视频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and 'kk' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -288,7 +288,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', 
 
 
 ################
-keywords = ['优漫', '卡通', '动画']  # 需要提取的关键字列表
+keywords = ['优漫', '动漫', '少儿', '卡通', '动画']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
