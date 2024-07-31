@@ -3042,9 +3042,17 @@ http://27.188.107.69:9009/rtp/239.254.201.103:5314?$HEBEI
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/三河电视.png" group-title="河北频道",三河电视
 http://27.188.107.69:9009/rtp/239.254.201.113:5315?$HEBEI
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
-http://175.11.169.166:4022/rtp/239.76.245.179:1234?$HUNAN
+http://175.9.162.195:9999/rtp/239.76.245.179:1234?$HUNAN
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
-http://175.11.169.166:4022/rtp/239.76.252.179:9000?$HUNAN
+http://175.9.162.195:9999/rtp/239.76.252.179:9000?$HUNAN
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
+http://175.9.162.191:9999/rtp/239.76.245.179:1234?$HUNAN
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
+http://175.9.162.191:9999/rtp/239.76.252.179:9000?$HUNAN
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
+http://175.9.162.189:9999/rtp/239.76.245.179:1234?$HUNAN
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南梨园.png" group-title="河南频道",河南梨园
+http://175.9.162.189:9999/rtp/239.76.252.179:9000?$HUNAN
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南乡村.png" group-title="河南频道",河南乡村
 http://123.55.116.202:8888/rtp/239.16.10.181:2000?$henan
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/河南乡村.png" group-title="河南频道",河南乡村
