@@ -5,7 +5,7 @@ import os
 #with open(a, 'r', encoding="utf-8") as f:#拖入文件操作
 
 # 打开一个utf-8编码的文本文件
-with open("组播源.txt", "r", encoding="utf-8") as file:
+with open("iptv_list.txt", "r", encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
 
@@ -193,7 +193,7 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('组播源.txt', 'w', encoding="utf-8") as file:
+with open('iptv_list.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 ##############################
 
