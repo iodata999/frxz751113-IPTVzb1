@@ -1163,9 +1163,9 @@ USAMCWest[720p],http://doubleclicktv.live:80/70376812/52663544/295775
 USStarMovies[1080p],http://doubleclicktv.live/70376812/52663544/276996
 VOA[720p],http://37.27.111.214:8080/live/45/hls.m3u8
 elta生活旅游[720p],http://37.27.111.214:8080/live/85/hls.m3u8
-momo[720p],http://37.27.111.214:8080/live/3/hls.m3u8
 nhkworld[720p],http://61.221.215.25:8800/hls/51/index.m3u8
 nickjr[720p],http://37.27.111.214:8080/live/22/hls.m3u8
+三立综合[1080p],http://37.27.111.214:8080/live/31/hls.m3u8
 东森新闻[720p],http://37.27.111.214:8080/live/20/hls.m3u8
 东森购物[720p],http://37.27.111.214:8080/live/61/hls.m3u8
 东森购物[720p],http://37.27.111.214:8080/live/66/hls.m3u8
@@ -1183,11 +1183,13 @@ nickjr[720p],http://37.27.111.214:8080/live/22/hls.m3u8
 人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 人间卫视[720p],http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u8
 人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
+人间卫视[720p],https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w614428743.m3u8
 全球财经[720p],http://37.27.111.214:8080/live/64/hls.m3u8
 八大第1台[720p],http://61.221.215.25:8800/hls/55/index.m3u8
 八大综合[1080p],http://37.27.111.214:8080/live/21/hls.m3u8
 八大综合台[720p],http://61.221.215.25:8800/hls/56/index.m3u8
 凤凰中文频道[1080p],http://146.56.153.245:20121/bysid/258
+凤凰资讯[1080p],http://117.27.190.42:9998/tsfile/live/23279_1.m3u8?
 凤凰资讯[720p],http://61.221.215.25:8800/hls/47/index.m3u8
 凤凰资讯频道[1080p],http://146.56.153.245:20121/bysid/257
 动漫2[720p],http://37.27.111.214:8080/live/106/hls.m3u8
@@ -1245,7 +1247,6 @@ nickjr[720p],http://37.27.111.214:8080/live/22/hls.m3u8
 澳视澳门[720p],http://61.244.22.5/ch1/ch1.live/index.m3u8
 澳门体育[720p],http://61.244.22.5/ch4/sport_ch4.live/playelist.m3u8
 澳门综艺[720p],http://61.244.22.5/ch6/hd_ch6.live/index.m3u8
-澳门莲花[1080p],http://php.jdshipin.com:8880/amlh.php
 澳门资讯[720p],http://61.244.22.5/ch5/info_ch5.live/index.m3u8
 猪哥亮[720p],http://37.27.111.214:8080/live/35/hls.m3u8
 番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
@@ -1528,8 +1529,6 @@ nickjr[720p],http://37.27.111.214:8080/live/22/hls.m3u8
 文安电视,http://27.188.107.69:9009/rtp/239.254.201.103:5314?$HEBEI
 三河电视,http://27.188.107.69:9009/rtp/239.254.201.113:5315?$HEBEI
 河南频道,#genre#
-河南梨园,http://175.11.169.166:4022/rtp/239.76.245.179:1234?$HUNAN
-河南梨园,http://175.11.169.166:4022/rtp/239.76.252.179:9000?$HUNAN
 河南乡村,http://123.55.116.202:8888/rtp/239.16.10.181:2000?$henan
 河南乡村,http://123.55.116.202:8888/rtp/239.16.20.195:11950?$henan
 河南公共,http://123.55.116.202:8888/rtp/239.16.10.126:2000?$henan
