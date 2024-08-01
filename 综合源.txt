@@ -1114,7 +1114,6 @@ CCTV高尔夫·网球,http://[2409:8087:4c0a:22:1::11]:6410/170000001115/UmaiCHA
 1905国内电影,http://php.jdshipin.com:8880/1905.php?id=1905dy
 AMC电影[720p],http://61.221.215.25:8800/hls/43/index.m3u8
 三立戏剧台[720p],http://61.221.215.25:8800/hls/41/index.m3u8
-八大戏剧[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8531/.m3u8
 八大戏剧[720p],http://61.221.215.25:8800/hls/39/index.m3u8
 公视戏剧[720p],http://37.27.111.214:8080/live/87/hls.m3u8
 影剧[720p],http://37.27.111.214:8080/live/88/hls.m3u8
@@ -1177,7 +1176,7 @@ FOXSPORTS[720p],http://line.greatstar.me:80/play/live.php?mac=00:1A:79:51:45:21&
 FOXSPORTS[720p],http://line.greatstar.me:80/play/live.php?mac=00:1A:79:B5:AD:4C&stream=174669&extension=ts&play_token=LH7eWcM8g9
 FOX新闻[720p],https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 GOOD2[720p],http://37.27.111.214:8080/live/99/hls.m3u8
-GRT[900p][900p],https://stream1.freetv.fun/c8c19050366334011b277c1adf35b8c04b7c23086b3426230aa509101192f792.m3u8
+GRT[900p],https://stream1.freetv.fun/c8c19050366334011b277c1adf35b8c04b7c23086b3426230aa509101192f792.m3u8
 HISTORY[720p],http://37.27.111.214:8080/live/27/hls.m3u8
 HakkaTV[720p],http://37.27.111.214:8080/live/1/hls.m3u8
 J2[1080p],http://php.jdshipin.com:8880/smt.php?id=j2_twn
@@ -1195,7 +1194,7 @@ RTHK33[720p],https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/strea
 RUTVBRICS[1080p],http://brics.bonus-tv.ru/cdn/brics/english/tracks-v1a1/index.m3u8
 SKYSPORTSMAINEVENT[720p],http://0f3f161d.cbilant.com/iptv/DNKSGWXK47B9GH/7337/index.m3u8
 SKYSPORTSMAINEVENTᴴᴰ[1080p],http://4k4.klmvhn20.com:2082/Noly-4Noly/xiux0qlrin/10514
-TNTSPORTS[1080p],http://dc8267e0.kazaktelekom.com/iptv/92CLT2GW7DGZ9K/19051/index.m3u8
+TNTSPORTS[720p],http://dc8267e0.kazaktelekom.com/iptv/92CLT2GW7DGZ9K/19051/index.m3u8
 TVB+[1080p],http://60.246.171.122:8892/bysid/82
 TVB+[1080p],http://grandprix2023.asuscomm.com:8892/bysid/82.m3u8
 TVB+[1080p],http://nz171l122.bb60246.ctm.net:8892/bysid/82.m3u8
@@ -1225,7 +1224,6 @@ TVB无线新闻[1080p],http://grandprix2023.asuscomm.com:8892/bysid/83.m3u8
 TVB无线新闻[720p],http://live.cooltv.top/tv/tvb.php?id=0&hq
 TVB无线星河[720p],http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB明珠台[720p],http://extraott.com:80/live/7921751389/6097373662/62823.m3u8
-TVB星河[1080p],http://13457610200.8866.org:2018/live/星河频道HD/index.m3u8
 TVB星河[720p],http://php.jdshipin.com:8880/smt.php?id=Xinhe
 TVB星河[720p],https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB星河[720p],https://edge6a.v2h-cdn.com/xinghe/xinghe.stream/playlist.m3u8
@@ -1254,9 +1252,8 @@ XF凤凰香港[1080p],http://180.137.22.122:8181/tsfile/live/1084_1.m3u8
 elta生活旅游[720p],http://37.27.111.214:8080/live/85/hls.m3u8
 nhkworld[720p],http://61.221.215.25:8800/hls/51/index.m3u8
 nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
-【神话】24小时循环播放[600p][1080p],https://lunbo.freetv.top/yy/29067083
+【神话】24小时循环播放[1080p],https://lunbo.freetv.top/yy/29067083
 三立台湾[1080p],http://extraott.com:80/live/7921751389/6097373662/5505.m3u8
-三立新闻[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8543/.m3u8
 三立综合[1080p],http://37.27.111.214:8080/live/31/hls.m3u8
 三立都会[1080p],http://extraott.com:80/live/7921751389/6097373662/5506.m3u8
 东森[1080p],http://38.64.72.148/hls/modn/list/2015/chunklist0.m3u8
@@ -1267,22 +1264,17 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 东森[1080p],http://extraott.com:80/live/7921751389/6097373662/473538.m3u8
 东森中国[1080p],http://38.64.72.148:80/hls/modn/list/2003/chunklist0.m3u8
 东森新闻[1080p],http://38.64.72.148:80/hls/modn/list/2016/chunklist0.m3u8
-东森新闻[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8540/.m3u8
 东森新闻[720p],http://37.27.111.214:8080/live/20/hls.m3u8
 东森洋片[1080p],http://171.108.239.79:8181/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
-东森洋片[1080p],http://171.108.239.80:8181/tsfile/live/1016_1.m3u8?key=txiptv&playlive=1&authid=0
 东森购物[720p],http://37.27.111.214:8080/live/61/hls.m3u8
 东森购物[720p],http://37.27.111.214:8080/live/66/hls.m3u8
 东森超视[1080p],http://171.108.239.79:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
-东森超视[1080p],http://171.108.239.80:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 东森超视[1080p],http://38.64.72.148:80/hls/modn/list/2013/chunklist0.m3u8
 东森超视[720p],rtmp://220.130.201.73/sat/tv331
 东森超视[720p],rtmp://f13h.mine.nu/sat/tv331
 中华小当家[720p],http://61.221.215.25:8800/hls/40/index.m3u8
 中天亚洲台[720p],http://line.greatstar.me:80/play/live.php?mac=00:1A:79:51:45:21&stream=571212&extension=ts
-中天娱乐[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8527/.m3u8
 中天新闻[1080p],http://194.87.101.118/live.m3u8?c=7
-中天新闻[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
 中天新闻[720p],http://extraott.com:80/live/7921751389/6097373662/5553.m3u8
 中视[720p],http://37.27.111.214:8080/live/7/hls.m3u8
 中视[720p],rtmp://220.130.201.73/sat/tv091
@@ -1312,8 +1304,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 凤凰卫视中文台[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pcc72.flv
 凤凰卫视资讯台[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.flv
 凤凰卫视香港[1080p],http://nz171l122.bb60246.ctm.net:8892/bysid/85.m3u8
-凤凰资讯[1080p],http://171.108.239.79:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯[1080p],http://171.108.239.80:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰资讯[720p],http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 凤凰资讯[720p],http://61.221.215.25:8800/hls/47/index.m3u8
 凤凰资讯[720p],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fhzx
@@ -1354,7 +1344,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 台视新闻[720p],http://extraott.com:80/live/7921751389/6097373662/5501.m3u8
 台视新闻[720p],https://stream1.freetv.fun/c1e80466d09b16dbba231914e7d90e38b5ad564c5c34497819f0b65b3c0c8ea2.m3u8
 台视新闻台[1080p],https://live.wcetv.com/hls/master-ttvnews.m3u8
-壹新闻[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8548/.m3u8
 大爱1台[720p],https://pulltv1.wanfudaluye.com/live/tv1.m3u8?$1280x720
 大爱2台[720p],https://pulltv1.wanfudaluye.com/live/tv2.m3u8?$1280x720
 大爱2台[720p],https://pulltv2.wanfudaluye.com/live/tv2.m3u8?$1280x720
@@ -1368,7 +1357,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 大爱2[720p],https://pulltv2.wanfudaluye.com/live/tv2.m3u8?
 大爱[720p],http://pulltv1.wanfudaluye.com/live/tv1.m3u8
 大爱[720p],https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-大爱电视[1080p],https://gat.zhoujie218.top/4gtv/209
 大立电视[720p],http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 天良综合台[1080p],http://60.248.91.20:8000/main
 好消息综合台[720p],https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
@@ -1393,7 +1381,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 无线娱乐[720p],https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 无线新闻[1080p],http://live.cooltv.top/tv/tvb.php?id=2
 无线新闻[720p],https://edge6a.v2h-cdn.com/enew/enew.stream/chunklist.m3u8
-明珠台[1080p],http://1b6467f415.iok.la:9931/tsfile/live/1009_1.m3u8
 明珠台[1080p],http://grandprix2023.asuscomm.com:8892/bysid/2.m3u8
 明珠台[1080p],http://nz171l122.bb60246.ctm.net:8892/bysid/2.m3u8
 明珠台[720p],http://php.jdshipin.com:8880/smt.php?id=pearl_twn
@@ -1431,11 +1418,9 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 澳门资讯[1080p],http://grandprix2023.asuscomm.com:8891/bysid/94.m3u8
 澳门资讯[1080p],http://nz171l122.bb60246.ctm.net:8891/bysid/94.m3u8
 澳门资讯[720p],http://61.244.22.5/ch5/info_ch5.live/index.m3u8
-澳门风云[1080p],https://lunbo.freetv.top/yy/1459243913
+澳门风云[720p],https://lunbo.freetv.top/yy/1459243913
 猪哥亮[720p],http://37.27.111.214:8080/live/35/hls.m3u8
-环宇新闻[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8547/.m3u8
 环球电视[1080p],http://zb.xzxwhcb.com:9999/hls/world.m3u8
-环球电视[1080p],https://stream1.freetv.fun/6234a9bcbe41073ea5f86dfdea0d0241a0f06a064046d72c42128f714889299c.m3u8
 番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8
 番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w7058102.m3u8?blog.ntnas.top
 番薯111[1080p],http://61.216.67.119:1935/TWHG/E1/chunklist_w70581102.m3u8
@@ -1459,7 +1444,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 翡翠台[1080p],http://61.238.177.254:30261/stream/channelid/1548166379
 翡翠台[1080p],http://beishan008.asuscomm.com:8889/bysid/1.m3u8
 翡翠台[1080p],http://grandprix2023.asuscomm.com:8889/bysid/1.m3u8
-翡翠台[1080p],http://php.jdshipin.com:8880/smt.php?id=jade_twn
 翡翠台[1080p],http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台[1080p],http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts
 镜新闻[1080p],http://194.87.101.118/live.m3u8?c=10
@@ -1468,8 +1452,6 @@ nickjr[1080p],http://37.27.111.214:8080/live/22/hls.m3u8
 靖天综合台[1080p],https://gat.zhoujie218.top/litv/4gtv-4gtv046
 靖天育乐台[1080p],https://gat.zhoujie218.top/litv/4gtv-4gtv062
 靖天资讯台[1080p],https://gat.zhoujie218.top/litv/4gtv-4gtv065
-靖宇综合[900p],https://stream1.freetv.fun/c76fe0830622d07fd0fb36d01905ee9c6619e6aefcf815ffa57955616a0a095d.m3u8
-非凡商业[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8545/.m3u8
 面包台[720p],https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 香港33台[1080p],https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 香港34台[1080p],https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8
