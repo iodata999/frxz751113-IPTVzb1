@@ -725,8 +725,6 @@ with open('2.txt', 'w', encoding='utf-8') as new_file:
             new_line = f'{before_comma},{parts[1]}\n' if len(parts) > 1 else f'{before_comma}\n'
             new_file.write(new_line)
 
-print("替换完成，新文件已保存。")
-
 
 
 
@@ -982,7 +980,7 @@ with open('酒店源.txt', 'w', encoding="utf-8") as file:
 
 
 ################################################################################################任务结束，删除不必要的过程文件
-files_to_remove = ['去重.txt', "2.txt", "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "e.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", \
+files_to_remove = ['去重.txt', "2.txt", 'ott移动v4.txt', "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "e.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", \
               "i1.txt", "j.txt", "j1.txt", "iptv.txt", "l0.txt", "l.txt", "l1.txt", "m.txt", "m1.txt",  \
               "n0.txt","n.txt","n1.txt", "o1.txt", "o.txt", "检测结果.txt", "p.txt"]
 
