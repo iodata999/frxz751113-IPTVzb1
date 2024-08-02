@@ -654,7 +654,7 @@ with open('酒店源.txt', 'w', encoding="utf-8") as file:
 #####################
 
 
-#os.remove("iptv.txt")
+os.remove("iptv.txt")
 os.remove("hn.txt")
 os.remove("TW.txt")
 os.remove("ott移动v4.txt")
