@@ -385,7 +385,7 @@ def main(source_file_path, output_file_path):
     result_queue = queue.Queue()  # 创建队列
 
     threads = []  # 初始化线程列表
-    for line in tqdm(lines, desc="加载中,任务完成后会有提示"):  # 显示进度条
+    for line in tqdm(lines, desc="检测进行中"):  # 显示进度条
         thread = threading.Thread(target=process_line, args=(line, result_queue))  # 创建线程
         thread.start()  # 启动线程
         threads.append(thread)  # 将线程加入线程列表
