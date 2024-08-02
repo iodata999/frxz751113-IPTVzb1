@@ -11,20 +11,6 @@ from datetime import datetime
 import replace
 import fileinput
 
-#  获取远程港澳台直播源文件
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
-r = requests.get(url)
-open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
-
-keywords = ['']  # 需要提取的关键字列表，留空则全局选择
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
-with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
-    #TW.write('\n央视频道,#genre#\n')
-    for line in file:
-      if "genre" not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          TW.write(line)  # 将该行写入输出文件
 
 
 
@@ -980,9 +966,9 @@ with open('酒店源.txt', 'w', encoding="utf-8") as file:
 
 
 ################################################################################################任务结束，删除不必要的过程文件
-files_to_remove = ['去重.txt', "2.txt", 'ott移动v4.txt', "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "e.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", \
-              "i1.txt", "j.txt", "j1.txt", "iptv.txt", "l0.txt", "l.txt", "l1.txt", "m.txt", "m1.txt",  \
-              "n0.txt","n.txt","n1.txt", "o1.txt", "o.txt", "检测结果.txt", "p.txt"]
+files_to_remove = ['去重.txt', "2.txt", 'ott移动v4.txt', "a0.txt", "a.txt", "a1.txt", "b.txt", "TW.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "e.txt", "f0.txt", "f.txt", "f1.txt", "g0.txt", \
+                   "g.txt", "g1.txt", "h0.txt", "h.txt", "h1.txt", "i.txt", "i1.txt", "j.txt", "j1.txt", "iptv.txt", "l0.txt", "l.txt", "l1.txt", "m.txt", "m1.txt",  \
+                   "n0.txt","n.txt","n1.txt", "o1.txt", "o.txt", "检测结果.txt", "p.txt"]
 
 for file in files_to_remove:
     if os.path.exists(file):
