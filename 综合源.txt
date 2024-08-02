@@ -227,6 +227,10 @@ CCTV17 农业农村,http://ottrrs.hl.chinamobile.com/TVOD/88888888/224/322122576
 天良,http://60.248.91.20:8000/main
 1905国外电影,http://php.jdshipin.com:8880/1905.php?id=1905dy2
 1905国内电影,http://php.jdshipin.com:8880/1905.php?id=1905dy
+纬来电影台(B),P2p://generationnexxxt.com:19806/c919ad41b4a9444bbc9fdf332a13724d
+东森戏剧台(B),P2p://generationnexxxt.com:19806/4c925da5e039498a85b4d3fa0bfb5910
+amc电影台(B),P2p://generationnexxxt.com:19806/f3c27a21d7c94ce897675ac9dbcf304f
+影迷数位电影台(B),P2p://generationnexxxt.com:19806/953af90f5a014c74b239928d831a1480
 AMC电影[720p],http://61.221.215.25:8800/hls/43/index.m3u8
 三立戏剧台[720p],http://61.221.215.25:8800/hls/41/index.m3u8
 八大戏剧[1080p],http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8531/.m3u8
