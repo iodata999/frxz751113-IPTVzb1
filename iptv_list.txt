@@ -1,4 +1,4 @@
-每8小时自动更新,#genre#,http://diyp1.112114.xyz/
+每12小时自动更新,#genre#,http://diyp1.112114.xyz/
 
 50帧高流畅,#genre#
 CHC影迷电影,http://cg14.hunancatv.cn:9090/live/CHCGQ_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604315487&srchost=172.16.22.158:8060&gid=QTVto%2BZu6pkkcNYy4OxcMg%3D%3D
