@@ -290,6 +290,11 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt获取完成！")
+
+for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("udp://@", "/rtp/")
+    print(line, end="")  #设置end=""，避免输出多余的换行符  
+
 def remove_duplicates(input_file, output_file):
     # 用于存储已经遇到的URL和包含genre的行
     seen_urls = set()
