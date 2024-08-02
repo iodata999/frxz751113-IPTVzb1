@@ -237,7 +237,6 @@ TVB功夫台,http://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3
 TVB功夫台,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m3u8
 三立戏剧台,http://61.221.215.25:8800/hls/41/index.m3u8
 中视经典,http://37.27.111.214:8080/live/47/hls.m3u8
-八大戏剧,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8531/.m3u8
 八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
 公视戏剧,http://37.27.111.214:8080/live/87/hls.m3u8
 影剧,http://37.27.111.214:8080/live/88/hls.m3u8
@@ -298,7 +297,7 @@ FOXSPORTS,http://line.greatstar.me:80/play/live.php?mac=00:1A:79:51:45:21&stream
 FOXSPORTS,http://line.greatstar.me:80/play/live.php?mac=00:1A:79:B5:AD:4C&stream=174669&extension=ts&play_token=LH7eWcM8g9
 FOX新闻,https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 GOOD2,http://37.27.111.214:8080/live/99/hls.m3u8
-GRT[900p],https://stream1.freetv.fun/c8c19050366334011b277c1adf35b8c04b7c23086b3426230aa509101192f792.m3u8
+GRT[900p][900p],https://stream1.freetv.fun/c8c19050366334011b277c1adf35b8c04b7c23086b3426230aa509101192f792.m3u8
 HBO,http://metatvpro.xyz:25461/W1045/4329/197
 HBO家庭,http://metatvpro.xyz:25461/W1045/4329/13146
 HISTORY,http://37.27.111.214:8080/live/27/hls.m3u8
@@ -361,7 +360,6 @@ elta生活旅游,http://37.27.111.214:8080/live/85/hls.m3u8
 nhkworld,http://61.221.215.25:8800/hls/51/index.m3u8
 nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 三立台湾,http://extraott.com:80/live/7921751389/6097373662/5505.m3u8
-三立新闻,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8543/.m3u8
 三立综合,http://37.27.111.214:8080/live/31/hls.m3u8
 三立都会,http://extraott.com:80/live/7921751389/6097373662/5506.m3u8
 东森,http://extraott.com:80/live/7921751389/6097373662/473538.m3u8
@@ -378,7 +376,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 中视,http://37.27.111.214:8080/live/7/hls.m3u8
 中视,rtmp://220.130.201.73/sat/tv091
 中视,rtmp://f13h.mine.nu/sat/tv091
-中视新闻,http://194.87.101.118/live.m3u8?c=6
 中视青采,http://37.27.111.214:8080/live/48/hls.m3u8
 互动英语,http://37.27.111.214:8080/live/54/hls.m3u8
 亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612417/live.m3u8?zbid=2046370057&tpid=330913109&type=0
@@ -432,7 +429,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 台湾番薯音乐台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8?音乐
 台视,rtmp://220.130.201.73/sat/tv071
 台视,rtmp://f13h.mine.nu/sat/tv071
-台视新闻,http://194.87.101.118/live.m3u8?c=4
 台视新闻,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 台视新闻,http://extraott.com:80/live/7921751389/6097373662/5501.m3u8
 台视新闻,https://stream1.freetv.fun/c1e80466d09b16dbba231914e7d90e38b5ad564c5c34497819f0b65b3c0c8ea2.m3u8
@@ -536,7 +532,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts
 迪士尼,http://metatvpro.xyz:25461/W1045/4329/275
-镜新闻,http://194.87.101.118/live.m3u8?c=10
 镜新闻,http://37.27.111.214:8080/live/62/hls.m3u8
 镜新闻,http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
