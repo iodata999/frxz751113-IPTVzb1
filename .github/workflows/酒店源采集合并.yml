@@ -20,34 +20,10 @@ jobs:
         with:
           python-version: 3.x
 
-      - name: Install dependencies
-        run: pip install --upgrade pip
-      - name: Install dependencies
-        run: pip install selenium requests futures eventlet
-      - name: Install dependencies
-        run: pip install opencv-python requests
-      - name: Install dependencies
-        run: pip install Beautifulsoup4 requests
-      - name: Install dependencies
-        run: pip install translate requests
-      #- name: Install dependencies
-        #run: pip install ffmpy
-      - name: Install dependencies
-        run: pip install termcolor
-      - name: Install dependencies
-        run: pip install func_timeout
-      - name: Install dependencies
-        run: pip install replace
-      - name: Install dependencies
-        run: pip install input
-      - name: Install dependencies
-        run: pip install opencc
-      - name: Install dependencies
-        run: pip install pypinyin
-      - name: Install dependencies
-        run: pip install pytz 
-      - name: Install dependencies
-        run: pip install tqdm
+      - name: Upgrade pip and install dependencies
+        run: |
+            pip install --upgrade pip
+            pip install selenium requests futures eventlet opencv-python Beautifulsoup4 translate termcolor func_timeout replace input opencc pypinyin pytz tqdm
 
       - name: Run iptv
         run: python ${{ github.workspace }}/酒店源采集/iptv.py      #这里更改要运行的py
