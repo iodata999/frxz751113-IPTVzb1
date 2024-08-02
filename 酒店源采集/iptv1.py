@@ -12,14 +12,14 @@ import replace
 import fileinput
 
 #  获取远程港澳台直播源文件
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/TW.txt"          #源采集地址
+url = "https://gh.con.sh/https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/zhibo1.txt"          #源采集地址
 r = requests.get(url)
-open('ott移动v4.txt','wb').write(r.content)         #打开源文件并临时写入
+open('zhibo1.txt','wb').write(r.content)         #打开源文件并临时写入
 
 keywords = ['']  # 需要提取的关键字列表，留空则全局选择
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #去掉genre行直接复制
-with open('ott移动v4.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
+with open('zhibo1.txt', 'r', encoding='utf-8') as file, open('TW.txt', 'w', encoding='utf-8') as TW:
     #TW.write('\n央视频道,#genre#\n')
     for line in file:
       if "genre" not in line:
@@ -159,50 +159,6 @@ for url in urls:
                             urld = f"{url_x}{urlx}"
 
                         if name and urld:
-                            name = name.replace("高清电影", "影迷电影")                            
-                            name = name.replace("中央", "CCTV")
-                            name = name.replace("高清", "")
-                            name = name.replace("HD", "")
-                            name = name.replace("标清", "")
-                            name = name.replace("超高", "")
-                            name = name.replace("频道", "")
-                            name = name.replace("汉1", "汉")
-                            name = name.replace("汉2", "汉")
-                            name = name.replace("汉3", "汉")
-                            name = name.replace("汉4", "汉")
-                            name = name.replace("汉5", "汉")
-                            name = name.replace("汉6", "汉")
-                            name = name.replace("CHC动", "动")
-                            name = name.replace("CHC家", "家")
-                            name = name.replace("CHC影", "影")
-                            name = name.replace("-", "")
-                            name = name.replace(" ", "")
-                            name = name.replace("PLUS", "+")
-                            name = name.replace("＋", "+")
-                            name = name.replace("(", "")
-                            name = name.replace(")", "")
-                            name = name.replace("CHC", "")
-                            name = name.replace("L", "")
-                            name = name.replace("002", "AA酒店MV")
-                            name = name.replace("测试002", "凤凰卫视")
-                            name = name.replace("测试003", "凤凰卫视")
-                            name = name.replace("测试004", "私人影院")
-                            name = name.replace("测试005", "私人影院")
-                            name = name.replace("测试006", "东森洋片")
-                            name = name.replace("测试007", "东森电影")
-                            name = name.replace("测试008", "AXN电影")
-                            name = name.replace("测试009", "好莱坞电影")
-                            name = name.replace("测试010", "龙祥电影")
-                            name = name.replace("莲花台", "凤凰香港")
-                            name = name.replace("测试014", "凤凰资讯")
-                            name = name.replace("测试015", "未知影视")
-                            name = name.replace("TV星河", "空")
-                            name = name.replace("305", "酒店影视1")
-                            name = name.replace("306", "酒店影视2")
-                            name = name.replace("307", "酒店影视3")
-                            name = name.replace("CMIPTV", "")
-                            name = name.replace("cctv", "CCTV")
-                            name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
                             name = name.replace("CCTV1综合", "CCTV1")
                             name = name.replace("CCTV2财经", "CCTV2")
                             name = name.replace("CCTV3综艺", "CCTV3")
@@ -625,5 +581,5 @@ with open('酒店源.txt', 'w', encoding="utf-8") as file:
 os.remove("iptv.txt")
 os.remove("hn.txt")
 os.remove("TW.txt")
-os.remove("ott移动v4.txt")
+os.remove("zhibo1.txt")
 print("任务运行完毕")
