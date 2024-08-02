@@ -512,6 +512,8 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("经济生活", "经济")  
     line = line.replace("频道1", "频道")
     line = line.replace("省市频道", "湖北频道")    
+    line = line.replace("[720p]", "") 
+    line = line.replace("[1080p]", "")     
     print(line, end="")   
 
 
