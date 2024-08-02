@@ -314,7 +314,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
 
 
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.githubusercontent.com/frxz751113/AAAAA/main/IPTV/芬兰.txt"          #源采集地址
+url = "https://gh.con.sh/https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/kong.txt"          #源采集地址
 r = requests.get(url)
 open('HK.txt','wb').write(r.content)         #打开源文件并临时写入
 keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
