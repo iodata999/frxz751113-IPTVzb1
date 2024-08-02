@@ -306,7 +306,7 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #####定义临时文件名
     f1.write('\n卫视频道&爬虫更新,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and 'kk' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
 
@@ -374,7 +374,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 
 
 #  获取远程直播源文件
-url = "https://gh.con.sh/https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/zhibo.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/zhibo.txt"          #源采集地址
 r = requests.get(url)
 open('zhibo.txt','wb').write(r.content)         #打开源文件并临时写入
 
@@ -482,7 +482,7 @@ def txt_to_m3u(input_file, output_file):
                     print(genre)
                 else:
                     # 将频道信息写入m3u文件
-                    f.write(f'#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
+                    f.write(f'#EXTINF:-1  tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
                     f.write(f'{channel_url}\n')
 
 
