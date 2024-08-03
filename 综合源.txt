@@ -956,6 +956,7 @@ FOXSPORTSOKLAHOMA,https://stream1.freetv.fun/918fff19fa275cd3a8655142089c1adaeb3
 FOXSPORTSSUN,http://0f3f161d.cbilant.com/iptv/DNKSGWXK47B9GH/19145/index.m3u8
 FOXSPORTSSUN,http://doubleclicktv.live:80/70376812/52663544/904
 FOXSPORTS,http://4e87b8a2.rossteleccom.net/iptv/UWSCNHYFPPFSA5/545/7323/index.m3u8
+FOXSPORTS,http://line.greatstar.me:80/play/live.php?mac=00:1A:79:51:45:21&stream=174669&extension=ts&play_token=LH7eWcM8g9
 FOXSPORTS,http://line.greatstar.me:80/play/live.php?mac=00:1A:79:B5:AD:4C&stream=174669&extension=ts&play_token=LH7eWcM8g9
 FOX新闻,https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 GOOD2,http://37.27.111.214:8080/live/99/hls.m3u8
@@ -984,7 +985,6 @@ TVB+,http://nz171l122.bb60246.ctm.net:8892/bysid/82.m3u8
 TVBJ2台,http://extraott.com:80/live/7921751389/6097373662/62826.m3u8
 TVBSNEWS,http://61.221.215.25:8800/hls/9/index.m3u8
 TVBS亚洲台,http://metatvpro.xyz:25461/W1045/4329/59
-TVBS新闻,http://194.87.101.118/live.m3u8?c=5
 TVBS新闻,http://extraott.com:80/live/7921751389/6097373662/5499.m3u8
 TVBS欢乐台,http://37.27.111.214:8080/live/24/hls.m3u8
 TVBS综艺台,http://cdn9.1678520.xyz/xsj2.1.php?id=tvbs-zongyi
@@ -1027,7 +1027,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 中天亚洲台,http://line.greatstar.me:80/play/live.php?mac=00:1A:79:51:45:21&stream=571212&extension=ts
 中天亚洲台,http://metatvpro.xyz:25461/W1045/4329/56
 中天新闻,http://194.87.101.118/live.m3u8?c=7
-中天新闻,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8541/.m3u8
 中视,http://37.27.111.214:8080/live/7/hls.m3u8
 中视,rtmp://220.130.201.73/sat/tv091
 中视,rtmp://f13h.mine.nu/sat/tv091
@@ -1083,6 +1082,7 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 台湾番薯音乐台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8?音乐
 台视,rtmp://220.130.201.73/sat/tv071
 台视,rtmp://f13h.mine.nu/sat/tv071
+台视新闻,http://194.87.101.118/live.m3u8?c=4
 台视新闻,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 台视新闻,http://extraott.com:80/live/7921751389/6097373662/5501.m3u8
 台视新闻,https://stream1.freetv.fun/c1e80466d09b16dbba231914e7d90e38b5ad564c5c34497819f0b65b3c0c8ea2.m3u8
@@ -1103,6 +1103,7 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 大立电视,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 天良综合台,http://60.248.91.20:8000/main
 好消息综合台,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
+宇宙视界,https://www.goodiptv.club/douyu/9498354
 寰宇台湾,http://37.27.111.214:8080/live/63/hls.m3u8
 寰宇新闻,http://extraott.com:80/live/7921751389/6097373662/5523.m3u8
 寰宇财经,http://37.27.111.214:8080/live/65/hls.m3u8
@@ -1143,6 +1144,7 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 港台电视35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream04/streamPlaylist.m3u8?
 澳视澳门,http://183.237.246.14:9931/tsfile/live/1039_1.m3u8
 澳视澳门,http://grandprix2023.asuscomm.com:8891/bysid/91.m3u8
+澳视澳门,http://nz171l122.bb60246.ctm.net:8891/bysid/91.m3u8
 澳视澳门,http://61.244.22.5/ch1/ch1.live/index.m3u8
 澳门MACAU,http://grandprix2023.asuscomm.com:8891/bysid/96.m3u8
 澳门MACAU,http://nz171l122.bb60246.ctm.net:8891/bysid/96.m3u8
@@ -1177,9 +1179,9 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 翡翠台,http://113.83.152.56:8182/bynumber/1
 翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379
 翡翠台,http://grandprix2023.asuscomm.com:8889/bysid/1.m3u8
+翡翠台,http://metatvpro.xyz:25461/W1045/4329/12205
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts
-翡翠台,http://metatvpro.xyz:25461/W1045/4329/12205
 迪士尼,http://metatvpro.xyz:25461/W1045/4329/275
 镜新闻,http://194.87.101.118/live.m3u8?c=10
 镜新闻,http://37.27.111.214:8080/live/62/hls.m3u8
@@ -1187,7 +1189,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 香港33台,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8
 香港34台,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8
 香港35台,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream05/streamPlaylist.m3u8
-香港凤凰,http://146.56.153.245:20121/bysid/259
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 湖北频道,#genre#
 武汉教育,http://stream.appwuhan.com/jyzb/sd/live.m3u8
