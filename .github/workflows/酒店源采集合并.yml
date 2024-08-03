@@ -2,7 +2,7 @@ name: 酒店源采集合并
 
 on:
   schedule:
-    - cron: '10 */12 * * *' # 这里更改自动运行的时间
+    - cron: '10 */2 * * *' # 这里更改自动运行的时间
   workflow_dispatch:
     branches:
       - main
@@ -25,11 +25,11 @@ jobs:
           pip install --upgrade pip
           pip install selenium requests futures eventlet opencv-python Beautifulsoup4 translate termcolor func_timeout replace input opencc pypinyin pytz tqdm
 
-      - name: Run ZHGX
-        run: python ${{ github.workspace }}/酒店源采集/ZHGX.py
+      #- name: Run ZHGX
+       # run: python ${{ github.workspace }}/酒店源采集/ZHGX.py
         
-      - name: Run iptv
-        run: python ${{ github.workspace }}/酒店源采集/iptv.py
+      #- name: Run iptv
+       # run: python ${{ github.workspace }}/酒店源采集/iptv.py
 
       - name: Run 组播综合
         run: python ${{ github.workspace }}/组播py/组播综合.py
