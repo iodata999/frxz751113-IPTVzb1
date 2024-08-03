@@ -620,7 +620,7 @@ def check_and_write_file(input_file, output_file, keywords):
 # 按类别提取关键词并写入文件
 check_and_write_file('2.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
 check_and_write_file('2.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 峨眉")
-#check_and_write_file('2.txt',  'a1.txt',  keywords="央视频道, 文物宝库, 风云音乐, 生活时尚, 台球, 网球, 足球, 女性, 地理, 纪实科教, 纪实人文, 兵器, 北京纪实, 发现, 法治")
+check_and_write_file('2.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 音乐现场")
 
 check_and_write_file('2.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
 
@@ -632,7 +632,7 @@ check_and_write_file('2.txt',  'c2.txt',  keywords="影视频道, 军事评论, 
 
 check_and_write_file('2.txt',  'd.txt',  keywords="少儿频道, 少儿, 卡通, 动漫, 宝贝, 哈哈")
 
-check_and_write_file('2.txt',  'e.txt',  keywords="港澳频道, TVB, 澳门, 龙华, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, \
+check_and_write_file('2.txt',  'e.txt',  keywords="港澳频道, TVB, 澳门, 龙华, 广场舞, 动物杂技, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, \
 中华小, 三立, CNA, FOX, RTHK, Movie, 八大, 中天, 中视, 东森, 凤凰, 酒店, 天映, 美亚, 环球, 翡翠, 亚洲, 大爱, 大愛, 明珠, 半岛, AMC, 龙祥, 台视, 1905, 纬来, 神话, 经典都市, 视界, 番薯, 私人, 酒店, TVB, 凤凰, 半岛, 星光视界, \
 番薯, 大愛, 新加坡, 星河, 明珠, 环球, 翡翠台")
 
