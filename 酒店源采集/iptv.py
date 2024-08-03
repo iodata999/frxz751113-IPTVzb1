@@ -26,7 +26,6 @@ urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci",  # Liaoning (辽宁)
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"  # 湖南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
@@ -305,7 +304,7 @@ def test_connectivity(url, max_attempts=2):
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
     try:
-        response = requests.head(url, timeout=0.5)  # 发送HEAD请求，仅支持V4
+        response = requests.head(url, timeout=3)  # 发送HEAD请求，仅支持V4
         #response = requests.get(url, timeout=3)  # 发送get请求，支持V6
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
