@@ -299,8 +299,7 @@ def remove_duplicates(input_file, output_file):
     # 将结果写入输出文件
     with open(output_file, 'w', encoding='utf-8') as f:
         f.writelines(output_lines)
-print("去重前的行数：", len(lines))
-print("去重后的行数：", len(output_lines))
+    print("去重后的行数：", len(output_lines))
 remove_duplicates('iptv.txt', 'iptv.txt')
 
 
