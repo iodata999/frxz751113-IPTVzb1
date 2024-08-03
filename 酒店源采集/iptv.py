@@ -20,6 +20,8 @@ from opencc import OpenCC
 # 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
 #"isShowLoginJs"智能KUTV管理
 urls = [
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iOTk5OSI%3D",  # 9999
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)
     "https://fofa.info/result?qbase64=5LqS6IGU572R55S16KeG566h55CG57O757uf",#黑龙江
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
