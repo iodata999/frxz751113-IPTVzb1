@@ -10,8 +10,9 @@ from queue import Queue
 from datetime import datetime
 import replace
 import fileinput
-
-
+from tqdm import tqdm
+from pypinyin import lazy_pinyin
+from opencc import OpenCC
 
 
 
@@ -329,11 +330,6 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符     
 
-import requests
-from tqdm import tqdm
-import threading
-import queue
-
 
 
 
@@ -404,7 +400,6 @@ if __name__ == "__main__":
         print(f"程序发生错误: {e}")  # 打印错误信息
 
 # ############################################ ############################################ ###########################################
-import re  # 导入正则表达式模块
 
 def filter_lines(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:  # 打开文件
@@ -447,17 +442,6 @@ with open('检测结果.txt', 'w', encoding='utf-8') as new_file:
 print("新文件已保存。")  # 打印完成信息
 
 
-
-
-
-
-
-
-from pypinyin import lazy_pinyin
-import re
-import os
-from opencc import OpenCC
-import fileinput
 ########################################################################################################################################################################################
 ######################################### 提示用户输入文件名（拖入文件操作）
 file_path = '检测结果.txt'
