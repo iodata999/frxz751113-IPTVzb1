@@ -156,7 +156,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "陕西电信.txt", "湖南电信.txt", "河南联通.txt", "江苏电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川电信.txt", "陕西电信.txt", "湖南电信.txt", "北京联通.txt", "河南联通.txt", "江苏电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -179,7 +179,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['IHOT', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
+keywords = ['IHOT', ' IPTV', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
@@ -256,7 +256,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', e
 
 
 ###############################################################################################################################################################################
-keywords = ['湖南', '梨园', '河南', '陕西', '河南公共', '河南乡村', '开封', '河南民生', '梨园', '移动戏曲', '河南电视剧', '河南都市', '江苏']  # 需要提取的关键字列表
+keywords = ['湖南', '梨园', '河南', '陕西', '河南公共', '河南乡村', '北京', '河南民生', '梨园', '移动戏曲', '河南电视剧', '河南都市', '江苏']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
@@ -294,13 +294,13 @@ pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
     f.write('\n少儿频道&爬虫更新,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
-      if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
+      if 'CCTV' not in line and '' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
 
 
 ###############f1
-keywords = ['kk', '卫视']  # 需要提取的关键字列表
+keywords = ['卫视', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #####定义临时文件名
