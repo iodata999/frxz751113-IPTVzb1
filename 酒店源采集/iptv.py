@@ -299,9 +299,11 @@ def remove_duplicates(input_file, output_file):
     # 将结果写入输出文件
     with open(output_file, 'w', encoding='utf-8') as f:
         f.writelines(output_lines)
+    print("去重前的行数：", len(lines))
     print("去重后的行数：", len(output_lines))
-# 使用方法
 remove_duplicates('iptv.txt', 'iptv.txt')
+
+
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符     
