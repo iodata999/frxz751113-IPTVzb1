@@ -307,7 +307,7 @@ def test_connectivity(url, max_attempts=2):
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
     try:
-        response = requests.head(url, timeout=0.5)  # 发送HEAD请求，仅支持V4
+        response = requests.head(url, timeout=1)  # 发送HEAD请求，仅支持V4
         #response = requests.get(url, timeout=3)  # 发送get请求，支持V6
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
@@ -387,47 +387,18 @@ replacements = {
 with open('检测结果.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 # 创建新文件并写入替换后的内容
-with open('检测结果.txt', 'w', encoding='utf-8') as new_file:
+with open('2.txt', 'w', encoding='utf-8') as new_file:
     for line in lines:
         for old, new in replacements.items():  # 遍历替换规则字典
             line = line.replace(old, new)  # 替换行中的内容
         new_file.write(line)  # 写入新文件
 print("新文件已保存。")  # 打印完成信息
 ########################################################################################################################################################################################
-######################################### 提示用户输入文件名（拖入文件操作）
-file_path = '检测结果.txt'
-# 检查文件是否存在
-if not os.path.isfile(file_path):
-    print("文件不存在，请重新输入.")
-    exit(1)
-########################################################################################################################################################################################
-########################################## 打开用户指定的文件打开用户指定的文件打开用户指定的文件
-with open(file_path, 'r', encoding="utf-8") as file:
-    # 读取所有行并存储到列表中
-    lines = file.readlines()
-########################################################################################################################################################################################
-##########################################对网址去重复对网址去重复对网址去重复对网址去重复对网址去重复
-    seen_urls = set()
-    seen_lines_with_genre = set()
-    # 用于存储最终输出的行
-    output_lines = []
-    # 打开输入文件并读取所有行
-    with open(file_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        print("去重前的行数：", len(lines))
-        # 遍历每一行
-        for line in lines:
-            # 使用正则表达式查找URL和包含genre的行,默认最后一行
-            urls = re.findall(r'[https]?[http]?[rtsp]?[rtmp]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
-            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
-            # 如果找到URL并且该URL尚未被记录
-            if urls and urls[0] not in seen_urls:
-                seen_urls.add(urls[0])
-                output_lines.append(line)
-            # 如果找到包含genre的行，无论是否已被记录，都写入新文件
-            if genre_line:
-                output_lines.append(line)
-    print("去重后的行数：", len(output_lines))
+
+
+
+
+
 ########################################################################################################################################################################################
 # ###########################################定义替换规则的字典对频道名替换
 replacements = {
