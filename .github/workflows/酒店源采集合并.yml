@@ -2,11 +2,11 @@ name: 酒店源采集合并
 
 on:
   schedule:
-    - cron: '10 */12 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+    - cron: '10 */12 * * *' # 这里更改自动运行的时间
   workflow_dispatch:
-    分支:
+    branches:
       - main
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-    
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -22,22 +22,35 @@ jobs:
 
       - name: Upgrade pip and install dependencies
         run: |
-            pip install --upgrade pip
-            pip install selenium requests futures eventlet opencv-python Beautifulsoup4 translate termcolor func_timeout replace input opencc pypinyin pytz tqdm
+          pip install --upgrade pip
+          pip install selenium requests futures eventlet opencv-python Beautifulsoup4 translate termcolor func_timeout replace input opencc pypinyin pytz tqdm
 
       - name: Run iptv
-        run: python ${{ github.workspace }}/酒店源采集/iptv.py      #这里更改要运行的py
-      - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py
+        run: python ${{ github.workspace }}/酒店源采集/iptv.py
 
-        
+      - name: Run 组播综合
+        run: python ${{ github.workspace }}/组播py/组播综合.py
 
-      - name: 提交更改
+      - name: Check for file changes
+        id: check_changes
+        run: |
+          if git diff --name-only ${{ github.sha }} | grep -q .; then
+            echo "::set-output name=changed::true"
+          else
+            echo "::set-output name=changed::false"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           git config --local user.email "actions@126.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit *.txt -m "Add generated file"
-          git commit *.m3u -m "Add generated file"
+          # 如果没有文件改变，添加一个空的提交
+          if [ -z "$(git status --porcelain)" ]; then
+            git commit --allow-empty -m "Empty commit for triggering update"
+          else
+            git commit -m "Commit changes from workflow"
+          fi
           git pull --rebase
           git push -f
