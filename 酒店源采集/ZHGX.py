@@ -23,6 +23,7 @@ from opencc import OpenCC
 
 urls = [
     "https://fofa.info/result?qbase64=anNfbmFtZT0iL1pIR1hUVi9QdWJsaWMvbGF5dWkvbGF5dWkuanMi",#搜索词js_name="/ZHGXTV/Public/layui/layui.js"
+    "https://fofa.info/result?qbase64=anNfbmFtZT0iLi4vc2NyaXB0L0xBQi5taW4uanMi",#搜索词js_name="../script/LAB.min.js"
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
