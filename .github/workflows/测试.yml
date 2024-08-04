@@ -50,8 +50,10 @@ jobs:
 
       #- name: Run iptv
         #run: python ${{ github.workspace }}/酒店源采集/ZHGX.py 
+      #- name: Run iptv
+        #run: python ${{ github.workspace }}/组播py/合并.py 
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/合并.py 
+        run: python ${{ github.workspace }}/组播py/3.py 
       - name: 提交更改
         run: |
           git config --local user.email "actions@126.com"
