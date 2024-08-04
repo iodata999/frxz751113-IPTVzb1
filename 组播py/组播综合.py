@@ -314,7 +314,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
 
 
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
-url = "https://raw.githubusercontent.com/mengxianshengaaa/IPTV/main/yeye.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/mengxianshengaaa/live/main/tv/kong.txt"          #源采集地址
 r = requests.get(url)
 open('HK.txt','wb').write(r.content)         #打开源文件并临时写入
 keywords = [',', 'rtmp']  # 需要提取的关键字列表 8M1080
@@ -330,13 +330,13 @@ with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding
 
 
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
-with open('酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
+with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
  #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
- keywords = [ '私人', '天映', '莲花', 'AXN', '好莱坞', '星', '龙祥', '凤凰', '东森']  # 需要提取的关键字列表                                                       ###########
+ keywords = [ 'CCTV', '广东', '河南', '湖南', '好莱坞', '星', '龙祥', '凤凰', '东森']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
- with open('酒店源.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
-    b.write('\n港澳频道&爬虫更新,#genre#\n')                                                                        ###########
+ with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
+    b.write('\n50帧频道&爬虫更新,#genre#\n')                                                                        ###########
     for line in file:                                                                                      ###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
           b.write(line)  # 将该行写入输出文件                                                               ###########
