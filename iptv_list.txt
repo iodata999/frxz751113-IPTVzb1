@@ -9,7 +9,6 @@ CHC家庭影院,http://cg11.hunancatv.cn:9090/live/CHCJTYY_8000.m3u8?deviceid=86
 
 4K&IPTV,#genre#
 CCTV8K,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2020603421.m3u8
-河南卫视4K,http://171.13.119.103:808/hls/31/index.m3u8
 BesTV电影4K,http://www.17888.fun:10000/udp/239.45.3.107:5140
 百事通电影4K,http://www.17888.fun:10000/rtp/239.45.1.42:5140
 百事通纪实4K,http://www.17888.fun:10000/rtp/239.45.1.10:5140
