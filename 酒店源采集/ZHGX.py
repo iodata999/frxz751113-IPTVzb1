@@ -668,4 +668,4 @@ for file in files_to_remove:
         os.remove(file)
     else:              # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file} 不存在，跳过删除。")
-print("任务运行完毕，光迅源频道列表可查看文件夹内txt文件！")
+print("任务运行完毕，yeye频道列表可查看文件夹内txt文件！")
