@@ -12,13 +12,13 @@ output_path = 'merged.txt'
 merge_txt_files(file1_path, file2_path, output_path)
 
 ######################TXT转M3U#####################################################################################################################################################
-def txt_to_m3u(input_file, output_file):
+def txt_to_m3u(txt_path, m3u_path):
     # 读取txt文件内容
-    with open(input_file, 'r', encoding='utf-8') as f:
+    with open(txt_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # 打开m3u文件并写入内容
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(txt_path, 'w', encoding='utf-8') as f:
         f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
         # 初始化genre变量
         genre = ''
@@ -38,7 +38,10 @@ def txt_to_m3u(input_file, output_file):
                     f.write(f'#EXTINF:-1 tvg-id="{channel_name}" tvg-name="{channel_name}" tvg-logo="https://live.fanmingming.com/tv/{channel_name}.png" group-title="{genre}",{channel_name}\n')
                     f.write(f'{channel_url}\n')
 
+# 请替换为您实际的文件路径
+txt_path = 'merged.txt'
+m3u_path = 'merged.m3u'
 
-# 将txt文件转换为m3u文件
-txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
+txt_to_m3u(txt_path, m3u_path)
+
 
