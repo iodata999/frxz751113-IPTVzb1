@@ -23,10 +23,11 @@ from opencc import OpenCC
 
 urls = [
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgY291bnRyeT0iQ04i",
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",#河南
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSHVuYW4i",#湖南
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河nan
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 def modify_urls(url):
@@ -622,12 +623,12 @@ check_and_write_file('2.txt',  'c2.txt',  keywords="50帧频道, 军事评论, �
 
 check_and_write_file('2.txt',  'd.txt',  keywords="50帧频道, 少儿, 卡通, 动漫, 宝贝, 哈哈")
 
-check_and_write_file('2.txt',  'e.txt',  keywords="50帧频道, TVB, 澳门, 龙华, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, \
+check_and_write_file('2.txt',  'e.txt',  keywords="50帧频道, TVB, 都市, 戏曲, 法治,民生, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, \
 中华小, 三立, CNA, FOX, RTHK, Movie, 八大, 中天, 中视, 东森, 凤凰, 酒店, 天映, 美亚, 环球, 翡翠, 亚洲, 大爱, 大愛, 明珠, 半岛, AMC, 龙祥, 台视, 1905, 纬来, 神话, 经典都市, 视界, 番薯, 私人, 酒店, TVB, 凤凰, 半岛, 星光视界, \
 番薯, 大愛, 新加坡, 星河, 明珠, 环球, 翡翠台")
 
 check_and_write_file('2.txt',  'f.txt',  keywords="50帧频道, 湖北, 武汉, 河北, 广东, 河南, 广西, 南宁, 福建, 辽宁")
-check_and_write_file('2.txt',  'f1.txt',  keywords="50帧频道, 公共, 综合, 影视, 新闻")
+check_and_write_file('2.txt',  'f1.txt',  keywords="50帧频道, 河南公共, 河南农村, 公共, 电视剧")
 
 check_and_write_file('2.txt',  'o1.txt',  keywords="50帧频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
 check_and_write_file('2.txt',  'o.txt',  keywords="50帧频道, , ")
