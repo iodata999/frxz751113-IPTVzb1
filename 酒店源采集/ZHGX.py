@@ -297,11 +297,11 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符     
 # 测试HTTP连接# 定义测试HTTP连接的次数
-def test_connectivity(url, max_attempts=2):
+def test_connectivity(url, max_attempts=5):
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
     try:
-        response = requests.head(url, timeout=3)  # 发送HEAD请求，仅支持V4
+        response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4
         #response = requests.get(url, timeout=3)  # 发送get请求，支持V6
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
