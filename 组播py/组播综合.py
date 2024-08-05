@@ -68,7 +68,7 @@ for keyword in keywords:
     while len(result_urls) == 0 and timeout_cnt <= 5:
         try:
             search_url = 'https://fofa.info/result?qbase64='
-            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" && org=\"{org}\"'
+            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\"'# && org=\"{org}\"
                 # 将字符串编码为字节流
             bytes_string = search_txt.encode('utf-8')
                 # 使用 base64 进行编码
