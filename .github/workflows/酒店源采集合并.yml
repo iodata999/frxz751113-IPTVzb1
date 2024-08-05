@@ -2,7 +2,7 @@ name: 酒店源采集合并
 
 on:
   schedule:
-    - cron: '40 */2 * * *' # 这里更改自动运行的时间
+    - cron: '40 */8 * * *' # 这里更改自动运行的时间
   workflow_dispatch:
     branches:
       - main
