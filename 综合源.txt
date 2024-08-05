@@ -728,10 +728,10 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 文安电视,http://106.116.0.29:8890/rtp/239.254.201.103:5314?$HEBEI
 三河电视,http://106.116.0.29:8890/rtp/239.254.201.113:5315?$HEBEI
 酒店港澳,#genre#
-TVBTVB星河,http://171.108.239.56:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-TVBTVB星河,http://171.108.239.79:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-TVBTVB星河,http://171.108.239.80:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-TVBTVB星河,http://180.142.220.34:8181/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
+TVB星河,http://171.108.239.56:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+TVB星河,http://171.108.239.79:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+TVB星河,http://171.108.239.80:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
+TVB星河,http://180.142.220.34:8181/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
 东森超视,http://171.108.239.56:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 东森超视,http://171.108.239.79:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 东森超视,http://171.108.239.80:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
