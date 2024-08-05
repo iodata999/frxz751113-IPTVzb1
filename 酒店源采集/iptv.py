@@ -1,4 +1,4 @@
-#本程序只适用于酒店源的检测，请勿移植他用
+#本程序只适用于光迅源的检测，请勿移植他用
 import time
 import concurrent.futures
 from selenium import webdriver
@@ -152,7 +152,7 @@ for url in urls:
                             name = name.replace(")", "")
                             name = name.replace("CHC", "")
                             name = name.replace("L", "")
-                            name = name.replace("002", "AA酒店MV")
+                            name = name.replace("002", "AA光迅MV")
                             name = name.replace("测试002", "凤凰卫视")
                             name = name.replace("测试003", "凤凰卫视")
                             name = name.replace("测试004", "私人影院")
@@ -166,9 +166,9 @@ for url in urls:
                             name = name.replace("测试014", "凤凰资讯")
                             name = name.replace("测试015", "未知影视")
                             name = name.replace("TV星河", "空")
-                            name = name.replace("305", "酒店影视1")
-                            name = name.replace("306", "酒店影视2")
-                            name = name.replace("307", "酒店影视3")
+                            name = name.replace("305", "光迅影视1")
+                            name = name.replace("306", "光迅影视2")
+                            name = name.replace("307", "光迅影视3")
                             name = name.replace("CMIPTV", "")
                             name = name.replace("cctv", "CCTV")
                             name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
@@ -626,7 +626,7 @@ check_and_write_file('2.txt',  'c2.txt',  keywords="影视频道, 军事评论, 
 check_and_write_file('2.txt',  'd.txt',  keywords="少儿频道, 少儿, 卡通, 动漫, 宝贝, 哈哈")
 
 check_and_write_file('2.txt',  'e.txt',  keywords="港澳频道, TVB, 珠江台, 澳门, 龙华, 广场舞, 动物杂技, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, \
-中华小, 三立, CNA, FOX, RTHK, Movie, 八大, 中天, 中视, 东森, 凤凰, 酒店, 天映, 美亚, 环球, 翡翠, 亚洲, 大爱, 大愛, 明珠, 半岛, AMC, 龙祥, 台视, 1905, 纬来, 神话, 经典都市, 视界, 番薯, 私人, 酒店, TVB, 凤凰, 半岛, 星光视界, \
+中华小, 三立, CNA, FOX, RTHK, Movie, 八大, 中天, 中视, 东森, 凤凰, 光迅, 天映, 美亚, 环球, 翡翠, 亚洲, 大爱, 大愛, 明珠, 半岛, AMC, 龙祥, 台视, 1905, 纬来, 神话, 经典都市, 视界, 番薯, 私人, 光迅, TVB, 凤凰, 半岛, 星光视界, \
 番薯, 大愛, 新加坡, 星河, 明珠, 环球, 翡翠台")
 
 check_and_write_file('2.txt',  'f.txt',  keywords="省市频道, 湖北, 武汉, 河北, 广东, 河南, 广西, 南宁, 福建, 辽宁")
@@ -663,7 +663,7 @@ for line in lines:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('酒店源.txt', 'w', encoding="utf-8") as file:
+with open('光迅源.txt', 'a', encoding="utf-8") as file:
  file.writelines(unique_lines)
 ################################################################################################任务结束，删除不必要的过程文件
 files_to_remove = ['去重.txt', "2.txt", "iptv.txt", "e.txt", "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "f.txt", "f1.txt", "o1.txt", "o.txt", "检测结果.txt"]
@@ -672,4 +672,4 @@ for file in files_to_remove:
         os.remove(file)
     else:              # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file} 不存在，跳过删除。")
-print("任务运行完毕，酒店源频道列表可查看文件夹内txt文件！")
+print("任务运行完毕，光迅源频道列表可查看文件夹内txt文件！")
