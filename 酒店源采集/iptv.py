@@ -501,7 +501,7 @@ replacements = {
     	"CCTV10CCTV10": "CCTV10"
 }
 # 打开新文本文件准备写入替换后的内容
-with open('光迅源.txt', 'a', encoding='utf-8') as new_file:
+with open('光迅源.txt', 'a', encoding='utf-8') as new_file:        #打开光迅源文本以追加的形式写入行
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
