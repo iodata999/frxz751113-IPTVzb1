@@ -1155,6 +1155,34 @@ http://171.108.239.80:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=
 http://171.108.239.84:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB星河.png" group-title="酒店港澳",TVB星河
 http://180.142.220.34:8181/tsfile/live/1073_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.101:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.110:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.174:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.205:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.47:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.52:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB2翡翠.png" group-title="酒店港澳",TVB2翡翠
+http://120.84.121.62:808/hls/25/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.101:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.110:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.174:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.205:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.47:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.52:808/hls/26/index.m3u8
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/TVB3明珠.png" group-title="酒店港澳",TVB3明珠
+http://120.84.121.62:808/hls/26/index.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/东森超视.png" group-title="酒店港澳",东森超视
 http://171.108.239.56:8181/tsfile/live/1023_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/东森超视.png" group-title="酒店港澳",东森超视
@@ -1271,6 +1299,14 @@ http://171.108.239.80:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=
 http://171.108.239.84:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="酒店港澳",凤凰资讯
 http://180.142.220.34:8181/tsfile/live/1082_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广场舞.png" group-title="酒店港澳",广场舞
+http://171.108.239.56:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广场舞.png" group-title="酒店港澳",广场舞
+http://171.108.239.79:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广场舞.png" group-title="酒店港澳",广场舞
+http://171.108.239.80:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广场舞.png" group-title="酒店港澳",广场舞
+http://171.108.239.84:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/酒店MV.png" group-title="酒店港澳",酒店MV
 http://171.108.239.56:8181/tsfile/live/1050_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/酒店MV.png" group-title="酒店港澳",酒店MV
