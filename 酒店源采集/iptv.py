@@ -485,8 +485,8 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
     for result in results:
         file.write(result + "\n")
         print(result)
-print("频道列表文件iptv.txt获取完成！")
-############################################################
+print("频道列表文件iptv.txt追加写入成功！")
+#############################################################去除列表中的组播地址
 def filter_lines(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -498,7 +498,7 @@ def filter_lines(input_file, output_file):
         output_file.writelines(filtered_lines)
 # 使用函数
 filter_lines("iptv.txt", "iptv.txt")
-#################################################################
+#################################################################按网址去重
 def remove_duplicates(input_file, output_file):
     # 用于存储已经遇到的URL和包含genre的行
     seen_urls = set()
@@ -530,7 +530,9 @@ remove_duplicates('iptv.txt', 'iptv.txt')
 
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
-    print(line, end="")  #设置end=""，避免输出多余的换行符     
+    print(line, end="")  #设置end=""，避免输出多余的换行符
+
+
 # 测试HTTP连接# 定义测试HTTP连接的次数
 def test_connectivity(url, max_attempts=5):
     # 尝试连接指定次数    
