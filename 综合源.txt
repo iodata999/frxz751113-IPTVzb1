@@ -563,7 +563,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 黄金翡翠台,http://cdn9.1678520.xyz/xsj2.1.php?id=golden-jade
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 龙华日韩台,http://cdn9.1678520.xyz/xsj2.1.php?id=ltv-rihan
-\港澳频道,#genre#
 TVB星河,http://171.108.239.56:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 TVB星河,http://171.108.239.79:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
 TVB星河,http://171.108.239.80:8181/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
