@@ -1139,12 +1139,16 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', 
         if re.search(pattern, line):  # 如果行中有任意关键字
           df1.write(line)  # 将该行写入输出文件
 #从整理好的文本中按类别进行特定关键词提取#######################################################################################################################################
+#  获取远程港澳台直播源文件
+url = "https://raw.githubusercontent.com/frxz751113/IPTVzb/main/%E6%B2%B3%E5%8C%97%E7%94%B5%E4%BF%A1.txt"          #源采集地址
+r = requests.get(url)
+open('河北电信.txt','wb').write(r.content)         #打开源文件并临时写入
 keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区', '保定', '元氏', '兴隆', '内丘', '南宫', '吴桥', '唐县', '唐山', '安平', '定州', '大厂', '张家口', '徐水', '成安', \
             '承德', '故城', '康保', '廊坊', '晋州', '景县', '武安', '枣强', '柏乡', '涉县', '涞水', '涞源', '涿州', '深州', '深泽', '清河', '秦皇岛', '衡水', '遵化', '邢台', '邯郸', \
             '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
+with open('河北电信.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
