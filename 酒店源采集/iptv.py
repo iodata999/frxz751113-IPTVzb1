@@ -868,7 +868,7 @@ check_and_write_file('酒店源.txt',  'o.txt',  keywords="其他频道, , ")
 ###############################################################################################################################################################################################################################
 ##############################################################对生成的文件进行合并
 file_contents = []
-file_paths = ["e.txt", "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c酒店源.txt", "d.txt", "f.txt", "f1.txt", "o1.txt", "o.txt"]  # 替换为实际的文件路径列表
+file_paths = ["e.txt", "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "f.txt", "f1.txt", "o1.txt", "o.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
