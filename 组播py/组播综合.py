@@ -156,7 +156,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["四川电信.txt", "陕西电信.txt", "湖南电信.txt", "北京联通.txt", "河南联通.txt", "江苏电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["北京联通.txt", "陕西电信.txt", "湖南电信.txt", "四川电信.txt", "河南联通.txt", "江苏电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -179,7 +179,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['IHOT', 'IPTV', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
+keywords = ['kk', 'IPTV', ' IHOT', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
@@ -332,7 +332,7 @@ with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
 with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
  #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
- keywords = [ 'CCTV', '广东', '河南', '湖南', '好莱坞', '星', '龙祥', '凤凰', '东森']  # 需要提取的关键字列表                                                       ###########
+ keywords = [ 'CCTV', '广东', '河南', '湖南', '好莱坞', '卫视', '龙祥', '凤凰', '东森']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
@@ -493,7 +493,7 @@ txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '组播源.txt', '天津联通.txt', '江苏电信.txt', '四川电信.txt', \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '酒店源.txt', '天津联通.txt', '江苏电信.txt', '四川电信.txt', \
                        "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "b2.txt", "HK.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "TT.txt", "zhibo.txt"]
 
 for file in files_to_remove:
