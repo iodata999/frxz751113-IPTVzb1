@@ -402,18 +402,6 @@ for file_path in file_paths:                                                    
         content = file.read()
         file_contents.append(content)
 # 生成合并后的文件
-with open("GAT.txt", "w", encoding="utf-8") as output:
-    output.write(''.join(file_contents))
-           
- ###########################################################################################################################################################################     
-# 读取临时文件，并生成结果文件。这一步其实多余，懒得改##############################################################################################################
-file_contents = []
-file_paths = ["GAT.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    with open(file_path, 'r', encoding="utf-8") as file:
-        content = file.read()
-        file_contents.append(content)
-# 写入合并后的文件
 with open("综合源.txt", "w", encoding="utf-8") as output:
     output.write(''.join(file_contents))   #加入\n则多一空行
 #############################################################去重##################################################################################################################
@@ -512,7 +500,7 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河南电信.txt', '天津联通.txt', '组播源.txt', "GAT.txt", "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河南电信.txt', '天津联通.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
                    "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "ott移动v4.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
