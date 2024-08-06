@@ -24,79 +24,76 @@ from urllib.parse import urlparse
 # 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
 #"isShowLoginJs"智能KUTV管理
 #ZHGXTV采集地址
-urls = [
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
-]
-def modify_urls(url):
-    modified_urls = []
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_end_index]
-    port = url[ip_end_index:]
-    ip_end = "/ZHGXTV/Public/json/live_interface.txt"
-    for i in range(1, 256):
-        modified_ip = f"{ip_address[:-1]}{i}"
-        modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
-        modified_urls.append(modified_url)
+import re
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import requests
 
+# 定义修改URLs的函数
+def modify_urls(urls):
+    modified_urls = []
+    for url in urls:
+        ip_start_index = url.find("//") + 2
+        ip_end_index = url.find(":", ip_start_index)
+        base_url = url[:ip_start_index]  # http:// or https://
+        ip_address = url[ip_start_index:ip_end_index]
+        port = url[ip_end_index:]
+        modified_url = f"{base_url}{ip_address}{port}"
+        modified_urls.append(modified_url)
     return modified_urls
 
-
+# 定义检查URL可访问性的函数
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=3)          #//////////////////
+        response = requests.get(url, timeout=3)
         if response.status_code == 200:
-            return url
+            return True
     except requests.exceptions.RequestException:
         pass
-    return None
+    return False
 
+# 定义提取IP和端口的函数
+def extract_ips_and_ports(page_content):
+    pattern = r"http://(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}):\d+"
+    ips_and_ports = re.findall(pattern, page_content)
+    return ips_and_ports[:3]  # 返回前三个IP和端口
 
-results = []
-
-for url in urls:
-    # 创建一个Chrome WebDriver实例
+# 定义主函数
+def main(urls):
+    results = []
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
 
-    driver = webdriver.Chrome(options=chrome_options)
-    # 使用WebDriver访问网页
-    driver.get(url)  # 将网址替换为你要访问的网页地址
-    time.sleep(10)
-    # 获取网页内容
-    page_content = driver.page_source
+    for url in urls:
+        driver = webdriver.Chrome(options=chrome_options)
+        driver.get(url)
+        time.sleep(10)  # 等待页面加载
+        page_content = driver.page_source
+        driver.quit()
 
-    # 关闭WebDriver
-    driver.quit()
+        ips_and_ports = extract_ips_and_ports(page_content)
+        modified_urls = modify_urls(ips_and_ports)  # 使用提取的IP和端口生成新的URL列表
 
-    # 查找所有符合指定格式的网址
-    pattern = r"http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"  # 设置匹配的格式，如http://8.8.8.8:8888
-    urls_all = re.findall(pattern, page_content)
-    # urls = list(set(urls_all))  # 去重得到唯一的URL列表
-    urls = set(urls_all)  # 去重得到唯一的URL列表
-    x_urls = []
-    for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
-        url = url.strip()
-        ip_start_index = url.find("//") + 2
-        ip_end_index = url.find(":", ip_start_index)
-        ip_dot_start = url.find(".") + 1
-        ip_dot_second = url.find(".", ip_dot_start) + 1
-        ip_dot_three = url.find(".", ip_dot_second) + 1
-        base_url = url[:ip_start_index]  # http:// or https://
-        ip_address = url[ip_start_index:ip_dot_three]
-        port = url[ip_end_index:]
-        ip_end = "1"
-        modified_ip = f"{ip_address}{ip_end}"
-        x_url = f"{base_url}{modified_ip}{port}"
-        x_urls.append(x_url)
-    urls = set(x_urls)  # 去重得到唯一的URL列表
+        for modified_url in modified_urls:
+            if is_url_accessible(modified_url):
+                results.append(modified_url)  # 将可访问的URL添加到结果列表
 
+    return results
+
+# 定义要处理的URLs
+urls = [
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",  # 广东
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",  # 河南
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",  # 河北
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",  # 四川
+]
+
+# 执行主函数并打印结果
+accessible_urls = main(urls)
+print(accessible_urls)
+#####################################################################以上有修改
     valid_urls = []
     #   多线程获取可用url
     with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
