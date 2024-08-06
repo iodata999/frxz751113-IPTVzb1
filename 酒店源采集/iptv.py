@@ -39,7 +39,8 @@ def modify_urls(url):
     port = url[ip_end_index:]
     ip_end = "/ZHGXTV/Public/json/live_interface.txt"
     for i in range(1, 256):
-        modified_ip = f"{ip_address[:-1]}{i}"
+        #modified_ip = f"{ip_address[:-1]}{i}"
+        modified_ip = f"{ip.rsplit('.', 1)[0]}.1"
         modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
         modified_urls.append(modified_url)
 
