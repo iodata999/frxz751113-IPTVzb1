@@ -620,6 +620,7 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
     line = line.replace("武汉影视", "武汉电视剧")                            
     line = line.replace("公共新闻,http://58.", "湖北公共新闻,http://58.")                            
     line = line.replace("湖北公共,", "湖北公共新闻,")                                              
+    line = line.replace("湖北湖北", "湖北")                                              
     line = line.replace("深圳影视", "深圳电视剧")             
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
