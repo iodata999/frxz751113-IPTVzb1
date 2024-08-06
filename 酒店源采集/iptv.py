@@ -949,8 +949,8 @@ check_and_write_file('酒店源.txt',  'e.txt',  keywords="港澳频道, TVB, �
 
 check_and_write_file('酒店源.txt',  'f.txt',  keywords="省市频道, 湖北, 武汉, 河北, 广东, 河南, 陕西, 四川, 湖南, 广西, 石家庄, 南宁, 福建, 辽宁")
 
-check_and_write_file('酒店源.txt',  'o1.txt',  keywords="其他频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
-check_and_write_file('酒店源.txt',  'o.txt',  keywords="其他频道, , ")
+#check_and_write_file('酒店源.txt',  'o1.txt',  keywords="其他频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
+#check_and_write_file('酒店源.txt',  'o.txt',  keywords="其他频道, , ")
 #
 #对生成的文件进行合并
 file_contents = []
