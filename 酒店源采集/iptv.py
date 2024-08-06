@@ -29,7 +29,15 @@ urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
+    "https://fofa.info/result?qbase64=IlpIR1hUViImJiByZWdpb249ImppbGluIg%3D%3D",#吉林
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ6aGVqaWFuZyI%3D",#浙江
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLlub%2Fopb8i",#广西
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLljJfkuqwi",#北京
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLpu5HpvpnmsZ8i",#黑龙江
+    "https://fofa.info/result?qbase64=IlpIR1giICYmIGNvdW50cnk9Rkk%3D",#芬兰
+    "https://fofa.info/result?qbase64=IlpIR1giICYmIGNvdW50cnk9Iue%2BjuWbvSI%3D",#美国
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 def modify_urls(url):
     modified_urls = []
