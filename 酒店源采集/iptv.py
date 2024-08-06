@@ -475,6 +475,7 @@ for url in urls:
                             name = name.replace("影视剧", "影视")
                             name = name.replace("电视剧", "影视")
                             name = name.replace("奥运匹克", "")
+                            name = name.replace("TVBTVB", "TVB")
                             name = name.replace("星空卫视", "动物杂技")
                             results.append(f"{name},{urld}")
             except:
@@ -498,7 +499,8 @@ def filter_lines(input_file, output_file):
         lines = file.readlines()
     filtered_lines = []
     for line in lines:
-        if ',' in line  or 'hls' in line    or 'tsfile' in line  and 'udp' not in line and 'rtp' not in line:
+        if 'hls' in line or 'tsfile' in line:
+          if 'udp' not in line and 'rtp' not in line:
             filtered_lines.append(line)
     with open(output_file, 'w', encoding='utf-8') as output_file:
         output_file.writelines(filtered_lines)
@@ -869,7 +871,7 @@ check_and_write_file('酒店源.txt',  'e.txt',  keywords="港澳频道, TVB, �
 番薯, 私人, 酒店, TVB, 凤凰, 半岛, 星光视界, 大愛, 新加坡, 星河, 明珠, 环球, 翡翠台")
 
 check_and_write_file('酒店源.txt',  'f.txt',  keywords="省市频道, 湖北, 武汉, 河北, 广东, 河南, 陕西, 四川, 湖南, 广西, 南宁, 福建, 辽宁")
-check_and_write_file('酒店源.txt',  'f1.txt',  keywords="省市频道, 公共, 综合, 影视, 新闻")
+check_and_write_file('酒店源.txt',  'f1.txt',  keywords="省市频道, 公共, 综合, 影视, 新闻, 梅州, 南方, 深圳, 徐水, 揭西")
 
 check_and_write_file('酒店源.txt',  'o1.txt',  keywords="其他频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
 check_and_write_file('酒店源.txt',  'o.txt',  keywords="其他频道, , ")
