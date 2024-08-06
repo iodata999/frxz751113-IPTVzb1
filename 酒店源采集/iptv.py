@@ -1,4 +1,3 @@
-
 #本程序只适用于酒店源的检测，请勿移植他用
 import time
 import concurrent.futures
@@ -24,13 +23,15 @@ from urllib.parse import urlparse
 # 搜素关键词："iptv/live/zh_cn.js" && country="CN" && region="Hunan" && city="changsha"
 # 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
 #"isShowLoginJs"智能KUTV管理
-#ZHGXTV采集地址
+
+#定义ZHGXTV采集地址
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
+#定义网址替换规则
 def modify_urls(url):
     modified_urls = []
     ip_start_index = url.find("//") + 2
@@ -43,10 +44,8 @@ def modify_urls(url):
         modified_ip = f"{ip_address[:-1]}{i}"
         modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
         modified_urls.append(modified_url)
-
     return modified_urls
-
-
+#定义超时时间以及是否返回正确的状态码
 def is_url_accessible(url):
     try:
         response = requests.get(url, timeout=3)          #//////////////////
@@ -58,21 +57,18 @@ def is_url_accessible(url):
 
 
 results = []
-
 for url in urls:
     # 创建一个Chrome WebDriver实例
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
-
     driver = webdriver.Chrome(options=chrome_options)
     # 使用WebDriver访问网页
     driver.get(url)  # 将网址替换为你要访问的网页地址
     time.sleep(10)
     # 获取网页内容
     page_content = driver.page_source
-
     # 关闭WebDriver
     driver.quit()
 
@@ -107,12 +103,10 @@ for url in urls:
             modified_urls = modify_urls(url)
             for modified_url in modified_urls:
                 futures.append(executor.submit(is_url_accessible, modified_url))
-
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             if result:
                 valid_urls.append(result)
-
     for url in valid_urls:
         print(url)
     # 遍历网址列表，获取JSON文件并解析
@@ -247,19 +241,18 @@ for url in urls:
                 continue
         except:
             continue
-
 channels = []
 for result in results:
     line = result.strip()
     if result:
         channel_name, channel_url = result.split(',')
         channels.append((channel_name, channel_url))
-
 with open("iptv.txt", 'w', encoding='utf-8') as file:
     for result in results:
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt获取完成！")
+
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换
     line = line.replace("河南河南", "河南")
     line = line.replace("河南河南", "河南")  
@@ -280,6 +273,7 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
     line = line.replace("都市生活6", "都市")                   
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
+#定义智慧桌面采集地址
 urls = [
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5YyXIg%3D%3D",  #河北
@@ -515,7 +509,7 @@ for result in results:
     if result:
         channel_name, channel_url = result.split(',')
         channels.append((channel_name, channel_url))
-with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以追加的形式写入行
+with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以追加的形式写入行到ZHGX文件
     for result in results:
         file.write(result + "\n")
         print(result)
@@ -528,6 +522,7 @@ lines.sort()
 with open('iptv.txt', 'w', encoding='UTF-8') as f:
     for line in lines:
         f.write(line)
+        
 ##########################################################IP段去重
 import re
 def deduplicate_lines(input_file_path, output_file_path):
@@ -578,7 +573,7 @@ filter_lines("iptv.txt", "iptv.txt")
 
 
 
-################################################按网址去重
+################################################按网址去重，此段代码多余，为了方便变更暂时保留
 def remove_duplicates(input_file, output_file):
     # 用于存储已经遇到的URL和包含genre的行
     seen_urls = set()
@@ -607,7 +602,7 @@ def remove_duplicates(input_file, output_file):
     print("去重后的行数：", len(output_lines))
 remove_duplicates('iptv.txt', 'iptv.txt')
 
-###################################################打开文件，并对其进行行内关键词原地替换   
+###################################################打开文件，并对其进行行内关键词原地替换再次规范频道名，若无异类频道名，此段代码可删   
 for line in fileinput.input("iptv.txt", inplace=True):                    #
     line = line.replace("CHC电影", "影迷电影")             
     line = line.replace("湖北公共新闻", "湖北公共")             
@@ -629,13 +624,13 @@ for line in fileinput.input("iptv.txt", inplace=True):                    #
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
-#################################################### 测试HTTP连接# 定义测试HTTP连接的次数
-def test_connectivity(url, max_attempts=1):
+#################################################### 对整理好的频道列表测试HTTP连接
+def test_connectivity(url, max_attempts=1): #定义测试HTTP连接的次数
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
     try:
-        #response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4
-        response = requests.get(url, timeout=15)  # 发送get请求，支持V6
+        response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4,修改此行数字可定义链接超时
+        #response = requests.get(url, timeout=10)  # 发送get请求，支持V6,修改此行数字可定义链接超时
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
         pass  # 发生异常时忽略
@@ -686,11 +681,11 @@ if __name__ == "__main__":
         main(source_file_path, output_file_path)  # 调用main函数
     except Exception as e:
         print(f"程序发生错误: {e}")  # 打印错误信息
-# # # #
+        
+#########################################################################提取检测结果中的有效行
 def filter_lines(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:  # 打开文件
         lines = file.readlines()  # 读取所有行
-    
     filtered_lines = []  # 初始化过滤后的行列表
     for line in lines:  # 遍历所有行
         if 'genre' in line or '有效' in line:  # 如果行中包含'genre'或'有效'
@@ -702,10 +697,11 @@ def write_filtered_lines(output_file_path, filtered_lines):
 if __name__ == "__main__":
     input_file_path = "检测结果.txt"  # 设置输入文件路径
     output_file_path = "检测结果.txt"  # 设置输出文件路径
-    
     filtered_lines = filter_lines(input_file_path)  # 调用filter_lines函数
     write_filtered_lines(output_file_path, filtered_lines)  # 调用write_filtered_lines函数
-# #定义替换规则的字典,对整行内的内容进行替换
+
+
+###################################################################################定义替换规则的字典,对整行内的内容进行替换
 replacements = {
     ",有效": "",  # 将",有效"替换为空字符串
     "#genre#,无效": "#genre#",  # 将"#genre#,无效"替换为"#genre#"
@@ -720,15 +716,13 @@ with open('检测结果.txt', 'w', encoding='utf-8') as new_file:
             line = line.replace(old, new)  # 替换行中的内容
         new_file.write(line)  # 写入新文件
 print("新文件已保存。")  # 打印完成信息
-#
-# 提示用户输入文件名（拖入文件操作）
+
+####################### 提示用户输入文件名（拖入文件操作）打开用户指定的文件对不规范频道名再次替换
 file_path = '检测结果.txt'
 # 检查文件是否存在
 if not os.path.isfile(file_path):
     print("文件不存在，请重新输入.")
     exit(1)
-#
-# ##############################################打开用户指定的文件对频道名替换
 with open(file_path, 'r', encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
@@ -844,7 +838,7 @@ with open('酒店源.txt', 'w', encoding='utf-8') as new_file:
             new_line = f'{before_comma},{parts[1]}\n' if len(parts) > 1 else f'{before_comma}\n'
             new_file.write(new_line)
 #
-#####################################定义替换规则的字典,对整行内的内容进行替换
+#####################################定义替换规则的字典,对整行内的多余标识内容进行替换
 replacements = {
     	"（）": "",
         "湖北,": "湖北卫视,",
