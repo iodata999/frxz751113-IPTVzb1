@@ -166,13 +166,13 @@ for url in urls:
                             name = name.replace("新农村", "河南新农村")
                             name = name.replace("百姓调解", "河南百姓调解")
                             name = name.replace("法治", "河南法治")
-                            name = name.replace("睛彩中原", "河南睛彩中原")
+                            name = name.replace("睛彩中原", "河南睛彩")
                             name = name.replace("军事", "河南军事")
                             name = name.replace("梨园", "河南梨园")
                             name = name.replace("相声小品", "河南相声小品")
                             name = name.replace("移动戏曲", "河南移动戏曲")
-                            name = name.replace("", "")
-                            name = name.replace("", "")
+                            name = name.replace("都市生活", "河南都市生活")
+                            name = name.replace("民生", "河南民生")
                             name = name.replace("CCTVNEWS", "CCTV13")
                             name = name.replace("cctv", "CCTV")
                             name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
@@ -866,8 +866,8 @@ def check_and_write_file(input_file, output_file, keywords):
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
 check_and_write_file('酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
-check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 峨眉")
-check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 音乐现场")
+check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
+check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
 
 check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
 
