@@ -267,13 +267,16 @@ TVB功夫台,https://v2h.jdshipin.com/asia_action/asia_action.stream/chunklist.m
 八大戏剧,http://61.221.215.25:8800/hls/39/index.m3u8
 公视戏剧,http://37.27.111.214:8080/live/87/hls.m3u8
 华纳影视,http://metatvpro.xyz:25461/W1045/4329/13145
+好莱坞电影,http://metatvpro.xyz:25461/W1045/4329/12284
 影剧,http://37.27.111.214:8080/live/88/hls.m3u8
 影视2,http://37.27.111.214:8080/live/109/hls.m3u8
 影视3,http://37.27.111.214:8080/live/111/hls.m3u8
 影视,http://37.27.111.214:8080/live/108/hls.m3u8
 影迷,http://37.27.111.214:8080/live/92/hls.m3u8
 港石金曲,http://61.221.215.25:8800/hls/49/index.m3u8
+热门电影,http://metatvpro.xyz:25461/W1045/4329/220
 爱尔达影剧,http://extraott.com:80/live/7921751389/6097373662/5546.m3u8
+纬来戏剧,http://extraott.com:80/live/7921751389/6097373662/5491.m3u8
 纬来电影,http://extraott.com:80/live/7921751389/6097373662/5493.m3u8
 美亚电影台,http://php.jdshipin.com:8880/smt.php?id=meiyamovie_twn
 翡翠凤凰影视,https://lunbo.freetv.top/yy/1354926666
@@ -384,6 +387,8 @@ VOA,http://37.27.111.214:8080/live/45/hls.m3u8
 elta生活旅游,http://37.27.111.214:8080/live/85/hls.m3u8
 nhkworld,http://61.221.215.25:8800/hls/51/index.m3u8
 nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
+三立台湾,http://extraott.com:80/live/7921751389/6097373662/5505.m3u8
+三立新闻,http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8543/.m3u8
 三立综合,http://37.27.111.214:8080/live/31/hls.m3u8
 三立都会,http://extraott.com:80/live/7921751389/6097373662/5506.m3u8
 东森,http://extraott.com:80/live/7921751389/6097373662/473538.m3u8
@@ -398,7 +403,6 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 中视,http://37.27.111.214:8080/live/7/hls.m3u8
 中视,rtmp://220.130.201.73/sat/tv091
 中视,rtmp://f13h.mine.nu/sat/tv091
-中视新闻,http://194.87.101.118/live.m3u8?c=6
 中视青采,http://37.27.111.214:8080/live/48/hls.m3u8
 互动英语,http://37.27.111.214:8080/live/54/hls.m3u8
 亚洲卫视,https://p2hs.vzan.com/slowlive/821481626725612417/live.m3u8?zbid=2046370057&tpid=330913109&type=0
@@ -413,6 +417,7 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 全球财经,http://37.27.111.214:8080/live/64/hls.m3u8
 八大第1台,http://61.221.215.25:8800/hls/55/index.m3u8
 八大综合台,http://61.221.215.25:8800/hls/56/index.m3u8
+八度空间,http://metatvpro.xyz:25461/W1045/4329/6
 公视新闻,http://194.87.101.118/live.m3u8?c=8
 凤凰中文,http://146.56.153.245:20121/bysid/258
 凤凰中文,http://metatvpro.xyz:25461/W1045/4329/61
@@ -451,6 +456,7 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 台湾番薯音乐台,http://61.216.67.119:1935/TWHG/E1/chunklist_w705811302.m3u8?音乐
 台视,rtmp://220.130.201.73/sat/tv071
 台视,rtmp://f13h.mine.nu/sat/tv071
+台视新闻,http://194.87.101.118/live.m3u8?c=4
 台视新闻,https://live.wcetv.com/hls/m3u8/ttvnews.m3u8
 台视新闻,http://extraott.com:80/live/7921751389/6097373662/5501.m3u8
 台视新闻,https://stream1.freetv.fun/c1e80466d09b16dbba231914e7d90e38b5ad564c5c34497819f0b65b3c0c8ea2.m3u8
@@ -469,12 +475,14 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 大爱,http://pulltv1.wanfudaluye.com/live/tv1.m3u8
 大爱,https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 大立电视,http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+天映,http://metatvpro.xyz:25461/W1045/4329/53
 天良综合台,http://60.248.91.20:8000/main
 好消息综合台,https://dqhxk7sbp7xog.cloudfront.net/hls-live/goodtv/_definst_/liveevent/live-ch1-2.m3u8
 宇宙视界,https://www.goodiptv.club/douyu/9498354
 寰宇台湾,http://37.27.111.214:8080/live/63/hls.m3u8
 寰宇新闻,http://extraott.com:80/live/7921751389/6097373662/5523.m3u8
 寰宇财经,http://37.27.111.214:8080/live/65/hls.m3u8
+年代新闻,http://extraott.com:80/live/7921751389/6097373662/5509.m3u8
 年代电视,http://extraott.com:80/live/7921751389/6097373662/5508.m3u8
 幸福空间,http://37.27.111.214:8080/live/26/hls.m3u8
 探案台,http://37.27.111.214:8080/live/11/hls.m3u8
@@ -495,6 +503,8 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 明珠台,http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 明珠台,https://stream1.freetv.fun/bde11013d796ff13b2c0fc674ca5dd5153235cd261bc4b6cf3b6f1c46fd1def0.ctv
 智林体育,http://37.27.111.214:8080/live/77/hls.m3u8
+欢喜台,http://metatvpro.xyz:25461/W1045/4329/63
+民视,http://extraott.com:80/live/7921751389/6097373662/5530.m3u8
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
 民视,rtmp://220.130.201.73/sat/tv051
 民视,rtmp://f13h.mine.nu/sat/tv051
@@ -533,12 +543,15 @@ nickjr,http://37.27.111.214:8080/live/22/hls.m3u8
 纬来育乐,rtmp://f13h.mine.nu/sat/tv701
 综艺,http://37.27.111.214:8080/live/67/hls.m3u8
 美亚C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/03.m3u8
+翡翠华丽台,http://metatvpro.xyz:25461/W1045/4329/54
 翡翠台,http://113.83.152.56:8182/bynumber/1
 翡翠台,http://61.238.177.254:30261/stream/channelid/1548166379
 翡翠台,http://metatvpro.xyz:25461/W1045/4329/12205
 翡翠台,http://php.jdshipin.com:8880/smt.php?id=jade_twn
 翡翠台,http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
 翡翠台,http://zw9999.cnstream.top:80/play/ubI0Nrlni6TwusjXuSxNxA5oJl8b5Icz-0MXK7POxcc/ts
+迪士尼,http://metatvpro.xyz:25461/W1045/4329/275
+镜新闻,http://194.87.101.118/live.m3u8?c=10
 镜新闻,http://37.27.111.214:8080/live/62/hls.m3u8
 镜新闻,http://61.10.2.141/live_freedirect/freehd209_h.live/playlist.m3u8
 面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
@@ -613,7 +626,6 @@ TVBTVB星河,http://119.125.104.10:9901/tsfile/live/1005_1.m3u8?key=txiptv&playl
 凤凰中文,http://120.84.121.228:808/hls/29/index.m3u8
 凤凰中文,http://120.84.121.52:808/hls/29/index.m3u8
 凤凰中文,http://120.84.121.62:808/hls/29/index.m3u8
-凤凰中文,http://211.149.143.188:88/?id=10289
 凤凰资讯,http://117.27.190.42:9998/tsfile/live/23279_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰资讯,http://119.125.104.10:9901/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&down=1
 凤凰资讯,http://120.84.121.101:808/hls/28/index.m3u8
@@ -627,7 +639,6 @@ TVBTVB星河,http://119.125.104.10:9901/tsfile/live/1005_1.m3u8?key=txiptv&playl
 凤凰资讯,http://171.108.239.79:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰资讯,http://171.108.239.80:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
 凤凰资讯,http://171.108.239.84:8181/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0
-凤凰资讯,http://211.149.143.188:88/?id=10290
 广场舞,http://171.108.239.56:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 广场舞,http://171.108.239.79:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
 广场舞,http://171.108.239.80:8181/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -676,7 +687,6 @@ TVBTVB星河,http://119.125.104.10:9901/tsfile/live/1005_1.m3u8?key=txiptv&playl
 天映电影,http://171.108.239.79:8181/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 天映电影,http://171.108.239.80:8181/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
 天映电影,http://171.108.239.84:8181/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-星空卫视,http://211.149.143.188:88/?id=10291
 湖北频道,#genre#
 大悟综合,rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000468
 湖北电视台,rtsp://111.48.34.138:1554/170000004112/10000100000000050000000002444593
