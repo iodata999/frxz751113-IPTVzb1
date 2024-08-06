@@ -534,33 +534,7 @@ def filter_lines(input_file, output_file):
 # 使用函数
 filter_lines("iptv.txt", "iptv.txt")
 #按网址去重
-def remove_duplicates(input_file, output_file):
-    # 用于存储已经遇到的URL和包含genre的行
-    seen_urls = set()
-    seen_lines_with_genre = set()
-    # 用于存储最终输出的行
-    output_lines = []
-    # 打开输入文件并读取所有行
-    with open(input_file, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-        print("去重前的行数：", len(lines))
-        # 遍历每一行
-        for line in lines:
-            # 使用正则表达式查找URL和包含genre的行,默认最后一行
-            urls = re.findall(r'[https]?[http]?[P2p]?[mitv]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
-            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
-            # 如果找到URL并且该URL尚未被记录
-            if urls and urls[0] not in seen_urls:
-                seen_urls.add(urls[0])
-                output_lines.append(line)
-            # 如果找到包含genre的行，无论是否已被记录，都写入新文件
-            if genre_line:
-                output_lines.append(line)
-    # 将结果写入输出文件
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.writelines(output_lines)
-    print("去重后的行数：", len(output_lines))
-remove_duplicates('iptv.txt', 'iptv.txt')
+#代码已删
 ###########################################################文本排序
 # 打开原始文件读取内容，并写入新文件
 with open('iptv.txt', 'r', encoding='utf-8') as file:
@@ -604,7 +578,7 @@ def deduplicate_lines(input_file_path, output_file_path):
                     # 如果没有出现过，记录当前行和去重键
                     seen_combinations[combination_key] = line.strip()
                 else:
-                    # 如果已经出现过，更新为最后一个出现的行
+                    # 如果已经出现过，更新为第二个出现的行
                     seen_combinations[combination_key] = line.strip()
 
     # 将去重后的所有唯一行写入新文件
