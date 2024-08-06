@@ -28,7 +28,7 @@ urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 def modify_urls(url):
     modified_urls = []
@@ -283,7 +283,7 @@ urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5YyXIg%3D%3D",  #河北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F5LicIg%3D%3D",  #广东
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
@@ -521,54 +521,14 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
 print("频道列表文件iptv.txt追加写入成功！")
 
 
-
-##########################################################对同一个IP段进行去重
-import re
-
-def deduplicate_lines(input_file_path, output_file_path):
-    # 用于存储已经出现过的组合内容（IP的第二个部分和端口号及其后的内容）
-    seen_combinations = set()
-    # 用于存储去重后的所有唯一行列表
-    unique_lines = []
-
-    # 读取文件并处理每一行
-    with open(input_file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            # 使用正则表达式查找行中的所有URL
-            # 这个正则表达式会匹配http://后面的内容直到行尾，捕获第二个点之后的IP部分和端口号及其后的内容
-            urls = re.findall(r'http://[\d.]*?\.(\d+)\.[\d.]*:(\d+)(.*)', line)
-            for ip_part, port, rest in urls:
-                # 构造一个用于去重的键，包括IP的第二个部分、端口号和端口号后的内容
-                combination_key = f"{ip_part}-{port}-{rest}"
-                if combination_key not in seen_combinations:
-                    # 如果这个组合是第一次出现，则添加到集合中
-                    seen_combinations.add(combination_key)
-                    # 并将这一行添加到唯一行列表中
-                    unique_lines.append(line.strip())
-
-    # 将去重后的所有唯一行写入新文件
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        for line in unique_lines:
-            file.write(line + '\n')
-
-# 调用函数，传入输入文件路径和输出文件路径
-input_file_path = 'iptv.txt'  # 替换为你的输入文件路径
-output_file_path = 'iptv.txt'  # 替换为你想要保存输出的文件路径
-deduplicate_lines(input_file_path, output_file_path)
-############################################################################################################对同一个IP段进行去重
-
-
-
-
-
-#去除列表中的组播地址
+#去除列表中的组播地址以及CCTV和卫视
 def filter_lines(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
     filtered_lines = []
     for line in lines:
         if 'hls' in line or 'tsfile' in line:
-          if 'udp' not in line and 'rtp' not in line:
+          if 'udp' not in line and 'rtp' not in line and 'CCTV' not in line and '卫视' not in line:
             filtered_lines.append(line)
     with open(output_file, 'w', encoding='utf-8') as output_file:
         output_file.writelines(filtered_lines)
@@ -936,13 +896,14 @@ def check_and_write_file(input_file, output_file, keywords):
     else:
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
-check_and_write_file('酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
-check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
-check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
+#check_and_write_file('酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
+#check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
+#check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
 
-check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
+#check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
 
-check_and_write_file('酒店源.txt',  'c.txt',  keywords="影视频道, 爱情喜剧, 爱喜喜剧, 电影, 惊嫊悬疑, 东北热剧, 无名, 都市剧场, iHOT, 剧场, 欢笑剧场, 重温经典, 明星大片, 中国功夫, 军旅, 东北热剧, 中国功夫, 军旅剧场, 古装剧场, \
+check_and_write_file('酒店源.txt',  'c.txt',  keywords="影视频道, 爱情喜剧, 爱喜喜剧, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉, \
+电影, 惊嫊悬疑, 东北热剧, 无名, 都市剧场, iHOT, 剧场, 欢笑剧场, 重温经典, 明星大片, 中国功夫, 军旅, 东北热剧, 中国功夫, 军旅剧场, 古装剧场, \
 家庭剧场, 惊悚悬疑, 欢乐剧场, 潮妈辣婆, 爱情喜剧, 精品大剧, 超级影视, 超级电影, 黑莓动画, 黑莓电影, 海外剧场, 精彩影视, 无名影视, 潮婆辣妈, 超级剧, 热播精选")
 check_and_write_file('酒店源.txt',  'c1.txt',  keywords="影视频道, 求索动物, 求索, 求索科学, 求索记录, 爱谍战, 爱动漫, 爱科幻, 爱青春, 爱自然, 爱科学, 爱浪漫, 爱历史, 爱旅行, 爱奇谈, 爱怀旧, 爱赛车, 爱都市, 爱体育, 爱经典, \
 爱玩具, 爱喜剧, 爱悬疑, 爱幼教, 爱院线")
