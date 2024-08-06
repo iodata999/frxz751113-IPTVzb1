@@ -178,19 +178,6 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 
-#从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['IHOT', 'IPTV',  'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
-    c2.write('\n数字剧场&爬虫更新,#genre#\n')                                                                  #####写入临时文件名$GD
-    for line in file:
-      if '$GD' not in line and '调解' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c2.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
- 
-
-
 
 
 
@@ -207,6 +194,19 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', en
          c.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
  
 
+
+
+#从整理好的文本中按类别进行特定关键词提取#############################################################################################
+keywords = ['IHOT爱', 'IPTV', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
+pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
+#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
+with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
+    c2.write('\n数字剧场&爬虫更新,#genre#\n')                                                                  #####写入临时文件名$GD
+    for line in file:
+      if '$GD' not in line and '调解' not in line:
+        if re.search(pattern, line):  # 如果行中有任意关键字
+         c2.write(line)  # 将该行写入输出文件                                                          #####定义临时文件
+ 
 
 
 
