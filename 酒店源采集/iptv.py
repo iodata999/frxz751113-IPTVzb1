@@ -1,3 +1,4 @@
+
 #本程序只适用于酒店源的检测，请勿移植他用
 import time
 import concurrent.futures
@@ -519,42 +520,8 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt追加写入成功！")
-
-#去除列表中的组播地址以及CCTV和卫视
-def filter_lines(input_file, output_file):
-    with open(input_file, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-    filtered_lines = []
-    for line in lines:
-        if 'hls' in line or 'tsfile' in line:
-          if 'udp' not in line and 'rtp' not in line and 'CCTV' not in line and '卫视' not in line:
-            filtered_lines.append(line)
-    with open(output_file, 'w', encoding='utf-8') as output_file:
-        output_file.writelines(filtered_lines)
-# 使用函数
-filter_lines("iptv.txt", "iptv.txt")
-#按网址去重
-#代码已删
-###########################################################文本排序
-# 打开原始文件读取内容，并写入新文件
-with open('iptv.txt', 'r', encoding='utf-8') as file:
-    lines = file.readlines()
-# 定义一个函数，用于提取每行的第一个数字
-def extract_first_number(line):
-    match = re.search(r'\d+', line)
-    return int(match.group()) if match else float('inf')
-# 对列表中的行进行排序
-# 按照第一个数字的大小排列，如果不存在数字则按中文拼音排序
-sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
-# 将排序后的行写入新的utf-8编码的文本文件，文件名基于原文件名
-output_file_path = "sorted_" + os.path.basename(file_path)
-# 写入新文件
-with open('iptv.txt', "w", encoding="utf-8") as file:
-    for line in sorted_lines:
-        file.write(line)
-print(f"文件已排序并保存为: {output_file_path}")
-
-##########################################################按IP段去重
+##########################################################
+import re
 
 def deduplicate_lines(input_file_path, output_file_path):
     seen_combinations = {}
@@ -591,6 +558,51 @@ input_file_path = 'iptv.txt'
 output_file_path = 'iptv.txt'
 deduplicate_lines(input_file_path, output_file_path)
 ###########################################
+
+
+#去除列表中的组播地址以及CCTV和卫视
+def filter_lines(input_file, output_file):
+    with open(input_file, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    filtered_lines = []
+    for line in lines:
+        if 'hls' in line or 'tsfile' in line:
+          if 'udp' not in line and 'rtp' not in line and 'CCTV' not in line and '卫视' not in line:
+            filtered_lines.append(line)
+    with open(output_file, 'w', encoding='utf-8') as output_file:
+        output_file.writelines(filtered_lines)
+# 使用函数
+filter_lines("iptv.txt", "iptv.txt")
+#按网址去重
+def remove_duplicates(input_file, output_file):
+    # 用于存储已经遇到的URL和包含genre的行
+    seen_urls = set()
+    seen_lines_with_genre = set()
+    # 用于存储最终输出的行
+    output_lines = []
+    # 打开输入文件并读取所有行
+    with open(input_file, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        print("去重前的行数：", len(lines))
+        # 遍历每一行
+        for line in lines:
+            # 使用正则表达式查找URL和包含genre的行,默认最后一行
+            urls = re.findall(r'[https]?[http]?[P2p]?[mitv]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+', line)
+            genre_line = re.search(r'\bgenre\b', line, re.IGNORECASE) is not None
+            # 如果找到URL并且该URL尚未被记录
+            if urls and urls[0] not in seen_urls:
+                seen_urls.add(urls[0])
+                output_lines.append(line)
+            # 如果找到包含genre的行，无论是否已被记录，都写入新文件
+            if genre_line:
+                output_lines.append(line)
+    # 将结果写入输出文件
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.writelines(output_lines)
+    print("去重后的行数：", len(output_lines))
+remove_duplicates('iptv.txt', 'iptv.txt')
+
+
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     #
     line = line.replace("CHC电影", "影迷电影")             
     line = line.replace("湖北公共新闻", "湖北公共")             
