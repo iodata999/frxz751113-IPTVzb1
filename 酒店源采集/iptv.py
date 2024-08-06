@@ -520,8 +520,10 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
         print(result)
 print("频道列表文件iptv.txt追加写入成功！")
 ##########################################################
+import re
+
 def deduplicate_lines(input_file_path, output_file_path):
-    # 用于存储已经出现过的组合内容（IP的第二个部分和端口号及其后的内容）
+    # 用于存储已经出现过的组合内容（第二个点之后的IP部分和端口号及其后的内容）
     seen_combinations = set()
     # 用于存储去重后的所有唯一行列表
     unique_lines = []
@@ -531,15 +533,20 @@ def deduplicate_lines(input_file_path, output_file_path):
         for line in file:
             # 使用正则表达式查找行中的所有URL
             # 这个正则表达式会匹配http://后面的内容直到行尾，捕获第二个点之后的IP部分和端口号及其后的内容
-            urls = re.findall(r'http://[\d.]*?\.(\d+)\.[\d.]*:(\d+)(.*)', line)
-            for ip_part, port, rest in urls:
-                # 构造一个用于去重的键，包括IP的第二个部分、端口号和端口号后的内容
-                combination_key = f"{ip_part}-{port}-{rest}"
-                if combination_key not in seen_combinations:
-                    # 如果这个组合是第一次出现，则添加到集合中
-                    seen_combinations.add(combination_key)
-                    # 并将这一行添加到唯一行列表中
-                    unique_lines.append(line.strip())
+            urls = re.findall(r'http://([\d.]*?\.[\d.]*?)(\d+)(.*)', line)
+            if len(urls) > 1:
+                # 如果存在多个网址，选择第二个网址
+                second_url = urls[1]
+                combination_key = f"{second_url[0]}-{second_url[1]}-{second_url[2]}"
+            else:
+                # 如果只有一个网址，使用第一个网址
+                combination_key = f"{urls[0][0]}-{urls[0][1]}-{urls[0][2]}"
+
+            if combination_key not in seen_combinations:
+                # 如果这个组合是第一次出现，则添加到集合中
+                seen_combinations.add(combination_key)
+                # 并将这一行添加到唯一行列表中
+                unique_lines.append(line.strip())
 
     # 将去重后的所有唯一行写入新文件
     with open(output_file_path, 'w', encoding='utf-8') as file:
