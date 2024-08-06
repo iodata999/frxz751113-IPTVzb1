@@ -15,6 +15,10 @@ import fileinput
 from tqdm import tqdm
 from pypinyin import lazy_pinyin
 from opencc import OpenCC
+import base64
+import cv2
+from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 # 扫源测绘空间地址
 # 搜素关键词："iptv/live/zh_cn.js" && country="CN" && region="Hunan" && city="changsha"
 # 搜素关键词："ZHGXTV" && country="CN" && region="Hunan" && city="changsha"
@@ -536,12 +540,12 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
 
 
 # 测试HTTP连接# 定义测试HTTP连接的次数
-def test_connectivity(url, max_attempts=5):
+def test_connectivity(url, max_attempts=1):
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
     try:
-        response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4
-        #response = requests.get(url, timeout=3)  # 发送get请求，支持V6
+        #response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4
+        response = requests.get(url, timeout=8)  # 发送get请求，支持V6
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
         pass  # 发生异常时忽略
@@ -946,26 +950,6 @@ print("任务运行完毕，酒店源频道列表可查看文件夹内txt文件�
 
 
 
-
-
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-from datetime import datetime
-import replace
-import fileinput
-from opencc import OpenCC
-import base64
-import cv2
-from datetime import datetime
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 # 获取rtp目录下的文件名
 files = os.listdir('rtp')
 files_name = []
@@ -1076,7 +1060,7 @@ for keyword in keywords:
         except (requests.Timeout, requests.RequestException) as e:
             timeout_cnt += 1
             print(f"{current_time} [{province}]搜索请求发生超时，异常次数：{timeout_cnt}")
-            if timeout_cnt <= 3:
+            if timeout_cnt <= 2:
                     # 继续下一次循环迭代
                 continue
             else:
