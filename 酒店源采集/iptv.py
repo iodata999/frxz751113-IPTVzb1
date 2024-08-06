@@ -283,7 +283,7 @@ urls = [
     #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJmdWppYW4i",#福建
+    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJmdWppYW4i",#福建
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
@@ -846,7 +846,7 @@ with open('酒店源.txt', 'w', encoding='utf-8') as new_file:
         new_file.write(line)
 print("替换完成，新文件已保存。")
 #
-#文本排序
+###############################################################################文本排序
 # 打开原始文件读取内容，并写入新文件
 with open('酒店源.txt', 'r', encoding='utf-8') as file:
     lines = file.readlines()
@@ -865,7 +865,7 @@ with open('酒店源.txt', "w", encoding="utf-8") as file:
         file.write(line)
 print(f"文件已排序并保存为: {output_file_path}")
 #
-#简体转繁体
+##########################################################################################简体转繁体
 # 创建一个OpenCC对象，指定转换的规则为繁体字转简体字
 converter = OpenCC('t2s.json')#繁转简
 #converter = OpenCC('s2t.json')#简转繁
@@ -878,7 +878,7 @@ simplified_text = converter.convert(traditional_text)
 with open('酒店源.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 #
-#定义关键词分割规则
+########################################################################定义关键词分割规则,分类提取
 def check_and_write_file(input_file, output_file, keywords):
     # 使用 split(', ') 而不是 split(',') 来分割关键词
     keywords_list = keywords.split(', ')
@@ -940,10 +940,9 @@ with open("去重.txt", "w", encoding="utf-8") as output:
     output.write('\n'.join(file_contents))
 #
 
-# 打开文档并读取所有行 
+##################################################################### 打开文档并读取所有行 ，对提取后重复的频道去重
 with open('去重.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
- 
 # 使用列表来存储唯一的行的顺序 
  unique_lines = [] 
  seen_lines = set() 
