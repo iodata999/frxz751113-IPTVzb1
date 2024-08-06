@@ -503,7 +503,7 @@ def filter_lines(input_file, output_file):
         lines = file.readlines()
     filtered_lines = []
     for line in lines:
-        if ',' in line and 'udp' not in line and 'rtp' not in line:
+        if ',' in line or 'hls' in line or 'tsfile' in line and 'udp' not in line and 'rtp' not in line:
             filtered_lines.append(line)
     with open(output_file, 'w', encoding='utf-8') as output_file:
         output_file.writelines(filtered_lines)
