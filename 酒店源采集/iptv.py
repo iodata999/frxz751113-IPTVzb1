@@ -520,13 +520,19 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt追加写入成功！")
-##########################################################
-import re
 
+#######################################################简易排序
+with open('iptv.txt', 'r', encoding='UTF-8') as f:
+    lines = f.readlines()
+lines.sort()
+with open('iptv.txt', 'w', encoding='UTF-8') as f:
+    for line in lines:
+        f.write(line)
+##########################################################IP段去重
+import re
 def deduplicate_lines(input_file_path, output_file_path):
     seen_combinations = {}
     unique_lines = []
-
     with open(input_file_path, 'r', encoding='utf-8') as file:
         for line in file:
             # 使用正则表达式查找行中的所有URL，并捕获IP地址、端口号和端口号之后的部分
@@ -539,28 +545,25 @@ def deduplicate_lines(input_file_path, output_file_path):
                     continue
                 # 使用IP的前三个字段和端口号之后的部分生成去重键
                 combination_key = f"{ip_parts[0]}.{ip_parts[1]}.{ip_parts[2]}-{port}-{path or ''}"
-
                 # 检查这个组合是否已经出现过
                 if combination_key not in seen_combinations:
                     # 如果没有出现过，记录当前行和去重键
                     seen_combinations[combination_key] = line.strip()
                 else:
-                    # 如果已经出现过，更新为第二个出现的行
+                    # 如果已经出现过，更新为最后出现的行
                     seen_combinations[combination_key] = line.strip()
-
     # 将去重后的所有唯一行写入新文件
     with open(output_file_path, 'w', encoding='utf-8') as file:
         for line in seen_combinations.values():
             file.write(line + '\n')
-
 # 调用函数
 input_file_path = 'iptv.txt'
 output_file_path = 'iptv.txt'
 deduplicate_lines(input_file_path, output_file_path)
-###########################################
+################################################################################
 
 
-#去除列表中的组播地址以及CCTV和卫视
+###################################################去除列表中的组播地址以及CCTV和卫视
 def filter_lines(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -571,9 +574,11 @@ def filter_lines(input_file, output_file):
             filtered_lines.append(line)
     with open(output_file, 'w', encoding='utf-8') as output_file:
         output_file.writelines(filtered_lines)
-# 使用函数
 filter_lines("iptv.txt", "iptv.txt")
-#按网址去重
+
+
+
+################################################按网址去重
 def remove_duplicates(input_file, output_file):
     # 用于存储已经遇到的URL和包含genre的行
     seen_urls = set()
@@ -602,8 +607,8 @@ def remove_duplicates(input_file, output_file):
     print("去重后的行数：", len(output_lines))
 remove_duplicates('iptv.txt', 'iptv.txt')
 
-
-for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     #
+###################################################打开文件，并对其进行行内关键词原地替换   
+for line in fileinput.input("iptv.txt", inplace=True):                    #
     line = line.replace("CHC电影", "影迷电影")             
     line = line.replace("湖北公共新闻", "湖北公共")             
     line = line.replace("CHC电影", "影迷电影")             
@@ -624,7 +629,7 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 
-# 测试HTTP连接# 定义测试HTTP连接的次数
+#################################################### 测试HTTP连接# 定义测试HTTP连接的次数
 def test_connectivity(url, max_attempts=1):
     # 尝试连接指定次数    
    for _ in range(max_attempts):  
@@ -723,7 +728,7 @@ if not os.path.isfile(file_path):
     print("文件不存在，请重新输入.")
     exit(1)
 #
-# 打开用户指定的文件打开用户指定的文件打开用户指定的文件
+# ##############################################打开用户指定的文件对频道名替换
 with open(file_path, 'r', encoding="utf-8") as file:
     # 读取所有行并存储到列表中
     lines = file.readlines()
@@ -824,8 +829,7 @@ replacements = {
     	"CCTV7CCTV7": "CCTV7",
     	"CCTV10CCTV10": "CCTV10"
 }
-# 打开新文本文件准备写入替换后的内容
-with open('酒店源.txt', 'w', encoding='utf-8') as new_file:        #打开酒店源文本以追加的形式写入行
+with open('酒店源.txt', 'w', encoding='utf-8') as new_file:
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
@@ -840,7 +844,7 @@ with open('酒店源.txt', 'w', encoding='utf-8') as new_file:        #打开酒
             new_line = f'{before_comma},{parts[1]}\n' if len(parts) > 1 else f'{before_comma}\n'
             new_file.write(new_line)
 #
-# #定义替换规则的字典,对整行内的内容进行替换
+#####################################定义替换规则的字典,对整行内的内容进行替换
 replacements = {
     	"（）": "",
         "湖北,": "湖北卫视,",
