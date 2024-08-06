@@ -519,6 +519,38 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt追加写入成功！")
+##########################################################
+def deduplicate_lines(input_file_path, output_file_path):
+    # 用于存储已经出现过的组合内容（IP的第二个部分和端口号及其后的内容）
+    seen_combinations = set()
+    # 用于存储去重后的所有唯一行列表
+    unique_lines = []
+
+    # 读取文件并处理每一行
+    with open(input_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # 使用正则表达式查找行中的所有URL
+            # 这个正则表达式会匹配http://后面的内容直到行尾，捕获第二个点之后的IP部分和端口号及其后的内容
+            urls = re.findall(r'http://[\d.]*?\.(\d+)\.[\d.]*:(\d+)(.*)', line)
+            for ip_part, port, rest in urls:
+                # 构造一个用于去重的键，包括IP的第二个部分、端口号和端口号后的内容
+                combination_key = f"{ip_part}-{port}-{rest}"
+                if combination_key not in seen_combinations:
+                    # 如果这个组合是第一次出现，则添加到集合中
+                    seen_combinations.add(combination_key)
+                    # 并将这一行添加到唯一行列表中
+                    unique_lines.append(line.strip())
+
+    # 将去重后的所有唯一行写入新文件
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        for line in unique_lines:
+            file.write(line + '\n')
+
+# 调用函数，传入输入文件路径和输出文件路径
+input_file_path = 'iptv.txt'  # 替换为你的输入文件路径
+output_file_path = 'iptv.txt'  # 替换为你想要保存输出的文件路径
+deduplicate_lines(input_file_path, output_file_path)
+###########################################
 
 
 #去除列表中的组播地址以及CCTV和卫视
