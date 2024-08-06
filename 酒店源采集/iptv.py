@@ -519,46 +519,6 @@ with open("iptv.txt", 'a', encoding='utf-8') as file:           #打开文本以
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt追加写入成功！")
-##########################################################
-import re
-
-def deduplicate_lines(input_file_path, output_file_path):
-    # 用于存储已经出现过的组合内容（第二个点之后的IP部分和端口号及其后的内容）
-    seen_combinations = set()
-    # 用于存储去重后的所有唯一行列表
-    unique_lines = []
-
-    # 读取文件并处理每一行
-    with open(input_file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            # 使用正则表达式查找行中的所有URL
-            # 这个正则表达式会匹配http://后面的内容直到行尾，捕获第二个点之后的IP部分和端口号及其后的内容
-            urls = re.findall(r'http://([\d.]*?\.[\d.]*?)(\d+)(.*)', line)
-            if len(urls) > 1:
-                # 如果存在多个网址，选择第二个网址
-                second_url = urls[1]
-                combination_key = f"{second_url[0]}-{second_url[1]}-{second_url[2]}"
-            else:
-                # 如果只有一个网址，使用第一个网址
-                combination_key = f"{urls[0][0]}-{urls[0][1]}-{urls[0][2]}"
-
-            if combination_key not in seen_combinations:
-                # 如果这个组合是第一次出现，则添加到集合中
-                seen_combinations.add(combination_key)
-                # 并将这一行添加到唯一行列表中
-                unique_lines.append(line.strip())
-
-    # 将去重后的所有唯一行写入新文件
-    with open(output_file_path, 'w', encoding='utf-8') as file:
-        for line in unique_lines:
-            file.write(line + '\n')
-
-# 调用函数，传入输入文件路径和输出文件路径
-input_file_path = 'iptv.txt'  # 替换为你的输入文件路径
-output_file_path = 'iptv.txt'  # 替换为你想要保存输出的文件路径
-deduplicate_lines(input_file_path, output_file_path)
-###########################################
-
 
 #去除列表中的组播地址以及CCTV和卫视
 def filter_lines(input_file, output_file):
@@ -601,8 +561,62 @@ def remove_duplicates(input_file, output_file):
         f.writelines(output_lines)
     print("去重后的行数：", len(output_lines))
 remove_duplicates('iptv.txt', 'iptv.txt')
+###########################################################文本排序
+# 打开原始文件读取内容，并写入新文件
+with open('iptv.txt', 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+# 定义一个函数，用于提取每行的第一个数字
+def extract_first_number(line):
+    match = re.search(r'\d+', line)
+    return int(match.group()) if match else float('inf')
+# 对列表中的行进行排序
+# 按照第一个数字的大小排列，如果不存在数字则按中文拼音排序
+sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_number(x) if 'CCTV' in x else lazy_pinyin(x.strip())))
+# 将排序后的行写入新的utf-8编码的文本文件，文件名基于原文件名
+output_file_path = "sorted_" + os.path.basename(file_path)
+# 写入新文件
+with open('iptv.txt', "w", encoding="utf-8") as file:
+    for line in sorted_lines:
+        file.write(line)
+print(f"文件已排序并保存为: {output_file_path}")
 
+##########################################################按IP段去重
 
+def deduplicate_lines(input_file_path, output_file_path):
+    seen_combinations = {}
+    unique_lines = []
+
+    with open(input_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # 使用正则表达式查找行中的所有URL，并捕获IP地址、端口号和端口号之后的部分
+            urls = re.findall(r'http://([\d.]+):(\d+)(/.*)?', line)
+            # 为每个URL生成一个去重键
+            for full_url in urls:
+                ip, port, path = full_url
+                ip_parts = ip.split('.')
+                if len(ip_parts) < 3:
+                    continue
+                # 使用IP的前三个字段和端口号之后的部分生成去重键
+                combination_key = f"{ip_parts[0]}.{ip_parts[1]}.{ip_parts[2]}-{port}-{path or ''}"
+
+                # 检查这个组合是否已经出现过
+                if combination_key not in seen_combinations:
+                    # 如果没有出现过，记录当前行和去重键
+                    seen_combinations[combination_key] = line.strip()
+                else:
+                    # 如果已经出现过，更新为最后一个出现的行
+                    seen_combinations[combination_key] = line.strip()
+
+    # 将去重后的所有唯一行写入新文件
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        for line in seen_combinations.values():
+            file.write(line + '\n')
+
+# 调用函数
+input_file_path = 'iptv.txt'
+output_file_path = 'iptv.txt'
+deduplicate_lines(input_file_path, output_file_path)
+###########################################
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     #
     line = line.replace("CHC电影", "影迷电影")             
     line = line.replace("湖北公共新闻", "湖北公共")             
