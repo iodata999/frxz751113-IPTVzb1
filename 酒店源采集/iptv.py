@@ -25,7 +25,7 @@ from urllib.parse import urlparse
 #"isShowLoginJs"智能KUTV管理
 #ZHGXTV采集地址
 urls = [
-    #"https://fofa.info/result?qbase64=anNfbmFtZT0iL1pIR1hUVi9QdWJsaWMvbGF5dWkvbGF5dWkuanMi",#搜索词js_name="/ZHGXTV/Public/layui/layui.js"
+    "https://fofa.info/result?qbase64=anNfbmFtZT0iL1pIR1hUVi9QdWJsaWMvbGF5dWkvbGF5dWkuanMi",#搜索词js_name="/ZHGXTV/Public/layui/layui.js"
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
