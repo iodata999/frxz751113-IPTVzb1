@@ -165,7 +165,7 @@ for url in urls:
                             name = name.replace("L", "")
                             name = name.replace("新农村", "河南新农村")
                             name = name.replace("百姓调解", "河南百姓调解")
-                            name = name.replace("法治", "河南法治")
+                            name = name.replace("法治", "河南法制")
                             name = name.replace("睛彩中原", "河南睛彩")
                             name = name.replace("军事", "河南军事")
                             name = name.replace("梨园", "河南梨园")
@@ -264,6 +264,17 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
 print("频道列表文件iptv.txt获取完成！")
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     line = line.replace("河南河南", "河南")                                                                         ###########                                                      ###########
+    line = line.replace("河南河南", "河南")                                                                         ###########                                                      ###########
+    line = line.replace("国防河南军事", "")                                                                         ###########                                                      ###########
+    line = line.replace("CCTV12法制", "CCTV12")                                                                         ###########                                                      ###########
+   line = line.replace("CCTV15+音乐", "CCTV15")                                                                         ###########                                                      ###########
+   line = line.replace("CCTV17农村农业", "CCTV17")                                                                         ###########                                                      ###########
+   line = line.replace("（福建卫视）", "")                                                                         ###########                                                      ###########
+   line = line.replace("广东大湾区卫视", "大湾区卫视")                                                                         ###########                                                      ###########
+   line = line.replace("吉林延边卫视", "延边卫视")                                                                         ###########                                                      ###########
+   line = line.replace("国防河南军事", "国防军事")                                                                         ###########                                                      ###########
+   line = line.replace("都市生活", "都市")                                                                           ###########                                                      ###########
+   line = line.replace("都市生活6", "都市")                                                                               ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
 urls = [
@@ -550,6 +561,9 @@ remove_duplicates('iptv.txt', 'iptv.txt')
 
 
 for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
+    line = line.replace("湖北公共新闻", "湖北公共")                                                                         ###########                                                      ###########
+    line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
     line = line.replace("CHC电影", "影迷电影")                                                                         ###########                                                      ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符
 
@@ -866,7 +880,7 @@ def check_and_write_file(input_file, output_file, keywords):
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
 check_and_write_file('酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
-check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
+check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
 check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
 
 check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
