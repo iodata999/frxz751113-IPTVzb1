@@ -25,18 +25,9 @@ from urllib.parse import urlparse
 #"isShowLoginJs"智能KUTV管理
 #ZHGXTV采集地址
 urls = [
-    "https://fofa.info/result?qbase64=anNfbmFtZT0iL1pIR1hUVi9QdWJsaWMvbGF5dWkvbGF5dWkuanMi",#搜索词js_name="/ZHGXTV/Public/layui/layui.js"
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
-    "https://fofa.info/result?qbase64=IlpIR1hUViImJiByZWdpb249ImppbGluIg%3D%3D",#吉林
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ5dW5uYW4i",#云南
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJ6aGVqaWFuZyI%3D",#浙江
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLlub%2Fopb8i",#广西
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLljJfkuqwi",#北京
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSLpu5HpvpnmsZ8i",#黑龙江
-    "https://fofa.info/result?qbase64=IlpIR1giICYmIGNvdW50cnk9Rkk%3D",#芬兰
-    "https://fofa.info/result?qbase64=IlpIR1giICYmIGNvdW50cnk9Iue%2BjuWbvSI%3D",#美国
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 def modify_urls(url):
@@ -57,7 +48,7 @@ def modify_urls(url):
 
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=2)          ###//////////////////
+        response = requests.get(url, timeout=3)          ###//////////////////
         if response.status_code == 200:
             return url
     except requests.exceptions.RequestException:
@@ -264,18 +255,14 @@ print("频道列表文件iptv.txt获取完成！")
 
 urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
-    "https://fofa.info/result?qbase64=ImlzU2hvd0xvZ2luSnMi",  # "isShowLoginJs"
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyI%3D",  #随机
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iU2hhYW54aSI%3D"    #陕西
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5YyXIg%3D%3D",  #河北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F5LicIg%3D%3D",  #广东
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
-    "https://fofa.info/result?qbase64=anNfbmFtZT0iL3N0YXRpYy9qcy9qcXVlcnktMy4zLjEubWluLmpzIg%3D%3D",#js_name="/static/js/jquery-3.3.1.min.js"
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iWXVsaW4i",#玉林8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJmdWppYW4i",#福建
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0iemhhbmd6aG91Ig%3D%3D",  #漳州
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
@@ -293,7 +280,7 @@ def modify_urls(url):
     return modified_urls
 def is_url_accessible(url):
     try:
-        response = requests.get(url, timeout=2)          ###//////////////////
+        response = requests.get(url, timeout=3)          ###//////////////////
         if response.status_code == 200:
             return url
     except requests.exceptions.RequestException:
@@ -361,7 +348,7 @@ for url in urls:
             ip_address = url[ip_start_index:ip_index_second]
             url_x = f"{base_url}{ip_address}"
             json_url = f"{url}"
-            response = requests.get(json_url, timeout=2)                        ####///////////////
+            response = requests.get(json_url, timeout=3)                        ####///////////////
             json_data = response.json()
             try:
                 # 解析JSON文件，获取name和url字段
@@ -558,7 +545,7 @@ def test_connectivity(url, max_attempts=1):
    for _ in range(max_attempts):  
     try:
         #response = requests.head(url, timeout=10)  # 发送HEAD请求，仅支持V4
-        response = requests.get(url, timeout=8)  # 发送get请求，支持V6
+        response = requests.get(url, timeout=15)  # 发送get请求，支持V6
         return response.status_code == 200  # 返回True如果状态码为200
     except requests.RequestException:  # 捕获requests引发的异常
         pass  # 发生异常时忽略
