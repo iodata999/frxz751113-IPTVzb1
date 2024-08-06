@@ -163,6 +163,16 @@ for url in urls:
                             name = name.replace("(", "")
                             name = name.replace(")", "")
                             name = name.replace("L", "")
+                            name = name.replace("新农村", "河南新农村")
+                            name = name.replace("百姓调解", "河南百姓调解")
+                            name = name.replace("法治", "河南法治")
+                            name = name.replace("睛彩中原", "河南睛彩中原")
+                            name = name.replace("军事", "河南军事")
+                            name = name.replace("梨园", "河南梨园")
+                            name = name.replace("相声小品", "河南相声小品")
+                            name = name.replace("移动戏曲", "河南移动戏曲")
+                            name = name.replace("", "")
+                            name = name.replace("", "")
                             name = name.replace("CCTVNEWS", "CCTV13")
                             name = name.replace("cctv", "CCTV")
                             name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
@@ -252,6 +262,9 @@ with open("iptv.txt", 'w', encoding='utf-8') as file:
         file.write(result + "\n")
         print(result)
 print("频道列表文件iptv.txt获取完成！")
+for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
+    line = line.replace("河南河南", "河南")                                                                         ###########                                                      ###########
+    print(line, end="")  #设置end=""，避免输出多余的换行符
 
 urls = [
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
