@@ -1133,57 +1133,21 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
     line = line.replace("CHC电影", "CHC影迷电影") 
     line = line.replace("高清电影", "影迷电影") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['CHC', '峨眉', '华语', '星光院线', '剧场', '家庭', '影迷', '动作', '星空', '凤凰']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #定义临时文件名
-    c2.write('\n组播剧场,#genre#\n')                                                                  #写入临时文件名$GD
-    for line in file:
-      if '$GD' not in line and '调解' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c2.write(line)  # 将该行写入输出文件                                                          #定义临时文件
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '爱青春', '爱院线', '爱悬疑']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
-    c1.write('\niHOT系列,#genre#\n')                                                                  #写入临时文件名$GD
-    for line in file:
-      if '$GD' not in line and '4K' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c1.write(line)  # 将该行写入输出文件                                                          #定义临时文件
- 
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['4K', '8K']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
-    DD.write('\n4K 频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          DD.write(line)  # 将该行写入输出文件
-keywords = ['湖南', '广东', '广州', '河南', '河北']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
-    #df1.write('\n省市频道,#genre#\n')
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          df1.write(line)  # 将该行写入输出文件
+
 #从整理好的文本中按类别进行特定关键词提取#
 keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区', '保定', '元氏', '兴隆', '内丘', '南宫', '吴桥', '唐县', '唐山', '安平', '定州', '大厂', '张家口', '徐水', '成安', \
             '承德', '故城', '康保', '廊坊', '晋州', '景县', '武安', '枣强', '柏乡', '涉县', '涞水', '涞源', '涿州', '深州', '深泽', '清河', '秦皇岛', '衡水', '遵化', '邢台', '邯郸', \
             '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
+with open('河北电信.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
+    else:              # 如果文件不存在，则提示异常并打印提示信息
+        print(f"文件 {file} 不存在，跳过")               
 #从整理好的文本中按类别进行特定关键词提取#
 keywords = ['河南', '焦作', '开封', '卢氏', '洛阳', '孟津', '安阳', '宝丰', '邓州', '渑池', '南阳', '内黄', '平顶山', '淇县', '郏县', '封丘', '获嘉', '巩义', '杞县', '汝阳', '三门峡', '卫辉', '淅川', \
             '新密', '新乡', '信阳', '新郑', '延津', '叶县', '义马', '永城', '禹州', '原阳', '镇平', '郑州', '周口']  # 需要提取的关键字列表
@@ -1195,6 +1159,8 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
+    else:              # 如果文件不存在，则提示异常并打印提示信息
+        print(f"文件 {file} 不存在，跳过")            
 #从文本中截取省市段生成新文件#
 # 定义关键词
 start_keyword = '省市频道,#genre#'
