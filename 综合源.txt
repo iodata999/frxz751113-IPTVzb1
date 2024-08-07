@@ -807,7 +807,6 @@ EXO解码,#genre#
 镇江公共,rtmp://zjtv-wshls.homecdn.com/live/2aa16
 镇江新闻,rtmp://zjtv-wshls.homecdn.com/live/2aa50
 综合,rtmp://cstvplay.21cs.cn/cstv1/cstv1
-4K修复,rtmp://liveshowbak2.kan0512.com/norecord/csztv4k_4k
 巴音,rtmp://tv.loulannews.cn/channellive/ch1
 巴音,rtmp://tv.loulannews.cn/channellive/ch2
 巴音,rtmp://tv.loulannews.cn/channellive/ch3
