@@ -230,11 +230,11 @@ for url in urls:
                             name = name.replace("BTV冬奥纪实", "冬奥纪实")
                             name = name.replace("东奥纪实", "冬奥纪实")
                             name = name.replace("卫视台", "卫视")
-                            name = name.replace("湖南电视台", "湖南卫视")
+                            #name = name.replace("湖南电视台", "湖南卫视")
                             name = name.replace("少儿科教", "少儿")
                             name = name.replace("TV星河2）", "星河")
-                            name = name.replace("影视剧", "影视")
-                            name = name.replace("电视剧", "影视")
+                            #name = name.replace("影视剧", "影视")
+                            #name = name.replace("电视剧", "影视")
                             name = name.replace("奥运匹克", "")
                             results.append(f"{name},{urld}")
             except:
@@ -275,15 +275,15 @@ for line in fileinput.input("iptv.txt", inplace=True):  #打开文件，并对�
 
 #定义智慧桌面采集地址
 urls = [
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5YyXIg%3D%3D",  #河北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iMTExMSI%3D",  # 1111
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5YyXIg%3D%3D",  #河北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F5LicIg%3D%3D",  #广东
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0ibGlhb25pbmci"    #辽宁
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rKz5Y2XIg%3D%3D",  # 河南
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJIdWJlaSIg",#湖北
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcG9ydD0iODE4MSIgJiYgY2l0eT0iR3VpZ2FuZyI%3D",  #贵港8181
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY2l0eT0ieXVsaW4i",#玉林
-    #"https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJmdWppYW4i",#福建
+    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgcmVnaW9uPSJmdWppYW4i",#福建
     "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5bm%2F6KW%2FIg%3D%3D",    #广西 壮族iptv
 ]
 def modify_urls(url):
@@ -493,10 +493,9 @@ for url in urls:
                             name = name.replace("湖南电视台", "湖南卫视")
                             name = name.replace("少儿科教", "少儿")
                             name = name.replace("TV星河2）", "星河")
-                            name = name.replace("影视剧", "影视")
-                            name = name.replace("电视剧", "影视")
+                            #name = name.replace("影视剧", "影视")
+                            #name = name.replace("电视剧", "影视")
                             name = name.replace("奥运匹克", "")
-                            name = name.replace("TVBTVB", "TVB")
                             name = name.replace("星空卫视", "动物杂技")
                             results.append(f"{name},{urld}")
             except:
@@ -533,7 +532,7 @@ def filter_lines(input_file, output_file):
     filtered_lines = []
     for line in lines:
         if 'hls' in line or 'tsfile' in line:
-          if 'udp' not in line and 'rtp' not in line and 'CCTV' not in line and '卫视' not in line:
+          if 'udp' not in line and 'rtp' not in line:# and 'CCTV' not in line and '卫视' not in line
             filtered_lines.append(line)
     with open(output_file, 'w', encoding='utf-8') as output_file:
         output_file.writelines(filtered_lines)
@@ -583,6 +582,7 @@ for line in fileinput.input("iptv.txt", inplace=True):                    #
     line = line.replace("", "")                                           
     line = line.replace("", "")                                           
     line = line.replace("", "")                              
+    line = line.replace("TVBTVB", "TVB")
     line = line.replace("影视文化", "影视")                            
     line = line.replace("武汉影视", "武汉电视剧")                            
     line = line.replace("公共新闻,http://58.", "湖北公共新闻,http://58.")                            
