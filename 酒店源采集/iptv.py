@@ -1146,8 +1146,8 @@ with open('河北电信.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w',
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f.write(line)  # 将该行写入输出文件
-except FileNotFoundError:
-    print("文件 '河北电信.txt' 不存在，跳过")               
+    except FileNotFoundError:
+        print("文件 '河北电信.txt' 不存在，跳过")               
 #从整理好的文本中按类别进行特定关键词提取#
 keywords = ['河南', '焦作', '开封', '卢氏', '洛阳', '孟津', '安阳', '宝丰', '邓州', '渑池', '南阳', '内黄', '平顶山', '淇县', '郏县', '封丘', '获嘉', '巩义', '杞县', '汝阳', '三门峡', '卫辉', '淅川', \
             '新密', '新乡', '信阳', '新郑', '延津', '叶县', '义马', '永城', '禹州', '原阳', '镇平', '郑州', '周口']  # 需要提取的关键字列表
@@ -1159,8 +1159,8 @@ with open('河南电信.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w'
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
-except FileNotFoundError:
-    print("文件 '河南电信.txt' 不存在，跳过")             
+    except FileNotFoundError:
+        print("文件 '河南电信.txt' 不存在，跳过")             
 #从文本中截取省市段生成新文件#
 # 定义关键词
 start_keyword = '省市频道,#genre#'
