@@ -10,7 +10,8 @@ CHC家庭影院,http://cg11.hunancatv.cn:9090/live/CHCJTYY_8000.m3u8?deviceid=86
 CHC影迷电影,http://cg14.hunancatv.cn:9090/live/CHCGQ_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604315487&srchost=172.16.22.158:8060&gid=QTVto%2BZu6pkkcNYy4OxcMg%3D%3D
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
 4K&IPTV,#genre#
-CCTV8K,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2020603421.m3u8
+CCTV4K超高清,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2024081303.m3u8
+CCTV8K超高清,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2020603421.m3u8
 BesTV电影4K,http://www.17888.fun:10000/udp/239.45.3.107:5140
 百事通电影4K,http://www.17888.fun:10000/rtp/239.45.1.42:5140
 百事通纪实4K,http://www.17888.fun:10000/rtp/239.45.1.10:5140
@@ -443,7 +444,6 @@ CCTV16奥林匹克,http://117.114.153.18:8180/TV00000000000000000136@HHZT
 CCTV16奥林匹克4K,http://[2409:8087:5e08:24::12]:6610/000000001001/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 CCTV16奥林匹克4K,http://iptv.skygogo.cn:18889/rtp/239.49.0.109:8000
 CCTV17农业农村,http://adsl03.ccj.gohome.link:55556/rtp/239.3.1.151:8144
-CCTV4K超高清,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
 CHC动作电影,http://demo1.ruisilink.top:9000/udp/239.76.245.243:1234
 CHC动作电影(备用),http://www.foxzhao.cn:4022/udp/239.112.205.207:5140
 CHC家庭影院,http://demo1.ruisilink.top:9000/udp/239.76.252.241:9000
@@ -1065,569 +1065,451 @@ Z频道,P2p://generationnexxxt.com:19806/70f52ed474e541f78682604ce0330bf2
 彩虹🌈惊艳台,http://18.svi-studio.com:8880/live/624372101145/418430465490/1.m3u8
 彩虹🌈惊艳台,http://18.svi-studio.com:80/live/176619383282/537544338952/1.m3u8
 彩虹🌈惊艳台,http://18.svi-studio.com:8880/live/908957700097/132663288386/1.m3u8
-1, https://t21.cdn2020.com/video/m3u8/2023/01/31/2be430ca/index.m3u8
-2, https://t21.cdn2020.com/video/m3u8/2023/01/19/f34df686/index.m3u8
-3, https://z100.cdn2020.com/video/m3u8/2020/07/25/2cec522d/index.m3u8
-4, https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
-5, https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
-6, https://z100.cdn2020.com/video/m3u8/2019/08/06/be9b1731/index.m3u8
-7, https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
-8, https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
-9, https://t21.cdn2020.com/video/m3u8/2023/04/21/ef21bff1/index.m3u8
-10, https://t21.cdn2020.com/video/m3u8/2023/04/19/368d1282/index.m3u8
-11, https://t21.cdn2020.com/video/m3u8/2023/04/19/85977503/index.m3u8
-12, https://t21.cdn2020.com/video/m3u8/2023/01/29/e656ed9e/index.m3u8
-n0946, https://z100.cdn2020.com/video/m3u8/2020/07/24/07dd89a1/index.m3u8
-n0724, https://z100.cdn2020.com/video/m3u8/2020/07/23/7029e94d/index.m3u8
-n0629, https://z100.cdn2020.com/video/m3u8/2020/07/19/3105fe90/index.m3u8
-n0630, https://z100.cdn2020.com/video/m3u8/2020/07/18/ac0bd0ea/index.m3u8
-n0476, https://z100.cdn2020.com/video/m3u8/2020/07/17/9671e301/index.m3u8
-n1332, https://z100.cdn2020.com/video/m3u8/2020/07/15/e68fe14f/index.m3u8
-n1150, https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
-n0998, https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
-n1183, https://z100.cdn2020.com/video/m3u8/2020/07/07/61a670e7/index.m3u8
-鬼逝125回,https://vip2.slbfsl.com/20230309/MSVdCsi0/index.m3u8
-高潮喷射,https://t10t13t16.cdn2020.com/video/m3u8/2021/08/14/4e8c1bc5/index.m3u8
-换脸李一桐,https://t1.wuyufei1.cn/20240401/5VQ4aaul/index.m3u8
-欧美双飞2,https://video2.51daao.com/btt1/2022/02/20220228/pqaA1UjM/index.m3u8
-只是口爆,https://video30.avnyg.com/video/20220603/f4dc49e681e59524980c977bf4721050/index.m3u8
-女优鬼逝–65回,https://vip2.slbfsl.com/20230412/2zHaqTwN/index.m3u8
-女优鬼逝_66,https://vip2.slbfsl.com/20230412/ljtACzt2/index.m3u8
-女优鬼逝_67,https://vip2.slbfsl.com/20230412/n3vCipMP/index.m3u8
-女优鬼逝_72回,https://vip2.slbfsl.com/20230412/dt3Wec6O/index.m3u8
-女优鬼逝–78,https://vip2.slbfsl.com/20230412/gXFTYvm0/index.m3u8
-女优鬼逝_82,https://vip2.slbfsl.com/20230412/Lnmpkfzj/index.m3u8
-女优鬼逝83回,https://vip2.slbfsl.com/20230412/rqdwcCcy/index.m3u8
-女优鬼逝125回,https://vip2.slbfsl.com/20230412/kyPvblIB/index.m3u8
-女优鬼逝-橘凉香,https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
-女优鬼逝-园田ありさ,https://z100.cdn2020.com/video/m3u8/2020/06/25/bfa72078/index.m3u8
-女优鬼逝-川野杏树,https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
-女优鬼逝_绝叫,https://vip2.slbfsl.com/20230412/KB7iJ7VF/index.m3u8
-女优鬼逝_决闷,https://vip2.slbfsl.com/20230412/1usMIlkd/index.m3u8
-女优鬼逝_110回,https://vip2.slbfsl.com/20230412/5Dl10uvg/index.m3u8
-女优鬼逝_40发,https://vip2.slbfsl.com/20230412/LUpb2w3Q/index.m3u8
-女优鬼逝_回逝,https://vip2.slbfsl.com/20230412/yTegVXCe/index.m3u8
-女优鬼逝_连射,https://vip2.slbfsl.com/20230412/rb52u4bi/index.m3u8
-女优鬼逝川野杏树,https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
-女优鬼逝橘凉香,https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
-女优鬼逝园田ありさ,https://z100.cdn2020.com/video/m3u8/2020/06/25/bfa72078/index.m3u8
-変态女-古瀬玲,https://z100.cdn2020.com/video/m3u8/2020/07/13/8df89ffe/index.m3u8
-东京热Gachiwakan,https://vip2.slbfsl.com/20230410/Hovn0UcH/index.m3u8
-东热流汁治疗,https://vip2.slbfsl.com/20230410/isRQj64n/index.m3u8
-东京ホット轮奸2013パート1,https://vip2.slbfsl.com/20230410/AItFaYor/index.m3u8
-口爆礼物,https://t23a.cdn2020.com/video/m3u8/2023/12/28/2840c3ea/index.m3u8
-♨️女优_无码,https://t25.cdn2020.com/video/m3u8/2024/04/20/93b11115/index.m3u8
-♨️二位女仆,https://videojc.hndtl.com:8091/20190913/XER9p5np/1000kb/hls/index.m3u8
-♨️山下绫香,https://videojc.hndtl.com:8091/20190913/6Vm6zaHC/1000kb/hls/index.m3u8
-♨️漂亮妹妹深喉,https://videojc.hndtl.com:8091/20191025/ZVobIuVL/1000kb/hls/index.m3u8
-1制服无码♨️,https://videos3.m8t9ew.com/20220416/220327a0438/index.m3u8
-2制服无码♨️,https://videos3.m8t9ew.com/20220406/220327a0274/index.m3u8
-4制服无码♨️,https://videos3.m8t9ew.com/20220416/220327a0436/index.m3u8
-3制服无码♨️,https://videos3.m8t9ew.com/20220406/220327a0274/index.m3u8
-6制服无码♨️,https://videos3.m8t9ew.com/20220406/220327a0211/index.m3u8
-5制服无码♨️,https://videos3.m8t9ew.com/20220421/220327a0890/index.m3u8
-7制服无码♨️,https://video.hybfq.com/decry/vd/20240306/ZDBhZDc3YjY2/235112/1280_720/libx/hls/encrypt/index.m3u8
-8制服无码♨️,https://video.hybfq.com/decry/vd/20240227/YzdkOTk4MmE3O/080249/1280_720/libx/hls/encrypt/index.m3u8
-1强奸无码♨️,https://videos3.m8t9ew.com/20220406/220327a0355/index.m3u8
-2强奸无码♨️,https://videos3.m8t9ew.com/20220406/220327a0395/index.m3u8
-3强奸无码♨️,https://videos3.m8t9ew.com/20220406/220327a0236/index.m3u8
-4强奸无码♨️,https://videos3.m8t9ew.com/20220406/220327a0263/index.m3u8
-5强奸无码♨️,https://videos3.m8t9ew.com/20220406/220327a0242/index.m3u8
-7强奸无码♨️,https://videos3.m8t9ew.com/20220416/220327a0454/index.m3u8
-6强奸无码♨️,https://videos3.m8t9ew.com/20220426/220327a1175/index.m3u8
-8强奸无码♨️,https://videos3.m8t9ew.com/20220423/220327a0975/index.m3u8
-9强奸无码♨️,https://videos3.m8t9ew.com/20220427/220327a1340/index.m3u8
-日本动漫1,https://lbbf9.com/20191105/xAf8e6gN/index.m3u8
-日本动漫2,https://lbbf9.com/20191105/6dCdeenO/index.m3u8
-日韩无码2,https://m3u8.46cdn.com/videos/akex/1905/7vjtDwwP/7vjtDwwP.m3u8
-日韩无码3,https://m3u8.46cdn.com/videos/akex/1905/N8UFEDcj/N8UFEDcj.m3u8
-日韩无码4,https://m3u8.41cdn.com/videos/201910/0y7WTW0v/hls/0y7WTW0v.m3u8
-日韩无码5,https://m3u8.34cdn.com/videos/201908/8v33bdqt/hls/8v33bdqt.m3u8
-日韩无码6,https://m3u8.48cdn.com/videos/201908/sb6ksmxx/hls/sb6ksmxx.m3u8
-无码♨️,https://videos3.m8t9ew.com/20220406/220327a0385/index.m3u8
-无码💫,https://videos3.m8t9ew.com/20220418/220327a0805/index.m3u8
-日韩无码💫,https://aosikazy12.com/20220929/cTOx9X8F/index.m3u8
-加勒比_丘笑,https://fc.maa1808.com/f/ocyxhukqvo/ocyxhukqvo.m3u8
-加勒比_姬川,https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
-加勒比_西川✨,https://fc.maa1808.com/c/nofftnyelj/nofftnyelj.m3u8
-加勒比_西川💫,https://fc.maa1808.com/n/uvbinnjany/uvbinnjany.m3u8
-加勒比_西川🌟,https://fc.maa1808.com/m/jtzgqcaxvw/jtzgqcaxvw.m3u8
-鬼畜集団轮受精地狱,https://vip2.slbfsl.com/20230412/A8kqkW2M/index.m3u8
-美女OL藤森里穗,https://t21.cdn2020.com/video/m3u8/2023/02/13/79ebfeaa/index.m3u8
-女优长泽梓3P内射性爱,https://t21.cdn2020.com/video/m3u8/2023/01/08/b4e623f6/index.m3u8
-美女秘书,https://t21.cdn2020.com/video/m3u8/2023/01/06/3aeb871a/index.m3u8
-朝ゴミ出す近所彩月あか,https://z100.cdn2020.com/video/m3u8/2020/07/25/2cec522d/index.m3u8
-膣膨満真正东热孕汁,https://z100.cdn2020.com/video/m3u8/2020/07/23/7029e94d/index.m3u8
-桥本美帆変则FUCKに惊愕,https://z100.cdn2020.com/video/m3u8/2020/07/24/07dd89a1/index.m3u8
-榎本すみれ东热极中出,https://z100.cdn2020.com/video/m3u8/2020/07/19/3105fe90/index.m3u8
-美人校医饭岛奈津美,https://z100.cdn2020.com/video/m3u8/2020/07/20/8f61697f/index.m3u8
-东热流3穴激カン,https://z100.cdn2020.com/video/m3u8/2020/07/18/ac0bd0ea/index.m3u8
-白衣変态轮カン调教孕汁,https://z100.cdn2020.com/video/m3u8/2020/07/17/9671e301/index.m3u8
-大乱交SP2008part2,https://z100.cdn2020.com/video/m3u8/2020/07/15/e68fe14f/index.m3u8
-変态女古瀬玲,https://z100.cdn2020.com/video/m3u8/2020/07/13/8df89ffe/index.m3u8
-妻秘密神波多一花,https://z100.cdn2020.com/video/m3u8/2020/07/12/6c12a001/index.m3u8
-好色妻降临古瀬玲,https://z100.cdn2020.com/video/m3u8/2020/07/10/e464cce5/index.m3u8
-黒人失神寸前筿田あゆみ,https://z100.cdn2020.com/video/m3u8/2020/07/09/0c60b9bc/index.m3u8
-中山美忧园田あさ,https://z100.cdn2020.com/video/m3u8/2020/07/07/61a670e7/index.m3u8
-性処理用君岛アンナ,https://z100.cdn2020.com/video/m3u8/2020/07/01/847d4870/index.m3u8
-极上ディ好色OL百多えみ,https://z100.cdn2020.com/video/m3u8/2020/07/06/36a05675/index.m3u8
-月野帯人,https://z100.cdn2020.com/video/m3u8/2020/06/29/03704370/index.m3u8
-♨️一本道_01,https://fc.maa1808.com/f/xuyanbincr/xuyanbincr.m3u8
-♨️一本道_02,https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
-♨️一本道_03,https://fc.maa1808.com/d/oduhcvyunk/oduhcvyunk.m3u8
-极上自宅访问玲奈,https://z100.cdn2020.com/video/m3u8/2020/06/29/bc41dfce/index.m3u8
-视界侵入立花瑠莉,https://z100.cdn2020.com/video/m3u8/2020/06/28/154d677d/index.m3u8
-芸能人と接吻麻生め,https://z100.cdn2020.com/video/m3u8/2020/06/24/8f3a26cc/index.m3u8
-密着度120%みづれ,https://z100.cdn2020.com/video/m3u8/2020/06/23/77a3ba30/index.m3u8
-本连続天音ん,https://z100.cdn2020.com/video/m3u8/2020/06/21/c92d1320/index.m3u8
-精子连続注入木村つ,https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
-师は部活后辈,https://z100.cdn2020.com/video/m3u8/2020/06/09/25844c37/index.m3u8
-东热大乱交2011Part1,https://z100.cdn2020.com/video/m3u8/2020/05/31/8eaa4be0/index.m3u8
-浓厚激SEX小野寺梨纱,https://z100.cdn2020.com/video/m3u8/2020/05/24/5ec1542f/index.m3u8
-东热大乱交2011Part2,https://z100.cdn2020.com/video/m3u8/2020/05/29/710dabae/index.m3u8
-💫363西川,https://fc.maa1808.com/b/ravxbmkthk/ravxbmkthk.m3u8
-KpopGirlDoesPorn,http://60106.vod.redtraffic.xyz/ph568fdb5194a8b/play.m3u8
-1pon_川原みのりエンドレスセックス,https://vip3.lbbf9.com/20220113/subsDqjy/1000kb/hls/index.m3u8
-市来美保究极マゾ,https://www.lbbf9.com/20210617/BQKojYIM/700kb/hls/index.m3u8
-1pon061110_854,https://www.lbbf9.com/20200521/p3mHHHdx/700kb/hls/index.m3u8
-绝望カン黒沢栞,https://z100.cdn2020.com/video/m3u8/2020/05/24/deae7136/index.m3u8
-悠希め东热流嬲カン発狂,https://z100.cdn2020.com/video/m3u8/2020/05/21/5e0355fb/index.m3u8
-朝ゴミ出す近所双叶みお,https://z100.cdn2020.com/video/m3u8/2020/05/21/61f04e74/index.m3u8
-精子兴奋すみほ,https://z100.cdn2020.com/video/m3u8/2020/05/20/3a4ad3ea/index.m3u8
-小衣くみがぼくお嫁さん,https://z100.cdn2020.com/video/m3u8/2020/04/17/3acab6b9/index.m3u8
-吉沢明歩无码流出,https://z100.cdn2020.com/video/m3u8/2020/05/20/d5b94d5e/index.m3u8
-调教志愿可爱女花守みら,https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
-女热大陆,https://z100.cdn2020.com/video/m3u8/2019/12/28/e72b6c73/index.m3u8
-里切妻淫靡秘め事佐仓ねね,https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
-极射小川桃果,https://z100.cdn2020.com/video/m3u8/2019/12/19/32823fe5/index.m3u8
-调教くださ古瀬玲,https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
-中出セックス吉冈莲美,https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
-艶美女上山奈々,https://z100.cdn2020.com/video/m3u8/2019/11/30/04055f79/index.m3u8
-すみれ美香が仆プレイを褒め,https://z100.cdn2020.com/video/m3u8/2019/11/30/06702386/index.m3u8
-柳田やよ,https://z100.cdn2020.com/video/m3u8/2019/11/28/f8c129f2/index.m3u8
-羽月希,https://z100.cdn2020.com/video/m3u8/2019/11/28/cf5d130d/index.m3u8
-マゾ乳生奸～小沢アリス,https://z100.cdn2020.com/video/m3u8/2019/11/28/f9cd6e2b/index.m3u8
-片桐えか,https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
-东热激情雄汁流込み特集part8,https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
-美祢藤コウ,https://z100.cdn2020.com/video/m3u8/2019/11/26/e8ce7a72/index.m3u8
-朝桐光だったらめちゃ,https://z100.cdn2020.com/video/m3u8/2019/09/13/95f5e67c/index.m3u8
-ぁ天海つばさ,https://z100.cdn2020.com/video/m3u8/2019/09/03/1c050665/index.m3u8
-春日由衣JAPORN初降临,https://z100.cdn2020.com/video/m3u8/2019/09/03/7066ee15/index.m3u8
-美少女上原结衣,https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
-极上女优京野明日香,https://z100.cdn2020.com/video/m3u8/2019/08/27/7a4f390f/index.m3u8
-43麻生希,https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
-极上3穴中出朝桐光,https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
-美咲结衣,https://z100.cdn2020.com/video/m3u8/2019/08/23/f76a3696/index.m3u8
-制服美女倶楽部川澄ま,https://z100.cdn2020.com/video/m3u8/2019/08/24/6574d26c/index.m3u8
-人妻を満足させ队逢沢はか,https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
-前彷徨う潮姫前田阳菜,https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
-贪欲ド変态女美咲结衣,https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
-上原瑞穂无码流出,https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
-洗练された大人上原亜衣,https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
-美女仲村さ,https://z100.cdn2020.com/video/m3u8/2019/08/09/a2cd2607/index.m3u8
-若奥様は元ヤンキー百合川さら,https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
-独占美人3姐妹,https://z100.cdn2020.com/video/m3u8/2019/08/07/37a833f2/index.m3u8
-补偿素人超兴奋化妆品,https://z100.cdn2020.com/video/m3u8/2019/08/07/06fa6a51/index.m3u8
-淫乱女教师波多野结衣,https://z100.cdn2020.com/video/m3u8/2019/08/07/b453fcff/index.m3u8
-远山雪菜,https://z100.cdn2020.com/video/m3u8/2019/08/06/be9b1731/index.m3u8
-mu远山雪菜,https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
-熊仓ょうこ无码流出,https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
-素人娘撮影会青山みか,https://z100.cdn2020.com/video/m3u8/2019/08/02/b16691d5/index.m3u8
-大冢咲,https://z100.cdn2020.com/video/m3u8/2019/08/02/46000728/index.m3u8
-星崎アンリ,https://z100.cdn2020.com/video/m3u8/2019/08/01/dc6de989/index.m3u8
-加护范子,https://z100.cdn2020.com/video/m3u8/2019/07/29/2227ee01/index.m3u8
-夏パリピ乱交！,https://z100.cdn2020.com/video/m3u8/2019/07/27/69b1bebc/index.m3u8
-人妻敏感アナル柳田やよ,https://z100.cdn2020.com/video/m3u8/2019/07/24/23090950/index.m3u8
-大量中出21岁小恶魔苗条女大学,https://z100.cdn2020.com/video/m3u8/2019/07/24/f8b20b80/index.m3u8
-古川伊织流出,https://z100.cdn2020.com/video/m3u8/2019/07/21/1c46196d/index.m3u8
-かみ芽梨,https://z100.cdn2020.com/video/m3u8/2019/07/21/cfe39fee/index.m3u8
-淫乱天使にＷ攻撃,https://z100.cdn2020.com/video/m3u8/2019/07/21/027926aa/index.m3u8
-爱す情热☆LUNA☆,https://z100.cdn2020.com/video/m3u8/2019/07/21/9e51f553/index.m3u8
-Kanami芽梨,https://z100.cdn2020.com/video/m3u8/2019/07/21/d6607ed9/index.m3u8
-来参加面试AV女优有村碧,https://t21.cdn2020.com/video/m3u8/2023/03/05/f29acb19/index.m3u8
-肉便器女仆,https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
-川原みのりエンドレスセックス,https://vip3.lbbf9.com/20220113/subsDqjy/1000kb/hls/index.m3u8
-奥様は卑猥な共犯者,https://vip2.slbfsl.com/20230404/O6eHkyUR/index.m3u8
-本気汁垂れ流してガチイキに初老も感动中出し,https://vip2.slbfsl.com/20230405/0dpqkflL/index.m3u8
-车内はみんなに见られてる感じがして,https://vip2.slbfsl.com/20230407/Kp8gEHnm/index.m3u8
-初出勤の无知なデリヘル嬢に中出しまでしちゃいました~,https://vip2.slbfsl.com/20230408/IbyZvvZu/index.m3u8
-従顺なスク水娘にイタズラしちゃお,https://vip2.slbfsl.com/20230408/QMfdBeAc/index.m3u8
-大きな喘ぎ声が特徴,https://vip2.slbfsl.com/20230408/2Hur94gF/index.m3u8
-旦那とのセックス不足で欲求不満炸裂,https://vip2.slbfsl.com/20230409/3beBTO3u/index.m3u8
-到东京热,https://vip2.slbfsl.com/20230409/4A3yJtng/index.m3u8
-放课后に、仕込んでください?イキたい,https://vip2.slbfsl.com/20230411/mSBqhSqL/index.m3u8
-非常敏感的身体,https://vip2.slbfsl.com/20230411/5zn6VQlP/index.m3u8
-関〇外〇大学3年生、海外留学のためパパ活,https://vip2.slbfsl.com/20230412/FzgiV8dL/index.m3u8
-何でも言うことを闻いちゃいます,https://vip2.slbfsl.com/20230413/Qs7eC5zZ/index.m3u8
-欢迎来到豪华香皂,https://vip2.slbfsl.com/20230414/0OaNQ0p0/index.m3u8
-回春エステで仆の勃起が止まらない,https://vip2.slbfsl.com/20230414/QHF563G5/index.m3u8
-积极的なオンナ,https://vip2.slbfsl.com/20230414/V7I2GGJi/index.m3u8
-极上泡姫物语Vol.102~,https://vip2.slbfsl.com/20230414/jRXZrLwE/index.m3u8
-结婚３年の真绪さんの、自他共に认めるいい,https://vip2.slbfsl.com/20230415/h95CMnNZ/index.m3u8
-今回のアマチュアハメ,https://vip2.slbfsl.com/20230415/W5LBMlYf/index.m3u8
-今日のために绮丽に剃ってきました～,https://vip2.slbfsl.com/20230415/TV5VyE6L/index.m3u8
-今日は俺の诞生日だからプレゼントに中出ししていい？,https://vip2.slbfsl.com/20230415/6lR5y7D0/index.m3u8
-精子は饮むものだと元カレに调教されま,https://vip2.slbfsl.com/20230416/OAIZYX2r/index.m3u8
-看护师２６歳-Part3,https://vip2.slbfsl.com/20230417/ljzPgqGF/index.m3u8
-可爱いママ友に魅かれて,https://vip2.slbfsl.com/20230417/IacWvSc8/index.m3u8
-恐怖で震えながら强制连続中出し。,https://vip2.slbfsl.com/20230417/NVITp81V/index.m3u8
-豊満ムラムラ美ボディガール,https://vip2.slbfsl.com/20230418/xYPhVUeJ/index.m3u8
-令嬢と召使?舌をいっぱい出してワレメを舐めなさいよ?,https://vip2.slbfsl.com/20230418/wayddC9H/index.m3u8
-流出版-大桥优子无码流出,https://vip2.slbfsl.com/20230418/KXcOJc28/index.m3u8
-流出版-吉泽明步无码流出-Part3,https://vip2.slbfsl.com/20230419/SPmxpGOs/index.m3u8
-流出版-水无濑优夏无码流出,https://vip2.slbfsl.com/20230419/epdFbro2/index.m3u8
-东京热02,https://play2.laoyacdn.com/20220624/4KwH2wMc/1500kb/hls/index.m3u8
-东京热04,https://vip5.3sybf.com/20210502/0T9XpSwR/2000kb/hls/index.m3u8
-妻の秘密神波多一花,https://z100.cdn2020.com/video/m3u8/2020/07/12/6c12a001/index.m3u8
-好色妻降临-古瀬玲,https://z100.cdn2020.com/video/m3u8/2020/07/10/e464cce5/index.m3u8
-黒人失神寸前-筿田あゆみ,https://z100.cdn2020.com/video/m3u8/2020/07/09/0c60b9bc/index.m3u8
-极上ボディの好色OL-百多えみり,https://z100.cdn2020.com/video/m3u8/2020/07/06/36a05675/index.m3u8
-芸能人と接吻-麻生めい,https://z100.cdn2020.com/video/m3u8/2020/06/24/8f3a26cc/index.m3u8
-3本连続-天音りん,https://z100.cdn2020.com/video/m3u8/2020/06/21/c92d1320/index.m3u8
-密着度120%-みづなれい,https://z100.cdn2020.com/video/m3u8/2020/06/23/77a3ba30/index.m3u8
-精子连続注入-木村つな,https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
-师は部活の后辈,https://z100.cdn2020.com/video/m3u8/2020/06/09/25844c37/index.m3u8
-调教志愿の可爱い女-花守みらい,https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
-女热大陆File.071-メイリン,https://z100.cdn2020.com/video/m3u8/2019/12/28/e72b6c73/index.m3u8
-中出しセックス-吉冈莲美,https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
-里切り妻の淫靡な秘め事-佐仓ねね,https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
-调教してください-古瀬玲,https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
-すみれ美香が仆のプレイを褒め,https://z100.cdn2020.com/video/m3u8/2019/11/30/06702386/index.m3u8
-艶美女-上山奈々,https://z100.cdn2020.com/video/m3u8/2019/11/30/04055f79/index.m3u8
-柳田やよい,https://z100.cdn2020.com/video/m3u8/2019/11/28/f8c129f2/index.m3u8
-片桐えりりか,https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
-东热激情雄汁流し込み特集part8,https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
-アンコールVol.6-美祢藤コウ,https://z100.cdn2020.com/video/m3u8/2019/11/26/e8ce7a72/index.m3u8
-春日由衣のJAPORN初降临,https://z100.cdn2020.com/video/m3u8/2019/09/03/7066ee15/index.m3u8
-パイパンまこかぱぁ-天海つばさ,https://z100.cdn2020.com/video/m3u8/2019/09/03/1c050665/index.m3u8
-美少女-上原结衣,https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
-极上の女优京野明日香,https://z100.cdn2020.com/video/m3u8/2019/08/27/7a4f390f/index.m3u8
-极上泡姫物语Vol.43-麻生希,https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
-极上3穴中出し-朝桐光,https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
-グラマラスNo.25美咲结衣,https://z100.cdn2020.com/video/m3u8/2019/08/23/f76a3696/index.m3u8
-人妻を満足させ队-逢沢はるか,https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
-制服美女倶楽部-川澄まい,https://z100.cdn2020.com/video/m3u8/2019/08/24/6574d26c/index.m3u8
-前彷徨う潮姫-前田阳菜,https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
-贪欲ド変态女-美咲结衣,https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
-洗练された大人-上原亜衣,https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
-ハーフな美女-仲村さり,https://z100.cdn2020.com/video/m3u8/2019/08/09/a2cd2607/index.m3u8
-若奥様は元ヤンキー-百合川さら,https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
-淫乱な女教师-波多野结衣,https://z100.cdn2020.com/video/m3u8/2019/08/07/b453fcff/index.m3u8
-熊仓しょうこ无码流出,https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
-素人娘撮影会-青山みか,https://z100.cdn2020.com/video/m3u8/2019/08/02/b16691d5/index.m3u8
-远山雪菜,https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
-CWPBD-16加护范子,https://z100.cdn2020.com/video/m3u8/2019/07/29/2227ee01/index.m3u8
-人妻の敏感アナル-柳田やよい,https://z100.cdn2020.com/video/m3u8/2019/07/24/23090950/index.m3u8
-ヌルヌル淫乱天使にＷ攻撃,https://z100.cdn2020.com/video/m3u8/2019/07/21/027926aa/index.m3u8
-来参加面试AV女优-有村碧,https://t21.cdn2020.com/video/m3u8/2023/03/05/f29acb19/index.m3u8
-委托猛男们把新入职的女孩变成肉便器女仆,https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
-美人秘书HM002,https://m3m.1vkx.cn/common/maomi/maomi/wm_qnbgwu6sn/hls/1/index.m3u8
-精子兴奋,https://z100.cdn2020.com/video/m3u8/2020/05/20/3a4ad3ea/index.m3u8
-精子注入_木村,https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
-女优_小衣,https://z100.cdn2020.com/video/m3u8/2020/04/17/3acab6b9/index.m3u8
-调教_可爱女,https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
-极射_小川桃果,https://z100.cdn2020.com/video/m3u8/2019/12/19/32823fe5/index.m3u8
-淫乱秘书_佐仓,https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
-中出_吉冈莲美,https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
-调教_古瀬玲,https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
-东热激情_特集part8,https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
-女优_片桐,https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
-女优_朝桐光,https://z100.cdn2020.com/video/m3u8/2019/09/13/95f5e67c/index.m3u8
-美少女_上原结衣,https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
-极上泡姫_麻生希,https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
-3穴中出_朝桐光,https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
-人妻_逢沢はるか,https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
-女优_西川萝莉,https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
-女优_前田阳菜,https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
-変态女-美咲结衣,https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
-女优_上原亜衣,https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
-上原瑞穂_无码,https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
-肉便器_女仆,https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
-淫乱_吴芳宜,https://47b61.cdnedge.live/file/avple-images/hls/61efa0b25d579208810784f6/playlist.m3u8
-加勒比_音羽,https://fc.maa1804.com/f/rnczxtyxch/rnczxtyxch.m3u8
-加勒比_美月,https://fc.maa1804.com/g/ijttkoqump/ijttkoqump.m3u8
-加勒比_七濑,https://fc.maa1804.com/h/evzmbhpmfo/evzmbhpmfo.m3u8
-加勒比_羽田真里,https://fc.maa1804.com/f/jlntoqhqui/jlntoqhqui.m3u8
-加勒比_中野,https://fc.maa1804.com/n/paeuhdhlfl/paeuhdhlfl.m3u8
-加勒比_樱井,https://fc.maa1804.com/f/stasfhodif/stasfhodif.m3u8
-加勒比_樱井,https://fc.maa1804.com/c/yrjzwhdfnl/yrjzwhdfnl.m3u8
-加勒比_铃木,https://fc.maa1804.com/f/znyfifzqip/znyfifzqip.m3u8
-加勒比_双叶,https://fc.maa1804.com/h/xtnyuspejl/xtnyuspejl.m3u8
-加勒比_梢,https://fc.maa1804.com/b/dcopzmdvne/dcopzmdvne.m3u8
-加勒比_白砂,https://fc.maa1804.com/n/hnalcnmzly/hnalcnmzly.m3u8
-加勒比_椎名华,https://fc.maa1804.com/f/mkumllunom/mkumllunom.m3u8
-加勒比_神田,https://fc.maa1804.com/c/rhmiiydppe/rhmiiydppe.m3u8
-加勒比_百多,https://fc.maa1804.com/h/lpktlslmoe/lpktlslmoe.m3u8
-加勒比_小早川怜子,https://fc.maa1804.com/m/mqqqmnhwon/mqqqmnhwon.m3u8
-加勒比_美月,https://fc.maa1804.com/e/orwgpqkpnv/orwgpqkpnv.m3u8
-小花のん白衣の爆乳,https://video57.msn17.com/video/20230707/f4c566a9706eec28ebe637fa20a5d404/index.m3u8
-巨乳护士,https://video45.msn17.com/video/20230201/7648b43e6117da9370ca8f9113ba328c/index.m3u8
-一本道_餐馆的女员工被同事们中出调教雾生ゆきな,https://v.didivod.com/20220817/Fnmgqp2H/index.m3u8
-人妻不伦温泉:水野葵,https://v.didivod.com/20220817/iaOGRbxL/index.m3u8
-美绪のHなデートを公开大空美绪,https://v.didivod.com/20220817/RNEnZQHZ/index.m3u8
-性感模特的波涛汹涌尾上若叶,https://v.didivod.com/20220817/McGWUBPr/index.m3u8
-混血巨乳风俗美女仲村纱梨的服务,https://v.didivod.com/20220817/oRaM5dEn/index.m3u8
-DRG-15北条麻妃,https://v.didivod.com/20220817/iuppqoGA/index.m3u8
-仲村さりくわえたい冲动のエロカワ美女?喉奥いっぱいぶち込んでく,https://v.didivod.com/20220817/2FEgrAkk/index.m3u8
-一道本_狂野美女LUNA的无码出道作,https://v.didivod.com/20220817/aauVbk9F/index.m3u8
-一本道_上原亜衣?本気スペシャル?,https://v.didivod.com/20220817/YbbuEWgp/index.m3u8
-一根肉棒不能满足！东山実,https://v.didivod.com/20220817/VjqTvnaA/index.m3u8
-榨干你三次还不罢休的极上无毛女优Ray,https://v.didivod.com/20220817/KLe5s3wJ/index.m3u8
-我的肉穴狂泄不止～床上的大洪水～–橘优奈,https://v.didivod.com/20220817/8BQLHNkF/index.m3u8
-名模精选姬川优奈,https://video35.msn17.com/video/20220804/0e70d23c034810cd1ce5a82815db0a69/index.m3u8
-东京热_群P,https://video36.msn17.com/video/20220817/047b26f49a809e7f7d93924cdaadac11/index.m3u8
-日本萝莉女仆,https://video13.msn17.com/video/20220302/29f18293044855e4b8fbaf654a98735e/index.m3u8
-(小小呀呀)小萝莉,https://video25.msn17.com/video/20220426/85326b97b40d25aee6d52d07cec9a883/index.m3u8
-无码合集口爆,https://video26.msn17.com/video/20220521/7e9c37455e00b0f3c0f4ad48abf95f05/index.m3u8
-岛国演技吉泽明步,https://video17.msn17.com/video/20220228/f1721b5e4e150cece03d91c34fef4ec6/index.m3u8
-002姬川,https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
-004西川,https://fc.maa1808.com/f/xuyanbincr/xuyanbincr.m3u8
-533丘笑,https://fc.maa1808.com/f/dkpfeyqgrj/dkpfeyqgrj.m3u8
-563爱莉,https://fc.maa1808.com/d/qscypinana/qscypinana.m3u8
-541神田,https://fc.maa1808.com/c/rhmiiydppe/rhmiiydppe.m3u8
-589立花琉莉,https://fc.maa1808.com/n/okjmiigqsr/okjmiigqsr.m3u8
-563七濑,https://fc.maa1808.com/f/pwkupqugdm/pwkupqugdm.m3u8
-665姬川,https://fc.maa1808.com/c/mrpmoinlmj/mrpmoinlmj.m3u8
-香蕉77,https://t1.wuyufei1.cn/20240320/USIcVOl2/index.m3u8
-香蕉79,https://t1.wuyufei1.cn/20240404/1EhFRuML/index.m3u8
-香蕉81,https://t1.wuyufei1.cn/20240418/e39UhxB1/2000kb/hls/index.m3u8
-香蕉83,https://t1.wuyufei1.cn/20240415/Ye8MSVJm/2000kb/hls/index.m3u8
-香蕉85,https://y1.wuyufei1.cn/20240221/klez7Bz9/2000kb/hls/index.m3u8
-香蕉87,https://t1.wuyufei1.cn/20240412/s9HQg90M/index.m3u8
-香蕉89,https://y1.wuyufei1.cn/20240313/LnUk9cFT/index.m3u8
-香蕉91,https://y1.wuyufei1.cn/20240221/9qaYu8xR/2000kb/hls/index.m3u8
-香蕉93,https://t1.wuyufei1.cn/20240412/pOQk0noW/index.m3u8
-香蕉95,https://t1.wuyufei1.cn/20240315/8enrCs7y/index.m3u8
-香蕉97,https://t1.wuyufei1.cn/20240412/Hih1i3mj/index.m3u8
-香蕉99,https://y1.wuyufei1.cn/20240313/JeZwmHIf/index.m3u8
-香蕉101,https://y1.wuyufei1.cn/20240306/R4wyxEmt/index.m3u8
-香蕉103,https://t1.wuyufei1.cn/20231127/UFSPszcv/index.m3u8
-香蕉105,https://t1.wuyufei1.cn/20231127/ghyQgGzn/index.m3u8
-香蕉107,https://t1.wuyufei1.cn/20231128/xPd2tiJi/index.m3u8
-香蕉109,https://t1.wuyufei1.cn/20240119/8rVfQuDz/index.m3u8
-香蕉111,https://t1.wuyufei1.cn/20231228/tZ50AoCb/index.m3u8
-香蕉112,https://t1.wuyufei1.cn/20231122/7JHTKrdp/index.m3u8
-香蕉114,https://t1.wuyufei1.cn/20240314/w17MuDme/index.m3u8
-香蕉116,https://t1.wuyufei1.cn/20240403/KEh0KXUr/2000kb/hls/index.m3u8
-香蕉118,https://y1.wuyufei1.cn/20230818/D4y7iY5S/2000kb/hls/index.m3u8
-香蕉120,https://t1.wuyufei1.cn/20240203/oBQ4SeT0/index.m3u8
-香蕉122,https://t1.wuyufei1.cn/20240403/iWoLiDUY/2000kb/hls/index.m3u8
-香蕉124,https://t1.wuyufei1.cn/20240403/efCpV7O8/2000kb/hls/index.m3u8
-香蕉126,https://t1.wuyufei1.cn/20240320/GFdBtdAV/index.m3u8
-香蕉128,https://t1.wuyufei1.cn/20240319/41v2hFkE/index.m3u8
-香蕉130,https://t1.wuyufei1.cn/20240319/hDPVGEUq/index.m3u8
-香蕉132,https://t1.wuyufei1.cn/20240302/AJ8jzGzk/index.m3u8
-香蕉134,https://t1.wuyufei1.cn/20240302/xJudHk3i/index.m3u8
-香蕉136,https://t1.wuyufei1.cn/20240301/qfYeR8pz/index.m3u8
-香蕉137,https://t1.wuyufei1.cn/20240301/LrMZS1qH/index.m3u8
-香蕉138,https://t1.wuyufei1.cn/20240404/Eu2sWoX2/index.m3u8
-东热02,https://video1.rhsj520.com/nyrm3/2011225/DR/n0010/index.m3u8
-东热03,https://video1.rhsj520.com/nyrm3/2011225/DR/n0008/index.m3u8
-东热04,https://video1.rhsj520.com/nyrm3/2011225/DR/n0001/index.m3u8
+特1, https://t21.cdn2020.com/video/m3u8/2023/01/31/2be430ca/index.m3u8
+特2, https://t21.cdn2020.com/video/m3u8/2023/01/19/f34df686/index.m3u8
+特3, https://z100.cdn2020.com/video/m3u8/2020/07/25/2cec522d/index.m3u8
+特4, https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
+特5, https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
+特6, https://z100.cdn2020.com/video/m3u8/2019/08/06/be9b1731/index.m3u8
+特7, https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
+特8, https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
+特9, https://t21.cdn2020.com/video/m3u8/2023/04/21/ef21bff1/index.m3u8
+特10, https://t21.cdn2020.com/video/m3u8/2023/04/19/368d1282/index.m3u8
+特11, https://t21.cdn2020.com/video/m3u8/2023/04/19/85977503/index.m3u8
+特12, https://t21.cdn2020.com/video/m3u8/2023/01/29/e656ed9e/index.m3u8
+特13, https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
+特14, https://z100.cdn2020.com/video/m3u8/2020/07/24/07dd89a1/index.m3u8
+特15, https://z100.cdn2020.com/video/m3u8/2020/07/23/7029e94d/index.m3u8
+特16, https://z100.cdn2020.com/video/m3u8/2020/07/19/3105fe90/index.m3u8
+特17, https://z100.cdn2020.com/video/m3u8/2020/07/18/ac0bd0ea/index.m3u8
+特18, https://z100.cdn2020.com/video/m3u8/2020/07/17/9671e301/index.m3u8
+特19, https://z100.cdn2020.com/video/m3u8/2020/07/15/e68fe14f/index.m3u8
+特20, https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
+特21, https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
+特22, https://z100.cdn2020.com/video/m3u8/2020/07/07/61a670e7/index.m3u8
+1, https://vip2.slbfsl.com/20230309/MSVdCsi0/index.m3u8
+2, https://t10t13t16.cdn2020.com/video/m3u8/2021/08/14/4e8c1bc5/index.m3u8
+3, https://video2.51daao.com/btt1/2022/02/20220228/pqaA1UjM/index.m3u8
+4, https://video30.avnyg.com/video/20220603/f4dc49e681e59524980c977bf4721050/index.m3u8
+5, https://vip2.slbfsl.com/20230412/2zHaqTwN/index.m3u8
+6, https://vip2.slbfsl.com/20230412/ljtACzt2/index.m3u8
+7, https://vip2.slbfsl.com/20230412/n3vCipMP/index.m3u8
+8, https://vip2.slbfsl.com/20230412/dt3Wec6O/index.m3u8
+9, https://vip2.slbfsl.com/20230412/gXFTYvm0/index.m3u8
+10, https://vip2.slbfsl.com/20230412/Lnmpkfzj/index.m3u8
+11, https://vip2.slbfsl.com/20230412/rqdwcCcy/index.m3u8
+12, https://vip2.slbfsl.com/20230412/kyPvblIB/index.m3u8
+13, https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
+14, https://z100.cdn2020.com/video/m3u8/2020/06/25/bfa72078/index.m3u8
+15, https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
+16, https://vip2.slbfsl.com/20230412/KB7iJ7VF/index.m3u8
+17, https://vip2.slbfsl.com/20230412/1usMIlkd/index.m3u8
+18, https://vip2.slbfsl.com/20230412/5Dl10uvg/index.m3u8
+19, https://vip2.slbfsl.com/20230412/LUpb2w3Q/index.m3u8
+20, https://vip2.slbfsl.com/20230412/yTegVXCe/index.m3u8
+21, https://vip2.slbfsl.com/20230412/rb52u4bi/index.m3u8
+22, https://z100.cdn2020.com/video/m3u8/2020/07/14/23bdb384/index.m3u8
+23, https://z100.cdn2020.com/video/m3u8/2020/07/10/0a17f7bf/index.m3u8
+24, https://z100.cdn2020.com/video/m3u8/2020/06/25/bfa72078/index.m3u8
+25, https://z100.cdn2020.com/video/m3u8/2020/07/13/8df89ffe/index.m3u8
+26, https://vip2.slbfsl.com/20230412/KB7iJ7VF/index.m3u8
+27, https://vip2.slbfsl.com/20230410/Hovn0UcH/index.m3u8
+28, https://vip2.slbfsl.com/20230410/isRQj64n/index.m3u8
+29, https://vip2.slbfsl.com/20230410/AItFaYor/index.m3u8
+30, https://t23a.cdn2020.com/video/m3u8/2023/12/28/2840c3ea/index.m3u8
+31, https://t25.cdn2020.com/video/m3u8/2024/04/20/93b11115/index.m3u8
+32, https://videojc.hndtl.com:8091/20190913/XER9p5np/1000kb/hls/index.m3u8
+33, https://videojc.hndtl.com:8091/20190913/6Vm6zaHC/1000kb/hls/index.m3u8
+34, https://videojc.hndtl.com:8091/20191025/ZVobIuVL/1000kb/hls/index.m3u8
+35, https://videos3.m8t9ew.com/20220416/220327a0438/index.m3u8
+36, https://videos3.m8t9ew.com/20220406/220327a0274/index.m3u8
+37, https://videos3.m8t9ew.com/20220416/220327a0436/index.m3u8
+38, https://videos3.m8t9ew.com/20220406/220327a0274/index.m3u8
+39, https://videos3.m8t9ew.com/20220406/220327a0211/index.m3u8
+40, https://videos3.m8t9ew.com/20220421/220327a0890/index.m3u8
+41, https://video.hybfq.com/decry/vd/20240306/ZDBhZDc3YjY2/235112/1280_720/libx/hls/encrypt/index.m3u8
+42, https://video.hybfq.com/decry/vd/20240227/YzdkOTk4MmE3O/080249/1280_720/libx/hls/encrypt/index.m3u8
+43, https://videos3.m8t9ew.com/20220406/220327a0355/index.m3u8
+44, https://videos3.m8t9ew.com/20220406/220327a0395/index.m3u8
+45, https://videos3.m8t9ew.com/20220406/220327a0236/index.m3u8
+46, https://videos3.m8t9ew.com/20220406/220327a0263/index.m3u8
+47, https://videos3.m8t9ew.com/20220406/220327a0242/index.m3u8
+48, https://videos3.m8t9ew.com/20220416/220327a0454/index.m3u8
+49, https://videos3.m8t9ew.com/20220426/220327a1175/index.m3u8
+50, https://videos3.m8t9ew.com/20220423/220327a0975/index.m3u8
+51, https://videos3.m8t9ew.com/20220427/220327a1340/index.m3u8
+52, https://lbbf9.com/20191105/xAf8e6gN/index.m3u8
+53, https://lbbf9.com/20191105/6dCdeenO/index.m3u8
+54, https://m3u8.46cdn.com/videos/akex/1905/7vjtDwwP/7vjtDwwP.m3u8
+55, https://m3u8.46cdn.com/videos/akex/1905/N8UFEDcj/N8UFEDcj.m3u8
+56, https://m3u8.41cdn.com/videos/201910/0y7WTW0v/hls/0y7WTW0v.m3u8
+57, https://m3u8.34cdn.com/videos/201908/8v33bdqt/hls/8v33bdqt.m3u8
+58, https://m3u8.48cdn.com/videos/201908/sb6ksmxx/hls/sb6ksmxx.m3u8
+59, https://videos3.m8t9ew.com/20220406/220327a0385/index.m3u8
+60, https://videos3.m8t9ew.com/20220418/220327a0805/index.m3u8
+61, https://aosikazy12.com/20220929/cTOx9X8F/index.m3u8
+62, https://fc.maa1808.com/f/ocyxhukqvo/ocyxhukqvo.m3u8
+63, https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
+64, https://fc.maa1808.com/c/nofftnyelj/nofftnyelj.m3u8
+65, https://fc.maa1808.com/n/uvbinnjany/uvbinnjany.m3u8
+66, https://fc.maa1808.com/m/jtzgqcaxvw/jtzgqcaxvw.m3u8
+67, https://vip2.slbfsl.com/20230412/A8kqkW2M/index.m3u8
+68, https://t21.cdn2020.com/video/m3u8/2023/02/13/79ebfeaa/index.m3u8
+69, https://t21.cdn2020.com/video/m3u8/2023/01/08/b4e623f6/index.m3u8
+70, https://t21.cdn2020.com/video/m3u8/2023/01/06/3aeb871a/index.m3u8
+71, https://z100.cdn2020.com/video/m3u8/2020/07/25/2cec522d/index.m3u8
+72, https://z100.cdn2020.com/video/m3u8/2020/07/23/7029e94d/index.m3u8
+73, https://z100.cdn2020.com/video/m3u8/2020/07/24/07dd89a1/index.m3u8
+74, https://z100.cdn2020.com/video/m3u8/2020/07/19/3105fe90/index.m3u8
+75, https://z100.cdn2020.com/video/m3u8/2020/07/20/8f61697f/index.m3u8
+76, https://z100.cdn2020.com/video/m3u8/2020/07/18/ac0bd0ea/index.m3u8
+77, https://z100.cdn2020.com/video/m3u8/2020/07/17/9671e301/index.m3u8
+78, https://z100.cdn2020.com/video/m3u8/2020/07/15/e68fe14f/index.m3u8
+79, https://z100.cdn2020.com/video/m3u8/2020/07/13/8df89ffe/index.m3u8
+80, https://z100.cdn2020.com/video/m3u8/2020/07/12/6c12a001/index.m3u8
+81, https://z100.cdn2020.com/video/m3u8/2020/07/10/e464cce5/index.m3u8
+82, https://z100.cdn2020.com/video/m3u8/2020/07/09/0c60b9bc/index.m3u8
+83, https://z100.cdn2020.com/video/m3u8/2020/07/07/61a670e7/index.m3u8
+84, https://z100.cdn2020.com/video/m3u8/2020/07/01/847d4870/index.m3u8
+85, https://z100.cdn2020.com/video/m3u8/2020/07/06/36a05675/index.m3u8
+86, https://z100.cdn2020.com/video/m3u8/2020/06/29/03704370/index.m3u8
+87, https://fc.maa1808.com/f/xuyanbincr/xuyanbincr.m3u8
+88, https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
+89, https://fc.maa1808.com/d/oduhcvyunk/oduhcvyunk.m3u8
+90, https://aosikazy12.com/20220929/cTOx9X8F/index.m3u8
+91, https://t23a.cdn2020.com/video/m3u8/2023/12/28/2840c3ea/index.m3u8
+92, https://z100.cdn2020.com/video/m3u8/2020/06/29/bc41dfce/index.m3u8
+93, https://z100.cdn2020.com/video/m3u8/2020/06/28/154d677d/index.m3u8
+94, https://z100.cdn2020.com/video/m3u8/2020/06/24/8f3a26cc/index.m3u8
+95, https://z100.cdn2020.com/video/m3u8/2020/06/23/77a3ba30/index.m3u8
+96, https://z100.cdn2020.com/video/m3u8/2020/06/21/c92d1320/index.m3u8
+97, https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
+98, https://z100.cdn2020.com/video/m3u8/2020/06/09/25844c37/index.m3u8
+99, https://z100.cdn2020.com/video/m3u8/2020/05/31/8eaa4be0/index.m3u8
+100, https://z100.cdn2020.com/video/m3u8/2020/05/24/5ec1542f/index.m3u8
+101, https://z100.cdn2020.com/video/m3u8/2020/05/29/710dabae/index.m3u8
+102, https://fc.maa1808.com/b/ravxbmkthk/ravxbmkthk.m3u8
+103, http://60106.vod.redtraffic.xyz/ph568fdb5194a8b/play.m3u8
+104, https://vip3.lbbf9.com/20220113/subsDqjy/1000kb/hls/index.m3u8
+105, https://www.lbbf9.com/20210617/BQKojYIM/700kb/hls/index.m3u8
+106, https://www.lbbf9.com/20200521/p3mHHHdx/700kb/hls/index.m3u8
+107, https://z100.cdn2020.com/video/m3u8/2020/05/24/deae7136/index.m3u8
+108, https://z100.cdn2020.com/video/m3u8/2020/05/21/5e0355fb/index.m3u8
+109, https://z100.cdn2020.com/video/m3u8/2020/05/21/61f04e74/index.m3u8
+110, https://z100.cdn2020.com/video/m3u8/2020/05/20/3a4ad3ea/index.m3u8
+111, https://z100.cdn2020.com/video/m3u8/2020/04/17/3acab6b9/index.m3u8
+112, https://z100.cdn2020.com/video/m3u8/2020/05/20/d5b94d5e/index.m3u8
+113, https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
+114, https://z100.cdn2020.com/video/m3u8/2019/12/28/e72b6c73/index.m3u8
+115, https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
+116, https://z100.cdn2020.com/video/m3u8/2019/12/19/32823fe5/index.m3u8
+117, https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
+118, https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
+119, https://z100.cdn2020.com/video/m3u8/2019/11/30/04055f79/index.m3u8
+120, https://z100.cdn2020.com/video/m3u8/2019/11/30/06702386/index.m3u8
+121, https://z100.cdn2020.com/video/m3u8/2019/11/28/f8c129f2/index.m3u8
+122, https://z100.cdn2020.com/video/m3u8/2019/11/28/cf5d130d/index.m3u8
+123, https://z100.cdn2020.com/video/m3u8/2019/11/28/f9cd6e2b/index.m3u8
+124, https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
+125, https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
+126, https://z100.cdn2020.com/video/m3u8/2019/11/26/e8ce7a72/index.m3u8
+127, https://z100.cdn2020.com/video/m3u8/2019/09/13/95f5e67c/index.m3u8
+128, https://z100.cdn2020.com/video/m3u8/2019/09/03/1c050665/index.m3u8
+129, https://z100.cdn2020.com/video/m3u8/2019/09/03/7066ee15/index.m3u8
+130, https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
+131, https://z100.cdn2020.com/video/m3u8/2019/08/27/7a4f390f/index.m3u8
+132, https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
+133, https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
+134, https://z100.cdn2020.com/video/m3u8/2019/08/23/f76a3696/index.m3u8
+135, https://z100.cdn2020.com/video/m3u8/2019/08/24/6574d26c/index.m3u8
+136, https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
+137, https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
+138, https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
+139, https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
+140, https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
+141, https://z100.cdn2020.com/video/m3u8/2019/08/09/a2cd2607/index.m3u8
+142, https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
+143, https://z100.cdn2020.com/video/m3u8/2019/08/07/37a833f2/index.m3u8
+144, https://z100.cdn2020.com/video/m3u8/2019/08/07/06fa6a51/index.m3u8
+145, https://z100.cdn2020.com/video/m3u8/2019/08/07/b453fcff/index.m3u8
+146, https://z100.cdn2020.com/video/m3u8/2019/08/06/be9b1731/index.m3u8
+147, https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
+148, https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
+149, https://z100.cdn2020.com/video/m3u8/2019/08/02/b16691d5/index.m3u8
+150, https://z100.cdn2020.com/video/m3u8/2019/08/02/46000728/index.m3u8
+151, https://z100.cdn2020.com/video/m3u8/2019/08/01/dc6de989/index.m3u8
+152, https://z100.cdn2020.com/video/m3u8/2019/07/29/2227ee01/index.m3u8
+153, https://z100.cdn2020.com/video/m3u8/2019/07/27/69b1bebc/index.m3u8
+154, https://z100.cdn2020.com/video/m3u8/2019/07/24/23090950/index.m3u8
+155, https://z100.cdn2020.com/video/m3u8/2019/07/24/f8b20b80/index.m3u8
+156, https://z100.cdn2020.com/video/m3u8/2019/07/21/1c46196d/index.m3u8
+157, https://z100.cdn2020.com/video/m3u8/2019/07/21/cfe39fee/index.m3u8
+158, https://z100.cdn2020.com/video/m3u8/2019/07/21/027926aa/index.m3u8
+159, https://z100.cdn2020.com/video/m3u8/2019/07/21/9e51f553/index.m3u8
+160, https://z100.cdn2020.com/video/m3u8/2019/07/21/d6607ed9/index.m3u8
+161, https://t21.cdn2020.com/video/m3u8/2023/03/05/f29acb19/index.m3u8
+162, https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
+163, http://60106.vod.redtraffic.xyz/ph568fdb5194a8b/play.m3u8
+164, https://vip3.lbbf9.com/20220113/subsDqjy/1000kb/hls/index.m3u8
+165, https://www.lbbf9.com/20210617/BQKojYIM/700kb/hls/index.m3u8
+166, https://vip2.slbfsl.com/20230404/O6eHkyUR/index.m3u8
+167, https://vip2.slbfsl.com/20230405/0dpqkflL/index.m3u8
+168, https://vip2.slbfsl.com/20230407/Kp8gEHnm/index.m3u8
+169, https://vip2.slbfsl.com/20230408/IbyZvvZu/index.m3u8
+170, https://vip2.slbfsl.com/20230408/QMfdBeAc/index.m3u8
+171, https://vip2.slbfsl.com/20230408/2Hur94gF/index.m3u8
+172, https://vip2.slbfsl.com/20230409/3beBTO3u/index.m3u8
+173, https://vip2.slbfsl.com/20230409/4A3yJtng/index.m3u8
+174, https://vip2.slbfsl.com/20230411/mSBqhSqL/index.m3u8
+175, https://vip2.slbfsl.com/20230411/5zn6VQlP/index.m3u8
+176, https://vip2.slbfsl.com/20230412/FzgiV8dL/index.m3u8
+177, https://vip2.slbfsl.com/20230413/Qs7eC5zZ/index.m3u8
+178, https://vip2.slbfsl.com/20230414/0OaNQ0p0/index.m3u8
+179, https://vip2.slbfsl.com/20230414/QHF563G5/index.m3u8
+180, https://vip2.slbfsl.com/20230414/V7I2GGJi/index.m3u8
+181, https://vip2.slbfsl.com/20230414/jRXZrLwE/index.m3u8
+182, https://vip2.slbfsl.com/20230415/h95CMnNZ/index.m3u8
+183, https://vip2.slbfsl.com/20230415/W5LBMlYf/index.m3u8
+184, https://vip2.slbfsl.com/20230415/TV5VyE6L/index.m3u8
+185, https://vip2.slbfsl.com/20230415/6lR5y7D0/index.m3u8
+186, https://vip2.slbfsl.com/20230416/OAIZYX2r/index.m3u8
+187, https://vip2.slbfsl.com/20230417/ljzPgqGF/index.m3u8
+188, https://vip2.slbfsl.com/20230417/IacWvSc8/index.m3u8
+189, https://vip2.slbfsl.com/20230417/NVITp81V/index.m3u8
+190, https://vip2.slbfsl.com/20230418/xYPhVUeJ/index.m3u8
+191, https://vip2.slbfsl.com/20230418/wayddC9H/index.m3u8
+192, https://vip2.slbfsl.com/20230418/KXcOJc28/index.m3u8
+193, https://vip2.slbfsl.com/20230419/SPmxpGOs/index.m3u8
+194, https://vip2.slbfsl.com/20230419/epdFbro2/index.m3u8
+195, https://play2.laoyacdn.com/20220624/4KwH2wMc/1500kb/hls/index.m3u8
+196, https://vip5.3sybf.com/20210502/0T9XpSwR/2000kb/hls/index.m3u8
+197, https://z100.cdn2020.com/video/m3u8/2020/07/12/6c12a001/index.m3u8
+198, https://z100.cdn2020.com/video/m3u8/2020/07/10/e464cce5/index.m3u8
+199, https://z100.cdn2020.com/video/m3u8/2020/07/09/0c60b9bc/index.m3u8
+200, https://z100.cdn2020.com/video/m3u8/2020/07/06/36a05675/index.m3u8
+201, https://z100.cdn2020.com/video/m3u8/2020/06/25/bfa72078/index.m3u8
+202, https://z100.cdn2020.com/video/m3u8/2020/06/24/8f3a26cc/index.m3u8
+203, https://z100.cdn2020.com/video/m3u8/2020/06/21/c92d1320/index.m3u8
+204, https://z100.cdn2020.com/video/m3u8/2020/06/23/77a3ba30/index.m3u8
+205, https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
+206, https://z100.cdn2020.com/video/m3u8/2020/06/09/25844c37/index.m3u8
+207, https://z100.cdn2020.com/video/m3u8/2020/05/20/d5b94d5e/index.m3u8
+208, https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
+209, https://z100.cdn2020.com/video/m3u8/2019/12/28/e72b6c73/index.m3u8
+210, https://z100.cdn2020.com/video/m3u8/2019/12/19/32823fe5/index.m3u8
+211, https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
+212, https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
+213, https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
+214, https://z100.cdn2020.com/video/m3u8/2019/11/30/06702386/index.m3u8
+215, https://z100.cdn2020.com/video/m3u8/2019/11/30/04055f79/index.m3u8
+216, https://z100.cdn2020.com/video/m3u8/2019/11/28/f8c129f2/index.m3u8
+217, https://z100.cdn2020.com/video/m3u8/2019/11/28/cf5d130d/index.m3u8
+218, https://z100.cdn2020.com/video/m3u8/2019/11/28/f9cd6e2b/index.m3u8
+219, https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
+220, https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
+221, https://z100.cdn2020.com/video/m3u8/2019/11/26/e8ce7a72/index.m3u8
+222, https://z100.cdn2020.com/video/m3u8/2019/09/13/95f5e67c/index.m3u8
+223, https://z100.cdn2020.com/video/m3u8/2019/09/03/7066ee15/index.m3u8
+224, https://z100.cdn2020.com/video/m3u8/2019/09/03/1c050665/index.m3u8
+225, https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
+226, https://z100.cdn2020.com/video/m3u8/2019/08/27/7a4f390f/index.m3u8
+227, https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
+228, https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
+229, https://z100.cdn2020.com/video/m3u8/2019/08/23/f76a3696/index.m3u8
+230, https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
+231, https://z100.cdn2020.com/video/m3u8/2019/08/24/6574d26c/index.m3u8
+232, https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
+233, https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
+234, https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
+235, https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
+236, https://z100.cdn2020.com/video/m3u8/2019/08/09/a2cd2607/index.m3u8
+237, https://z100.cdn2020.com/video/m3u8/2019/08/08/e5176246/index.m3u8
+238, https://z100.cdn2020.com/video/m3u8/2019/08/07/06fa6a51/index.m3u8
+239, https://z100.cdn2020.com/video/m3u8/2019/08/07/37a833f2/index.m3u8
+240, https://z100.cdn2020.com/video/m3u8/2019/08/07/b453fcff/index.m3u8
+241, https://z100.cdn2020.com/video/m3u8/2019/08/04/08e177af/index.m3u8
+242, https://z100.cdn2020.com/video/m3u8/2019/08/06/be9b1731/index.m3u8
+243, https://z100.cdn2020.com/video/m3u8/2019/08/02/b16691d5/index.m3u8
+244, https://z100.cdn2020.com/video/m3u8/2019/08/03/b5cae98d/index.m3u8
+245, https://z100.cdn2020.com/video/m3u8/2019/08/01/dc6de989/index.m3u8
+246, https://z100.cdn2020.com/video/m3u8/2019/07/29/2227ee01/index.m3u8
+247, https://z100.cdn2020.com/video/m3u8/2019/08/02/46000728/index.m3u8
+248, https://z100.cdn2020.com/video/m3u8/2019/07/27/69b1bebc/index.m3u8
+249, https://z100.cdn2020.com/video/m3u8/2019/07/24/23090950/index.m3u8
+250, https://z100.cdn2020.com/video/m3u8/2019/07/24/f8b20b80/index.m3u8
+251, https://z100.cdn2020.com/video/m3u8/2019/07/21/1c46196d/index.m3u8
+252, https://z100.cdn2020.com/video/m3u8/2019/07/21/027926aa/index.m3u8
+253, https://t21.cdn2020.com/video/m3u8/2023/03/05/f29acb19/index.m3u8
+254, https://m3m.1vkx.cn/common/maomi/maomi/wm_qnbgwu6sn/hls/1/index.m3u8
+255, https://z100.cdn2020.com/video/m3u8/2020/05/20/3a4ad3ea/index.m3u8
+256, https://z100.cdn2020.com/video/m3u8/2020/06/19/2e53afd7/index.m3u8
+257, https://z100.cdn2020.com/video/m3u8/2020/04/17/3acab6b9/index.m3u8
+258, https://z100.cdn2020.com/video/m3u8/2019/12/20/df262ea5/index.m3u8
+259, https://z100.cdn2020.com/video/m3u8/2019/12/19/32823fe5/index.m3u8
+260, https://z100.cdn2020.com/video/m3u8/2019/12/06/fd24d0b6/index.m3u8
+261, https://z100.cdn2020.com/video/m3u8/2019/12/05/481df844/index.m3u8
+262, https://z100.cdn2020.com/video/m3u8/2019/12/02/33b0fa7f/index.m3u8
+263, https://z100.cdn2020.com/video/m3u8/2019/11/28/f8c129f2/index.m3u8
+264, https://z100.cdn2020.com/video/m3u8/2019/11/28/19b06d46/index.m3u8
+265, https://z100.cdn2020.com/video/m3u8/2019/11/28/dd99e4e0/index.m3u8
+266, https://z100.cdn2020.com/video/m3u8/2019/09/13/95f5e67c/index.m3u8
+267, https://z100.cdn2020.com/video/m3u8/2019/09/03/69bf35f0/index.m3u8
+268, https://z100.cdn2020.com/video/m3u8/2019/08/27/6f53e54d/index.m3u8
+269, https://z100.cdn2020.com/video/m3u8/2019/08/23/a393deb0/index.m3u8
+270, https://z100.cdn2020.com/video/m3u8/2019/08/23/f76a3696/index.m3u8
+271, https://z100.cdn2020.com/video/m3u8/2019/08/22/a1829826/index.m3u8
+272, https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
+273, https://z100.cdn2020.com/video/m3u8/2019/08/17/d5a9d839/index.m3u8
+274, https://z100.cdn2020.com/video/m3u8/2019/08/17/85d2f5a9/index.m3u8
+275, https://z100.cdn2020.com/video/m3u8/2019/08/12/eab995fc/index.m3u8
+276, https://z100.cdn2020.com/video/m3u8/2019/08/12/65be5abc/index.m3u8
+277, https://z100.cdn2020.com/video/m3u8/2019/08/07/37a833f2/index.m3u8
+278, https://t21.cdn2020.com/video/m3u8/2023/03/04/67b9ef12/index.m3u8
+279, https://47b61.cdnedge.live/file/avple-images/hls/61efa0b25d579208810784f6/playlist.m3u8
+280, https://fc.maa1804.com/f/rnczxtyxch/rnczxtyxch.m3u8
+281, https://fc.maa1804.com/g/ijttkoqump/ijttkoqump.m3u8
+282, https://fc.maa1804.com/h/evzmbhpmfo/evzmbhpmfo.m3u8
+283, https://fc.maa1804.com/f/jlntoqhqui/jlntoqhqui.m3u8
+284, https://fc.maa1804.com/n/paeuhdhlfl/paeuhdhlfl.m3u8
+285, https://fc.maa1804.com/f/stasfhodif/stasfhodif.m3u8
+286, https://fc.maa1804.com/c/yrjzwhdfnl/yrjzwhdfnl.m3u8
+287, https://fc.maa1804.com/f/znyfifzqip/znyfifzqip.m3u8
+288, https://fc.maa1804.com/h/xtnyuspejl/xtnyuspejl.m3u8
+289, https://fc.maa1804.com/b/dcopzmdvne/dcopzmdvne.m3u8
+290, https://fc.maa1804.com/n/hnalcnmzly/hnalcnmzly.m3u8
+291, https://fc.maa1804.com/f/mkumllunom/mkumllunom.m3u8
+292, https://fc.maa1804.com/c/rhmiiydppe/rhmiiydppe.m3u8
+293, https://fc.maa1804.com/h/lpktlslmoe/lpktlslmoe.m3u8
+294, https://fc.maa1804.com/m/mqqqmnhwon/mqqqmnhwon.m3u8
+295, https://fc.maa1804.com/e/orwgpqkpnv/orwgpqkpnv.m3u8
+296, https://z100.cdn2020.com/video/m3u8/2019/08/27/7a4f390f/index.m3u8
+297, https://video57.msn17.com/video/20230707/f4c566a9706eec28ebe637fa20a5d404/index.m3u8
+298, https://video45.msn17.com/video/20230201/7648b43e6117da9370ca8f9113ba328c/index.m3u8
+299, https://v.didivod.com/20220817/Fnmgqp2H/index.m3u8
+300, https://v.didivod.com/20220817/iaOGRbxL/index.m3u8
+301, https://v.didivod.com/20220817/RNEnZQHZ/index.m3u8
+302, https://v.didivod.com/20220817/McGWUBPr/index.m3u8
+303, https://v.didivod.com/20220817/oRaM5dEn/index.m3u8
+304, https://v.didivod.com/20220817/iuppqoGA/index.m3u8
+305, https://v.didivod.com/20220817/2FEgrAkk/index.m3u8
+306, https://v.didivod.com/20220817/aauVbk9F/index.m3u8
+307, https://v.didivod.com/20220817/YbbuEWgp/index.m3u8
+308, https://v.didivod.com/20220817/VjqTvnaA/index.m3u8
+309, https://v.didivod.com/20220817/KLe5s3wJ/index.m3u8
+310, https://v.didivod.com/20220817/8BQLHNkF/index.m3u8
+311, https://video35.msn17.com/video/20220804/0e70d23c034810cd1ce5a82815db0a69/index.m3u8
+312, https://video36.msn17.com/video/20220817/047b26f49a809e7f7d93924cdaadac11/index.m3u8
+313, https://video13.msn17.com/video/20220302/29f18293044855e4b8fbaf654a98735e/index.m3u8
+314, https://video25.msn17.com/video/20220426/85326b97b40d25aee6d52d07cec9a883/index.m3u8
+315, https://video26.msn17.com/video/20220521/7e9c37455e00b0f3c0f4ad48abf95f05/index.m3u8
+316, https://video17.msn17.com/video/20220228/f1721b5e4e150cece03d91c34fef4ec6/index.m3u8
+317, https://fc.maa1808.com/c/fpsvmyqlej/fpsvmyqlej.m3u8
+318, https://fc.maa1808.com/f/xuyanbincr/xuyanbincr.m3u8
+319, https://fc.maa1808.com/f/dkpfeyqgrj/dkpfeyqgrj.m3u8
+320, https://fc.maa1808.com/d/qscypinana/qscypinana.m3u8
+321, https://fc.maa1808.com/c/rhmiiydppe/rhmiiydppe.m3u8
+322, https://fc.maa1808.com/n/okjmiigqsr/okjmiigqsr.m3u8
+323, https://fc.maa1808.com/f/pwkupqugdm/pwkupqugdm.m3u8
+324, https://fc.maa1808.com/c/mrpmoinlmj/mrpmoinlmj.m3u8
+325, https://video1.rhsj520.com/nyrm3/2011225/DR/n0010/index.m3u8
+326, https://video1.rhsj520.com/nyrm3/2011225/DR/n0008/index.m3u8
+327, https://video1.rhsj520.com/nyrm3/2011225/DR/n0001/index.m3u8
 50帧频道&爬虫更新,#genre#
-CCTV11,http://113.118.13.150:808/hls/29/index.m3u8
 CCTV11,http://182.123.72.242:8090/hls/11/index.m3u8
 CCTV11,http://171.13.118.38:808/hls/11/index.m3u8
-广东民生,http://113.118.13.150:808/hls/18/index.m3u8
 河南法治,http://171.13.118.38:808/hls/34/index.m3u8
 河南民生,http://171.13.118.38:808/hls/33/index.m3u8
-广东综艺4k,http://113.118.13.150:808/hls/9/index.m3u8
-CCTV1,http://14.155.184.32:8888/hls/1/index.m3u8
-CCTV1综合,http://113.118.13.150:808/hls/19/index.m3u8
 CCTV1综合,http://182.123.72.242:8090/hls/1/index.m3u8
 CCTV1综合,http://171.13.118.38:808/hls/1/index.m3u8
 CCTV1,http://171.13.118.38:808/hls/40/index.m3u8
-CCTV1,http://171.8.244.248:808/hls/1/index.m3u8
-CCTV1,http://171.8.244.248:808/hls/25/index.m3u8
-CCTV2,http://14.155.184.32:8888/hls/2/index.m3u8
-CCTV2财经,http://113.118.13.150:808/hls/20/index.m3u8
-CCTV2经济,http://182.123.72.242:8090/hls/2/index.m3u8
 CCTV2财经,http://171.13.118.38:808/hls/2/index.m3u8
-CCTV2,http://171.8.244.248:808/hls/2/index.m3u8
-CCTV3,http://113.118.13.150:808/hls/91/index.m3u8
-CCTV3综艺,http://182.123.72.242:8090/hls/3/index.m3u8
+CCTV2经济,http://182.123.72.242:8090/hls/2/index.m3u8
 CCTV3综艺,http://171.13.118.38:808/hls/3/index.m3u8
-CCTV3,http://171.8.244.248:808/hls/3/index.m3u8
-CCTV4,http://14.155.184.32:8888/hls/3/index.m3u8
-CCTV4中文国际,http://113.118.13.150:808/hls/22/index.m3u8
-CCTV4,http://113.118.13.150:808/hls/67/index.m3u8
+CCTV3综艺,http://182.123.72.242:8090/hls/3/index.m3u8
 CCTV4中文国际,http://171.13.118.38:808/hls/4/index.m3u8
-CCTV4,http://171.8.244.248:808/hls/4/index.m3u8
-CCTV5,http://113.118.13.150:808/hls/93/index.m3u8
 CCTV5体育,http://182.123.72.242:8090/hls/5/index.m3u8
 CCTV5体育,http://171.13.118.38:808/hls/5/index.m3u8
 CCTV5+,http://171.13.118.38:808/hls/18/index.m3u8
-CCTV5,http://171.8.244.248:808/hls/5/index.m3u8
-CCTV6,http://113.118.13.150:808/hls/94/index.m3u8
 CCTV6电影,http://182.123.72.242:8090/hls/6/index.m3u8
 CCTV6电影,http://171.13.118.38:808/hls/6/index.m3u8
-CCTV6,http://171.8.244.248:808/hls/6/index.m3u8
-CCTV7,http://14.155.184.32:8888/hls/4/index.m3u8
-CCTV7国防军事,http://113.118.13.150:808/hls/25/index.m3u8
-CCTV7农业,http://182.123.72.242:8090/hls/7/index.m3u8
 CCTV7国防军事,http://171.13.118.38:808/hls/7/index.m3u8
-CCTV7,http://171.8.244.248:808/hls/7/index.m3u8
-CCTV8,http://113.118.13.150:808/hls/96/index.m3u8
-CCTV8影视,http://182.123.72.242:8090/hls/8/index.m3u8
+CCTV7农业,http://182.123.72.242:8090/hls/7/index.m3u8
 CCTV8影视,http://171.13.118.38:808/hls/8/index.m3u8
-CCTV8,http://171.8.244.248:808/hls/8/index.m3u8
-CCTV9,http://14.155.184.32:8888/hls/5/index.m3u8
-CCTV9纪录,http://113.118.13.150:808/hls/27/index.m3u8
-CCTV9记录,http://182.123.72.242:8090/hls/9/index.m3u8
+CCTV8影视,http://182.123.72.242:8090/hls/8/index.m3u8
 CCTV9记录,http://171.13.118.38:808/hls/9/index.m3u8
-CCTV9,http://171.8.244.248:808/hls/9/index.m3u8
-CCTV10科教,http://113.118.13.150:808/hls/28/index.m3u8
-CCTV10科教,http://182.123.72.242:8090/hls/10/index.m3u8
+CCTV9记录,http://182.123.72.242:8090/hls/9/index.m3u8
 CCTV10科教,http://171.13.118.38:808/hls/10/index.m3u8
-CCTV10,http://171.8.244.248:808/hls/10/index.m3u8
-CCTV11,http://171.8.244.248:808/hls/11/index.m3u8
-CCTV12社会与法,http://113.118.13.150:808/hls/30/index.m3u8
+CCTV10科教,http://182.123.72.242:8090/hls/10/index.m3u8
 CCTV12法制,http://182.123.72.242:8090/hls/12/index.m3u8
 CCTV12社会与法,http://171.13.118.38:808/hls/12/index.m3u8
-CCTV12,http://171.8.244.248:808/hls/12/index.m3u8
-“CCTV13新闻,http://113.118.13.150:808/hls/31/index.m3u8
-CCTV13新闻,http://182.123.72.242:8090/hls/13/index.m3u8
 CCTV13新闻,http://171.13.118.38:808/hls/13/index.m3u8
-CCTV13,http://171.8.244.248:808/hls/13/index.m3u8
-CCTV14少儿,http://113.118.13.150:808/hls/32/index.m3u8
+CCTV13新闻,http://182.123.72.242:8090/hls/13/index.m3u8
 CCTV14少儿,http://182.123.72.242:8090/hls/14/index.m3u8
 CCTV14少儿,http://171.13.118.38:808/hls/14/index.m3u8
-CCTV14,http://171.8.244.248:808/hls/14/index.m3u8
-CCTV15,http://113.118.13.150:808/hls/102/index.m3u8
-CCTV15音乐,http://182.123.72.242:8090/hls/15/index.m3u8
 CCTV15音乐,http://171.13.118.38:808/hls/15/index.m3u8
-CCTV15,http://171.8.244.248:808/hls/15/index.m3u8
-CCTV16奥林匹克,http://113.118.13.150:808/hls/169/index.m3u8
-CCTV17农业,http://113.118.13.150:808/hls/35/index.m3u8
+CCTV15音乐,http://182.123.72.242:8090/hls/15/index.m3u8
 CCTV17农业农村,http://171.13.118.38:808/hls/17/index.m3u8
-CCTVNEWS,http://113.118.13.150:808/hls/34/index.m3u8
-安徽卫视,http://113.118.13.150:808/hls/40/index.m3u8
 安徽卫视,http://171.13.118.38:808/hls/68/index.m3u8
-安徽卫视,http://171.8.244.248:808/hls/32/index.m3u8
-北京卫视,http://113.118.13.150:808/hls/41/index.m3u8
 北京卫视,http://171.13.118.38:808/hls/64/index.m3u8
-北京卫视,http://171.8.244.248:808/hls/33/index.m3u8
-兵团卫视,http://113.118.13.150:808/hls/7/index.m3u8
-重庆卫视,http://113.118.13.150:808/hls/53/index.m3u8
 重庆卫视,http://171.13.118.38:808/hls/80/index.m3u8
 重庆卫视,http://182.123.72.242:8090/hls/34/index.m3u8
 东南卫视,http://171.13.118.38:808/hls/83/index.m3u8
-东南卫视,http://171.8.244.248:808/hls/83/index.m3u8
 东南卫视,http://182.123.72.242:8090/hls/33/index.m3u8
-甘肃卫视,http://113.118.13.150:808/hls/119/index.m3u8
 甘肃卫视,http://171.13.118.38:808/hls/89/index.m3u8
-甘肃卫视,http://171.8.244.248:808/hls/77/index.m3u8
-广东大湾区卫视,http://113.118.13.150:808/hls/132/index.m3u8
-广东卫视,http://113.118.13.150:808/hls/80/index.m3u8
 广东卫视,http://171.13.118.38:808/hls/65/index.m3u8
 广东卫视,http://182.123.72.242:8090/hls/35/index.m3u8
-广西卫视,http://113.118.13.150:808/hls/56/index.m3u8
 广西卫视,http://171.13.118.38:808/hls/85/index.m3u8
 广西卫视,http://182.123.72.242:8090/hls/36/index.m3u8
-贵州卫视,http://113.118.13.150:808/hls/49/index.m3u8
 贵州卫视,http://171.13.118.38:808/hls/71/index.m3u8
 贵州卫视,http://182.123.72.242:8090/hls/31/index.m3u8
-海南卫视,http://113.118.13.150:808/hls/124/index.m3u8
 海南卫视,http://171.13.118.38:808/hls/88/index.m3u8
-河北卫视,http://113.118.13.150:808/hls/54/index.m3u8
 河北卫视,http://171.13.118.38:808/hls/72/index.m3u8
 河北卫视,http://182.123.72.242:8090/hls/37/index.m3u8
-河南卫视,http://113.118.13.150:808/hls/51/index.m3u8
 河南卫视,http://171.13.118.38:808/hls/31/index.m3u8
-河南卫视,http://171.8.244.248:808/hls/16/index.m3u8
 河南卫视,http://182.123.72.242:8090/hls/16/index.m3u8
-黑龙江卫视,http://113.118.13.150:808/hls/48/index.m3u8
 黑龙江卫视,http://171.13.118.38:808/hls/66/index.m3u8
 黑龙江卫视,http://182.123.72.242:8090/hls/29/index.m3u8
-湖北卫视,http://113.118.13.150:808/hls/46/index.m3u8
 湖北卫视,http://171.13.118.38:808/hls/77/index.m3u8
-湖北卫视,http://171.8.244.248:808/hls/47/index.m3u8
 湖北卫视,http://182.123.72.242:8090/hls/27/index.m3u8
-湖南卫视,http://113.118.13.150:808/hls/36/index.m3u8
 湖南卫视,http://171.13.118.38:808/hls/74/index.m3u8
-吉林卫视,http://113.118.13.150:808/hls/10/index.m3u8
 吉林卫视,http://171.13.118.38:808/hls/81/index.m3u8
 吉林卫视,http://182.123.72.242:8090/hls/39/index.m3u8
-吉林延边卫视,http://113.118.13.150:808/hls/15/index.m3u8
-江苏卫视,http://113.118.13.150:808/hls/38/index.m3u8
 江苏卫视,http://171.13.118.38:808/hls/63/index.m3u8
-江苏卫视,http://171.8.244.248:808/hls/30/index.m3u8
-江西卫视,http://113.118.13.150:808/hls/44/index.m3u8
 江西卫视,http://171.13.118.38:808/hls/73/index.m3u8
-江西卫视,http://171.8.244.248:808/hls/49/index.m3u8
 江西卫视,http://182.123.72.242:8090/hls/26/index.m3u8
-辽宁卫视,http://113.118.13.150:808/hls/47/index.m3u8
 辽宁卫视,http://171.13.118.38:808/hls/69/index.m3u8
 辽宁卫视,http://182.123.72.242:8090/hls/32/index.m3u8
 旅游卫视,http://182.123.72.242:8090/hls/38/index.m3u8
-南方卫视,http://113.110.72.51:8090/hls/109/index.m3u8
-内蒙古卫视,http://113.118.13.150:808/hls/60/index.m3u8
 内蒙古卫视,http://171.13.118.38:808/hls/84/index.m3u8
-宁夏卫视,http://113.118.13.150:808/hls/106/index.m3u8
 宁夏卫视,http://171.13.118.38:808/hls/82/index.m3u8
-青海卫视,http://113.118.13.150:808/hls/61/index.m3u8
 青海卫视,http://171.13.118.38:808/hls/90/index.m3u8
-山东卫视,http://113.118.13.150:808/hls/43/index.m3u8
 山东卫视,http://171.13.118.38:808/hls/67/index.m3u8
-陕西卫视,http://113.118.13.150:808/hls/58/index.m3u8
-山西卫视,http://113.118.13.150:808/hls/59/index.m3u8
 陕西卫视,http://171.13.118.38:808/hls/70/index.m3u8
 山西卫视,http://171.13.118.38:808/hls/86/index.m3u8
-山西卫视,http://171.8.244.248:808/hls/50/index.m3u8
-陕西卫视,http://171.8.244.248:808/hls/51/index.m3u8
 山西卫视,http://182.123.72.242:8090/hls/40/index.m3u8
-上海卫视,http://113.118.13.150:808/hls/114/index.m3u8
 上海卫视,http://171.13.118.38:808/hls/62/index.m3u8
-深圳卫视,http://113.118.13.150:808/hls/45/index.m3u8
 深圳卫视,http://171.13.118.38:808/hls/75/index.m3u8
-深圳卫视,http://171.8.244.248:808/hls/34/index.m3u8
 深圳卫视,http://182.123.72.242:8090/hls/25/index.m3u8
-四川卫视,http://113.118.13.150:808/hls/50/index.m3u8
 四川卫视,http://171.13.118.38:808/hls/76/index.m3u8
-四川卫视,http://171.8.244.248:808/hls/52/index.m3u8
 四川卫视,http://182.123.72.242:8090/hls/28/index.m3u8
-天津卫视,http://113.118.13.150:808/hls/42/index.m3u8
 天津卫视,http://171.13.118.38:808/hls/78/index.m3u8
-西藏卫视,http://113.118.13.150:808/hls/64/index.m3u8
-厦门卫视,http://113.118.13.150:808/hls/17/index.m3u8
-新疆卫视,http://113.118.13.150:808/hls/65/index.m3u8
-云南卫视,http://113.118.13.150:808/hls/52/index.m3u8
 云南卫视,http://171.13.118.38:808/hls/79/index.m3u8
 云南卫视,http://182.123.72.242:8090/hls/30/index.m3u8
-浙江卫视,http://113.118.13.150:808/hls/37/index.m3u8
 浙江卫视,http://171.13.118.38:808/hls/61/index.m3u8
-浙江卫视,http://171.8.244.248:808/hls/31/index.m3u8
-广东少儿,http://113.110.72.51:8090/hls/111/index.m3u8
-广东少儿,http://113.118.13.150:808/hls/175/index.m3u8
-佳嘉卡通,http://113.118.13.150:808/hls/8/index.m3u8
 佳嘉卡通,http://171.13.118.38:808/hls/92/index.m3u8
-佳嘉卡通,http://171.8.244.248:808/hls/63/index.m3u8
-金鹰卡通,http://113.118.13.150:808/hls/69/index.m3u8
 金鹰卡通,http://171.13.118.38:808/hls/91/index.m3u8
-金鹰卡通,http://171.8.244.248:808/hls/61/index.m3u8
-广东公共,http://113.110.72.51:8090/hls/107/index.m3u8
-广东经济科教,http://113.110.72.51:8090/hls/129/index.m3u8
-广东体育,http://113.110.72.51:8090/hls/108/index.m3u8
-广东体育,http://113.118.13.150:808/hls/2/index.m3u8
-广东新闻,http://113.110.72.51:8090/hls/106/index.m3u8
-广东新闻,http://113.118.13.150:808/hls/5/index.m3u8
-广东移动,http://113.118.13.150:808/hls/14/index.m3u8
-广东影视,http://113.110.72.51:8090/hls/110/index.m3u8
-广东影视,http://113.118.13.150:808/hls/6/index.m3u8
-广东珠江,http://113.110.72.51:8090/hls/105/index.m3u8
-广东珠江,http://113.118.13.150:808/hls/83/index.m3u8
 河南都市,http://171.13.118.38:808/hls/32/index.m3u8
 河南公共,http://171.13.118.38:808/hls/38/index.m3u8
 河南农村,http://171.13.118.38:808/hls/39/index.m3u8
 河南影视,http://171.13.118.38:808/hls/35/index.m3u8
 数字剧场&爬虫更新,#genre#
-IPTV4K超清,http://123.112.208.22:4022/rtp/239.3.1.249:8001
-IPTV淘精彩,http://123.112.208.22:4022/rtp/239.3.1.178:8001
-IPTV淘娱乐,http://123.112.208.22:4022/rtp/239.3.1.100:8001
-IPTV淘剧场,http://123.112.208.22:4022/rtp/239.3.1.95:8001
-IPTV淘电影,http://123.112.208.22:4022/rtp/239.3.1.250:8001
-IPTV萌宠TV,http://123.112.208.22:4022/rtp/239.3.1.102:8001
-IPTV淘Baby,http://123.112.208.22:4022/rtp/239.3.1.238:8001
+IPTV4K超清,http://123.113.111.37:4022/rtp/239.3.1.249:8001
+IPTV淘精彩,http://123.113.111.37:4022/rtp/239.3.1.178:8001
+IPTV淘娱乐,http://123.113.111.37:4022/rtp/239.3.1.100:8001
+IPTV淘剧场,http://123.113.111.37:4022/rtp/239.3.1.95:8001
+IPTV淘电影,http://123.113.111.37:4022/rtp/239.3.1.250:8001
+IPTV萌宠TV,http://123.113.111.37:4022/rtp/239.3.1.102:8001
+IPTV淘Baby,http://123.113.111.37:4022/rtp/239.3.1.238:8001
 IPTV4K超清,http://123.115.119.179:9000/rtp/239.3.1.249:8001
 IPTV淘精彩,http://123.115.119.179:9000/rtp/239.3.1.178:8001
 IPTV淘娱乐,http://123.115.119.179:9000/rtp/239.3.1.100:8001
@@ -1635,6 +1517,13 @@ IPTV淘剧场,http://123.115.119.179:9000/rtp/239.3.1.95:8001
 IPTV淘电影,http://123.115.119.179:9000/rtp/239.3.1.250:8001
 IPTV萌宠TV,http://123.115.119.179:9000/rtp/239.3.1.102:8001
 IPTV淘Baby,http://123.115.119.179:9000/rtp/239.3.1.238:8001
+IPTV4K超清,http://123.112.208.22:4022/rtp/239.3.1.249:8001
+IPTV淘精彩,http://123.112.208.22:4022/rtp/239.3.1.178:8001
+IPTV淘娱乐,http://123.112.208.22:4022/rtp/239.3.1.100:8001
+IPTV淘剧场,http://123.112.208.22:4022/rtp/239.3.1.95:8001
+IPTV淘电影,http://123.112.208.22:4022/rtp/239.3.1.250:8001
+IPTV萌宠TV,http://123.112.208.22:4022/rtp/239.3.1.102:8001
+IPTV淘Baby,http://123.112.208.22:4022/rtp/239.3.1.238:8001
 IPTV4K超清,http://114.252.227.154:8000/rtp/239.3.1.249:8001
 IPTV淘精彩,http://114.252.227.154:8000/rtp/239.3.1.178:8001
 IPTV淘娱乐,http://114.252.227.154:8000/rtp/239.3.1.100:8001
@@ -1649,13 +1538,6 @@ IPTV淘剧场,http://114.252.127.43:7000/rtp/239.3.1.95:8001
 IPTV淘电影,http://114.252.127.43:7000/rtp/239.3.1.250:8001
 IPTV萌宠TV,http://114.252.127.43:7000/rtp/239.3.1.102:8001
 IPTV淘Baby,http://114.252.127.43:7000/rtp/239.3.1.238:8001
-IPTV4K超清,http://123.113.111.37:4022/rtp/239.3.1.249:8001
-IPTV淘精彩,http://123.113.111.37:4022/rtp/239.3.1.178:8001
-IPTV淘娱乐,http://123.113.111.37:4022/rtp/239.3.1.100:8001
-IPTV淘剧场,http://123.113.111.37:4022/rtp/239.3.1.95:8001
-IPTV淘电影,http://123.113.111.37:4022/rtp/239.3.1.250:8001
-IPTV萌宠TV,http://123.113.111.37:4022/rtp/239.3.1.102:8001
-IPTV淘Baby,http://123.113.111.37:4022/rtp/239.3.1.238:8001
 IHOT爱悬疑, http://171.212.170.57:8088/rtp/239.93.42.12:5140
 IHOT爱怀旧, http://171.212.170.57:8088/rtp/239.93.42.21:5140
 IHOT爱经典, http://171.212.170.57:8088/rtp/239.93.42.13:5140
@@ -1671,26 +1553,26 @@ IHOT爱赛车, http://171.212.170.57:8088/rtp/239.93.42.20:5140
 IHOT爱玩具, http://171.212.170.57:8088/rtp/239.93.42.18:5140
 IHOT爱电竞,http://171.212.170.57:8088/rtp/239.93.42.19:5140
 央视频道&爬虫更新,#genre#
-CCTV1,http://123.112.208.22:4022/rtp/239.3.1.129:8008
-CCTV2,http://123.112.208.22:4022/rtp/239.3.1.60:8084
-CCTV3,http://123.112.208.22:4022/rtp/239.3.1.172:8001
-CCTV4,http://123.112.208.22:4022/rtp/239.3.1.105:8092
-CCTV4 欧洲,http://123.112.208.22:4022/rtp/239.3.1.213:4220
-CCTV4 美洲,http://123.112.208.22:4022/rtp/239.3.1.214:4220
-CCTV5,http://123.112.208.22:4022/rtp/239.3.1.173:8001
-CCTV5+,http://123.112.208.22:4022/rtp/239.3.1.130:8004
-CCTV6,http://123.112.208.22:4022/rtp/239.3.1.174:8001
-CCTV7,http://123.112.208.22:4022/rtp/239.3.1.61:8104
-CCTV8,http://123.112.208.22:4022/rtp/239.3.1.175:8001
-CCTV9,http://123.112.208.22:4022/rtp/239.3.1.62:8112
-CCTV10,http://123.112.208.22:4022/rtp/239.3.1.63:8116
-CCTV11,http://123.112.208.22:4022/rtp/239.3.1.152:8120
-CCTV12,http://123.112.208.22:4022/rtp/239.3.1.64:8124
-CCTV13,http://123.112.208.22:4022/rtp/239.3.1.124:8128
-CCTV14,http://123.112.208.22:4022/rtp/239.3.1.65:8132
-CCTV15,http://123.112.208.22:4022/rtp/239.3.1.153:8136
-CCTV16,http://123.112.208.22:4022/rtp/239.3.1.184:8001
-CCTV17,http://123.112.208.22:4022/rtp/239.3.1.151:8144
+CCTV1,http://123.113.111.37:4022/rtp/239.3.1.129:8008
+CCTV2,http://123.113.111.37:4022/rtp/239.3.1.60:8084
+CCTV3,http://123.113.111.37:4022/rtp/239.3.1.172:8001
+CCTV4,http://123.113.111.37:4022/rtp/239.3.1.105:8092
+CCTV4 欧洲,http://123.113.111.37:4022/rtp/239.3.1.213:4220
+CCTV4 美洲,http://123.113.111.37:4022/rtp/239.3.1.214:4220
+CCTV5,http://123.113.111.37:4022/rtp/239.3.1.173:8001
+CCTV5+,http://123.113.111.37:4022/rtp/239.3.1.130:8004
+CCTV6,http://123.113.111.37:4022/rtp/239.3.1.174:8001
+CCTV7,http://123.113.111.37:4022/rtp/239.3.1.61:8104
+CCTV8,http://123.113.111.37:4022/rtp/239.3.1.175:8001
+CCTV9,http://123.113.111.37:4022/rtp/239.3.1.62:8112
+CCTV10,http://123.113.111.37:4022/rtp/239.3.1.63:8116
+CCTV11,http://123.113.111.37:4022/rtp/239.3.1.152:8120
+CCTV12,http://123.113.111.37:4022/rtp/239.3.1.64:8124
+CCTV13,http://123.113.111.37:4022/rtp/239.3.1.124:8128
+CCTV14,http://123.113.111.37:4022/rtp/239.3.1.65:8132
+CCTV15,http://123.113.111.37:4022/rtp/239.3.1.153:8136
+CCTV16,http://123.113.111.37:4022/rtp/239.3.1.184:8001
+CCTV17,http://123.113.111.37:4022/rtp/239.3.1.151:8144
 CCTV1,http://123.115.119.179:9000/rtp/239.3.1.129:8008
 CCTV2,http://123.115.119.179:9000/rtp/239.3.1.60:8084
 CCTV3,http://123.115.119.179:9000/rtp/239.3.1.172:8001
@@ -1711,6 +1593,26 @@ CCTV14,http://123.115.119.179:9000/rtp/239.3.1.65:8132
 CCTV15,http://123.115.119.179:9000/rtp/239.3.1.153:8136
 CCTV16,http://123.115.119.179:9000/rtp/239.3.1.184:8001
 CCTV17,http://123.115.119.179:9000/rtp/239.3.1.151:8144
+CCTV1,http://123.112.208.22:4022/rtp/239.3.1.129:8008
+CCTV2,http://123.112.208.22:4022/rtp/239.3.1.60:8084
+CCTV3,http://123.112.208.22:4022/rtp/239.3.1.172:8001
+CCTV4,http://123.112.208.22:4022/rtp/239.3.1.105:8092
+CCTV4 欧洲,http://123.112.208.22:4022/rtp/239.3.1.213:4220
+CCTV4 美洲,http://123.112.208.22:4022/rtp/239.3.1.214:4220
+CCTV5,http://123.112.208.22:4022/rtp/239.3.1.173:8001
+CCTV5+,http://123.112.208.22:4022/rtp/239.3.1.130:8004
+CCTV6,http://123.112.208.22:4022/rtp/239.3.1.174:8001
+CCTV7,http://123.112.208.22:4022/rtp/239.3.1.61:8104
+CCTV8,http://123.112.208.22:4022/rtp/239.3.1.175:8001
+CCTV9,http://123.112.208.22:4022/rtp/239.3.1.62:8112
+CCTV10,http://123.112.208.22:4022/rtp/239.3.1.63:8116
+CCTV11,http://123.112.208.22:4022/rtp/239.3.1.152:8120
+CCTV12,http://123.112.208.22:4022/rtp/239.3.1.64:8124
+CCTV13,http://123.112.208.22:4022/rtp/239.3.1.124:8128
+CCTV14,http://123.112.208.22:4022/rtp/239.3.1.65:8132
+CCTV15,http://123.112.208.22:4022/rtp/239.3.1.153:8136
+CCTV16,http://123.112.208.22:4022/rtp/239.3.1.184:8001
+CCTV17,http://123.112.208.22:4022/rtp/239.3.1.151:8144
 CCTV1,http://114.252.227.154:8000/rtp/239.3.1.129:8008
 CCTV2,http://114.252.227.154:8000/rtp/239.3.1.60:8084
 CCTV3,http://114.252.227.154:8000/rtp/239.3.1.172:8001
@@ -1751,26 +1653,37 @@ CCTV14,http://114.252.127.43:7000/rtp/239.3.1.65:8132
 CCTV15,http://114.252.127.43:7000/rtp/239.3.1.153:8136
 CCTV16,http://114.252.127.43:7000/rtp/239.3.1.184:8001
 CCTV17,http://114.252.127.43:7000/rtp/239.3.1.151:8144
-CCTV1,http://123.113.111.37:4022/rtp/239.3.1.129:8008
-CCTV2,http://123.113.111.37:4022/rtp/239.3.1.60:8084
-CCTV3,http://123.113.111.37:4022/rtp/239.3.1.172:8001
-CCTV4,http://123.113.111.37:4022/rtp/239.3.1.105:8092
-CCTV4 欧洲,http://123.113.111.37:4022/rtp/239.3.1.213:4220
-CCTV4 美洲,http://123.113.111.37:4022/rtp/239.3.1.214:4220
-CCTV5,http://123.113.111.37:4022/rtp/239.3.1.173:8001
-CCTV5+,http://123.113.111.37:4022/rtp/239.3.1.130:8004
-CCTV6,http://123.113.111.37:4022/rtp/239.3.1.174:8001
-CCTV7,http://123.113.111.37:4022/rtp/239.3.1.61:8104
-CCTV8,http://123.113.111.37:4022/rtp/239.3.1.175:8001
-CCTV9,http://123.113.111.37:4022/rtp/239.3.1.62:8112
-CCTV10,http://123.113.111.37:4022/rtp/239.3.1.63:8116
-CCTV11,http://123.113.111.37:4022/rtp/239.3.1.152:8120
-CCTV12,http://123.113.111.37:4022/rtp/239.3.1.64:8124
-CCTV13,http://123.113.111.37:4022/rtp/239.3.1.124:8128
-CCTV14,http://123.113.111.37:4022/rtp/239.3.1.65:8132
-CCTV15,http://123.113.111.37:4022/rtp/239.3.1.153:8136
-CCTV16,http://123.113.111.37:4022/rtp/239.3.1.184:8001
-CCTV17,http://123.113.111.37:4022/rtp/239.3.1.151:8144
+CCTV1, http://113.133.233.163:8008/rtp/239.112.205.59:5140
+CCTV2, http://113.133.233.163:8008/rtp/239.112.205.78:5140
+CCTV3, http://113.133.233.163:8008/rtp/239.112.205.221:5140
+CCTV4, http://113.133.233.163:8008/rtp/239.112.205.202:5140
+CCTV5, http://113.133.233.163:8008/rtp/239.112.205.222:5140
+CCTV5+, http://113.133.233.163:8008/rtp/239.111.205.13:5140
+CCTV6, http://113.133.233.163:8008/rtp/239.112.205.223:5140
+CCTV7, http://113.133.233.163:8008/rtp/239.112.205.83:5140
+CCTV8, http://113.133.233.163:8008/rtp/239.112.205.224:5140
+CCTV9, http://113.133.233.163:8008/rtp/239.112.205.85:5140
+CCTV10, http://113.133.233.163:8008/rtp/239.112.205.86:5140
+CCTV11, http://113.133.233.163:8008/rtp/239.112.205.213:5140
+CCTV12, http://113.133.233.163:8008/rtp/239.112.205.88:5140
+CCTV14, http://113.133.233.163:8008/rtp/239.112.205.91:5140
+CCTV15, http://113.133.233.163:8008/rtp/239.112.205.214:5140
+CCTV16, http://113.133.233.163:8008/rtp/239.111.205.134:5140
+CCTV17, http://113.133.233.163:8008/rtp/239.112.205.211:5140
+CHC家庭影院, http://113.133.233.163:8008/rtp/239.112.205.205:5140
+CHC影迷电影, http://113.133.233.163:8008/rtp/239.112.205.206:5140
+CHC动作电影, http://113.133.233.163:8008/rtp/239.112.205.207:5140
+CCTV第一剧场, http://113.133.233.163:8008/rtp/239.111.205.65:5140
+CCTV风云剧场, http://113.133.233.163:8008/rtp/239.111.205.66:5140
+CCTV怀旧剧场, http://113.133.233.163:8008/rtp/239.111.205.67:5140
+CCTV风云足球, http://113.133.233.163:8008/rtp/239.111.205.68:5140
+CCTV风云音乐, http://113.133.233.163:8008/rtp/239.111.205.69:5140
+CCTV央视台球, http://113.133.233.163:8008/rtp/239.111.205.70:5140
+CCTV世界地理, http://113.133.233.163:8008/rtp/239.111.205.71:5140
+CCTV女性时尚, http://113.133.233.163:8008/rtp/239.111.205.72:5140
+CCTV央视高网, http://113.133.233.163:8008/rtp/239.111.205.73:5140
+CCTV兵器科技, http://113.133.233.163:8008/rtp/239.111.205.74:5140
+CCTV文化精品, http://113.133.233.163:8008/rtp/239.111.205.75:5140
 CCTV1, http://113.138.137.0:8001/rtp/239.112.205.59:5140
 CCTV2, http://113.138.137.0:8001/rtp/239.112.205.78:5140
 CCTV3, http://113.138.137.0:8001/rtp/239.112.205.221:5140
@@ -1802,37 +1715,37 @@ CCTV女性时尚, http://113.138.137.0:8001/rtp/239.111.205.72:5140
 CCTV央视高网, http://113.138.137.0:8001/rtp/239.111.205.73:5140
 CCTV兵器科技, http://113.138.137.0:8001/rtp/239.111.205.74:5140
 CCTV文化精品, http://113.138.137.0:8001/rtp/239.111.205.75:5140
-CCTV1, http://1.83.121.95:8888/rtp/239.112.205.59:5140
-CCTV2, http://1.83.121.95:8888/rtp/239.112.205.78:5140
-CCTV3, http://1.83.121.95:8888/rtp/239.112.205.221:5140
-CCTV4, http://1.83.121.95:8888/rtp/239.112.205.202:5140
-CCTV5, http://1.83.121.95:8888/rtp/239.112.205.222:5140
-CCTV5+, http://1.83.121.95:8888/rtp/239.111.205.13:5140
-CCTV6, http://1.83.121.95:8888/rtp/239.112.205.223:5140
-CCTV7, http://1.83.121.95:8888/rtp/239.112.205.83:5140
-CCTV8, http://1.83.121.95:8888/rtp/239.112.205.224:5140
-CCTV9, http://1.83.121.95:8888/rtp/239.112.205.85:5140
-CCTV10, http://1.83.121.95:8888/rtp/239.112.205.86:5140
-CCTV11, http://1.83.121.95:8888/rtp/239.112.205.213:5140
-CCTV12, http://1.83.121.95:8888/rtp/239.112.205.88:5140
-CCTV14, http://1.83.121.95:8888/rtp/239.112.205.91:5140
-CCTV15, http://1.83.121.95:8888/rtp/239.112.205.214:5140
-CCTV16, http://1.83.121.95:8888/rtp/239.111.205.134:5140
-CCTV17, http://1.83.121.95:8888/rtp/239.112.205.211:5140
-CHC家庭影院, http://1.83.121.95:8888/rtp/239.112.205.205:5140
-CHC影迷电影, http://1.83.121.95:8888/rtp/239.112.205.206:5140
-CHC动作电影, http://1.83.121.95:8888/rtp/239.112.205.207:5140
-CCTV第一剧场, http://1.83.121.95:8888/rtp/239.111.205.65:5140
-CCTV风云剧场, http://1.83.121.95:8888/rtp/239.111.205.66:5140
-CCTV怀旧剧场, http://1.83.121.95:8888/rtp/239.111.205.67:5140
-CCTV风云足球, http://1.83.121.95:8888/rtp/239.111.205.68:5140
-CCTV风云音乐, http://1.83.121.95:8888/rtp/239.111.205.69:5140
-CCTV央视台球, http://1.83.121.95:8888/rtp/239.111.205.70:5140
-CCTV世界地理, http://1.83.121.95:8888/rtp/239.111.205.71:5140
-CCTV女性时尚, http://1.83.121.95:8888/rtp/239.111.205.72:5140
-CCTV央视高网, http://1.83.121.95:8888/rtp/239.111.205.73:5140
-CCTV兵器科技, http://1.83.121.95:8888/rtp/239.111.205.74:5140
-CCTV文化精品, http://1.83.121.95:8888/rtp/239.111.205.75:5140
+CCTV1, http://1.83.124.177:8888/rtp/239.112.205.59:5140
+CCTV2, http://1.83.124.177:8888/rtp/239.112.205.78:5140
+CCTV3, http://1.83.124.177:8888/rtp/239.112.205.221:5140
+CCTV4, http://1.83.124.177:8888/rtp/239.112.205.202:5140
+CCTV5, http://1.83.124.177:8888/rtp/239.112.205.222:5140
+CCTV5+, http://1.83.124.177:8888/rtp/239.111.205.13:5140
+CCTV6, http://1.83.124.177:8888/rtp/239.112.205.223:5140
+CCTV7, http://1.83.124.177:8888/rtp/239.112.205.83:5140
+CCTV8, http://1.83.124.177:8888/rtp/239.112.205.224:5140
+CCTV9, http://1.83.124.177:8888/rtp/239.112.205.85:5140
+CCTV10, http://1.83.124.177:8888/rtp/239.112.205.86:5140
+CCTV11, http://1.83.124.177:8888/rtp/239.112.205.213:5140
+CCTV12, http://1.83.124.177:8888/rtp/239.112.205.88:5140
+CCTV14, http://1.83.124.177:8888/rtp/239.112.205.91:5140
+CCTV15, http://1.83.124.177:8888/rtp/239.112.205.214:5140
+CCTV16, http://1.83.124.177:8888/rtp/239.111.205.134:5140
+CCTV17, http://1.83.124.177:8888/rtp/239.112.205.211:5140
+CHC家庭影院, http://1.83.124.177:8888/rtp/239.112.205.205:5140
+CHC影迷电影, http://1.83.124.177:8888/rtp/239.112.205.206:5140
+CHC动作电影, http://1.83.124.177:8888/rtp/239.112.205.207:5140
+CCTV第一剧场, http://1.83.124.177:8888/rtp/239.111.205.65:5140
+CCTV风云剧场, http://1.83.124.177:8888/rtp/239.111.205.66:5140
+CCTV怀旧剧场, http://1.83.124.177:8888/rtp/239.111.205.67:5140
+CCTV风云足球, http://1.83.124.177:8888/rtp/239.111.205.68:5140
+CCTV风云音乐, http://1.83.124.177:8888/rtp/239.111.205.69:5140
+CCTV央视台球, http://1.83.124.177:8888/rtp/239.111.205.70:5140
+CCTV世界地理, http://1.83.124.177:8888/rtp/239.111.205.71:5140
+CCTV女性时尚, http://1.83.124.177:8888/rtp/239.111.205.72:5140
+CCTV央视高网, http://1.83.124.177:8888/rtp/239.111.205.73:5140
+CCTV兵器科技, http://1.83.124.177:8888/rtp/239.111.205.74:5140
+CCTV文化精品, http://1.83.124.177:8888/rtp/239.111.205.75:5140
 CHC家庭影院,http://171.212.170.57:8088/rtp/239.93.42.6:5140
 CHC影迷电影,http://171.212.170.57:8088/rtp/239.93.42.5:5140
 CHC动作电影,http://171.212.170.57:8088/rtp/239.93.42.7:5140
@@ -1855,6 +1768,66 @@ CCTV17, http://123.11.96.75:8089/rtp/225.1.4.226:2506
 CHC影迷电影, http://123.11.96.75:8089/rtp/225.1.4.207:1260
 CHC动作电影, http://123.11.96.75:8089/rtp/225.1.4.208:1261
 CHC家庭影院, http://123.11.96.75:8089/rtp/225.1.4.209:1262
+CCTV1,http://121.224.69.99:7777/rtp/239.49.8.19:9614
+CCTV2,http://121.224.69.99:7777/rtp/239.49.8.50:9802
+CCTV3,http://121.224.69.99:7777/rtp/239.49.9.31:6000
+CCTV4,http://121.224.69.99:7777/rtp/239.49.8.51:9806
+CCTV5,http://121.224.69.99:7777/rtp/239.49.8.75:8000
+CCTV5+,http://121.224.69.99:7777/rtp/239.49.8.18:9610
+CCTV6,http://121.224.69.99:7777/rtp/239.49.9.33:6000
+CCTV7,http://121.224.69.99:7777/rtp/239.49.1.254:6000
+CCTV8,http://121.224.69.99:7777/rtp/239.49.9.34:6000
+CCTV9,http://121.224.69.99:7777/rtp/239.49.8.53:9814
+CCTV10,http://121.224.69.99:7777/rtp/239.49.8.54:9818
+CCTV11,http://121.224.69.99:7777/rtp/239.49.1.11:6000
+CCTV12,http://121.224.69.99:7777/rtp/239.49.8.55:9822
+CCTV13,http://121.224.69.99:7777/rtp/239.49.9.43:6000
+CCTV14,http://121.224.69.99:7777/rtp/239.49.8.56:9826
+CCTV15,http://121.224.69.99:7777/rtp/239.49.1.15:6000
+CCTV16,http://121.224.69.99:7777/rtp/239.49.9.58:6000
+CCTV16,http://121.224.69.99:7777/rtp/239.49.9.59:6000
+CCTV17,http://121.224.69.99:7777/rtp/239.49.8.52:9810
+CCTV兵器科技,http://121.224.69.99:7777/rtp/239.49.8.88:8000
+CCTV第一剧场,http://121.224.69.99:7777/rtp/239.49.8.94:8000
+CCTV风云剧场,http://121.224.69.99:7777/rtp/239.49.8.89:8000
+CCTV风云音乐,http://121.224.69.99:7777/rtp/239.49.8.92:8000
+CCTV风云足球,http://121.224.69.99:7777/rtp/239.49.8.85:8000
+CCTV央视高网,http://121.224.69.99:7777/rtp/239.49.9.7:6000
+CCTV怀旧剧场,http://121.224.69.99:7777/rtp/239.49.8.91:8000
+CCTV央视台球,http://121.224.69.99:7777/rtp/239.49.8.32:8000
+CCTV女性时尚,http://121.224.69.99:7777/rtp/239.49.8.93:8000
+CCTV世界地理,http://121.224.69.99:7777/rtp/239.49.8.87:8000
+CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
+CCTV1,http://114.232.146.174:7777/rtp/239.49.8.19:9614
+CCTV2,http://114.232.146.174:7777/rtp/239.49.8.50:9802
+CCTV3,http://114.232.146.174:7777/rtp/239.49.9.31:6000
+CCTV4,http://114.232.146.174:7777/rtp/239.49.8.51:9806
+CCTV5,http://114.232.146.174:7777/rtp/239.49.8.75:8000
+CCTV5+,http://114.232.146.174:7777/rtp/239.49.8.18:9610
+CCTV6,http://114.232.146.174:7777/rtp/239.49.9.33:6000
+CCTV7,http://114.232.146.174:7777/rtp/239.49.1.254:6000
+CCTV8,http://114.232.146.174:7777/rtp/239.49.9.34:6000
+CCTV9,http://114.232.146.174:7777/rtp/239.49.8.53:9814
+CCTV10,http://114.232.146.174:7777/rtp/239.49.8.54:9818
+CCTV11,http://114.232.146.174:7777/rtp/239.49.1.11:6000
+CCTV12,http://114.232.146.174:7777/rtp/239.49.8.55:9822
+CCTV13,http://114.232.146.174:7777/rtp/239.49.9.43:6000
+CCTV14,http://114.232.146.174:7777/rtp/239.49.8.56:9826
+CCTV15,http://114.232.146.174:7777/rtp/239.49.1.15:6000
+CCTV16,http://114.232.146.174:7777/rtp/239.49.9.58:6000
+CCTV16,http://114.232.146.174:7777/rtp/239.49.9.59:6000
+CCTV17,http://114.232.146.174:7777/rtp/239.49.8.52:9810
+CCTV兵器科技,http://114.232.146.174:7777/rtp/239.49.8.88:8000
+CCTV第一剧场,http://114.232.146.174:7777/rtp/239.49.8.94:8000
+CCTV风云剧场,http://114.232.146.174:7777/rtp/239.49.8.89:8000
+CCTV风云音乐,http://114.232.146.174:7777/rtp/239.49.8.92:8000
+CCTV风云足球,http://114.232.146.174:7777/rtp/239.49.8.85:8000
+CCTV央视高网,http://114.232.146.174:7777/rtp/239.49.9.7:6000
+CCTV怀旧剧场,http://114.232.146.174:7777/rtp/239.49.8.91:8000
+CCTV央视台球,http://114.232.146.174:7777/rtp/239.49.8.32:8000
+CCTV女性时尚,http://114.232.146.174:7777/rtp/239.49.8.93:8000
+CCTV世界地理,http://114.232.146.174:7777/rtp/239.49.8.87:8000
+CCTV文化精品,http://114.232.146.174:7777/rtp/239.49.1.66:6000
 CCTV1,http://49.70.94.45:15/rtp/239.49.8.19:9614
 CCTV2,http://49.70.94.45:15/rtp/239.49.8.50:9802
 CCTV3,http://49.70.94.45:15/rtp/239.49.9.31:6000
@@ -1945,102 +1918,12 @@ CCTV央视台球,http://180.127.42.131:7777/rtp/239.49.8.32:8000
 CCTV女性时尚,http://180.127.42.131:7777/rtp/239.49.8.93:8000
 CCTV世界地理,http://180.127.42.131:7777/rtp/239.49.8.87:8000
 CCTV文化精品,http://180.127.42.131:7777/rtp/239.49.1.66:6000
-CCTV1,http://221.227.216.153:8181/rtp/239.49.8.19:9614
-CCTV2,http://221.227.216.153:8181/rtp/239.49.8.50:9802
-CCTV3,http://221.227.216.153:8181/rtp/239.49.9.31:6000
-CCTV4,http://221.227.216.153:8181/rtp/239.49.8.51:9806
-CCTV5,http://221.227.216.153:8181/rtp/239.49.8.75:8000
-CCTV5+,http://221.227.216.153:8181/rtp/239.49.8.18:9610
-CCTV6,http://221.227.216.153:8181/rtp/239.49.9.33:6000
-CCTV7,http://221.227.216.153:8181/rtp/239.49.1.254:6000
-CCTV8,http://221.227.216.153:8181/rtp/239.49.9.34:6000
-CCTV9,http://221.227.216.153:8181/rtp/239.49.8.53:9814
-CCTV10,http://221.227.216.153:8181/rtp/239.49.8.54:9818
-CCTV11,http://221.227.216.153:8181/rtp/239.49.1.11:6000
-CCTV12,http://221.227.216.153:8181/rtp/239.49.8.55:9822
-CCTV13,http://221.227.216.153:8181/rtp/239.49.9.43:6000
-CCTV14,http://221.227.216.153:8181/rtp/239.49.8.56:9826
-CCTV15,http://221.227.216.153:8181/rtp/239.49.1.15:6000
-CCTV16,http://221.227.216.153:8181/rtp/239.49.9.58:6000
-CCTV16,http://221.227.216.153:8181/rtp/239.49.9.59:6000
-CCTV17,http://221.227.216.153:8181/rtp/239.49.8.52:9810
-CCTV兵器科技,http://221.227.216.153:8181/rtp/239.49.8.88:8000
-CCTV第一剧场,http://221.227.216.153:8181/rtp/239.49.8.94:8000
-CCTV风云剧场,http://221.227.216.153:8181/rtp/239.49.8.89:8000
-CCTV风云音乐,http://221.227.216.153:8181/rtp/239.49.8.92:8000
-CCTV风云足球,http://221.227.216.153:8181/rtp/239.49.8.85:8000
-CCTV央视高网,http://221.227.216.153:8181/rtp/239.49.9.7:6000
-CCTV怀旧剧场,http://221.227.216.153:8181/rtp/239.49.8.91:8000
-CCTV央视台球,http://221.227.216.153:8181/rtp/239.49.8.32:8000
-CCTV女性时尚,http://221.227.216.153:8181/rtp/239.49.8.93:8000
-CCTV世界地理,http://221.227.216.153:8181/rtp/239.49.8.87:8000
-CCTV文化精品,http://221.227.216.153:8181/rtp/239.49.1.66:6000
-CCTV1,http://114.232.146.174:7777/rtp/239.49.8.19:9614
-CCTV2,http://114.232.146.174:7777/rtp/239.49.8.50:9802
-CCTV3,http://114.232.146.174:7777/rtp/239.49.9.31:6000
-CCTV4,http://114.232.146.174:7777/rtp/239.49.8.51:9806
-CCTV5,http://114.232.146.174:7777/rtp/239.49.8.75:8000
-CCTV5+,http://114.232.146.174:7777/rtp/239.49.8.18:9610
-CCTV6,http://114.232.146.174:7777/rtp/239.49.9.33:6000
-CCTV7,http://114.232.146.174:7777/rtp/239.49.1.254:6000
-CCTV8,http://114.232.146.174:7777/rtp/239.49.9.34:6000
-CCTV9,http://114.232.146.174:7777/rtp/239.49.8.53:9814
-CCTV10,http://114.232.146.174:7777/rtp/239.49.8.54:9818
-CCTV11,http://114.232.146.174:7777/rtp/239.49.1.11:6000
-CCTV12,http://114.232.146.174:7777/rtp/239.49.8.55:9822
-CCTV13,http://114.232.146.174:7777/rtp/239.49.9.43:6000
-CCTV14,http://114.232.146.174:7777/rtp/239.49.8.56:9826
-CCTV15,http://114.232.146.174:7777/rtp/239.49.1.15:6000
-CCTV16,http://114.232.146.174:7777/rtp/239.49.9.58:6000
-CCTV16,http://114.232.146.174:7777/rtp/239.49.9.59:6000
-CCTV17,http://114.232.146.174:7777/rtp/239.49.8.52:9810
-CCTV兵器科技,http://114.232.146.174:7777/rtp/239.49.8.88:8000
-CCTV第一剧场,http://114.232.146.174:7777/rtp/239.49.8.94:8000
-CCTV风云剧场,http://114.232.146.174:7777/rtp/239.49.8.89:8000
-CCTV风云音乐,http://114.232.146.174:7777/rtp/239.49.8.92:8000
-CCTV风云足球,http://114.232.146.174:7777/rtp/239.49.8.85:8000
-CCTV央视高网,http://114.232.146.174:7777/rtp/239.49.9.7:6000
-CCTV怀旧剧场,http://114.232.146.174:7777/rtp/239.49.8.91:8000
-CCTV央视台球,http://114.232.146.174:7777/rtp/239.49.8.32:8000
-CCTV女性时尚,http://114.232.146.174:7777/rtp/239.49.8.93:8000
-CCTV世界地理,http://114.232.146.174:7777/rtp/239.49.8.87:8000
-CCTV文化精品,http://114.232.146.174:7777/rtp/239.49.1.66:6000
-CCTV1,http://121.224.69.99:7777/rtp/239.49.8.19:9614
-CCTV2,http://121.224.69.99:7777/rtp/239.49.8.50:9802
-CCTV3,http://121.224.69.99:7777/rtp/239.49.9.31:6000
-CCTV4,http://121.224.69.99:7777/rtp/239.49.8.51:9806
-CCTV5,http://121.224.69.99:7777/rtp/239.49.8.75:8000
-CCTV5+,http://121.224.69.99:7777/rtp/239.49.8.18:9610
-CCTV6,http://121.224.69.99:7777/rtp/239.49.9.33:6000
-CCTV7,http://121.224.69.99:7777/rtp/239.49.1.254:6000
-CCTV8,http://121.224.69.99:7777/rtp/239.49.9.34:6000
-CCTV9,http://121.224.69.99:7777/rtp/239.49.8.53:9814
-CCTV10,http://121.224.69.99:7777/rtp/239.49.8.54:9818
-CCTV11,http://121.224.69.99:7777/rtp/239.49.1.11:6000
-CCTV12,http://121.224.69.99:7777/rtp/239.49.8.55:9822
-CCTV13,http://121.224.69.99:7777/rtp/239.49.9.43:6000
-CCTV14,http://121.224.69.99:7777/rtp/239.49.8.56:9826
-CCTV15,http://121.224.69.99:7777/rtp/239.49.1.15:6000
-CCTV16,http://121.224.69.99:7777/rtp/239.49.9.58:6000
-CCTV16,http://121.224.69.99:7777/rtp/239.49.9.59:6000
-CCTV17,http://121.224.69.99:7777/rtp/239.49.8.52:9810
-CCTV兵器科技,http://121.224.69.99:7777/rtp/239.49.8.88:8000
-CCTV第一剧场,http://121.224.69.99:7777/rtp/239.49.8.94:8000
-CCTV风云剧场,http://121.224.69.99:7777/rtp/239.49.8.89:8000
-CCTV风云音乐,http://121.224.69.99:7777/rtp/239.49.8.92:8000
-CCTV风云足球,http://121.224.69.99:7777/rtp/239.49.8.85:8000
-CCTV央视高网,http://121.224.69.99:7777/rtp/239.49.9.7:6000
-CCTV怀旧剧场,http://121.224.69.99:7777/rtp/239.49.8.91:8000
-CCTV央视台球,http://121.224.69.99:7777/rtp/239.49.8.32:8000
-CCTV女性时尚,http://121.224.69.99:7777/rtp/239.49.8.93:8000
-CCTV世界地理,http://121.224.69.99:7777/rtp/239.49.8.87:8000
-CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 4K频道&爬虫更新,#genre#
-爱上4K,http://123.112.208.22:4022/rtp/239.3.1.236:2000
+爱上4K,http://123.113.111.37:4022/rtp/239.3.1.236:2000
 爱上4K,http://123.115.119.179:9000/rtp/239.3.1.236:2000
+爱上4K,http://123.112.208.22:4022/rtp/239.3.1.236:2000
 爱上4K,http://114.252.227.154:8000/rtp/239.3.1.236:2000
 爱上4K,http://114.252.127.43:7000/rtp/239.3.1.236:2000
-爱上4K,http://123.113.111.37:4022/rtp/239.3.1.236:2000
 4K乐享,http://171.212.170.57:8088/rtp/239.93.0.43:5140
 绚影4K,http://171.212.170.57:8088/rtp/239.93.42.33:5140
 中录动漫4K,http://171.212.170.57:8088/rtp/239.93.1.188:5140
@@ -2048,21 +1931,21 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 百事通4K测试[5.1环绕声],http://171.212.170.57:8088/rtp/239.93.42.75:5140
 河南卫视4K, http://123.11.96.75:8089/rtp/225.1.4.254:1300
 省市频道&爬虫更新,#genre#
-北京新闻,http://123.112.208.22:4022/rtp/239.3.1.159:8000
-北京文艺,http://123.112.208.22:4022/rtp/239.3.1.242:8000
-北京影视,http://123.112.208.22:4022/rtp/239.3.1.158:8000
+北京新闻,http://123.113.111.37:4022/rtp/239.3.1.159:8000
+北京文艺,http://123.113.111.37:4022/rtp/239.3.1.242:8000
+北京影视,http://123.113.111.37:4022/rtp/239.3.1.158:8000
 北京新闻,http://123.115.119.179:9000/rtp/239.3.1.159:8000
 北京文艺,http://123.115.119.179:9000/rtp/239.3.1.242:8000
 北京影视,http://123.115.119.179:9000/rtp/239.3.1.158:8000
+北京新闻,http://123.112.208.22:4022/rtp/239.3.1.159:8000
+北京文艺,http://123.112.208.22:4022/rtp/239.3.1.242:8000
+北京影视,http://123.112.208.22:4022/rtp/239.3.1.158:8000
 北京新闻,http://114.252.227.154:8000/rtp/239.3.1.159:8000
 北京文艺,http://114.252.227.154:8000/rtp/239.3.1.242:8000
 北京影视,http://114.252.227.154:8000/rtp/239.3.1.158:8000
 北京新闻,http://114.252.127.43:7000/rtp/239.3.1.159:8000
 北京文艺,http://114.252.127.43:7000/rtp/239.3.1.242:8000
 北京影视,http://114.252.127.43:7000/rtp/239.3.1.158:8000
-北京新闻,http://123.113.111.37:4022/rtp/239.3.1.159:8000
-北京文艺,http://123.113.111.37:4022/rtp/239.3.1.242:8000
-北京影视,http://123.113.111.37:4022/rtp/239.3.1.158:8000
 河南都市, http://123.11.96.75:8089/rtp/225.1.4.52:1081
 河南民生, http://123.11.96.75:8089/rtp/225.1.4.53:1082
 河南法治, http://123.11.96.75:8089/rtp/225.1.4.54:1083
@@ -2077,6 +1960,18 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 河南移动戏曲, http://123.11.96.75:8089/rtp/225.1.4.206:1254
 河南移动频道, http://123.11.96.75:8089/rtp/225.1.5.40:1350
 河南健康中原, http://123.11.96.75:8089/rtp/225.1.5.48:1358
+江苏新闻,http://121.224.69.99:7777/rtp/239.49.8.120:8000
+江苏城市,http://121.224.69.99:7777/rtp/239.49.8.107:8000
+江苏教育,http://121.224.69.99:7777/rtp/239.49.8.122:8000
+江苏体育休闲,http://121.224.69.99:7777/rtp/239.49.8.117:8000
+江苏影视,http://121.224.69.99:7777/rtp/239.49.8.118:8000
+江苏综艺,http://121.224.69.99:7777/rtp/239.49.8.108:8000
+江苏新闻,http://114.232.146.174:7777/rtp/239.49.8.120:8000
+江苏城市,http://114.232.146.174:7777/rtp/239.49.8.107:8000
+江苏教育,http://114.232.146.174:7777/rtp/239.49.8.122:8000
+江苏体育休闲,http://114.232.146.174:7777/rtp/239.49.8.117:8000
+江苏影视,http://114.232.146.174:7777/rtp/239.49.8.118:8000
+江苏综艺,http://114.232.146.174:7777/rtp/239.49.8.108:8000
 江苏新闻,http://49.70.94.45:15/rtp/239.49.8.120:8000
 江苏城市,http://49.70.94.45:15/rtp/239.49.8.107:8000
 江苏教育,http://49.70.94.45:15/rtp/239.49.8.122:8000
@@ -2095,30 +1990,18 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 江苏体育休闲,http://180.127.42.131:7777/rtp/239.49.8.117:8000
 江苏影视,http://180.127.42.131:7777/rtp/239.49.8.118:8000
 江苏综艺,http://180.127.42.131:7777/rtp/239.49.8.108:8000
-江苏新闻,http://221.227.216.153:8181/rtp/239.49.8.120:8000
-江苏城市,http://221.227.216.153:8181/rtp/239.49.8.107:8000
-江苏教育,http://221.227.216.153:8181/rtp/239.49.8.122:8000
-江苏体育休闲,http://221.227.216.153:8181/rtp/239.49.8.117:8000
-江苏影视,http://221.227.216.153:8181/rtp/239.49.8.118:8000
-江苏综艺,http://221.227.216.153:8181/rtp/239.49.8.108:8000
-江苏新闻,http://114.232.146.174:7777/rtp/239.49.8.120:8000
-江苏城市,http://114.232.146.174:7777/rtp/239.49.8.107:8000
-江苏教育,http://114.232.146.174:7777/rtp/239.49.8.122:8000
-江苏体育休闲,http://114.232.146.174:7777/rtp/239.49.8.117:8000
-江苏影视,http://114.232.146.174:7777/rtp/239.49.8.118:8000
-江苏综艺,http://114.232.146.174:7777/rtp/239.49.8.108:8000
-江苏新闻,http://121.224.69.99:7777/rtp/239.49.8.120:8000
-江苏城市,http://121.224.69.99:7777/rtp/239.49.8.107:8000
-江苏教育,http://121.224.69.99:7777/rtp/239.49.8.122:8000
-江苏体育休闲,http://121.224.69.99:7777/rtp/239.49.8.117:8000
-江苏影视,http://121.224.69.99:7777/rtp/239.49.8.118:8000
-江苏综艺,http://121.224.69.99:7777/rtp/239.49.8.108:8000
 少儿频道&爬虫更新,#genre#
-卡酷少儿,http://123.112.208.22:4022/rtp/239.3.1.189:8000
+卡酷少儿,http://123.113.111.37:4022/rtp/239.3.1.189:8000
 卡酷少儿,http://123.115.119.179:9000/rtp/239.3.1.189:8000
+卡酷少儿,http://123.112.208.22:4022/rtp/239.3.1.189:8000
 卡酷少儿,http://114.252.227.154:8000/rtp/239.3.1.189:8000
 卡酷少儿,http://114.252.127.43:7000/rtp/239.3.1.189:8000
-卡酷少儿,http://123.113.111.37:4022/rtp/239.3.1.189:8000
+优漫卡通,http://121.224.69.99:7777/rtp/239.49.8.119:8000
+动漫秀场,http://121.224.69.99:7777/rtp/239.49.8.178:6000
+金鹰卡通,http://121.224.69.99:7777/rtp/239.49.8.33:8000
+优漫卡通,http://114.232.146.174:7777/rtp/239.49.8.119:8000
+动漫秀场,http://114.232.146.174:7777/rtp/239.49.8.178:6000
+金鹰卡通,http://114.232.146.174:7777/rtp/239.49.8.33:8000
 优漫卡通,http://49.70.94.45:15/rtp/239.49.8.119:8000
 动漫秀场,http://49.70.94.45:15/rtp/239.49.8.178:6000
 金鹰卡通,http://49.70.94.45:15/rtp/239.49.8.33:8000
@@ -2128,35 +2011,26 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 优漫卡通,http://180.127.42.131:7777/rtp/239.49.8.119:8000
 动漫秀场,http://180.127.42.131:7777/rtp/239.49.8.178:6000
 金鹰卡通,http://180.127.42.131:7777/rtp/239.49.8.33:8000
-优漫卡通,http://221.227.216.153:8181/rtp/239.49.8.119:8000
-动漫秀场,http://221.227.216.153:8181/rtp/239.49.8.178:6000
-金鹰卡通,http://221.227.216.153:8181/rtp/239.49.8.33:8000
-优漫卡通,http://114.232.146.174:7777/rtp/239.49.8.119:8000
-动漫秀场,http://114.232.146.174:7777/rtp/239.49.8.178:6000
-金鹰卡通,http://114.232.146.174:7777/rtp/239.49.8.33:8000
-优漫卡通,http://121.224.69.99:7777/rtp/239.49.8.119:8000
-动漫秀场,http://121.224.69.99:7777/rtp/239.49.8.178:6000
-金鹰卡通,http://121.224.69.99:7777/rtp/239.49.8.33:8000
 卫视频道&爬虫更新,#genre#
-湖南卫视,http://123.112.208.22:4022/rtp/239.3.1.132:8012
-浙江卫视,http://123.112.208.22:4022/rtp/239.3.1.137:8036
-江苏卫视,http://123.112.208.22:4022/rtp/239.3.1.135:8028
-东方卫视,http://123.112.208.22:4022/rtp/239.3.1.136:8032
-山东卫视,http://123.112.208.22:4022/rtp/239.3.1.209:8052
-安徽卫视,http://123.112.208.22:4022/rtp/239.3.1.211:8064
-湖北卫视,http://123.112.208.22:4022/rtp/239.3.1.138:8044
-东南卫视,http://123.112.208.22:4022/rtp/239.3.1.156:8148
-广东卫视,http://123.112.208.22:4022/rtp/239.3.1.142:8048
-辽宁卫视,http://123.112.208.22:4022/rtp/239.3.1.210:8056
-黑龙江卫视,http://123.112.208.22:4022/rtp/239.3.1.133:8016
-深圳卫视,http://123.112.208.22:4022/rtp/239.3.1.134:8020
-贵州卫视,http://123.112.208.22:4022/rtp/239.3.1.149:8076
-天津卫视,http://123.112.208.22:4022/rtp/239.3.1.141:1234
-河北卫视,http://123.112.208.22:4022/rtp/239.3.1.148:8072
-重庆卫视,http://123.112.208.22:4022/rtp/239.3.1.122:8160
-江西卫视,http://123.112.208.22:4022/rtp/239.3.1.123:8164
-吉林卫视,http://123.112.208.22:4022/rtp/239.3.1.240:8172
-北京卫视,http://123.112.208.22:4022/rtp/239.3.1.241:8000
+湖南卫视,http://123.113.111.37:4022/rtp/239.3.1.132:8012
+浙江卫视,http://123.113.111.37:4022/rtp/239.3.1.137:8036
+江苏卫视,http://123.113.111.37:4022/rtp/239.3.1.135:8028
+东方卫视,http://123.113.111.37:4022/rtp/239.3.1.136:8032
+山东卫视,http://123.113.111.37:4022/rtp/239.3.1.209:8052
+安徽卫视,http://123.113.111.37:4022/rtp/239.3.1.211:8064
+湖北卫视,http://123.113.111.37:4022/rtp/239.3.1.138:8044
+东南卫视,http://123.113.111.37:4022/rtp/239.3.1.156:8148
+广东卫视,http://123.113.111.37:4022/rtp/239.3.1.142:8048
+辽宁卫视,http://123.113.111.37:4022/rtp/239.3.1.210:8056
+黑龙江卫视,http://123.113.111.37:4022/rtp/239.3.1.133:8016
+深圳卫视,http://123.113.111.37:4022/rtp/239.3.1.134:8020
+贵州卫视,http://123.113.111.37:4022/rtp/239.3.1.149:8076
+天津卫视,http://123.113.111.37:4022/rtp/239.3.1.141:1234
+河北卫视,http://123.113.111.37:4022/rtp/239.3.1.148:8072
+重庆卫视,http://123.113.111.37:4022/rtp/239.3.1.122:8160
+江西卫视,http://123.113.111.37:4022/rtp/239.3.1.123:8164
+吉林卫视,http://123.113.111.37:4022/rtp/239.3.1.240:8172
+北京卫视,http://123.113.111.37:4022/rtp/239.3.1.241:8000
 湖南卫视,http://123.115.119.179:9000/rtp/239.3.1.132:8012
 浙江卫视,http://123.115.119.179:9000/rtp/239.3.1.137:8036
 江苏卫视,http://123.115.119.179:9000/rtp/239.3.1.135:8028
@@ -2176,6 +2050,25 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 江西卫视,http://123.115.119.179:9000/rtp/239.3.1.123:8164
 吉林卫视,http://123.115.119.179:9000/rtp/239.3.1.240:8172
 北京卫视,http://123.115.119.179:9000/rtp/239.3.1.241:8000
+湖南卫视,http://123.112.208.22:4022/rtp/239.3.1.132:8012
+浙江卫视,http://123.112.208.22:4022/rtp/239.3.1.137:8036
+江苏卫视,http://123.112.208.22:4022/rtp/239.3.1.135:8028
+东方卫视,http://123.112.208.22:4022/rtp/239.3.1.136:8032
+山东卫视,http://123.112.208.22:4022/rtp/239.3.1.209:8052
+安徽卫视,http://123.112.208.22:4022/rtp/239.3.1.211:8064
+湖北卫视,http://123.112.208.22:4022/rtp/239.3.1.138:8044
+东南卫视,http://123.112.208.22:4022/rtp/239.3.1.156:8148
+广东卫视,http://123.112.208.22:4022/rtp/239.3.1.142:8048
+辽宁卫视,http://123.112.208.22:4022/rtp/239.3.1.210:8056
+黑龙江卫视,http://123.112.208.22:4022/rtp/239.3.1.133:8016
+深圳卫视,http://123.112.208.22:4022/rtp/239.3.1.134:8020
+贵州卫视,http://123.112.208.22:4022/rtp/239.3.1.149:8076
+天津卫视,http://123.112.208.22:4022/rtp/239.3.1.141:1234
+河北卫视,http://123.112.208.22:4022/rtp/239.3.1.148:8072
+重庆卫视,http://123.112.208.22:4022/rtp/239.3.1.122:8160
+江西卫视,http://123.112.208.22:4022/rtp/239.3.1.123:8164
+吉林卫视,http://123.112.208.22:4022/rtp/239.3.1.240:8172
+北京卫视,http://123.112.208.22:4022/rtp/239.3.1.241:8000
 湖南卫视,http://114.252.227.154:8000/rtp/239.3.1.132:8012
 浙江卫视,http://114.252.227.154:8000/rtp/239.3.1.137:8036
 江苏卫视,http://114.252.227.154:8000/rtp/239.3.1.135:8028
@@ -2214,25 +2107,40 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 江西卫视,http://114.252.127.43:7000/rtp/239.3.1.123:8164
 吉林卫视,http://114.252.127.43:7000/rtp/239.3.1.240:8172
 北京卫视,http://114.252.127.43:7000/rtp/239.3.1.241:8000
-湖南卫视,http://123.113.111.37:4022/rtp/239.3.1.132:8012
-浙江卫视,http://123.113.111.37:4022/rtp/239.3.1.137:8036
-江苏卫视,http://123.113.111.37:4022/rtp/239.3.1.135:8028
-东方卫视,http://123.113.111.37:4022/rtp/239.3.1.136:8032
-山东卫视,http://123.113.111.37:4022/rtp/239.3.1.209:8052
-安徽卫视,http://123.113.111.37:4022/rtp/239.3.1.211:8064
-湖北卫视,http://123.113.111.37:4022/rtp/239.3.1.138:8044
-东南卫视,http://123.113.111.37:4022/rtp/239.3.1.156:8148
-广东卫视,http://123.113.111.37:4022/rtp/239.3.1.142:8048
-辽宁卫视,http://123.113.111.37:4022/rtp/239.3.1.210:8056
-黑龙江卫视,http://123.113.111.37:4022/rtp/239.3.1.133:8016
-深圳卫视,http://123.113.111.37:4022/rtp/239.3.1.134:8020
-贵州卫视,http://123.113.111.37:4022/rtp/239.3.1.149:8076
-天津卫视,http://123.113.111.37:4022/rtp/239.3.1.141:1234
-河北卫视,http://123.113.111.37:4022/rtp/239.3.1.148:8072
-重庆卫视,http://123.113.111.37:4022/rtp/239.3.1.122:8160
-江西卫视,http://123.113.111.37:4022/rtp/239.3.1.123:8164
-吉林卫视,http://123.113.111.37:4022/rtp/239.3.1.240:8172
-北京卫视,http://123.113.111.37:4022/rtp/239.3.1.241:8000
+陕西卫视, http://113.133.233.163:8008/rtp/239.111.205.35:5140
+农林卫视, http://113.133.233.163:8008/rtp/239.112.205.27:5140
+东方卫视, http://113.133.233.163:8008/rtp/239.112.205.61:5140
+湖南卫视, http://113.133.233.163:8008/rtp/239.112.205.62:5140
+江苏卫视, http://113.133.233.163:8008/rtp/239.112.205.63:5140
+北京卫视, http://113.133.233.163:8008/rtp/239.112.205.65:5140
+广东卫视, http://113.133.233.163:8008/rtp/239.112.205.66:5140
+深圳卫视, http://113.133.233.163:8008/rtp/239.112.205.67:5140
+黑龙江卫视, http://113.133.233.163:8008/rtp/239.112.205.68:5140
+湖北卫视, http://113.133.233.163:8008/rtp/239.112.205.69:5140
+山东卫视, http://113.133.233.163:8008/rtp/239.112.205.70:5140
+四川卫视, http://113.133.233.163:8008/rtp/239.112.205.184:5140
+安徽卫视, http://113.133.233.163:8008/rtp/239.112.205.72:5140
+重庆卫视, http://113.133.233.163:8008/rtp/239.112.205.179:5140
+天津卫视, http://113.133.233.163:8008/rtp/239.112.205.74:5140
+东南卫视, http://113.133.233.163:8008/rtp/239.112.205.182:5140
+厦门卫视, http://113.133.233.163:8008/rtp/239.112.205.60:5140
+河南卫视, http://113.133.233.163:8008/rtp/239.112.205.180:5140
+江西卫视, http://113.133.233.163:8008/rtp/239.111.205.16:5140
+吉林卫视, http://113.133.233.163:8008/rtp/239.112.205.183:5140
+贵州卫视, http://113.133.233.163:8008/rtp/239.112.205.178:5140
+辽宁卫视, http://113.133.233.163:8008/rtp/239.112.205.73:5140
+河北卫视, http://113.133.233.163:8008/rtp/239.112.205.200:5140
+云南卫视, http://113.133.233.163:8008/rtp/239.112.205.58:5140
+山西卫视, http://113.133.233.163:8008/rtp/239.112.205.46:5140
+甘肃卫视, http://113.133.233.163:8008/rtp/239.112.205.48:5140
+宁夏卫视, http://113.133.233.163:8008/rtp/239.112.205.49:5140
+海南卫视, http://113.133.233.163:8008/rtp/239.112.205.50:5140
+广西卫视, http://113.133.233.163:8008/rtp/239.112.205.51:5140
+青海卫视, http://113.133.233.163:8008/rtp/239.112.205.53:5140
+西藏卫视, http://113.133.233.163:8008/rtp/239.112.205.54:5140
+内蒙古卫视, http://113.133.233.163:8008/rtp/239.112.205.55:5140
+新疆卫视, http://113.133.233.163:8008/rtp/239.112.205.56:5140
+兵团卫视, http://113.133.233.163:8008/rtp/239.112.205.198:5140
 陕西卫视, http://113.138.137.0:8001/rtp/239.111.205.35:5140
 农林卫视, http://113.138.137.0:8001/rtp/239.112.205.27:5140
 东方卫视, http://113.138.137.0:8001/rtp/239.112.205.61:5140
@@ -2267,40 +2175,40 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 内蒙古卫视, http://113.138.137.0:8001/rtp/239.112.205.55:5140
 新疆卫视, http://113.138.137.0:8001/rtp/239.112.205.56:5140
 兵团卫视, http://113.138.137.0:8001/rtp/239.112.205.198:5140
-陕西卫视, http://1.83.121.95:8888/rtp/239.111.205.35:5140
-农林卫视, http://1.83.121.95:8888/rtp/239.112.205.27:5140
-东方卫视, http://1.83.121.95:8888/rtp/239.112.205.61:5140
-湖南卫视, http://1.83.121.95:8888/rtp/239.112.205.62:5140
-江苏卫视, http://1.83.121.95:8888/rtp/239.112.205.63:5140
-北京卫视, http://1.83.121.95:8888/rtp/239.112.205.65:5140
-广东卫视, http://1.83.121.95:8888/rtp/239.112.205.66:5140
-深圳卫视, http://1.83.121.95:8888/rtp/239.112.205.67:5140
-黑龙江卫视, http://1.83.121.95:8888/rtp/239.112.205.68:5140
-湖北卫视, http://1.83.121.95:8888/rtp/239.112.205.69:5140
-山东卫视, http://1.83.121.95:8888/rtp/239.112.205.70:5140
-四川卫视, http://1.83.121.95:8888/rtp/239.112.205.184:5140
-安徽卫视, http://1.83.121.95:8888/rtp/239.112.205.72:5140
-重庆卫视, http://1.83.121.95:8888/rtp/239.112.205.179:5140
-天津卫视, http://1.83.121.95:8888/rtp/239.112.205.74:5140
-东南卫视, http://1.83.121.95:8888/rtp/239.112.205.182:5140
-厦门卫视, http://1.83.121.95:8888/rtp/239.112.205.60:5140
-河南卫视, http://1.83.121.95:8888/rtp/239.112.205.180:5140
-江西卫视, http://1.83.121.95:8888/rtp/239.111.205.16:5140
-吉林卫视, http://1.83.121.95:8888/rtp/239.112.205.183:5140
-贵州卫视, http://1.83.121.95:8888/rtp/239.112.205.178:5140
-辽宁卫视, http://1.83.121.95:8888/rtp/239.112.205.73:5140
-河北卫视, http://1.83.121.95:8888/rtp/239.112.205.200:5140
-云南卫视, http://1.83.121.95:8888/rtp/239.112.205.58:5140
-山西卫视, http://1.83.121.95:8888/rtp/239.112.205.46:5140
-甘肃卫视, http://1.83.121.95:8888/rtp/239.112.205.48:5140
-宁夏卫视, http://1.83.121.95:8888/rtp/239.112.205.49:5140
-海南卫视, http://1.83.121.95:8888/rtp/239.112.205.50:5140
-广西卫视, http://1.83.121.95:8888/rtp/239.112.205.51:5140
-青海卫视, http://1.83.121.95:8888/rtp/239.112.205.53:5140
-西藏卫视, http://1.83.121.95:8888/rtp/239.112.205.54:5140
-内蒙古卫视, http://1.83.121.95:8888/rtp/239.112.205.55:5140
-新疆卫视, http://1.83.121.95:8888/rtp/239.112.205.56:5140
-兵团卫视, http://1.83.121.95:8888/rtp/239.112.205.198:5140
+陕西卫视, http://1.83.124.177:8888/rtp/239.111.205.35:5140
+农林卫视, http://1.83.124.177:8888/rtp/239.112.205.27:5140
+东方卫视, http://1.83.124.177:8888/rtp/239.112.205.61:5140
+湖南卫视, http://1.83.124.177:8888/rtp/239.112.205.62:5140
+江苏卫视, http://1.83.124.177:8888/rtp/239.112.205.63:5140
+北京卫视, http://1.83.124.177:8888/rtp/239.112.205.65:5140
+广东卫视, http://1.83.124.177:8888/rtp/239.112.205.66:5140
+深圳卫视, http://1.83.124.177:8888/rtp/239.112.205.67:5140
+黑龙江卫视, http://1.83.124.177:8888/rtp/239.112.205.68:5140
+湖北卫视, http://1.83.124.177:8888/rtp/239.112.205.69:5140
+山东卫视, http://1.83.124.177:8888/rtp/239.112.205.70:5140
+四川卫视, http://1.83.124.177:8888/rtp/239.112.205.184:5140
+安徽卫视, http://1.83.124.177:8888/rtp/239.112.205.72:5140
+重庆卫视, http://1.83.124.177:8888/rtp/239.112.205.179:5140
+天津卫视, http://1.83.124.177:8888/rtp/239.112.205.74:5140
+东南卫视, http://1.83.124.177:8888/rtp/239.112.205.182:5140
+厦门卫视, http://1.83.124.177:8888/rtp/239.112.205.60:5140
+河南卫视, http://1.83.124.177:8888/rtp/239.112.205.180:5140
+江西卫视, http://1.83.124.177:8888/rtp/239.111.205.16:5140
+吉林卫视, http://1.83.124.177:8888/rtp/239.112.205.183:5140
+贵州卫视, http://1.83.124.177:8888/rtp/239.112.205.178:5140
+辽宁卫视, http://1.83.124.177:8888/rtp/239.112.205.73:5140
+河北卫视, http://1.83.124.177:8888/rtp/239.112.205.200:5140
+云南卫视, http://1.83.124.177:8888/rtp/239.112.205.58:5140
+山西卫视, http://1.83.124.177:8888/rtp/239.112.205.46:5140
+甘肃卫视, http://1.83.124.177:8888/rtp/239.112.205.48:5140
+宁夏卫视, http://1.83.124.177:8888/rtp/239.112.205.49:5140
+海南卫视, http://1.83.124.177:8888/rtp/239.112.205.50:5140
+广西卫视, http://1.83.124.177:8888/rtp/239.112.205.51:5140
+青海卫视, http://1.83.124.177:8888/rtp/239.112.205.53:5140
+西藏卫视, http://1.83.124.177:8888/rtp/239.112.205.54:5140
+内蒙古卫视, http://1.83.124.177:8888/rtp/239.112.205.55:5140
+新疆卫视, http://1.83.124.177:8888/rtp/239.112.205.56:5140
+兵团卫视, http://1.83.124.177:8888/rtp/239.112.205.198:5140
 安徽卫视,http://171.212.170.57:8088/rtp/239.93.1.106:5140
 康巴卫视,http://171.212.170.57:8088/rtp/239.93.0.41:5140
 北京卫视, http://123.11.96.75:8089/rtp/225.1.4.81:1110
@@ -2325,6 +2233,54 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 吉林卫视, http://123.11.96.75:8089/rtp/225.1.4.174:1309
 海南卫视, http://123.11.96.75:8089/rtp/225.1.4.195:1310
 东南卫视, http://123.11.96.75:8089/rtp/225.1.4.228:1274
+湖南卫视,http://121.224.69.99:7777/rtp/239.49.8.12:9418
+江苏卫视,http://121.224.69.99:7777/rtp/239.49.8.16:9602
+浙江卫视,http://121.224.69.99:7777/rtp/239.49.8.20:9618
+东方卫视,http://121.224.69.99:7777/rtp/239.49.8.17:9606
+北京卫视,http://121.224.69.99:7777/rtp/239.49.8.11:9414
+深圳卫视,http://121.224.69.99:7777/rtp/239.49.8.15:9430
+广东卫视,http://121.224.69.99:7777/rtp/239.49.8.13:9422
+安徽卫视,http://121.224.69.99:7777/rtp/239.49.8.80:8000
+河南卫视,http://121.224.69.99:7777/rtp/239.49.8.29:8000
+黑龙江卫视,http://121.224.69.99:7777/rtp/239.49.8.14:9426
+山东卫视,http://121.224.69.99:7777/rtp/239.49.8.7:9306
+天津卫视,http://121.224.69.99:7777/rtp/239.49.8.35:8620
+四川卫视,http://121.224.69.99:7777/rtp/239.49.8.110:8000
+重庆卫视,http://121.224.69.99:7777/rtp/239.49.8.57:9830
+湖北卫视,http://121.224.69.99:7777/rtp/239.49.8.8:9632
+江西卫视,http://121.224.69.99:7777/rtp/239.49.8.111:8000
+贵州卫视,http://121.224.69.99:7777/rtp/239.49.8.49:8000
+东南卫视,http://121.224.69.99:7777/rtp/239.49.8.112:8000
+云南卫视,http://121.224.69.99:7777/rtp/239.49.0.177:8000
+河北卫视,http://121.224.69.99:7777/rtp/239.49.8.114:8000
+广西卫视,http://121.224.69.99:7777/rtp/239.49.8.209:6000
+海南卫视,http://121.224.69.99:7777/rtp/239.49.8.83:8000
+吉林卫视,http://121.224.69.99:7777/rtp/239.49.8.113:8000
+辽宁卫视,http://121.224.69.99:7777/rtp/239.49.8.48:8000
+湖南卫视,http://114.232.146.174:7777/rtp/239.49.8.12:9418
+江苏卫视,http://114.232.146.174:7777/rtp/239.49.8.16:9602
+浙江卫视,http://114.232.146.174:7777/rtp/239.49.8.20:9618
+东方卫视,http://114.232.146.174:7777/rtp/239.49.8.17:9606
+北京卫视,http://114.232.146.174:7777/rtp/239.49.8.11:9414
+深圳卫视,http://114.232.146.174:7777/rtp/239.49.8.15:9430
+广东卫视,http://114.232.146.174:7777/rtp/239.49.8.13:9422
+安徽卫视,http://114.232.146.174:7777/rtp/239.49.8.80:8000
+河南卫视,http://114.232.146.174:7777/rtp/239.49.8.29:8000
+黑龙江卫视,http://114.232.146.174:7777/rtp/239.49.8.14:9426
+山东卫视,http://114.232.146.174:7777/rtp/239.49.8.7:9306
+天津卫视,http://114.232.146.174:7777/rtp/239.49.8.35:8620
+四川卫视,http://114.232.146.174:7777/rtp/239.49.8.110:8000
+重庆卫视,http://114.232.146.174:7777/rtp/239.49.8.57:9830
+湖北卫视,http://114.232.146.174:7777/rtp/239.49.8.8:9632
+江西卫视,http://114.232.146.174:7777/rtp/239.49.8.111:8000
+贵州卫视,http://114.232.146.174:7777/rtp/239.49.8.49:8000
+东南卫视,http://114.232.146.174:7777/rtp/239.49.8.112:8000
+云南卫视,http://114.232.146.174:7777/rtp/239.49.0.177:8000
+河北卫视,http://114.232.146.174:7777/rtp/239.49.8.114:8000
+广西卫视,http://114.232.146.174:7777/rtp/239.49.8.209:6000
+海南卫视,http://114.232.146.174:7777/rtp/239.49.8.83:8000
+吉林卫视,http://114.232.146.174:7777/rtp/239.49.8.113:8000
+辽宁卫视,http://114.232.146.174:7777/rtp/239.49.8.48:8000
 湖南卫视,http://49.70.94.45:15/rtp/239.49.8.12:9418
 江苏卫视,http://49.70.94.45:15/rtp/239.49.8.16:9602
 浙江卫视,http://49.70.94.45:15/rtp/239.49.8.20:9618
@@ -2397,75 +2353,3 @@ CCTV文化精品,http://121.224.69.99:7777/rtp/239.49.1.66:6000
 海南卫视,http://180.127.42.131:7777/rtp/239.49.8.83:8000
 吉林卫视,http://180.127.42.131:7777/rtp/239.49.8.113:8000
 辽宁卫视,http://180.127.42.131:7777/rtp/239.49.8.48:8000
-湖南卫视,http://221.227.216.153:8181/rtp/239.49.8.12:9418
-江苏卫视,http://221.227.216.153:8181/rtp/239.49.8.16:9602
-浙江卫视,http://221.227.216.153:8181/rtp/239.49.8.20:9618
-东方卫视,http://221.227.216.153:8181/rtp/239.49.8.17:9606
-北京卫视,http://221.227.216.153:8181/rtp/239.49.8.11:9414
-深圳卫视,http://221.227.216.153:8181/rtp/239.49.8.15:9430
-广东卫视,http://221.227.216.153:8181/rtp/239.49.8.13:9422
-安徽卫视,http://221.227.216.153:8181/rtp/239.49.8.80:8000
-河南卫视,http://221.227.216.153:8181/rtp/239.49.8.29:8000
-黑龙江卫视,http://221.227.216.153:8181/rtp/239.49.8.14:9426
-山东卫视,http://221.227.216.153:8181/rtp/239.49.8.7:9306
-天津卫视,http://221.227.216.153:8181/rtp/239.49.8.35:8620
-四川卫视,http://221.227.216.153:8181/rtp/239.49.8.110:8000
-重庆卫视,http://221.227.216.153:8181/rtp/239.49.8.57:9830
-湖北卫视,http://221.227.216.153:8181/rtp/239.49.8.8:9632
-江西卫视,http://221.227.216.153:8181/rtp/239.49.8.111:8000
-贵州卫视,http://221.227.216.153:8181/rtp/239.49.8.49:8000
-东南卫视,http://221.227.216.153:8181/rtp/239.49.8.112:8000
-云南卫视,http://221.227.216.153:8181/rtp/239.49.0.177:8000
-河北卫视,http://221.227.216.153:8181/rtp/239.49.8.114:8000
-广西卫视,http://221.227.216.153:8181/rtp/239.49.8.209:6000
-海南卫视,http://221.227.216.153:8181/rtp/239.49.8.83:8000
-吉林卫视,http://221.227.216.153:8181/rtp/239.49.8.113:8000
-辽宁卫视,http://221.227.216.153:8181/rtp/239.49.8.48:8000
-湖南卫视,http://114.232.146.174:7777/rtp/239.49.8.12:9418
-江苏卫视,http://114.232.146.174:7777/rtp/239.49.8.16:9602
-浙江卫视,http://114.232.146.174:7777/rtp/239.49.8.20:9618
-东方卫视,http://114.232.146.174:7777/rtp/239.49.8.17:9606
-北京卫视,http://114.232.146.174:7777/rtp/239.49.8.11:9414
-深圳卫视,http://114.232.146.174:7777/rtp/239.49.8.15:9430
-广东卫视,http://114.232.146.174:7777/rtp/239.49.8.13:9422
-安徽卫视,http://114.232.146.174:7777/rtp/239.49.8.80:8000
-河南卫视,http://114.232.146.174:7777/rtp/239.49.8.29:8000
-黑龙江卫视,http://114.232.146.174:7777/rtp/239.49.8.14:9426
-山东卫视,http://114.232.146.174:7777/rtp/239.49.8.7:9306
-天津卫视,http://114.232.146.174:7777/rtp/239.49.8.35:8620
-四川卫视,http://114.232.146.174:7777/rtp/239.49.8.110:8000
-重庆卫视,http://114.232.146.174:7777/rtp/239.49.8.57:9830
-湖北卫视,http://114.232.146.174:7777/rtp/239.49.8.8:9632
-江西卫视,http://114.232.146.174:7777/rtp/239.49.8.111:8000
-贵州卫视,http://114.232.146.174:7777/rtp/239.49.8.49:8000
-东南卫视,http://114.232.146.174:7777/rtp/239.49.8.112:8000
-云南卫视,http://114.232.146.174:7777/rtp/239.49.0.177:8000
-河北卫视,http://114.232.146.174:7777/rtp/239.49.8.114:8000
-广西卫视,http://114.232.146.174:7777/rtp/239.49.8.209:6000
-海南卫视,http://114.232.146.174:7777/rtp/239.49.8.83:8000
-吉林卫视,http://114.232.146.174:7777/rtp/239.49.8.113:8000
-辽宁卫视,http://114.232.146.174:7777/rtp/239.49.8.48:8000
-湖南卫视,http://121.224.69.99:7777/rtp/239.49.8.12:9418
-江苏卫视,http://121.224.69.99:7777/rtp/239.49.8.16:9602
-浙江卫视,http://121.224.69.99:7777/rtp/239.49.8.20:9618
-东方卫视,http://121.224.69.99:7777/rtp/239.49.8.17:9606
-北京卫视,http://121.224.69.99:7777/rtp/239.49.8.11:9414
-深圳卫视,http://121.224.69.99:7777/rtp/239.49.8.15:9430
-广东卫视,http://121.224.69.99:7777/rtp/239.49.8.13:9422
-安徽卫视,http://121.224.69.99:7777/rtp/239.49.8.80:8000
-河南卫视,http://121.224.69.99:7777/rtp/239.49.8.29:8000
-黑龙江卫视,http://121.224.69.99:7777/rtp/239.49.8.14:9426
-山东卫视,http://121.224.69.99:7777/rtp/239.49.8.7:9306
-天津卫视,http://121.224.69.99:7777/rtp/239.49.8.35:8620
-四川卫视,http://121.224.69.99:7777/rtp/239.49.8.110:8000
-重庆卫视,http://121.224.69.99:7777/rtp/239.49.8.57:9830
-湖北卫视,http://121.224.69.99:7777/rtp/239.49.8.8:9632
-江西卫视,http://121.224.69.99:7777/rtp/239.49.8.111:8000
-贵州卫视,http://121.224.69.99:7777/rtp/239.49.8.49:8000
-东南卫视,http://121.224.69.99:7777/rtp/239.49.8.112:8000
-云南卫视,http://121.224.69.99:7777/rtp/239.49.0.177:8000
-河北卫视,http://121.224.69.99:7777/rtp/239.49.8.114:8000
-广西卫视,http://121.224.69.99:7777/rtp/239.49.8.209:6000
-海南卫视,http://121.224.69.99:7777/rtp/239.49.8.83:8000
-吉林卫视,http://121.224.69.99:7777/rtp/239.49.8.113:8000
-辽宁卫视,http://121.224.69.99:7777/rtp/239.49.8.48:8000
