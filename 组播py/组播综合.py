@@ -194,7 +194,7 @@ keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区',
             '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
+with open('河北电信.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #####写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
@@ -396,7 +396,7 @@ print('删除的行已保存到:', deleted_lines_file_path)
 ##################################################################################################合并所有频道文件###################################
 # 读取要合并的频道文件，并生成临时文件#############################################################合并所有频道文件###################################
 file_contents = []
-file_paths = ["a0.txt", "港澳.txt", "b.txt", "df0.txt", "f.txt"]  # 替换为实际的文件路径列表#############################################
+file_paths = ["a0.txt", "港澳.txt", "b.txt", "df0.txt", "f.txt", "f1.txt"]  # 替换为实际的文件路径列表#############################################
 for file_path in file_paths:                                                             #############################################
     with open(file_path, 'r', encoding="utf-8") as file:                                 #############################################
         content = file.read()
@@ -499,7 +499,7 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河南电信.txt', '河北电信.txt', '天津联通.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河北电信.txt', '河南电信.txt', '天津联通.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
                    "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "酒店源.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
