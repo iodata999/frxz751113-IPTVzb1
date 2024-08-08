@@ -184,7 +184,7 @@ def main():
                 lines = [line.strip() for line in lines if line.strip()]
             # 获取第一行中以包含 "rtp://" 的值作为 mcast
             if lines:
-                first_line = lines[0]
+                first_line = lines[1]
                 if "rtp://" in first_line:
                     mcast = first_line.split("rtp://")[1].split(" ")[0]
                     keywords.append(province_isp + "_" + mcast)
