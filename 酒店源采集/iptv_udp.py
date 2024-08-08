@@ -98,7 +98,7 @@ def gen_files(valid_ips, province, isp):
     udp_filename = f'rtp/{province}_{isp}.txt'
     with open(udp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
-    txt_filename = f'节目表/{province}_{isp}.txt'
+    txt_filename = f'节目表/{province}{isp}.txt'
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
