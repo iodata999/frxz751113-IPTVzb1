@@ -516,11 +516,47 @@ print("频道列表文件iptv.txt追加写入成功！")
 
 
 #这里排序IP段去重放在了原文件头
-#这里排序IP段去重放在了原文件头
-#这里排序IP段去重放在了原文件头
-#这里排序IP段去重放在了原文件头
-#这里排序IP段去重放在了原文件头
-#这里排序IP段去重放在了原文件头
+#######################################################简易排序
+with open('iptv.txt', 'r', encoding='UTF-8') as f:
+    lines = f.readlines()
+lines.sort()
+with open('iptv.txt', 'w', encoding='UTF-8') as f:
+    for line in lines:
+        f.write(line)
+        
+##########################################################IP段去重
+import re
+def deduplicate_lines(input_file_path, output_file_path):
+    seen_combinations = {}
+    unique_lines = []
+    with open(input_file_path, 'r', encoding='utf-8') as file:
+        for line in file:
+            # 使用正则表达式查找行中的所有URL，并捕获IP地址、端口号和端口号之后的部分
+            urls = re.findall(r'http://([\d.]+):(\d+)(/.*)?', line)
+            # 为每个URL生成一个去重键
+            for full_url in urls:
+                ip, port, path = full_url
+                ip_parts = ip.split('.')
+                if len(ip_parts) < 3:
+                    continue
+                # 使用IP的前三个字段和端口号之后的部分生成去重键
+                combination_key = f"{ip_parts[0]}.{ip_parts[1]}.{ip_parts[2]}-{port}-{path or ''}"
+                # 检查这个组合是否已经出现过
+                if combination_key not in seen_combinations:
+                    # 如果没有出现过，记录当前行和去重键
+                    seen_combinations[combination_key] = line.strip()
+                else:
+                    # 如果已经出现过，更新为最后出现的行
+                    seen_combinations[combination_key] = line.strip()
+    # 将去重后的所有唯一行写入新文件
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        for line in seen_combinations.values():
+            file.write(line + '\n')
+# 调用函数
+input_file_path = 'iptv.txt'
+output_file_path = 'iptv.txt'
+deduplicate_lines(input_file_path, output_file_path)
+################################################################################
 #这里排序IP段去重放在了原文件头
 
 
