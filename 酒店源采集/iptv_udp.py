@@ -3,17 +3,28 @@ import requests  # 导入requests模块，用于发送HTTP请求
 import re  # 导入正则表达式模块，用于字符串匹配和处理
 import base64  # 导入base64模块，用于进行base64编码和解码
 import cv2  # 导入OpenCV库，用于图像处理（此脚本中未使用）
-# import datetime  # 注释掉的datetime模块，用于处理日期和时间
+import datetime  # 注释掉的datetime模块，用于处理日期和时间
 from datetime import datetime  # 从datetime模块导入datetime类，用于获取当前时间
 from bs4 import BeautifulSoup  # 从bs4模块导入BeautifulSoup类，用于解析HTML和XML文档
-# from urllib.parse import urlparse  # 注释掉的urlparse模块，用于解析URL
-# pip3 install translate  # 说明需要安装translate模块的注释，用于文本翻译
 from translate import Translator  # 导入Translator类，用于文本翻译
 import pytz  # 导入pytz模块，用于处理时区（此脚本中未使用）
 from lxml import etree  # 从lxml模块导入etree，用于解析HTML和XML文档
 import asyncio  # 导入asyncio模块，用于编写异步代码（此脚本中未使用）
 import time  # 导入time模块，用于时间相关功能
-
+#本程序只适用于酒店源的检测，请勿移植他用
+import concurrent.futures
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import threading
+from queue import Queue
+import queue
+import replace
+import fileinput
+from tqdm import tqdm
+from pypinyin import lazy_pinyin
+from opencc import OpenCC
+from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 header = {
     "User-Agent":
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
