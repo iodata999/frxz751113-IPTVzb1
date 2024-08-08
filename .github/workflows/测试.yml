@@ -48,7 +48,7 @@ jobs:
       - name: Install dependencies
         run: pip install tqdm
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/组播合并1.py 
+        run: python ${{ github.workspace }}/组播py/iptv_udp.py
       - name: 提交更改
         run: |
           git config --local user.email "actions@126.com"
