@@ -455,7 +455,6 @@ with open('综合源.txt', 'w', encoding="utf-8") as file:
 #再次规范频道名#
 for line in fileinput.input("综合源.txt", inplace=True):  #打开文件，删除文中空格和多余的空行
     line = line.replace(" ", "")
-    line = line.replace("\n\n", "\n")
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 #从整理好的文本中进行特定关键词替换规范频道名#
 for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
