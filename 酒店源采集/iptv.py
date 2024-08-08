@@ -1111,7 +1111,7 @@ for keyword in keywords:
                 txt_filename = f'节目表/{province}_{isp}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
-                        new_data = data.replace("rtp://", f"{url}/rtp/")
+                        new_data = data.replace("rtp://", f"{url}/udp/")
                         new_file.write(new_data)
                 print(f'已生成播放列表，保存至{txt_filename}')
             else:
@@ -1125,6 +1125,8 @@ for keyword in keywords:
             else:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
 print('节目表制作完成！ 文件输出在当前文件夹！')
+
+
 # 合并自定义频道文件#
 file_contents = []
 file_paths = ["节目表/河南电信.txt", "节目表/河北电信.txt"]  # 替换为实际的文件路径列表
@@ -1142,45 +1144,7 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
     line = line.replace("CHC电影", "CHC影迷电影") 
     line = line.replace("高清电影", "影迷电影") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['CHC', '峨眉', '华语', '星光院线', '剧场', '家庭', '影迷', '动作', '星空', '凤凰']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #定义临时文件名
-    c2.write('\n组播剧场,#genre#\n')                                                                  #写入临时文件名$GD
-    for line in file:
-      if '$GD' not in line and '调解' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c2.write(line)  # 将该行写入输出文件                                                          #定义临时文件
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '爱青春', '爱院线', '爱悬疑']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
-    c1.write('\niHOT系列,#genre#\n')                                                                  #写入临时文件名$GD
-    for line in file:
-      if '$GD' not in line and '4K' not in line:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-         c1.write(line)  # 将该行写入输出文件                                                          #定义临时文件
- 
-#从整理好的文本中按类别进行特定关键词提取#
-keywords = ['4K', '8K']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
-    DD.write('\n4K 频道,#genre#\n')
-    for line in file:
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          DD.write(line)  # 将该行写入输出文件
-keywords = ['湖南', '广东', '广州', '河南', '河北']  # 需要提取的关键字列表
-pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
-#pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
-    #df1.write('\n省市频道,#genre#\n')
-    for line in file:
-      if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
-        if re.search(pattern, line):  # 如果行中有任意关键字
-          df1.write(line)  # 将该行写入输出文件
+
 #从整理好的文本中按类别进行特定关键词提取#
 keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区', '保定', '元氏', '兴隆', '内丘', '南宫', '吴桥', '唐县', '唐山', '安平', '定州', '大厂', '张家口', '徐水', '成安', \
             '承德', '故城', '康保', '廊坊', '晋州', '景县', '武安', '枣强', '柏乡', '涉县', '涞水', '涞源', '涿州', '深州', '深泽', '清河', '秦皇岛', '衡水', '遵化', '邢台', '邯郸', \
@@ -1204,33 +1168,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', e
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
         if re.search(pattern, line):  # 如果行中有任意关键字
          f1.write(line)  # 将该行写入输出文件
-#从文本中截取省市段生成新文件#
-# 定义关键词
-start_keyword = '省市频道,#genre#'
-end_keyword = '其他频道,#genre#'
-# 输入输出文件路径
-input_file_path = '节目表/酒店源'  # 替换为你的输入文件路径
-output_file_path = 'df.txt'  # 替换为你想要保存输出的文件路径
-# 用于存储结果的列表
-result_lines = []
-# 打开输入文件并读取内容
-with open(input_file_path, 'r', encoding='utf-8') as file:
-    capture = False  # 用于控制是否开始捕获行
-    for line in file:
-        # 检查是否到达开始关键词
-        if start_keyword in line:
-            capture = True
-            result_lines.append(line)  # 添加开始关键词所在的行
-        # 如果已经开始捕获，并且到达结束关键词，则停止捕获
-        elif end_keyword in line and capture:
-            break
-        # 如果处于捕获状态，则添加当前行
-        if capture:
-            result_lines.append(line)
-# 将结果写入输出文件
-with open(output_file_path, 'w', encoding='utf-8') as file:
-    file.writelines(result_lines)
-print('提取完成，结果已保存到:', output_file_path)
+
 #
 #
 #  获取远程港澳台直播源文件
@@ -1255,45 +1193,7 @@ with open('节目表/酒店源', 'r', encoding='utf-8') as f:  #打开文件，�
                                                                                                            #
 
 
-
-#从整理好的文本中进行特定关键词替换以规范频道名#
-for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     #
-    #line = line.replace("央视频道,#genre#", "")                                                                         #
-    line = line.replace("四川康巴卫视", "康巴卫视")                                                                         #
-    line = line.replace("黑龙江卫视+", "黑龙江卫视")                                                                         #
-    line = line.replace("[1920*1080]", "")                                                                         #
-    line = line.replace("湖北电视台", "湖北综合")                                                                         #
-    line = line.replace("教育台", "教育")                                                                         #
-    #line = line.replace("星河", "TVB星河")                                                        #
-    print(line, end="")  #设置end=""，避免输出多余的换行符   
-    
-#
-#从文本中截取少儿段生成新文件#
-# 定义关键词
-start_keyword = '少儿频道,#genre#'
-end_keyword = '省市频道,#genre#'
-# 输入输出文件路径
-input_file_path = '节目表/酒店源'  # 替换为你的输入文件路径
-output_file_path = 'sr2.txt'  # 替换为你想要保存输出的文件路径
-# 用于存储结果的列表
-result_lines = []
-# 打开输入文件并读取内容
-with open(input_file_path, 'r', encoding='utf-8') as file:
-    capture = False  # 用于控制是否开始捕获行
-    for line in file:
-        # 检查是否到达开始关键词
-        if start_keyword in line:
-            capture = True
-        # 如果已经开始捕获，并且到达结束关键词，则停止捕获
-        elif end_keyword in line and capture:
-            break
-        # 如果处于捕获状态，则添加当前行
-        if capture:
-            result_lines.append(line)
-# 将结果写入输出文件
-with open(output_file_path, 'w', encoding='utf-8') as file:
-    file.writelines(result_lines)
-print('提取完成，结果已保存到:', output_file_path)
+  
 #
 #从文本中截取省市段生成两个新文件#
 #  获取远程港澳台直播源文件，打开文件并输出临时文件并替换关键词
