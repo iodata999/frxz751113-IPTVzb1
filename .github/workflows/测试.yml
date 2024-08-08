@@ -1,60 +1,49 @@
-name: 测试
+name: 采集
 
 on:
-  #schedule:
-    #- cron: '10 */1 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
+  schedule:
+    - cron: '10 */24 * * *'        #这里更改自动运行的时间，没这两行的话只能手动运行
   workflow_dispatch:
     分支:
       - main
-      
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
     
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
+
       - name: Install dependencies
-        run: pip install --upgrade pip
-      - name: Install dependencies
-        run: pip install selenium requests futures eventlet
-      - name: Install dependencies
-        run: pip install opencv-python requests
-      - name: Install dependencies
-        run: pip install Beautifulsoup4 requests
-      - name: Install dependencies
-        run: pip install translate requests
-      #- name: Install dependencies
-        #run: pip install ffmpy
-      - name: Install dependencies
-        run: pip install termcolor
-      - name: Install dependencies
-        run: pip install func_timeout
-      - name: Install dependencies
-        run: pip install replace
-      - name: Install dependencies
-        run: pip install input
-      - name: Install dependencies
-        run: pip install opencc
-      - name: Install dependencies
-        run: pip install pypinyin
-      - name: Install dependencies
-        run: pip install pytz 
-      - name: Install dependencies
-        run: pip install tqdm
-      - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/iptv_udp.py
+        run: |
+          pip install selenium requests futures eventlet
+          pip install pytz
+          pip install opencv-python requests
+          pip install Beautifulsoup4 requests
+          pip install translate
+          pip install lxml
+          pip install replace
+          pip install input
+          pip install opencc
+          pip install pypinyin
+      - name: Run py
+        run: |
+          python ${{ github.workspace }}/iptv_udp.py
+         
       - name: 提交更改
         run: |
-          git config --local user.email "actions@126.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "lucheng7996@163.com"
+          git config --local user.name "lucheng7996"
+          #git reset --hard origin/main
           git add .
-          git commit *.txt -m "Add generated file"
+          git commit -m "Add generated file"
+          #git commit *.txt -m "Add generated file"
           #git commit *.m3u -m "Add generated file"
           #git pull --rebase
           git push -f
