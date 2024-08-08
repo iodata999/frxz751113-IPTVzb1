@@ -979,20 +979,8 @@ print("任务运行完毕，酒店源频道列表可查看文件夹内txt文件�
 
 
 
-# 合并自定义频道文件#
-file_contents = []
-file_paths = ["节目表/河南电信.txt", "节目表/河北电信.txt"]  # 替换为实际的文件路径列表
-for file_path in file_paths:
-    if os.path.exists(file_path):
-        with open(file_path, 'r', encoding="utf-8") as file:
-            content = file.read()
-            file_contents.append(content)
-    else:                # 如果文件不存在，则提示异常并打印提示信息
-        print(f"文件 {file_path} 不存在，跳过")
-# 写入合并后的文件
-with open("组播源.txt", "w", encoding="utf-8") as output:
-    output.write('\n'.join(file_contents))
-for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+
+for line in fileinput.input("IPTV_UDP.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("CHC电影", "CHC影迷电影") 
     line = line.replace("高清电影", "影迷电影") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
@@ -1000,7 +988,7 @@ for line in fileinput.input("组播源.txt", inplace=True):  #打开文件，并
 keywords = ['CHC', '峨眉', '华语', '星光院线', '剧场', '家庭', '影迷', '动作', '星空', '凤凰']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #定义临时文件名
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #定义临时文件名
     c2.write('\n组播剧场,#genre#\n')                                                                  #写入临时文件名$GD
     for line in file:
       if '$GD' not in line and '调解' not in line:
@@ -1010,7 +998,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', e
 keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '爱青春', '爱院线', '爱悬疑']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
     c1.write('\niHOT系列,#genre#\n')                                                                  #写入临时文件名$GD
     for line in file:
       if '$GD' not in line and '4K' not in line:
@@ -1021,7 +1009,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('c1.txt', 'w', e
 keywords = ['4K', '8K']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
     DD.write('\n4K 频道,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -1029,7 +1017,7 @@ with open('组播源.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', e
 keywords = ['湖南', '广东', '广州', '河南', '河北']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', encoding='utf-8') as df1:
     #df1.write('\n省市频道,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and '影' not in line and '剧' not in line and '4K' not in line:        
@@ -1041,7 +1029,7 @@ keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区',
             '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
@@ -1052,7 +1040,7 @@ keywords = ['河南', '焦作', '开封', '卢氏', '洛阳', '孟津', '安阳'
             '新密', '新乡', '信阳', '新郑', '延津', '叶县', '义马', '永城', '禹州', '原阳', '镇平', '郑州', '周口']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('组播源.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #定义临时文件名
+with open('IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #定义临时文件名
     f1.write('\n河南频道,#genre#\n')                                                                  #写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
@@ -1346,7 +1334,7 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件#
-files_to_remove = ['#节目表/河北电信.txt', '#节目表/河南电信.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
+files_to_remove = ['#节目表/河北电信.txt', '#节目表/河南电信.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
                    "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "节目表/酒店源#.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
