@@ -1087,7 +1087,7 @@ for keyword in keywords:
             valid_ips = []
             # 遍历所有视频链接
             for url in result_urls:
-                video_url = url + "/rtp/" + mcast
+                video_url = url + "/udp/" + mcast
                 # 用OpenCV读取视频
                 cap = cv2.VideoCapture(video_url)
                 # 检查视频是否成功打开
@@ -1112,7 +1112,7 @@ for keyword in keywords:
                 txt_filename = f'{province}{isp}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
-                        new_data = data.replace("rtp://", f"{url}/rtp/")
+                        new_data = data.replace("rtp://", f"{url}/udp/")
                         new_file.write(new_data)
                 print(f'已生成播放列表，保存至{txt_filename}')
             else:
