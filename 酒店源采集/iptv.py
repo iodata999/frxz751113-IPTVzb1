@@ -1099,7 +1099,7 @@ for keyword in keywords:
                 rtp_filename = f'rtp/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
-                txt_filename = f'{province}{isp}.txt'
+                txt_filename = f'节目表/{province}_{isp}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("rtp://", f"{url}/rtp/")
@@ -1118,7 +1118,7 @@ for keyword in keywords:
 print('节目表制作完成！ 文件输出在当前文件夹！')
 # 合并自定义频道文件#
 file_contents = []
-file_paths = ["节目表/河南电信.txt", "河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["节目表/河南电信.txt", "节目表/河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -1483,7 +1483,7 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件#
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '四川电信.txt', '河北电信.txt', '节目表/河南电信.txt', '天津联通.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
+files_to_remove = ['节目表/河北电信.txt', '节目表/河南电信.txt', '组播源.txt', "TW.txt", "a.txt", "a0.txt", "b.txt", "b1.txt", "港澳.txt", "df0.txt", "df.txt", "df1.txt", "sr1.txt", "sr2.txt", \
                    "c2.txt", "c1.txt", "DD.txt", "f.txt", "f1.txt", "酒店源#.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
