@@ -521,7 +521,7 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件#
-files_to_remove = ["TW.txt", "a.txt", "a0.txt", "港澳.txt", "df0.txt", "sr1.txt", "sr2.txt", \
+files_to_remove = ["TW.txt", "a.txt", "a0.txt", "港澳.txt", "节目表/IPTV_UDP", "df0.txt", "sr1.txt", "c1.txt", \
                    "f.txt", "f1.txt", "节目表/酒店源#.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
