@@ -16,6 +16,11 @@ import cv2
 from datetime import datetime
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+
+
+
+
+
 # 获取rtp目录下的文件名
 files = os.listdir('rtp')
 files_name = []
@@ -115,7 +120,7 @@ for keyword in keywords:
                 rtp_filename = f'rtp/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
-                txt_filename = f'{province}{isp}.txt'
+                txt_filename = f'节目表/{province}_{isp}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("rtp://", f"{url}/rtp/")
@@ -126,7 +131,7 @@ for keyword in keywords:
         except (requests.Timeout, requests.RequestException) as e:
             timeout_cnt += 1
             print(f"{current_time} [{province}]搜索请求发生超时，异常次数：{timeout_cnt}")
-            if timeout_cnt <= 3:
+            if timeout_cnt <= 2:
                     # 继续下一次循环迭代
                 continue
             else:
