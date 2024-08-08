@@ -1109,7 +1109,7 @@ for keyword in keywords:
                 rtp_filename = f'rtp/{province}_{isp}.txt'
                 with open(rtp_filename, 'r', encoding='utf-8') as file:
                     data = file.read()
-                txt_filename = f'节目表/{province}{isp}.txt'
+                txt_filename = f'playliist/{province}{isp}.txt'
                 with open(txt_filename, 'w') as new_file:
                     for url in valid_ips:
                         new_data = data.replace("rtp://", f"{url}/rtp/")
@@ -1125,10 +1125,10 @@ for keyword in keywords:
                 continue
             else:
                 print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
-print('节目表制作完成！ 文件输出在当前文件夹！')
+print('playliist制作完成！ 文件输出在当前文件夹！')
 # 合并自定义频道文件#
 file_contents = []
-file_paths = ["节目表/四川电信.txt", "节目表/河南电信.txt", "节目表/河北电信.txt"]  # 替换为实际的文件路径列表
+file_paths = ["playliist/四川电信.txt", "playliist/河南电信.txt", "playliist/河北电信.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
