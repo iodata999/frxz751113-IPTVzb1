@@ -34,7 +34,7 @@ jobs:
           pip install pypinyin
       - name: Run py
         run: |
-          python ${{ github.workspace }}/组播py/iptv_udp.py
+          python ${{ github.workspace }}/酒店源采集/iptv_udp.py
          
       - name: 提交更改
         run: |
