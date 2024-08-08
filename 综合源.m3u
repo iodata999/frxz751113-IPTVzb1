@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="央视频道",CCTV4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV 4K.png" group-title="央视频道",CCTV 4K
 http://27.222.3.214/liveali-tp4K.cctv.cn/live/4K10M.stream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV4K.png" group-title="央视频道",CCTV4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV 4K.png" group-title="央视频道",CCTV 4K
 http://27.222.3.214/liveali-tp4k.cctv.cn/live/4K10M.stream/1.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="央视频道",CCTV164K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 rtsp://111.48.34.138:1554/170000004112/99180001000000050000000000000541
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="央视频道",CCTV164K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 http://[2409:8087:5e08:24::12]:6610/000000001001/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/北京纪实8K.png" group-title="央视频道",北京纪实8K
 http://49.7.69.235/downflv.brtvcloud.com/8klive/8kliveok.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广东综艺4K.png" group-title="央视频道",广东综艺4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/广东综艺  4K.png" group-title="央视频道",广东综艺  4K
 http://113.118.13.150:808/hls/9/index.m3u8
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/欢笑剧场4K.png" group-title="央视频道",欢笑剧场4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/欢笑剧场  4K.png" group-title="央视频道",欢笑剧场  4K
 http://[2409:8087:2801:22:100::45]/wh7f454c46tw273889689_165724636/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221230782/1/index.m3u8?fmt=ts2hls&icpid=88888888&RTS=1717815393&from=5&hms_devid=1640&online=1717815393&vqe=3
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/求索记录4K.png" group-title="央视频道",求索记录4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/求索记录  4K.png" group-title="央视频道",求索记录  4K
 http://[2409:8087:2801:22:100::6f]/wh7f454c46tw310829647_836254127/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221232776/1/index.m3u8?fmt=ts2hls&icpid=88888888&RTS=1717815430&from=5&hms_devid=309&online=1717815430&vqe=3
-#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/苏州4K.png" group-title="央视频道",苏州4K
+#EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/苏州 4K.png" group-title="央视频道",苏州 4K
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-logo="https://live.fanmingming.com/tv/CCTV1-综合.png" group-title="央视频道",CCTV1-综合
 rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000131
