@@ -1052,7 +1052,7 @@ for province_isp in provinces_isps:
     # 如果文件不存在，则捕获 FileNotFoundError 异常并打印提示信息
         print(f"文件 '{province_isp}.txt' 不存在. 跳过此文件.")
 for keyword in keywords:
-    province, isp, mcast = keyword.split("_")
+        province, isp, mcast = keyword.split("_")
         # 将省份转成英文小写
         translator = Translator(from_lang='chinese', to_lang='english')
         province_en = translator.translate(province)
