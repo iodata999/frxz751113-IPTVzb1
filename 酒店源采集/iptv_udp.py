@@ -500,6 +500,7 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("[1080p]", "")       
     line = line.replace("[2160p]", "") 
     line = line.replace("[4320p]", "") 
+    line = line.replace("  ", " ")
     print(line, end="")   
 #简体转繁体#
 #简体转繁体
