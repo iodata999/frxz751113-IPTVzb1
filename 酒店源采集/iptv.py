@@ -27,8 +27,8 @@ from urllib.parse import urlparse
 #定义ZHGXTV采集地址
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",#广东
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJIZW5hbiI%3D",#河南
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D",#河北
     #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg%3D%3D",#四川  
 ]
 #定义网址替换规则
