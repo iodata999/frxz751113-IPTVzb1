@@ -827,7 +827,7 @@ replacements = {
     	"CCTV7CCTV7": "CCTV7",
     	"CCTV10CCTV10": "CCTV10"
 }
-with open('节目表/酒店源.txt', 'w', encoding='utf-8') as new_file:
+with open('节目表/酒店源', 'w', encoding='utf-8') as new_file:
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
@@ -872,10 +872,10 @@ replacements = {
         "": ""
 }
 # 打开原始文件读取内容，并写入新文件
-with open('节目表/酒店源.txt', 'r', encoding='utf-8') as file:
+with open('节目表/酒店源', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 # 创建新文件并写入替换后的内容
-with open('节目表/酒店源.txt', 'w', encoding='utf-8') as new_file:
+with open('节目表/酒店源', 'w', encoding='utf-8') as new_file:
     for line in lines:
         for old, new in replacements.items():
             line = line.replace(old, new)
@@ -884,7 +884,7 @@ print("替换完成，新文件已保存。")
 #
 ###############################################################################文本排序
 # 打开原始文件读取内容，并写入新文件
-with open('节目表/酒店源.txt', 'r', encoding='utf-8') as file:
+with open('节目表/酒店源', 'r', encoding='utf-8') as file:
     lines = file.readlines()
 # 定义一个函数，用于提取每行的第一个数字
 def extract_first_number(line):
@@ -896,7 +896,7 @@ sorted_lines = sorted(lines, key=lambda x: (not 'CCTV' in x, extract_first_numbe
 # 将排序后的行写入新的utf-8编码的文本文件，文件名基于原文件名
 output_file_path = "sorted_" + os.path.basename(file_path)
 # 写入新文件
-with open('节目表/酒店源.txt', "w", encoding="utf-8") as file:
+with open('节目表/酒店源', "w", encoding="utf-8") as file:
     for line in sorted_lines:
         file.write(line)
 print(f"文件已排序并保存为: {output_file_path}")
@@ -906,12 +906,12 @@ print(f"文件已排序并保存为: {output_file_path}")
 converter = OpenCC('t2s.json')#繁转简
 #converter = OpenCC('s2t.json')#简转繁
 # 打开txt文件
-with open('节目表/酒店源.txt', 'r', encoding='utf-8') as file:
+with open('节目表/酒店源', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 # 进行繁体字转简体字的转换
 simplified_text = converter.convert(traditional_text)
 # 将转换后的简体字写入txt文件
-with open('节目表/酒店源.txt', 'w', encoding='utf-8') as file:
+with open('节目表/酒店源', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 #
 ########################################################################定义关键词分割规则,分类提取
@@ -937,29 +937,29 @@ def check_and_write_file(input_file, output_file, keywords):
     else:
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
-#check_and_write_file('节目表/酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
-check_and_write_file('节目表/酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
-check_and_write_file('节目表/酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
+#check_and_write_file('节目表/酒店源',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
+check_and_write_file('节目表/酒店源',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
+check_and_write_file('节目表/酒店源',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
 
-check_and_write_file('节目表/酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
+check_and_write_file('节目表/酒店源',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
 
-check_and_write_file('节目表/酒店源.txt',  'c.txt',  keywords="影视频道, 爱情喜剧, 爱喜喜剧, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉, \
+check_and_write_file('节目表/酒店源',  'c.txt',  keywords="影视频道, 爱情喜剧, 爱喜喜剧, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉, \
 电影, 惊嫊悬疑, 东北热剧, 无名, 都市剧场, iHOT, 剧场, 欢笑剧场, 重温经典, 明星大片, 中国功夫, 军旅, 东北热剧, 中国功夫, 军旅剧场, 古装剧场, \
 家庭剧场, 惊悚悬疑, 欢乐剧场, 潮妈辣婆, 爱情喜剧, 精品大剧, 超级影视, 超级电影, 黑莓动画, 黑莓电影, 海外剧场, 精彩影视, 无名影视, 潮婆辣妈, 超级剧, 热播精选")
-check_and_write_file('节目表/酒店源.txt',  'c1.txt',  keywords="影视频道, 求索动物, 求索, 求索科学, 求索记录, 爱谍战, 爱动漫, 爱科幻, 爱青春, 爱自然, 爱科学, 爱浪漫, 爱历史, 爱旅行, 爱奇谈, 爱怀旧, 爱赛车, 爱都市, 爱体育, 爱经典, \
+check_and_write_file('节目表/酒店源',  'c1.txt',  keywords="影视频道, 求索动物, 求索, 求索科学, 求索记录, 爱谍战, 爱动漫, 爱科幻, 爱青春, 爱自然, 爱科学, 爱浪漫, 爱历史, 爱旅行, 爱奇谈, 爱怀旧, 爱赛车, 爱都市, 爱体育, 爱经典, \
 爱玩具, 爱喜剧, 爱悬疑, 爱幼教, 爱院线")
-check_and_write_file('节目表/酒店源.txt',  'c2.txt',  keywords="影视频道, 军事评论, 农业致富, 哒啵赛事, 怡伴健康, 武博世界, 超级综艺, 哒啵, HOT, 炫舞未来, 精品体育, 精品萌宠, 精品记录, 超级体育, 金牌, 武术世界, 精品纪录")
+check_and_write_file('节目表/酒店源',  'c2.txt',  keywords="影视频道, 军事评论, 农业致富, 哒啵赛事, 怡伴健康, 武博世界, 超级综艺, 哒啵, HOT, 炫舞未来, 精品体育, 精品萌宠, 精品记录, 超级体育, 金牌, 武术世界, 精品纪录")
 
-check_and_write_file('节目表/酒店源.txt',  'd.txt',  keywords="少儿频道, 少儿, 卡通, 动漫, 宝贝, 哈哈")
+check_and_write_file('节目表/酒店源',  'd.txt',  keywords="少儿频道, 少儿, 卡通, 动漫, 宝贝, 哈哈")
 
-check_and_write_file('节目表/酒店源.txt',  'e.txt',  keywords="港澳频道, TVB, 珠江台, 澳门, 龙华, 广场舞, 动物杂技, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, \
+check_and_write_file('节目表/酒店源',  'e.txt',  keywords="港澳频道, TVB, 珠江台, 澳门, 龙华, 广场舞, 动物杂技, 民视, 中视, 华视, AXN, MOMO, 采昌, 耀才, 靖天, 镜新闻, 靖洋, 莲花, 年代, 爱尔达, 好莱坞, 华丽, 非凡, 公视, \
 寰宇, 无线, EVEN, MoMo, 爆谷, 面包, momo, 唐人, 中华小, 三立, CNA, FOX, RTHK, Movie, 八大, 中天, 中视, 东森, 凤凰, 天映, 美亚, 环球, 翡翠, 亚洲, 大爱, 大愛, 明珠, 半岛, AMC, 龙祥, 台视, 1905, 纬来, 神话, 经典都市, 视界, \
 番薯, 私人, 酒店, TVB, 凤凰, 半岛, 星光视界, 大愛, 新加坡, 星河, 明珠, 环球, 翡翠台")
 
-check_and_write_file('节目表/酒店源.txt',  'f.txt',  keywords="省市频道, 湖北, 武汉, 河北, 广东, 河南, 陕西, 四川, 湖南, 广西, 石家庄, 南宁, 福建, 辽宁")
+check_and_write_file('节目表/酒店源',  'f.txt',  keywords="省市频道, 湖北, 武汉, 河北, 广东, 河南, 陕西, 四川, 湖南, 广西, 石家庄, 南宁, 福建, 辽宁")
 
-#check_and_write_file('节目表/酒店源.txt',  'o1.txt',  keywords="其他频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
-#check_and_write_file('节目表/酒店源.txt',  'o.txt',  keywords="其他频道, , ")
+#check_and_write_file('节目表/酒店源',  'o1.txt',  keywords="其他频道, 新闻, 综合, 文艺, 电视, 公共, 科教, 教育, 民生, 轮播, 套, 法制, 文化, 经济, 生活")
+#check_and_write_file('节目表/酒店源',  'o.txt',  keywords="其他频道, , ")
 #
 #对生成的文件进行合并
 file_contents = []
@@ -988,7 +988,7 @@ for line in lines:
   unique_lines.append(line)
   seen_lines.add(line)
 # 将唯一的行写入新的文档 
-with open('节目表/酒店源.txt', 'w', encoding="utf-8") as file:
+with open('节目表/酒店源', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #任务结束，删除不必要的过程文件
 files_to_remove = ['去重.txt', "2.txt", "iptv.txt", "e.txt", "a0.txt", "a.txt", "a1.txt", "b.txt", "c.txt", "c1.txt", "c2.txt", "d.txt", "f.txt", "o1.txt", "o.txt", "检测结果.txt"]
@@ -1087,7 +1087,7 @@ with open('节目表/IPTV_UDP.txt', 'r', encoding='utf-8') as file, open('f1.txt
 start_keyword = '省市频道,#genre#'
 end_keyword = '其他频道,#genre#'
 # 输入输出文件路径
-input_file_path = '节目表/酒店源.txt'  # 替换为你的输入文件路径
+input_file_path = '节目表/酒店源'  # 替换为你的输入文件路径
 output_file_path = 'df.txt'  # 替换为你想要保存输出的文件路径
 # 用于存储结果的列表
 result_lines = []
@@ -1120,12 +1120,12 @@ open('港澳.txt','wb').write(r.content)         #打开源文件并临时写入
 
 #
 #从整理好的文本中按类别进行特定关键词提取#
-with open('节目表/酒店源.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               #
+with open('节目表/酒店源', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               #
  #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       #
  keywords = ['重温', '酒店', '私人', '天映', '莲花', 'AXN', '好莱坞', 'TVB', '星', '广场舞', '龙祥', '凤凰', '东森']  # 需要提取的关键字列表                                                       #
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      #
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     #
- with open('节目表/酒店源.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           #
+ with open('节目表/酒店源', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           #
     b.write('港澳频道,#genre#\n')                                                                        #
     for line in file:                                                                                      #
         if re.search(pattern, line):  # 如果行中有任意关键字                                                #
@@ -1151,7 +1151,7 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
 start_keyword = '少儿频道,#genre#'
 end_keyword = '省市频道,#genre#'
 # 输入输出文件路径
-input_file_path = '节目表/酒店源.txt'  # 替换为你的输入文件路径
+input_file_path = '节目表/酒店源'  # 替换为你的输入文件路径
 output_file_path = 'sr2.txt'  # 替换为你想要保存输出的文件路径
 # 用于存储结果的列表
 result_lines = []
