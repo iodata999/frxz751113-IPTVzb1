@@ -702,7 +702,7 @@ replacements = {
     	"CCTV风云音乐": "风云音乐",
     	"本港台（珠江）": "TVB星河",
     	"\n都市": "\n河南都市",
-    	"": "",
+    	"TVBTVB": "TVB",
     	"": "",
     	"SD": "",
     	"「": "",
@@ -902,10 +902,10 @@ def check_and_write_file(input_file, output_file, keywords):
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
 #check_and_write_file('酒店源.txt',  'a0.txt',  keywords="央视频道, 8K, 4K, 4k")
-#check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
-#check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
+check_and_write_file('酒店源.txt',  'a.txt',  keywords="央视频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉")
+check_and_write_file('酒店源.txt',  'a1.txt',  keywords="央视频道, 风云音乐, 女性时尚, 地理世界, 音乐现场")
 
-#check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
+check_and_write_file('酒店源.txt',  'b.txt',  keywords="卫视频道, 卫视, 凤凰， 星空")
 
 check_and_write_file('酒店源.txt',  'c.txt',  keywords="影视频道, 爱情喜剧, 爱喜喜剧, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 每日影院, 全球大片, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 美国大片, 峨眉, \
 电影, 惊嫊悬疑, 东北热剧, 无名, 都市剧场, iHOT, 剧场, 欢笑剧场, 重温经典, 明星大片, 中国功夫, 军旅, 东北热剧, 中国功夫, 军旅剧场, 古装剧场, \
