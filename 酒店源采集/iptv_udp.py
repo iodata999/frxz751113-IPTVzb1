@@ -453,11 +453,8 @@ for line in lines:
 with open('综合源.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #再次规范频道名#
-for line in fileinput.input("综合源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
-    line = line.replace("4k,", " 4K,") 
-    line = line.replace("4K,", " 4K,") 
-    line = line.replace("8k,", " 8K,") 
-    line = line.replace("8K,", " 8K,") 
+for line in fileinput.input("综合源.txt", inplace=True):  #打开文件，删除文中空格
+    line = line.replace(" ", "")
     print(line, end="")  #设置end=""，避免输出多余的换行符   
 #从整理好的文本中进行特定关键词替换规范频道名#
 for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
@@ -485,7 +482,10 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("CCTV地理世界", "世界地理")  
     line = line.replace("CCTV女", "女")  
     line = line.replace("008广", "广")
-    line = line.replace(" ", "")
+    line = line.replace("4k,", " 4K,") 
+    line = line.replace("4K,", " 4K,") 
+    line = line.replace("8k,", " 8K,") 
+    line = line.replace("8K,", " 8K,") 
     line = line.replace("家庭电影", "家庭影院")    
     line = line.replace("CHC", "")  
     line = line.replace("科技生活", "科技")  
