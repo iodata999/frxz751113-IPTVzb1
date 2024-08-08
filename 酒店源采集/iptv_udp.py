@@ -437,7 +437,7 @@ for file_path in file_paths:                                                    
 # 生成合并后的文件
 with open("综合源.txt", "w", encoding="utf-8") as output:
     output.write(''.join(file_contents))   #加入\n则多一空行
-#去重#
+
 #去重#
 with open('综合源.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
@@ -453,7 +453,13 @@ for line in lines:
 with open('综合源.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 #再次规范频道名#
-#从整理好的文本中进行特定关键词替换以规范频道名#
+for line in fileinput.input("综合源.txt", inplace=True):  #打开文件，并对其进行关键词原地替换 
+    line = line.replace("4k,", " 4K,") 
+    line = line.replace("4K,", " 4K,") 
+    line = line.replace("8k,", " 8K,") 
+    line = line.replace("8K,", " 8K,") 
+    print(line, end="")  #设置end=""，避免输出多余的换行符   
+#从整理好的文本中进行特定关键词替换规范频道名#
 for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("CCTV1,", "CCTV1-综合,")  
     line = line.replace("CCTV2,", "CCTV2-财经,")  
@@ -490,7 +496,9 @@ for line in fileinput.input("综合源.txt", inplace=True):   #打开临时文�
     line = line.replace("频道1", "频道") 
     line = line.replace("省市频道", "湖北频道")    
     line = line.replace("[720p]", "") 
-    line = line.replace("[1080p]", "")     
+    line = line.replace("[1080p]", "")       
+    line = line.replace("[2160p]", "") 
+    line = line.replace("[4320p]", "") 
     print(line, end="")   
 #简体转繁体#
 #简体转繁体
