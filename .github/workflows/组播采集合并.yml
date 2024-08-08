@@ -1,4 +1,4 @@
-name: 酒店源采集合并
+name: 组播采集合并
 
 on:
   schedule:
