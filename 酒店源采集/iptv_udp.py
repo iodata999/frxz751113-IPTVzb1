@@ -103,7 +103,7 @@ def gen_files(valid_ips, province, isp):
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
             if index < 3:
-                new_data = data.replace("rtp://", f"{url[0]}/udp/")
+                new_data = data.replace("rtp://", f"{url[0]}/rtp/")
                 new_file.write(new_data)
                 new_file.write('\n')
                 index += 1
@@ -123,7 +123,7 @@ async def via_url(result_url, mcast):
     valid_ips = []
     # 遍历所有视频链接
     # for url in result_urls:
-    video_url = result_url + "/udp/" + mcast
+    video_url = result_url + "/rtp/" + mcast
     loop = asyncio.get_running_loop()
     future_obj = loop.run_in_executor(None, cv2.VideoCapture, video_url)
     cap = await future_obj
