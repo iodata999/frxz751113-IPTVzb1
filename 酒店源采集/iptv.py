@@ -1029,30 +1029,39 @@ for province_isp in provinces_isps:
         print(f"文件 '{province_isp}.txt' 不存在. 跳过此文件.")
 for keyword in keywords:
     province, isp, mcast = keyword.split("_")
-    #将省份转成英文小写
+    # 将省份转成英文小写
+    translator = Translator(from_lang='chinese', to_lang='english')
+    province_en = translator.translate(province)
+    province_en = province_en.lower()
     # 根据不同的 isp 设置不同的 org 值
-    if province == "北京" and isp == "联通":
-        isp_en = "cucc"
-        org = "China Unicom Beijing Province Network"
-    elif isp == "联通":
-        isp_en = "cucc"
-        org = "CHINA UNICOM China169 Backbone"
-    elif isp == "电信":
+    org = "Chinanet"
+    others = ''
+    if isp == "电信" and province_en == "sichuang":
         org = "Chinanet"
         isp_en = "ctcc"
-    elif isp == "移动":
-        org == "China Mobile communications corporation"
-        isp_en = "cmcc"
-        
-#    else:
-#        org = ""
+        asn = "4134"
+        others = '&& city="Chengdu" '
+    elif isp == "电信" and province_en != "sichuang":
+        org = "Chinanet"
+        isp_en = "ctcc"
+        asn = "4134"
+    elif isp == "联通" and province_en != "beijing":
+        isp_en = "cucc"
+        org = "CHINA UNICOM China169 Backbone"
+        asn = "4837"
+    elif isp == "联通" and province_en == "beijing":
+        asn = "4808"
+        isp_en = "cucc"
+    else:
+        asn = ""
+        org = ""
     current_time = datetime.now()
     timeout_cnt = 0
-    result_urls = set() 
+    result_urls = set()
     while len(result_urls) == 0 and timeout_cnt <= 5:
         try:
             search_url = 'https://fofa.info/result?qbase64='
-            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\"'# && org=\"{org}\"
+            search_txt = f'\"udpxy\" && country=\"CN\" && region=\"{province}\" {others} && asn=\"{asn}\"'
                 # 将字符串编码为字节流
             bytes_string = search_txt.encode('utf-8')
                 # 使用 base64 进行编码
