@@ -98,7 +98,7 @@ def gen_files(valid_ips, province, isp):
     udp_filename = f'rtp/{province}_{isp}.txt'
     with open(udp_filename, 'r', encoding='utf-8') as file:
         data = file.read()
-    txt_filename = f'节目表/{province}{isp}.txt'
+    txt_filename = f'playliist/{province}{isp}.txt'
     with open(txt_filename, 'w', encoding='utf-8') as new_file:
         new_file.write(f'{province}{isp},#genre#\n')
         for url in valid_ips:
@@ -267,19 +267,19 @@ def main():
                     continue
                 else:
                     print(f"{current_time} 搜索IPTV频道源[]，超时次数过多：{timeout_cnt} 次，停止处理")
-    # 获取节目表目录下的文件名
-    # files1 = os.listdir('节目表')
-    files1 = '节目表'
+    # 获取playliist目录下的文件名
+    # files1 = os.listdir('playliist')
+    files1 = 'playliist'
     # 过滤TXT文件
     file_contents = []
     for file_path in filter_files(files1, '.txt'):
-        with open('节目表/' + file_path, 'r', encoding="utf-8") as file:
+        with open('playliist/' + file_path, 'r', encoding="utf-8") as file:
             content = file.read()
             file_contents.append(content)
         # 移除文件
-        # os.remove('节目表/' + file_path)
+        # os.remove('playliist/' + file_path)
     # 写入合并后的txt文件
-    with open("节目表/IPTV_UDP", "w", encoding="utf-8") as output:
+    with open("playliist/IPTV_UDP", "w", encoding="utf-8") as output:
         output.write('\n\n'.join(file_contents))
         # 写入更新日期时间
         # file.write(f"{now_today}更新,#genre#\n")
@@ -294,7 +294,7 @@ def main():
     print(f"电视频道成功写入IPTV_UDP")
 main()
 
-for line in fileinput.input("节目表/IPTV_UDP", inplace=True):  #打开文件，并对其进行关键词原地替换 
+for line in fileinput.input("playliist/IPTV_UDP", inplace=True):  #打开文件，并对其进行关键词原地替换 
     line = line.replace("CHC电影", "CHC影迷电影") 
     line = line.replace("高清电影", "影迷电影") 
     print(line, end="")  #设置end=""，避免输出多余的换行符   
@@ -303,7 +303,7 @@ for line in fileinput.input("节目表/IPTV_UDP", inplace=True):  #打开文件�
 keywords = ['爱动漫', '爱怀旧', '爱经典', '爱科幻', '爱幼教', '爱青春', '爱院线', '爱悬疑']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('节目表/IPTV_UDP', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
+with open('playliist/IPTV_UDP', 'r', encoding='utf-8') as file, open('c1.txt', 'w', encoding='utf-8') as c1:    #定义临时文件名
     c1.write('\niHOT系列,#genre#\n')                                                                  #写入临时文件名$GD
     for line in file:
       if '$GD' not in line and '4K' not in line:
@@ -317,7 +317,7 @@ keywords = ['河北', '石家庄', '丰宁', '临漳', '井陉', '井陉矿区',
             '邱县', '隆化', '雄县', '阜平', '高碑店', '高邑', '魏县', '黄骅', '饶阳', '赵县', '睛彩河北', '滦南', '玉田', '崇礼', '平泉', '容城', '文安', '三河', '清河']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('节目表/IPTV_UDP', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
+with open('playliist/IPTV_UDP', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #定义临时文件名
     f.write('\n河北频道,#genre#\n')                                                                  #写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
@@ -329,7 +329,7 @@ keywords = ['河南', '焦作', '开封', '卢氏', '洛阳', '孟津', '安阳'
             '新密', '新乡', '信阳', '新郑', '延津', '叶县', '义马', '永城', '禹州', '原阳', '镇平', '郑州', '周口']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
-with open('节目表/IPTV_UDP', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #定义临时文件名
+with open('playliist/IPTV_UDP', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #定义临时文件名
     f1.write('\n河南频道,#genre#\n')                                                                  #写入临时文件名
     for line in file:
       if 'CCTV' not in line and '卫视' not in line and 'CHC' not in line and '4K' not in line and 'genre' not in line:
@@ -541,8 +541,8 @@ def txt_to_m3u(input_file, output_file):
 # 将txt文件转换为m3u文件
 txt_to_m3u('综合源.txt', '综合源.m3u')
 #任务结束，删除不必要的过程文件#
-files_to_remove = ["TW.txt", "a.txt", "a0.txt", "港澳.txt", "节目表/IPTV_UDP", "df0.txt", "sr1.txt", "c1.txt", \
-                   "f.txt", "f1.txt", "节目表/酒店源#.txt"]
+files_to_remove = ["TW.txt", "a.txt", "a0.txt", "港澳.txt", "playliist/IPTV_UDP", "df0.txt", "sr1.txt", "c1.txt", \
+                   "f.txt", "f1.txt", "playliist/酒店源#.txt"]
 for file in files_to_remove:
     if os.path.exists(file):
         os.remove(file)
