@@ -2,7 +2,7 @@ name: 酒店源采集合并
 
 on:
   schedule:
-    - cron: '40 */8 * * *' # 这里更改自动运行的时间#
+    - cron: '40 */8 * * *' # 这里更改自动运行的时间#_udp
   workflow_dispatch:
     branches:
       - main
@@ -25,7 +25,7 @@ jobs:
           pip install --upgrade pip
           pip install selenium requests futures eventlet opencv-python Beautifulsoup4 translate termcolor func_timeout replace input opencc pypinyin pytz tqdm
       - name: Run iptv
-        run: python ${{ github.workspace }}/rtp/iptv_udp.py
+        run: python ${{ github.workspace }}/rtp/iptv.py
 
       # 提交和推送的步骤，不再检查文件是否发生变化
       - name: Commit and push changes
