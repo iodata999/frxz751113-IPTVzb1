@@ -11,8 +11,8 @@ CHC影迷电影,http://cg14.hunancatv.cn:9090/live/CHCGQ_8000.m3u8?deviceid=8662
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
 4K&IPTV,#genre#
 CCTV4K超高清50帧,http://[2409:8087:2801:22:100::48]/wh7f454c46tw3853113344_884900799/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221229373/1/index.m3u8?fmt=ts2hls&icpid=88888888&RTS=1717810382&from=5&ocs=2_2409:8087:2801:22:100::36_80&hms_devid=1641&online=1717810382&vqe=3
-CCTV4K超高清,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2024081303.m3u8
-CCTV8K超高清,http://hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2020603421.m3u8
+CCTV4K超高清,http://116.148.164.119/hlslive-tx-cdn.ysp.cctv.cn:80/ysp/2024081303.m3u8
+CCTV8K超高清,http://116.148.164.119/bktlivecloud-cdn.ysp.cctv.cn/ysp/2020603421.m3u8
 BesTV电影4K,http://www.17888.fun:10000/udp/239.45.3.107:5140
 百事通电影4K,http://www.17888.fun:10000/rtp/239.45.1.42:5140
 百事通纪实4K,http://www.17888.fun:10000/rtp/239.45.1.10:5140
