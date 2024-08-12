@@ -1,5 +1,8 @@
 央视频道,#genre#
+CCTV7,http://113.220.233.185:9999/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV15,http://113.220.233.185:9999/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 卫视频道,#genre#
+深圳卫视,http://113.220.233.185:9999/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 港澳频道,#genre#
 
 
