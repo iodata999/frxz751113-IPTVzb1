@@ -609,11 +609,11 @@ def check_and_write_file(input_file, output_file, keywords):
     else:
         print(f"文件已提取关键词并保存为: {output_file}")
 # 按类别提取关键词并写入文件
-check_and_write_file('2.txt',  'a0.txt',  keywords="50帧频道, 8K, 4K, 4k")
-check_and_write_file('2.txt',  'a.txt',  keywords="50帧频道, CCTV, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 峨眉")
+check_and_write_file('2.txt',  'a0.txt',  keywords="50帧频道, 8K, 峨眉, 4k")
+check_and_write_file('2.txt',  'a.txt',  keywords="50帧频道, 四川, 8K, 4K, 爱上4K, 纯享, 风云剧场, 怀旧剧场, 影迷, 高清电影, 动作电影, 第一剧场, 家庭影院, 影迷电影, 星光, 华语, 峨眉")
 check_and_write_file('2.txt',  'a1.txt',  keywords="50帧频道, 梨园, 风云音乐, 生活时尚, 台球, 网球, 足球, 女性, 地理, 纪实科教, 纪实人文, 兵器, 北京纪实, 发现, 法治")
 
-check_and_write_file('2.txt',  'b.txt',  keywords="50帧频道, 卫视, 凤凰， 星空")
+check_and_write_file('2.txt',  'b.txt',  keywords="50帧频道, 河北, 凤凰， 星空")
 
 check_and_write_file('2.txt',  'c.txt',  keywords="50帧频道, 爱情喜剧, 爱喜喜剧, 电影, 惊嫊悬疑, 东北热剧, 无名, 都市剧场, iHOT, 剧场, 欢笑剧场, 重温经典, 明星大片, 中国功夫, 军旅, 东北热剧, 中国功夫, 军旅剧场, 古装剧场, \
 家庭剧场, 惊悚悬疑, 欢乐剧场, 潮妈辣婆, 爱情喜剧, 精品大剧, 超级影视, 超级电影, 黑莓动画, 黑莓电影, 海外剧场, 精彩影视, 无名影视, 潮婆辣妈, 超级剧, 热播精选")
