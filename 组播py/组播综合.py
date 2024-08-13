@@ -344,9 +344,10 @@ with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进
 for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其进行关键词原地替换                     ###########
     #line = line.replace("央视频道,#genre#", "")                                                                         ###########
     line = line.replace("四川康巴卫视", "康巴卫视")                                                                         ###########
-    line = line.replace("黑龙江卫视+", "黑龙江卫视")                                                                         ###########
+    line = line.replace("河南文物宝库", "收藏天下")   
+    line = line.replace("河南影视", "河南电视剧")        ###########
     line = line.replace("[1920*1080]", "")                                                                         ###########
-    line = line.replace("湖北电视台", "湖北综合")                                                                         ###########
+    line = line.replace("河南农村", "河南乡村")                                                                         ###########
     line = line.replace("CCTV11戏曲", "CCTV11")                                                                         ###########
     line = line.replace("梨园", "梨园频道")                                                        ###########
     print(line, end="")  #设置end=""，避免输出多余的换行符   
