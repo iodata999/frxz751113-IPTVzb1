@@ -494,7 +494,7 @@ txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
-files_to_remove = ['湖南电信.txt', '广东电信.txt', '酒店源.txt', '天津联通.txt', '江苏电信.txt', '四川电信.txt', \
+files_to_remove = ['湖南电信.txt', '广东电信.txt', '酒店源.txt', '河南联通.txt',  '北京联通.txt', '陕西电信.txt',  '天津联通.txt', '江苏电信.txt', '四川电信.txt', \
                        "GAT.txt", "DD.txt", "TW.txt", "a.txt", "b.txt", "b2.txt", "HK.txt", "c.txt", "c1.txt", "c2.txt", "e.txt", "f.txt", "f1.txt", "df.txt", "df1.txt", "TT.txt", "zhibo.txt"]
 
 for file in files_to_remove:
