@@ -260,7 +260,7 @@ keywords = ['湖南', '河南', '陕西', '河南公共', '河南乡村', '北�
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df.txt', 'w', encoding='utf-8') as df:
-    df.write('\n省市频道&爬虫更新,#genre#\n')
+    df.write('\n省级频道&爬虫更新,#genre#\n')
     for line in file:
       if 'CCTV' not in line and '卫视' not in line:        
         if re.search(pattern, line):  # 如果行中有任意关键字
@@ -288,7 +288,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('df1.txt', 'w', 
 
 
 ################
-keywords = ['优漫', '动漫', '少', '卡通', '动画']  # 需要提取的关键字列表
+keywords = ['优漫', '动漫', '卡酷', '卡通', '动画']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', encoding='utf-8') as f:    #####定义临时文件名
@@ -337,7 +337,8 @@ with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
     b.write('\n酒店频道&爬虫更新,#genre#\n')                                                                        ###########
-    for line in file:                                                                                      ###########
+    for line in file:  
+      if 'CCTV' not in line and '卫视' not in line and 'kk' not in line and 'kk' not in line and 'genre' not in line:###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
           b.write(line)  # 将该行写入输出文件                                                               ###########
                                                                                                            ###########
@@ -346,7 +347,8 @@ for line in fileinput.input("b.txt", inplace=True):  #打开文件，并对其�
     line = line.replace("四川康巴卫视", "康巴卫视")                                                                         ###########
     line = line.replace("河南文物宝库", "收藏天下")   
     line = line.replace("河南影视", "河南电视剧")        ###########
-    line = line.replace("[1920*1080]", "")                                                                         ###########
+    line = line.replace("[1920*1080]", "")      
+    line = line.replace("上海卫视", "东方卫视")  ###########
     line = line.replace("河南农村", "河南乡村")                                                                         ###########
     line = line.replace("CCTV11戏曲", "CCTV11")                                                                         ###########
     line = line.replace("梨园", "梨园频道")                                                        ###########
