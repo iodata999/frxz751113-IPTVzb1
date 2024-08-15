@@ -428,12 +428,13 @@ CCTV16奥林匹克,http://117.114.153.18:8180/TV00000000000000000136@HHZT
 CCTV16奥林匹克4K,http://[2409:8087:5e08:24::12]:6610/000000001001/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
 CCTV16奥林匹克4K,http://iptv.skygogo.cn:18889/rtp/239.49.0.109:8000
 CCTV17农业农村,http://adsl03.ccj.gohome.link:55556/rtp/239.3.1.151:8144
-CHC动作电影,http://ned2188.eicp.net:8888/udp/239.69.1.242:11094
+CHC动作电影,http://tencent.live.cbncdn.cn/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8?sig=e7ab0d42fd30a4b49945ae02779d25ed&ext_start_limit=1702890474&int_start_limit=1702890474&expires=1702890474&c=null
 CHC动作电影(备用),http://www.foxzhao.cn:4022/udp/239.112.205.207:5140
-CHC家庭影院,http://annaxi.lw-home.com:11111/udp/239.253.254.152:8000
+CHC家庭影院,http://tencent.live.cbncdn.cn/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8?sig=1bd7be978c3cafb305dc232f55e98eaa&ext_start_limit=1702889460&int_start_limit=1702889460&expires=1702889460&c=null
 CHC家庭影院(备用),http://ned2188.eicp.net:8888/udp/239.69.1.243:11100
-CHC影迷电影,http://117.114.153.18:8180/TV00000000000000000195@HHZT
-CHC影迷电影（5.1环绕声）,http://117.114.153.18:8180/TV00000000000000000094@HHZT
+CHC影迷电影,http://tencent.live.cbncdn.cn/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8?sig=9e65bd818330aa0db26657b3e39f9a9d&ext_start_limit=1702893670&int_start_limit=1702893670&expires=1702893670&c=null
+CHC影迷电影&备用,http://117.114.153.18:8180/TV00000000000000000195
+CHC影迷电影（5.1环绕声）,http://117.114.153.18:8180/TV00000000000000000094
 电视指南,http://www.yao87.com:4022/udp/239.76.254.61:9000
 兵器科技,http://www.yao87.com:4022/udp/239.76.247.59:1234
 世界地理,http://www.yao87.com:4022/udp/239.76.247.57:1234
