@@ -1044,6 +1044,25 @@ ABC Australia,P2p://generationnexxxt.com:19806/cab3e899c937431f812c75c84b5cdf5f
 彩虹🌈惊艳台,http://18.svi-studio.com:8880/live/624372101145/418430465490/1.m3u8
 彩虹🌈惊艳台,http://18.svi-studio.com:80/live/176619383282/537544338952/1.m3u8
 彩虹🌈惊艳台,http://18.svi-studio.com:8880/live/908957700097/132663288386/1.m3u8
+驚艷臺, http://125.227.210.55:8156/VideoInput/play.ts
+香蕉臺, http://125.227.210.55:8159/VideoInput/play.ts
+Bloomberg, http://125.227.210.55:8161/VideoInput/play.ts
+BBC new, http://125.227.210.55:8165/VideoInput/play.ts
+CNN new, http://125.227.210.55:8166/VideoInput/play.ts
+CN卡通, http://125.227.210.55:8167/VideoInput/play.ts
+TVRI, http://125.227.210.55:8172/VideoInput/play.ts
+NET, http://125.227.210.55:8173/VideoInput/play.ts
+日本A, http://125.227.210.55:8201/VideoInput/play.ts
+奧視3, http://125.227.210.55:8203/VideoInput/play.ts
+日本B, http://125.227.210.55:8205/VideoInput/play.ts
+TV5臺, http://125.227.210.55:15533/VideoInput/play.ts
+YTN臺, http://125.227.210.55:17478/VideoInput/play.ts
+NHK JAPAN臺, http://125.227.210.55:35802/VideoInput/play.ts
+PBS臺, http://125.227.210.55:36950/VideoInput/play.ts
+DW臺, http://125.227.210.55:42534/VideoInput/play.ts
+KOREA臺, http://125.227.210.55:48553/VideoInput/play.ts
+Mainu臺, http://125.227.210.55:51359/VideoInput/play.ts
+NHK BSP, http://125.227.210.55:60116/VideoInput/play.ts
 酒店频道&爬虫更新,#genre#
 峨眉电影,http://118.122.2.29:9999/hls/49/index.m3u8
 峨眉电影,http://182.150.23.74:808/hls/40/index.m3u8
