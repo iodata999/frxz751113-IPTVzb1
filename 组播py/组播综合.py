@@ -245,7 +245,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', en
 
 
 ###############################################################################################################################################################################
-keywords = ['凤凰', 'CHC']  # 需要提取的关键字列表
+keywords = ['凤凰', 'bestv', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
