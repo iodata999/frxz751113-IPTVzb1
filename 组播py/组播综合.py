@@ -156,7 +156,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["北京联通.txt", "江苏电信.txt", "天津联通.txt",  "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
+file_paths = ["北京联通.txt", "江苏电信.txt", "甘肃电信.txt",  "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -183,7 +183,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):  #打开文件，并
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['CCTV', "CHC", "电视指南", "兵器科技", "世界地理", "文化精品", "风云剧场", "风云音乐", "怀旧剧场", "第一剧场", "女性时尚", "风云足球", "央视台球", "央视高网"]  # 需要提取的关键字列表
+keywords = ['CCTV', "电视指南", "兵器科技", "世界地理", "文化精品", "风云剧场", "风云音乐", "怀旧剧场", "第一剧场", "女性时尚", "风云足球", "央视台球", "央视高网"]  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', encoding='utf-8') as c:    #####定义临时文件名
@@ -245,11 +245,11 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('e.txt', 'w', en
 
 
 ###############################################################################################################################################################################
-keywords = ['4K', '8K']  # 需要提取的关键字列表
+keywords = ['凤凰', 'CHC']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('DD.txt', 'w', encoding='utf-8') as DD:
-    DD.write('\n4K频道&爬虫更新,#genre#\n')
+    DD.write('\n凤凰与CHC&爬虫更新,#genre#\n')
     for line in file:
         if re.search(pattern, line):  # 如果行中有任意关键字
           DD.write(line)  # 将该行写入输出文件
