@@ -157,7 +157,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["北京联通.txt", "江苏电信.txt", "甘肃电信.txt", "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
+file_paths = ["北京联通.txt", "江苏电信.txt", "天津联通.txt", "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
