@@ -104,7 +104,7 @@ HITS,mitv://generationnexxxt.com:19806/a65416c2039f4644aeef10da853fb928
 东森财经新闻台,mitv://generationnexxxt.com:19806/6596322e000d4091a2f7138e424b32c5
 非凡新闻台,mitv://generationnexxxt.com:19806/02f80f7aad2c480992e06e1bd8a7facb
 MOMO综合台,mitv://generationnexxxt.com:19806/659391fc000353d298b54dbe4b486dab
-东森电影台,mitv://generationnexxxt.com:19806/08435f286ac744a0942899c551209779
+东森电影台,p2p://generationnexxxt.com:19806/08435f286ac744a0942899c551209779
 纬来电影台,mitv://generationnexxxt.com:19806/429796f5f00946fa933e400729286c7e
 龙祥电影,mitv://generationnexxxt.com:19806/78502c9b515845a7baca6a3a6ea88b8a
 HBO,mitv://generationnexxxt.com:19806/37f11d742fee447ab15f07db28095bd6
