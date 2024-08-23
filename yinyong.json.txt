@@ -1,0 +1,16 @@
+{"urls":[
+{"name":"🚔本人专用","url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/mengxianshengaaa/live/main/json.json"},
+{"name":"🚔缝合怪","url":"https://mengxianshengaaa.com/缝合怪.json"},
+{"name":"🥵坠落砂锅","url":"https://mirror.v2gh.com/https://raw.githubusercontent.com/frxz751113/AAAAA/main/2.json"},
+{"name":"🐯精简砂锅","url":"http://u6v.cn/6vX55k"},
+{"name":"🍚太硬砂锅","url":"http://饭太硬.com/tv"},
+{"name":"🐼肥猫砂锅","url":"http://肥猫.live"},
+ { "url": "https://gitee.com/xiaofeiji_1_0/19/raw/main/18/18live.json","name": "调试4不公开" },
+{"name":"🌹小米砂锅","url":"http://xhww.fun:63/小米/DEMO.json"},
+{"name":"🌙胖鸭砂锅","url":"https://agit.ai/cyl518/yl/raw/branch/master/ml.json"},
+{"name":"💝恋影砂锅","url":"https://www.lianyingtv.com/fast/fast"},
+{"name":"🍀俊宇砂锅","url":"http://home.jundie.top:81/top98.json"},
+{"name":"📿神器砂锅","url":"https://神器每日推送.tk/pz.json"},
+{"name":"🥵发热砂锅","url": "https://raw.gitcode.com/frxz751113/1/raw/main/2.json"},
+{"name":"🌪南风砂锅","url":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"}
+]}
