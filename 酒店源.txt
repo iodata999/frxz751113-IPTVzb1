@@ -1,6 +1,33 @@
 央视频道,#genre#
+CCTV4,http://171.108.239.124:8181/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV5+,http://171.108.239.124:8181/tsfile/live/1044_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV8,http://171.108.239.124:8181/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV9,http://171.108.239.124:8181/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV13,http://171.108.239.124:8181/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV14,http://171.108.239.124:8181/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
 卫视频道,#genre#
+上海卫视,http://171.108.239.124:8181/tsfile/live/1061_1.m3u8?key=txiptv&playlive=1&authid=0
+东南卫视,http://171.108.239.124:8181/tsfile/live/1087_1.m3u8?key=txiptv&playlive=0&authid=0
+云南卫视,http://171.108.239.124:8181/tsfile/live/1072_1.m3u8?key=txiptv&playlive=0&authid=0
+北京卫视,http://171.108.239.124:8181/tsfile/live/1121_1.m3u8?key=txiptv&playlive=1&authid=0
+吉林卫视,http://171.108.239.124:8181/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
+四川卫视,http://171.108.239.124:8181/tsfile/live/1091_1.m3u8?key=txiptv&playlive=0&authid=0
+天津卫视,http://171.108.239.124:8181/tsfile/live/1066_1.m3u8?key=txiptv&playlive=1&authid=0
+山东卫视,http://171.108.239.124:8181/tsfile/live/1083_1.m3u8?key=txiptv&playlive=0&authid=0
+山西卫视,http://171.108.239.124:8181/tsfile/live/1076_1.m3u8?key=txiptv&playlive=0&authid=0
+星空卫视,http://171.108.239.124:8181/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
+江西卫视,http://171.108.239.126:8181/tsfile/live/1090_1.m3u8?key=txiptv&playlive=0&authid=0
+河北卫视,http://171.108.239.124:8181/tsfile/live/1086_1.m3u8?key=txiptv&playlive=0&authid=0
+湖北卫视,http://171.108.239.126:8181/tsfile/live/1082_1.m3u8?key=txiptv&playlive=0&authid=0
+湖南卫视,http://171.108.239.126:8181/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&authid=0
+湖南卫视,http://171.108.239.124:8181/tsfile/live/1060_1.m3u8?key=txiptv&playlive=1&authid=0
+重庆卫视,http://171.108.239.124:8181/tsfile/live/1074_1.m3u8?key=txiptv&playlive=0&authid=0
+陕西卫视,http://171.108.239.126:8181/tsfile/live/1070_1.m3u8?key=txiptv&playlive=0&authid=0
+陕西卫视,http://171.108.239.124:8181/tsfile/live/1070_1.m3u8?key=txiptv&playlive=0&authid=0
+青海卫视,http://171.108.239.124:8181/tsfile/live/1069_1.m3u8?key=txiptv&playlive=0&authid=0
+黑龙江卫视,http://171.108.239.124:8181/tsfile/live/1084_1.m3u8?key=txiptv&playlive=0&authid=0
 港澳频道,#genre#
+星空卫视,http://171.108.239.124:8181/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 
 
 数字频道,#genre#
