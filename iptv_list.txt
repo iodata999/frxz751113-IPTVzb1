@@ -1,8 +1,8 @@
 每天10点30分自动更新,#genre#
+河南乡村,http://123.6.53.22:80/tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=9e17caef620277ba26675e02515c6388&wsTime=1724516444&wsSession=d2985b340bd9692e7a91dea2-172450243356785&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
 CHC动作电影,http://cg0.hunancatv.cn:9090/live/CHCDZDY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316076&srchost=172.16.22.158:8060&gid=ZF3q5L%2FmYWch1qWqTIPAjw%3D%3D&ZJYD
-梨园频道, http://123.6.53.23:80/tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=e8bc3513ef0df37592fccec5b0f30ebd&wsTime=1724517644&wsSession=26b2b17d188940168eec4b28-172450354262289&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
-河南都市, http://123.6.53.23:80/tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=65368cd20a407b7dea4f50798939be0e&wsTime=1724517944&wsSession=26b2b17d188940168eec4b28-172450357792698&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
-河南乡村, http://123.6.53.22:80/tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=9e17caef620277ba26675e02515c6388&wsTime=1724516444&wsSession=d2985b340bd9692e7a91dea2-172450243356785&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
+梨园频道,http://123.6.53.23:80/tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=e8bc3513ef0df37592fccec5b0f30ebd&wsTime=1724517644&wsSession=26b2b17d188940168eec4b28-172450354262289&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
+河南都市,http://123.6.53.23:80/tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=65368cd20a407b7dea4f50798939be0e&wsTime=1724517944&wsSession=26b2b17d188940168eec4b28-172450357792698&wsIPSercert=c3c786acde25982d07a800ec6689a591&wsiphost=local&wsBindIP=1
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 梨园频道,http://dsm.ikun.hn.cn:9981/stream/channelid/1727631217?profile=pass
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
