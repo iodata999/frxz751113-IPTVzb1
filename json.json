@@ -1,4 +1,4 @@
-{"spider": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/mengxianshengaaa/live/main/A.jar",
+{"spider": "https://ooxxnn.icu/json/A.jar",
 //"spider": "https://gh.con.sh/https://raw.githubusercontent.com/mengxianshengaaa/live/main/A.jar",
 
 
@@ -7,7 +7,7 @@
 
 
 "sites": [
-{"key":"热播","name":"设置-右上角可切换备用线路>>缝合怪","type":3,"api":"csp_TTian","playerType":2,"ext":"http://v.rbotv.cn"},
+{"key":"热播","name":"备用线路-缝合怪","type":3,"api":"csp_TTian","playerType":2,"ext":"http://v.rbotv.cn"},
 {"key":"meowtv_yksp","name":"2线","type":3,"api":"http://cdn.teyonds.com/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":0,"ext":"./js/优酷视频.js"},
 {"key":"meowtv_txsp","name":"3线","type":3,"api":"http://cdn.teyonds.com/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":0,"ext":"./js/腾讯视频.js"},
 {"key":"meowtv_mgsp","name":"5线","type":3,"api":"http://cdn.teyonds.com/js/drpy2.min.js","searchable":1,"quickSearch":1,"filterable":0,"ext":"http://cdn.teyonds.com/js/芒果视频.js"},
