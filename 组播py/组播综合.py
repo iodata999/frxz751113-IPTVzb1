@@ -333,11 +333,11 @@ with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
 with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
  #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
- keywords = [ '峨眉', '广东', '河南', '湖南', '上海', '河北', '电影', '四川', '梨园', '东森']  # 需要提取的关键字列表                                                       ###########
+ keywords = [ 'kk',  'kk']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
-    b.write('\n酒店频道&爬虫更新,#genre#\n')                                                                        ###########
+    b.write('\n港台频道2&爬虫更新,#genre#\n')                                                                        ###########
     for line in file:  
       if 'CCTV' not in line and '卫视' not in line and 'kk' not in line and 'kk' not in line and 'genre' not in line:###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
