@@ -378,7 +378,7 @@ for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地�
 
 
 #  获取远程直播源文件
-url = "https://raw.githubusercontent.com/mengxianshengaaa/IPTV/main/tv/zhibo.txt"          #源采集地址
+url = "https://raw.githubusercontent.com/mengxianshengaaa/IPTV/main/json/zhibo.txt"          #源采集地址
 r = requests.get(url)
 open('zhibo.txt','wb').write(r.content)         #打开源文件并临时写入
 
