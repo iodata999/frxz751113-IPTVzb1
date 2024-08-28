@@ -882,7 +882,7 @@ CHC家庭影院(备用),http://ned2188.eicp.net:8888/udp/239.69.1.243:11100
 星空卫视,http://nas.jumping.wang:5555/udp/239.93.0.156:2193
 凤凰中文,http://wouu.net:9977/rtp/239.93.0.162:2192?Cf=cfss.cc
 凤凰资讯,http://wouu.net:9977/rtp/239.93.0.118:2191?Cf=cfss.cc
-凤凰香港,http://php.jdshipin.com:8880/smt.php?id=hkphoenix_twn
+凤凰香港,http://zsntlqj.xicp.net:8896/bysid/85.m3u8
 凤凰电影,http://home.itvro.com:381/stream/channelid/770677289?profile=pass
 Discovery科学频道,http://61.221.215.25:8800/hls/1/index.m3u8
 Discovery探索亚洲,http://61.221.215.25:8800/hls/50/index.m3u8
@@ -916,6 +916,40 @@ amc电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 纬来日本,rtmp://f13h.mine.nu/sat/tv771
 非凡新闻,rtmp://f13h.mine.nu/sat/tv581
 momotv,rtmp://f13h.mine.nu/sat/tv761
+翡翠台, http://zsntlqj.xicp.net:8895/bysid/1.m3u8
+ViuTVsix, http://zsntlqj.xicp.net:8895/bysid/96.m3u8
+ViuTV, http://zsntlqj.xicp.net:8895/bysid/99.m3u8
+明珠台, http://zsntlqj.xicp.net:8896/bysid/2.m3u8
+TVB Plus, http://zsntlqj.xicp.net:8896/bysid/82.m3u8
+無綫新聞台, http://zsntlqj.xicp.net:8896/bysid/83.m3u8
+鳳凰衛視香港台, http://zsntlqj.xicp.net:8896/bysid/85.m3u8
+翡翠台, http://grandprix2023.asuscomm.com:8889/bysid/1.m3u8
+ViuTVsix, http://grandprix2023.asuscomm.com:8889/bysid/96.m3u8
+ViuTV, http://grandprix2023.asuscomm.com:8889/bysid/99.m3u8
+Jelli, http://grandprix2023.asuscomm.com:8890/bysid/16.m3u8
+澳视澳门, http://grandprix2023.asuscomm.com:8891/bysid/91.m3u8
+澳视葡语, http://grandprix2023.asuscomm.com:8891/bysid/92.m3u8
+澳门资讯, http://grandprix2023.asuscomm.com:8891/bysid/94.m3u8
+澳门macau, http://grandprix2023.asuscomm.com:8891/bysid/96.m3u8
+明珠台, http://grandprix2023.asuscomm.com:8892/bysid/2.m3u8
+TVB Plus, http://grandprix2023.asuscomm.com:8892/bysid/82.m3u8
+無綫新聞台, http://grandprix2023.asuscomm.com:8892/bysid/83.m3u8
+鳳凰衛視香港台, http://grandprix2023.asuscomm.com:8892/bysid/85.m3u8
+翡翠台, http://nz171l122.bb60246.ctm.net:8889/bysid/1.m3u8
+ViuTVsix, http://nz171l122.bb60246.ctm.net:8889/bysid/96.m3u8
+ViuTV, http://nz171l122.bb60246.ctm.net:8889/bysid/99.m3u8
+Jelli, http://nz171l122.bb60246.ctm.net:8890/bysid/16.m3u8
+澳视澳门, http://nz171l122.bb60246.ctm.net:8891/bysid/91.m3u8
+澳视葡语, http://nz171l122.bb60246.ctm.net:8891/bysid/92.m3u8
+澳门资讯, http://nz171l122.bb60246.ctm.net:8891/bysid/94.m3u8
+澳门macau, http://nz171l122.bb60246.ctm.net:8891/bysid/96.m3u8
+明珠台, http://nz171l122.bb60246.ctm.net:8892/bysid/2.m3u8
+TVB Plus, http://nz171l122.bb60246.ctm.net:8892/bysid/82.m3u8
+無綫新聞台, http://nz171l122.bb60246.ctm.net:8892/bysid/83.m3u8
+鳳凰衛視香港台, http://nz171l122.bb60246.ctm.net:8892/bysid/85.m3u8
+
+
+
 p2p格式&港台频道,#genre#
 东森电影台,P2p://generationnexxxt.com:19806/66adf84d000d5ed7e7d580f9459517f8
 东森电影台,P2p://generationnexxxt.com:19806/90fe82037af64fd3bfc08879b08f3e2f
