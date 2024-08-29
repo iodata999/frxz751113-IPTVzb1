@@ -1,18 +1,8 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
 #EXTINF:-1 tvg-id="北京IPTV淘电影ipv6" tvg-name="北京IPTV淘电影ipv6" tvg-logo="https://live.fanmingming.com/tv/北京IPTV淘电影ipv6.png" group-title="精选优质频道",北京IPTV淘电影ipv6
 http://39.134.135.81/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-#EXTINF:-1 tvg-id="popc电影台" tvg-name="popc电影台" tvg-logo="https://live.fanmingming.com/tv/popc电影台.png" group-title="精选优质频道",popc电影台
-http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=38
-#EXTINF:-1 tvg-id="东森电影台" tvg-name="东森电影台" tvg-logo="https://live.fanmingming.com/tv/东森电影台.png" group-title="精选优质频道",东森电影台
-http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=86
-#EXTINF:-1 tvg-id="美亚电影台" tvg-name="美亚电影台" tvg-logo="https://live.fanmingming.com/tv/美亚电影台.png" group-title="精选优质频道",美亚电影台
-http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=25
-#EXTINF:-1 tvg-id="靖天映画" tvg-name="靖天映画" tvg-logo="https://live.fanmingming.com/tv/靖天映画.png" group-title="精选优质频道",靖天映画
-http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=150
 #EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://live.fanmingming.com/tv/龙华电影.png" group-title="精选优质频道",龙华电影
 http://37.27.111.214:8080/live/19/hls.m3u8
-#EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://live.fanmingming.com/tv/龙华电影.png" group-title="精选优质频道",龙华电影
-http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=93
 #EXTINF:-1 tvg-id="河南尉氏" tvg-name="河南尉氏" tvg-logo="https://live.fanmingming.com/tv/河南尉氏.png" group-title="精选优质频道",河南尉氏
 http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="精选优质频道",梨园频道
