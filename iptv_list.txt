@@ -1,11 +1,6 @@
 精选优质频道,#genre#
 北京IPTV淘电影ipv6,http://39.134.135.81/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-popc电影台,http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=38
-东森电影台,http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=86
-美亚电影台,http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=25
-靖天映画,http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=150
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
-龙华电影,http://8.137.59.151:3009/dianshimi/fenghuang666.php?id=93
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
 梨园频道,http://dsm.ikun.hn.cn:9981/stream/channelid/1727631217?profile=pass
