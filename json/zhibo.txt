@@ -941,7 +941,7 @@ TVB Plus,http://nz171l122.bb60246.ctm.net:8892/bysid/82.m3u8
 鳳凰衛視香港台,http://nz171l122.bb60246.ctm.net:8892/bysid/85.m3u8
 
 
-p2p格式&港台频道,#genre#
+港台频道&p2p格式,#genre#
 东森电影台,P2p://generationnexxxt.com:19806/66adf84d000d5ed7e7d580f9459517f8
 东森电影台,P2p://generationnexxxt.com:19806/90fe82037af64fd3bfc08879b08f3e2f
 东森戏剧台(B),P2p://generationnexxxt.com:19806/4c925da5e039498a85b4d3fa0bfb5910
