@@ -688,7 +688,7 @@ from tqdm import tqdm
 detected_ips = {}
 # 存储文件路径
 file_path = "酒店源.txt"
-output_file_path = "酒店优选.txt"
+output_file_path = "yeye.txt"
 def get_ip_key(url):
     """从URL中提取IP地址,并构造一个唯一的键"""
     # 找到'//'到第三个'.'之间的字符串
@@ -754,7 +754,7 @@ for ip_key, result in detected_ips.items():
 
 
 ####################### 提示用户输入文件名（拖入文件操作）打开用户指定的文件对不规范频道名再次替换
-file_path = '酒店优选.txt'
+file_path = 'yeye.txt'
 # 检查文件是否存在
 if not os.path.isfile(file_path):
     print("文件不存在，请重新输入.")
@@ -861,7 +861,7 @@ replacements = {
 }
 
 
-with open('酒店优选.txt', 'w', encoding='utf-8') as new_file:
+with open('yeye.txt', 'w', encoding='utf-8') as new_file:
     for line in lines:
         # 去除行尾的换行符
         line = line.rstrip('\n')
