@@ -8,8 +8,6 @@ NewTv超级电影,http://39.134.134.47/otttv.bj.chinamobile.com/PLTV/88888888/22
 NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EBow_B3ta32lPIHmLzLPzVQ%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002640%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371670919%2CEND&GuardEncType=2
 台湾轮播&奥特曼,http://37.27.111.214:8080/live/110/hls.m3u8
 台湾轮播&经典动漫,http://37.27.111.214:8080/live/105/hls.m3u8
-NOW爆谷台,http://49.65.97.133:8180/爆谷-盗源死全家/易发TV专用/hls.m3u8
-美亚电影,http://39.101.75.133:80/美亚电影*盗源死全家/易发TV专用/hls.m3u8
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 龙华戏剧,http://37.27.111.214:8080/live/41/hls.m3u8
