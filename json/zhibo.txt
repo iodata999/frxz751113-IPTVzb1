@@ -20,9 +20,6 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 
 
 通用网络ipv6,#genre#
-动作电影,http://video.qd.sdu.edu.cn/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8
-家庭影院,http://video.qd.sdu.edu.cn/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8
-影迷电影,http://video.qd.sdu.edu.cn/liverespath/bca6167afdef7fc773405c38e695b342c1d1eca0/index.m3u8
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
 CCTV1,http://www.syl88.online:8123/PLTV/88888888/224/3221225703/10000100000000060000000000035351_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7Ep6OgLDvLzq6GN5uNV8rZ0g%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F111128%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000000035351_0%2CEND
 CCTV2,http://www.syl88.online:8123/PLTV/88888888/224/3221225881/10000100000000060000000001558309_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7ES5lcT_93jS5zJ9nCiB1u8A%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F5000036%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000001558309_0%2CEND
