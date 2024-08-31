@@ -17,10 +17,6 @@ http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u
 http://37.27.111.214:8080/live/110/hls.m3u8
 #EXTINF:-1 tvg-id="台湾轮播&经典动漫" tvg-name="台湾轮播&经典动漫" tvg-logo="https://live.fanmingming.com/tv/台湾轮播&经典动漫.png" group-title="精选优质频道",台湾轮播&经典动漫
 http://37.27.111.214:8080/live/105/hls.m3u8
-#EXTINF:-1 tvg-id="NOW爆谷台" tvg-name="NOW爆谷台" tvg-logo="https://live.fanmingming.com/tv/NOW爆谷台.png" group-title="精选优质频道",NOW爆谷台
-http://49.65.97.133:8180/爆谷-盗源死全家/易发TV专用/hls.m3u8
-#EXTINF:-1 tvg-id="美亚电影" tvg-name="美亚电影" tvg-logo="https://live.fanmingming.com/tv/美亚电影.png" group-title="精选优质频道",美亚电影
-http://39.101.75.133:80/美亚电影*盗源死全家/易发TV专用/hls.m3u8
 #EXTINF:-1 tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://live.fanmingming.com/tv/龙华电影.png" group-title="精选优质频道",龙华电影
 http://37.27.111.214:8080/live/19/hls.m3u8
 #EXTINF:-1 tvg-id="龙华日韩" tvg-name="龙华日韩" tvg-logo="https://live.fanmingming.com/tv/龙华日韩.png" group-title="精选优质频道",龙华日韩
