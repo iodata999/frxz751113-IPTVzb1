@@ -13,6 +13,16 @@ http://39.134.134.47/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226994/1.m3u
 http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EBow_B3ta32lPIHmLzLPzVQ%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002640%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371670919%2CEND&GuardEncType=2
 #EXTINF:-1 tvg-id="北京IPTV淘电影" tvg-name="北京IPTV淘电影" tvg-logo="https://live.fanmingming.com/tv/北京IPTV淘电影.png" group-title="精选优质频道",北京IPTV淘电影
 http://39.134.135.81/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1,tvg-id="台湾轮播&奥特曼" tvg-name="台湾轮播&奥特曼" tvg-logo="https://epg.112114.xyz/logo/台湾轮播&奥特曼.png" group-title="精选优质频道",台湾轮播&奥特曼
+http://37.27.111.214:8080/live/110/hls.m3u8
+#EXTINF:-1,tvg-id="台湾轮播&经典动漫" tvg-name="台湾轮播&经典动漫" tvg-logo="https://epg.112114.xyz/logo/台湾轮播&经典动漫.png" group-title="精选优质频道",台湾轮播&经典动漫
+http://37.27.111.214:8080/live/105/hls.m3u8
+#EXTINF:-1,tvg-id="龙华电影" tvg-name="龙华电影" tvg-logo="https://epg.112114.xyz/logo/龙华电影.png" group-title="精选优质频道",龙华电影
+http://37.27.111.214:8080/live/19/hls.m3u8
+#EXTINF:-1,tvg-id="龙华日韩台" tvg-name="龙华日韩台" tvg-logo="https://epg.112114.xyz/logo/龙华日韩台.png" group-title="精选优质频道",龙华日韩
+http://37.27.111.214:8080/live/42/hls.m3u8
+#EXTINF:-1,tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="https://epg.112114.xyz/logo/龙华戏剧.png" group-title="精选优质频道",龙华戏剧
+http://37.27.111.214:8080/live/41/hls.m3u8
 #EXTINF:-1 tvg-id="河南尉氏" tvg-name="河南尉氏" tvg-logo="https://live.fanmingming.com/tv/河南尉氏.png" group-title="精选优质频道",河南尉氏
 http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 #EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title="精选优质频道",梨园频道
