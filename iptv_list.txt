@@ -17,7 +17,27 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
 倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
-
+彩虹e台,P2p://generationnexxxt.com:19806/65965911000021e1a38ef6eb6d960419
+彩虹电影台,P2p://generationnexxxt.com:19806/659659670009e1e0a390495b56fe0ef5
+LOOK TV,P2p://generationnexxxt.com:19806/65965b99000447ada398db445ba341d9
+潘朵啦玩美台,P2p://generationnexxxt.com:19806/b18b7d6f932a44b68dadb6bc37a5df28
+惊艳成人电影台,P2p://generationnexxxt.com:19806/9f2fedfddd1c44159afc05fbc6d19111
+香蕉台,P2p://generationnexxxt.com:19806/c56271abc82643f7b8a2a5184f56b80d
+松视1台,P2p://generationnexxxt.com:19806/65965a69000205b2a39437282edd171f
+松视2台,P2p://generationnexxxt.com:19806/65965a69000aa6b2a394396a278d2960
+松视3台,P2p://generationnexxxt.com:19806/65965a6a000397c7a3943b7d68302409
+HAPPY,P2p://generationnexxxt.com:19806/659660790009efada3abe7bb6374465e
+JStar极限台,P2p://generationnexxxt.com:19806/65965afc0003ca30a39675dd41a40275
+K,P2p://generationnexxxt.com:19806/659660d600094f04a3ad52d46ed26cbc
+PLAYBOY,P2p://generationnexxxt.com:19806/a1bdd4044b1241498c615ee02ab4e868
+Miami TV Latino (18+),http://59ec5453559f0.streamlock.net/canal18/smil:canal18/chunklist_b2592000.m3u8
+Babestation(18+),http://ss3.firestormmedia.tv:1935/cellcast2/smil:encoder5.smil/chunklist_b1500000.m3u8
+驚豔,tvbus://12A5bEpUCFgdMymRKV6Pt2B1aa73T3dgQ4RpnRs79XDmsC8z4bZ
+樂活,tvbus://12LeSgDioVBoEhqojnrZwksGCgEJZdTove5ArEHzLBoZB1FTgY4
+舒活,tvbus://1tTzQsd1BtHiUekzgKfBZAmWTutYusa8hEikfqLm2YjGYsuRqX
+无名台1,http://ss3.firestormmedia.tv:1935/cellcast2/smil:encoder5.smil/chunklist_b1500000.m3u8
+无名台2,http://studio1.vntvstudios.com:5380/live/MainStudio1.m3u8
+无名台3,http://de-origin-live.3qsdn.com:1935/2346/Ct6zG7Nrj3v2JxD/playlist.m3u8
 通用网络ipv6,#genre#
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
 CCTV1,http://www.syl88.online:8123/PLTV/88888888/224/3221225703/10000100000000060000000000035351_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7Ep6OgLDvLzq6GN5uNV8rZ0g%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F111128%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000000035351_0%2CEND
