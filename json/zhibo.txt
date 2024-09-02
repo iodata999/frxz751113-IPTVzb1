@@ -1098,14 +1098,6 @@ Love Nature,P2p://generationnexxxt.com:19806/95909f6c10614748a8d824e33bdfaad0
 Mezzo Live,P2p://generationnexxxt.com:19806/c87ec7818611487095699a6f5d65e9c4
 MOMO亲子台,P2p://generationnexxxt.com:19806/e15e61548a2b4ff792b3dd6620be8139
 MOMO综合台,P2p://generationnexxxt.com:19806/bc7a77f2d1a54242a2b845916fcb726c
-NHK新闻资讯台,P2p://generationnexxxt.com:19806/6dd38f99d9ca484aa3f0a2a50f60ba0f
-Nick Jr.,P2p://generationnexxxt.com:19806/0fdb4f78ab6f498f88c12ca5a34fffc2
-Nick Jr.,P2p://generationnexxxt.com:19806/66ae0e0c0003ff9de82a70a05bc00a78
-now财经台(B),P2p://generationnexxxt.com:19806/415e15f33f8b4b5b95a400a406abd534
-now财经台,P2p://generationnexxxt.com:19806/415e15f33f8b4b5b95a400a406abd534#P2p://generationnexxxt.com:19806/f0dd1f92af2845c2abd2ff29aff2b8ca
-now财经台,P2p://generationnexxxt.com:19806/f0dd1f92af2845c2abd2ff29aff2b8ca
-now新闻台(B),P2p://generationnexxxt.com:19806/b9ba3f0b06b14fe69ac2cbf51c77d816
-now新闻台,P2p://generationnexxxt.com:19806/86a69c6de155405ba916819e2634aa74
 TVBPlus,P2p://generationnexxxt.com:19806/faf51cf453a84400be019b14939e49f6#P2p://147.135.39.171:9906/65fd6048000be8b2a085bc4d061c504d
 TVBS(B),P2p://generationnexxxt.com:19806/9e185dd6c7dd46edb5a7d675e4fca701
 TVBS,P2p://generationnexxxt.com:19806/5fe15c41a5ed4d5f9262ee28464c45c0
