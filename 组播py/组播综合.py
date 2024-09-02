@@ -372,6 +372,10 @@ with open('TW.txt', 'r', encoding='utf-8') as file, open('a.txt', 'w', encoding=
           a.write(line)  # 将该行写入输出文件
 for line in fileinput.input("a.txt", inplace=True):   #打开临时文件原地替换关键字
     line = line.replace("﻿Taiwan,#genre#", "")                         #编辑替换字
+    line = line.replace("动作电影", "CHC动作电影")      
+    line = line.replace("影迷电影", "CHC影迷电影")       
+    line = line.replace("八大第1台", "八大第一台")      
+    line = line.replace("纬来精彩", "纬来精采")      
     line = line.replace("[720p]", "")      
     line = line.replace("[1080p]", "")            #编辑替换字
     print(line, end="")                                     #加入此行去掉多余的转行符
