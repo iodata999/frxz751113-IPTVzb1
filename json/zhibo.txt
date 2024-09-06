@@ -22,7 +22,6 @@ CCTV4K超高清,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.245:2000
 龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 龙华戏剧,http://37.27.111.214:8080/live/41/hls.m3u8
-东森电影,http://221.7.239.115:8181/tsfile/live/1036_1.m3u8?key=txiptv&playlive=0&authid=0
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
 梨园频道,http://home.js001.com:7777/stream/channelid/782734182?profile=pass
