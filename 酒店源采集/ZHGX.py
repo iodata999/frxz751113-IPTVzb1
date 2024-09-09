@@ -33,7 +33,7 @@ from translate import Translator  # 导入Translator类,用于文本翻译
 import requests
 
 urls = [
-    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",  #广东
+    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",  #广东
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFueGki",  #山西
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg==",  #四川
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZW5hbiI=",  #河南
