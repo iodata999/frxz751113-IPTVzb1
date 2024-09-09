@@ -29,25 +29,25 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
 梨园频道,http://home.js001.com:7777/stream/channelid/782734182?profile=pass
-求索动物, http://home.isvvv.com:5050/itv/wasusyt/6000000002000010046?server=tv.jyang.eu.org:38000
-求索纪录, http://home.isvvv.com:5050/itv/wasusyt/6000000002000032052?server=tv.jyang.eu.org:38000
-求索科学, http://home.isvvv.com:5050/itv/wasusyt/6000000002000032344?server=tv.jyang.eu.org:38000
-求索生活, http://home.isvvv.com:5050/itv/wasusyt/6000000002000003382?server=tv.jyang.eu.org:38000
-IHOT爱谍战,http://home.isvvv.com:5050/itv/wasusyt/6000000006000070630?server=tv.jyang.eu.org:38000
-IHOT爱动漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000280630?server=tv.jyang.eu.org:38000
-IHOT爱科幻,http://home.isvvv.com:5050/itv/wasusyt/6000000006000020630?server=tv.jyang.eu.org:38000
-IHOT爱科学,http://home.isvvv.com:5050/itv/wasusyt/6000000006000160630?server=tv.jyang.eu.org:38000
-IHOT爱浪漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000040630?server=tv.jyang.eu.org:38000
-IHOT爱历史,http://home.isvvv.com:5050/itv/wasusyt/6000000006000150630?server=tv.jyang.eu.org:38000
-IHOT爱旅行,http://home.isvvv.com:5050/itv/wasusyt/6000000006000250630?server=tv.jyang.eu.org:38000
-IHOT爱奇谈,http://home.isvvv.com:5050/itv/wasusyt/6000000006000270630?server=tv.jyang.eu.org:38000
-IHOT爱赛车,http://home.isvvv.com:5050/itv/wasusyt/6000000006000240630?server=tv.jyang.eu.org:38000
-IHOT爱体育,http://home.isvvv.com:5050/itv/wasusyt/6000000006000290630?server=tv.jyang.eu.org:38000
-IHOT爱玩具,http://home.isvvv.com:5050/itv/wasusyt/6000000006000220630?server=tv.jyang.eu.org:38000
-IHOT爱喜剧,http://home.isvvv.com:5050/itv/wasusyt/6000000006000010630?server=tv.jyang.eu.org:38000
-IHOT爱悬疑,http://home.isvvv.com:5050/itv/wasusyt/6000000006000050630?server=tv.jyang.eu.org:38000
-IHOT爱幼教,http://home.isvvv.com:5050/itv/wasusyt/6000000006000180630?server=tv.jyang.eu.org:38000
-IHOT爱院线,http://home.isvvv.com:5050/itv/wasusyt/6000000006000030630?server=tv.jyang.eu.org:38000
+求索动物, http://home.isvvv.com:5050/itv/wasusyt/6000000002000010046
+求索纪录, http://home.isvvv.com:5050/itv/wasusyt/6000000002000032052
+求索科学, http://home.isvvv.com:5050/itv/wasusyt/6000000002000032344
+求索生活, http://home.isvvv.com:5050/itv/wasusyt/6000000002000003382
+IHOT爱谍战,http://home.isvvv.com:5050/itv/wasusyt/6000000006000070630
+IHOT爱动漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000280630
+IHOT爱科幻,http://home.isvvv.com:5050/itv/wasusyt/6000000006000020630
+IHOT爱科学,http://home.isvvv.com:5050/itv/wasusyt/6000000006000160630
+IHOT爱浪漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000040630
+IHOT爱历史,http://home.isvvv.com:5050/itv/wasusyt/6000000006000150630
+IHOT爱旅行,http://home.isvvv.com:5050/itv/wasusyt/6000000006000250630
+IHOT爱奇谈,http://home.isvvv.com:5050/itv/wasusyt/6000000006000270630
+IHOT爱赛车,http://home.isvvv.com:5050/itv/wasusyt/6000000006000240630
+IHOT爱体育,http://home.isvvv.com:5050/itv/wasusyt/6000000006000290630
+IHOT爱玩具,http://home.isvvv.com:5050/itv/wasusyt/6000000006000220630
+IHOT爱喜剧,http://home.isvvv.com:5050/itv/wasusyt/6000000006000010630
+IHOT爱悬疑,http://home.isvvv.com:5050/itv/wasusyt/6000000006000050630
+IHOT爱幼教,http://home.isvvv.com:5050/itv/wasusyt/6000000006000180630
+IHOT爱院线,http://home.isvvv.com:5050/itv/wasusyt/6000000006000030630
 倩女幽魂妖魔道,http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
 倩女幽魂人间道,http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
 倩女幽魂道道道,http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
