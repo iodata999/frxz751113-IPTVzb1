@@ -157,7 +157,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["北京联通.txt", "江苏电信.txt", "天津联通.txt", "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
+file_paths = ["北京联通.txt", "江苏电信.txt", "天津联通.txt", "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -301,7 +301,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f.txt', 'w', en
 
 
 ###############f1
-keywords = ['k卫视', 'kk']  # 需要提取的关键字列表
+keywords = ['卫视', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('f1.txt', 'w', encoding='utf-8') as f1:    #####定义临时文件名
@@ -337,7 +337,7 @@ with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
-    b.write('\n🩶港台频道2&爬虫更新,#genre#\n')                                                                        ###########
+    b.write('\n🩶港台频道2&爬虫,#genre#\n')                                                                        ###########
     for line in file:  
       if 'CCTV' not in line and '卫视' not in line and 'kk' not in line and 'kk' not in line and 'genre' not in line:###########
         if re.search(pattern, line):  # 如果行中有任意关键字                                                ###########
