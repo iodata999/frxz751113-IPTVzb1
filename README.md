@@ -1,9 +1,5 @@
 
-
-
-![VLC Network Panel](https://github.com/mengxianshengaaa/IPTV/raw/master/images/example.png)
-
-![图片说明](https://github.com/mengxianshengaaa/IPTV/blob/master/images/example.png)
+py每天上午更新，直播源早晚会随着热情衰减，从而减少维护，您的赞赏可以激发维护动力。为爱发电
 
 ![图片说明](example.png)
 
