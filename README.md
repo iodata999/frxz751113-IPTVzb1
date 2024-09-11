@@ -4,6 +4,8 @@
 
 ![图片说明](https://github.com/mengxianshengaaa/IPTV/blob/master/images/example.jpg)
 
+![图片说明](https://github.com/another - mengxianshengaaa/another - IPTV/blob/master/images/another - example.jpg)
+
 安装运行库：pip install 所需库 -i 国内源或pip3 install 所需库 -i 国内源
 
 pip install requests -i https://pypi.tuna.tsinghua.edu.cn/simple
