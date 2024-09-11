@@ -1,9 +1,9 @@
 
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/mengxianshengaaa/IPTV/main/iptv_list.m3u
 
 
 
-
-![图片说明](https://github.com/another - mengxianshengaaa/another - IPTV/blob/master/images/another - example.jpg)
+![图片说明]((https://raw.githubusercontent.com/mengxianshengaaa/IPTV/blob/master/images/example.jpg)
 
 安装运行库：pip install 所需库 -i 国内源或pip3 install 所需库 -i 国内源
 
