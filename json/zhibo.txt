@@ -24,7 +24,7 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 龙华戏剧,http://37.27.111.214:8080/live/41/hls.m3u8
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
-河南卫视,http://221.0.78.198:1681/hls/10259/index.m3u8
+河南卫视,http://61.163.181.78:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
 梨园频道,http://home.js001.com:7777/stream/channelid/782734182?profile=pass
 翡翠台,http://i2.ekesh.cn:4001/rtp/239.12.22.121:10001
