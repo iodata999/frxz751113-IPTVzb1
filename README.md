@@ -2,7 +2,6 @@
 
 
 
-![图片说明](https://github.com/mengxianshengaaa/IPTV/blob/master/images/example.jpg)
 
 ![图片说明](https://github.com/another - mengxianshengaaa/another - IPTV/blob/master/images/another - example.jpg)
 
