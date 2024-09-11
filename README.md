@@ -1,7 +1,7 @@
 
 
 
-![VLC Network Panel](https://github.com/mengxianshengaaa/IPTV/raw/master/images/example.jpg)
+![VLC Network Panel](https://github.com/mengxianshengaaa/IPTV/raw/master/images/example.png)
 
 ![图片说明](https://github.com/mengxianshengaaa/IPTV/blob/master/images/example.png)
 
