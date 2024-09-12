@@ -49,9 +49,11 @@ jobs:
         run: pip install tqdm
 
       - name: Run iptv
-        run: python ${{ github.workspace }}/酒店源采集/ZHGX.py 
+        #run: python ${{ github.workspace }}/酒店源采集/ZHGX.py 
       #- name: Run iptv
-        #run: python ${{ github.workspace }}/组播py/创建运行时间.py 
+        run: python ${{ github.workspace }}/组播py/创建运行时间.py 
+      - name: Run iptv
+        run: python ${{ github.workspace }}/组播py/文件合并.py 
      
       - name: 提交更改
         run: |
