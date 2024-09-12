@@ -30,7 +30,6 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 翡翠台,http://i2.ekesh.cn:4001/rtp/239.12.22.121:10001
 明珠台,http://i2.ekesh.cn:4001/rtp/239.12.22.122:10001
 新视觉,http://i2.ekesh.cn:4001/rtp/239.12.22.33:10001
-新视觉,http://1.1.12119.top:2222/udp/239.132.1.53:5000
 南国都市4K,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 
 
@@ -38,7 +37,6 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 💚4K频道&数字,#genre#
 北京纪实科教8K,http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 自然4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-峨眉电影4K,http://1.1.12119.top:2222/udp/239.132.1.87:5000
 峨眉电影,http://syswareonline.com:7088/udp/239.11.0.11:5140
 欢笑剧场4K,http://www.syl88.online:8123/PLTV/88888888/224/3221225895/10000100000000060000000001580154_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7EW3Xq0MWMUhrj9Wm313LoIA%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F6000048%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000001580154_0%2CEND
 CCTV4K超高清,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.245:2000
