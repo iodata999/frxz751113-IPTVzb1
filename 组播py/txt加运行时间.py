@@ -6,9 +6,7 @@ file_path = "runtime.txt"
 with open(file_path, 'r+', encoding='utf-8') as f:
     content = f.read()
     f.seek(0, 0)
-    f.write(f'更新时间,#genre#\n')
-    f.write(f'请您欣赏,https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n')
-    f.write(f'{current_time},#genre#\n')
+    f.write(f'更新日期{current_time},#genre#\n')
     f.write(f'虚情的爱,https://vd2.bdstatic.com/mda-mi1dd05gmhwejdwn/sc/cae_h264/1630576203346678103/mda-mi1dd05gmhwejdwn.mp4\n{content}')
 
     
