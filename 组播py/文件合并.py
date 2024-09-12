@@ -2,26 +2,16 @@ import os
 import glob
 
 
-def merge_files(folder_path, output_file):
-    # 获取文件夹中的所有文件
-    files = glob.glob(os.path.join(folder_path, '*'))
-
-    # 创建一个新的文件用于合并
-    with open(output_file, 'w') as outfile:
-        # 遍历文件夹中的每个文件
-        for file in files:
-            # 打开文件并读取内容
-            with open(file, 'r') as infile:
-                # 将文件内容写入到新的文件中
-                outfile.write(infile.read())
-                # 添加换行符以分隔不同文件的内容
-                outfile.write('')
-
-# 使用示例
-folder_path = 'outfiles'  # 替换为你的文件夹路径
-output_file = '组播源.txt'  # 替换为你想要保存合并后的文件名
-merge_files(folder_path, output_file)
+def merge_txt_files(runtime.txt, iptv_list.txt):
+    try:
+        with open(runtime.txt, 'a') as f1:
+            with open(iptv_list.txt, 'r') as f2:
+                for line in f2:
+                    f1.write(line)
+        print(f"已成功将 {iptv_list.txt} 合并到 {runtime.txt}")
+    except FileNotFoundError as e:
+        print(f"错误：{e}")
 
 
-
-
+if __name__ == "__main__":
+    merge_txt_files('runtime.txt', 'iptv_list.txt')
