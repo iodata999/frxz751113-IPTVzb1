@@ -432,7 +432,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):   #打开临时文�
     line = line.replace("CHC", "CHC")  
     print(line, end="")   
 
-with open('runtime.txt', 'r', encoding="utf-8") as file:
+with open('iptv_list.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
  
 # 使用列表来存储唯一的行的顺序 
