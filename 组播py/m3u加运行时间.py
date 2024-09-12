@@ -1,7 +1,7 @@
 import datetime
 
 
-def add_update_time_to_m3u(runtime):
+def add_update_time_to_m3u(iptv_list):
     update_time = datetime.datetime.now().strftime("%Y-%m-%d")
     comment_line = f"# Updated at: {update_time}\n"
 
