@@ -467,17 +467,21 @@ with open('iptv_list.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 
 ######################TXT转M3U#####################################################################################################################################################
+
+
 #TXT转M3U#
+import datetime
 def txt_to_m3u(input_file, output_file):
     # 读取txt文件内容
     with open(input_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
     # 打开m3u文件并写入内容
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")   
-    with open(output_file, 'w', encoding='utf-8') as f:
-        f.write(f'##最后更新时间: {current_time}\n')
+    now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
+    current_time = now.strftime("%m-%d %H:%M")
+    with open(output_file, 'w', encoding='utf-8') as f:  
         f.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"\n')
+        f.write(f'#EXTINF:-1 group-title="💚更新时间{current_time}",河南卫视\n')    
+        f.write(f'http://61.163.181.78:9901/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0\n')    
         # 初始化genre变量
         genre = ''
         # 遍历txt文件内容
@@ -498,9 +502,6 @@ def txt_to_m3u(input_file, output_file):
 
 # 将txt文件转换为m3u文件
 txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
-
-
-
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
