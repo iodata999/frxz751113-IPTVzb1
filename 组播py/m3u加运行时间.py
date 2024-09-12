@@ -2,18 +2,16 @@ import datetime
 
 
 def add_run_time_to_m3u(m3u_file_path):
-    # 获取当前日期和时间并格式化为字符串
-    run_time = datetime.datetime.now().strftime("%Y-%m - d %H:%M:%S")
-    comment_line = f"# Python运行时间: {run_time}\n"
-
+    # 获取当前时间并格式化为字符串
+    now = datetime.datetime.now()
+    time_str = now.strftime("# Python运行时间: %Y-%m-%d %H:%M:%S\n")
     try:
         with open(m3u_file_path, 'r') as f:
             lines = f.readlines()
             if len(lines) >= 2:
-                lines.insert(1, comment_line)
+                lines.insert(1, time_str)
             else:
-                lines.append(comment_line)
-
+                lines.append(time_str)
         with open(m3u_file_path, 'w') as f:
             f.writelines(lines)
         print(f"已成功在 {m3u_file_path} 的第二行添加运行时间注释。")
