@@ -53,10 +53,10 @@ jobs:
         #run: python ${{ github.workspace }}/酒店源采集/ZHGX.py      #这里更改要运行的py
       - name: Run iptv
         run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py     
-      - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/txt加运行时间.py 
-      - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/txt加运行时间2.py 
+      #- name: Run iptv
+        #run: python ${{ github.workspace }}/组播py/txt加运行时间.py 
+      #- name: Run iptv
+        #run: python ${{ github.workspace }}/组播py/txt加运行时间2.py 
 
 
       - name: 提交更改
