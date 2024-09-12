@@ -21,5 +21,5 @@ def add_run_time_to_m3u(iptv_list):
 
 
 if __name__ == "__main__":
-    m3u_file_path = "your_m3u_file.m3u"
+    m3u_file_path = "iptv_list.m3u"
     add_run_time_to_m3u(m3u_file_path)
