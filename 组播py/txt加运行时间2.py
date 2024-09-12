@@ -4,7 +4,7 @@ import glob
 
 def merge_txt_files(runtime, iptv_list):
     try:
-        with open(runtime, 'a') as f1:
+        with open(runtime, 'w') as f1:
             with open(iptv_list, 'r') as f2:
                 for line in f2:
                     f1.write(line)
