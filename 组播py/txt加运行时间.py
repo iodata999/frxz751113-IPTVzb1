@@ -5,12 +5,16 @@ import datetime
 def add_run_date_to_txt(txt_file_path):
     # 获取当前日期
     current_date = datetime.datetime.now()
-    date_str = current_date.strftime("%Y-%m - d %H:%M:%S")
+    date_str = current_date.strftime("%Y-%m-%d")
 
     try:
-        with open(txt_file_path, 'a') as f:
-            f.write(f"Python运行日期：{date_str}\n")
-        print(f"已成功将运行日期添加到 {txt_file_path}")
+        with open(txt_file_path, 'r') as f:
+            content = f.read()
+        new_content = date_str + '\n' + content
+
+        with open(txt_file_path, 'w') as f:
+            f.write(new_content)
+        print(f"已成功在 {txt_file_path} 的第一行添加运行日期。")
     except FileNotFoundError:
         print(f"文件 {txt_file_path} 未找到。")
 
