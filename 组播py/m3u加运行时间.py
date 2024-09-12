@@ -47,7 +47,7 @@ def txt_to_m3u(input_file, output_file):
                     f.write(f"{channel_url}\n")
 
 
-if __name__ == "__main__":
-    txt_file_path = "ceshi.txt"
-    m3u_file_path = "ceshi.m3u"
-    txt_to_m3u("ceshi.txt", "ceshi.m3u")
+
+
+
+txt_to_m3u("1.txt", "1.m3u")
