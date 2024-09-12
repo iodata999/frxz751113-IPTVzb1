@@ -27,4 +27,4 @@ def txt_to_m3u(input_file, output_file):
 if __name__ == "__main__":
     input_file = "ceshi.txt"
     output_file = "ceshi.m3u"
-    txt_to_m3u(txt_file_path, m3u_file_path)
+    txt_to_m3u(input_file, output_file)
