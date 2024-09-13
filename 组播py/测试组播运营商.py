@@ -157,7 +157,7 @@ import replace
 import fileinput
 from opencc import OpenCC
 file_contents = []
-file_paths = ["北京联通.txt", "江苏电信.txt", "天津联通.txt", "湖南电信.txt", "陕西电信.txt", "四川电信.txt", "河南电信.txt", "河南联通.txt"]  # 替换为实际的文件路径列表
+file_paths = ["四川移动.txt", "四川电信.txt", "四川联通.txt"]  # 替换为实际的文件路径列表
 for file_path in file_paths:
     if os.path.exists(file_path):
         with open(file_path, 'r', encoding="utf-8") as file:
@@ -423,7 +423,7 @@ for file_path in file_paths:
         file_contents.append(content)
 ###########################################################################################################################################################################
 # 写入合并后的文件
-with open("iptv_list.txt", "w", encoding="utf-8") as output:
+with open("测试组播运营商.txt", "w", encoding="utf-8") as output:
     output.write(''.join(file_contents))   #加入\n则多一空行
 
 for line in fileinput.input("iptv_list.txt", inplace=True):   #打开临时文件原地替换关键字
@@ -432,7 +432,7 @@ for line in fileinput.input("iptv_list.txt", inplace=True):   #打开临时文�
     line = line.replace("CHC", "CHC")  
     print(line, end="")   
 
-with open('iptv_list.txt', 'r', encoding="utf-8") as file:
+with open('测试组播运营商.txt', 'r', encoding="utf-8") as file:
  lines = file.readlines()
  
 # 使用列表来存储唯一的行的顺序 
@@ -446,7 +446,7 @@ for line in lines:
   seen_lines.add(line)
 
 # 将唯一的行写入新的文档 
-with open('iptv_list.txt', 'w', encoding="utf-8") as file:
+with open('测试组播运营商.txt', 'w', encoding="utf-8") as file:
  file.writelines(unique_lines)
 
 
@@ -456,14 +456,14 @@ with open('iptv_list.txt', 'w', encoding="utf-8") as file:
 converter = OpenCC('t2s.json')#繁转简
 #converter = OpenCC('s2t.json')#简转繁
 # 打开txt文件
-with open('iptv_list.txt', 'r', encoding='utf-8') as file:
+with open('测试组播运营商.txt', 'r', encoding='utf-8') as file:
     traditional_text = file.read()
 
 # 进行繁体字转简体字的转换
 simplified_text = converter.convert(traditional_text)
 
 # 将转换后的简体字写入txt文件
-with open('iptv_list.txt', 'w', encoding='utf-8') as file:
+with open('测试组播运营商.txt', 'w', encoding='utf-8') as file:
     file.write(simplified_text)
 
 ######################TXT转M3U#####################################################################################################################################################
@@ -501,7 +501,7 @@ def txt_to_m3u(input_file, output_file):
 
 
 # 将txt文件转换为m3u文件
-txt_to_m3u('iptv_list.txt', 'iptv_list.m3u')
+txt_to_m3u('测试组播运营商.txt', '测试组播运营商.m3u')
 
 
 #任务结束，删除不必要的过程文件###########################################################################################################################
@@ -514,4 +514,4 @@ for file in files_to_remove:
     else:              # 如果文件不存在，则提示异常并打印提示信息
         print(f"文件 {file} 不存在，跳过删除。")
 
-print("任务运行完毕，分类频道列表可查看文件夹内iptv_list.txt文件！")
+print("任务运行完毕，分类频道列表可查看文件夹内测试组播运营商.txt文件！")
