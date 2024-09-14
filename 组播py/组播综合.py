@@ -198,7 +198,7 @@ with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c.txt', 'w', en
 
 
 #从整理好的文本中按类别进行特定关键词提取#############################################################################################
-keywords = ['IHOT爱', '北京IPTV', '梨园', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
+keywords = ['IHOT爱', '北京IPTV', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk', 'kk']  # 需要提取的关键字列表
 pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字
 #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制
 with open('iptv_list.txt', 'r', encoding='utf-8') as file, open('c2.txt', 'w', encoding='utf-8') as c2:    #####定义临时文件名
