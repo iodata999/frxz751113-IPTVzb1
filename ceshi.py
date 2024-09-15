@@ -7,8 +7,8 @@ import time
 
 
 def dynamic_file_naming():
-    # 获取当前时间的月日信息
-    now = time.localtime()
+    # 获取当前北京时间（UTC+8）的月日信息
+    now = time.localtime(time.time() + 8 * 3600)
     month_day = time.strftime('%m-%d %H:%M:%S', now)
     file_extension = '.txt'
     new_file_name = f'file_{month_day}{file_extension}'
@@ -32,25 +32,12 @@ def dynamic_file_naming():
         with open(new_file_name, 'w') as f:
             pass
 
-    # 添加删除.bak文件的代码
-    for file in os.listdir('.'):
-        if file.endswith('.bak'):
-            try:
-                os.remove(file)
-                print(f"已删除备份文件: {file}")
-            except OSError as e:
-                print(f"删除 {file} 时出错: {e}")
-
     return new_file_name
 
 
 if __name__ == '__main__':
     new_name = dynamic_file_naming()
     print(f'新文件名为: {new_name}')
-    
-
-
-
 
 
 
