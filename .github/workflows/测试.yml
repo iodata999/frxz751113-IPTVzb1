@@ -47,6 +47,12 @@ jobs:
         run: pip install pytz 
       - name: Install dependencies
         run: pip install tqdm
+      - name: Grant file permissions
+        run: sudo chmod -R 777. # 这一步给予当前目录下所有文件和文件夹完全权限，这是一个比较简单粗暴的方法，在实际生产环境中需要更谨慎的权限设置
+
+
+
+
 
       - name: Run iptv
         run: python ${{ github.workspace }}/ceshi.py 
