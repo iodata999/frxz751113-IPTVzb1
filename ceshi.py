@@ -25,7 +25,7 @@ def dynamic_file_naming():
 
     
     else:
-         如果没有旧文件，直接创建新文件
+         #如果没有旧文件，直接创建新文件
        with open(new_file_name, 'w') as f:
          pass
       return new_file_name# 四行代码找不到文件创建新文件
