@@ -123,83 +123,363 @@
  https://t21.cdn2020.com/video/m3u8/2023/03/27/36a3c2e2/index.m3u8
 #EXTINF:-1,62
  https://t21.cdn2020.com/video/m3u8/2023/04/11/8b8e83f0/index.m3u8
-#EXTINF:-1,63
- https://vip1.slbfsl.com/20221016/mGB4OsHe/index.m3u8
-#EXTINF:-1,64
- https://vip1.slbfsl.com/20221016/D5eWJFFH/index.m3u8
-#EXTINF:-1,65
- https://vip1.slbfsl.com/20221025/tMO6PZ2h/index.m3u8
-#EXTINF:-1,66
- https://vip1.slbfsl.com/20221026/LvxQ9MSM/index.m3u8
-#EXTINF:-1,67
- https://vip1.slbfsl.com/20221026/lNQFKppu/index.m3u8
-#EXTINF:-1,68
- https://vip1.slbfsl.com/20221026/FnxlfA9v/index.m3u8
-#EXTINF:-1,69
- https://vip1.slbfsl.com/20221026/TwszBvPr/index.m3u8
-#EXTINF:-1,70
- https://vip1.slbfsl.com/20221026/0syfhs47/index.m3u8
-#EXTINF:-1,71
- https://vip1.slbfsl.com/20221027/vGoKS7Y4/index.m3u8
-#EXTINF:-1,72
- https://vip1.slbfsl.com/20221101/BMoHXPdy/index.m3u8
-#EXTINF:-1,73
- https://vip2.slbfsl.com/20230330/g20JNvRr/index.m3u8
-#EXTINF:-1,74
- https://vip2.slbfsl.com/20230330/BoK9KIV6/index.m3u8
-#EXTINF:-1,75
- https://vip1.slbfsl.com/20220807/OxCN6Y5O/index.m3u8
-#EXTINF:-1,76
- https://vip1.slbfsl.com/20220807/pU1ajEzy/index.m3u8
-#EXTINF:-1,77
- https://vip1.slbfsl.com/20220807/uxVeDTXN/index.m3u8
-#EXTINF:-1,78
- https://vip1.slbfsl.com/20220807/P7l8gqiF/index.m3u8
-#EXTINF:-1,79
- https://vip1.slbfsl.com/20220807/iTLTMXiI/index.m3u8
-#EXTINF:-1,80
- https://vip1.slbfsl.com/20220807/OpBOLyey/index.m3u8
-#EXTINF:-1,81
- https://vip1.slbfsl.com/20220807/eEHeRiYD/index.m3u8
-#EXTINF:-1,82
- https://vip1.slbfsl.com/20220807/GlD3SKK6/index.m3u8
-#EXTINF:-1,83
- https://vip1.slbfsl.com/20220807/vlQ4XzPg/index.m3u8
-#EXTINF:-1,84
- https://vip1.slbfsl.com/20220807/U5cllI8K/index.m3u8
-#EXTINF:-1,85
- https://vip1.slbfsl.com/20220807/DxmMcVGK/index.m3u8
-#EXTINF:-1,86
- https://vip1.slbfsl.com/20220807/4Xbc7W19/index.m3u8
-#EXTINF:-1,87
- https://vip1.slbfsl.com/20220807/TDaTPTMy/index.m3u8
-#EXTINF:-1,88
- https://vip1.slbfsl.com/20220807/K9X4ZE7J/index.m3u8
-#EXTINF:-1,89
- https://vip2.slbfsl.com/20230227/XuBpN6Pt/index.m3u8
-#EXTINF:-1,90
- https://vip2.slbfsl.com/20230228/dVpWjPBq/index.m3u8
-#EXTINF:-1,91
- https://vip2.slbfsl.com/20230302/bvBMDo6p/index.m3u8
-#EXTINF:-1,92
- https://vip2.slbfsl.com/20230304/w3U5PLjp/index.m3u8
-#EXTINF:-1,93
- https://vip2.slbfsl.com/20230310/9l7sbVP4/index.m3u8
-#EXTINF:-1,94
- https://vip2.slbfsl.com/20230311/KtaFXY7a/index.m3u8
-#EXTINF:-1,95
- https://vip2.slbfsl.com/20230322/4x81IGGR/index.m3u8
-#EXTINF:-1,96
- https://vip2.slbfsl.com/20230323/8YoiYdFt/index.m3u8
-#EXTINF:-1,97
- https://vip2.slbfsl.com/20230323/yGXNApUx/index.m3u8
-#EXTINF:-1,98
- https://vip2.slbfsl.com/20230324/Vt3UwscY/index.m3u8
-#EXTINF:-1,99
- https://vip2.slbfsl.com/20230326/yiLaD7IQ/index.m3u8
-#EXTINF:-1,100
- https://t21.cdn2020.com/video/m3u8/2023/04/21/a7e7c144/index.m3u8
-#EXTM3U
+#EXTINF:-1,tvg-id="潘多拉" tvg-name="潘多拉" tvg-logo="https://epg.112114.xyz/logo/潘多拉.png" group-title="其他",潘多拉
+http://104.194.10.200:25461/live/931236765783/704469805966/3.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="香蕉台" tvg-name="香蕉台" tvg-logo="https://epg.112114.xyz/logo/香蕉台.png" group-title="其他",香蕉台
+http://104.194.10.200:25461/live/931236765783/704469805966/4.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="惊艳台" tvg-name="惊艳台" tvg-logo="https://epg.112114.xyz/logo/惊艳台.png" group-title="其他",惊艳台
+http://104.194.10.200:25461/live/931236765783/704469805966/1.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="松 视1" tvg-name="松 视1" tvg-logo="https://epg.112114.xyz/logo/松视1.png" group-title="其他",松 视1
+http://104.194.10.200:25461/live/931236765783/704469805966/5.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="Z" tvg-name="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png" group-title="北京",松视1http://z3.ubtvfans.com/live/rx3/402/733039a795cd903623dd9c87385ee32b/index.m3u8
+undefined
+#EXTINF:-1,tvg-id="松 视2" tvg-name="松 视2" tvg-logo="https://epg.112114.xyz/logo/松视2.png" group-title="其他",松 视2
+http://104.194.10.200:25461/live/931236765783/704469805966/6.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="松 视3" tvg-name="松 视3" tvg-logo="https://epg.112114.xyz/logo/松视3.png" group-title="其他",松 视3
+http://104.194.10.200:25461/live/931236765783/704469805966/20205.m3u8?token=SRVZVERZGl8UVAMDVFgBA1JRVVBbXlQFUlNXWVQHCwUCBQUCVgkJVgQSGhZFTRdVVl1rWwYaXAMbE0FLBERmClYVCxcGAQpHGhJCXVtcRwoHHBZCC1xECBUDAwtQBhtPEFJJQVJDVgRab1JRQFAGVRUKWkcOVEoQWF9rXARbWA1WFQsXBxMUR19DRhYMVxBcWxwWUAtMFFNDVBYCQwUNUAIVHRdUXk0LQkJPFgwbMGMVHBZXGkwDXERYW1ZDDBsOAUIJFxsTURZpQlNHQksAUVpVRhBYGlYQGxNZWRlpWgxcWVRWQ1hXC0USDBYPAFwJFRwWXw1WD0ZYQ2tICFIbWRAFBgcCBxoY
+#EXTINF:-1,tvg-id="Hustler HD" tvg-name="Hustler HD" tvg-logo="https://epg.112114.xyz/logo/HUSTLER.png" group-title="其他",Hustler HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwiYSI6Imh0dHA6Ly8xOTUuMjExLjI3LjE1Mjo4ODg3LzgxMjgvdGltZXNoaWZ0X2Ficy1bdGltZV9zdGFydF0ubTN1OD90b2tlbj1bc3RiX3Rva2VuXVtjdXJyX3RpbWVdIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMTIwIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODEyOC9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Шелк" tvg-name="Шелк" tvg-logo="https://epg.112114.xyz/logo/ШЕЛК.png" group-title="其他",Шелк
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwiYSI6Imh0dHA6Ly8xOTUuMjExLjI3LjE1Mzo4ODg3LzgxMjkvdGltZXNoaWZ0X2Ficy1bdGltZV9zdGFydF0ubTN1OD90b2tlbj1bc3RiX3Rva2VuXVtjdXJyX3RpbWVdIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMTIxIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODEyOS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Z" tvg-name="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png" group-title="其他",Brazzers TV
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwiYSI6Imh0dHA6Ly8xOTUuMjExLjI3LjE1Mzo4ODg3LzgxMzEvdGltZXNoaWZ0X2Ficy1bdGltZV9zdGFydF0ubTN1OD90b2tlbj1bc3RiX3Rva2VuXVtjdXJyX3RpbWVdIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDc2IiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODEzMS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Шалун HD" tvg-name="Шалун HD" tvg-logo="https://epg.112114.xyz/logo/ШАЛУН.png" group-title="其他",Шалун HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDEzIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODM0My9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Vivid Red HD" tvg-name="Vivid Red HD" tvg-logo="https://epg.112114.xyz/logo/VIVIDRED.png" group-title="其他",Vivid Red HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMTgyIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODM3NC9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Private HD" tvg-name="Private HD" tvg-logo="https://epg.112114.xyz/logo/PRIVATE.png" group-title="其他",Private HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMTkxIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODIwMy9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Русская ночь" tvg-name="Русская ночь" tvg-logo="https://epg.112114.xyz/logo/РУССКАЯНОЧЬ.png" group-title="其他",Русская ночь
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMTgwIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODE5MS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Penthouse gold hd" tvg-name="Penthouse gold hd" tvg-logo="https://epg.112114.xyz/logo/PENTHOUSEGOLD.png" group-title="其他",Penthouse gold hd
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMjcwIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODM0Mi9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Barely legal" tvg-name="Barely legal" tvg-logo="https://epg.112114.xyz/logo/BARELYLEGAL.png" group-title="其他",Barely legal
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDA3IiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODQxMy9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Exxxotica HD" tvg-name="Exxxotica HD" tvg-logo="https://epg.112114.xyz/logo/EXXXOTICA.png" group-title="其他",Exxxotica HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDA4IiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODQxNC9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="EroXXX HD" tvg-name="EroXXX HD" tvg-logo="https://epg.112114.xyz/logo/EROXXX.png" group-title="其他",EroXXX HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDA5IiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODQxNS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Blue Hustler" tvg-name="Blue Hustler" tvg-logo="https://epg.112114.xyz/logo/BLUEHUSTLER.png" group-title="其他",Blue Hustler
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMzAwIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODQwNS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Red Lips HD" tvg-name="Red Lips HD" tvg-logo="https://epg.112114.xyz/logo/REDLIPS.png" group-title="其他",Red Lips HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiNDIwIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODAzMC9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Hustler HD" tvg-name="Hustler HD" tvg-logo="https://epg.112114.xyz/logo/HUSTLER.png" group-title="其他",Hustler HD
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwiYSI6Imh0dHA6Ly8xOTUuMjExLjI3LjE1Mjo4ODg3LzI4Ni90aW1lc2hpZnRfYWJzLVt0aW1lX3N0YXJ0XS5tM3U4P3Rva2VuPVtzdGJfdG9rZW5dW2N1cnJfdGltZV0iLCJsIjoiOTA1YTQ1NjQiLCJwIjoiOTA1YTQ1NjQ4NGJiNGU3YyIsImMiOiIyODYiLCJ0IjoiYTg1ZjdmMzY0MGQxZjA2YzZkODdlOTE1MDk1NDEzY2IiLCJkIjoiNjE2MjAiLCJyIjoiNjI4NjUiLCJtIjoidHYiLCJkdCI6IjAifQeyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODM3NS9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="Z" tvg-name="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png" group-title="其他",Brazzers TV
+http://ost.uspeh.sbs/va2VuPVtzdGJfdG9rZW5dIiwibCI6IjkwNWE0NTY0IiwicCI6IjkwNWE0NTY0ODRiYjRlN2MiLCJjIjoiMzAyIiwidCI6ImE4NWY3ZjM2NDBkMWYwNmM2ZDg3ZTkxNTA5NTQxM2NiIiwiZCI6IjYxNjIwIiwiciI6IjYyODY1IiwibSI6InR2IiwiZHQiOiIwIn0eyJ1IjoiaHR0cDovLzE5NS4yMTEuMjcuMTQ5Ojg4ODcvODQwNy9pbmRleC5tM3U4P3R/index.m3u8
+#EXTINF:-1,tvg-id="carib363西川" tvg-name="carib363西川" tvg-logo="https://epg.112114.xyz/logo/CARIB西川.png" group-title="其他",carib363西川
+https://fc.maa1808.com/b/ravxbmkthk/ravxbmkthk.m3u8
+#EXTINF:-1,tvg-id="Kpop Girl Does Porn" tvg-name="Kpop Girl Does Porn" tvg-logo="https://epg.112114.xyz/logo/KPOPGIRLDOESPORN.png" group-title="其他",Kpop Girl Does Porn
+http://60106.vod.redtraffic.xyz/ph568fdb5194a8b/play.m3u8 
+#EXTINF:-1,tvg-id="コスプレアイドルに" tvg-name="コスプレアイドルに" tvg-logo="https://epg.112114.xyz/logo/コスプレアイドルに.png" group-title="其他",コスプレアイドルに
+https://cf005.paopao.video:443/9C3C292CD89D64F2E8A14717A50881B08E7105B9
+#EXTINF:-1,tvg-id="JOA" tvg-name="JOA" tvg-logo="https://epg.112114.xyz/logo/JOA.png" group-title="其他",JOA
+https://2.ddyunbo.com/20190914/vL0TDJOa/index.m3u8
+#EXTINF:-1,tvg-id="1pon081712k" tvg-name="1pon081712k" tvg-logo="https://epg.112114.xyz/logo/1PON12K.png" group-title="其他",1pon081712k
+https://f005.paopao.video:443/C6AF681FDD0B9D9BFF8150630F0E1B56CF491DCD
+#EXTINF:-1,tvg-id="012823_001-1pon" tvg-name="012823_001-1pon" tvg-logo="https://epg.112114.xyz/logo/23_1PON.png" group-title="其他",012823_001-1pon
+https://f005.paopao.video:443/375BCA6C2E5BF6817E6778681D6535B5FE8318E7
+#EXTINF:-1,tvg-id="1pon_川原みのりエンドレスセックス" tvg-name="1pon_川原みのりエンドレスセックス" tvg-logo="https://epg.112114.xyz/logo/1PON_川原みのりエンドレスセックス.png" group-title="其他",1pon_川原みのりエンドレスセックス
+https://vip3.lbbf9.com/20220113/subsDqjy/1000kb/hls/index.m3u8
+#EXTINF:-1,tvg-id="1pon113017_612市来美保究極マゾ" tvg-name="1pon113017_612市来美保究極マゾ" tvg-logo="https://epg.112114.xyz/logo/1PON17_市来美保究極マゾ.png" group-title="其他",1pon113017_612市来美保究極マゾ
+https://www.lbbf9.com/20210617/BQKojYIM/700kb/hls/index.m3u8
+#EXTINF:-1,tvg-id="Z" tvg-name="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png" group-title="其他",1pon113017_612市来美保究極マゾhttps://www.lbbf9.com/20210617/ox8fTZKt/700kb/hls/index.m3u8
+undefined
+#EXTINF:-1,tvg-id="1pon061110_854" tvg-name="1pon061110_854" tvg-logo="https://epg.112114.xyz/logo/1PON10_.png" group-title="其他",1pon061110_854
+https://www.lbbf9.com/20200521/p3mHHHdx/700kb/hls/index.m3u8
+#EXTINF:-1,tvg-id="1pon_北条麻妃美痴女" tvg-name="1pon_北条麻妃美痴女" tvg-logo="https://epg.112114.xyz/logo/1PON_北条麻妃美痴女.png" group-title="其他",1pon_北条麻妃美痴女
+https://vip3.lbbf9.com/20220109/mTNDPovo/1000kb/hls/index.m3u8
+#EXTINF:-1,tvg-id="面具" tvg-name="面具" tvg-logo="https://epg.112114.xyz/logo/面具.png" group-title="其他",面具
+https://f005.paopao.video:443/18E688416EB56BE25C14D5BD5E4A3F7E4193BE4C
+#EXTINF:-1,tvg-id="4K综艺" tvg-name="4K综艺" tvg-logo="https://epg.112114.xyz/logo/4K综艺.png" group-title="其他",0227 0258
+https://cf005.paopao.video:443/59EF94373AAD6324AFB818600DE2B058E82D04E0
+#EXTINF:-1,tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://epg.112114.xyz/logo/CCTV11.png" group-title="其他",051911 097
+https://cf005.paopao.video:443/06E600E7941DDFD0FD093B847768BBD7582F538B
+#EXTINF:-1,tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://epg.112114.xyz/logo/CCTV16.png" group-title="其他",080916 226
+https://f005.paopao.video:443/CD75E5E526B646D2A27F16EF68205796B0A71E20
+#EXTINF:-1,tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://epg.112114.xyz/logo/CCTV13.png" group-title="其他",091413 001
+https://f005.paopao.video:443/6E6BC1C84C94FF19E11B24A4DFDA0DBA2B1E86FD
+#EXTINF:-1,tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://epg.112114.xyz/logo/CCTV15.png" group-title="其他",100115 163
+https://f005.paopao.video:443/E37C68B7385D180542C83C4BB4C8D8437D299F23
+#EXTINF:-1,tvg-id="123118 790" tvg-name="123118 790" tvg-logo="https://epg.112114.xyz/logo/18.png" group-title="其他",123118 790
+https://f005.paopao.video:443/F86A415FAEA74828F696516635216F5B65AD6B4F
+#EXTINF:-1,tvg-id="390JAC 044" tvg-name="390JAC 044" tvg-logo="https://epg.112114.xyz/logo/JAC.png" group-title="其他",390JAC 044
+https://f005.paopao.video:443/A7D6AB44EA0FAD936B70AD9632C6BEE666897549
+#EXTINF:-1,tvg-id="dv1233" tvg-name="dv1233" tvg-logo="https://epg.112114.xyz/logo/DV.png" group-title="其他",dv1233
+https://f005.paopao.video:443/8E2D4FA205372AC60264C65E0C000DCCF27673E5
+#EXTINF:-1,tvg-id="room009" tvg-name="room009" tvg-logo="https://epg.112114.xyz/logo/ROOM.png" group-title="其他",room009
+https://f005.paopao.video:443/673987CA919E2B4D834B88E00CF0EA80D89EBBBC
+#EXTINF:-1,tvg-id="meyd388" tvg-name="meyd388" tvg-logo="https://epg.112114.xyz/logo/MEYD.png" group-title="其他",meyd388
+https://f005.paopao.video:443/48F3A7BB4385C062EE5B927F24FA8AA7B1137CBC
+#EXTINF:-1,tvg-id="sdmf008" tvg-name="sdmf008" tvg-logo="https://epg.112114.xyz/logo/SDMF.png" group-title="其他",sdmf008
+https://cf005.paopao.video:443/121DC2092E1EE394639F13CD146FD17FE0F8A397
+#EXTINF:-1,tvg-id="SMBD115" tvg-name="SMBD115" tvg-logo="https://epg.112114.xyz/logo/SMBD.png" group-title="其他",SMBD115
+https://cf005.paopao.video:443/5B62BED84B5207685E62A714C41F7FCE38BDF5C1
+#EXTINF:-1,tvg-id="SMD115" tvg-name="SMD115" tvg-logo="https://epg.112114.xyz/logo/SMD.png" group-title="其他",SMD115
+https://f005.paopao.video:443/B36BA120140657544BCEC64BA409007428DA8E37
+#EXTINF:-1,tvg-id="SRS039" tvg-name="SRS039" tvg-logo="https://epg.112114.xyz/logo/SRS.png" group-title="其他",SRS039
+https://f005.paopao.video:443/4EAB6AC8EDE8BDD80998EEED1B9D4C95DBCC1812
+#EXTINF:-1,tvg-id="SSNI781" tvg-name="SSNI781" tvg-logo="https://epg.112114.xyz/logo/SSNI.png" group-title="其他",SSNI781
+https://f005.paopao.video:443/E4041EBB9AA9E890A920F1B573D5D1485AA08B6E
+#EXTINF:-1,tvg-id="ANIMAX" tvg-name="ANIMAX" tvg-logo="https://epg.112114.xyz/logo/ANIMAX.png" group-title="其他",n1161
+https://cf005.paopao.video:443/A25142CA4B8780733F4BDBFB0DCB597FCCF104D3
+#EXTINF:-1,tvg-id="880652" tvg-name="880652" tvg-logo="https://epg.112114.xyz/logo/52.png" group-title="其他",880652
+https://cf005.paopao.video:443/07A92C8D2ABC87F9F9905B9400218AD0BC2318B3
+#EXTINF:-1,tvg-id="sis0321" tvg-name="sis0321" tvg-logo="https://epg.112114.xyz/logo/SIS.png" group-title="其他",sis0321
+https://f005.paopao.video:443/CACF9474997475A5FA022C252B64ED84D7B1A48D
+#EXTINF:-1,tvg-id="sis0322" tvg-name="sis0322" tvg-logo="https://epg.112114.xyz/logo/SIS.png" group-title="其他",sis0322
+https://f005.paopao.video:443/983D96FE18CE10F54F65D92BFAD634D42A619758
+#EXTINF:-1,tvg-id="4K综艺" tvg-name="4K综艺" tvg-logo="https://epg.112114.xyz/logo/4K综艺.png" group-title="其他",7138
+https://f005.paopao.video:443/0751117D54D35845129C3DA1131C9228E5996F74
+#EXTINF:-1,tvg-id="Z" tvg-name="Z" tvg-logo="https://epg.112114.xyz/logo/Z.png" group-title="其他",heyzo1031
+https://f005.paopao.video:443/0BD73681E256D14FEE871B6B5DC45D2C86DB1F9C
+#EXTINF:-1,tvg-id="一本道_1" tvg-name="一本道_1" tvg-logo="https://epg.112114.xyz/logo/一本道_1.png" group-title="其他",一本道_1
+https://vip4.ddyunbo.com/20210210/IjSENz6s/index.m3u8
+#EXTINF:-1,tvg-id="一本道_2" tvg-name="一本道_2" tvg-logo="https://epg.112114.xyz/logo/一本道_2.png" group-title="其他",一本道_2
+https://vip4.ddyunbo.com/20210209/dEzJjeSU/index.m3u8
+#EXTINF:-1,tvg-id="一本道_3" tvg-name="一本道_3" tvg-logo="https://epg.112114.xyz/logo/一本道_3.png" group-title="其他",一本道_3
+https://vip4.ddyunbo.com/20210208/6LaKp6lZ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_4" tvg-name="一本道_4" tvg-logo="https://epg.112114.xyz/logo/一本道_4.png" group-title="其他",一本道_4
+https://vip4.ddyunbo.com/20210208/uWwFdRB7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_5" tvg-name="一本道_5" tvg-logo="https://epg.112114.xyz/logo/一本道_5.png" group-title="其他",一本道_5
+https://vip4.ddyunbo.com/20210208/EZRbwZn4/index.m3u8
+#EXTINF:-1,tvg-id="一本道_6" tvg-name="一本道_6" tvg-logo="https://epg.112114.xyz/logo/一本道_6.png" group-title="其他",一本道_6
+https://vip4.ddyunbo.com/20210207/Lyhqjp3z/index.m3u8
+#EXTINF:-1,tvg-id="一本道_7" tvg-name="一本道_7" tvg-logo="https://epg.112114.xyz/logo/一本道_7.png" group-title="其他",一本道_7
+https://vip4.ddyunbo.com/20210203/DYtc79vE/index.m3u8
+#EXTINF:-1,tvg-id="一本道_8" tvg-name="一本道_8" tvg-logo="https://epg.112114.xyz/logo/一本道_8.png" group-title="其他",一本道_8
+https://vip4.ddyunbo.com/20210202/cy0urBhD/index.m3u8
+#EXTINF:-1,tvg-id="一本道_9" tvg-name="一本道_9" tvg-logo="https://epg.112114.xyz/logo/一本道_9.png" group-title="其他",一本道_9
+https://vip4.ddyunbo.com/20210202/cOf9FXgF/index.m3u8
+#EXTINF:-1,tvg-id="一本道_10" tvg-name="一本道_10" tvg-logo="https://epg.112114.xyz/logo/一本道_10.png" group-title="其他",一本道_10
+https://vip4.ddyunbo.com/20210202/jnSPf5L7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_11" tvg-name="一本道_11" tvg-logo="https://epg.112114.xyz/logo/一本道_11.png" group-title="其他",一本道_11
+https://vip4.ddyunbo.com/20210202/6wLYbWPq/index.m3u8
+#EXTINF:-1,tvg-id="一本道_12" tvg-name="一本道_12" tvg-logo="https://epg.112114.xyz/logo/一本道_12.png" group-title="其他",一本道_12
+https://vip4.ddyunbo.com/20190904/HqGckgKl/index.m3u8
+#EXTINF:-1,tvg-id="一本道_13" tvg-name="一本道_13" tvg-logo="https://epg.112114.xyz/logo/一本道_13.png" group-title="其他",一本道_13
+https://vip4.ddyunbo.com/20190904/m94xaoPh/index.m3u8
+#EXTINF:-1,tvg-id="一本道_14" tvg-name="一本道_14" tvg-logo="https://epg.112114.xyz/logo/一本道_14.png" group-title="其他",一本道_14
+https://vip4.ddyunbo.com/20190908/1oZ5V2g2/index.m3u8
+#EXTINF:-1,tvg-id="一本道_15" tvg-name="一本道_15" tvg-logo="https://epg.112114.xyz/logo/一本道_15.png" group-title="其他",一本道_15
+https://vip4.ddyunbo.com/20190904/wJoZlwtT/index.m3u8
+#EXTINF:-1,tvg-id="一本道_16" tvg-name="一本道_16" tvg-logo="https://epg.112114.xyz/logo/一本道_16.png" group-title="其他",一本道_16
+https://vip4.ddyunbo.com/20190904/ZnGN7sEl/index.m3u8
+#EXTINF:-1,tvg-id="一本道_18" tvg-name="一本道_18" tvg-logo="https://epg.112114.xyz/logo/一本道_18.png" group-title="其他",一本道_18
+https://vip4.ddyunbo.com/20190908/ETghLd5D/index.m3u8
+#EXTINF:-1,tvg-id="一本道_20" tvg-name="一本道_20" tvg-logo="https://epg.112114.xyz/logo/一本道_20.png" group-title="其他",一本道_20
+https://vip4.ddyunbo.com/20190908/zSd2DI9R/index.m3u8
+#EXTINF:-1,tvg-id="一本道_34" tvg-name="一本道_34" tvg-logo="https://epg.112114.xyz/logo/一本道_34.png" group-title="其他",一本道_34
+https://vip4.ddyunbo.com/20191007/IFlq5eON/index.m3u8
+#EXTINF:-1,tvg-id="一本道_36" tvg-name="一本道_36" tvg-logo="https://epg.112114.xyz/logo/一本道_36.png" group-title="其他",一本道_36
+https://vip4.ddyunbo.com/20190907/PH1oGegu/index.m3u8
+#EXTINF:-1,tvg-id="一本道_37" tvg-name="一本道_37" tvg-logo="https://epg.112114.xyz/logo/一本道_37.png" group-title="其他",一本道_37
+https://vip4.ddyunbo.com/20191206/aIGd1S2S/index.m3u8
+#EXTINF:-1,tvg-id="一本道_39" tvg-name="一本道_39" tvg-logo="https://epg.112114.xyz/logo/一本道_39.png" group-title="其他",一本道_39
+https://vip4.ddyunbo.com/20191209/eOWqpnjK/index.m3u8
+#EXTINF:-1,tvg-id="一本道_40" tvg-name="一本道_40" tvg-logo="https://epg.112114.xyz/logo/一本道_40.png" group-title="其他",一本道_40
+https://vip4.ddyunbo.com/20191203/kT2Rfcof/index.m3u8
+#EXTINF:-1,tvg-id="一本道_41" tvg-name="一本道_41" tvg-logo="https://epg.112114.xyz/logo/一本道_41.png" group-title="其他",一本道_41
+https://vip4.ddyunbo.com/20191203/eKcaCDs1/index.m3u8
+#EXTINF:-1,tvg-id="一本道_42" tvg-name="一本道_42" tvg-logo="https://epg.112114.xyz/logo/一本道_42.png" group-title="其他",一本道_42
+https://vip4.ddyunbo.com/20191204/jouQzYVh/index.m3u8
+#EXTINF:-1,tvg-id="一本道_43" tvg-name="一本道_43" tvg-logo="https://epg.112114.xyz/logo/一本道_43.png" group-title="其他",一本道_43
+https://vip4.ddyunbo.com/20190824/InhHOPJz/index.m3u8
+#EXTINF:-1,tvg-id="一本道_44" tvg-name="一本道_44" tvg-logo="https://epg.112114.xyz/logo/一本道_44.png" group-title="其他",一本道_44
+https://vip4.ddyunbo.com/20191201/yKe6LATy/index.m3u8
+#EXTINF:-1,tvg-id="一本道_46" tvg-name="一本道_46" tvg-logo="https://epg.112114.xyz/logo/一本道_46.png" group-title="其他",一本道_46
+https://vip4.ddyunbo.com/20191104/NAZTGvOC/index.m3u8
+#EXTINF:-1,tvg-id="一本道_47" tvg-name="一本道_47" tvg-logo="https://epg.112114.xyz/logo/一本道_47.png" group-title="其他",一本道_47
+https://vip4.ddyunbo.com/20190724/fpVllSSA/index.m3u8
+#EXTINF:-1,tvg-id="一本道_48" tvg-name="一本道_48" tvg-logo="https://epg.112114.xyz/logo/一本道_48.png" group-title="其他",一本道_48
+https://vip4.ddyunbo.com/20191115/nz0OLAD7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_50" tvg-name="一本道_50" tvg-logo="https://epg.112114.xyz/logo/一本道_50.png" group-title="其他",一本道_50
+https://vip4.ddyunbo.com/20191111/YQ1Jvlo7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_51" tvg-name="一本道_51" tvg-logo="https://epg.112114.xyz/logo/一本道_51.png" group-title="其他",一本道_51
+https://vip4.ddyunbo.com/20191203/mXPJeA8L/index.m3u8
+#EXTINF:-1,tvg-id="一本道_54" tvg-name="一本道_54" tvg-logo="https://epg.112114.xyz/logo/一本道_54.png" group-title="其他",一本道_54
+https://vip4.ddyunbo.com/20191211/EmnFBcTv/index.m3u8
+#EXTINF:-1,tvg-id="一本道_56" tvg-name="一本道_56" tvg-logo="https://epg.112114.xyz/logo/一本道_56.png" group-title="其他",一本道_56
+https://vip4.ddyunbo.com/20191207/3l1NKbd9/index.m3u8
+#EXTINF:-1,tvg-id="一本道_58" tvg-name="一本道_58" tvg-logo="https://epg.112114.xyz/logo/一本道_58.png" group-title="其他",一本道_58
+https://vip4.ddyunbo.com/20191121/NoBsuuFA/index.m3u8
+#EXTINF:-1,tvg-id="一本道_71" tvg-name="一本道_71" tvg-logo="https://epg.112114.xyz/logo/一本道_71.png" group-title="其他",一本道_71
+https://vip4.ddyunbo.com/20191128/J5nWdwcz/index.m3u8
+#EXTINF:-1,tvg-id="一本道_77" tvg-name="一本道_77" tvg-logo="https://epg.112114.xyz/logo/一本道_77.png" group-title="其他",一本道_77
+https://vip4.ddyunbo.com/20191104/5Br1zP28/index.m3u8
+#EXTINF:-1,tvg-id="一本道_80" tvg-name="一本道_80" tvg-logo="https://epg.112114.xyz/logo/一本道_80.png" group-title="其他",一本道_80
+https://vip4.ddyunbo.com/20191205/0oLr2jlQ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_81" tvg-name="一本道_81" tvg-logo="https://epg.112114.xyz/logo/一本道_81.png" group-title="其他",一本道_81
+https://vip4.ddyunbo.com/20191110/Z3mWJbrz/index.m3u8
+#EXTINF:-1,tvg-id="一本道_82" tvg-name="一本道_82" tvg-logo="https://epg.112114.xyz/logo/一本道_82.png" group-title="其他",一本道_82
+https://vip4.ddyunbo.com/20190724/SRcabvNZ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_83" tvg-name="一本道_83" tvg-logo="https://epg.112114.xyz/logo/一本道_83.png" group-title="其他",一本道_83
+https://vip4.ddyunbo.com/20191127/52rP822O/index.m3u8
+#EXTINF:-1,tvg-id="一本道_84" tvg-name="一本道_84" tvg-logo="https://epg.112114.xyz/logo/一本道_84.png" group-title="其他",一本道_84
+https://vip4.ddyunbo.com/20191207/p0zvtDBY/index.m3u8
+#EXTINF:-1,tvg-id="一本道_85" tvg-name="一本道_85" tvg-logo="https://epg.112114.xyz/logo/一本道_85.png" group-title="其他",一本道_85
+https://vip4.ddyunbo.com/20191208/dw94ieYl/index.m3u8
+#EXTINF:-1,tvg-id="一本道_86" tvg-name="一本道_86" tvg-logo="https://epg.112114.xyz/logo/一本道_86.png" group-title="其他",一本道_86
+https://vip4.ddyunbo.com/20190913/MA5Cn7rw/index.m3u8
+#EXTINF:-1,tvg-id="一本道_87" tvg-name="一本道_87" tvg-logo="https://epg.112114.xyz/logo/一本道_87.png" group-title="其他",一本道_87
+https://vip4.ddyunbo.com/20191210/tyN6I80q/index.m3u8
+#EXTINF:-1,tvg-id="一本道_88" tvg-name="一本道_88" tvg-logo="https://epg.112114.xyz/logo/一本道_88.png" group-title="其他",一本道_88
+https://vip4.ddyunbo.com/20191122/QMk66MvN/index.m3u8
+#EXTINF:-1,tvg-id="一本道_89" tvg-name="一本道_89" tvg-logo="https://epg.112114.xyz/logo/一本道_89.png" group-title="其他",一本道_89
+https://vip4.ddyunbo.com/20191206/trGVPzmt/index.m3u8
+#EXTINF:-1,tvg-id="一本道_90" tvg-name="一本道_90" tvg-logo="https://epg.112114.xyz/logo/一本道_90.png" group-title="其他",一本道_90
+https://vip4.ddyunbo.com/20191010/xcMAZOOw/index.m3u8
+#EXTINF:-1,tvg-id="一本道_91" tvg-name="一本道_91" tvg-logo="https://epg.112114.xyz/logo/一本道_91.png" group-title="其他",一本道_91
+https://vip4.ddyunbo.com/20191207/tBB5RkgE/index.m3u8
+#EXTINF:-1,tvg-id="一本道_101" tvg-name="一本道_101" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_101
+https://vip4.ddyunbo.com/20190801/68w4hmaH/index.m3u8
+#EXTINF:-1,tvg-id="一本道_102" tvg-name="一本道_102" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_102
+https://vip4.ddyunbo.com/20191203/AdOtik4n/index.m3u8
+#EXTINF:-1,tvg-id="一本道_105" tvg-name="一本道_105" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_105
+https://vip4.ddyunbo.com/20191203/lrQfHler/index.m3u8
+#EXTINF:-1,tvg-id="一本道_106" tvg-name="一本道_106" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_106
+https://vip4.ddyunbo.com/20191203/5E24xFQu/index.m3u8
+#EXTINF:-1,tvg-id="一本道_107" tvg-name="一本道_107" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_107
+https://vip4.ddyunbo.com/20191206/wElIhu09/index.m3u8
+#EXTINF:-1,tvg-id="一本道_109" tvg-name="一本道_109" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_109
+https://vip4.ddyunbo.com/20191130/5D8rho9Y/index.m3u8
+#EXTINF:-1,tvg-id="一本道_110" tvg-name="一本道_110" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_110
+https://vip4.ddyunbo.com/20191125/b7iK6Oay/index.m3u8
+#EXTINF:-1,tvg-id="一本道_111" tvg-name="一本道_111" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_111
+https://vip4.ddyunbo.com/20191118/pa08NZI8/index.m3u8
+#EXTINF:-1,tvg-id="一本道_113" tvg-name="一本道_113" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_113
+https://vip4.ddyunbo.com/20191208/YoOOpIoB/index.m3u8
+#EXTINF:-1,tvg-id="一本道_114" tvg-name="一本道_114" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_114
+https://vip4.ddyunbo.com/20191206/KlOfpmXm/index.m3u8
+#EXTINF:-1,tvg-id="一本道_115" tvg-name="一本道_115" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_115
+https://vip4.ddyunbo.com/20191128/bhlfixkB/index.m3u8
+#EXTINF:-1,tvg-id="一本道_118" tvg-name="一本道_118" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_118
+https://vip4.ddyunbo.com/20191020/HFA1EICB/index.m3u8
+#EXTINF:-1,tvg-id="一本道_119" tvg-name="一本道_119" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_119
+https://vip4.ddyunbo.com/20190725/QoR2tEMa/index.m3u8
+#EXTINF:-1,tvg-id="一本道_123" tvg-name="一本道_123" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_123
+https://vip4.ddyunbo.com/20191206/beXglix7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_132" tvg-name="一本道_132" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_132
+https://vip4.ddyunbo.com/20191008/aJt3osLQ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_134" tvg-name="一本道_134" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_134
+https://vip4.ddyunbo.com/20190712/AWmTfG0V/index.m3u8
+#EXTINF:-1,tvg-id="一本道_137" tvg-name="一本道_137" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_137
+https://vip4.ddyunbo.com/20191205/ZhyfTfzD/index.m3u8
+#EXTINF:-1,tvg-id="一本道_138" tvg-name="一本道_138" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_138
+https://vip4.ddyunbo.com/20191209/Cg46YFFD/index.m3u8
+#EXTINF:-1,tvg-id="一本道_140" tvg-name="一本道_140" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_140
+https://vip4.ddyunbo.com/20191206/D2NceISA/index.m3u8
+#EXTINF:-1,tvg-id="一本道_141" tvg-name="一本道_141" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_141
+https://vip4.ddyunbo.com/20190703/TS1mxp2x/index.m3u8
+#EXTINF:-1,tvg-id="一本道_142" tvg-name="一本道_142" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_142
+https://vip4.ddyunbo.com/20191127/28kOylU9/index.m3u8
+#EXTINF:-1,tvg-id="一本道_143" tvg-name="一本道_143" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_143
+https://vip4.ddyunbo.com/20190924/1r6n6c3u/index.m3u8
+#EXTINF:-1,tvg-id="一本道_144" tvg-name="一本道_144" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_144
+https://vip4.ddyunbo.com/20191201/8UTueLDg/index.m3u8
+#EXTINF:-1,tvg-id="一本道_146" tvg-name="一本道_146" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_146
+https://vip4.ddyunbo.com/20191109/7zPRNKbZ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_147" tvg-name="一本道_147" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_147
+https://vip4.ddyunbo.com/20191208/0gSaR7IX/index.m3u8
+#EXTINF:-1,tvg-id="一本道_149" tvg-name="一本道_149" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_149
+https://vip4.ddyunbo.com/20191108/iI37Slwz/index.m3u8
+#EXTINF:-1,tvg-id="一本道_151" tvg-name="一本道_151" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_151
+https://vip4.ddyunbo.com/20191206/DRjLLulI/index.m3u8
+#EXTINF:-1,tvg-id="一本道_152" tvg-name="一本道_152" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_152
+https://vip4.ddyunbo.com/20191208/F59kEATh/index.m3u8
+#EXTINF:-1,tvg-id="一本道_153" tvg-name="一本道_153" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_153
+https://vip4.ddyunbo.com/20191205/u11PSJcw/index.m3u8
+#EXTINF:-1,tvg-id="一本道_154" tvg-name="一本道_154" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_154
+https://vip4.ddyunbo.com/20191203/PldaO4lb/index.m3u8
+#EXTINF:-1,tvg-id="一本道_155" tvg-name="一本道_155" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_155
+https://vip4.ddyunbo.com/20191206/AYu0BDSt/index.m3u8
+#EXTINF:-1,tvg-id="一本道_156" tvg-name="一本道_156" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_156
+https://vip4.ddyunbo.com/20191211/M3q09qGG/index.m3u8
+#EXTINF:-1,tvg-id="一本道_163" tvg-name="一本道_163" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_163
+https://vip4.ddyunbo.com/20191121/5fNyVOF0/index.m3u8
+#EXTINF:-1,tvg-id="一本道_164" tvg-name="一本道_164" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_164
+https://vip4.ddyunbo.com/20191120/c3IW5efi/index.m3u8
+#EXTINF:-1,tvg-id="一本道_173" tvg-name="一本道_173" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_173
+https://vip4.ddyunbo.com/20191201/XJwjwidw/index.m3u8
+#EXTINF:-1,tvg-id="一本道_175" tvg-name="一本道_175" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_175
+https://vip4.ddyunbo.com/20190918/dW0J9fzv/index.m3u8
+#EXTINF:-1,tvg-id="一本道_176" tvg-name="一本道_176" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_176
+https://vip4.ddyunbo.com/20191125/vpMcTD6O/index.m3u8
+#EXTINF:-1,tvg-id="一本道_182" tvg-name="一本道_182" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_182
+https://vip4.ddyunbo.com/20191203/nYjY9u2u/index.m3u8
+#EXTINF:-1,tvg-id="一本道_186" tvg-name="一本道_186" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_186
+https://vip4.ddyunbo.com/20191110/7bbcTr2N/index.m3u8
+#EXTINF:-1,tvg-id="一本道_187" tvg-name="一本道_187" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_187
+https://vip4.ddyunbo.com/20191127/65PpXoMw/index.m3u8
+#EXTINF:-1,tvg-id="一本道_197" tvg-name="一本道_197" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_197
+https://vip4.ddyunbo.com/20190924/cJ5trNUQ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_202" tvg-name="一本道_202" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_202
+https://vip4.ddyunbo.com/20191203/52ec89LM/index.m3u8
+#EXTINF:-1,tvg-id="一本道_207" tvg-name="一本道_207" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_207
+https://vip4.ddyunbo.com/20191206/KcxaHKNK/index.m3u8
+#EXTINF:-1,tvg-id="一本道_208" tvg-name="一本道_208" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_208
+https://vip4.ddyunbo.com/20191130/aACNUDUx/index.m3u8
+#EXTINF:-1,tvg-id="一本道_211" tvg-name="一本道_211" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_211
+https://vip4.ddyunbo.com/20191110/NwogQedH/index.m3u8
+#EXTINF:-1,tvg-id="一本道_219" tvg-name="一本道_219" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_219
+https://vip4.ddyunbo.com/20191201/Lwlr3Bkj/index.m3u8
+#EXTINF:-1,tvg-id="一本道_227" tvg-name="一本道_227" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_227
+https://vip4.ddyunbo.com/20191201/K4Kv3dAa/index.m3u8
+#EXTINF:-1,tvg-id="一本道_234" tvg-name="一本道_234" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_234
+https://vip4.ddyunbo.com/20191212/HePcXP5K/index.m3u8
+#EXTINF:-1,tvg-id="一本道_242" tvg-name="一本道_242" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_242
+https://vip4.ddyunbo.com/20191203/eBg5Mcqa/index.m3u8
+#EXTINF:-1,tvg-id="一本道_243" tvg-name="一本道_243" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_243
+https://vip4.ddyunbo.com/20191028/bnoZp1dl/index.m3u8
+#EXTINF:-1,tvg-id="一本道_249" tvg-name="一本道_249" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_249
+https://vip4.ddyunbo.com/20191102/E6lR5iaR/index.m3u8
+#EXTINF:-1,tvg-id="一本道_261" tvg-name="一本道_261" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_261
+https://vip4.ddyunbo.com/20190729/aN7GcbnY/index.m3u8
+#EXTINF:-1,tvg-id="一本道_264" tvg-name="一本道_264" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_264
+https://vip4.ddyunbo.com/20191201/YEg5oWil/index.m3u8
+#EXTINF:-1,tvg-id="一本道_268" tvg-name="一本道_268" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_268
+https://vip4.ddyunbo.com/20191208/BS0JwI5Z/index.m3u8
+#EXTINF:-1,tvg-id="一本道_274" tvg-name="一本道_274" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_274
+https://vip4.ddyunbo.com/20191102/thRqkr3J/index.m3u8
+#EXTINF:-1,tvg-id="一本道_275" tvg-name="一本道_275" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_275
+https://vip4.ddyunbo.com/20191008/ONnuL7h3/index.m3u8
+#EXTINF:-1,tvg-id="一本道_276" tvg-name="一本道_276" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_276
+https://vip4.ddyunbo.com/20190904/f9ADZ1CY/index.m3u8
+#EXTINF:-1,tvg-id="一本道_277" tvg-name="一本道_277" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_277
+https://vip4.ddyunbo.com/20190904/UfqniQi1/index.m3u8
+#EXTINF:-1,tvg-id="一本道_278" tvg-name="一本道_278" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_278
+https://vip4.ddyunbo.com/20191211/FFE0h29v/index.m3u8
+#EXTINF:-1,tvg-id="一本道_280" tvg-name="一本道_280" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_280
+https://vip4.ddyunbo.com/20191121/VmpUGI2G/index.m3u8
+#EXTINF:-1,tvg-id="一本道_281" tvg-name="一本道_281" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_281
+https://vip4.ddyunbo.com/20190909/jRVMH9sc/index.m3u8
+#EXTINF:-1,tvg-id="一本道_301" tvg-name="一本道_301" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_301
+https://vip4.ddyunbo.com/20191213/J6Cv9gPJ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_305" tvg-name="一本道_305" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_305
+https://vip4.ddyunbo.com/20191128/dkDIOfQC/index.m3u8
+#EXTINF:-1,tvg-id="一本道_306" tvg-name="一本道_306" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_306
+https://vip4.ddyunbo.com/20191130/c6PcG5MJ/index.m3u8
+#EXTINF:-1,tvg-id="一本道_309" tvg-name="一本道_309" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_309
+https://vip4.ddyunbo.com/20191111/DlyNFtz9/index.m3u8
+#EXTINF:-1,tvg-id="一本道_310" tvg-name="一本道_310" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_310
+https://vip4.ddyunbo.com/20191106/yFE2T1bI/index.m3u8
+#EXTINF:-1,tvg-id="一本道_311" tvg-name="一本道_311" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_311
+https://vip4.ddyunbo.com/20191128/0UFCYn1m/index.m3u8
+#EXTINF:-1,tvg-id="一本道_313" tvg-name="一本道_313" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_313
+https://vip4.ddyunbo.com/20191208/2uX0tXFP/index.m3u8
+#EXTINF:-1,tvg-id="一本道_314" tvg-name="一本道_314" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_314
+https://vip4.ddyunbo.com/20191112/xgfe7yP7/index.m3u8
+#EXTINF:-1,tvg-id="一本道_315" tvg-name="一本道_315" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_315
+https://vip4.ddyunbo.com/20191204/vbdhMyr9/index.m3u8
+#EXTINF:-1,tvg-id="一本道_317" tvg-name="一本道_317" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_317
+https://vip4.ddyunbo.com/20191211/mKHj4MjF/index.m3u8
+#EXTINF:-1,tvg-id="一本道_396" tvg-name="一本道_396" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_396
+https://vip4.ddyunbo.com/20210210/IjSENz6s/index.m3u8?skipl=1
+#EXTINF:-1,tvg-id="一本道_404" tvg-name="一本道_404" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_404
+https://vip4.ddyunbo.com/20210202/cOf9FXgF/index.m3u8?skipl=1
+#EXTINF:-1,tvg-id="一本道_405" tvg-name="一本道_405" tvg-logo="https://epg.112114.xyz/logo/一本道_.png" group-title="其他",一本道_405
+https://vip4.ddyunbo.com/20210202/jnSPf5L7/index.m3u8?skipl=1
+
 #EXTINF:-1,青楼名女支之李香君
  https://v6.jindangao.com/hj/hj2/hj21/10/hls/index.m3u8
 #EXTINF:-1,人细鬼大
