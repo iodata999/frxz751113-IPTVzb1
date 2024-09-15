@@ -18,19 +18,13 @@ def dynamic_file_naming():
 
     if old_file:
         os.rename(old_file, new_file_name)
-        return new_file_name
-        
-    #else:
-        #return None #这两行代码找不到文件跳过
-
-    
     else:
-         #如果没有旧文件，直接创建新文件
-       with open(new_file_name, 'w') as f:
-         pass
-      return new_file_name# 四行代码找不到文件创建新文件
+        # 如果没有旧文件，则创建新文件
+        with open(new_file_name, 'w') as f:
+            pass
+    return new_file_name
+
 
 if __name__ == '__main__':
     new_name = dynamic_file_naming()
-    if new_name:
-        print(f'新文件名为: {new_name}')
+    print(f'新文件名为: {new_name}')
