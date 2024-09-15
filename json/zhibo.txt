@@ -26,6 +26,7 @@ CCTV3,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/2
 CCTV3,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226021/index.m3u8
 CCTV15,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225601/index.m3u8
 CCTV15,http://cg0.hunancatv.cn:9090/live/CCTV-15_2000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604330647&srchost=172.16.22.158:8060&gid=wVe7da5Clx2OXnh1HZiivw%3D%3D
+CCTV4K超高清,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.245:2000
 
 
 💚全网通🩶非全网通,#genre#
