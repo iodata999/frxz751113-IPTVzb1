@@ -49,10 +49,10 @@ jobs:
       - name: Install dependencies
         run: pip install tqdm
 
+      #- name: Run iptv
+        #run: python ${{ github.workspace }}/ceshi.py      #这里更改要运行的py
       - name: Run iptv
-        run: python ${{ github.workspace }}/ceshi.py      #这里更改要运行的py
-     # - name: Run iptv
-        #run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py     
+        run: python ${{ github.workspace }}/组播py/组播综合.py      #这里更改要运行的py     
      # - name: Run iptv
         #run: python ${{ github.workspace }}/组播py/txt加运行时间.py 
       #- name: Run iptv
