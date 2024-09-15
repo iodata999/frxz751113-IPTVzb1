@@ -17,21 +17,21 @@ def dynamic_file_naming():
             break
 
     if old_file:
-        # 如果旧文件存在，读取旧文件内容，先删除旧文件再创建新文件并写入旧内容
-        with open(old_file, 'r') as f:
-            content = f.read()
-        os.remove(old_file)
-        with open(new_file_name, 'w') as f:
-            f.write(content)
-    else:
-        # 创建新文件
-        with open(new_file_name, 'w') as f:
-            pass
+        try:
+            # 如果旧文件存在，先删除旧文件再创建新文件
+            os.remove(old_file)
+        except OSError as e:
+            print(f"删除旧文件 {old_file} 时出错: {e}")
+    # 创建新文件
+    with open(new_file_name, 'w') as f:
+        pass
 
-    return new_file_name
+    # 添加自动更新的重命名（这里简单地在文件名后添加'_updated'）
+    new_file_name_updated = new_file_name.rsplit('.', 1)[0]+'_updated.'+new_file_name.rsplit('.', 1)[1]
+    os.rename(new_file_name, new_file_name_updated)
+    return new_file_name_updated
 
 
 if __name__ == '__main__':
     new_name = dynamic_file_naming()
     print(f'新文件名为: {new_name}')
-    
