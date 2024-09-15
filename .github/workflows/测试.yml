@@ -49,13 +49,14 @@ jobs:
         run: pip install tqdm
       - name: Grant file permissions
         run: sudo chmod -R 777. # 这一步给予当前目录下所有文件和文件夹完全权限，这是一个比较简单粗暴的方法，在实际生产环境中需要更谨慎的权限设置
+      - name: Run Python script
+         run: python ${{ github.workspace }}/ceshi.py  # 将your_script.py替换为你的实际脚本文件名
 
 
 
 
-
-      - name: Run iptv
-        run: python ${{ github.workspace }}/ceshi.py 
+   #   - name: Run iptv
+      #  run: python ${{ github.workspace }}/ceshi.py 
       #- name: Run iptv
         #run: python ${{ github.workspace }}/组播py/测试组播运营商.py 
       #- name: Run iptv
