@@ -66,10 +66,12 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 明珠台,http://i2.ekesh.cn:4001/rtp/239.12.22.122:10001
 新视觉,http://i2.ekesh.cn:4001/rtp/239.12.22.33:10001
 南国都市4K,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
+大湾区卫视,http://58.254.14.34:808/hls/51/index.m3u8
 大湾区卫视,http://gmxw.7766.org:808/hls/132/index.m3u8
 大湾区卫视,http://183.11.239.36:808/hls/132/index.m3u8
 大湾区卫视,http://120.237.241.82:4000/rtp/239.77.0.215:5146
-
+大湾区卫视,http://mryx.fun:1025/udp/239.11.0.78:1025
+大湾区卫视,http://120.234.49.37:7000/udp/239.21.0.84:3676
 
 
 💚4K频道&数字,#genre#
