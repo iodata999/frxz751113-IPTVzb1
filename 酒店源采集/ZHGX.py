@@ -34,10 +34,10 @@ import requests
 
 urls = [
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJndWFuZ2Rvbmci",  #广东
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFueGki",  #山西
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg==",  #四川
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaGFueGki",  #山西
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJzaWNodWFuIg==",  #四川
     "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZW5hbiI=",  #河南
-    "https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D", #河北
+    #"https://fofa.info/result?qbase64=IlpIR1hUViIgJiYgcmVnaW9uPSJoZWJlaSI%3D", #河北
 ]
 
 def modify_urls(url):
