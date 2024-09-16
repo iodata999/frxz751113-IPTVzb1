@@ -333,7 +333,7 @@ with open('HK.txt', 'r', encoding='utf-8') as file, open('b2.txt', 'w', encoding
 ######################################################################################################################打开欲要最终合并的文件并输出临时文件并替换关键词
 with open('yeye.txt', 'r', encoding='utf-8') as f:  #打开文件，并对其进行关键词提取                                               ###########
  #keywords = ['http', 'rtmp', 'genre']  # 需要提取的关键字列表                                                       ###########
- keywords = [ '电影', '大湾区']  # 需要提取的关键字列表                                                       ###########
+ keywords = [ '电影', '珠江', '大湾区']  # 需要提取的关键字列表                                                       ###########
  pattern = '|'.join(keywords)  # 创建正则表达式模式，匹配任意一个关键字                                      ###########
  #pattern = r"^(.*?),(?!#genre#)(.*?)$" #以分类直接复制                                                     ###########
  with open('yeye.txt', 'r', encoding='utf-8') as file, open('b.txt', 'w', encoding='utf-8') as b:           ###########
