@@ -56,7 +56,7 @@ jobs:
       #- name: Run iptv
         #run: python ${{ github.workspace }}/组播py/测试组播运营商.py 
       - name: Run iptv
-        run: python ${{ github.workspace }}/组播py/txt加运行时间.py 
+        run: python ${{ github.workspace }}/组播py/txt加运行时间酒店.py 
      
       - name: 提交更改
         run: |
