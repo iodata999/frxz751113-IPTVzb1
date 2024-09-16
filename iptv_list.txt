@@ -1,5 +1,6 @@
 💚更新时间09-16 09:59,#genre#
 NewTv超级电影,http://39.134.134.47/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226994/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EOKgJ-MarN4M0aStGnXjR0A%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002658%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371700698%2CEND&GuardEncType=2
+
 💚2024中秋晚会多线,#genre#
 河南卫视4K,http://hyx.zzxingjie.com:4000/udp/225.1.4.254:1300
 河南卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
@@ -29,6 +30,8 @@ CCTV15,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/
 CCTV15,http://cg0.hunancatv.cn:9090/live/CCTV-15_2000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604330647&srchost=172.16.22.158:8060&gid=wVe7da5Clx2OXnh1HZiivw%3D%3D
 CCTV4K超高清,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.245:2000
 
+
+
 💚全网通🩶非全网通,#genre#
 CHC动作电影,http://cg0.hunancatv.cn:9090/live/CHCDZDY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316076&srchost=172.16.22.158:8060&gid=ZF3q5L%2FmYWch1qWqTIPAjw%3D%3D
 CHC家庭影院,http://cg11.hunancatv.cn:9090/live/CHCJTYY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316833&srchost=172.16.22.158:8060&gid=c%2BNqgq8pR1ZQ7ZzcmkS8%2BQ%3D%3D
@@ -37,7 +40,7 @@ CHC影迷电影,http://[2001:250:5800:1005::155]:80/liverespath/bca6167afdef7fc7
 CHC动作电影,http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8
 CHC家庭影院,http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8
 CHC动作电影,http://i2.ekesh.cn:4001/rtp/239.12.22.70:10001
-CHC家庭影院,http://i2.ekesh.cn:4001/rtp/239.12.22.69:10001
+CHC家庭电影,http://i2.ekesh.cn:4001/rtp/239.12.22.69:10001
 CHC影迷电影,http://i2.ekesh.cn:4001/rtp/239.12.22.11:10001
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
 NewTv黑莓电影,http://39.134.134.51/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EkBVQL3MtyiM0GGQzuPjqAQ%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002606%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371210150%2CEND&GuardEncType=2
@@ -63,6 +66,11 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 明珠台,http://i2.ekesh.cn:4001/rtp/239.12.22.122:10001
 新视觉,http://i2.ekesh.cn:4001/rtp/239.12.22.33:10001
 南国都市4K,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
+大湾区卫视,http://gmxw.7766.org:808/hls/132/index.m3u8
+大湾区卫视,http://120.237.241.82:4000/rtp/239.77.0.215:5146
+
+
+
 💚4K频道&数字,#genre#
 北京纪实科教8K,http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
 自然4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
