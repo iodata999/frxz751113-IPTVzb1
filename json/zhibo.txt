@@ -44,6 +44,7 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 北京IPTV萌宠TV,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.102:8001
 北京IPTV淘娱乐,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.100:8001
 北京超清4K,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.249:8001
+河南卫视4K,http://hyx.zzxingjie.com:4000/udp/225.1.4.254:1300
 台湾轮播&奥特曼,http://37.27.111.214:8080/live/110/hls.m3u8
 台湾轮播&经典动漫,http://37.27.111.214:8080/live/105/hls.m3u8
 东森电影,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
@@ -809,7 +810,6 @@ CHC影迷电影,http://www.dsmcloud.top:8888/udp/239.81.0.240:4056
 河北卫视,http://www.syl88.online:8123/PLTV/88888888/224/3221225907/10000100000000060000000001580152_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7Ey5lF3tQWMZD14j_7NNaluQ%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F100000002%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000001580152_0%2CEND
 河南卫视,http://www.syl88.online:8123/PLTV/88888888/224/3221225883/10000100000000060000000001558312_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7ECrtabm6aLA0uQ8RgrfJgUg%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F5000044%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000001558312_0%2CEND
 河南卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226480/index.m3u8
-河南卫视4K,http://hyx.zzxingjie.com:4000/udp/225.1.4.254:1300
 河南卫视,http://[2409:8087:1a01:df::4077]/ottrrs.hl.chinamobile.com/PLTV/88888888/8/3221226480/index.m3u8
 河南卫视,http://[2409:8087:74d9:21::6]/270000001128/9900000027/index.m3u8
 河南卫视,http://[2409:8087:74F1:0021::0008]:80/000000001000PLTV/88888888/224/3221226614/index.m3u8
