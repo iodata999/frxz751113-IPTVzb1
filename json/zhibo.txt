@@ -29,7 +29,6 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
 梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
 梨园频道,http://home.js001.com:7777/stream/channelid/782734182?profile=pass
-翡翠台,http://avd.iptviptv.site:9694/hls/99/index.m3u8
 明珠台,http://avd.iptviptv.site:9694/hls/103/index.m3u8
 翡翠台(原版),http://avd.iptviptv.site:9694/hls/98/index.m3u8
 千禧经典台,http://avd.iptviptv.site:9694/hls/901/index.m3u8
@@ -39,6 +38,7 @@ TVB PLUS,http://avd.iptviptv.site:9694/hls/905/index.m3u8
 无线新闻台,http://avd.iptviptv.site:9694/hls/906/index.m3u8
 黃金翡翠台,http://avd.iptviptv.site:9694/hls/916/index.m3u8
 翡翠台4k,http://avd.iptviptv.site:9694/hls/902/index.m3u8
+天映经典,http://avd.iptviptv.site:9694/hls/914/index.m3u8
 HBO,http://avd.iptviptv.site:9694/hls/1001/index.m3u8
 翡翠台,http://i2.ekesh.cn:4001/rtp/239.12.22.121:10001
 明珠台,http://i2.ekesh.cn:4001/rtp/239.12.22.122:10001
