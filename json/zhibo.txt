@@ -20,10 +20,10 @@ NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/22
 北京IPTV淘娱乐,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.100:8001
 北京超清4K,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.249:8001
 河南卫视4K,http://hyx.zzxingjie.com:4000/udp/225.1.4.254:1300
-台湾轮播&奥特曼,http://37.27.111.214:8080/live/110/hls.m3u8
+台湾轮播&奥特曼,http://shuma004.chunfengyun.top:8080/live/110/hls.m3u8
 台湾轮播&经典动漫,http://37.27.111.214:8080/live/105/hls.m3u8
 东森电影,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
-龙华电影,http://37.27.111.214:8080/live/19/hls.m3u8
+龙华电影,http://shuma004.chunfengyun.top:8080/live/19/hls.m3u8
 龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
 龙华戏剧,http://37.27.111.214:8080/live/41/hls.m3u8
 河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
