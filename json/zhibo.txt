@@ -1,92 +1,11 @@
-💚停更到26号,#genre#
+💚停更一周,#genre#
 CHC动作电影,http://cg0.hunancatv.cn:9090/live/CHCDZDY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316076&srchost=172.16.22.158:8060&gid=ZF3q5L%2FmYWch1qWqTIPAjw%3D%3D
 CHC家庭影院,http://cg11.hunancatv.cn:9090/live/CHCJTYY_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604316833&srchost=172.16.22.158:8060&gid=c%2BNqgq8pR1ZQ7ZzcmkS8%2BQ%3D%3D
 CHC影迷电影,http://cg14.hunancatv.cn:9090/live/CHCGQ_8000.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=11082234455604315487&srchost=172.16.22.158:8060&gid=QTVto%2BZu6pkkcNYy4OxcMg%3D%3D
 CHC动作电影,http://[2001:250:5800:1005::155]:80/liverespath/e0096742f0c5be4c5225cf3c7ab1077177bec05f/index.m3u8
 CHC家庭影院,http://[2001:250:5800:1005::155]:80/liverespath/449d51febadb152094085d373b9af94a6ac5f1dd/index.m3u8
 CHC影迷电影,http://[2001:250:5800:1005::155]:80/liverespath/bca6167afdef7fc773405c38e695b342c1d1eca0/index.m3u8
-CHC动作电影,http://i2.ekesh.cn:4001/rtp/239.12.22.70:10001
-CHC家庭影院,http://i2.ekesh.cn:4001/rtp/239.12.22.69:10001
-CHC影迷电影,http://i2.ekesh.cn:4001/rtp/239.12.22.11:10001
 重温经典,http://cg12.hunancatv.cn:9090/live/CWJD.m3u8?deviceid=866265039837531&sid=Yp6brv0MWYukAl4oJr9yrw%3D%3D&nonce=Ri1TgJg9dlAK&acl=0111&hlsSessionID=1503359536318867014&srchost=172.16.22.158:8060&gid=OHehEP1KV9FqguWiPXrX6Q%3D%3D
-NewTv黑莓电影,http://39.134.134.51/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226939/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EkBVQL3MtyiM0GGQzuPjqAQ%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002606%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371210150%2CEND&GuardEncType=2
-NewTv超级电影,http://39.134.134.47/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226994/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EOKgJ-MarN4M0aStGnXjR0A%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002658%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371700698%2CEND&GuardEncType=2
-NewTv动作电影,http://39.134.134.87/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226974/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EBow_B3ta32lPIHmLzLPzVQ%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000005002640%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C371670919%2CEND&GuardEncType=2
-北京IPTV淘电影,http://39.134.135.81/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226552/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EXOsrWMA-UCdUl1hQSR9EKw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
-北京IPTV淘电影,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.250:8001
-北京IPTV淘剧场,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.95:8001
-北京IPTV淘BaBy,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.238:8001
-北京IPTV萌宠TV,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.102:8001
-北京IPTV淘娱乐,http://bjuni.iptv.im2k.com:5018/udp/239.3.1.100:8001
-北京超清4K,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.249:8001
-河南卫视4K,http://hyx.zzxingjie.com:4000/udp/225.1.4.254:1300
-台湾轮播&奥特曼,http://shuma004.chunfengyun.top:8080/live/110/hls.m3u8
-台湾轮播&经典动漫,http://37.27.111.214:8080/live/105/hls.m3u8
-东森电影,http://1b6467f415.iok.la:9931/tsfile/live/1043_1.m3u8
-龙华电影,http://shuma004.chunfengyun.top:8080/live/19/hls.m3u8
-龙华日韩,http://37.27.111.214:8080/live/42/hls.m3u8
-龙华戏剧,http://37.27.111.214:8080/live/41/hls.m3u8
-河南尉氏,http://tvpull.dxhmt.cn:9081/tv/10223-1.m3u8
-梨园频道,http://117.72.68.25:9930/hn.php?id=hnly
-梨园频道,http://home.js001.com:7777/stream/channelid/782734182?profile=pass
-
-天映经典,http://avd.iptviptv.site:9694/hls/914/index.m3u8
-千禧经典台,http://avd.iptviptv.site:9694/hls/901/index.m3u8
-Animax,http://avd.iptviptv.site:9694/hls/903/index.m3u8
-TVB PLUS,http://avd.iptviptv.site:9694/hls/905/index.m3u8
-无线新闻台,http://avd.iptviptv.site:9694/hls/906/index.m3u8
-黄金翡翠台,http://avd.iptviptv.site:9694/hls/916/index.m3u8
-美亚电影台,http://avd.iptviptv.site:9694/hls/904/index.m3u8
-HBO,http://avd.iptviptv.site:9694/hls/1001/index.m3u8
-翡翠台,http://i2.ekesh.cn:4001/rtp/239.12.22.121:10001
-明珠台,http://i2.ekesh.cn:4001/rtp/239.12.22.122:10001
-新视觉,http://i2.ekesh.cn:4001/rtp/239.12.22.33:10001
-南国都市4K,http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
-大湾区卫视,http://58.254.14.34:808/hls/51/index.m3u8
-大湾区卫视,http://120.237.241.82:4000/rtp/239.77.0.215:5146
-大湾区卫视,http://mryx.fun:1025/udp/239.11.0.78:1025
-大湾区卫视,http://120.234.49.37:7000/udp/239.21.0.84:3676
-广东珠江,http://58.254.14.34:808/hls/55/index.m3u8
-CCTV4美洲,http://pve.grayidea.com:4022/udp/239.3.1.214:4220&北京ip
-CCTV4欧洲,http://pve.grayidea.com:4022/rtp/239.3.1.213:4220
-CCTV6电影,http://mobilelive-ds.ysp.cctv.cn/ysp/2013693901.m3u8
-CCTV6电影,http://adsl03.ccj.gohome.link:55556/rtp/239.3.1.174:8001
-
-
-
-💚4K频道&数字,#genre#
-北京纪实科教8K,http://111.31.106.140/downflv.brtvcloud.com/8klive/8kliveok.m3u8
-自然4K,https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-峨眉电影,http://syswareonline.com:7088/udp/239.11.0.11:5140
-欢笑剧场4K,http://www.syl88.online:8123/PLTV/88888888/224/3221225895/10000100000000060000000001580154_0.smil/index.m3u8?fmt=ts2hls&zoneoffset=480&servicetype=2&icpid=shlt&limitflux=-1&limitdur=-1&tenantId=8601&GuardEncType=2&accountinfo=%7E%7EV2.0%7EW3Xq0MWMUhrj9Wm313LoIA%7EO5gHFZXfEEx5kArqrWyLxJImY9Cz0FiG9s_8lX6EBsJruzJR2G4-aEY00UAxuQ6Prwdck4E0flhSWqASa7AbZgdeMh8HiWEFIiD7BDx7HtU%7EExtInfo24S_eFPZ-q3aI4rQpB83xQ%3A20231014195510%2C41022%2C%2C20231014195510%2CUmai%3ACHAN%2F6000048%40BESTV.SMG.SMG%2C41022%2C-1%2C0%2C1%2C%2C%2C7%2C%2C%2C%2C4%2C%2C10000100000000060000000001580154_0%2CEND
-CCTV4K超高清,http://bjuni.iptv.im2k.com:5018/rtp/239.3.1.245:2000
-CCTV4K超高清,http://cqcbn1.live.cbncdn.cn:8090/__cl/cg:live/__c/CCTV4K/__op/default/__f/index.m3u8
-CCTV4K超高清,http://i2.ekesh.cn:4001/rtp/239.12.22.66:10001
-CCTV4K超高清,http://123.113.236.69:8012/rtp/239.3.1.245:2000
-CCTV16奥林匹克4K,http://iptv.skygogo.cn:18889/rtp/239.49.0.109:8000
-BesTV电影4K,http://www.17888.fun:10000/udp/239.45.3.107:5140
-百事通电影4K,http://dns.161015.xyz:33334/rtp/239.45.1.42:5140
-百事通纪实4K,http://dns.161015.xyz:33334/rtp/239.45.1.10:5140
-百事通儿童4K,http://dns.161015.xyz:33334/rtp/239.45.1.1:5140
-求索动物,http://home.isvvv.com:5050/itv/wasusyt/6000000002000010046
-求索纪录,http://home.isvvv.com:5050/itv/wasusyt/6000000002000032052
-求索科学,http://home.isvvv.com:5050/itv/wasusyt/6000000002000032344
-求索生活,http://home.isvvv.com:5050/itv/wasusyt/6000000002000003382
-IHOT爱谍战,http://home.isvvv.com:5050/itv/wasusyt/6000000006000070630
-IHOT爱动漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000280630
-IHOT爱科幻,http://home.isvvv.com:5050/itv/wasusyt/6000000006000020630
-IHOT爱科学,http://home.isvvv.com:5050/itv/wasusyt/6000000006000160630
-IHOT爱浪漫,http://home.isvvv.com:5050/itv/wasusyt/6000000006000040630
-IHOT爱历史,http://home.isvvv.com:5050/itv/wasusyt/6000000006000150630
-IHOT爱旅行,http://home.isvvv.com:5050/itv/wasusyt/6000000006000250630
-IHOT爱奇谈,http://home.isvvv.com:5050/itv/wasusyt/6000000006000270630
-IHOT爱赛车,http://home.isvvv.com:5050/itv/wasusyt/6000000006000240630
-IHOT爱体育,http://home.isvvv.com:5050/itv/wasusyt/6000000006000290630
-IHOT爱玩具,http://home.isvvv.com:5050/itv/wasusyt/6000000006000220630
-IHOT爱喜剧,http://home.isvvv.com:5050/itv/wasusyt/6000000006000010630
-IHOT爱悬疑,http://home.isvvv.com:5050/itv/wasusyt/6000000006000050630
-IHOT爱幼教,http://home.isvvv.com:5050/itv/wasusyt/6000000006000180630
-IHOT爱院线,http://home.isvvv.com:5050/itv/wasusyt/6000000006000030630
 
 
 
