@@ -5,13 +5,6 @@
 
 
 港澳频道,#genre#
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content='pc,mobile' name='applicable-device'>
-    <title>GitCode - 全球开发者的开源社区,开源代码托管平台</title>
-    <meta name="description" content="GitCode是面向全球开发者的开源社区,包括原创博客,开源代码托管,代码协作,项目管理等。与开发者社区互动,提升您的研发效率和质量。"/>
-    <meta name="keywords" content="开源社区,开源代码,GitCode"/>
-    _hmt.push(['_setAutoPageview', false]);
-      s.parentNode.insertBefore(hm, s);
 
 
 央视频道,#genre#
