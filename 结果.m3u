@@ -1,18 +1,4 @@
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/<meta name="viewport" content="width=device-width.png" group-title="港澳频道",<meta name="viewport" content="width=device-width
- initial-scale=1.0">
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/<meta content='pc.png" group-title="港澳频道",<meta content='pc
-mobile' name='applicable-device'>
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/<title>GitCode - 全球开发者的开源社区.png" group-title="港澳频道",<title>GitCode - 全球开发者的开源社区
-开源代码托管平台</title>
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/<meta name="description" content="GitCode是面向全球开发者的开源社区.png" group-title="港澳频道",<meta name="description" content="GitCode是面向全球开发者的开源社区
-包括原创博客,开源代码托管,代码协作,项目管理等。与开发者社区互动,提升您的研发效率和质量。"/>
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/<meta name="keywords" content="开源社区.png" group-title="港澳频道",<meta name="keywords" content="开源社区
-开源代码,GitCode"/>
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/_hmt.push(['_setAutoPageview'.png" group-title="港澳频道",_hmt.push(['_setAutoPageview'
- false]);
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/s.parentNode.insertBefore(hm.png" group-title="港澳频道",s.parentNode.insertBefore(hm
- s);
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/CCTV1.png" group-title="央视频道",CCTV1
 http://14.117.233.31:8688/rtp/239.77.0.119:5146
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/linitfor/epg/main/logo/CCTV1.png" group-title="央视频道",CCTV1
